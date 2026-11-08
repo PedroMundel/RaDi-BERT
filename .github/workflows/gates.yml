@@ -1,0 +1,91 @@
+# Gates que rodam sem dados, sem GPU e sem credencial: lint, testes, links, os ganchos do pre-commit sobre o
+# diff, a regra "sem autoria do Claude" e segredos no histórico. Os invariantes de dados (passo 4) ficam de fora:
+# precisam do e-SNLI, que não é versionado, e aqui só dariam "pulou".
+
+name: gates
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Push novo no mesmo PR cancela a execução anterior; no main, cada push é verificado até o fim.
+concurrency:
+  group: gates-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
+
+permissions:
+  contents: read
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # os passos de diff e de commits comparam com a base
+
+      - uses: astral-sh/setup-uv@v6
+        with:
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Dependências exatamente como no uv.lock
+        run: uv sync --frozen
+
+      - name: Ruff
+        run: uv run ruff check --output-format=github
+
+      - name: Testes
+        run: uv run pytest -q
+
+      - name: Base de comparação
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            echo "BASE=${{ github.event.pull_request.base.sha }}" >> "$GITHUB_ENV"
+          else
+            echo "BASE=${{ github.event.before }}" >> "$GITHUB_ENV"
+          fi
+
+      # Mesma configuração dos ganchos locais, sobre o que mudou. O gitleaks tem job próprio no histórico inteiro.
+      - name: Ganchos do pre-commit no diff
+        env:
+          SKIP: gitleaks
+        run: uv run pre-commit run --from-ref "$BASE" --to-ref HEAD --show-diff-on-failure
+
+      - name: Sem autoria do Claude nos commits
+        run: |
+          for sha in $(git rev-list "$BASE..HEAD"); do
+            git log -1 --format=%B "$sha" > /tmp/msg
+            uv run python scripts/hooks/sem_trailer_claude.py /tmp/msg || { echo "commit $sha"; exit 1; }
+          done
+
+      - name: Sem autoria do Claude no corpo do PR
+        if: github.event_name == 'pull_request'
+        env:
+          CORPO: ${{ github.event.pull_request.body }}
+        run: |
+          printf '%s\n' "$CORPO" > /tmp/corpo
+          uv run python scripts/hooks/sem_trailer_claude.py /tmp/corpo
+
+      # Um gate que não pode reprovar não prova nada: quebra um link de propósito e exige que o teste reprove.
+      - name: Controle positivo - link quebrado tem que reprovar
+        run: |
+          echo '[morto](docs/arquivo-que-nao-existe.md)' >> README.md
+          if uv run pytest -q tests/test_links.py; then
+            echo "CONTROLE MORTO: o teste de links passou com link quebrado"; exit 1
+          fi
+          git checkout -- README.md
+
+  segredos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # o gitleaks varre o histórico inteiro
+
+      # A gitleaks-action exige licença para organização; o binário oficial em contêiner é livre.
+      - name: Gitleaks no histórico
+        run: >
+          docker run --rm -v "$PWD:/repo" -w /repo ghcr.io/gitleaks/gitleaks:v8.24.0
+          detect --source /repo --redact --no-banner --exit-code 1
