@@ -27,3 +27,6 @@ config/maquina.env
 
 # Ambiente local (uv)
 .venv/
+
+# Artefato do build do pacote
+*.egg-info/

@@ -28,6 +28,15 @@ uv sync --frozen
 uv run python -m radibert.eco dev
 ```
 
+Ganchos do git, uma vez por clone (lint, segredos, arquivos grandes, Conventional Commits, sem linha de autoria
+do Claude):
+
+```bash
+uv run pre-commit install --hook-type pre-commit --hook-type commit-msg
+```
+
+Trabalho em branch `tipo/descricao` com PR para `main`; nada de `--no-verify`.
+
 Cada máquina tem `config/maquina.env` (fora do git), copiado de `config/maquina.example.env` com os caminhos do
 `llama-server` e do GGUF. O lote noturno roda com:
 

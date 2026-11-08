@@ -1,0 +1,14 @@
+# Fim de linha LF no repositório, qualquer que seja a máquina (notebook e PC são Windows).
+* text=auto eol=lf
+
+# Binários: nunca converter.
+*.png binary
+*.jpg binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.npy binary
+*.gguf binary
+*.bin binary
+*.pt binary
+*.safetensors binary
