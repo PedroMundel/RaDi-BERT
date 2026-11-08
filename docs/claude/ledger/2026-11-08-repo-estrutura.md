@@ -34,7 +34,7 @@ Caminhos antigos citados aqui de propósito (este arquivo fica fora da reescrita
 | 24 | README explica a instalação dos ganchos | convenção | `grep "pre-commit install" README.md` acha | done | README cita `pre-commit install` |
 | 25 | PR do passo 2 aberto para `main`, sem trailer | proposta (branch + PR) | `gh pr view` mostra o PR; corpo sem atribuição | done | PedroMundel/RaDi-BERT#1 aberto; corpo sem linha de autoria (grep -> 0) |
 | 17 | `tabulate` declarado como dependência | achado: `copia` e `medir` falharam no venv novo (pandas `to_markdown`) | `grep tabulate pyproject.toml requirements.txt` | done | `pyproject.toml:13`, `requirements.txt:61`, versão 0.10.0 do ambiente antigo |
-| 26 | `src/radibert.egg-info/` fora do índice (artefato do build que entrou no passo 1) | achado do passo 2 | `git ls-files src/radibert.egg-info \| wc -l` = 0 | blocked | já no `.gitignore`; tirar do índice é comando do Pedro (hook barra) |
+| 26 | `src/radibert.egg-info/` fora do índice (artefato do build que entrou no passo 1) | achado do passo 2 | `git ls-files src/radibert.egg-info \| wc -l` = 0 | done | Pedro tirou do índice no terminal dele; commit `chore: tira o egg-info do índice`; `git ls-files src/radibert.egg-info` -> 0; pasta segue no disco (5 arquivos) |
 
 ## Expectations
 
