@@ -41,7 +41,9 @@ do Claude):
 uv run pre-commit install --hook-type pre-commit --hook-type commit-msg
 ```
 
-Trabalho em branch `tipo/descricao` com PR para `main`; nada de `--no-verify`.
+Trabalho em branch `tipo/descricao` com PR para `main`; nada de `--no-verify`. Com o Claude Code, o hook
+`.claude/hooks/guardrails.py` barra commit e push no `main`, push forçado, `--no-verify`, desligar os ganchos e
+escrever em `.env` ou na configuração do próprio hook.
 
 Cada máquina tem `config/maquina.env` (fora do git), copiado de `config/maquina.example.env` com os caminhos do
 `llama-server` e do GGUF. O lote noturno roda com:
