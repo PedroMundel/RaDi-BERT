@@ -39,6 +39,10 @@ jobs:
       - name: Testes
         run: uv run pytest -q
 
+      # Só os que leem arquivos versionados; I2 e I5 precisam do e-SNLI e rodam nas máquinas.
+      - name: Invariantes I1 I3 I4
+        run: uv run python -m radibert.invariantes --only I1 I3 I4
+
       - name: Base de comparação
         run: |
           if [ "${{ github.event_name }}" = "pull_request" ]; then

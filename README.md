@@ -28,6 +28,12 @@ uv sync --frozen
 uv run python -m radibert.eco dev
 ```
 
+Invariantes dos resultados (I2 e I5 precisam do e-SNLI; sem ele saem como PULOU):
+
+```bash
+uv run python -m radibert.invariantes
+```
+
 Ganchos do git, uma vez por clone (lint, segredos, arquivos grandes, Conventional Commits, sem linha de autoria
 do Claude):
 
