@@ -298,4 +298,3 @@ que é exatamente a justificativa; §9 já prevê mescla pelo Pedro; §2.3 já v
 - **O2 — FECHADO: sim** — §8. Pergunta original: Acrescentar **frequência por categoria** como saída da tabela (é o insumo do bubble plot, K)?
 - **O3 — FECHADO: .md + planilha** — §8. Pergunta original: Formato do registro: o método diz "arquivo único com tabela" (.md). Petersen usou planilha.
   Manter .md, ou .md + .csv/.xlsx para contar e plotar? (liga a J3, nome do arquivo.)
-

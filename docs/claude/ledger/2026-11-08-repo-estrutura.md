@@ -25,6 +25,14 @@ Caminhos antigos citados aqui de propósito (este arquivo fica fora da reescrita
 | 14 | Commit do passo 1 sem trailer do Claude | msg regra 1 | `git log main --format=%B \| grep -ci claude` = 0 | done | `chore: estrutura inicial do repositório` (emendado com este ledger); grep -> 0 |
 | 15 | Repo remoto novo criado e `main` enviado | msg | `gh repo view` privado e `git status -sb` sincronizado | done | OK do Pedro (08/11); `gh repo view` -> PRIVATE, branch `main`; 705 arquivos no remoto; só `main` enviado (`git ls-remote --heads`); 0 trailer nos commits remotos |
 | 16 | 33 arquivos ignorados fora do índice (27 raw, 1 emb, amostra, 4 de `run/`) | achado: `git add -A` rodou antes do `.gitignore` novo | `git ls-files -ci --exclude-standard \| wc -l` = 0 | done | Pedro tirou do índice no terminal dele (08/11); `git ls-files -ci --exclude-standard \| wc -l` -> 0; arquivos seguem no disco |
+| 18 | [P] Gancho `commit-msg` recusa trailer de autoria do Claude e aceita menção ao Claude no texto | msg regra 1 + passo 2 | `uv run pytest tests/test_sem_trailer_claude.py` vermelho antes do script, verde depois | todo | |
+| 19 | `.pre-commit-config.yaml` com hooks genéricos, ruff, gitleaks, Conventional Commits e o gancho do item 18 | passo 2 (padrão ABIGS) | `uv run pre-commit run --all-files` passa | todo | |
+| 20 | Ganchos instalados no clone (pre-commit e commit-msg) | passo 2 | `.git/hooks/pre-commit` e `.git/hooks/commit-msg` existem | todo | |
+| 21 | Commit com trailer do Claude é barrado de verdade | passo 2 (controle positivo) | `git commit` com trailer termina com erro do gancho; sem trailer passa | todo | |
+| 22 | `.gitattributes` com LF e binários marcados | passo 2 (padrão ULTIMATUM) | `git add --renormalize .` não muda conteúdo versionado, ou a mudança é declarada | todo | |
+| 23 | Template de PR com checklist (sem co-autoria, pre-commit verde, sem `--no-verify`) | passo 2 | `.github/pull_request_template.md` existe | todo | |
+| 24 | README explica a instalação dos ganchos | convenção | `grep "pre-commit install" README.md` acha | todo | |
+| 25 | PR do passo 2 aberto para `main`, sem trailer | proposta (branch + PR) | `gh pr view` mostra o PR; corpo sem atribuição | todo | |
 | 17 | `tabulate` declarado como dependência | achado: `copia` e `medir` falharam no venv novo (pandas `to_markdown`) | `grep tabulate pyproject.toml requirements.txt` | done | `pyproject.toml:13`, `requirements.txt:61`, versão 0.10.0 do ambiente antigo |
 
 ## Expectations

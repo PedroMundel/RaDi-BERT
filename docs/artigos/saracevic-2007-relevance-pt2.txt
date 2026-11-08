@@ -15,7 +15,7 @@ considered here as being Part I. The present review is or-
 ganized into two parts: Part II addresses the questions
 related to nature and manifestations of relevance, and
 Part III addresses questions related to relevance behav-
-ior and effects. In Part II, the nature of relevance is 
+ior and effects. In Part II, the nature of relevance is
 discussed in terms of meaning ascribed to relevance,
 theories used or proposed, and models that have been
 developed. The manifestations of relevance are classi-
@@ -23,9 +23,9 @@ developed. The manifestations of relevance are classi-
 dependent system of relevances. In Part III, relevance
 behavior and effects are synthesized using experimental
 and observational works that incorporate data. In both
-parts, each section concludes with a summary that in 
+parts, each section concludes with a summary that in
 effect provides an interpretation and synthesis of con-
-temporary thinking on the topic treated or suggests 
+temporary thinking on the topic treated or suggests
 hypotheses for future research. Analyses of some of the
 major trends that shape relevance work are offered in
 conclusions.
@@ -40,7 +40,7 @@ related review published 30 years later—but things hap-
 pen. The intent of the 1975 work was “to explore the mean-
 ing of relevance as it has evolved in information science
 and to provide a framework within which various interpre-
-tations of relevance can be related” (Saracevic, 1975, 
+tations of relevance can be related” (Saracevic, 1975,
 p. 321).
 Building on the examination of relevance in the preced-
 ing (1975) review, this work  (2007) updates the travails of
@@ -66,10 +66,10 @@ many things in society—from education to health care,
 from earning a living to leisure, from physics to classics,
 JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE AND TECHNOLOGY, 58(13):1915–1933, 2007
 Relevance: A Review of the Literature and a Framework
-for Thinking on the Notion in Information Science. 
+for Thinking on the Notion in Information Science.
 Part II: Nature and Manifestations of Relevance*
 Tefko Saracevic
-School of Communication, Information and Library Studies, Rutgers University, New Brunswick, NJ 08901. 
+School of Communication, Information and Library Studies, Rutgers University, New Brunswick, NJ 08901.
 E-mail: tefko@scils.rutgers.edu
 Received April 1, 2006; revised November 18, 2006; accepted November
 19, 2006
@@ -92,14 +92,14 @@ particular as well; for these systems are designed primarily
 to respond with information that is potentially relevant to
 people.
 Information technology is not elusive; relevance is. In-
-formation technology is tangible; relevance is intangible. 
+formation technology is tangible; relevance is intangible.
 Information technology is relatively well understood for-
 mally; relevance is understood intuitively. Information
 technology has to be learned; relevance is tacit. Informa-
 tion technology has to be explained to people; relevance
-does not. 
+does not.
 In his 1776 book, An Inquiry into the Nature and Causes of
-the Wealth of Nations, Adam Smith, regarded as the “Father 
+the Wealth of Nations, Adam Smith, regarded as the “Father
 of Economics,” set out the mechanism by which he believed
 economic society operated; among others, he explained mar-
 ket decisions as often being governed by an “invisible hand.”
@@ -113,7 +113,7 @@ their information activities. Conversely, many types of infor-
 mation systems, IR systems being a major example, are pri-
 marily designed to provide potentially relevant information or
 information objects to people. In this lies the signiﬁcance of
-relevance. 
+relevance.
 Positioning people and IT together in this discussion is
 deliberate to point out basic premises, distinctions, prob-
 lems, and conﬂicts. Information retrieval systems, through
@@ -141,15 +141,15 @@ formal understanding of it. Lexical deﬁnitions are very
 important, but do not suffice; besides, we are not really able
 to resolve issues of relevance through deﬁnition alone
 (Froelich, 1994). In science, phenomena are studied as to
-their nature, manifestations, behavior, and effects. Thus, 
-as in all other scientiﬁc and scholarly endeavors, when 
+their nature, manifestations, behavior, and effects. Thus,
+as in all other scientiﬁc and scholarly endeavors, when
 faced with a basic phenomenon or notion, scholarly inquiry
 does not ask the na¨ive question, “What is relevance?” Instead,
 the basic question was and still is, “What is the nature of
 relevance?”
-Following are more precise questions: 
+Following are more precise questions:
 •
-What are the manifestations of relevance? 
+What are the manifestations of relevance?
 •
 What is the behavior of relevance? Or more precisely: How
 do people behave in respect to relevance?
@@ -161,7 +161,7 @@ parts, follows this reasoning. Part II starts with an Introduc-
 tion and a Historical Footnote. Next, the nature of relevance
 is elaborated on in sections on meaning, theories, and mod-
 els of relevance. Part II concludes with a section about
-various manifestations of relevance. Part III (this issue, 
+various manifestations of relevance. Part III (this issue,
 pp. 2126–2144) deals with experimental and observational
 ﬁndings on human relevance behavior and effects of rele-
 vance. Part II is oriented toward scholarship that addressed
@@ -187,7 +187,7 @@ led to development of more effective and successful tech-
 nologies and systems. A fruitful, though sometimes convo-
 luted and arduous, translation was realized. Hopefully, a
 better understanding of relevance may lead to better infor-
-mation systems. This clearly illustrates the signiﬁcance 
+mation systems. This clearly illustrates the signiﬁcance
 of relevance research. Considering and understanding rele-
 vance as a notion is still relevant, if not even more so, to
 building and operating information systems—now ever
@@ -210,7 +210,7 @@ information and its speciﬁcation for search, and also what-
 ever systems, technique, or machines that are employed to
 carry out the operation” (Mooers, 1951, p. 25). Over the next
 half century, IR evolved and expanded, but basically, it con-
-tinues to concentrate on the topics Mooers described.  
+tinues to concentrate on the topics Mooers described.
 The key difference between IR and related methods and
 systems that long preceded it, such as those developed in
 librarianship for bibliographic description and classiﬁca-
@@ -227,15 +227,15 @@ those records” (IFLA, 1998, §2.1). Such user needs are de-
 ﬁned in relation
 to the following generic tasks that are performed by users
 when searching and making use of national bibliographies
-and library catalogues: 
+and library catalogues:
 •
 using the data to ﬁnd materials that correspond to the user’s
-stated search criteria 
+stated search criteria
 •
-using the data retrieved to identify an entity 
+using the data retrieved to identify an entity
 •
 using the data to select an entity that is appropriate to the
-user’s needs 
+user’s needs
 •
 using the data in order to acquire or obtain access to the en-
 tity described (emphasis in the original; IFLA, 1998, §2.2).
@@ -247,7 +247,7 @@ should be performed was not. Data in bibliographic records
 were then organized to fulﬁll the speciﬁed criteria. In IR, the
 user’s needs are assumed as well, but the search process is
 speciﬁed in algorithmic details and data is organized to en-
-able the search. 
+able the search.
 The fundamental notion used in bibliographic description
 and in all types of classiﬁcations or categorizations, includ-
 ing those used in contemporary ontologies, is aboutness.
@@ -268,13 +268,13 @@ thus, it produced a considerable literature about aboutness
 and little or none about relevance. Conversely, information
 science was concerned about relevance and thus, it produced
 a considerable literature about relevance and little or none
-about aboutness. 
+about aboutness.
 In a sense, aboutness may be considered as topical rele-
 vance, which is one manifestation of relevance discussed
 later. However, topical relevance in IR is construed through
 indexing (or some other form of representation) to be direct-
 ly searchable in speciﬁed ways—and, as pointed out, search-
-ing is about relevance. 
+ing is about relevance.
 By choosing relevance as a basic, underlying notion of
 IR, related information systems, services and activities—
 and with it, the whole ﬁeld of information science—went in
@@ -328,7 +328,7 @@ what the system retrieved or constructed as relevant (sys-
 tems relevance), and what a user or user surrogate assessed
 or derived as relevant (user relevance). Relevance became
 and remained the underlying criterion for measuring the
-effectiveness of IR. 
+effectiveness of IR.
 There were, still are, and always will be many problems
 with relevance. This is not surprising. Relevance is a
 human—not a systems—notion and human notions are com-
@@ -338,11 +338,11 @@ ence. Exposition of many views and a number of experi-
 ments followed. Those before 1975 were synthesized in Part
 I, those since are in this review. However, a few of the pre-
 1975 works are included in this review as well to provide a
-historical context where appropriate. 
+historical context where appropriate.
 Meaning of Relevance: How Relevance Is
 Universally Well Understood, How It Is
 Understood in Information Science and,
-Nevertheless, How Problems With Relevance 
+Nevertheless, How Problems With Relevance
 Are in Its Understandings
 Intuitive Understanding
 I already stressed this in Part I: Relevance does not have
@@ -392,7 +392,7 @@ icality, utility) provide a base and context for establishing a
 relation, i.e., relation between Ps and Qs is considered as to
 relevance along properties R. These properties may be ex-
 plicit or implicit, well-formulated or visceral, rational or not
-entirely so—on a continuum. 
+entirely so—on a continuum.
 Relevance is also considered as a measure of related-
 ness. If we consider communication, then our intuitive un-
 derstanding is that relevance has also something to do
@@ -402,10 +402,10 @@ ascertained as to some measure S (or a number of Ss),
 where S may be expressed along different magnitudes,
 such as strength, degree, or some other quantity or quality.
 Measures S may be explicit or implicit, well formulated or
-visceral, rational or not entirely—on a continuum. 
+visceral, rational or not entirely—on a continuum.
 Thus, relevance is considered as a property along which
 parts are related and may also be considered as a measure of
-the strength of the related connection. 
+the strength of the related connection.
 Understanding in Information Science
 Understanding of relevance in information science
 evolved over time and was adapted to speciﬁc circum-
@@ -421,7 +421,7 @@ addition, we also measure the intensity of the relation on
 some scale (degree of relevance, or utility, or pertinence; the
 Ss). Thus, in information science, relevance is a relation and
 a measure. If Ps are considered as external and Qs as internal
-then relevance reﬂects a relation between external and 
+then relevance reﬂects a relation between external and
 internal objects along internal and external contexts, includ-
 ing measure(s) that reﬂect(s) strength or effectiveness of
 1918
@@ -442,11 +442,11 @@ termined by an E,” where Amay be “measure, degree, estimate
 . . .;” B may be “correspondence, utility, ﬁt, . . .;” C may be
 “document, information provided, fact . . .;” D may be “query,
 request, information requirement . . .;” and E may be “user,
-judge, information specialist.” (Saracevic, 1975, p. 328) 
+judge, information specialist.” (Saracevic, 1975, p. 328)
 Almost every deﬁnition offered still ﬁts this pattern. In
 Part I, relevance was also considered as a measure of the ef-
 fectiveness of contact in a communication process (Sarace-
-vic, 1975, p. 325). 
+vic, 1975, p. 325).
 The Big Question and Challenge
 We also understand that relevance is not given, it is es-
 tablished. This leads to the next question and the big chal-
@@ -502,7 +502,7 @@ related to the cognitive state of an individual (“psychologi-
 cal relevance”) that is very different than topical relevance
 as considered by a system. “Topical relevance concerns
 itself only with a restricted form of language. The user is
-ignored” (p. 613). 
+ignored” (p. 613).
 Asimilar argument about nonmatching topicality was pro-
 vided by Green (1995). Green and Bean (1995) present
 extensive examples of derived relevance using the topics of a
@@ -513,7 +513,7 @@ summarize a decade-long effort in which they took several
 areas of medicine and showed casual connections between
 previously unrelated phenomena to derive relevance rela-
 tions where none existed before; these relations were derived
-from literature and later conﬁrmed in clinical testing. 
+from literature and later conﬁrmed in clinical testing.
 The situation is actually more complex than presented.
 Yes, people may and do derive relevance from ideas and clues
 in articles that no system could readily recognize, at least as
@@ -557,7 +557,7 @@ tion. The selection is geared toward maximization of results,
 minimization of effort in using the results, or both. Second,
 the selection process involves a series of interactions of var-
 ious kinds. Thus, an understanding of relevance also recog-
-nizes that a selection and interaction process is involved. 
+nizes that a selection and interaction process is involved.
 Summary: Attributes of Relevance in Information Science
 We consider relevance as having a number of dimensions
 or attributes:
@@ -618,8 +618,8 @@ wrought with controversy. In the same category belongs the
 question: How much relevance is enough? Still, we under-
 stand relevance better than we did 30 years ago.
 Theories of Relevance: What Theoretical
-Constructs Were Borrowed from Elsewhere 
-and How We Still Don’t Have an Applicable 
+Constructs Were Borrowed from Elsewhere
+and How We Still Don’t Have an Applicable
 Theory of Relevance
 After all, relevance is a universal human notion and thus
 of scholarly interest in ﬁelds other than information science.
@@ -634,7 +634,7 @@ munication, formulated in the 1980s and 1990s, had some
 impact on thinking about relevance in information science,
 thus it is reviewed here in some detail as theory-on-loan, that
 is as a theory that is used and interpreted within the context
-of information science. 
+of information science.
 Relevance in Logic
 For some 2,000 years, logicians have been struggling
 with the notion of relevance, particularly in deduction of
@@ -655,7 +655,7 @@ Rijsbergen, 1986, Nie, Brisebois, & Lepage, 1995 and others
 as summarized by Lalmas, 1998, and Sebastiani, 1998), but
 they are outside the scope of this review because they con-
 centrate on the possible application of logic in IR systems.
-However, all are based on the underlying notion that there is 
+However, all are based on the underlying notion that there is
 a connection between relevance and logical consequences.
 1920
 JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE AND TECHNOLOGY—November 2007
@@ -684,7 +684,7 @@ logic formalities, as applied in cited works, may be highly re-
 strictive in any pragmatic sense. The notion of belief has not
 yet penetrated relevance theorizing in information science,
 even though on the face of it the idea may be of interest. Be-
-liefs are a murky concept, but they may affect relevance. 
+liefs are a murky concept, but they may affect relevance.
 Relevance in Philosophy
 A number of philosophers, particularly in the area of phe-
 nomenology, were interested in relevance. Of particular inter-
@@ -712,7 +712,7 @@ of times as an appropriate framework in information science;
 his viewpoint is very much reﬂected in works on manifesta-
 tions of relevance. The two following philosophical perspec-
 tives, which emanated from information science, are very
-different than Schutz’s. 
+different than Schutz’s.
 In the ﬁrst, Hjørland (2002) suggests an epistemological
 perspective for considering relevance and other fundamental
 concepts at play in IR, such as interpretation of texts and in-
@@ -740,7 +740,7 @@ as possible explanations. Although Budd’s review does not
 offer a theoretical synthesis, but only a selective enumera-
 tion, it provides a juxtaposition of a wide range of different
 views and concepts related to relevance, involving philoso-
-phy as well. 
+phy as well.
 Relevance is also philosophical. The works reviewed,
 however, were not much more than proposals for what to do
 rather than philosophical treatises on relevance in informa-
@@ -776,15 +776,15 @@ DOI: 10.1002/asi
 
 has an overarching goal of explaining what must be relevant
 and why to an individual with a single cognitive intention of
-a conceptual nature. it is based on an inferential model 
-of communication that views communicaion in terms of 
+a conceptual nature. it is based on an inferential model
+of communication that views communicaion in terms of
 intentions, as opposed to the more traditional source-
 message–destination model (also called the classical code
 model–or in computing the Shannon-Weaver model–since
 messages are coded and decoded). The inferential model con-
 siders that the critical feature of most human communication—
 verbal or nonverbal—is an expression and recognition of
-intentions. 
+intentions.
 Relevance Theory was originally associated with every-
 day speech or verbal communication, but later was extended
 to cover wider cognitive processes. Authors consider it a
@@ -803,15 +803,15 @@ tention, and hence to imply that the information communi-
 cated is relevant. They ﬁrmly anchor relevance in a given
 context and talk about contextual effects—relevance is con-
 textual. They also consider relevance assessment as compar-
-ative, not quantitative—relevance is comparative. 
+ative, not quantitative—relevance is comparative.
 At the center of their theory they postulate two principles,
-claiming to reﬂect universal tendencies: 
+claiming to reﬂect universal tendencies:
 •
 Cognitive Principle of Relevance—the claim that human
-cognition tends to be geared to maximization of relevance 
+cognition tends to be geared to maximization of relevance
 •
 Communicative Principle of Relevance—the claim that every
-ostensive stimulus conveys a presumption of its own relevance 
+ostensive stimulus conveys a presumption of its own relevance
 In other words, human cognition is relevance-oriented,
 and so is human communication. The two principles lead to
 the speciﬁcation of how relevance may be assessed in terms
@@ -819,7 +819,7 @@ of two components: cognitive effects and processing effort:
 Relevance to an individual:
 1. Other things being equal, the greater the positive cogni-
 tive effects achieved by processing an input, the greater
-the relevance of input to the individual at that time. 
+the relevance of input to the individual at that time.
 2. Other things being equal, the greater the processing effort
 expended, the lower the relevance of the input to the in-
 dividual at that time.” (W&S, 2004, §2(1))
@@ -893,7 +893,7 @@ what causes cognitive changes in a given context. This will
 be further discussed in the section on Manifestations of Rel-
 evance below because the essence of Harter’s proposal is to
 consider a given type or manifestation of relevance as the
-primary or even exclusive property. 
+primary or even exclusive property.
 Harter deduced a number of excellent insights into rele-
 vance behavior. The strength of Harter’s notion of psycho-
 logical relevance is that he has attempted to base the concept
@@ -958,19 +958,19 @@ borrowed for use, they were merely described, interpreted,
 and declared appropriate. They were not tested. However
 (and to their credit), they were conceptual and terminologi-
 cal borrowings used for extending our collective insight
-about relevance. They made us think. 
+about relevance. They made us think.
 We are still in search of a theory of relevance applicable
 to the context of information science and particularly IR. In
 other words, we are still in search of a conceptual basis, a set of
-testable principles and propositions, to explain the notion 
+testable principles and propositions, to explain the notion
 of relevance applicable to information science practice, to
 explain its manifestation, and to predict its behavior and
-effects. Of course, practice can be successfully pursued 
+effects. Of course, practice can be successfully pursued
 in absence of a theory. The history of technology has a
 great many examples, IR being just one of them. But, a great
 many substantial advances have been achieved based on a
 theory; the history of modern technology has even more such
-examples. 
+examples.
 A number of authors have suggested outlines of an applic-
 able theory of relevance. For instance, Park (1994), echoing
 Harter, suggested a possible framework for “a theory of user-
@@ -991,14 +991,14 @@ ing relevance, including its dynamic nature, are also well
 recognized.
 When it comes to relevance theory (or theories) a question
 should be raised: Is a grand theory of relevance presently
-possible to start with? And then: Should it be pursued? Is 
+possible to start with? And then: Should it be pursued? Is
 a relevance theory that explains everything equivalent to a
 quest for the Holy Grail? It may be because of the abundance
 of variables involved. Relevance may be just way too com-
 plex and complicated to sort out theoretically all at once.
 Instead of a generic, grand theory we could concentrate on a
 smaller scale substantive theory (or theories) that involve
-a limited number of key factors or aspects of relevance. 
+a limited number of key factors or aspects of relevance.
 JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE AND TECHNOLOGY—November 2007
 1923
 DOI: 10.1002/asi
@@ -1018,13 +1018,13 @@ and predict; models enumerate. Theories are about why and
 how; models are about what is involved or occurring. Theories
 guide; models provide structure—so, on to models.
 Models of Relevance: How Relevance Was
-Reviewed and Reviewed, and How a Few 
+Reviewed and Reviewed, and How a Few
 Models Came out of Reviews
 For whatever reason, relevance is an eminently suitable
 subject for review. Interestingly, there was a 15-year gap in
 relevance reviews between mine (Saracevic, 1975) and
 those that began appearing on an almost regular basis after
-1990. 
+1990.
 In addition to reviewing the progress in relevance research
 or challenging a prevalent paradigm or line of thought, these
 reviews also provided a synthesis on the basis of which rele-
@@ -1048,7 +1048,7 @@ Linda Schamber) reviewed later in this work. The “Syracuse
 Relevance School” also produced a notable and widely cited
 review that had an extensive impact and changed the view
 of what is important in relevance. When well done, critical
-reviews can do that. 
+reviews can do that.
 Schamber, Eisenberg, and Nilan (1990) reexamined
 thinking about relevance in information science, addressed
 the role of relevance in human information behavior and in
@@ -1063,7 +1063,7 @@ ties of relevance had been discussed in previous decades and
 demonstrated in experiments as readily acknowledged by
 the authors, but it was their insistence on the primacy of the
 dynamic and situational nature of relevance— all is ﬂux—
-that struck a chord. 
+that struck a chord.
 They went further and proposed a rich research agenda for
 the investigation of users and relevance. Research questions
 were asked about criteria that users employ in assessing rele-
@@ -1071,7 +1071,7 @@ vance and consistency of their application, the characteristics
 of documents that are included in these criteria, indicators or
 clues in documents reﬂecting these characteristics, recogni-
 tion of document-based clues by users, and recognition of
-document-based clues by systems. 
+document-based clues by systems.
 The strength of the review was that it suggested a model
 of relevance in terms of the dynamics of human information
 behavior and situations in which this behavior occurs. More-
@@ -1079,7 +1079,7 @@ over, it directed attention to a connection between aspects of
 documents—documentary relevance clues—and human
 relevance assessment. It modeled document clues as to rel-
 evance. As a result, a clues-oriented research developed, as
-synthesized in the section Behavior of Relevance. 
+synthesized in the section Behavior of Relevance.
 The weakness was twofold. First, stating by itself that rel-
 evance is dynamic and situation-dependent is not much
 more than a truism recognized in one way or another since
@@ -1101,7 +1101,7 @@ ing with one or more of seven different aspects: methodolog-
 ical foundations, different kinds of relevance, beyond-topical
 criteria adopted by users, modes for expression of the rele-
 vance judgment, dynamic nature of relevance, types of docu-
-ment representation, and agreement among different judges.  
+ment representation, and agreement among different judges.
 In effect, the seven aspects provide a convenient model
 along which works, conceptualizations, and ﬁndings about
 relevance may be categorized and compared.
@@ -1125,7 +1125,7 @@ tion into the model. The user viewpoint does not have a
 proposed (e.g. Ingwersen, 1996).
 Although there were rumblings long before, the frontal
 attack championing the user side came in a critical review by
-Dervin and Nilan (1986). While reviewing alternative 
+Dervin and Nilan (1986). While reviewing alternative
 approaches to the assessment of information needs, they
 issued a call for a signiﬁcant paradigm shift in information
 needs and uses research from systems orientation to user ori-
@@ -1138,7 +1138,7 @@ human information behavior (which include information
 seeking and user studies) can investigate aspects that do not
 involve relevance. However, when considering any aspect of
 retrieval, relevance is present either explicitly or as an invis-
-ible hand. 
+ible hand.
 Relevance-oriented user studies became a burgeoning
 area of research with the following justiﬁcation: “By looking
 at all kinds of criteria users employ in evaluating informa-
@@ -1160,7 +1160,7 @@ what to do and we will do it.” But the user side was not
 is not that simple. The mentioned lack of theory is also a
 contributing factor. Relevance is a feature of human intelli-
 gence. Human intelligence is as elusive to “algorithmize”
-for IR as it was for AI. 
+for IR as it was for AI.
 As it turns out, both sides in the battle are wrong. Dervin
 and Nilan and followers were wrong in insisting on the pri-
 macy or exclusivity of the user approach. Systems people
@@ -1242,7 +1242,7 @@ ing and IR in context. They outlined the goal of their effort:
 “It is time to look back and to look forward to develop a new
 integrated view of information seeking and retrieval: the
 ﬁeld should turn off its separate narrow paths of research and
-construct a new avenue” (p. vii). 
+construct a new avenue” (p. vii).
 This they did, with relevance playing a major and explic-
 it role. They reviewed any and all models used in IR and in
 information seeking research, and produced an extensive
@@ -1258,7 +1258,7 @@ tion space holding objects of potential information value to
 5) socio-organizational context” (p. 306).
 The model is also an integrated relevance model. In addi-
 tion, they deﬁned several manifestations or kinds of relevance
-as discussed in the next section. 
+as discussed in the next section.
 In a similar vein, Ruthven (2005) reviews various ap-
 proaches to relevance, from systems to situational to cogni-
 tive, and advocates an approach that integrates IR and
@@ -1277,7 +1277,7 @@ Ruthven rightly concludes: “How we use relevance in the
 design of IR systems—what evidence of relevance we see as
 important, how we believe this evidence should be handled,
 what inference we draw from this evidence—deﬁne what we
-see as the task of retrieval systems” (p. 77). 
+see as the task of retrieval systems” (p. 77).
 Stratiﬁed Model
 Relevance is a tangled affair involving interaction be-
 tween and among a host of factors and variables. In philoso-
@@ -1292,7 +1292,7 @@ suggested in a number of ﬁelds from linguistics to medicine
 to meteorology to statistics and more. Stratiﬁed means that
 the object modeled is considered in terms of a set of interde-
 pendent, interacting layers; it is decomposed and composed
-back in terms of layers or strata. 
+back in terms of layers or strata.
 In 1996, after reviewing and reconsidering various rele-
 vance models, I proposed a stratiﬁed model for relevance. It
 is another integrative model. I further extended the stratiﬁed
@@ -1306,12 +1306,12 @@ Relevance is placed within a framework of IR interaction. In
 the stratiﬁed model, IR interactions are depicted as involv-
 ing a number of layers or strata; inferences about relevance
 are created or derived in interaction and interplay among
-these strata. 
-The stratiﬁed model starts with assumptions that 
+these strata.
+The stratiﬁed model starts with assumptions that
 1. Users interact with IR systems to use information.
 2. The use of information is connected with cognition and
 then situational application and context, that is, it is con-
-nected with relevance (Saracevic & Kantor, 1997). 
+nected with relevance (Saracevic & Kantor, 1997).
 These assumptions also follow from relevance attributes
 as summarized in the section Meaning of Relevance. The
 major elements in the stratiﬁed model are user and comput-
@@ -1376,7 +1376,7 @@ Each strata/level involves different elements and/or specif-
 ic processes. On the human side, processes may be physiolog-
 ical, psychological, affective, and cognitive. On the computer
 side, they may be physical and symbolic. The interface
-provides for an interaction on the surface level in which: 
+provides for an interaction on the surface level in which:
 1. Users carry out a dialogue by making utterances (e.g.,
 commands) and receiving responses (computer utter-
 ances) through an interface with a computer to not only
@@ -1394,7 +1394,7 @@ various types of feedback; making judgments; and so on.
 responses in this dialogue; they also may provide elicita-
 tions or requests for responses from the user in turn.
 Situational
-tasks; work context ... 
+tasks; work context ...
 Adaptation
 Engineering
 hardware; connections ...
@@ -1426,8 +1426,8 @@ more complex models and manifestations of relevance have
 been identiﬁed, together with suggestions to be incorporated
 in IR, the challenge to translate them into IR research and
 practice has increased a lot. A LOT!
-Manifestations of Relevance: How Relevance 
-is Not One Thing But Many and How They 
+Manifestations of Relevance: How Relevance
+is Not One Thing But Many and How They
 Are Interpreted
 “How Many Relevances in Information Retrieval?” is
 the title of an article by Mizzaro (1998). Indeed, how many?
@@ -1447,7 +1447,7 @@ ber of problems with relevance, a cottage industry has
 developed in identifying and naming different kinds or
 manifestations of relevance, or presenting arguments about
 various manifestations. Manifestations of relevance also
-became argumentative. 
+became argumentative.
 As noted, relevance, among other things, indicates a rela-
 tion. Efforts to specify manifestations of relevance have con-
 centrated on identifying what given objects are related by a
@@ -1521,7 +1521,7 @@ Proposing more complex models was an advance in rele-
 vance scholarship. However, suggesting models and apply-
 ing them are two different things. Time will tell if the
 integrative models and approaches to IR will be successful in
-furthering research and practice. 
+furthering research and practice.
 Research and practice in AI is presently in a winter period.
 Research and practice in IR is not; it is ﬂourishing. Why?
 Here is a possible explanation. Artiﬁcial intelligence chose
@@ -1529,7 +1529,7 @@ human intelligence as its basic notion. Information retrieval
 chose relevance. Relevance is part of intelligence but intelli-
 gence as a whole is immensely more complex and harder to
 deal with. As yet, “intelligent agent” is an oxymoron. “Rele-
-vant information” is not. However, IR systems chose to 
+vant information” is not. However, IR systems chose to
 deal with a (if not even “the”) most simpliﬁed model and
 
 JOURNAL OF THE AMERICAN SOCIETY FOR INFORMATION SCIENCE AND TECHNOLOGY—November 2007
@@ -1542,7 +1542,7 @@ nal; 1959a, p. 863). In another article about terminology and
 retrieval, he discussed what is meant by “relevant to a par-
 ticular sought subject” (1959b, p. 1227). He identiﬁed a du-
 ality of relevance manifestations and he treated each
-separately. 
+separately.
 User relevance on the one hand and subject (topic, system)
 relevance on the other.
 These represent the basic relevance
@@ -1574,13 +1574,13 @@ ates. It can only be made less confusing.
 In a different way, the tension within the relevance duali-
 ty was expressed as “objective versus subjective relevance”
 (Swanson, 1986, p. 389). As to the two types of relevance,
-Swanson equates them to Popper’s “Worlds” and opines:  
+Swanson equates them to Popper’s “Worlds” and opines:
 Whatever the requester says is relevant is taken to be rele-
 vant; the requester is the ﬁnal arbiter . . . Relevance so deﬁned
 is subjective; it is a mental experience.”   “Apossibility exists
 that such a request is logically related to some document. . . .
 That relationship is then the basis that the document is objec-
-tively related to the request.” (pp. 391, 392) 
+tively related to the request.” (pp. 391, 392)
 Swanson’s argument about objective relevance is based
 on logical relations between requests and documents, and a
 possible degree of conﬁrmation. Pessimistically, Swanson
@@ -1597,10 +1597,10 @@ pects of “subjective relevance” into information objects and
 retrieval algorithms.
 In a similar vein, Ingwersen and Järvelin (2005) consid-
 ered algorithmic relevance as an “objective assessment
-made by a retrieval algorithm,” and topical relevance, 
+made by a retrieval algorithm,” and topical relevance,
 pertinence, situational relevance, and sociocognitive rele-
 vance as being “of higher order due to their subjectivity”
-(pp. 381, 385). 
+(pp. 381, 385).
 Although it is hard to think about anything in relevance as
 fully objective, considering relevance in these terms follows
 ideas of Karl Popper (1972; thought of as the greatest
@@ -1616,7 +1616,7 @@ the products of the human mind). World Three, he argued,
 was the product of individual human beings. The inﬂuence
 of World Three, in his view, on the individual human mind
 (World Two) is at least as strong as the inﬂuence of World
-One. 
+One.
 At its base, relevance is dual, perhaps a product of inter-
 action between different Worlds, but from that dualism
 grows a pluralistic system of relevancies.
@@ -1631,7 +1631,7 @@ duced “situational relevance.” Harter (1992) championed
 nial topic of discussion. “Pertinence” and “utility” were used
 by a number of authors. And we also have “system rele-
 vance,” “documentary relevance” and so on, as discussed
-below. 
+below.
 In the previously cited article, Mizarro (1998) tried to
 create order and clarify the issue of relevance manifestations
 by suggesting a classiﬁcation that accommodates all of
@@ -1657,7 +1657,7 @@ deﬁnitions of what they contain, then Mizzaro is right: Vari-
 ous manifestations can indeed be consigned to various di-
 mensions. But is it a space? Hardly, for the expression of
 some logical placements of and distances between different
-manifestations cannot be derived. 
+manifestations cannot be derived.
 Starting from the cognitive viewpoint and the idea that
 relevance judgments evolve during the process of IR inter-
 action, Borlund (2003) developed a framework for viewing
@@ -1686,7 +1686,7 @@ User relevances follow from user con-
 text. And user context was a main consideration in a number
 of relevance models already discussed. But what does that
 mean? What manifestations are involved? One way is to
-classify them is as internal and external. 
+classify them is as internal and external.
 Internally, the most prominent variable in which rele-
 vance plays a role is in changes in the cognitive state. This
 prompted Harter (1992) to introduce psychological rele-
@@ -1718,7 +1718,7 @@ uational relevance—a relation between information or infor-
 mation objects and situation, task, or problem at hand facing
 the user. However, “external” really is not wholly external—
 it also involves user interpretation of that externality. Cosijn
-and Ingwersen, (2000, p. 547) made a further distinction: 
+and Ingwersen, (2000, p. 547) made a further distinction:
 In addition to situational relevance, they introduced socio-
 cognitive relevance, a relation between information or infor-
 mation objects and situation, task or problem at hand as
@@ -1733,7 +1733,7 @@ ation. Topical relevance may be inferred from the output of
 an IR system, or completely independent of any system—
 from any set of information objects, e.g., from the pile of
 documents in my office that I gathered there over the years.
-Topical relevance may or may not involve an IR system. 
+Topical relevance may or may not involve an IR system.
 Documentary relevance also denotes topical relevance,
 but is restricted to documents as texts, rather than a whole
 class of information objects that include not only texts, but
@@ -1751,7 +1751,7 @@ sense system relevance is always perfect; the system re-
 trieved that which the query asked for. Not so. The whole
 point of the evaluation of different algorithms is that they
 produce different outputs for the same query and from the
-same set of documents in the system. 
+same set of documents in the system.
 Issue of primacy—weak and strong relevance.
 Does topi-
 cal relevance underlie all others? Do all other manifesta-
@@ -1819,14 +1819,14 @@ weak relevance. This does not mean that the task is simple;
 for words, arranged in language, are by no means a simple
 proposition to handle. They are a human creation—complex
 and complicated. It is very hard to deal even with the sim-
-plest, weakest kind of relevance. 
+plest, weakest kind of relevance.
 Summary
 Relevance is like a tree of knowledge. The basic structure
 of the system of relevances in information science is a dual-
 ity. The tree of relevance has two main branches, system and
 human, each with a number of twigs, but it is still the same
 tree. The roots of the branches and the fruits—results—are a
-matter for exploration. 
+matter for exploration.
 Here is a summary of the manifestations of relevance in
 information science, mainly following Cosijn and Ingwersen
 (2000), Borlund (2003), and my earlier work (Saracevic,
@@ -1904,7 +1904,7 @@ Cosijn, E., & Ingwersen, P. (2000). Dimensions of relevance. Information
 Processing and Management, 36(4), 533–550.
 Dervin, B., & Nilan, M.S. (1986). Information needs and uses: A conceptual
 and methodological review. Annual Review of Information Science and
-Technology, 21, 3–33. 
+Technology, 21, 3–33.
 Froelich, T.J. (1994). Relevance reconsidered—toward an agenda for the
 21st century: Introduction to special topic issue on relevance research.
 Journal of the American Society for Information Science, 45(3), 124–134.
@@ -1981,7 +1981,7 @@ Saracevic, T. (1996). Relevance reconsidered ‘96. Information science:
 Integration in perspective. In P. Ingewersen & N.O. Pors (Eds.), Proceed-
 ings of Second International Conference on Conceptions of Library and
 Information Science (CoLIS 1996) (pp. 201–218.). Copenhagen: The
-Royal School of Librarianship. 
+Royal School of Librarianship.
 Saracevic, T. (1997). The stratiﬁed model of information retrieval interac-
 tion: Extension and applications. Proceedings of the American Society
 for Information Science, 34, 313–327.
@@ -2009,7 +2009,7 @@ Searle, J.R. (1984). Intentionality and its place in nature. Synthese, 61(1), 3�
 Sebastiani, F. (1998). On the role of logic in information retrieval. Informa-
 tion Processing & Management, 34(1), 1–18.
 Snow, C.P. (1993). The two cultures (Canto ed.). Cambridge, UK:
-Cambridge University Press. 
+Cambridge University Press.
 Soergel, D. (1994). Indexing and retrieval performance: The logical
 evidence. Journal of the American Society for Information Science,
 45(8), 589–599.
@@ -2038,18 +2038,18 @@ Proceedings of the International Conference on Scientiﬁc Information
 ences. Retrieved January 8, 2006, from http://www.nap.edu/books/
 NI000518/html/1275.html
 Vickery, B.C. (1959b). Subject analysis for information retrieval. In Proceed-
-ings of the International Conference on Scientiﬁc Information 
+ings of the International Conference on Scientiﬁc Information
 (Vol. 2, pp. 855–866). Washington, DC: National Academy of Sciences.
 Retrieved January 8, 2006, from http://www.nap.edu/books/NI000518/
-html/855.html 
+html/855.html
 White, H.D. (2007a). Combining bibliometrics, information retrieval, and
 relevance theory, Part 1: First examples of a synthesis. Journal of the Amer-
-ican Society for Information Science and Technology, 58(4), 539–559. 
+ican Society for Information Science and Technology, 58(4), 539–559.
 White, H.D. (2007b). Combining bibliometrics, information retrieval, and
 relevance theory, Part 2: Some implications for information science.
 Journal of the American Society for Information Science and Technology,
 58(4), 583–605.
-White, H., & McCain, K.W. (1998) Visualizing a discipline: An author 
+White, H., & McCain, K.W. (1998) Visualizing a discipline: An author
 co-citation analysis of information science 1972–1995. Journal of the Amer-
 ican Society for Information Science and Technology, 49(4), 327–355.
 Wilson, P. (1973). Situational relevance. Information Storage & Retrieval,
