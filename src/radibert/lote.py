@@ -35,10 +35,19 @@ KEEP = ["pairID", "gold_label", "Sentence1", "Sentence2", "Explanation_1"]
 FIELDS = KEEP + ["qwen", "finish_reason", "tokens_in", "tokens_out", "seconds", "feito_em"]
 
 
-def cmd_amostra():
-    train = pd.concat([pd.read_csv(p, usecols=KEEP) for p in TRAIN], ignore_index=True)
+def read_train() -> pd.DataFrame:
+    return pd.concat([pd.read_csv(p, usecols=KEEP) for p in TRAIN], ignore_index=True)
+
+
+def shuffle_usable(train: pd.DataFrame) -> pd.DataFrame:
     usable = train.dropna(subset=["Sentence1", "Sentence2", "Explanation_1"])  # every arm needs the human text too
-    usable.sample(frac=1, random_state=SEED).to_csv(SAMPLE, index=False)
+    return usable.sample(frac=1, random_state=SEED)
+
+
+def cmd_amostra():
+    train = read_train()
+    usable = shuffle_usable(train)
+    usable.to_csv(SAMPLE, index=False)
     print(f"{len(train)} train pairs, {len(train) - len(usable)} without text dropped -> {len(usable)} in {SAMPLE}")
 
 
