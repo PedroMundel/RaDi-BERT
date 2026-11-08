@@ -1,0 +1,92 @@
+{
+ "id": "09",
+ "titulo": "Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey",
+ "ano": 2024,
+ "lido": {
+  "acesso": "texto completo",
+  "secoes_lidas": "Abstract; I Introduction (com Fig. 1, mapa do conteudo); II-B Overview on PEFT; II-C Downstream Tasks; II-D Evaluation Benchmarks; III PEFT Taxonomy (III-A Additive PEFT completo, III-C Reparameterized PEFT com LoRA/DyLoRA/AdaLoRA, Fig. 3 taxonomia e Fig. 4/5/8 diagramas); VI System Design Challenge for PEFT (VI-A); VII Conclusion and Future Directions (A-F)",
+  "paginas": "1-2, 4-9, 16-18, 23-24"
+ },
+ "resumo": "E um survey de 2024 que organiza toda a divisao de ajuste eficiente de parametros (PEFT) para modelos grandes numa taxonomia de quatro categorias: aditivo (adapters, soft prompts), seletivo (mascaramento de subconjunto de pesos), reparametrizado (LoRA e derivados) e hibrido. Explica o mecanismo de cada familia com equacoes e diagramas, nao so compara desempenho, e mostra a evolucao interna de cada categoria (ex. Serial Adapter ate CoDA; LoRA ate AdaLoRA). Estende a discussao para alem do algoritmo: cobre aplicacao a ViTs, modelos de visao-linguagem e difusao, e depois um bloco de sistemas reais de implantacao (serving centralizado, treino distribuido, treino multi-PEFT) com frameworks e metricas concretas. Fecha listando lacunas da area (falta de benchmark unificado, eficiencia de treino ainda nao resolvida, escala para modelos maiores). E mapa de uma divisao especifica (PEFT), nao da area inteira de eficiencia, e nao toca destilacao de conhecimento.",
+ "perguntas": {
+  "P1": {
+   "r": "sim",
+   "por": "Fig. 3 (p.5) da uma taxonomia explicita em quatro categorias (aditivo, seletivo, reparametrizado, hibrido) com subcategorias e metodos nomeados."
+  },
+  "P2": {
+   "r": "sim",
+   "por": "Explica o mecanismo com equacoes (ex. Eq. 7 do adapter, Eq. 12 do LoRA, p.6 e p.8) e nao so tabelas de resultado."
+  },
+  "P3": {
+   "r": "parcial",
+   "por": "Narra a evolucao tecnica dentro de cada familia (Serial->Parallel Adapter->CoDA, p.6; LoRA->DyLoRA->AdaLoRA, p.8-9), mas nao conta a origem/historia mais ampla da area de eficiencia."
+  },
+  "P6": {
+   "r": "não",
+   "por": "E survey de sintese, nao o trabalho que abriu a linha; os fundadores citados (Adapter, LoRA) sao outros itens da lista (26, 27)."
+  },
+  "P4a": {
+   "r": "sim",
+   "por": "Secao VI (p.16-19) descreve sistemas reais de serving e treino distribuido de PEFT (ex. PetS), com metricas de throughput, memoria e latencia."
+  },
+  "P4b": {
+   "r": "não",
+   "por": "PEFT e ajuste de parametros, nao destilacao de conhecimento; o termo nao aparece como tecnica tratada no survey."
+  },
+  "V": {
+   "r": "sim",
+   "por": "Define adapter, soft prompt, LoRA, reparametrizacao, mascaramento seletivo e outros com notacao formal na Secao III (p.5-11)."
+  },
+  "A": {
+   "r": "sim",
+   "por": "Usa LLaMA como estudo de caso (p.3-4) e cita direcoes futuras com Sora e Mamba (p.24), claramente na era pos-LLM (2023+)."
+  },
+  "R": {
+   "r": "parcial",
+   "por": "O nucleo (Secao II-A a IV) trata LLM decoder-only (LLaMA); a Secao V (p.14-16) estende a ViTs, modelos de visao-linguagem e difusao, mas sem discutir a diferenca de mecanismo entre familias de arquitetura de forma aprofundada."
+  }
+ },
+ "termos_chave": [
+  "parameter-efficient fine-tuning (PEFT)",
+  "adapter",
+  "soft prompt / prefix-tuning",
+  "LoRA (low-rank adaptation)",
+  "reparameterization",
+  "selective fine-tuning (masking)",
+  "KV-cache management",
+  "PEFT serving multi-tenant"
+ ],
+ "pre_requisitos": [
+  "arquitetura Transformer e self-attention",
+  "conceito de fine-tuning de modelos pre-treinados",
+  "nocao basica de LLM (ex. LLaMA)",
+  "algebra linear (decomposicao de baixo posto, SVD)",
+  "nocao de sistemas distribuidos/serving"
+ ],
+ "nivel": "intermediário",
+ "nivel_por": "pressupoe conhecimento previo de Transformer e do fluxo de fine-tuning; a Secao II ajuda quem ja sabe o basico, mas nao e uma introducao a redes neurais.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Secao III inteira (p.5-11) com Fig. 3 e 4 para o mapa da divisao; Secao VI-A (p.16-17) para a parte de implantacao; Conclusao (p.23-24) para as lacunas da area.",
+ "acrescimo": "E o unico item 'A mapas' da lista que organiza especificamente a divisao de ajuste eficiente (PEFT) com taxonomia propria de quatro categorias e liga isso a sistemas reais de serving/treino distribuido. Os itens 26 (LoRA) e 27 (QLoRA) sao papers fundadores pontuais que cabem dentro de uma unica categoria desta taxonomia (reparametrizado), nao mapas da divisao inteira.",
+ "sobreposicao": [
+  "LoRA: Low-Rank Adaptation of Large Language Models",
+  "QLoRA: Efficient Finetuning of Quantized LLMs",
+  "A Survey on Model Compression for Large Language Models"
+ ],
+ "bloco_atual": "A mapas",
+ "bloco_sugerido": "A mapas",
+ "veredito": "manter",
+ "veredito_por": "E o mapa mais completo da divisao PEFT na lista, com taxonomia propria, mecanismo explicado e ponte para implantacao pratica; nenhuma outra obra cobre essa divisao com a mesma profundidade.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+  {
+   "texto": "PEFT stands out as a highly attractive method for efficiently adapting models to downstream tasks.",
+   "pagina": "23"
+  },
+  {
+   "texto": "which combines advantages from different PEFT methods to build a unified PEFT model",
+   "pagina": "5"
+  }
+ ]
+}

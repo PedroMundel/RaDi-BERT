@@ -1,0 +1,40 @@
+{
+ "id": "35",
+ "titulo": "Fast Inference from Transformers via Speculative Decoding",
+ "ano": 2022,
+ "lido": {
+  "acesso": "texto completo",
+  "secoes_lidas": "Abstract; 1 Introduction; 2 Speculative Decoding (2.1-2.3, com Algoritmo 1); 3 Analysis (3.1-3.6); 4 Experiments (4.1-4.2); 5 Related work; 6 Discussion. Apêndices não lidos.",
+  "paginas": "1-8 de 13"
+ },
+ "resumo": "O artigo introduz o decoding especulativo, técnica para acelerar a geração token a token em modelos autorregressivos grandes sem mudar arquitetura, treinamento ou distribuição de saída. A ideia central é usar um modelo pequeno e rápido (Mq) para propor vários tokens em paralelo, que o modelo grande (Mp) verifica de uma vez com um método de amostragem especulativa que garante saída idêntica à decodificação padrão. O artigo deriva formalmente a taxa de aceitação esperada (alpha) a partir de uma divergência entre as distribuições dos dois modelos, e a fórmula do ganho de tempo de execução em função de alpha, do custo relativo do modelo pequeno (c) e do número de tokens especulados por rodada (gamma). Testes com T5-XXL (11B) e LaMDA (137B) mostram acelerações de 2x a 3x sem perda de qualidade, e até aproximações triviais (unigrama/bigrama) já rendem algum ganho. A técnica ataca o gargalo de largura de banda de memória via concorrência, não o custo aritmético, sendo complementar (não concorrente) a destilação, poda e quantização. Hoje é reconhecida como o artigo fundador da linha de speculative decoding, base de sistemas de serving de LLM atuais.",
+ "perguntas": {
+  "P1": {"r": "não", "por": "É um artigo de método único (um algoritmo), não organiza a área em categorias; a secao 5 Related Work (p.7) só posiciona o trabalho contra técnicas próximas, sem taxonomia."},
+  "P2": {"r": "sim", "por": "Deriva formalmente por que o método funciona: taxa de aceitação alpha = 1 - D_LK(p,q) (Teorema 3.5, p.4) e o ganho de walltime (Teorema 3.8, p.4), não só compara números finais."},
+  "P3": {"r": "não", "por": "A secao 5 Related Work (p.7) situa o artigo contra técnicas concorrentes e dois precursores diretos (Stern et al. 2018, Sun et al. 2021), mas não narra a origem/evolução da área de inferência eficiente."},
+  "P6": {"r": "sim", "por": "É o fundador da linha de speculative decoding para amostragem estocástica geral em modelos autorregressivos; o próprio texto nota que uma implementação independente (Chen et al. 2023) surgiu logo após a publicação (p.8)."},
+  "P4a": {"r": "parcial", "por": "Dá um algoritmo pronto para implementar sem retreino (Algoritmo 1, p.3) e benchmarks reais de walltime contra o T5X (Tabela 2, p.6), mas não libera código nem um sistema de serving completo."},
+  "P4b": {"r": "não", "por": "O método não é destilação; cita destilação (Hinton et al. 2015) só como técnica correlata possível em trabalho futuro (p.8)."},
+  "V": {"r": "sim", "por": "Define formalmente termos próprios da técnica (Mp, Mq, alpha, c, gamma, divergência D_LK) nas secoes 2 e 3 (p.2-4)."},
+  "A": {"r": "sim", "por": "Testa em T5-XXL 11B e LaMDA 137B (secao 4, p.6), modelos de escala já da virada para a era dos LLMs modernos (2022-23); a técnica é hoje base de sistemas de serving atuais, não citados no texto por serem posteriores."},
+  "R": {"r": "parcial", "por": "Testa decoder-only (GPT-like, LaMDA) e encoder-decoder (T5-XXL) e mostra o método funcionando igual nos dois (Figura 5, p.6), mas não discute encoder-only nem como a arquitetura muda a técnica em si — ela é agnóstica à arquitetura, desde que haja decodificação autorregressiva token a token."}
+ },
+ "termos_chave": ["speculative decoding", "speculative sampling", "target model (Mp)", "approximation model / draft model (Mq)", "acceptance rate (alpha)", "cost coefficient (c)", "gamma (tokens especulados por rodada)", "negligible-cost approximation model"],
+ "pre_requisitos": ["Decodificação autorregressiva em Transformers", "Métodos de amostragem em modelos de linguagem (argmax, top-k, nucleus, temperatura)", "Execução especulativa (branch prediction, arquitetura de computadores)", "Probabilidade básica (distribuições, esperança, divergência entre distribuições)", "Gargalo de memory bandwidth vs. compute em inferência", "Arquitetura Transformer (encoder-decoder e decoder-only)"],
+ "nivel": "avançado",
+ "nivel_por": "Exige acompanhar provas formais sobre divergência de distribuições e ganho de walltime (Teoremas 3.5-3.11, p.3-5) e já entender decodificação autorregressiva e amostragem; não é uma introdução à área.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Abstract e Introdução (p.1) para a ideia central; secoes 2.1-2.3 e Algoritmo 1 (p.2-3) para o mecanismo; Tabela 1 e Figura 3 (p.4-5) para a intuição do trade-off velocidade x operações; Tabela 2 (p.6) para números empíricos reais em T5-XXL. As provas das secoes 3.2-3.4 (p.3-4) podem ser puladas numa primeira leitura.",
+ "acrescimo": "É o único item da lista sobre aceleração de inferência por execução especulativa com um modelo de rascunho: ataca o gargalo de largura de banda de memória via concorrência (rodar vários tokens por passada), sem retreinar nem mudar arquitetura — alavanca distinta da compressão de pesos (poda/quantização/destilação) ou da otimização de kernel/memória (FlashAttention, PagedAttention). Sobreposição de mecanismo com as outras da lista é baixa.",
+ "sobreposicao": ["Fast Transformer Decoding: One Write-Head is All You Need", "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness", "Efficient Memory Management for Large Language Model Serving with PagedAttention"],
+ "bloco_atual": "B fundadores",
+ "bloco_sugerido": "B fundadores",
+ "veredito": "manter",
+ "veredito_por": "É o artigo fundador de speculative decoding, técnica hoje central em serving de LLMs; prova o mecanismo formalmente e traz benchmarks reais — cumpre bem o papel de fundador da divisão inferência e serving.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+  {"texto": "decoding K tokens takes K serial runs of the model", "pagina": "1"},
+  {"texto": "an algorithm to sample from autoregressive models faster without any changes to the outputs", "pagina": "1"}
+ ]
+}

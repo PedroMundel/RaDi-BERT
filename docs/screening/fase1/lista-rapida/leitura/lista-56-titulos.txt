@@ -1,0 +1,56 @@
+01 [A mapas] (2017) Efficient Processing of Deep Neural Networks: A Tutorial and Survey — divisão: hardware
+02 [A mapas] (2020) Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey — divisão: compressão (geral)
+03 [A mapas] (2020) Knowledge Distillation: A Survey — divisão: destilação
+04 [A mapas] (2021) A Survey of Quantization Methods for Efficient Neural Network Inference — divisão: quantização
+05 [A mapas] (2021) Pruning and Quantization for Deep Neural Network Acceleration: A Survey — divisão: poda e esparsidade
+06 [A mapas] (2022) A Review of Sparse Expert Models in Deep Learning — divisão: computação condicional
+07 [A mapas] (2020) Efficient Transformers: A Survey — divisão: atenção e sequência eficientes
+08 [A mapas] (2020) A Comprehensive Survey of Neural Architecture Search — divisão: arquitetura eficiente e NAS
+09 [A mapas] (2024) Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey — divisão: ajuste eficiente (PEFT)
+10 [A mapas] (2023) Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems — divisão: inferência e serving
+11 [A mapas] (2023) A Survey on Model Compression for Large Language Models — divisão: compressão de LLM
+12 [A mapas] (2024) LLM Inference Unveiled: Survey and Roofline Model Insights — divisão: inferência e serving
+13 [A mapas] (2025) Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models — divisão: edge e on-device
+14 [B fundadores] (2006) Model compression — divisão: destilação
+15 [B fundadores] (2015) Distilling the Knowledge in a Neural Network — divisão: destilação
+16 [B fundadores] (2019) DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter — divisão: destilação
+17 [B fundadores] (2016) XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks — divisão: quantização
+18 [B fundadores] (2022) GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers — divisão: quantização
+19 [B fundadores] (2022) SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models — divisão: quantização
+20 [B fundadores] (1989) Optimal Brain Damage — divisão: poda e esparsidade
+21 [B fundadores] (2015) Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding — divisão: poda e esparsidade
+22 [B fundadores] (2018) The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks — divisão: poda e esparsidade
+23 [B fundadores] (2023) SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot — divisão: poda e esparsidade
+24 [B fundadores] (2014) Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation — divisão: fatoração de baixo posto
+25 [B fundadores] (2013) Low-rank matrix factorization for Deep Neural Network training with high-dimensional output targets — divisão: fatoração de baixo posto
+26 [B fundadores] (2021) LoRA: Low-Rank Adaptation of Large Language Models — divisão: ajuste eficiente (PEFT)
+27 [B fundadores] (2023) QLoRA: Efficient Finetuning of Quantized LLMs — divisão: ajuste eficiente (PEFT)
+28 [B fundadores] (2017) Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer — divisão: computação condicional
+29 [B fundadores] (2021) Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity — divisão: computação condicional
+30 [B fundadores] (2020) DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference — divisão: computação condicional
+31 [B fundadores] (2020) Reformer: The Efficient Transformer — divisão: atenção e sequência eficientes
+32 [B fundadores] (2023) Mamba: Linear-Time Sequence Modeling with Selective State Spaces — divisão: atenção e sequência eficientes
+33 [B fundadores] (2019) Fast Transformer Decoding: One Write-Head is All You Need — divisão: inferência e serving
+34 [B fundadores] (2022) FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness — divisão: inferência e serving
+35 [B fundadores] (2022) Fast Inference from Transformers via Speculative Decoding — divisão: inferência e serving
+36 [B fundadores] (2017) MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications — divisão: arquitetura eficiente e NAS
+37 [B fundadores] (2018) FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search — divisão: arquitetura eficiente e NAS
+38 [B fundadores] (2020) MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices — divisão: arquitetura eficiente e NAS
+39 [B fundadores] (2014) DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning — divisão: hardware
+40 [B fundadores] (2016) Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks — divisão: hardware
+41 [B fundadores] (2016) EIE: Efficient Inference Engine on Compressed Deep Neural Network — divisão: hardware
+42 [B fundadores] (2017) In-datacenter performance analysis of a tensor processing unit — divisão: hardware
+43 [B fundadores] (2024) FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs — divisão: hardware
+44 [B fundadores] (2017) Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference — divisão: edge e on-device
+45 [C conceitos] (2017) Attention is All you Need — divisão: -
+46 [C conceitos] (2019) BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding — divisão: -
+47 [C conceitos] (2019) Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer — divisão: -
+48 [C conceitos] (2020) Language Models are Few-Shot Learners — divisão: -
+49 [C conceitos] (2023) LLaMA: Open and Efficient Foundation Language Models — divisão: -
+50 [C conceitos] (1997) Long Short-Term Memory — divisão: -
+51 [C conceitos] (2023) A Survey of Large Language Models — divisão: -
+52 [D sistemas] (2019) PyTorch: An Imperative Style, High-Performance Deep Learning Library — divisão: -
+53 [D sistemas] (2018) TVM: An Automated End-to-End Optimizing Compiler for Deep Learning — divisão: -
+54 [D sistemas] (2023) Efficient Memory Management for Large Language Model Serving with PagedAttention — divisão: inferência e serving
+55 [D sistemas] (2020) TensorFlow Lite Micro: Embedded Machine Learning on TinyML Systems — divisão: edge e on-device
+56 [D sistemas] (2016) FINN: A Framework for Fast, Scalable Binarized Neural Network Inference — divisão: hardware

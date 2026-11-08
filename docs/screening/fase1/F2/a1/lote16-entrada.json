@@ -1,0 +1,433 @@
+[
+ {
+  "id": "F0601",
+  "title": "Sparse regularization based feature selection: A survey",
+  "year": "2023",
+  "abstract": "Feature selection, as an essential preprocessing tool, aims to identify a subset of crucial features by eliminating redundant and noisy features according to a predefined criterion. In recent years, sparse learning has received considerable attention. As an important component of sparse learning, sparse regularization has been widely used in feature selection to enforce irrelevant feature coefficients to be small or exactly zero, which is especially suitable for selecting the discriminative and relevant features. In this paper, we attempt to provide a survey on various sparse regularization based methods. We group the existing sparse regularization based methods into two categories, i.e., convex sparse regularization based feature selection and non-convex sparse regularization based feature selection. This survey not only compares the common and different characters of sparse regularizations based feature selection methods, but also offers useful guidance for practitioners of feature selection.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0602",
+  "title": "Integrating Large Language Model APIs into Enterprise Backend Services: Design Patterns and REST API Considerations",
+  "year": "2023",
+  "abstract": "Large language models (LLMs) have rapidly evolved from experimental research artifacts into production-grade services that are widely accessible through RESTful APIs. Although these interfaces share structural similarities with conventional web services, their underlying characteristics—such as probabilistic outputs, token-based cost models, and high, variable latency—introduce fundamentally new challenges for enterprise system design. This paper presents a structured taxonomy of integration patterns for incorporating LLM APIs into enterprise backend architectures. Adopting a design science research methodology, the study derives and formalizes five core patterns—Gateway, Prompt Template, Retry and Fallback, Streaming Response, and Context Window Management—each addressing a distinct set of engineering concerns specific to LLM-based systems. In addition, the paper provides a comparative analysis of LLM APIs and traditional REST services, highlighting key architectural divergences. It further proposes observability and data governance strategies tailored to the operational realities of LLM integration. The applicability of the proposed patterns is demonstrated through a case-based validation, and practical implementation guidance is provided within the context of Java and Spring Boot environments. Together, these contributions offer a comprehensive framework for designing scalable, reliable, and compliant enterprise systems that leverage LLM capabilities.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0603",
+  "title": "A systematic review of lightweight transformer models for medical image segmentation",
+  "year": "2025",
+  "abstract": "Finding, assessing, and synthesizing studies on lightweight transformer models for medical picture segmentation is the goal of this SLR. Accuracy and efficiency in medical image processing and analysis are becoming more and more crucial as the amount of medical data increases. It has been demonstrated that lightweight transformer models have a lot of promise for producing precise and quick outcomes while using fewer computer resources. Several lightweight transformer models for medical picture segmentation have been examined in this paper. The findings demonstrate that, in comparison to traditional techniques, these models offer notable gains in medical image segmentation accuracy and efficiency. The need for improved generalization and testing on a wider range of datasets are among the difficulties noted. To overcome these obstacles and broaden the use of lightweight transformer models in diverse medical settings, more investigation is required. As a result, this review offers significant insights for future research and helpful advice for researchers and practitioners in creating and deploying lightweight transformer models for medical image segmentation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0604",
+  "title": "Lightweight Hybrid Deep Learning Models for Real-Time Deepfake Video Detection: A Comprehensive Survey",
+  "year": "2026",
+  "abstract": "The rapid advancement of Generative Artificial Intelligence (GAI) has led to the proliferation of deepfake media, posing significant threats to digital security, privacy, and information integrity. To overcome this challenge, substantial research efforts have been directed toward developing automated detection techniques using deep learning methodologies. This study presents a comprehensive survey of deep learning-based deepfake detection methods, emphasizing lightweight and hybrid architectures designed for real-time deployment. The survey systematically categorizes the landscape of deepfake generation techniques and evaluates state-of-the-art detection frameworks, including: classical CNNs, efficient backbone architectures (MobileNet, EfficientNet), and spatiotemporal models (CNN LSTM/GRU). Furthermore, this study examines model compression techniques— including pruning and quantization — essential for resource-constrained deployment, and provides a structured analysis of benchmark datasets, major detection architecture categories, and persistent research gaps. By critically examining the trade-off between detection accuracy and computational latency, this paper identifies key open challenges and concludes by highlighting a research gap for probabilistically robust, lightweight frameworks, offering a roadmap for future research toward reliable, real-time deepfake forensics in unconstrained environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0605",
+  "title": "On-device large language models: a survey of model compression and system optimization",
+  "year": "2026",
+  "abstract": "Large language models are increasingly deployed on device and at the edge, where memory capacity, bandwidth, latency, and privacy requirements dominate system behavior. This survey systematizes the end side stack from algorithms to systems. On the model side, we present a clear taxonomy of quantization, pruning, knowledge distillation, low rank adaptation, and hybrid pipelines, explaining where representative methods belong and how they compose. On the system side, we link these techniques to inference frameworks, compiler and runtime optimizations, kernel fusion, and explicit management of the KV cache. We further propose a unified ALEM protocol, namely Accuracy, Latency, Energy, and Memory, and instantiate it on representative models from 1 to 4 billion parameters to reveal practical trade offs: apply quantization first for memory and time to first token, pair structured pruning with mergeable low rank compensation, and treat the KV cache as a first class subsystem through paging, compression, and eviction. Finally, we outline open problems and directions, including a unified low bit pipeline that couples transform, calibration, and kernel fusion, joint search over structured pruning and distillation, and train and serve unification that collapses sparse, quantized, and low rank parameters into inference ready weights. The goal is a practical bridge from algorithmic compression to resource aligned and reliable on device and edge deployment. https://github.com/LumosJiang/Awesome-On-Device-LLMs: a repository hosting the complete references for Sects. 3–4.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0606",
+  "title": "Enhanced Offshore Wind Farm Geophysical Surveys: Shearlet-Sparse Regularization in Multi-Channel Predictive Deconvolution",
+  "year": "2024",
+  "abstract": "This study introduces a novel multi-channel predictive deconvolution method enhanced by Shearlet-based sparse regularization, aimed at improving the accuracy and stability of subsurface seismic imaging, particularly in offshore wind farm site assessments. Traditional multi-channel predictive deconvolution techniques often struggle with noise interference, limiting their effectiveness. By integrating Shearlet transform into the multi-channel predictive framework, our approach leverages its directional and multiscale properties to enhance sparsity and directionality in seismic data representation. Tests on both synthetic and field data demonstrate that our method not only provides more accurate seismic images but also shows significant resilience to noise, compared to conventional methods. These findings suggest that the proposed technique can substantially improve geological feature identification and has great potential for enhancing the efficiency of seabed surveys in marine renewable energy development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0607",
+  "title": "Federated Learning as a Method for Optimizing Service Quality in Heterogeneous Telepresence Networks",
+  "year": "2026",
+  "abstract": "Telepresence is a key service in sixth-generation networks, placing stringent quality of service requirements on them. Current and future communications infrastructures are characterized by a high degree of heterogeneity. Ensuring a stable level of quality of service is therefore a complex task requiring an integrated approach and innovative solutions. Traditional management methods, such as static prioritization or adaptive algorithms, lack sufficient flexibility, while centralized machine learning approaches are associated with privacy risks and high network load. The aim of this paper is to systematize and comparatively analyze federated learning methods used to predict and optimize quality of service in heterogeneous telepresence networks. The essence of the approach proposed in this paper lies in the author's classification of federated learning methods based on two criteria: architectural organization and the method of adaptation to heterogeneity. Detailed descriptions are provided for each class, and strengths and weaknesses are highlighted. The comparative analysis is based on comparing approaches based on key metrics: forecast accuracy, convergence rate, communication delays, privacy, device computational load, heterogeneity resilience, implementation complexity, and security. The analysis was based on data from peer-reviewed sources, which allowed us to identify quantitative advantages (e.g., a 1.91--38.89% reduction in training rounds and a 9.52--40.00% reduction in communication delays for the hierarchical MultiFed architecture). Experimental data presented in the analyzed papers confirm that federated learning provides a balance between predictive accuracy, privacy, and scalability, with the gains being most noticeable for devices with heterogeneous data. The scientific novelty lies in the proposed classification of federated learning methods and the systematization of their advantages and limitations as applied to the specifics of telepresence networks, which enables an informed choice of architecture depending on the use case. The authors' practical significance lies in their recommendations for selecting a federated learning method for various conditions (regional heterogeneity, limited device resources, and stringent latency requirements), which can be used in the design and operation of communication networks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0608",
+  "title": "Parameter Efficient Instruction Tuning: An Empirical Study",
+  "year": "2024",
+  "abstract": "Instruction tuning has become an important step for finetuning pretrained language models to better follow human instructions and generalize on various tasks. Nowadays, pretrained language models become increasingly larger, and full parameter finetuning is overwhelmingly costly. Therefore, Parameter Efficient Finetuning (PEFT) has arisen as a cost-effective practice for instruction tuning because of significantly smaller computational, memory, and storage cost compared to full finetuning. Despite their widespread adaptations, the vast hyperparameter spaces, the number of PEFT methods, the different focus of instruction tuning capabilities make disentangling the impact of each aspect difficult. This study systematically investigates several representative PEFT methods, surveying the effect of hyperparameter choices including training hyperparameters and PEFT-specific hyperparameters, how different models sizes and the number of instruction tasks affect the performance, in-task-distribution memorization and open instruction following capability. Our empirical study shows that only LoRA and adapter can get close to full finetuning with ideal training settings. The ideal training setting includes an appropriate learning rate, largest LoRA rank or adapter size allowed and diverse training tasks. On the other hand, LoRA and adapter suffer from training instability if such an ideal training condition is not met. Additionally, LoRA requires a greater number of tasks for effective unseen task generalization, exhibit slower learning speed. Moreover, LoRA has weaker task-level memorization. Lastly, LoRA and adapter fall short in complex reasoning, coding and long-form generation compared to finetuning in open instruction tuning settings but it shows stronger capabilities compared to adapter.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0609",
+  "title": "A Comprehensive Survey on Video Scene Parsing:Advances, Challenges, and Prospects",
+  "year": "2025",
+  "abstract": "Video Scene Parsing (VSP) studies dense video understanding, where every pixel in each frame must be segmented, each region must be named, and each object identity must remain coherent over time. This survey reviews recent progress in VSP across five tasks, spanning Video Semantic Segmentation (VSS), Video Instance Segmentation (VIS), Video Panoptic Segmentation (VPS), Video Tracking \\&Segmentation (VTS), and Open-Vocabulary Video Segmentation (OVVS). We organize the literature as one architectural arc, running from hand-crafted motion and appearance cues through fully convolutional, attention-based and query-based designs to recent foundation-model approaches, and we trace how each family models temporal context, preserves identity, and balances accuracy against efficiency. We then compare the datasets, metrics and benchmark trends that shape current evaluation. Beyond cataloguing methods, we foreground the design trade-offs and recurring failure modes that cut across the field, namely temporal flicker, occlusion-induced identity switches, long-tail categories, and the annotation--capacity--latency tension. We close with open directions towards robust, efficient and open-world VSP systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0610",
+  "title": "Sparse Polynomial Chaos Expansions: Literature Survey and Benchmark",
+  "year": "2020",
+  "abstract": "Sparse polynomial chaos expansions are a popular surrogate modelling method that takes advantage of the properties of polynomial chaos expansions (PCE), the sparsity-of-effects principle, and powerful sparse regression solvers to approximate computer models with many input parameters, relying on only few model evaluations.Within the last decade, a large number of algorithms for the computation of sparse PCE have been published in the applied math and engineering literature. We present an extensive review of the existing methods and develop a framework to classify the algorithms. Furthermore, we conduct a benchmark on a selection of methods to identify which methods work best in practical applications. Comparing their accuracy on several benchmark models of varying dimension and complexity, we find that the choice of sparse regression solver and sampling scheme for the computation of a sparse PCE surrogate can make a significant difference, of up to several orders of magnitude in the resulting mean-square error. Different methods seem to be superior in different regimes of model dimensionality and experimental design size.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0611",
+  "title": "Signal Classes: A Mechanism for Building Synchronous and Persistent Signal Networks",
+  "year": "2021",
+  "abstract": "Signals are principal abstraction in reactive programming languages and constitute the basics of reactive computations in modern systems, such as the Internet of Things. Signals sometimes utilize past values, which leads to space leak, a problem where accumulated past values waste resources such as the main memory. Persistent signals, an abstraction for time-varying values with their execution histories, provide a generalized and standardized way of space leak management by leaving this management to the database system. However, the current design of persistent signals is very rudimental. For example, they cannot represent complex data structures; they can only be connected using pre-defined API methods that implicitly synchronize the persistent signal network; and they cannot be created dynamically. In this paper, we show that these problems are derived from more fundamental one: no language mechanism is provided to group related persistent signals. To address this problem, we propose a new language mechanism signal classes. A signal class packages a network of related persistent signals that comprises a complex data structure. A signal class defines the scope of synchronization, making it possible to flexibly create persistent signal networks by methods not limited to the use of pre-defined API methods. Furthermore, a signal class can be instantiated, and this instance forms a unit of lifecycle management, which enables the dynamic creation of persistent signals. We formalize signal classes as a small core language where the computation is deliberately defined to interact with the underlying database system using relational algebra. Based on this formalization, we prove the language’s glitch freedom. We also formulate its type soundness by introducing an additional check of program well-formedness. This mechanism is implemented as a compiler and a runtime library that is based on a time-series database. The usefulness of the language is demonstrated through the vehicle tracking simulator and viewer case study. We also conducted a performance evaluation that confirms the feasibility of this case study.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0612",
+  "title": "A systematic review of knowledge distillation in industrial predictive maintenance: Applications, methods and challenges",
+  "year": "2025",
+  "abstract": "Deploying deep learning models for predictive maintenance (PdM) is often constrained by high computational costs, limiting real-time industrial deployment. Knowledge distillation (KD) offers a lightweight alternative by transferring knowledge from large teachers to compact students. Despite growing research on KD in PdM, no systematic review has consolidated existing progress. This paper fills that gap by analyzing 48 KD-based PdM studies, identifying six key paradigms and analyzing their efficiency–accuracy trade-offs. This review highlights unresolved challenges and outlines future directions toward adaptive, cross-domain, and resource-efficient KD frameworks for intelligent industrial maintenance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0613",
+  "title": "Learning Dexterous Grasping from Sparse Taxonomy Guidance",
+  "year": "2026",
+  "abstract": "Dexterous manipulation requires planning a grasp configuration suited to the object and task, which is then executed through coordinated multi-finger control. However, specifying grasp plans with dense pose or contact targets for every object and task is impractical. Meanwhile, end-to-end reinforcement learning from task rewards alone lacks controllability, making it difficult for users to intervene when failures occur. To this end, we present GRIT, a two-stage framework that learns dexterous control from sparse taxonomy guidance. GRIT first predicts a taxonomy-based grasp specification from the scene and task context. Conditioned on this sparse command, a policy generates continuous finger motions that accomplish the task while preserving the intended grasp structure. Our result shows that certain grasp taxonomies are more effective for specific object geometries. By leveraging this relationship, GRIT improves generalization to novel objects over baselines and achieves an overall success rate of 87.9%. Moreover, real-world experiments demonstrate controllability, enabling grasp strategies to be adjusted through high-level taxonomy selection based on object geometry and task intent.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0614",
+  "title": "Deep Learning Decoding of Steady-State Visual Evoked Potential (SSVEP) for Real-Time Mobile Brain–Computer Interfaces: A Narrative Review from Laboratory Settings to Lightweight Engineering Applications",
+  "year": "2026",
+  "abstract": "Highlights What are the main findings? This review analyzes deep learning-based steady-state visual evoked potential (SSVEP) decoding methods for mobile real-time BCIs, with a focus on engineering-oriented solutions. It highlights three key technological dimensions: lightweight model architectures, ultra-short time window decoding, and cross-subject transfer learning. What are the implications of the main findings? The synthesis bridges the gap between algorithmic innovation and practical deployment, providing actionable insights for developing wearable BCI systems. The highlighted technologies—lightweight models, short-time window decoding, and cross-subject transfer learning—can accelerate the adoption of SSVEP-BCI in real-world scenarios, such as portable neurorehabilitation devices, hands-free control systems, and vision-assisted wearables. Abstract Background/Objectives: SSVEP-BCI has broad application potential in mobile human–computer interaction due to its high information transfer rate and stable signal characteristics. The introduction of deep learning technology has significantly advanced SSVEP decoding performance, offering novel approaches for processing short-duration signals and tackling complex classification tasks. The establishment of the Tsinghua Benchmark dataset provides a standardized benchmark for evaluating algorithm performance, accelerating the development of deep learning-based SSVEP decoding. However, a summary of SSVEP deep learning decoding technologies for real-time mobile applications is lacking. Methods: We conducted a comprehensive literature review of SSVEP deep learning decoding studies published since 2023, using the Tsinghua Benchmark dataset. This review focuses on technical developments targeting real-time performance, low computational complexity, and high robustness. Results: We summarize the key technologies developed for real-time mobile SSVEP decoding. Our analysis thoroughly examines how these techniques address core challenges in the engineering implementation of mobile brain–computer interfaces, including real-time processing requirements, resource constraints, and environmental robustness. Conclusions: This review provides a comprehensive overview of SSVEP deep learning decoding technologies for mobile applications, establishing a technical foundation to advance mobile brain–computer interfaces from laboratory settings to practical deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0615",
+  "title": "Lightweight and heavyweight technologies for autonomous vehicles: A survey",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0616",
+  "title": "Key considerations for implementing mobile learning in resource-constrained nations: a scoping review",
+  "year": "2024",
+  "abstract": "ABSTRACT This study initially undertook a scoping review of mobile Computer-Supported Collaborative Learning (mCSCL) to determine the characteristics, and methodologies of the reviewed studies, and its benefits and challenges in resource-constrained nations. Online databases yielded no related articles on mCSCL in resource-constrained countries from 2007 to 2023. Nevertheless, 32 papers centred on mobile learning (m-learning) in resource-constrained countries were identified. Findings from the research questions encompass the theoretical framework used, the study context, sample size, and research design of the reviewed articles; and the benefits, and challenges of m-learning in resource-constrained countries. Implications for future m-learning and mCSCL studies in resource-constrained countries are considered. These include focussing on the benefits of m-learning as a basis to foster its implementation in the region, while providing adequate measures to mitigate its challenges, potential areas for investigation, such as research situated in resource-constrained countries in South American and Eastern Europe and research on aspects of m-learning such as mCSCL, more strategically focussed research interventions utilising available mobile infrastructure in developing countries, studies grounded in established theoretical frameworks and seminal studies on research methodology to inform research design.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0617",
+  "title": "Hankel low-rank approximation and completion in time series analysis and forecasting: a brief review",
+  "year": "2022",
+  "abstract": "In this paper we offer a review and bibliography of work on Hankel low-rank approximation and completion, with particular emphasis on how this methodology can be used for time series analysis and forecasting. We begin by describing possible formulations of the problem and offer commentary on related topics and challenges in obtaining globally optimal solutions. Key theorems are provided, and the paper closes with some expository examples.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0618",
+  "title": "Language Models Can Control Their Own Attention",
+  "year": "2026",
+  "abstract": "Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tokens that matter. If the user asks about a previous detail in a 1M-token conversation, global attention layers must scan the full context to generate each token of the reply. A prominent approach mitigates this cost by pre-selecting relevant tokens via lightweight proxy scores, but this extrinsic scoring still incurs O(N) per step. We take an intrinsic approach motivated by the simple question: wouldn't the model already know which parts of the context are relevant? To this end, we introduce Declarative Attention (DA), a protocol that elicits the model to declare where it needs to attend within its chain-of-thought, partitioning generation into three modes:(full context),(a specific region), and(recent output only). The inference engine parses these declarations like tool calls and skips most of the KV cache read. Under zero-shot evaluation across 15 long-context tasks, DA on off-the-shelf models (Gemma-4-31B, Qwen-3.6-27B) significantly reduces total attended tokens during decoding (52.0%, 31.1%) with modest accuracy drops (1.27pp, 2.75pp) that shrink with model scale. DA unlocks a new axis of sparse attention, with further potential under training-based methods that future work can explore.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0619",
+  "title": "Recent Progress in Understanding Transformer and Developing Its Surpasser: A Survey",
+  "year": "2024",
+  "abstract": "Transformers have significantly impacted machine learning, particularly in natural language processing and computer vision, due to their robust attention mechanisms and scalability. Although it is very successful and has the attention mechanism to explain it, it is still a black box in general. This lack of transparency is not conducive to applications, nor is it conducive to the development of more advanced models. We systematically analyze current methodologies for interpreting the attention patterns, hidden representations, and decision-making processes within Transformers. Additionally, we investigate how these insights aid in refining Transformer architectures and inspire the creation of innovative models that extend beyond the conventional Transformer frameworks. Due to its expertise in long-term dependencies and data scalability, Transformer undoubtedly has great advantages in foundation language models, achieving multimodality, and processing discrete data, but it is inferior to Mamba in terms of efficiency, especially when processing continuous data. It is inferior to Diffusion Model when processing image data because it is not good at grasping the distribution of high-dimensional data and is relatively less suitable for image generation model. By integrating achievements in both explaining and advancing Transformer-like architectures, this paper serves as a valuable resource for researchers aiming to enhance the performance, transparency, and efficiency of Transformers in various applications and to develop models that surpass current Transformer paradigms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0620",
+  "title": "Optimization Methods in Deep Learning: A Comprehensive Overview",
+  "year": "2023",
+  "abstract": "In recent years, deep learning has achieved remarkable success in various fields such as image recognition, natural language processing, and speech recognition. The effectiveness of deep learning largely depends on the optimization methods used to train deep neural networks. In this paper, we provide an overview of first-order optimization methods such as Stochastic Gradient Descent, Adagrad, Adadelta, and RMSprop, as well as recent momentum-based and adaptive gradient methods such as Nesterov accelerated gradient, Adam, Nadam, AdaMax, and AMSGrad. We also discuss the challenges associated with optimization in deep learning and explore techniques for addressing these challenges, including weight initialization, batch normalization, and layer normalization. Finally, we provide recommendations for selecting optimization methods for different deep learning tasks and datasets. This paper serves as a comprehensive guide to optimization methods in deep learning and can be used as a reference for researchers and practitioners in the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0621",
+  "title": "Review for \"The Audiomaze : An EEG and motion capture study of human spatial navigation in sparse augmented reality\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0622",
+  "title": "Review for \"Fermentation process quality prediction using teacher student stacked sparse recurrent autoencoder\"",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0623",
+  "title": "The Designated Project Committee Approves on the Project Titled ANALYZING PUBLIC SENTIMENT ON COVID-19 PANDEMIC by Pradeepika Gedupudi",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0624",
+  "title": "Blockchain and Immutable Storage Solutions in Embedded Dashcam Systems: A Comprehensive Review for Next-Generation Fleet and Insurance Applications",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0625",
+  "title": "Enabling Data Movement and Computation Pipelining in Deep Learning Compiler",
+  "year": "2022",
+  "abstract": "Pipelining between data loading and computation is a critical tensor program optimization for GPUs. In order to unleash the high performance of latest GPUs, we must perform a synergetic optimization of multi-stage pipelining across the multi-level buffer hierarchy of GPU. Existing frameworks rely on hand-written libraries such as cuBLAS to perform pipelining optimization, which is inextensible to new operators and un-composable with prior tensor compiler optimizations. This paper presents ALCOP, the first framework that is compiler-native and fully supports multi-stage multi-level pipelining. ALCOP overcomes three critical obstacles in generating code for pipelining: detection of pipelining-applicable buffers, program transformation for multi-level multi-stage pipelining, and efficient schedule parameter search by incorporating static analysis. Experiments show that ALCOP can generate programs with 1.23x speedup on average (up to 1.73x) over vanilla TVM. On end-to-end models, ALCOP can improve upon TVM by up to 1.18x, and XLA by up to 1.64x. Besides, our performance model significantly improves the efficiency of the schedule tuning process and can find schedules with 99% of the performance given by exhaustive search while costing 40x fewer trials.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0626",
+  "title": "Low-Power VLSI Circuit Designs for Wearable Fitness Trackers",
+  "year": "2023",
+  "abstract": "Wearable fitness trackers require energy-efficient hardware to ensure extended battery life, user convenience, and reliable data processing in compact form factors. Low-power VLSI (Very-Large-Scale Integration) circuit design plays a pivotal role in addressing these needs by minimizing power consumption while maintaining performance. This paper presents a comprehensive overview of the low-power VLSI techniques tailored for wearable fitness devices, highlighting design strategies such as dynamic voltage scaling, power gating, and specialized sensor interface circuits. It also discusses architectural-level optimizations and hardware-software co-design practices to enhance energy efficiency without functionality.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0627",
+  "title": "Applications of Knowledge Distillation in Remote Sensing: A Survey",
+  "year": "2024",
+  "abstract": "With the ever-growing complexity of models in the field of remote sensing (RS), there is an increasing demand for solutions that balance model accuracy with computational efficiency. Knowledge distillation (KD) has emerged as a powerful tool to meet this need, enabling the transfer of knowledge from large, complex models to smaller, more efficient ones without significant loss in performance. This review article provides an extensive examination of KD and its innovative applications in RS. KD, a technique developed to transfer knowledge from a complex, often cumbersome model (teacher) to a more compact and efficient model (student), has seen significant evolution and application across various domains. Initially, we introduce the fundamental concepts and historical progression of KD methods. The advantages of employing KD are highlighted, particularly in terms of model compression, enhanced computational efficiency, and improved performance, which are pivotal for practical deployments in RS scenarios. The article provides a comprehensive taxonomy of KD techniques, where each category is critically analyzed to demonstrate the breadth and depth of the alternative options, and illustrates specific case studies that showcase the practical implementation of KD methods in RS tasks, such as instance segmentation and object detection. Further, the review discusses the challenges and limitations of KD in RS, including practical constraints and prospective future directions, providing a comprehensive overview for researchers and practitioners in the field of RS. Through this organization, the paper not only elucidates the current state of research in KD but also sets the stage for future research opportunities, thereby contributing significantly to both academic research and real-world applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0628",
+  "title": "On blockchain integration into mobile crowdsensing via smart embedded devices: A comprehensive survey",
+  "year": "2021",
+  "abstract": "Abstract As an integral part of Internet of Things (IoT), mobile crowdsensing (MCS) via smart embedded devices has recently gained significant attention for being effective in a wide range of applications and services, particularly in smart environments. In order to collect data, MCS systems seek ubiquitous sensing services from smart mobile devices such as smartphones, tablets and wearables, which are equipped with a variety of sensors, and provide analytics, visualization and recommendation services. Despite its benefits, the distributed nature of MCS results in confronting a number of challenges in terms of incentives, privacy, security and dependability. In this survey, blockchains, as a state of the art technology that builds on decentralization, immutability and consensus characteristics, are comprehensively reviewed with their potential to address main challenges in MCS. To this end, this article reviews the MCS platforms by investigating the existing works along with their challenges. Furthermore, the article reviews blockchain-integrated MCS solutions to address the incentive mechanisms, data quality, and privacy and security issues. This survey’s objective is not only to analyze existing works but also to present potential directions for future research to leverage MCS and blockchains in smart environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0629",
+  "title": "International Journal of Soft Computing and Engineering",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0630",
+  "title": "Mapping Trends of Machine Learning in Digital Service Management: Bibliometric and Systematic Literature Review",
+  "year": "2025",
+  "abstract": "By combining several methods, this study seeks to identify trends, directions of growth, and research needs in the use of ML in digital service management. The analysis includes bibliometric data from 91 publications indexed in the Scopus and IEEE databases, as well as on SLR. VOS Viewer tools were utilized in the study to identify keywords, websites, and key citations, as well as to qualitatively examine themes and research techniques. The findings suggest a shift in trends from traditional methods, such as Random Forest, SVM, and LSTM, toward a more moral, open, and human-centered approach. With a focus on Explainable Artificial Intelligence (XAI), Large Language Models (LLM), trust and sustainability concerns as well.This study presents a Human-in-the-Loop (HITL) strategy that combines interpretability methods, including Local Interpretable Model-agnostic Explanations (LIME), to help the system generate recommendations that are both technically sound and relevant to business demands. Future research proposals highlight that developing human-cantered artificial intelligence is important since it emphasizes ethics, openness, and human-AI interaction to produce sustainable and strategically beneficial digital services.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0631",
+  "title": "LayerKV: Optimizing Large Language Model Serving with Layer-wise KV Cache Management",
+  "year": "2024",
+  "abstract": "The expanding context windows in large language models (LLMs) have greatly enhanced their capabilities in various applications, but they also introduce significant challenges in maintaining low latency, particularly in Time to First Token (TTFT). This paper identifies that the sharp rise in TTFT as context length increases is predominantly driven by queuing delays, which are caused by the growing demands for GPU Key-Value (KV) cache allocation clashing with the limited availability of KV cache blocks. To address this issue, we propose LayerKV, a simple yet effective plug-in method that effectively reduces TTFT without requiring additional hardware or compromising output performance, while seamlessly integrating with existing parallelism strategies and scheduling techniques. Specifically, LayerKV introduces layer-wise KV block allocation, management, and offloading for fine-grained control over system memory, coupled with an SLO-aware scheduler to optimize overall Service Level Objectives (SLOs). Comprehensive evaluations on representative models, ranging from 7B to 70B parameters, across various GPU configurations, demonstrate that LayerKV improves TTFT latency up to 69x and reduces SLO violation rates by 28.7%, significantly enhancing the user experience.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0632",
+  "title": "3D Object Detection and Knowledge Distillation in Autonomous Driving: A Survey",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0633",
+  "title": "A Comparative Review of Lightweight Machine Learning Approaches for Handwriting-Based Dyslexia Detection",
+  "year": "2025",
+  "abstract": "Dyslexia, a neurodevelopmental disorder affecting reading and writing skills, requires early detection to mitigate longterm educational impacts. Traditional diagnostic methods are time-consuming and subjective, prompting the adoption of\nautomated handwriting analysis. This paper reviews lightweight machine learning (ML) approaches for dyslexia detection\nthrough handwriting, emphasizing computational efficiency, real-time applicability, and cross-linguistic adaptability. By\nevaluating techniques such as MobileNetV2, SSD Lite, Support Vector Machines (SVM), and Random Forests across languages\nlike English, Hindi, Arabic, and Chinese, we highlight trade-offs between accuracy, efficiency, and script-specific challenges.\nOur analysis reveals that lightweight models achieve competitive performance while addressing issues like accessibility, making\nthem valuable for use in resource-constrained environments like classrooms",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0634",
+  "title": "A novel low-power high speed accurate and precise DAQ with embedded artificial intelligence for long term biodiversity survey",
+  "year": "2020",
+  "abstract": "International audience",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0635",
+  "title": "Green Bin Packing",
+  "year": "2026",
+  "abstract": "The online bin packing problem and its variants are regularly used to model server allocation problems. Modern concerns surrounding sustainability and overcommitment in cloud computing motivate bin packing models that capture costs associated with highly utilized servers. In this work, we introduce the green bin packing problem, an online variant with a linear cost β for filling above a fixed level G. For a given instance, the goal is to minimize the sum of the number of opened bins and the linear cost. We show that when β łe 1/G, classical online bin packing algorithms such as FirstFit or Harmonic perform well, and can achieve competitive ratios lower than in the classic setting. However, when β > 1/G, new algorithmic solutions can improve both worst-case and typical performance. We introduce variants of classic online bin packing algorithms and establish theoretical bounds, as well as test their empirical performance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0636",
+  "title": "A Review on Embedded Arduino-Based Visual Robotic Arm Grasping and SLAM Navigation",
+  "year": "2026",
+  "abstract": "With the development of desktop robotic arms towards low cost, lightweight and intelligence, the embedded Arduino vision-based robotic arm grasping technology has become a research hotspot. This paper reviews the current research status of the robotic arm vision grasping technology and embedded SLAM navigation with Arduino as the lower computer. Firstly, the embedded Arduino vision-based robotic arm grasping is introduced, and the system architecture, mainstream kinematic modeling methods, visual calibration, pose estimation, dynamic analysis and stability, and trajectory planning processes are sorted out in sequence. Then, the shortcomings of the system in terms of adaptability to complex environments, dynamic response and calibration dependence are pointed out. In addition, the application of lightweight embedded SLAM is introduced. Finally, the article is summarized and prospected, which can provide a reference for the research on the intelligence of small robotic arms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0637",
+  "title": "A Survey on Lightweight Audio Classification for Edge Devices",
+  "year": "2026",
+  "abstract": "As edge devices and the Internet of Things are widely adopted nowadays, edge devices provide limited computational resources. Thus, the application of traditional deep learning models is restricted, which could not be directly adopted. Therefore, a study of lightweight models is urgently required. This paper surveys the application of lightweight models in audio classification using edge devices, and summarizes the main methods of feature extraction, including Time Fourier Transform (STFT), Mel-Frequency Cepstral Coefficients (MFCC), and Continuous Wavelet Transform (CWT), as well as the optimization ways of the models. Throughout the survey, this study found MFCC got the fastest speed, and CWT has the Best accuracy, and the knowledge distillation could maintain the performance in accuracy whilelowering the size of the model at the same time. Nevertheless, there are still several problems that exist. Current lightweight models often suffer from insufficient specialization in various audio tasks and real- world situations beyond the laboratory. Besides, multi-label classification remains a major difficulty, since the models have poor adaptability to these scenarios. In conclusion, this survey systematically summarizes the mainstream methods in terms of the lightweight models applied to edge devices. The achievements and problems that existed are all about the same accuracy-speed balance. And specialized ways for Audio classification remain the core research direction in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0638",
+  "title": "Lightweight Function Monitors for Fine-Grained Management in Large Scale Python Applications",
+  "year": "2021",
+  "abstract": "Python has become a widely used programming language for research, not only for small one-off analyses, but also for complex application pipelines running at supercomputer-scale. Modern parallel programming frameworks for Python present users with a more granular unit of management than traditional Unix processes and batch submissions: the Python function. We review the challenges involved in running native Python functions at scale, and present techniques for dynamically determining a minimal set of dependencies and for assembling a lightweight function monitor (LFM) that captures the software environment and manages resources at the granularity of single functions. We evaluate these techniques in a range of environments, from campus cluster to supercomputer, and show that our advanced dependency management planning and dynamic resource management methods provide superior performance and utilization relative to coarser-grained management approaches, achieving several-fold decrease in execution time for several large Python applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0639",
+  "title": "Multilingual Large Language Models in Resource-Constrained Healthcare: A Structured Review of RAG Integration and Deployment Challenges",
+  "year": "2026",
+  "abstract": "Artificial intelligence may help address healthcare workforce shortages and linguistic barriers, particularly in resource-constrained settings. However, the practical use of large language models in healthcare remains limited by computational requirements, English-language bias, scarcity of reliable regional-language medical data, and the risk of hallucinated information. This review examines multilingual healthcare large language models, focusing on architectural approaches, multilingual adaptation, retrieval-augmented generation, and cloud-edge deployment trade-offs. It also traces the development of healthcare chatbots from rule-based systems to transformer-based models and compares representative approaches according to language support, factual grounding, safety, and deployment feasibility. The reviewed evidence suggests that retrieval from curated medical sources can improve factual grounding, while native multilingual adaptation may preserve clinical context more effectively than translation-only pipelines. Nevertheless, reported results are difficult to compare because studies use different datasets, languages, hardware, and evaluation procedures. Future research should prioritize reproducible evaluation, real-world clinical validation, privacy protection, human oversight, and efficient offline deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0640",
+  "title": "Private Transformer Inference in MLaaS: A Survey",
+  "year": "2025",
+  "abstract": "Transformer models have revolutionized AI, powering applications like content generation and sentiment analysis. However, their deployment in Machine Learning as a Service (MLaaS) raises significant privacy concerns, primarily due to the centralized processing of sensitive user data. Private Transformer Inference (PTI) offers a solution by utilizing cryptographic techniques such as secure multi-party computation and homomorphic encryption, enabling inference while preserving both user data and model privacy. This paper reviews recent PTI advancements, highlighting state-of-the-art solutions and challenges. We also introduce a structured taxonomy and evaluation framework for PTI, focusing on balancing resource efficiency with privacy and bridging the gap between high-performance inference and data privacy.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

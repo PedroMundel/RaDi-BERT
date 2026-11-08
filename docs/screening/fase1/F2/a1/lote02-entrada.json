@@ -1,0 +1,435 @@
+[
+ {
+  "id": "F0041",
+  "title": "A Review of Feature Extraction Techniques for ECG Signal Analysis Using AI-Powered Embedded Systems",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0042",
+  "title": "Digital Adoption by an Organization Supporting Informal Caregivers During COVID-19 Pandemic Showing Impact on Service Use, Organizational Performance, and Carers’ Well-Being: Retrospective Population-Based Database Study With Embedded User Survey",
+  "year": "2023",
+  "abstract": "Background The COVID-19 pandemic has catalyzed a move from face-to-face to digital delivery of services by hospitals and primary care. However, little is known about the impact of digital transformation on organizations supporting unpaid caregivers. Since the start of the COVID-19 pandemic, the value of care provided by such informal caregivers is estimated to be £111 billion (US$ 152.7 billion) in England. Objective This study aims to analyze service uptake patterns (including digital service options) over the pandemic period in an English caregivers’ support organization covering a population of 0.98 million; measure changes in organizational performance, service efficiency, and quality; and identify the views of caregivers on service provision and future digital delivery. Methods This was a retrospective analysis of the use of digital versus nondigital support services (January 2019 to June 2021) by caregivers in city and rural geographic areas. We compared organizational performance and service quality indicators for 2 financial years (2019-2020 and 2020-2021). A survey was conducted to identify barriers and facilitators to digital service uptake, the computer proficiency of caregivers (the Computer Proficiency Questionnaire, 12-item version), and preferences for future digital service provision. Quantitative data were analyzed using Stata 13 (StataCorp LLC). Thematic analysis was used for open-text survey responses. Results The number of caregivers registered with the organization rose from 14,817 in 2019 to 20,237 in 2021. Monthly contacts rose from 1929 to 6741, with remote contacts increasing from 48.89% (943/1929) to 86.68% (5843/6741); distinctive patterns were observed for city versus rural caregivers. There was an increase in one-to-one contacts (88.8%) and caregiver assessments (20.9%), with no expansion in staffing. Service quality indicators showed an improvement in 5 of 8 variables (all P<.05). The 152 carers completing the survey had similar demographics to all registered caregivers. The Computer Proficiency Questionnaire, 12-item version, mean score of 25.61 (SD 4.40) indicated relatively high computer proficiency. The analysis of open-text responses identified a preference for the organization to continue to offer face-to-face services as well as web-based options. The digital services that were the most highly rated were carers’ well-being assessments, support needs checks, and peer support groups. Conclusions Our findings show that staff in the caregiver support organization were agile in adapting their services to digital delivery while dealing with increased numbers of registered clients and higher monthly contacts, all without obvious detriment to service quality. Caregivers indicated a preference for blended services, even while recording high computer proficiency. Considering the economic importance of unpaid caregivers, more attention should be given to organizations funded to provide support for them and to the potential for technology to enhance caregivers’ access to, and engagement with, such services.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0043",
+  "title": "Survey on LoRa Technology: Solution for Internet of Things",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0044",
+  "title": "Algorithmic Versus Expert Rankings of Large Language Models in Peritoneal Dialysis Prescription Review: A Trap-Embedded Synthetic Benchmark",
+  "year": "2026",
+  "abstract": "Abstract Background Clinical LLM benchmarks rarely test whether algorithmic rankings agree with expert clinical judgment. We developed a trap-embedded peritoneal dialysis (PD) benchmark comparing multiple scoring constructs with blinded nephrologist ratings. Methods We generated 125 synthetic PD cases containing 13 ISPD-aligned trap types. Five LLMs (Claude Sonnet 4.5, GPT-5.4, Gemini 3.1 Pro, DeepSeek-R1, Grok 4.1 Fast) evaluated each case three times at temperature 0 (1,875 calls). Primary outcome was must-identify TDR must , analyzed with GEE and case-clustered bootstrap. Secondary analyses included a verbosity-sensitive alarm-burden proxy, WCS, relaxed-match scoring, WCS sensitivity analyses, and a 25-output blinded expert adequacy substudy. Must-identify kappa was 0.89 in Stage 1 and 0.92 in Stage 2. Results Rankings were discordant. Recall ranked Claude (0.977) and GPT-5.4 (0.955) above the other models (0.86–0.90, p<0.0001). The alarm-burden proxy favored concise models (Grok 0.689; 21.6 vs 2.4 issues/case), while WCS produced a third ordering. In the expert substudy, inter-rater concordance was strong (rho 0.977), but WCS did not show a positive association with expert adequacy (rho -0.17, p=0.41). Conclusion Clinical LLM rankings in PD prescription review depend strongly on scoring construct. Algorithmic metrics should be reported alongside blinded expert adequacy ratings and should not alone determine deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0045",
+  "title": "T-LLM: Teaching Large Language Models to Forecast Time Series via Temporal Distillation",
+  "year": "2026",
+  "abstract": "Time series forecasting plays a critical role in decision-making across many real-world applications. Unlike data in vision and language domains, time series data is inherently tied to the evolution of underlying processes and can only accumulate as real-world time progresses, limiting the effectiveness of scale-driven pretraining alone. This time-bound constraint poses a challenge for enabling large language models (LLMs) to acquire forecasting capability, as existing approaches primarily rely on representation-level alignment or inference-time temporal modules rather than explicitly teaching forecasting behavior to the LLM. We propose T-LLM, a temporal distillation framework that equips general-purpose LLMs with time series forecasting capability by transferring predictive behavior from a lightweight temporal teacher during training. The teacher combines trend modeling and frequency-domain analysis to provide structured temporal supervision, and is removed entirely at inference, leaving the LLM as the sole forecasting model. Experiments on benchmark datasets and infectious disease forecasting tasks demonstrate that T-LLM consistently outperforms existing LLM-based forecasting methods under full-shot, few-shot, and zero-shot settings, while enabling a simple and efficient deployment pipeline.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0046",
+  "title": "Efficient few-shot learning for medical image classification: A practical review of lightweight and resource-aware approaches",
+  "year": "2026",
+  "abstract": "Few-shot learning (FSL) offers a practical way to study medical image classification when expert labels are scarce, classes are imbalanced, or data cannot be pooled across institutions. We reviewed 146 peer-reviewed studies published from 2024 to 2026 and grouped them into ten methodological families. Of the 146 included studies, 40 provided direct medical image-classification evidence; the remainder were biomedical-adjacent, transferable, or contextual. Because datasets, episode design, backbones, data splits, and outcome reporting differed substantially, the findings were synthesized qualitatively rather than combined in a meta-analysis. Across the direct medical literature, compact prototype and metric-learning models provide useful reference baselines because their decision rules are transparent and their adaptation requirements are usually modest; the evidence does not establish them as universally superior. More complex methods are best supported when they address a specific clinical constraint and are evaluated with class-wise metrics, calibration, external validation, privacy analysis, explanation testing, or measured computational profiling. Federated approaches are most relevant to distributed data, whereas GAN- and diffusion-based enrichment remain conditional options because of their cost and risk of artifacts. Common reporting gaps include patient-level splitting, support-query separation, external validation, uncertainty, code availability, and hardware measurements. The review therefore provides a practical framework for selecting and evaluating medical FSL methods while keeping claims aligned with the strength of the evidence.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0047",
+  "title": "Enhancing Federated Learning Evaluation: Exploring Instance-Level Insights with SQUARES in Image Classification Models",
+  "year": "2024",
+  "abstract": "Federated Learning (FL) presents a novel approach within the domain of Machine Learning (ML)—enabling the training of ML models in a distributed manner. This paradigmatic shift ensures the preservation of user privacy by conducting the training process at the edge, where data remains localized on individual devices. This stands in contrast to the conventional centralized paradigm—where users transmit data to a central server for processing. The FL framework operates within a more heterogeneous environment characterized by diverse data distributions across clients, a departure from the engineer-analyzed datasets typical of centralized paradigms. Whereas, evaluation of FL models typically relies on statistical techniques such as accuracy, recall, precision, log loss, and the confusion matrix, alongside visualization methods. While these techniques provide an overview of the model's performance and data utilization—they may lack granularity when comparing models with disparate characteristics. However, the SQUARES technique, offers a more nuanced evaluation of model performance at the instance level. This approach facilitates the examination of data biases, outlier detection, and model behavior during training on individual samples. Therefore, this study presents the development and evaluation of an FL image classification model across various scenarios—utilizing the SQUARES prototype. In addressing these more intricate scenarios, we aim to augment traditional visualizations and metrics, thereby uncovering insights and nuances that may elude standard evaluation methods prevalent in ML benchmarks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0048",
+  "title": "Llumnix: Dynamic Scheduling for Large Language Model Serving",
+  "year": "2024",
+  "abstract": "Inference serving for large language models (LLMs) is the key to unleashing their potential in people's daily lives. However, efficient LLM serving remains challenging today because the requests are inherently heterogeneous and unpredictable in terms of resource and latency requirements, as a result of the diverse applications and the dynamic execution nature of LLMs. Existing systems are fundamentally limited in handling these characteristics and cause problems such as severe queuing delays, poor tail latencies, and SLO violations. We introduce Llumnix, an LLM serving system that reacts to such heterogeneous and unpredictable requests by runtime rescheduling across multiple model instances. Similar to context switching across CPU cores in modern operating systems, Llumnix reschedules requests to improve load balancing and isolation, mitigate resource fragmentation, and differentiate request priorities and SLOs. Llumnix implements the rescheduling with an efficient and scalable live migration mechanism for requests and their in-memory states, and exploits it in a dynamic scheduling policy that unifies the multiple rescheduling scenarios elegantly. Our evaluations show that Llumnix improves tail latencies by an order of magnitude, accelerates high-priority requests by up to 1.5x, and delivers up to 36% cost savings while achieving similar tail latencies, compared against state-of-the-art LLM serving systems. Llumnix is publicly available at https://github.com/AlibabaPAI/llumnix.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0049",
+  "title": "Bits to Qubits: A Comparative Study of Memory Management in Classical and Quantum Systems",
+  "year": "2025",
+  "abstract": "In the near future, as quantum and classical systems coexist, managing hybrid systems will require efficient conversion between bits and qubits. Therefore, understanding memory management for both classical and quantum systems is essential. Along that line, this survey provides a comparative analysis of memory management in classical and quantum architectures. The traditional memory hierarchy and allocation strategies used in classical systems are examined along with caching and paging techniques which optimize performance and resource utilization. On the other hand, quantum memory management focuses on addressing unique challenges such as quantum decoherence and error correction using advanced techniques such as Shor’s code, Surface codes, and other specialized error correction codes. This study explores Quantum Random Access Memory (QRAM) and its role in enabling efficient data retrieval in quantum systems. Quantum read/write operations and their impact on coherence and fidelity are analyzed, highlighting advancements in qubit state measurement and error mitigation. While classical systems take benefits of deterministic and hierarchical memory structures, quantum systems must overcome environmental noise and decoherence to maintain data stability. Furthermore, scalability issues and emerging trends in quantum architecture are discussed, emphasizing how advancements in Quantum Error Correction (QEC) and hybrid systems can address current limitations in memory management.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0050",
+  "title": "Automotive embedded systems-model based approach review",
+  "year": "2022",
+  "abstract": ": The evolution of transforming from an electrical mechanical engineering discipline to a combination of software and electrical/mechanical engineering establishes software as a crucial technology. The current complex automotive system is the product of growth of embedded software. As a result, automotive industry focuses on a new trend Model based development rather than traditional method where software is handwritten in Assembly code or C language. This paper presents a review of the use of Model based Development to accelerate development process of embedded control systems and technologies. The paper also presents a review of the tools used to support Model-Based Development (MBD) from functional requirements to automated testing and Model based testing process",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0051",
+  "title": "From DevOps to MLOps: Overview and Application to Electricity Market Forecasting",
+  "year": "2022",
+  "abstract": "In the Software Development Life Cycle (SDLC), Development and Operations (DevOps) has been proven to deliver reliable, scalable software within a shorter time. Due to the explosion of Machine Learning (ML) applications, the term Machine Learning Operations (MLOps) has gained significant interest among ML practitioners. This paper explains the DevOps and MLOps processes relevant to the implementation of MLOps. The contribution of this paper towards the MLOps framework is threefold: First, we review the state of the art in MLOps by analyzing the related work in MLOps. Second, we present an overview of the leading DevOps principles relevant to MLOps. Third, we derive an MLOps framework from the MLOps theory and apply it to a time-series forecasting application in the hourly day-ahead electricity market. The paper concludes with how MLOps could be generalized and applied to two more use cases with minor changes.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0052",
+  "title": "A survey on real-time 3D scene reconstruction with SLAM methods in embedded systems",
+  "year": "2023",
+  "abstract": "The 3D reconstruction of simultaneous localization and mapping (SLAM) is an important topic in the field for transport systems such as drones, service robots and mobile AR/VR devices. Compared to a point cloud representation, the 3D reconstruction based on meshes and voxels is particularly useful for high-level functions, like obstacle avoidance or interaction with the physical environment. This article reviews the implementation of a visual-based 3D scene reconstruction pipeline on resource-constrained hardware platforms. Real-time performances, memory management and low power consumption are critical for embedded systems. A conventional SLAM pipeline from sensors to 3D reconstruction is described, including the potential use of deep learning. The implementation of advanced functions with limited resources is detailed. Recent systems propose the embedded implementation of 3D reconstruction methods with different granularities. The trade-off between required accuracy and resource consumption for real-time localization and reconstruction is one of the open research questions identified and discussed in this paper.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0053",
+  "title": "Application of evolutionary and swarm optimization in computer vision: a literature survey",
+  "year": "2020",
+  "abstract": "Evolutionary algorithms (EAs) and swarm algorithms (SAs) have shown their usefulness in solving combinatorial and NP-hard optimization problems in various research fields. However, in the field of computer vision, related surveys have not been updated during the last decade. In this study, inspired by the recent development of deep neural networks in computer vision, which embed large-scale optimization problems, we first describe a literature survey conducted to compensate for the lack of relevant research in this area. Specifically, applications related to the genetic algorithm and differential evolution from EAs, as well as particle swarm optimization and ant colony optimization from SAs and their variants, are mainly considered in this survey.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0054",
+  "title": "Context Factors for Governance of Lightweight IT: Literature Review and Qualitative Study",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0055",
+  "title": "Review of Lightweight UAV Target Detection Algorithms Based on YOLO",
+  "year": "2026",
+  "abstract": "UAV(Unmanned Aerial Vehicle) target detection technology has been widely applied in various fields including intelligent security, agricultural monitoring, traffic supervision and emergency rescue due to its advantages of high mobility, wide coverage and fast response. As a benchmark in the field of real-time target detection, the YOLO (You Only Look Once) series algorithms have become the preferred solution for UAV target detection with the characteristics of end-to-end inference and a well-balanced performance between high precision and high speed. However, constrained by the UAV platform's inherent limitations such as limited on-board computing resources, insufficient battery life and strict computing power restrictions, the defects of traditional YOLO algorithms (e.g., large parameter volume, high computational overhead and high inference latency) have become increasingly prominent, making it difficult to meet the real-time deployment requirements of UAV on-board edge devices. As a core approach to resolve this contradiction, lightweight technology enables the efficient adaptation of YOLO algorithms to UAV on-board edge devices by compressing model volume, reducing computational complexity and improving inference speed on the premise of ensuring controllable detection accuracy. Based on this, this paper summarizes the core paths of YOLO lightweight technologies and analyzes the key issues involved, aiming to provide systematic comparison criteria and multi-dimensional adaptation logic for lightweight technical routes in UAV on-board real-time detection tasks under resource constraints. Through a systematic review of lightweight YOLO models, this study finds that multi-technology synergistic optimization (e.g., GhostNet + INT8 quantization + knowledge distillation) can reduce model parameters to as low as $\\mathbf{3. 1 M}$ and improve inference speed to $\\mathbf{1 0 5}$ FPS(Frames Per Second) while maintaining mAP above 37.8% on the UAVDT dataset. These results demonstrate that lightweight YOLO models can effectively balance detection accuracy and real-time performance under hardware constraints. This work not only promotes the engineering implementation of YOLO algorithms in UAV target detection, but also provides an important reference for the innovation of lightweight object detection technologies and visual edge computing scenarios.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0056",
+  "title": "A Review of Sparse Sensor Arrays for Two-Dimensional Direction-of-Arrival Estimation",
+  "year": "2021",
+  "abstract": "Two-dimensional (2D) arrays are fundamental to localization applications. Specifically, sparse arrays can provide superior direction-of-arrival (DoA) estimation performance with limited number of sensors. There has been increased interest in the research community in designing 2D sparse arrays with performance improvement and complexity reduction. The research efforts are uncoordinated resulting in some repetitions and sometimes conflicting claims. After introducing 2D sparse arrays and their importance, this paper establishes the 2D-DoA estimation model and consolidates the performance metrics. An extensive literature overview of sparse arrays for 2D-DoA estimation is presented with an attempt to categorize existing works. The examined arrays include parallel arrays, L-shaped, V-shaped, hourglass, thermos, nested planer, and coprime planner, to name a few. Existing designs are compared in terms of required number of sensors, degrees of freedom (DOF), algorithm used, associated complexity and aperture size. The focus is on describing the sparse arrays, yet some specific details on DoA estimation algorithms are provided for selected array geometries. Fundamental problems of 2D-DoA estimation are outlined and existing solutions to alleviate these problems are discussed. This should be useful in predicting the estimation performance and required complexity; thus, aiding the decision of selecting a sensor geometry for DoA estimation. This review serves as a starting point for researchers interested in exploring or designing new 2D sparse arrays. It also helps to identify the gaps in the field and avoids unnecessary minor design modifications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0057",
+  "title": "Parameter-Efficient Fine-Tuning for Multimodal Fusion: A Survey of Injection-Driven Integration Mechanisms",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0058",
+  "title": "A Comprehensive Review of Edge-Cloud Collaborative Surveillance Systems for Home Security with Portable Edge Devices",
+  "year": "2025",
+  "abstract": "Recent advances in IoT have enabled edge-cloud collaborative surveillance systems, addressing latency, bandwidth, and privacy issues of traditional cloud-only approaches in home security. This paper surveys architectures emphasizing portable, resource-constrained devices like ESP32, highlighting how edge intelligence with cloud support enhances efficiency, scalability, and real-time decision-making. Driven by demand for low-cost residential solutions, this work's novelty lies in systematically categorizing ESP32-based surveillance frameworks, analyzing architectural trends, and comparing latency, energy efficiency, and accuracy. Key research gaps include dataset availability, interoperability, and TinyML optimization for low-power hardware. Limitations and future directions are outlined to guide next-generation intelligent home surveillance systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0059",
+  "title": "A Literature Review of Collaborative Filtering Recommendation System using Matrix Factorization algorithms",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0060",
+  "title": "The Evolution of Deep Learning: Models, Applications, and Future Directions",
+  "year": "2025",
+  "abstract": "This paper presents a comprehensive survey of deep learning (DL) models, systematically categorizing them from foundational architectures such as multilayer perceptrons (MLPs), convolutional neural networks (CNNs), and recurrent neural networks (RNNs) to advanced frameworks like transformers, generative adversarial networks (GANs), large language models (LLMs), and large multimodal models (LMMs). The survey reviews core mechanisms, architectures, and applications across domains, including computer vision, natural language processing, healthcare, and robotics. It highlights emerging trends such as efficient model design, transfer learning, and multimodal integration while addressing key challenges including interpretability, scalability, generalization, and robustness. By critically analyzing the strengths, limitations, and future directions of DL, this work serves as a comprehensive reference for researchers and practitioners seeking to navigate the evolving deep learning landscape.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0061",
+  "title": "Sparse representation for face recognition: A review paper",
+  "year": "2021",
+  "abstract": "With the increasing use of surveillance cameras, face recognition is being studied by many researchers for security purposes. Although high accuracy has been achieved for frontal faces, the existing methods have shown poor performance for occluded and corrupt images. Recently, sparse representation based classiﬁcation (SRC) has shown the state-of-the-art result in face recognition on corrupt and occluded face images. Several researchers have developed extended SRC methods in the last decade. This paper mainly focuses on SRC and its extended methods of face recognition. SRC methods have been compared on the basis of ﬁve issues of face recognition such as linear variation, non-linear variation, undersampled, pose variation, and low resolution. Detailed analysis of SRC methods for issues of face recognition have been discussed based on experimental results and execution time. Finally, the limitation of SRC methods have been listed to help the researchers to extend the work of existing methods to resolve the unsolved issues.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0062",
+  "title": "A Review on Artificial Intelligence and Point-of-Care Diagnostics to Combat Antimicrobial Resistance in Resource-Limited Healthcare Settings like Nigeria",
+  "year": "2025",
+  "abstract": "The global crisis of antimicrobial resistance (AMR) demands innovative diagnostic solutions, particularly in resource-limited settings. This paper examines the integration of artificial intelligence (AI) with point-of-care (POC) diagnostics for AMR detection in Nigerian healthcare systems. A systematic search of literature published between 2018 and 2024 was conducted across major databases including PubMed, Scopus, and Web of Science, yielding 127 relevant studies. Current evidence indicates that AI-enabled POC platforms demonstrate 92-97% accuracy in pathogen identification and can reduce diagnostic turnaround time from 48-72 hours to 2-4 hours. Machine learning algorithms, particularly deep neural networks and random forests, have shown promising results in predicting resistance patterns with 89% sensitivity and 94% specificity. Implementation challenges in Nigeria include limited infrastructure, with only 23% of healthcare facilities having adequate diagnostic capabilities, and a significant workforce shortage, with a ratio of 1 laboratory scientist to 20,000 patients. Economic analyses suggest that AI-POC integration could reduce diagnostic costs by 60% and decrease inappropriate antibiotic prescriptions by 40%. Literature indicates that AI-augmented POC diagnostics represent a viable solution for enhancing AMR surveillance and antimicrobial stewardship in Nigeria.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0063",
+  "title": "A Review and Development Methodology of a LightWeight Security Model for IoT-based Smart Devices",
+  "year": "2020",
+  "abstract": "Internet of Things (IoT) turns into another time of the Internet, which contains connected smart objects over the Internet. IoT has numerous applications, for example, smart city, smart home, smart grid and healthcare. In common, the IoT system comprises of heterogeneous devices that deliver then trade endless sums of safety-critical information, also as privacy-sensitive information. Nevertheless, connected devices can give your business a genuine lift, yet anything that is connected to the Internet can be vulnerable to cyberattacks. Most present IoT arrangements rely upon centralized architecture by associating with cloud servers through the Internet. The public cloud is described as computing services publicized by third-party suppliers over the Internet, making them accessible to anybody who needs to use or buy them. This solution gives magnificent flexible calculation and information the executives capacities, as IoT systems are developing increasingly mind-boggling; nonetheless, despite everything, it faces different of security issues. One of the weaknesses is that your information moving in IoT devices by means of public cloud could be in danger, despite the fact that the hacker was not explicitly focusing on you and with the public cloud you have insignificant authority over how rapidly you can grow the cloud. In this case, a secured protocol in IoT is vital to ensure optimum security to the information being traded between connected devices. To overcome the limitation, in this paper, we conduct a comprehensive review on existing security protocols and propose a development methodology of a blockchain-based lightweight security model that provides end to end security. By utilizing lightweight, an authenticated client can get to the information of IoT sensors remotely. The presentation investigation shows that lightweight offers better security, less overheads, and low communication.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0064",
+  "title": "Voluntary resource sharing at the network edge to provide cloud services: a systematic survey",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0065",
+  "title": "Device-Cloud Collaborative Intelligent Computing: Key Problems, Methods, and Applications",
+  "year": "2024",
+  "abstract": "Device-cloud collaborative intelligent computing, an emergent result of the development in big data, cloud computing, and edge computing, offers significant improvements in data utilization while protecting user privacy. This approach synergizes the realtime response capabilities of intelligent computing with service robustness. The study explores the application value of this computing paradigm, highlighting technical challenges such as optimizing on-device learning efficiency, mitigating overfitting with limited samples at the device, customizing on-device models, learning false associations under distributional discrepancies, and balancing communication overhead with computational efficiency. We systematically review the progress in mainstream methods within devicecloud collaborative intelligent computing, encompassing efficient computation hardware as the application cornerstone, device-centric collaborative computing, cloud-centric collaborative computing, bidirectional device-cloud collaborative computing, and trustworthy device-cloud collaborative computing. The study also summarizes applications in vertical domains such as recommendation systems, autonomous driving, security systems, and educational models. Looking toward the future of device-cloud collaborative intelligent computing, it underscores the need for focused research on cloud resource application strategies in device model personalization, multi-objective optimization algorithms for device-cloud collaboration, and optimized collaborative strategies between devices and the cloud.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0066",
+  "title": "EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation",
+  "year": "2026",
+  "abstract": "Scientific peer review generation has attracted increasing attention for reducing reviewing burdens and providing timely feedback. However, existing Large Language Model (LLM)-based methods often produce generic comments with insufficient evidence support and weak source traceability, while complex multi-agent systems incur high inference costs. To address these challenges, we propose EGTR-Review, an Evidence-Grounded and Traceable Review Generation framework via Multi-Agent Teacher Distillation. EGTR-Review first constructs a multi-agent teacher that performs structure-aware paper decomposition, key-element extraction, external scholarly evidence retrieval, evidence-state labeling, verification reasoning, and review synthesis. It then distills both intermediate reasoning trajectories and final review comments into a lightweight student model through task-prefix-driven multi-task learning. An evidence-weighted objective further reduces the influence of weak, missing, or non-verifiable supervision. Experiments on public peer-review datasets show that EGTR-Review (Student) outperforms strong prompt-based, fine-tuned, and structured/agentic baselines across automatic metrics, LLM-as-Judge evaluation, and human evaluation, while maintaining strong factual grounding and source traceability with substantially lower token consumption and inference time. Our code, prompts, configurations, and sample data are available on GitHub.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0067",
+  "title": "Application for Tracking Bugs in Software Development: Improving Project Management Efficiency",
+  "year": "2026",
+  "abstract": "The rapid growth of Albania’s IT sector has highlighted inefficiencies in software development, particularly in small and medium enterprises (SMEs) reliant on manual bug tracking methods like spreadsheets and email. These approaches often lead to delayed resolutions, fragmented data, and poor team coordination, increasing project costs and compromising quality. This research aims to address these challenges by developing an automated, centralized bug tracking platform tailored for Albanian SMEs, enhancing project management efficiency and transparency. Unlike costly commercial tools like Jira, which are often inaccessible to resource-constrained firms, this solution prioritizes affordability and usability. Built using C#, ASP.NET MVC, MySQL, Entity Framework, and Bootstrap, the platform was developed following the Software Development Life Cycle (SDLC) and evaluated through stakeholder interviews, user surveys, and empirical testing. The system achieved a 58.6% reduction in bug resolution time (from 5.8 to 2.4 hours), with 80% of users rating the interface as intuitive and 90% expressing confidence in its security features, including ASP. NET Identity and role-based authorization. By streamlining workflows and fostering collaboration (averaging 3.2 comments per bug), this platform offers a scalable, cost- effective solution for SMEs. It contributes to software engineering by demonstrating how integrated technologies can modernize development processes in resource limited contexts, with potential for broader adoption in Albania and beyond.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0068",
+  "title": "Corrigendum to \"Dealing with high dimensional multi-view data: A comprehensive review of non-negative matrix factorization approaches in data mining and machine learning\" [Computer Science Review 58 (2025) 100788]",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0069",
+  "title": "Voice Activation Systems for Embedded Devices: Systematic Literature Review",
+  "year": "2020",
+  "abstract": "A large number of modern mobile devices, embedded devices and smart home devices are equipped with a voice control. Automatic recognition of the entire audio stream, however, is undesirable for the reasons of the resource consumption and privacy. Therefore, most of these devices use a voice activation system, whose task is to find the specified in advance word or phrase in the audio stream (for example, Ok, Google) and to activate the voice request processing system when it is found. The voice activation system must have the following properties: high accuracy, ability to work entirely on the device (without using remote servers), consumption of a small amount of resources (primarily CPU and RAM), noise resistance and variability of speech, as well as a small delay between the pronunciation of the key phrase and the system activation. This work is a systematic literature review on voice activation systems that satisfy the above properties. We describe the principle of various voice activation systems’ operation, the characteristic representation of sound in such systems, consider in detail the acoustic modelling and, finally, describe the approaches used to assess the models’ quality. In addition, we point to a number of open questions in this problem.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0070",
+  "title": "Interpretable Text Classification Via Prototype Trajectories",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0071",
+  "title": "Interference Challenges and Mitigation Strategies for LoRa in Dense IoT Networks: A Review",
+  "year": "2025",
+  "abstract": "The rapid growth of the Internet of Things (IoT) has made Long Range (LoRa) technology a top choice for providing lowpower, wide-area connectivity in smart cities, agriculture, and industrial monitoring.However, as network density rises, interference has become a significant issue that affects coverage, reliability, and energy efficiency.This review analyzes the interference challenges in LoRa networks and looks at how well existing strategies work.We examine the mechanisms of co-channel, adjacent-channel, and cross-technology interference in detail.We then compare solutions that are applied at the physical, MAC, and network layers.The review points out important research gaps, such as the need for interferenceaware scheduling, dynamic spectrum allocation, and coexistence frameworks for different LPWAN systems.By summarizing current developments and noting their limitations, this work suggests future research paths for creating interference-resistant LoRa networks.It emphasizes optimizing across layers, using machine learning for interference prediction, and managing networks that can organize themselves.The insights offered aim to inform future advancements in scalable, energy-efficient, and reliable LoRa-based IoT communication.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0072",
+  "title": "A Review on: A Lightweight DCCN System for Real-Time Surveillance that Detects Abandoned Objects",
+  "year": "2025",
+  "abstract": "In the context of video surveillance, abandoned object detection has become all the rage in recent years. Hence, several methods have been suggested to automatically monitor both public and private spaces, each with its own set of obstacles impacting detection accuracy. Researchers often address the different processing steps, static object recognition, border segmentation, and relinquishment checking, in separate studies because of the complexity of these systems. There has not been much published on how each step improves the overall output of the pipeline as progress is rarely applied to a whole pipeline though it is conceived at stage. One the most important duties of surveillance systems in defending the public, is the provision of the function to recognize abandoned objects. This research investigates the possibility of using lightweight Deep Convolution Neural Networks (DCNN) for abandoned item recognition in surveillance environments in real- time. The purpose of abandoned item detection is to identify things that have been overlooked for a long time and could be a security risk or a logistical challenge. Traditional approaches often lack greatly in terms of precision and efficiency. Lightweight DCNN systems are offered by compromising between computing economy and performance. With a focus on the integration of lightweight DCNN models, this paper gives an overview of recent developments and directions in abandoned object detection. Topics covered include dataset preparation, network design, training methods, and evaluation criteria. In addition, challenges and potential future work directions are highlighted.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0073",
+  "title": "Overview of Some mm-Wave Antenna Designs Embedded in Metal Exteriors of Cellular Phones",
+  "year": "2020",
+  "abstract": "The overview of some mm-Wave antenna designs embedded in metal exteriors of cellular phones presents an evolution from the 5th generation mobile communications (5G) single-band single-polarized mm-Wave antennas, dual-band single-polarized mm-Wave antennas, dual-band single-polarized mm-Wave antennas in a non-mm-Wave antenna, dual-band dual-polarized mm-Wave antennas, dual-band dual-polarized mm-Wave antennas in a non-mm-Wave antenna, wideband dual-polarized mm-Wave antennas in a non-mm-Wave antenna, to 60-GHz single-band single-polarized mm-Wave antennas in a non-mm-Wave antenna.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0074",
+  "title": "A Survey on Lora and IoT based Auto Irrigation System",
+  "year": "2023",
+  "abstract": "Due to the growth of the IoT, conventional agriculture is evolving into an IoT based smart agriculture system(Internet of things). In order to monitor the environmental parameters and boost the effectiveness of agricultural system, a service platform for agriculture is being developed. Different Climatic Condition Parameters must be closely monitored in agricultural fields like greenhouses in order to control crop production. Climate change has already demonstrated its detrimental effectsprimarily as a result of changes in temperature, rainfall shortages or surpluses, and other relevant environmental fluctuations. Researchers and business personnel are paying more attention to wireless sensor networks. As opposed to mobile Wi-Fi modules and Bluetooth communications, Low-power LoRa technology offers extremely long transmission distances (up to 15 km) with minimal power consumption (measured in milliwatts).",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0075",
+  "title": "Horizontal Review on Video Surveillance for Smart Cities: Edge Devices, Applications, Datasets, and Future Trends",
+  "year": "2021",
+  "abstract": "The automation strategy of today’s smart cities relies on large IoT (internet of Things) systems that collect big data analytics to gain insights. Although there have been recent reviews in this field, there is a remarkable gap that addresses four sides of the problem. Namely, the application of video surveillance in smart cities, algorithms, datasets, and embedded systems. In this paper, we discuss the latest datasets used, the algorithms used, and the recent advances in embedded systems to form edge vision computing are introduced. Moreover, future trends and challenges are addressed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0076",
+  "title": "A Review on Edge Intelligence for Low Power IoT Platforms",
+  "year": "2026",
+  "abstract": "Edge Machine Learning is becoming essential as billions of IoT devices demand fast, low latency and privacy aware processing. Cloud only computation creates delays, bandwidth issues and security risks, making on device intelligence necessary. This paper reviews lightweight ML models and compression techniques such as Mobile Nets, Squeeze Net, Bonsai, ProtoNN, pruning and quantization that enable AI on low power microcontrollers. It also compares edge architectures including on device inference, edge cloud collaboration and joint computation frameworks like Neurosurgeon and Deep Things. Key wireless technologies such as BLE, ZigBee, LoRa, NB IoT and 5G and privacy methods such as differential privacy are also discussed. A case study using a CNN on an STM32 microcontroller demonstrates practical feasibility. The review highlights future research directions toward efficient, secure and scalable AI enabled IoT systems.\nKeywords-Edge Machine Learning, Internet of Things, Embedded AI, Lightweight ML Models Model Compression.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0077",
+  "title": "Cross-Dataset Movie Review Sentiment Classification Using GloVe-Enhanced BiLSTM Attention and Lightweight Hybrid Ensembles",
+  "year": "2026",
+  "abstract": "Binary sentiment classification remains a useful test bed for evaluating the trade-off between sparse lexical models, neural sequence models, and lightweight ensembles. This study compares logistic regression, multinomial naive bayes, linear support vector machines, Random Forests, TextCNN, RNN, LSTM, BiLSTM, and BiLSTM with additive attention for English movie-review sentiment classification. The neural models are evaluated with and without 100-dimensional GloVe word vectors. Experiments use the 50,000-review IMDb dataset and the GLUE SST-2 benchmark. A validation partition is reserved for model selection and ensemble-weight selection, while final results are reported over five random seeds. On IMDb, a lightweight ensemble of logistic regression, SVM, and CNN probabilities achieved the best F1-score (0.9005 +/- 0.0011) and ROC-AUC (0.9632 +/- 0.0007). On the external SST-2 test set, BiLSTM with attention and GloVe was strongest, achieving an F1-score of 0.8431 +/- 0.0078 and ROC-AUC of 0.9170 +/- 0.0056. The ablation study shows that GloVe improves the attention model by 0.0243 F1 on IMDb. The findings demonstrate that lightweight lexical ensembles are highly effective in-domain, whereas attention-enhanced sequence modeling provides stronger cross-dataset generalization.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0078",
+  "title": "Integrating Deep Learning with Data Analytics for Visual and Textual Knowledge",
+  "year": "2026",
+  "abstract": "The ever-increasing volume of unstructured data in image and text format has posed a major challenge to conventional data analytics. The combination of deep learning and data analytics has become a promising solution to harness knowledge from such diverse and unstructured data sources. This work is a review of the integration of deep learning methods with data analytics platforms for efficient visual and textual knowledge extraction. Various state-of-the-art deep learning models such as convolutional neural networks (CNNs), recurrent neural networks (RNNs) and transformers are investigated for feature extraction, pattern matching and semantic interpretation in image and text mining applications. The integrated approach facilitates efficient, scalable, and accurate processing of multimodal big data. Use cases in various fields including medicine, social media, document understanding, security and recommendation systems are explored to showcase the impact of this approach. Moreover, challenges such as data diversity, interpretability, computational efficiency and ethical issues are discussed, alongside potential future work. This work emphasizes how the synergy between deep learning and data analytics enhances intelligent decision-making by transforming raw visual and textual data into actionable knowledge.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0079",
+  "title": "Stochastic-control multi-attribute preference learning with sparse reviews",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0080",
+  "title": "GEM: Geometric Entropy Mixing for Optimal LLM Data Curation",
+  "year": "2026",
+  "abstract": "LLM pre-training efficacy increasingly depends on data composition rather than sheer volume. Yet, optimal mixing is hindered by categorization flaws: human taxonomies suffer from ontological misalignment, and Euclidean clustering fails to address embedding anisotropy. We introduce GEM (Geometric Entropy Mixing), a framework reformulating data curation as a variational problem on the hypersphere augmented with a mixing-balance regularizer. By decoupling the generative prior and optimizing the objective via a provable MM (Minorize-Maximize) algorithm, GEM effectively counteracts the cluster collapse to discover balanced semantic structures invisible to Euclidean heuristics. We employ teacher-student distillation to scale this geometric fidelity to web-scale corpora and introduce the Geometric Influence Score (GIS) for interpretable taxonomy generation. Experiments with 1.1B-parameter models demonstrate that GEM establishes a new state-of-the-art when integrated into mixing strategies like DoReMi and RegMix, improving average downstream accuracy by up to 1.2% and offering a robust coordinate system for predictable data mixing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

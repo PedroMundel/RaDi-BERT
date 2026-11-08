@@ -1,0 +1,441 @@
+﻿[
+  {
+    "id": "F0333",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0357",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Knowledge Distillation A Review of Methods and Applications in LiDAR Data",
+        "notas": "[título]"
+      },
+      {
+        "item": "técnica",
+        "texto": "Knowledge Distillation"
+      }
+    ]
+  },
+  {
+    "id": "F0367",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "We propose a novel deep learning architecture using cross-task knowledge distillation to address these tasks simultaneously."
+      },
+      {
+        "item": "tipo",
+        "texto": "We propose a novel deep learning architecture"
+      },
+      {
+        "item": "técnica",
+        "texto": "cross-task knowledge distillation"
+      },
+      {
+        "item": "pratica",
+        "texto": "achieving superior BLEU and CodeBLEU scores"
+      }
+    ]
+  },
+  {
+    "id": "F0370",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0424",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we propose GEAR-Seg (Grounded Explainable Agent for Reasoning Segmentation), an explicitly decoupled agent that shifts the paradigm by translating visual pixels into dense, attribute-rich text"
+      },
+      {
+        "item": "modelos",
+        "texto": "By decoupling class-agnostic segmentation, semantic description, and Large Language Model (LLM) deduction"
+      },
+      {
+        "item": "técnica",
+        "texto": "distillation experiments demonstrate that lightweight models supervised exclusively by our automated pipeline closely match the upper-bound performance of costly human-annotated baselines"
+      },
+      {
+        "item": "pratica",
+        "texto": "we construct GEAR-131K, a massive benchmark (over 38k images, 656k QA-mask pairs)"
+      }
+    ]
+  },
+  {
+    "id": "F0432",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper aims to present the state-of-the-art on NMF initialization schemes"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Review on Initialization Methods for Nonnegative Matrix Factorization",
+        "notas": "[título]"
+      },
+      {
+        "item": "técnica",
+        "texto": "Nonnegative Matrix Factorization (NMF)"
+      }
+    ]
+  },
+  {
+    "id": "F0421",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This study proposes a self-distillation framework based on XLM-RoBERTa-base for binary sentiment analysis of multilingual application reviews"
+      },
+      {
+        "item": "modelos",
+        "texto": "XLM-RoBERTa-base, transformer models"
+      },
+      {
+        "item": "técnica",
+        "texto": "self-distillation framework"
+      }
+    ]
+  },
+  {
+    "id": "F0427",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0472",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This research evaluates the Low-Rank Adaptation (LoRA) technique for optimizing emotion recognition in Indonesian product reviews"
+      },
+      {
+        "item": "modelos",
+        "texto": "transformer models"
+      },
+      {
+        "item": "técnica",
+        "texto": "Low-Rank Adaptation (LoRA)"
+      },
+      {
+        "item": "pratica",
+        "texto": "Indobert-large-p2, Indobert-base-uncased, and Indobertweet-base-uncased models were trained on the PRDECT-ID dataset"
+      }
+    ]
+  },
+  {
+    "id": "F0469",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0453",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Crowd counting refers to the task of estimating the number of people within a specific area"
+      },
+      {
+        "item": "tipo",
+        "texto": "Crowd counting via lightweight neural networks: a literature review",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "convolutional neural networks and the Transformer architecture, as well as multimodal pre-trained models, such as CLIP and SAM"
+      },
+      {
+        "item": "técnica",
+        "texto": "lightweight crowd-counting approaches"
+      },
+      {
+        "item": "pratica",
+        "texto": "we summarize publicly available datasets, evaluation metrics, latest lightweight architectures, and evaluate representative models on benchmark datasets"
+      }
+    ]
+  },
+  {
+    "id": "F0447",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0488",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The aim of this work is a carry-out Comprehensive Review of Artificial Neural Network Techniques Used for Smart MeterEmbedded forecasting System"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Comprehensive Review of Artificial Neural Network Techniques",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "Artificial Neural Networks (ANNs)"
+      },
+      {
+        "item": "pratica",
+        "texto": "smart meters for residential buildings"
+      }
+    ]
+  },
+  {
+    "id": "F0516",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0511",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0530",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we propose QwT-v2, which not only enjoys all advantages of but also resolves major defects of QwT"
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose QwT-v2"
+      },
+      {
+        "item": "modelos",
+        "texto": "deep neural networks"
+      },
+      {
+        "item": "técnica",
+        "texto": "Post-Training Quantization"
+      },
+      {
+        "item": "pratica",
+        "texto": "compatible with most existing hardware platforms"
+      }
+    ]
+  },
+  {
+    "id": "F0528",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Analysis on Log Parsing: Classical Methods to LLM-Based Approaches",
+        "notas": "[título; abstract vazio]"
+      }
+    ]
+  },
+  {
+    "id": "F0545",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review highlights key trends including hybrid architectures, multi-scale feature extraction, and optimization-driven designs"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Review",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "Convolutional neural networks (CNNs), Advanced segmentation models such as U-Net, Mask R-CNN, and DeepLab, classification models like ResNet and EfficientNet"
+      },
+      {
+        "item": "técnica",
+        "texto": "sparsity-aware orthogonal initialization"
+      }
+    ]
+  },
+  {
+    "id": "F0532",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey comprehensively reviews a crucial subset of DA techniques, namely Mix-based Data Augmentation (MixDA), which generates novel samples by combining multiple examples"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability",
+        "notas": "[título]"
+      },
+      {
+        "item": "técnica",
+        "texto": "Mix-based Data Augmentation (MixDA)"
+      }
+    ]
+  },
+  {
+    "id": "F0575",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0590",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Survey on Regularized Sparse Optimization Models and Algorithms",
+        "notas": "[título]"
+      },
+      {
+        "item": "técnica",
+        "texto": "regularized sparse optimization models"
+      }
+    ]
+  },
+  {
+    "id": "F0587",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This study not only reviews the basic research of human pose estimation but also summarizes the latest cutting-edge technologies"
+      },
+      {
+        "item": "tipo",
+        "texto": "A systematic survey on human pose estimation: upstream and downstream tasks, approaches, lightweight models, and prospects",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "the lightweight human pose estimation models and the transformer-based human pose estimation models"
+      },
+      {
+        "item": "pratica",
+        "texto": "classic datasets and targeted datasets are mentioned in this paper, as well as metrics applied to these datasets"
+      }
+    ]
+  },
+  {
+    "id": "F0621",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0627",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Knowledge distillation (KD) has emerged as a powerful tool to meet this need, enabling the transfer of knowledge from large, complex models to smaller, more efficient ones"
+      },
+      {
+        "item": "tipo",
+        "texto": "This review article provides an extensive examination of KD and its innovative applications in RS"
+      },
+      {
+        "item": "técnica",
+        "texto": "Knowledge distillation (KD)"
+      },
+      {
+        "item": "pratica",
+        "texto": "specific case studies that showcase the practical implementation of KD methods in RS tasks, such as instance segmentation and object detection"
+      }
+    ]
+  },
+  {
+    "id": "F0630",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "this study seeks to identify trends, directions of growth, and research needs in the use of ML in digital service management"
+      },
+      {
+        "item": "tipo",
+        "texto": "Bibliometric and Systematic Literature Review",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "Random Forest, SVM, and LSTM, Large Language Models (LLM)"
+      },
+      {
+        "item": "técnica",
+        "texto": "Explainable Artificial Intelligence (XAI)"
+      },
+      {
+        "item": "pratica",
+        "texto": "This study presents a Human-in-the-Loop (HITL) strategy that combines interpretability methods, including Local Interpretable Model-agnostic Explanations (LIME)"
+      }
+    ]
+  },
+  {
+    "id": "F0608",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This study systematically investigates several representative PEFT methods, surveying the effect of hyperparameter choices"
+      },
+      {
+        "item": "tipo",
+        "texto": "An Empirical Study",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "pretrained language models"
+      },
+      {
+        "item": "técnica",
+        "texto": "Parameter Efficient Finetuning (PEFT), LoRA and adapter"
+      }
+    ]
+  },
+  {
+    "id": "F0669",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review investigates Goldenits et al.'s (2025) empirical comparison of fifteen open small language models (SLMs) for phishing website detection"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Review of Cost, Performance, and Privacy Trade-Offs",
+        "notas": "[título]"
+      },
+      {
+        "item": "modelos",
+        "texto": "small language models (SLMs), large language models (LLMs), llama3.3:70b"
+      },
+      {
+        "item": "pratica",
+        "texto": "test each model with a stratified sample of 1,000 labelled websites from a pool of 10,395 websites"
+      }
+    ]
+  },
+  {
+    "id": "F0648",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "We provide a user-friendly, flexible, and lightweight open-source HCI toolkit (github.com/QButterfly)"
+      },
+      {
+        "item": "pratica",
+        "texto": "The toolkit consists of a survey template with embedded JavaScript, a JavaScript library embedded in the HTML web pages, and scripts to analyze the collected data"
+      }
+    ]
+  }
+]

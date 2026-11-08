@@ -1,0 +1,13 @@
+{
+ "votantes": 211,
+ "excl_votantes": {
+  "visão/CNN": 31,
+  "": 152,
+  "dataset distillation": 14,
+  "federada": 14
+ },
+ "votantes_escopo": 152,
+ "com_refs": 88,
+ "recentes": 54,
+ "candidatos": 240
+}

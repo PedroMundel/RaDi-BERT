@@ -1,0 +1,436 @@
+[
+ {
+  "id": "F0441",
+  "title": "Flight Data-Driven LSTM-Family Models for Resource-Aware Edge Deployment in Aerial Systems: A Review and Methodological Evaluation",
+  "year": "2026",
+  "abstract": "Flight data-driven modeling has become an important approach for trajectory prediction, anomaly detection, and risk assessment in unmanned aerial vehicles and other aerial systems. Such data are usually high-dimensional, nonlinear, multirate, and non-stationary, especially during maneuvering flight, environmental disturbance, and mission-phase transitions. Traditional physics-based methods and shallow machine learning models often have limited adaptability in these conditions, while Long Short-Term Memory (LSTM) networks and their variants have shown strong potential for learning temporal dependencies from complex flight sequences. This paper reviews the development and application of LSTM-family models for flight data analysis, with attention to both methodological performance and resource-aware deployment. The reviewed models include basic LSTM, BiLSTM, CNN-LSTM, ConvLSTM, LSTM autoencoder, attention-enhanced LSTM, graph-based LSTM, and uncertainty-aware LSTM. Their applications are discussed in three main areas: flight trajectory prediction, anomaly detection, and risk assessment. Beyond prediction accuracy, this review also examines robustness to distribution shift, physical consistency, interpretability of anomalies, uncertainty estimation, and onboard implementation. A four-layer and ten-dimensional evaluation framework is presented across data characteristics, model performance, physical-mechanism consistency, and system-engineering constraints. The evidence shows that model size, runtime memory, computational cost, inference latency, energy consumption, and target hardware are often insufficiently reported, while direct quantitative onboard validation remains scarce. This gap highlights the need for standardized deployment reporting.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0442",
+  "title": "From Seizure Detection to Smart and Fully Embedded Seizure Prediction Engine: A Review",
+  "year": "2020",
+  "abstract": "Recent review papers have investigated seizure prediction, creating the possibility of preempting epileptic seizures. Correct seizure prediction can significantly improve the standard of living for the majority of epileptic patients, as the unpredictability of seizures is a major concern for them. Today, the development of algorithms, particularly in the field of machine learning, enables reliable and accurate seizure prediction using desktop computers. However, despite extensive research effort being devoted to developing seizure detection integrated circuits (ICs), dedicated seizure prediction ICs have not been developed yet. We believe that interdisciplinary study of system architecture, analog and digital ICs, and machine learning algorithms can promote the translation of scientific theory to a more realistic intelligent, integrated, and low-power system that can truly improve the standard of living for epileptic patients. This review explores topics ranging from signal acquisition analog circuits to classification algorithms and dedicated digital signal processing circuits for detection and prediction purposes, to provide a comprehensive and useful guideline for the construction, implementation and optimization of wearable and integrated smart seizure prediction systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0443",
+  "title": "Public Blockchains for Resource-Constrained IoT Devices—A State-of-the-Art Survey",
+  "year": "2021",
+  "abstract": "Although blockchain offers a lot of benefits for the Internet-of-Things (IoT) network in terms of security, there are a number of barriers to its widespread adoption. Since many IoT networks consist of battery-powered devices with limited computing capabilities, one of those adoption barriers is the IoT end node itself. Several articles provided a general survey of the blockchain integration with IoT applications. However, a detailed analysis of this integration is missing, possible challenges are omitted, and no solutions that would enable the integration are presented. Furthermore, none of the surveys focused on reviewing public blockchains for IoT devices with low computational capabilities and limited energy resources. Therefore, the aim of this article is to provide the results of an in-depth study that covers challenges faced by existing public blockchains with IoT device integration. This article looks into resource-constrained IoT device classification and the wireless communication protocols used by them. It examines challenges that are required to be overcome for the successful integration of resource-constrained IoT end nodes with existing public blockchains. It then looks at the proposed solutions and their feasibility. A detailed review of possible security attacks on an IoT blockchain network is provided. As a result, a list of important characteristics that a public blockchain should possess in order to be integrated with a resource-constrained IoT network is proposed. Finally, the requirements for the IoT end nodes themselves are specified.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0444",
+  "title": "Improving Media Bias Detection with state-of-the-art Transformers",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0445",
+  "title": "A Comprehensive Survey of AI-Driven Reward-Based Secure 6G Vehicle Communication Using Lightweight Blockchain",
+  "year": "2026",
+  "abstract": "The rapid growth of sixth-generation (6G) technology has made considerable advancements in developing intelligent transportation systems via ultralow latency, high reliability, and massive connectivity in vehicle-to-everything (V2X) communications. However, ensuring secure and efficient communication among vehicles is one of the greatest challenges for V2X technology because of cyber-attacks, data tampering, and lack of trust in the decentralized network. Artificial intelligence (AI) and lightweight blockchain have recently emerged as two potential techniques to guarantee secure and reliable communication among vehicles in 6G networks. Thus, this study will focus on providing an overview of the recent developments regarding reward-based secure 6G vehicle communication using AI-assisted lightweight blockchain techniques. This study will review the existing literature on AI-assisted V2X communications, blockchain security, and reward-based schemes. Furthermore, the current challenges such as latency problem, computational complexity, scalability issue, and high energy consumption in 6G blockchain vehicular networks will be examined. Finally, future research directions for blockchain-enabled 6G V2X communication will be suggested.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0446",
+  "title": "Knowledge Distillation Based Recommendation Systems: A Comprehensive Survey",
+  "year": "2025",
+  "abstract": "Deep learning-driven deep recommendation systems have achieved remarkable success in recent years. However, the deployment of deep recommendation models on resource-constrained equipment and systems (e.g., mobile devices and embedded systems) is a significant challenge. To overcome this challenge, knowledge distillation has been introduced into the design of deep recommendation algorithms as a typical model compression and acceleration technique, and has gradually attracted the attention of both academia and industry. In this survey, the main efforts are: (1) to discuss the basic concepts, necessity and operation mechanism issues related to knowledge distillation recommendation systems; (2) to summarize and categorize existing representative knowledge distillation recommendation methods according to the viewpoint of knowledge distillation, and then analyze and elaborate their representative knowledge distillation recommendation methods in depth; (3) to introduce the analysis and discussion done by industry on how knowledge distillation can be applied to industrial recommendation systems, and summarize the ideas of applying knowledge distillation in various links of industrial recommendation systems; and (4) to present several possible future research directions for knowledge distillation recommendation systems, and summarize the results of the survey. This survey can guide researchers and practitioners to prepare and encourage further efforts to advance the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0447",
+  "title": "Model-Switching: Dealing with Fluctuating Workloads in Machine-Learning-as-a-Service Systems",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0448",
+  "title": "BiKD2: Bidirectional Knowledge Distillation-enhanced explicit graph Disentangling network for review-based recommendation",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0449",
+  "title": "Review of Embedded Temperature Monitoring Systems Using Digital Sensors and SoC Platforms",
+  "year": "2026",
+  "abstract": "This paper provides a review of the use of communication protocols like Inter-Integrated Circuit (I2C) and Serial Peripheral Interface (SPI) for the integrating digital sensors in industrial automation. The paper focuses on using digital sensors in the temperature sensing system, which is one of the essential parts in industrial automation. The use of SoC (System-on-Chip) use in modern-day platforms ensures precise and accurate measurement, which increases the efficiency and scalability of the system. This paper also discusses different types of communication media, like IoT (Internet-of-Things), Cloud, and Ethernet, based on their efficiency and performance. The paper analyzes the vulnerabilities in the current temperature monitoring system while providing improvements that can be integrated into the existing systems, providing faster data communication and reliability.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0450",
+  "title": "A Survey on Smart Agricultural System Using LoRa Wireless Technology",
+  "year": "2020",
+  "abstract": "Over the past few years, the designing in smart agriculture system is a very important concept. Using\nsmart farming techniques we can build up the crop yield, and concurrently attain better output from the input.\nIn precision agriculture, a wireless sensor network brings a cost-effective solution to watch and manipulate.\nWe already have many wireless protocols like Wi-Fi, Cellular, BLE (Bluetooth low energy), etc. Although this\nautomation, not optimal for cultivation sensor nodes, there is a demand to send information to a great\ndistance without an internet connection. This leads to boost the LoRa (Long range) technology, which can do\nvery long-range transmission with the lowest cost [14]. The paper provides a brief survey of certain\nrequirements for Smart Agriculture such as wireless sensor networks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0451",
+  "title": "FailureAtlas: A Taxonomy of Failure Modes in Multi-Provider LLM Serving Infrastructure",
+  "year": "2026",
+  "abstract": "Multi-provider LLM gateways reverse proxies that route, load-balance, and rate-limit requests across foundation-model APIs have become critical production infrastructure. Yet the failure modes specific to this architectural layer remain undocumented, scattered across issue trackers and post-mortems with no unifying framework. We introduce \\fa{}, a two-axis taxonomy that classifies failures by their \\emph{origin layer} (Network/Transport, Streaming/Protocol, State/Session, Model~Behavior, Governance/Cost) and their \\emph{detectability} (Loud vs.\\ Silent). We populate this taxonomy with five verified catalog entries sourced from public bug reports and first-hand stress testing, each accompanied by a mechanistic root-cause analysis. Three entries include standalone reproduction scripts. Our principal finding is that the most operationally severe failures are \\emph{silent}: they return HTTP~200, pass every standard health check, and corrupt application state in ways that require semantic-level observability to detect. Two such silent failures a concurrency race condition causing history loss and a streaming index collision corrupting tool-call payloads were discovered first-hand during \\cb{} evaluation campaigns.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0452",
+  "title": "Overview of the EEG-Based Classification of Motor Imagery Activities Using Machine Learning Methods and Inference Acceleration with FPGA-Based Cards",
+  "year": "2022",
+  "abstract": "In this article, we provide a brief overview of the EEG-based classification of motor imagery activities using machine learning methods. We examined the effect of data segmentation and different neural network structures. By applying proper window size and using a purely convolutional neural network, we achieved 97.7% recognition accuracy on data from twenty subjects in three classes. The proposed architecture outperforms several networks used in previous research and makes the motor imagery-based BCI more efficient in some applications. In addition, we examined the performance of the neural network on a FPGA-based card and compared it with the inference speed and accuracy provided by a general-purpose processor.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0453",
+  "title": "Crowd counting via lightweight neural networks: a literature review",
+  "year": "2025",
+  "abstract": "Crowd counting refers to the task of estimating the number of people within a specific area, which provides insights into crowd dynamics and distribution. This task has widespread applications across various domains, including public safety, urban planning, and traffic management. Recent advances in deep learning, particularly the convolutional neural networks and the Transformer architecture, as well as multimodal pre-trained models, such as CLIP and SAM, have substantially improved counting accuracy. However, existing models are mainly designed in high-complexity architecture, which incur heavy computational and data requirements, and hinder real-time deployment and increase the cost. Consequently, lightweight crowd-counting approaches have emerged as a key research direction, which aims to reduce parameters and inference time while retaining high performance. In this survey, we summarize publicly available datasets, evaluation metrics, latest lightweight architectures, and evaluate representative models on benchmark datasets to inspire future research in crowd counting.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0454",
+  "title": "Integrating Low-Tech Gamification in MATATAG TLE 8: A Systematic Review of its Impact on 21stCentury Skills in Resource-Constrained Contexts",
+  "year": "2026",
+  "abstract": "This systematic review examines the role of gamification, particularly low-tech approaches, in enhancing 21stcentury skills within the context of Technology and Livelihood Education (TLE) under the Philippine MATATAG\nCurriculum. The review aims to synthesize existing literature on how gamified strategies influence critical thinking,\ncreativity, collaboration, communication, and ICT literacy in secondary education, especially in resource-constrained\nenvironments such as Geographically Isolated and Disadvantaged Areas (GIDA). Drawing from peer-reviewed studies,\nmeta-analyses, and policy documents published between 2010 and 2024, the review identifies consistent evidence that\ngamification significantly improves learner motivation, engagement, and cognitive outcomes. While most studies focus on\ndigital gamification platforms, emerging findings reveal that low-tech approaches—such as physical badges, quest boards,\nand point systems—can achieve comparable results when properly designed. However, there remains a lack of empirical\nresearch addressing low-tech gamification within TLE, particularly under the MATATAG curriculum and the newly\nadopted trimestral system. This review highlights these gaps and emphasizes the need for context-sensitive and scalable\nstrategies to ensure equitable access to innovative pedagogy in underserved educational settings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0455",
+  "title": "Introduction to the special issue on data science in Asia (with PAKDD’2020)",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0456",
+  "title": "Solar Distillation Systems Enriched With Machine Learning Techniques: A Review",
+  "year": "2021",
+  "abstract": "\n Solar stills have the advantage of using solar radiation as they are the simple thermal energy source for saline water and industrial water desalination. This paper focuses on a detailed review of how a solar distillation system performance evaluation can be made with ongoing higher-end Machine learning techniques explicitly helpful in optimising and evaluating the still performance. Complete research on the implementation of ML models is made in this study to draw the feasibility of implementing the appropriate supervised or unsupervised machine learning methods. A comparison of the two of deep learning models applied in the advancement of the solar distillation process is explained in this study. The need for performance assessment of solar distillation system with Machine Learning Techniques is analyzed, and further significant features and components of ML and DL Methods are clearly explained. Keeping the importance of the study in front, a comparative analysis is made from the observations found in the literature review. We conclude that the Classification ML Techniques with ANN are the most appropriate models to predict the solar distillate while the ANN-MLP, ANN-FF models are more accurate than the other models. Instead of a traditional statistical approach, a DNN Hybrid model with more hidden layers can be used in optimising the water depth.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0457",
+  "title": "Sparsity-Based Audio Declipping Methods: Selected Overview, New Algorithms, and Large-Scale Evaluation",
+  "year": "2020",
+  "abstract": "Recent advances in audio declipping have substantially improved the state of the art. Yet, practitioners need guidelines to choose a method, and while existing benchmarks have been instrumental in advancing the field, larger-scale experiments are needed to guide such choices. First, we show that the clipping levels in existing small-scale benchmarks are moderate and call for benchmarks with more perceptually significant clipping levels. We then propose a general algorithmic framework for declipping that covers existing and new combinations of variants of state-of-the-art techniques exploiting time-frequency sparsity: synthesis vs. analysis sparsity, with plain or structured sparsity. Finally, we systematically compare these combinations and a selection of state-of-the-art methods. Using a large-scale numerical benchmark and a smaller scale formal listening test, we provide guidelines for various clipping levels, both for speech and various musical genres. The code is made publicly available for the purpose of reproducible research and benchmarking.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0458",
+  "title": "Distractor Generation Through Text-to-Text Transformer Models",
+  "year": "2024",
+  "abstract": "In recent years, transformer language models have made a significant impact on automatic text generation. This study focuses on the task of distractor generation in Spanish using a fine-tuned multilingual text-to-text model, namely mT5. Our method outperformed established baselines based on LSTM networks, confirming the effectiveness of Transformer architectures in such NLP tasks. While comparisons with other Transformer-based solutions yielded diverse outcomes based on the metric of choice, our method notably achieved superior results on the ROUGE metric compared to the GPT-2 approach. Although traditional evaluation metrics such as BLEU and ROUGE are commonly used, this paper argues for more context-sensitive metrics given the inherent variability in acceptable distractor generation results. Among the contributions of this research is a comprehensive comparison with other methods, an examination of the potential drawbacks of multilingual models, and the introduction of alternative evaluation metrics. Future research directions, derived from our findings and a review of related works are also suggested, with a particular emphasis on leveraging other language models and Transformer architectures.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0459",
+  "title": "Eliminating Agentic Workflow for Introduction Generation with Parametric Stage Tokens",
+  "year": "2025",
+  "abstract": "In recent years, using predefined agentic workflows to guide large language models (LLMs) for literature classification and review has become a research focus. However, writing research introductions is more challenging. It requires rigorous logic, coherent structure, and abstract summarization. Existing workflows often suffer from long reasoning chains, error accumulation, and reduced textual coherence. To address these limitations, we propose eliminating external agentic workflows. Instead, we directly parameterize their logical structure into the LLM. This allows the generation of a complete introduction in a single inference. To this end, we introduce the Stage Token for Introduction Generation (STIG). STIG converts the multiple stages of the original workflow into explicit stage signals. These signals guide the model to follow different logical roles and functions during generation. Through instruction tuning, the model learns the mapping between stage tokens and text functions. It also learns the logical order and transition patterns between stages, encoding this knowledge into the model parameters. Experimental results show that STIG can generate multi-stage text in a single inference. It does not require explicit workflow calls. STIG outperforms traditional agentic workflows and other baselines on metrics of semantic similarity and sentence-level structural rationality. The code is provided in the Supplementary Materials.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0460",
+  "title": "AI-Driven Web Content Scraping Focusing on Transformer-Based : A Systematic Literature Review",
+  "year": "2025",
+  "abstract": "Web scraping has become a key technique for harvesting large volumes of data across varied online platforms, underpinning applications in business intelligence, market research, academic studies, and social media oversight. Traditional scraping strategies, which are usually rule-based and depend on fixed pattern-matching techniques—such as XPath, CSS selectors, and regular expressions—tend to fail when web pages undergo structural modification or when content is rendered dynamically via JavaScript. Such brittleness compromises the longevity and flexibility of standard solutions, especially when confronted with diverse and frequently refreshed sites. Recently, breakthroughs in artificial intelligence, particularly the advent of transformer architectures like Bidirectional Encoder Representations from Transformers (BERT) and Generative Pre-trained Transformers (GPT), have paved the way for smarter, context-sensitive content harvesting. These models leverage their profound grasp of contextual semantics and their ability to decipher intricate language constructs, yielding higher precision in information retrieval and greater resilience to changes in page layout. This systematic literature review (SLR) aggregates the prevailing research on embedding transformer-driven models within web scraping pipelines. It surveys current system designs, fusion methods, metric frameworks, and comparative performance records while illuminating outstanding research voids and pathways for continued exploration. The results are designed to give researchers and practitioners a thorough understanding that can help them improve scraping systems by embedding transformer-based AI technologies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0461",
+  "title": "Who Pays Attention to the User Experience Content Embedded in Mobile APP Reviews",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0462",
+  "title": "Artificial Intelligence-driven Digital Cytology-based Cervical Cancer Screening: Is the Time Ripe to Adopt This Disruptive Technology in Resource-constrained Settings? A Literature Review",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0463",
+  "title": "Research Review on Imbalanced Learning Models in Embedded Intelligent Computing",
+  "year": "2020",
+  "abstract": "Imbalanced data sets are a common phenomenon in embedded intelligent computing. In other words, the class imbalance occurs when the number of examples representing one class is much lower than the ones of the other classes. Hence, one or more classes may be underrepresented in the dataset. However, standard machine learning algorithms are usually biased toward the majority class, since rules correctly predicting those instances are positively weighted in favor of the accuracy metric or the corresponding cost function. As a consequence, minority class instances are more often misclassified than those from the majority one. One of the main issues in imbalanced problems is that usually, the underrepresented class is the class of interest of the problem from the application point of view. Therefore, there are a large number of researches on imbalanced learning. Compared with the binary class imbalanced problem, the multi-class imbalanced problem faces greater challenges, which is attributed to the diversity of class distribution and the insufficient performance of multi-class classifiers. Therefore, imbalanced problems have received more and more attention in recent years. This paper studies the mainstream imbalance algorithms, classifies the current models and algorithms to solve the imbalance problem, analyzes the advantages and disadvantages of various methods, discusses the performance indicators suitable for imbalance problems and their evaluation bias, and summarizes the research trend of algorithms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0464",
+  "title": "A Systematic Literature Review of Healthcare Embedded Systems Using AI-based Biosignal Analysis",
+  "year": "2026",
+  "abstract": "Healthcare Embedded Systems (HES) use biosensors to capture physiological data, analyse it with advanced algorithms, and provide timely alerts during emergencies. These systems enhance healthcare delivery by supporting diagnosis, early symptom detection, and disease prediction. Despite extensive research on data analysis techniques in healthcare, selecting real-time methods for specific embedded hardware remains challenging. This review aims at summarising and synthesising existing literature to: (a) identify the healthcare challenges addressed by HES and the types of biosignals employed, (b) explore the embedded platforms utilised for implementing HES, and (c) examine the data analysis techniques used for real-time HES applications. A systematic search across three electronic databases (2015-2024), identified 50 relevant studies. These studies span various application domains, biosensing modalities, feature extraction methods, and machine learning and deep learning techniques. Raspberry Pi single-board computers emerged as the most popular embedded platform for implementing AI-based HES. Deep learning, especially convolutional neural networks, dominated, with cardiac health as the primary focus. While the reviewed studies demonstrate promising results, they are often constrained by specific experimental contexts. This review offers a comprehensive overview of real-time data analysis in HES and highlights key opportunities for future research to advance the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0465",
+  "title": "Efficient Data Management for Secure Healthcare Using Lightweight Blockchain and Enhancement of Internet of Things: A Review and Analysis",
+  "year": "2026",
+  "abstract": "The swift increase in progress of wearable technologies improvement and Internet of Things (IoT) systems both have led to the intermediate steady accumulation of large volumes of highly sensitive healthcare information. The information is crucial to making good clinical decisions and proactive medical diagnoses. Nevertheless, the conventional centralized data storage platforms are severely restricted, such as exposure to privacy, security threats, lack of scalability, and enhanced susceptibility to cyberattacks. In order to deal with these issues, decentralized health care systems using lightweight blockchain systems have come up as an attractive option of secure data management.This paper will carefully review and critique blockchain-based IoT systems that have been built to be used in healthcare. Unlike the current survey, there is specific focus on the lightweight models of blockchain which are considered in the light of energy efficiency, security strategies, scalability and interoperability when used in the resource constrained IoT space. Although the decentralized nature of blockchain technology, is mutable, and offers reliable data exchange, the research findings reveal that there are still significant research gaps; thus, unresolved issues to the implementation of the technology practically. Moreover, the paper provides future research objectives and design considerations that can be made to create effective, secure, and interoperable healthcare data storage infrastructures by integrating IoT and lightweight blockchain technologies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0466",
+  "title": "Comparative Analysis of Embedded Systems for Mobile Health Applications Against Cyber Attacks: A Review Study",
+  "year": "2026",
+  "abstract": "Mobile health applications and embedded systems have transformed healthcare by offering real-time monitoring, remote diagnostics, and better patient outcomes. However, reliance on digital health solutions introduces significant cybersecurity challenges, requiring robust security measures to protect sensitive patient data. This paper discusses the security needs of embedded systems in mHealth, emphasizing the importance of confidentiality, integrity, and availability to safeguard data. It reviews compliance frameworks such as HIPAA and GDPR, which set data protection standards. The research highlights the need for cybersecurity to support patient safety, mitigate risks after device compromise, and defend against emerging threats. Comparative studies of current security technologies, both hardware- and software-based, show their impact against cyberattacks. Finally, the paper discusses trends such as AI-driven threat detection, post-quantum cryptography, and edge computing as future mHealth security paradigms. By adopting strong security protocols, healthcare institutions can boost trust, meet regulations, and secure mHealth embedded systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0467",
+  "title": "Label-Efficient Time Series Representation Learning: A Review",
+  "year": "2023",
+  "abstract": "Label-efficient time series representation learning, which aims to learn effective representations with limited labeled data, is crucial for deploying deep learning models in real-world applications. To address the scarcity of labeled time series data, various strategies, e.g., transfer learning, self-supervised learning, and semisupervised learning, have been developed. In this survey, we introduce a novel taxonomy for the first time, categorizing existing approaches as in-domain or cross domain based on their reliance on external data sources or not. Furthermore, we present a review of the recent advances in each strategy, conclude the limitations of current methodologies, and suggest future research directions that promise further improvements in the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0468",
+  "title": "A review of on-device machine learning for IoT: An energy perspective",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0469",
+  "title": "Handling Sparsity in Cross-Domain Recommendation Systems: Review",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0470",
+  "title": "A Comprehensive Survey on Lightweight Attention-Driven Deep Learning Models with Explainable AI for Oral Cancer Detection",
+  "year": "2026",
+  "abstract": "<jats:p>.</jats:p>",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0471",
+  "title": "A Survey on lightweight technology of neural networks for medical image segmentation",
+  "year": "2026",
+  "abstract": "Recent advances in medical image segmentation have significantly improved segmentation accuracy. Nevertheless, the clinical deployment of large-scale segmentation networks remains constrained by challenges such as excessive parameter counts, complex architectures, and limited adaptability to diverse deployment environments. The absence of lightweight design further restricts their integration into resource-limited edge devices. To address these barriers, lightweight strategies have emerged as an effective solution. Structural optimization simplifies network architectures to reduce computational costs, while model compression techniques shrink model size without sacrificing performance. At the same time, hardware-level acceleration provides additional support for efficient inference in real-world scenarios. This review systematically summarizes recent lightweight methods for medical image segmentation from both software and hardware perspectives. Representative algorithmic approaches are highlighted, including pruning, quantization, knowledge distillation, and efficient network architectures, along with hardware-aware optimization strategies tailored for edge deployment. Moreover, we explored the mainstream approach of integrating large-scale models with lightweight technologies to achieve the optimal balance between segmentation accuracy and computational efficiency. Finally, current limitations and potential research directions are outlined to promote the translation of lightweight segmentation models into routine clinical workflows. By providing a structured reference, this review aims to support researchers and practitioners in advancing the efficient and practical application of medical image segmentation in clinical environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0472",
+  "title": "Optimizing Emotion Recognition in Indonesian Product Reviews Using LoRA on Transformer",
+  "year": "2026",
+  "abstract": "Emotion analysis in product reviews plays a crucial role in Indonesia’s e-commerce landscape, yet training advanced transformer models demands high computational resources, posing a significant constraint for small businesses. This research evaluates the Low-Rank Adaptation (LoRA) technique for optimizing emotion recognition in Indonesian product reviews, with a focus on resource efficiency. Indobert-large-p2, Indobert-base-uncased, and Indobertweet-base-uncased models were trained on the PRDECT-ID dataset, comparing the performance of full fine-tuning and LoRA. Results show LoRA provided competitive performance; on the Indobert-large-p2 model, the F1-score reached 67.81%, surpassing full fine-tuning’s 67.74%, despite training only about 1% of the total parameters. LoRA significantly reduced VRAM consumption by up to 17% and accelerated training duration by up to four minutes. Furthermore, the transformer models fine-tuned in this study, using both LoRA and full fine-tuning, consistently outperformed the results of previous research that employed complex architectures like CNN and BiLSTM, with the highest F1-score reaching 69.72% compared to the previous best of 66.13%. LoRA proves to be a practical and efficient solution for limited computational resources, enabling effective emotion analysis without expensive infrastructure.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0473",
+  "title": "Advancing Sparse Vegetation Monitoring in the Arctic and Antarctic: A Review of Satellite and UAV Remote Sensing, Machine Learning, and Sensor Fusion",
+  "year": "2025",
+  "abstract": "Polar vegetation is a critical component of global biodiversity and ecosystem health but is vulnerable to climate change and environmental disturbances. Analysing the spatial distribution, regional variations, and temporal dynamics of this vegetation is essential for implementing conservation efforts in these unique environments. However, polar regions pose distinct challenges for remote sensing, including sparse vegetation, extreme weather, and frequent cloud cover. Advances in remote sensing technologies, including satellite platforms, uncrewed aerial vehicles (UAVs), and sensor fusion techniques, have improved vegetation monitoring capabilities. This review explores applications—including land cover mapping, vegetation health assessment, biomass estimation, and temporal monitoring—and the methods developed to address these needs. We also examine the role of spatial, spectral, and temporal resolution in improving monitoring accuracy and addressing polar-specific challenges. Sensors such as Red, Green, and Blue (RGB), multispectral, hyperspectral, Synthetic Aperture Radar (SAR), light detection and ranging (LiDAR), and thermal, as well as UAV and satellite platforms, are analysed for their roles in low-stature polar vegetation monitoring. We highlight the potential of sensor fusion and advanced machine learning techniques in overcoming traditional barriers, offering a path forward for enhanced monitoring. This paper highlights how advances in remote sensing enhance polar vegetation research and inform adaptive management strategies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0474",
+  "title": "Lightweight Consensus in Blockchain: A Systematic Literature Review",
+  "year": "2025",
+  "abstract": "Blockchain technology has seen a rapid pace of development and expanded application domains swiftly due to the rising demand for decentralized trust, transparency, and integrity. The consensus algorithm plays a critical role in ensuring trust, immutability and governance of the decentralized network. However, traditional consensus face challenges such as high energy consumption, low scalability, security, and fault tolerance. Researchers have been investigating Lightweight Consensus to overcome these challenges. Lightweight Consensus is a mechanism that enables a more efficient and scalable blockchain system while ensuring security and immutability. This work uses the Systematic Literature Review method to comprehend Lightweight Consensus. 127 studies were grouped based on application specific network, and an in-depth analysis was done on the characteristics of the consensus. A novel taxonomy of Lightweight Consensus based on the agreement method and round propagation is proposed. Various parameters that needed consideration for a Lightweight Consensus are also analyzed. Finally, the study makes recommendations for future research on Lightweight Consensus in blockchain, emphasizing the importance of more empirical investigations and real-world implementations. This study offers a comprehensive overview of the current research landscape on lightweight consensus in blockchain, shedding light on its potential impact on the evolution of blockchain technology. It also serves as a valuable guide for researchers, helping them identify the most suitable consensus features for specific application domains with unique requirements.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0475",
+  "title": "A Review of Deep Learning-Based Citrus Fruit Detection and Lightweight Deployment Technologies",
+  "year": "2026",
+  "abstract": "Deploying effective object detection models on resource-constrained agricultural edge devices remains one of the main practical barriers to automated citrus harvesting. This paper reviews the development and current state of lightweight deep learning methods for citrus detection, with an emphasis on what actually works in field conditions.We begin by tracing how the YOLO family has evolved - from its original unified regression approach to today's anchor-free architectures with bidirectional feature fusion, such as YOLOv8n - and examine why these newer designs are better suited to the visual complexity of real orchards.We then address the core tension between detection accuracy and on-device computational limits. This includes a critical look at structural strategies such as lightweight backbone substitution (MobileNet variants), and feature enhancement modules like ECA attention and CoordConv, which help recover spatial and channel information lost during compression without significantly increasing parameter count. We also cover model compression in depth, focusing on structured pruning and knowledge distillation - including their somewhat counterintuitive regularization effects and the role of soft-label \"dark knowledge\" in cross-model learning.Beyond algorithms, we outline the engineering pipeline needed to actually deploy these models on edge hardware: static graph optimization, operator fusion through ONNX, and precision quantization. Finally, we discuss the specific visual challenges posed by small, densely clustered varieties like the Nanfeng sweet mandarin - particularly severe occlusion and color camouflage - and propose a forward-looking research direction centered on an integrated pruning-distillation-fusion framework aimed at pushing the accuracy–efficiency tradeoff further in agricultural edge computing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0476",
+  "title": "From Sparse Features to Transformers: A Statistical Evaluation of TF-IDF, FastText, and IndoBERT for Sentiment Classification of Indonesian Travel App Reviews",
+  "year": "2026",
+  "abstract": "This study compares three text representation techniques, namely TF-IDF, FastText, and IndoBERT, in the sentiment classification task of Indonesian-language user reviews of travel applications. The dataset consists of 4.000 reviews from Traveloka and Tiket.com, collected through Google Play Store scraping and manually annotated with sentiment labels. Each representation technique was combined with three classification algorithms, namely Support Vector Machine, Logistic Regression, and Random Forest, resulting in nine experimental configurations. The evaluation was conducted using stratified 5-fold cross-validation with macro F1-score as the primary metric, supported by hyperparameter tuning using GridSearchCV, paired t-test statistical analysis, and Cohen’s d effect size measurement. The evaluation results indicate that IndoBERT generally achieved the best performance compared to TF-IDF and FastText. The best configuration was obtained by IndoBERT with Logistic Regression, achieving an F1-score of 0.9261 after tuning. The statistical test showed that the performance differences among text representations were statistically significant, with large effect sizes in the comparison between IndoBERT and TF-IDF (d = −1.36) and between IndoBERT and FastText (d = −1.10). Nevertheless, TF-IDF combined with Logistic Regression and SVM remained competitive, achieving an F1-score of approximately 0.892 after tuning, making it a lightweight and interpretable alternative. This study concludes that the quality of text representation has a more dominant influence on sentiment classification performance than the complexity of the classification algorithm.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0477",
+  "title": "A Survey of Estimation Methods for Sparse High-dimensional Time Series Models",
+  "year": "2021",
+  "abstract": "High-dimensional time series datasets are becoming increasingly common in many areas of biological and social sciences. Some important applications include gene regulatory network reconstruction using time course gene expression data, brain connectivity analysis from neuroimaging data, structural analysis of a large panel of macroeconomic indicators, and studying linkages among financial firms for more robust financial regulation. These applications have led to renewed interest in developing principled statistical methods and theory for estimating large time series models given only a relatively small number of temporally dependent samples. Sparse modeling approaches have gained popularity over the last two decades in statistics and machine learning for their interpretability and predictive accuracy. Although there is a rich literature on several sparsity inducing methods when samples are independent, research on the statistical properties of these methods for estimating time series models is still in progress. We survey some recent advances in this area, focusing on empirically successful lasso based estimation methods for two canonical multivariate time series models - stochastic regression and vector autoregression. We discuss key technical challenges arising in high-dimensional time series analysis and outline several interesting research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0478",
+  "title": "A Review on Image Compression Techniques",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0479",
+  "title": "A Review of Recent Efficient Deep Learning Methods for Liver Segmentation",
+  "year": "2025",
+  "abstract": "Introduction: The accurate and timely diagnosis of non-alcoholic fatty liver disease (NAFLD) and precise segmentation of tumors and liver are significant and critical for successful management of patients and improved medicinal outcomes. This review consolidates current developments in methodologies and algorithms used in medical imaging, particularly detection and segmentation of such intricate liver diseases. It explores the wide range of diagnostic techniques that extend from old school machine learning methodologies, such as classification tree-based methods of diagnosing NAFLD [1], to highly advanced deep learning models crafted specifically for analysis of ultrasound as well as computed tomography (CT) images. Specifically, we examine the application of deep learning models for ultrasound image classification in NAFLD and the development of advanced segmentation frameworks utilizing self-ONN-based decoders, U-Net architectures [6], and graph convolutional networks [8] for precise liver and tumor delineation. The availability of large-scale and carefully labeled medical image collections, such as the dataset created by Alshagathrh and colleagues [4], has been crucial for teaching and testing these advanced computer models. This has led to notable progress in how accurately we can diagnose liver conditions and precisely locate problems within the liver [5, 7]. This review brings together these advancements, highlighting how these computer-based methods have the potential to significantly improve the way we understand and manage liver diseases, ultimately leading to more efficient and dependable healthcare practices. \nObjectives: The key objective is to bring together the advancements in recent efficient deep learning models, highlighting how these computer-based methods have the potential to significantly improve the way we understand and manage liver diseases, ultimately leading to more efficient and dependable healthcare practices. \nConclusions: In this review, the changing picture of liver disease segmentation and diagnosis, specifically the NAFLD, and tumor liver analysis via recent machine learning and deep learning strategies have been reviewed. Earlier contributions to this work were dependent upon rule-based statistical and classic procedures like trees in classification in the identification of factors that contribute to NAFLD [1]. With increasing computational power and sizes of medical image datasets, the paradigm has undoubtedly shifted towards encoder-decoder architecture and convolutional neural networks (CNNs), including UNet and its several variants [6][7][8].",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0480",
+  "title": "A comprehensive survey of sparse regularization: Fundamental, state-of-the-art methodologies and applications on fault diagnosis",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ }
+]

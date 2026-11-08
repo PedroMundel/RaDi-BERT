@@ -1,0 +1,82 @@
+{
+ "n_efetivo_positivos": 20.4,
+ "massa_top11_positivos": 0.69,
+ "exemplos_pares": [
+  [
+   "A Survey of Methods and Architectures for Automatic Cervical Cancer De",
+   "Recent Advances in Automatic Cervical Cancer Detection and Segmentatio",
+   0.992
+  ],
+  [
+   "A Survey of Methods and Architectures for Automatic Cervical Cancer De",
+   "Deep Learning and Optimization Approaches in Automatic Cervical Cancer",
+   0.991
+  ],
+  [
+   "Lightweight Blockchain of Things (BCoT) Architecture for Enhanced Secu",
+   "A Systematic Literature Review of Lightweight Blockchain for IoT",
+   0.978
+  ],
+  [
+   "Lightweight Blockchain of Things (BCoT) Architecture for Enhanced Secu",
+   "Lightweight blockchain solutions: Taxonomy, research progress, and com",
+   0.973
+  ],
+  [
+   "Lightweight Blockchain of Things (BCoT) Architecture for Enhanced Secu",
+   "Review and Development of a Scalable Lightweight Blockchain Integrated",
+   0.974
+  ],
+  [
+   "A Survey of Methods and Architectures for Parkinson's Disease Recognit",
+   "A Comprehensive Review of Parkinson's Disease Recognition from EEG Usi",
+   0.992
+  ]
+ ],
+ "pares_mesmo_titulo": 0,
+ "validacao_agrupada_P1": {
+  "K95_media": 0.698,
+  "K95_dp": 0.072,
+  "K90_media": 0.58,
+  "AP": 0.473,
+  "rec@10%": 0.401,
+  "rec@25%": 0.705
+ },
+ "relevantes_sem_palavra_de_tipo": "11 de 55",
+ "nao_survey_sem_palavra_de_tipo": "68 de 166",
+ "penalidade_sem_tipo_beta1.0": {
+  "K95": 0.674,
+  "rec@25%": 0.717,
+  "AP": 0.499
+ },
+ "penalidade_sem_tipo_beta0.5": {
+  "K95": 0.662,
+  "rec@25%": 0.708,
+  "AP": 0.58
+ },
+ "penalidade_sem_tipo_beta0.25": {
+  "K95": 0.64,
+  "rec@25%": 0.602,
+  "AP": 0.559
+ },
+ "conjunto_LR_kNN": {
+  "K95_media": 0.747,
+  "K95_dp": 0.051,
+  "K90_media": 0.602,
+  "AP": 0.489,
+  "rec@10%": 0.462,
+  "rec@25%": 0.727
+ },
+ "subarea_rec25_LR": {
+  "compressão": 0.961,
+  "edge": 0.753,
+  "hardware (§1.2.1 e)": 0.561,
+  "adaptação": 0.793
+ },
+ "subarea_rec25_LR+kNN": {
+  "compressão": 0.951,
+  "edge": 0.777,
+  "hardware (§1.2.1 e)": 0.603,
+  "adaptação": 0.958
+ }
+}

@@ -1,0 +1,423 @@
+[
+ {
+  "id": "F0401",
+  "title": "A Review of Privacy Preserving Federated Learning for Private IoT Analytics",
+  "year": "2020",
+  "abstract": "The Internet-of-Things generates vast quantities of data, much of it attributable to an individual's activity and behaviour. Holding and processing such personal data in a central location presents a significant privacy risk to individuals (of being identified or of their sensitive data being leaked). However, analytics based on machine learning and in particular deep learning benefit greatly from large amounts of data to develop high performance predictive models. Traditionally, data and models are stored and processed in a data centre environment where models are trained in a single location. This work reviews research around an alternative approach to machine learning known as federated learning which seeks to train machine learning models in a distributed fashion on devices in the user's domain, rather than by a centralised entity. Furthermore, we review additional privacy preserving methods applied to federated learning used to protect individuals from being identified during training and once a model is trained. Throughout this review, we identify the strengths and weaknesses of different methods applied to federated learning and finally, we outline future directions for privacy preserving federated learning research, particularly focusing on Internet-of-Things applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0402",
+  "title": "An Overview of LoRa Localization Technologies",
+  "year": "2025",
+  "abstract": "Traditional Global Positioning System (GPS) technology, with its high power consumption and limited performance in obstructed environments, is unsuitable for many Internet of Things (IoT) applications. This paper explores LoRa as an alternative localization technology, leveraging its low power consumption, robust indoor penetration, and extensive coverage area, which render it highly suitable for diverse IoT settings. We comprehensively review several LoRa-based localization techniques, including time of arrival (ToA), time difference of arrival (TDoA), round trip time (RTT), received signal strength indicator (RSSI), and fingerprinting methods. Through this review, we evaluate the strengths and limitations of each technique and investigate hybrid models to potentially improve positioning accuracy. Case studies in smart cities, agriculture, and logistics exemplify the versatility of LoRa for indoor and outdoor applications. Our findings demonstrate that LoRa technology not only overcomes the limitations of GPS regarding power consumption and coverage but also enhances the scalability and efficiency of IoT deployments in complex environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0403",
+  "title": "Single-Vehicle Trajectory Prediction: A Review and Experimental Embedded Assessment",
+  "year": "2026",
+  "abstract": "Due to technological advances in the automotive field, advanced driver assistance systems have attracted increasing interest from various research and development entities. Predicting road users' future trajectories remains an active research challenge for advanced driver assistance systems. Accurate Trajectory Prediction (TP) allows anticipation of surrounding road users' future motion, enabling timely safety-critical interventions such as speed regulation and emergency braking in unexpected driving situations. Recent advances in TP methods based on artificial intelligence have demonstrated remarkably accurate results compared to traditional methods. However, many of these models require a high computational burden, which makes their deployment on embedded architectures with constrained resources challenging. To overcome these constraints, TP models need to be lightweight and efficient to meet the real-time and power consumption requirements of advanced driver assistance systems. In other words, they must maintain high accuracy while guaranteeing low computational load and rapid inference. This paper presents a comparative and experimental review of state-of-the-art vehicle TP models. First, we propose a new taxonomy based on the operating environment, the trajectory output type, and the employed modeling approach to classify existing methods. Then, we evaluate representative approaches w.r.t the taxonomy in terms of accuracy, model complexity, computational performance, and real-time feasibility across a high-performance architecture and an embedded architecture. Finally, we discuss the evaluation results and present key conclusions and future directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0404",
+  "title": "OctopInf: Workload-Aware Inference Serving for Edge Video Analytics",
+  "year": "2025",
+  "abstract": "Edge Video Analytics (EVA) has become a major application of pervasive computing, enabling real-time visual processing. EVA pipelines, composed of deep neural networks (DNNs), typically demand efficient inference serving under stringent latency requirements, which is challenging due to the dynamic Edge environments (e.g., workload variability and network instability). Moreover, EVA pipelines face significant resource contention due to resource (e.g., GPU) constraints at the Edge. In this paper, we introduce OctopInf, a novel resource-efficient and workload-aware inference serving system designed for real-time EVA. OctopInf tackles the unique challenges of dynamic edge environments through fine-grained resource allocation, adaptive batching, and workload balancing between edge devices and servers. Furthermore, we propose a spatiotemporal scheduling algorithm that optimizes the co-location of inference tasks on GPUs, improving performance and ensuring service-level objectives (SLOs) compliance. Extensive evaluations on a real-world testbed demonstrate the effectiveness of our approach. It achieves an effective throughput increase of up to 10× compared to the baselines and shows better robustness in challenging scenarios. OctopInf can be used for any DNN-based EVA inference task with minimal adaptation and is available at https://github.com/tungngreen/PipelineScheduler.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0405",
+  "title": "An overview of Scade, a synchronous language for safety-critical software (keynote)",
+  "year": "2020",
+  "abstract": "ANSYS® SCADE Suite® is a development environment for safety critical embedded software used for more than twenty years in various application domains like avionics, nuclear plants, transportation, automotive. Its code generator is qualified for several industrial standards (DO-178C, IEC 61508, EN 50128, IEC 60880 and ISO 26262) to be used in the development of the most safety critical systems. Scade is historically based on the synchronous language Lustre designed in Grenoble in the VERIMAG laboratory by its two mains authors Paul Caspi and Nicolas Halbwachs. In its early days, it was mainly seen as a graphical notation for this academic language. In 2008, a major new version was released, based on the language Scade 6 that extended the dataflow point of view offered by Lustre to integrate new constructs inspired by Esterel and SyncCharts in order to allow more control oriented design style. This language is formally specified following the work of Marc Pouzet on the design of Lucid Synchrone, in particular on the static correction of programs. The formalized aspects cover mainly the static semantics i.e. the type systems that define what a correct program is; this correction is based on four type systems: Types (in the most classical sense), Clocks, Initialization analysis and Causality analyses. As a formal language, Scade is also well suited to apply formal verification on the applications developed with it. Programs are guaranteed to run in finite memory which allows to use state of the art model checking techniques. The talk will go through this history, giving some insights on the new Scade 6 constructs, its differences with Lustre and on the development of its qualified code generator. The formal verification of Scade 6 programs will also be illustrated.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0406",
+  "title": "Taxonomy-aware Learning for Few-Shot Event Detection",
+  "year": "2021",
+  "abstract": "Event detection classifies unlabeled sentences into event labels, which can benefit numerous applications, including information retrieval, question answering and script learning. One of the major obstacles to event detection in reality is insufficient training data. To deal with the low-resources problem, we investigate few-shot event detection in this paper and propose TaLeM, a novel taxonomy-aware learning model, consisting of two components, i.e., the taxonomy-aware self-supervised learning framework (TaSeLF) and the taxonomy-aware prototypical networks (TaPN). Specifically, TaSeLF mines the taxonomy-aware distance relations to increases the training examples, which alleviates the generalization bottleneck brought by the insufficient data. TaPN introduces the Poincaré embeddings to represent the label taxonomy, and integrates them into a task-adaptive projection networks, which tackles problems of the class centroids distribution and the taxonomy-aware embedding distribution in the vanilla prototypical networks. Extensive experiments in the four types of meta tasks demonstrate the superiority of our proposal over the strong baselines, and further verify the effectiveness and importance of modeling the label taxonomy. Besides, TaSeLF can be a flexible plug-in for the other taxonomy-based few-shot classification tasks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0407",
+  "title": "Peer Review #4 of \"Topic2features: a novel framework to classify noisy and sparse textual data using LDA topic distributions (v0.1)\"",
+  "year": "2021",
+  "abstract": "In supervised machine learning, specifically in classification tasks, selecting and analyzing the feature vector to achieve better results is one of the most important tasks.Traditional methods such as comparing the features' cosine similarity and exploring the datasets manually to check which feature vector is suitable is relatively time consuming.Many classification tasks failed to achieve better classification results because of poor feature vector selection and sparseness of data.In this paper, we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions of hidden topics gathered from dataset and converting into feature vectors to build supervised classifier.For this we leveraged unsupervised topic modelling LDA (Latent dirichlet allocation) approach to retrieve the topic distributions employed in supervised learning algorithms.We make use of labelled data and topic distributions of hidden topics that were generated from that data.We explore how the representation based on topics affect the classification performance by applying supervised classification algorithms.Additionally, we did careful evaluation on two types of datasets and compared them with baseline approaches without topic distributions and other comparable methods.The results show that our framework performs significantly better in terms of classification performance compared to the baseline(without T2F) approaches and also yields improvement in terms of F1 score compared to other compared approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0408",
+  "title": "An Overview of Environmental Features that Impact Deep Reinforcement Learning in Sparse-Reward Domains",
+  "year": "2023",
+  "abstract": "Deep reinforcement learning has achieved impressive results in recent years; yet, it is still severely troubled by environments showcasing sparse rewards. On top of that, not all sparse-reward environments are created equal, i.e., they can differ in the presence or absence of various features, with many of them having a great impact on learning. In light of this, the present work puts together a literature compilation of such environmental features, covering particularly those that have been taken advantage of and those that continue to pose a challenge. We expect this effort to provide guidance to researchers for assessing the generality of their new proposals and to call their attention to issues that remain unresolved when dealing with sparse rewards.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0409",
+  "title": "Low-Rank Adaptation (LoRA) for Visual Art Style Learning and Feature Fusion: A Narrative Review",
+  "year": "2026",
+  "abstract": "Recent developments in diffusion-based generative models, particularly Denoising Diffusion Probabilistic Models (DDPMs), have significantly advanced the field of Artificial Intelligence Generated Content (AIGC). Despite their strong generalization ability, base models such as Stable Diffusion often lack the precision required for capturing specific artistic styles or niche visual aesthetics. In this context, Low-Rank Adaptation (LoRA) has emerged as an efficient and practical solution for style-specific fine-tuning within Latent Diffusion Models (LDMs). This paper reviews the underlying mechanism of LoRA and examines how low-rank updates interact with attention layers to encode stylistic features. Compared with alternative approaches such as DreamBooth and Textual Inversion, LoRA offers a more balanced trade-off between computational efficiency and stylistic fidelity. In addition, the paper discusses the challenges of multi-style synthesis, with particular attention to the limitations of linear fusion methods and the potential of Dynamic Layer-wise Fusion (DLF). Finally, several future research directions are outlined, including interpretability and automated optimization, which are essential for improving controllability in generative systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0410",
+  "title": "Symmetric nonnegative matrix factorization: A systematic review",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0411",
+  "title": "Media Streaming in Cloud with Special Reference to Amazon Web Services: A Comprehensive Review",
+  "year": "2020",
+  "abstract": "Media Streaming is handling, consuming and saving multimedia content, such as audio, video and picture, using resources and software available in the cloud without manually gaining them. It is a data processing method so that it can be interpreted as a continuous stream. Cloud consumers can use their laptops or mobile devices to stream media content and enjoy music anywhere and at any time. The main objective is to give consumers uninterrupted streaming of videos with no buffering problems and to conserve their resources and furnish them with great quality and high bandwidth videos. AWS provides you with the mobility that implies you don't have to think about computation, encoding, storing data, data security and credibility. It immediately expands the cloud servers if information size rises. It even provides free-tier access to AWS console for a year in the beginning to allow the use of AWS services simple. And that is why Amazon Web Service is the perfect cloud service supplier in the entire globe. A detailed review of the Media Streaming and services of Amazon Web Service is done together.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0412",
+  "title": "A Review article on Embedded System based Robotics Controlled Judiciary Library",
+  "year": "2023",
+  "abstract": "The advent of Internet of Things (IoT) technology about two decades ago has started making lives of people smarter andmore productive, in spite of this, the technology is in its initial stage and can be utilized to a great extent in numerousapplications. One of the applications of IoT is in Judiciary. This review article deals with the application of IoT technologyin the field of law. Few applications of IoT in the Judiciary include superior analytics, better evidence and its presentation,and optimized and easy court processes that can enhance processes, eliminate excessive procedures and prolonged timeand mitigate corruption. Using IoT in Judiciary, e-library at different court levels can be created and the petitioners canaccess the status of the cases at any time. Also, IoT-based Embedded Systems can also be used to keep track of criminalsproviding real-time live updates. Judicial sector can become even smarter using IoT, a major requirement in developingcountries like India.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0413",
+  "title": "Review on lightweight cryptography techniques and steganography techniques for IoT environment",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0414",
+  "title": "Secure Software Engineering for Industrial IoT: Integrating Threat Modeling into the Development Lifecycle",
+  "year": "2025",
+  "abstract": "The Industrial Internet of Things (IIoT) is central to smart manufacturing, enabling real-time automation, data exchange, and system intelligence. However, the convergence of cyber-physical systems with legacy software and heterogeneous architectures introduces significant security challenges. This paper explores how software engineering principles can be strategically employed to enhance IIoT security by integrating threat modeling into the development lifecycle. In this study, we review classic models such as STRIDE, DREAD, and STPA-Sec, and evaluate their effectiveness when applied at various phases of the Secure Software Development Life Cycle (SSDLC). STRIDE focuses on classifying security threats, DREAD helps score the severity of risks, and STPA-Sec provides a safety-oriented approach to identifying unsafe control actions in IIoT environments. Additionally, we propose a secure development process to embed continuous security assurance during IIoT software deployment. This research highlights design-driven security patterns, model-driven engineering strategies, and secure API development best practices. This paper aims to support developers and architects in designing scalable and threat-aware IIoT systems through the alignment of software engineering with IIoT-specific threat vectors.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0415",
+  "title": "Towards Data Mining and Knowledge Discovery for AECO Applications Using BIM Embedded Data: A Systematic Review",
+  "year": "2025",
+  "abstract": "Abstract With the growth of Building Information Modelling (BIM) applications in the Architecture, Engineering, Construction and Operation (AECO) industry worldwide, a tremendous volume of data has been generated, providing a unique opportunity to extract and utilise valuable information for various purposes. For instance, BIM authoring software usually records details of the design modelling process in log files. Data mining techniques and learning algorithms are utilised to discover knowledge from data and assist stakeholders with various applications such as predicting design commands, project bottleneck diagnosis, progress prediction, and discovering design social networks. This work presents a systematic review of the studies in the field of BIM-embedded knowledge discovery and analyses them from an application-based perspective. As a result, seven major applications of BIM-embedded knowledge were identified. It was revealed that most applications mainly use BIM log files compared to other file formats, which can limit their applicability in other application domains. The K-means algorithm was also deployed to cluster similar features used in the relevant studies. It turned out that Start time , User (ID) , Duration , and Command features are the frequently used attributes in BIM knowledge extraction applications. This study demonstrates the use of hidden knowledge in BIM models to enhance team efficiency and data-driven decision-making while also providing insights for researchers on existing applications and potential applications of BIM data mining and knowledge discovery for the AECO industry.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0416",
+  "title": "Efficient LLM Scheduling by Learning to Rank",
+  "year": "2024",
+  "abstract": "In Large Language Model (LLM) inference, the output length of an LLM request is typically regarded as not known a priori. Consequently, most LLM serving systems employ a simple First-come-first-serve (FCFS) scheduling strategy, leading to Head-Of-Line (HOL) blocking and reduced throughput and service quality. In this paper, we reexamine this assumption -- we show that, although predicting the exact generation length of each request is infeasible, it is possible to predict the relative ranks of output lengths in a batch of requests, using learning to rank. The ranking information offers valuable guidance for scheduling requests. Building on this insight, we develop a novel scheduler for LLM inference and serving that can approximate the shortest-job-first (SJF) schedule better than existing approaches. We integrate this scheduler with the state-of-the-art LLM serving system and show significant performance improvement in several important applications: 2.8x lower latency in chatbot serving and 6.5x higher throughput in synthetic data generation. Our code is available at https://github.com/hao-ai-lab/vllm-ltr.git",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0417",
+  "title": "Nonnegative Matrix Factorization in Dimensionality Reduction: A Survey",
+  "year": "2024",
+  "abstract": "Dimensionality Reduction plays a pivotal role in improving feature learning accuracy and reducing training time by eliminating redundant features, noise, and irrelevant data. Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction. Despite its extensive use, there remains a need for a comprehensive analysis of NMF in the context of dimensionality reduction. To address this gap, this paper presents a comprehensive survey of NMF, focusing on its applications in both feature extraction and feature selection. We introduce a classification of dimensionality reduction, enhancing understanding of the underlying concepts. Subsequently, we delve into a thorough summary of diverse NMF approaches used for feature extraction and selection. Furthermore, we discuss the latest research trends and potential future directions of NMF in dimensionality reduction, aiming to highlight areas that need further exploration and development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0418",
+  "title": "Design of Fieldable Cross-Layer Optimized Network using Embedded Software Defined Radios: Survey and Novel Architecture with Field Trials",
+  "year": "2022",
+  "abstract": "The proliferation of wireless devices and their ever increasing influence on our day-to-day life is very evident and seems irreplaceable. This exponential growth in demand, both in terms of the number of devices and Quality of Service (QoS) had spawned the concept of cross-layer optimization several years ago. The primary goal of the cross-layer approach was to liberate the strict boundary between the layers of the traditional Open Systems Interconnection (OSI) protocol stack. The initial decade focused on establishing the theoretical feasibility of this revolutionary concept and gauging the effectiveness and limits of this idea. During the next phase, the advent of software defined radios (SDR) accelerated the growth of this domain due to its added flexibility. Yet, there has been a gaping abyss between solutions designed in theory and ones deployed in practice. To establish this, we first present an elaborate survey of the cross-layer protocol stack literature. Next, we briefly discuss how a commercial off-the-shelf (COTS), low SWaP (Size, Weight, and Power) embedded SDR (e-SDR) was transformed into a standalone, fieldable transceiver. Thereafter, we provide the software design ethos that focuses on efficiency and flexibility such that the optimization objectives and cross-layer interactions can be reconfigured rapidly. To demonstrate our claims, we provide results from extensive outdoor over-the-air experiments in various settings with up to 10-node network topologies. The results from the field trials demonstrate high reliability, throughput, and dynamic routing capability. To the best of our knowledge, this is the first time in literature, a COTS e-SDR has been leveraged to successfully design a cross-layer optimized transceiver that is capable of forming an ad hoc network that provides high throughput and high reliability in a ruggedized, weatherized, and fieldable form factor.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0419",
+  "title": "Convolutional neural networks for medical imaging in resource-constrained settings: a scoping review of architectures, performance, and deployment challenges",
+  "year": "2026",
+  "abstract": "\n \n Convolutional neural networks (CNNs) have emerged as powerful artificial intelligence tools for medical image analysis, demonstrating substantial improvements in disease detection, classification, and diagnostic support. Despite increasing evidence regarding their clinical performance, implementation within resource-constrained healthcare environments remains challenging due to limitations in infrastructure, computational resources, dataset availability, and healthcare workforce capacity. Understanding the current evidence relating to CNN architectures, performance characteristics, and deployment barriers is necessary to support sustainable implementation in underserved healthcare settings.\n \n \n \n This review aimed to critically map the available evidence regarding convolutional neural networks for medical imaging in resource-constrained settings, with emphasis on CNN architectures, diagnostic performance, and deployment challenges.\n \n \n \n This scoping review followed the Preferred Reporting Items for Systematic Reviews and Meta-Analyses Extension for Scoping Reviews (PRISMA-ScR) guideline. Literature searches were conducted across PubMed, Scopus, Web of Science, IEEE Xplore, and ScienceDirect from database inception to April 2026. Search terms combined Medical Subject Headings (MeSH) and free-text keywords using Boolean operators. Eligibility criteria were developed using the population–concept–context (PCC) framework. Peer-reviewed English-language studies investigating CNN applications in medical imaging relevant to resource-constrained healthcare settings were included. Data extraction and synthesis were performed thematically.\n \n \n \n A total of 18 studies met the inclusion criteria. Five major themes were identified: diagnostic accuracy and clinical performance of CNN models; lightweight and resource-efficient CNN architectures for low-resource deployment; explainability and interpretability of CNN systems; transfer learning and optimization for limited datasets; and implementation barriers affecting deployment in resource-constrained settings. CNN systems demonstrated strong diagnostic performance across tuberculosis, pneumonia, malaria, skin cancer, and other imaging applications, with several studies reporting near expert-level performance. Lightweight architectures and transfer learning approaches improved computational feasibility, while explainability methods enhanced transparency and clinician confidence. However, implementation challenges including computational limitations, poor connectivity, dataset scarcity, and algorithmic bias persisted across studies.\n \n \n \n CNN-based medical imaging systems demonstrate considerable potential for strengthening diagnostic capacity within underserved healthcare environments. Nevertheless, sustainable implementation requires greater emphasis on context-specific model development, explainability, locally representative datasets, and real-world deployment studies to ensure equitable and effective adoption in resource-constrained healthcare systems.\n",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0420",
+  "title": "Weakly Supervised Semantic Segmentation Based on Image-level Class Labels with Deep Learning: A Survey",
+  "year": "2022",
+  "abstract": "The training of fully supervised semantic segmentation (FSSS) networks relies on a large amount of data with pixel-level class labels, which limits semantic segmentation's application in practical scenarios. Weakly supervised semantic segmentation (WSSS) based on image-level class labels has become a new research hotspot in the field of image semantic segmentation. In this paper, the WSSS algorithms with image-level class labels are classified and sorted out according to two critical steps of the generic pipeline: seed generation and mask refinement. Different ways of seed generation can be divided into three categories: Multiple-Instance Learning-based methods, Class Activation Maps-based methods, and other generation methods. Different seed mask refinement methods can be divided into affinity-based mask refinement methods, additional supervision-based mask refinement methods, and other mask refinement methods. In addition, this paper analyzes the principles, key ideas, primary contributions, and advantages and disadvantages of various methods. Then, the segmentation performance of different WSSS algorithms on different datasets are compared, and the current state-of-the-art segmentation algorithms are labeled. Finally, the main challenges currently faced in the field and possible future directions have been prospected.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0421",
+  "title": "Self-Distillation of XLM-RoBERTa for Multilingual Sentiment Analysis on Imbalanced Data: A Case Study on Malagasy Mobile Application Reviews",
+  "year": "2026",
+  "abstract": "This study proposes a self-distillation framework based on XLM-RoBERTa-base for binary sentiment analysis of multilingual application reviews in French, English, and Malagasy. To address class imbalance and low-resource challenges, the framework integrates high-temperature soft-label transfer, feature-level representation alignment, and focal-loss-based class weighting. The self-distilled student model outperformed its XLM-RoBERTa teacher baseline, achieving 91.39% accuracy (+0.99%) and 90.63% macro-F1 (+1.10%), with consistent gains in negative-class detection. Cross-lingual evaluation revealed asymmetric transfer effects, with improved performance for French by 1.75%, remained stable for Malagasy, and decreased for English by 3.45%, likely reflecting domain differences in English training sample distribution. These results demonstrate that self-distillation effectively regularizes transformer models under imbalanced multilingual conditions, with cross-lingual generalization being most effective when sufficient target-language representation is available during training.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0422",
+  "title": "Detecting Evasive Answers in Financial Q&A: A Psychological Discourse Taxonomy and Lightweight Baselines",
+  "year": "2025",
+  "abstract": "Q&A segments of earnings calls and central bank press conferences often contain evasive answers that avoid, obscure, or reframe the question asked. We introduce the task of evasive answer detection in financial Q&A and propose a multi-level taxonomy grounded in discourse pragmatics and deception psychology. Using earnings call transcripts, we curate an annotated subset and evaluate simple, inter-pretable baselines (surface cues, hedge detection, tense, and embedding alignment). Evasive answers show consistent linguistic and semantic signatures (e.g., present-tense bias, lower question–answer semantic alignment), providing practical signals for transparency-aware financial NLP.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0423",
+  "title": "Machine learning approaches for LoRa networks:a survey",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0424",
+  "title": "GEAR-Seg: A Grounded Explainable Agent for Reasoning Segmentation and Data Engine",
+  "year": "2026",
+  "abstract": "Reasoning segmentation requires localizing targets based on complex, implicit queries. Current end-to-end models typically entangle perception and deduction into an opaque black box, severely limiting interpretability and scalability. To address this, we propose GEAR-Seg (Grounded Explainable Agent for Reasoning Segmentation), an explicitly decoupled agent that shifts the paradigm by translating visual pixels into dense, attribute-rich text. By decoupling class-agnostic segmentation, semantic description, and Large Language Model (LLM) deduction, GEAR-Seg transforms implicit reasoning into an explicit, trackable logic chain. As a zero-shot inference framework, it achieves highly competitive performance across diverse reasoning and fine-grained referring segmentation benchmarks. Furthermore, GEAR-Seg inherently functions as a highly scalable data engine. Utilizing this engine, we construct GEAR-131K, a massive benchmark (over 38k images, 656k QA-mask pairs) introducing a multifaceted taxonomy tailored for complex real-world manipulation-oriented reasoning. Finally, distillation experiments demonstrate that lightweight models supervised exclusively by our automated pipeline closely match the upper-bound performance of costly human-annotated baselines.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0425",
+  "title": "Research on the Application of Deep Learning Methods in the Field of Image Classification",
+  "year": "2025",
+  "abstract": "With the rapid development of image classification technology, it has become a current research hotspot to apply image classification technology to various fields and to improve the accuracy and efficiency of image classification technology in various fields. In the field of fruit classification and textile, the application of image classification technology has been widely concerned. This paper reviews the current research status of image classification models, focusing on the application of DenseNet-201, Xception, MobileNetV3-Small and ResNet-50 models in the fruit field. The application of deep learning methods such as Convolutional Neural Network, Recurrent Neural Networks and Long Short-Term Memory in image classification is also discussed. In this paper, it is concluded that these models have achieved high accuracy in fruit classification and the textile field, especially the combination of CNN, RNN and LSTM deep learning methods for feature fusion can enhance the accuracy and robustness of the model. In addition, this paper also discusses the limitations of the current research and makes some suggestion.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0426",
+  "title": "Advances in devices and on-device/edge computing algorithm for infrared machine vision and infrared thermography: a review",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0427",
+  "title": "Efficient and Lightweight Deep Learning Approaches for Hyperspectral Image Classification: A Comprehensive Review",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0428",
+  "title": "Brief overview of embedded systems for Industry 4.0 Applications and Networks",
+  "year": "2023",
+  "abstract": "This paper contains a brief survey of technologies used to develop embedded system designs and implementations as a work in progress, including microcontrollers, microprocessors, reconfigurable hardware, and recent developments in heterogeneous hardware. These components are classified by the complexity of the application and hardware implementation capabilities, using real-life examples compiled from literature to exploit their capabilities in industrial applications. This work aims to provide the best functionality to achieve the recommendations for Industry 4.0 and its integration with industrial networks under protocols and as accomplished in today’s manufacturing process requirements. There are mentioned some related and extensive surveys that study the capabilities of embedded systems, their implementation in some industrial Internet of Things capabilities, and some development tools that are used for embedded systems for real-time applications in industrial environments. It compiles some standardization and good practices recommendations that provide well-established steps, criteria, and guides for their implementation. Also, it shows four different examples of industrial networks developed using a variety of protocols and commercial hardware currently available for wired connections, wireless connections, long-distance situations, and multi-protocol implementations. This work intends to be a literature resource for students, professors, and professionals who wish to have an overview of the different capabilities and advantages that embedded systems offer in industrial and academic environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0429",
+  "title": "An overview of the embedded speech-to-text technology",
+  "year": "2022",
+  "abstract": "The first part of the paper briefly introduces the automatic speech recognition (ASR) technology, mainly about its development status and its implementation steps. The second part summarizes the current technical bottlenecks and related solutions in this field, and also predicts the prospects.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0430",
+  "title": "Comparative Evaluation of AES, Camellia, and CLEFIA for Lightweight Environments: A Post-2023 Systematic Literature Review and Meta-Analysis",
+  "year": "2026",
+  "abstract": "The rapid proliferation of resource-constrained Internet of Things (IoT) devices, embedded sensors, and edge computing platforms has intensified the demand for cryptographic primitives that strike a balance between security and stringent hardware and energy constraints. This paper presents a post-2023 systematic literature review and meta-analysis of three standardized block ciphers: the Advanced Encryption Standard (AES), Camellia, and CLEFIA, with a focus on their adaptation to lightweight environments. Drawing on Scopus-indexed research from 2021–2024, we evaluate architectural innovations, hardware/software optimizations, side-channel countermeasures, and quantum-resilience considerations. Our analysis demonstrates that while AES dominates in hardware-accelerated and certification-driven environments, CLEFIA is most efficient in ultra-constrained hardware, and Camellia provides a balanced solution for mid-range systems. Recent developments, including RISC-V cryptographic extensions and machine learning-assisted cryptanalysis, have reshaped performance and security expectations. Based on these findings, we propose a decision framework for cipher selection tailored to specific resource, energy, and certification constraints.\n\nKeywords: Proof Construction, Procedural Fluency, Undergraduate Mathematics Majors, \n APOS Theory, Scaffolded Instruction.\n\nJournal Reference Format:\nOjeniyi, J.A., Fasola, O.O., Onyeabor, G.A., Abdulsalam, A., Emmanuel, I.O., Baba, S.U. & Jiya, J.B. (2026): Comparative Evaluation of AES, Camellia, and CLEFIA for Lightweight Environments: A Post-2023 Systematic Literature Review and M-66eta-Analysis. Journal of Behavioural Informatics, Digital Humanities and Development Research. Vol. 12 No. 1. Pp 59-66.\nhttps://www.isteams.net/behavioralinformaticsjournal. dx.doi.org/10.22624/AIMS/BHI/V12N1P5",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0431",
+  "title": "A Survey of Learning-Based Methods for Cold-Start, Social Recommendation, and Data Sparsity in E-commerce Recommendation Systems",
+  "year": "2021",
+  "abstract": "With the continuous development of the economy and technology, people more and more rely on online shopping, especially during the pandemic of COVID19. On the other hand, sellers display many products, so customers need to make a great effort to find suitable products to meet their needs. To reduce the efforts of customers, researchers have developed many recommendation systems for online products. In this paper, to help further study recommendation systems in e-commerce, we survey the learning-based methods for solving the cold-start problem in a recommendation, social recommendation, and data sparsity. In particular, we compare these methods’ pros and cons and point out the directions for further study.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0432",
+  "title": "A Review on Initialization Methods for Nonnegative Matrix Factorization: Towards Omics Data Experiments",
+  "year": "2021",
+  "abstract": "Nonnegative Matrix Factorization (NMF) has acquired a relevant role in the panorama of knowledge extraction, thanks to the peculiarity that non-negativity applies to both bases and weights, which allows meaningful interpretations and is consistent with the natural human part-based learning process. Nevertheless, most NMF algorithms are iterative, so initialization methods affect convergence behaviour, the quality of the final solution, and NMF performance in terms of the residual of the cost function. Studies on the impact of NMF initialization techniques have been conducted for text or image datasets, but very few considerations can be found in the literature when biological datasets are studied, even though NMFs have largely demonstrated their usefulness in better understanding biological mechanisms with omic datasets. This paper aims to present the state-of-the-art on NMF initialization schemes along with some initial considerations on the impact of initialization methods when microarrays (a simple instance of omic data) are evaluated with NMF mechanisms. Using a series of measures to qualitatively examine the biological information extracted by a given NMF scheme, it preliminary appears that some information (e.g., represented by genes) can be extracted regardless of the initialization scheme used.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0433",
+  "title": "IoT and Embedded System-Based Framework for Sustainable Smart Agriculture: A Review and Proposed Methodology",
+  "year": "2026",
+  "abstract": "The accelerated use of the Internet of Things (IoT) and embedded systems has influenced modern agriculture by introducing the ability to monitor, automate, and make decisions based on data, in real-time. Nevertheless, the current IoT-based smart agriculture devices are usually associated with low scalability, excessive energy use, lack of interoperability, and the absence of focus on sustainability measures. This paper presents a systematic review of IoT and embedded system applications in smart agriculture published between 2021 and 2025, and then proposes a single and sustainability-conscious architectural design. The literature review is a critical analysis of the most recent developments in sensing technologies, communication protocols, cloud-based analytics, and intelligent automation, and outlines the main challenges and gaps in the research. The proposed layered IoT architecture consists of sensor networks, edge processing, low-power communication technologies, cloud analytics, and automated actuation, based on the identified gaps. The sustainability indicators which the framework specifically includes are water-use efficiency, energy consumption, and environmental impact as a way of supporting agriculture that does not use a lot of resources. The proposed framework is evaluated in terms of comparative analysis and conceptual visualisations in comparison with traditional and existing IoT-based systems. The findings reveal that the suggested architecture has high scalability, energy use, and sustainability performance. The research has beneficial implications for researchers, practitioners, and policymakers who would wish to develop the next generation of smart agriculture systems in line with the sustainable development objectives.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0434",
+  "title": "Survey and Compare of Some Embedded Operation Systems for the Internet of Things",
+  "year": "2022",
+  "abstract": "The Internet of Things has a very wide range of applications, and embedded devices are widely used in new fields such as smart home, smart transportation, medical care, and smart cars. The embedded operating system for the Internet of Things should have good real-time performance and reliability, can make more reasonable and effective use of CPU resources, simplify the design of application software, and improve the efficiency of system development. With the rapid development of the Internet of Things and the gradual maturity of Internet of Things applications, the Internet of Things OS developed on the basis of embedded real-time operating systems is emerging. The embedded operating system running in the Internet of Things environment is different from the ordinary RTOS and has new technical characteristics and requirements. Through the study of the development history of the Internet of Things operating system and a brief analysis of the technical architecture of several emerging and powerful Internet of Things operating systems such as Huawei LiteOS, AliOS Things, and RT-Thread, this article summarizes the characteristic requirements of the kernel and peripheral modules of the embedded operating system oriented to the Internet of Things.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0435",
+  "title": "Deep Depth Completion From Extremely Sparse Data: A Survey",
+  "year": "2022",
+  "abstract": "Depth completion aims at predicting dense pixel-wise depth from an extremely sparse map captured from a depth sensor, e.g., LiDARs. It plays an essential role in various applications such as autonomous driving, 3D reconstruction, augmented reality, and robot navigation. Recent successes on the task have been demonstrated and dominated by deep learning based solutions. In this article, for the first time, we provide a comprehensive literature review that helps readers better grasp the research trends and clearly understand the current advances. We investigate the related studies from the design aspects of network architectures, loss functions, benchmark datasets, and learning strategies with a proposal of a novel taxonomy that categorizes existing methods. Besides, we present a quantitative comparison of model performance on three widely used benchmarks, including indoor and outdoor datasets. Finally, we discuss the challenges of prior works and provide readers with some insights for future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0436",
+  "title": "A Review of Research on Pruning Strategies in Maximum Frequent Itemset Mining Algorithms",
+  "year": "2025",
+  "abstract": "The mining of frequent itemsets has become a hot topic among researchers. If the process of mining frequent itemsets is regarded as a search problem, then the search space is an enumeration tree. In order to minimize unnecessary nodes for search, the optimization of pruning technology can improve the mining efficiency of frequent itemsets to a certain extent. This is one of the important means to improve the efficiency of frequent itemsets. This article improves the definitions of frequent itemsets and enumeration trees, analyzes the use of various pruning strategies, and summarizes the efficiency of various pruning strategies for mining maximum frequent itemsets.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0437",
+  "title": "Adversary-Aware Private Inference over Wireless Channels",
+  "year": "2025",
+  "abstract": "AI-based sensing at wireless edge devices has the potential to significantly enhance Artificial Intelligence (AI) applications, particularly for vision and perception tasks such as in autonomous driving and environmental monitoring. AI systems rely both on efficient model learning and inference. In the inference phase, features extracted from sensing data are utilized for prediction tasks (e.g., classification or regression). In edge networks, sensors and model servers are often not co-located, which requires communication of features. As sensitive personal data can be reconstructed by an adversary, transformation of the features are required to reduce the risk of privacy violations. While differential privacy mechanisms provide a means of protecting finite datasets, protection of individual features has not been addressed. In this paper, we propose a novel framework for privacy-preserving AI-based sensing, where devices apply transformations of extracted features before transmission to a model server.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0438",
+  "title": "A Performance of ES920LR LoRa for the Internet of Things: A Technology Review",
+  "year": "2021",
+  "abstract": "In this research, the LoRa used is the ES920LR. LoRa ES920LR is used in Japan with a frequency of 920 MHz, LoRa ES920LR has small dimensions, its size is 24.00 x 17.0 x.2.3 mm, and a range of 3 km at Free Space Path Loss (FSPL); the RSSI value (-dBm) is found to be different in different outdoor environmental conditions. Furthermore, the ES920LR is used as a transmitter and receiver for human heart rate data. The heart rate sensor used is a Pulse Sensor placed on the tip of a human finger. At the Line-of-sight of Building position, the RSSI value (-dBm) shows -119 dBm at a distance of 710 meters, and the PRR (%) is 93.94%. Furthermore, the ES920LR is combined with the Leafony Board to become the Leafony Board LoRa ES920LR. Due to its small size, it is possible to place it on a drone or UAV coupled with GPS as navigation in the analysis and analysis of the ES920LR Spreading Factor and Signal Power LoRa.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0439",
+  "title": "TAPA-ICL: Taxonomy-Aware Prompt Augmentation for in-Context Learning in Music Understanding",
+  "year": "2025",
+  "abstract": "This paper presents TAPA-ICL, a novel in-context learning (ICL) framework for few/zero-shot symbolic music understanding task that generates human-readable analysis. Conventional ICL approaches mainly rely on the ability of large language models (LLMs) to infer patterns and tasks from contextual examples. However, while LLMs have shown basic capability of understanding symbolic music, how to enhance such capability via additional context still remains unexplored. To tackle this issue, we focus on the two major challenges as follows: (1) Sparsity of Score Input through taxonomy-aware prompt augmentation (TAPA) that distills label-to-feature profiles, reducing context length by over 10 times; and (2) Complexity of Musical Semantics Reasoning via structured chain-of-thought (CoT) prompts enforcing feature extraction, context-aware analysis, and decisionmaking. By combining TAPA strategy and the CoT reasoning prompts, our method enables effective few/zero-shot adaptation across emotion recognition, composer identification, and genre classification tasks. Experimental results show that our TAPAICL method significantly outperforms conventional few-shot ICL baselines (including those based on ultra-large and mixture of experts (MoE) models) on each downstream task and achieves slightly weaker performance to existing many-shot approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0440",
+  "title": "Understanding Sparse-View Failures in 3D Gaussian Splatting: A Mathematical and Theoretical Review",
+  "year": "2026",
+  "abstract": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time photorealistic novel view synthesis, bridging the gap between explicit point-based models and implicit neural radiance fields. Despite its impressive efficiency and rendering quality under dense multi-view supervision, 3DGS exhibits pronounced failure modes in sparse-view settings, including inaccurate geometry, floating Gaussians, overfitting to training views, & unstable densification. These limitations have motivated a growing body of research proposing diverse yet conceptually related strategies to stabilize sparse-view reconstruction. This paper presents a comprehensive review of the major methodological directions developed to overcome sparse-view limitations in 3DGS. We systematically analyse approaches that enhance initialization through stereo fusion, regulate Gaussian density via guided insertion or pruning, augment supervision using synthesized pseudo views, and suppress errors through disagreement-based metrics. Although introduced under different names & frameworks, we show that many of these methods share common underlying principles-namely, controlling where Gaussians are added or removed, enriching geometric constraints beyond sparse observations. Beyond a high-level survey, this work delves deeply into the mathematical formulations and theoretical motivations of these techniques. We examine proximity graphs, disagreement metrics, depthbased regularization, and pseudo-view constraints, clarifying their roles through detailed equations and explicit optimization interpretations. By unifying these methods under a common analytical lens, this review highlights both their similarities and nuanced differences, offering clear insights into why they succeed and where their limitations remain. Overall, this paper aims to serve as a principled reference for understanding, comparing, and extending sparse-view 3D Gaussian Splatting methods.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

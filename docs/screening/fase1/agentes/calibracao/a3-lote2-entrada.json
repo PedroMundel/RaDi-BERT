@@ -1,0 +1,350 @@
+[
+ {
+  "id": "C34",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "this paper provides a timely overview of both old and current compression techniques for deep neural networks"
+   },
+   {
+    "item": "modelos",
+    "texto": "for deep convolutional neural networks and self-attention based networks such as the Transformer"
+   },
+   {
+    "item": "tecnica",
+    "texto": "including pruning, quantization, tensor decomposition, knowledge distillation and combinations thereof"
+   }
+  ]
+ },
+ {
+  "id": "C35",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "In this survey, we focus on system-aware KV infrastructure for serving LLMs"
+   },
+   {
+    "item": "modelos",
+    "texto": "serving LLMs"
+   },
+   {
+    "item": "tecnica",
+    "texto": "The key-value (KV) cache, which stores KV tensors during autoregressive decoding, is crucial for enabling low-latency, high-throughput LLM inference serving"
+   }
+  ]
+ },
+ {
+  "id": "C36",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "objeto",
+    "texto": "This study evaluates the performance of three leading LLMs (OpenAI's ChatGPT, Google's Gemini, and DeepSeek) on the complex task of generating a comprehensive survey paper on deep learning for cancer Drug Response Prediction (DRP)"
+   },
+   {
+    "item": "modelos",
+    "texto": "three leading LLMs (OpenAI's ChatGPT, Google's Gemini, and DeepSeek)"
+   },
+   {
+    "item": "pratica",
+    "texto": "By testing both standard and Deep Research (DR) / Deep Think (DT) modes of LLMs with prompts of varying detail"
+   }
+  ]
+ },
+ {
+  "id": "C37",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "objeto",
+    "texto": "this article introduces optimal multi-beam design empowered by machine learning techniques for 6G ISTNs"
+   },
+   {
+    "item": "tecnica",
+    "texto": "machine learning techniques for 6G ISTNs, with respect to the real-time constraints of mission-critical services"
+   },
+   {
+    "item": "pratica",
+    "texto": "we investigate the performance of machine learning-aided real-time optimisation for 6G ISTNs in disaster relief"
+   }
+  ]
+ },
+ {
+  "id": "C38",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "objeto",
+    "texto": "we present TALES, an evaluation of cultural misrepresentations in LLM-generated stories for diverse Indian cultural identities"
+   },
+   {
+    "item": "tipo",
+    "texto": "we develop TALES-Tax, a taxonomy of cultural misrepresentations"
+   },
+   {
+    "item": "modelos",
+    "texto": "we evaluate 6 models"
+   },
+   {
+    "item": "pratica",
+    "texto": "We also transform the annotations into TALES-QA, a standalone question bank to evaluate the cultural knowledge of models"
+   }
+  ]
+ },
+ {
+  "id": "C39",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "objeto",
+    "texto": "We discuss the design of a large-scale recommender system handling billions of interactions on a European e-commerce platform"
+   },
+   {
+    "item": "pratica",
+    "texto": "we conduct an A/B test on the live platform with more than 19 million user sessions"
+   }
+  ]
+ },
+ {
+  "id": "C40",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "objeto",
+    "texto": "[título] Vision Transformers on the Edge: A Comprehensive Survey of Model Compression and Acceleration Strategies"
+   },
+   {
+    "item": "tipo",
+    "texto": "This survey bridges this gap by providing a structured analysis of model compression techniques, software tools for inference on edge, and hardware acceleration strategies for ViTs"
+   },
+   {
+    "item": "modelos",
+    "texto": "vision transformers (ViTs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "model compression techniques, software tools for inference on edge, and hardware acceleration strategies for ViTs"
+   }
+  ]
+ },
+ {
+  "id": "C42",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper provides a comprehensive survey of knowledge distillation"
+   },
+   {
+    "item": "tecnica",
+    "texto": "knowledge distillation effectively learns a small student model from a large teacher model"
+   }
+  ]
+ },
+ {
+  "id": "C43",
+  "acesso": "sem acesso",
+  "frases": []
+ },
+ {
+  "id": "C44",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "Our survey stands out from traditional literature reviews by not only summarizing the current state of research but also by introducing a framework based on roofline model for systematic analysis of LLM inference techniques"
+   },
+   {
+    "item": "modelos",
+    "texto": "Large Language Model (LLM)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "model compression (e.g., Knowledge Distillation and Quantization), algorithm improvements (e.g., Early Exit and Mixture-of-Expert), and both hardware and system-level enhancements"
+   },
+   {
+    "item": "pratica",
+    "texto": "The analyze tool, LLM-Viewer, is open-sourced"
+   }
+  ]
+ },
+ {
+  "id": "C45",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This article provides a survey on resource-efficient CNN techniques in terms of model-, arithmetic-, and implementation-level techniques"
+   },
+   {
+    "item": "modelos",
+    "texto": "Convolutional neural networks (CNNs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "model-level optimizations such as architectural compression of CNNs"
+   }
+  ]
+ },
+ {
+  "id": "C46",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper presents a comprehensive review of recent advances in accelerating DNN inference on edge platforms, with a focus on model compression, compiler optimizations, and hardware–software co-design"
+   },
+   {
+    "item": "modelos",
+    "texto": "deep neural networks (DNNs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "model compression, compiler optimizations, and hardware–software co-design"
+   }
+  ]
+ },
+ {
+  "id": "C49",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This systematic review examines the challenges, limitations, and potential impact of Causal AI in legal language processing compared to traditional correlation-based methods"
+   },
+   {
+    "item": "tecnica",
+    "texto": "Causal Artificial Intelligence (AI) techniques for improved legal reasoning"
+   },
+   {
+    "item": "pratica",
+    "texto": "we analyzed 47 papers from 2017 to 2024 across academic databases, private sector publications, and policy documents"
+   }
+  ]
+ },
+ {
+  "id": "C50",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "In this work, we survey different approaches for efficient Transformer inference"
+   },
+   {
+    "item": "modelos",
+    "texto": "Transformer models"
+   },
+   {
+    "item": "tecnica",
+    "texto": "analysis and profiling of the bottlenecks in existing Transformer architectures"
+   }
+  ]
+ },
+ {
+  "id": "C51",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This review provides an in-depth analysis of the advancements in efficient neural networks and the deployment of deep learning models on ultra-low-power microcontrollers (MCUs) for TinyML applications"
+   },
+   {
+    "item": "modelos",
+    "texto": "neural networks"
+   },
+   {
+    "item": "tecnica",
+    "texto": "techniques such as model compression, quantization, and low-rank factorization, which optimize neural network architectures for minimal resource utilization on MCUs"
+   }
+  ]
+ },
+ {
+  "id": "C53",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper presents a comprehensive survey of the existing literature on efficient LLM inference"
+   },
+   {
+    "item": "modelos",
+    "texto": "Large Language Models (LLMs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "data-level, model-level, and system-level optimization"
+   }
+  ]
+ },
+ {
+  "id": "C54",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper presents a comprehensive overview and analysis of this promising decoding paradigm"
+   },
+   {
+    "item": "modelos",
+    "texto": "Large Language Models (LLMs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "Speculative Decoding"
+   }
+  ]
+ },
+ {
+  "id": "C56",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This survey synthesizes and relates current methods and findings in efficient NLP"
+   },
+   {
+    "item": "tecnica",
+    "texto": "efficient methods that require fewer resources to achieve similar results"
+   }
+  ]
+ },
+ {
+  "id": "C57",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "Here, we summarize the research in compressing Transformers, focusing on the especially popular BERT model"
+   },
+   {
+    "item": "modelos",
+    "texto": "Transformer-based models",
+    "modelo2": "BERT model"
+   },
+   {
+    "item": "tecnica",
+    "texto": "model compression"
+   }
+  ]
+ },
+ {
+  "id": "C58",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "In this survey on hardware-aware neural architecture search (HW-NAS)"
+   },
+   {
+    "item": "modelos",
+    "texto": "deep neural networks (DNNs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "hardware-aware neural architecture search (HW-NAS)"
+   }
+  ]
+ }
+]

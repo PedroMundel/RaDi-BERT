@@ -1,0 +1,561 @@
+[
+  {
+    "id": "F0001",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey offers a thorough review of the latest advancements in diffusion model quantization"
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey offers a thorough review"
+      },
+      {
+        "item": "modelos",
+        "texto": "diffusion models in generative tasks"
+      },
+      {
+        "item": "tecnica",
+        "texto": "model quantization has emerged as a pivotal technique for both compression and acceleration"
+      },
+      {
+        "item": "pratica",
+        "texto": "The list of related papers, corresponding codes, pre-trained models and comparison results are publicly available at the survey project homepage https://github.com/TaylorJocelyn/Diffusion-Model-Quantization"
+      }
+    ]
+  },
+  {
+    "id": "F0002",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we review various end-to-end automatic speech recognition algorithms and their optimization techniques for on-device applications"
+      },
+      {
+        "item": "tipo",
+        "texto": "we review"
+      },
+      {
+        "item": "modelos",
+        "texto": "Connectionist Temporal Classification (CTC), Recurrent Neural Network Transducer (RNN-T), Attention-based Encoder-Decoder models (AED), Monotonic Chunk-wise Attention (MoChA), transformer-based speech recognition systems"
+      },
+      {
+        "item": "tecnica",
+        "texto": "optimization techniques for on-device applications"
+      },
+      {
+        "item": "pratica",
+        "texto": "fully neural network-based systems require much smaller memory footprints compared to conventional algorithms"
+      }
+    ]
+  },
+  {
+    "id": "F0003",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This literature review focuses on various techniques for reducing resource requirements and compressing large language models"
+      },
+      {
+        "item": "tipo",
+        "texto": "This literature review focuses"
+      },
+      {
+        "item": "modelos",
+        "texto": "large language models"
+      },
+      {
+        "item": "tecnica",
+        "texto": "quantization, pruning, knowledge distillation, and architectural optimizations"
+      },
+      {
+        "item": "pratica",
+        "texto": "practical applications"
+      }
+    ]
+  },
+  {
+    "id": "F0004",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0005",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0007",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0008",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "the technological challenges and trends in the latest AI accelerators are reviewed"
+      },
+      {
+        "item": "modelos",
+        "texto": "GPU"
+      },
+      {
+        "item": "tecnica",
+        "texto": "low-power hardware accelerators are essential for feasible implementation"
+      }
+    ]
+  },
+  {
+    "id": "F0009",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "combining Federated Learning (FL) and the Internet of Things (IoT) symbolizes a revolutionary trend in edge-based intelligence"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Systematic Review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "security mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "F0010",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A packet cannot be sent from one location to another unless the "quality of service" (QoS) specifications are met"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Systematic Literature Review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "QoS parameters like throughput, bandwidth, transmission delay, availability, jitter, latency, and packet loss are crucial"
+      },
+      {
+        "item": "pratica",
+        "texto": "SLR on QoS improvement in smart healthcare apps"
+      }
+    ]
+  },
+  {
+    "id": "F0011",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Literature Survey"
+      },
+      {
+        "item": "pratica",
+        "texto": "The LoRa technology can be installed in various smart city centres"
+      }
+    ]
+  },
+  {
+    "id": "F0013",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Structural Health Monitoring (SHM) is increasingly embraced thanks to advancements in the Internet of Things (IoT) and Artificial Intelligence (AI)"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Literature Review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Structural Health Monitoring (SHM) is increasingly embraced"
+      },
+      {
+        "item": "pratica",
+        "texto": "Through case studies, the practical applications of SHM are illustrated"
+      }
+    ]
+  },
+  {
+    "id": "F0015",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0016",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "In this survey, we provide a comprehensive review of deep TD models"
+      },
+      {
+        "item": "tipo",
+        "texto": "A survey"
+      },
+      {
+        "item": "modelos",
+        "texto": "deep tensor decomposition (deep TD)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Linear deep TD exploits the layered structure of deep neural networks (DNNs) to recursively factorize factor matrices"
+      },
+      {
+        "item": "pratica",
+        "texto": "applications of deep TD models"
+      }
+    ]
+  },
+  {
+    "id": "F0017",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0018",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we introduce CultureSynth, a novel framework comprising (1) a comprehensive hierarchical multilingual cultural taxonomy covering 12 primary and 130 secondary topics"
+      },
+      {
+        "item": "modelos",
+        "texto": "large language models (LLMs)"
+      },
+      {
+        "item": "pratica",
+        "texto": "CultureSynth-7 synthetic benchmark contains 19,360 entries and 4,149 manually verified entries"
+      }
+    ]
+  },
+  {
+    "id": "F0019",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "Survey"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Knowledge Distillation (KD) has been leveraged as an important technique"
+      },
+      {
+        "item": "pratica",
+        "texto": "for real deployment"
+      }
+    ]
+  },
+  {
+    "id": "F0020",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The classification of electrocardiogram (ECG) signals is essential for early arrhythmia detection"
+      },
+      {
+        "item": "tipo",
+        "texto": "A systematic review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "ECG classification research"
+      },
+      {
+        "item": "pratica",
+        "texto": "comparative analysis of accuracy, inference time, energy consumption, and memory usage"
+      }
+    ]
+  },
+  {
+    "id": "F0021",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Among these techniques, pruning has emerged as one of the most effective methods"
+      },
+      {
+        "item": "tipo",
+        "texto": "provides a comprehensive overview of pruning"
+      },
+      {
+        "item": "tecnica",
+        "texto": "pruning as a model compression strategy"
+      }
+    ]
+  },
+  {
+    "id": "F0022",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "This survey presents a comprehensive overview of deepfake audio generation and detection techniques"
+      },
+      {
+        "item": "tecnica",
+        "texto": "deepfake audio generation and detection techniques"
+      },
+      {
+        "item": "pratica",
+        "texto": "datasets and evaluation metrics like accuracy, AUROC and EER"
+      }
+    ]
+  },
+  {
+    "id": "F0023",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Review"
+      },
+      {
+        "item": "modelos",
+        "texto": "Long Short Term Memory Networks (LSTMs) and Recurrent Neural Networks (RNNs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "attention mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "F0024",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "in this work optimized recommendation system is developed for analyzing customer reviews"
+      },
+      {
+        "item": "modelos",
+        "texto": "batch normalized capsule networks (NCN)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "butterfly optimized matrix factorization filtering approach"
+      }
+    ]
+  },
+  {
+    "id": "F0025",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Review"
+      },
+      {
+        "item": "modelos",
+        "texto": "lightweight convolutional networks such as the MobileNet family"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Lightweight Deep Learning Models for Face Mask Detection"
+      }
+    ]
+  },
+  {
+    "id": "F0026",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "automatic cervical cancer detection and segmentation from medical images"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Survey"
+      },
+      {
+        "item": "modelos",
+        "texto": "convolutional neural networks (CNNs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "U-Net and nnU-Net"
+      }
+    ]
+  },
+  {
+    "id": "F0028",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "unmanned aerial vehicle survey system based on embedded 3D machine vision imaging perception"
+      },
+      {
+        "item": "pratica",
+        "texto": "based on embedded technology"
+      }
+    ]
+  },
+  {
+    "id": "F0029",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Review"
+      },
+      {
+        "item": "modelos",
+        "texto": "lightweight neural networks"
+      },
+      {
+        "item": "tecnica",
+        "texto": "face detection and recognition method based on lightweight network"
+      }
+    ]
+  },
+  {
+    "id": "F0030",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Review"
+      },
+      {
+        "item": "modelos",
+        "texto": "Agentic AI"
+      }
+    ]
+  },
+  {
+    "id": "F0031",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A survey"
+      },
+      {
+        "item": "tecnica",
+        "texto": "efficient architecture and model compression techniques"
+      }
+    ]
+  },
+  {
+    "id": "F0032",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Comprehensive Survey"
+      },
+      {
+        "item": "modelos",
+        "texto": "Vision Transformers"
+      },
+      {
+        "item": "tecnica",
+        "texto": "few-shot learning"
+      }
+    ]
+  },
+  {
+    "id": "F0033",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "a survey"
+      },
+      {
+        "item": "tecnica",
+        "texto": "resource-efficient distributed state estimation"
+      }
+    ]
+  },
+  {
+    "id": "F0034",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0035",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0036",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "Review"
+      },
+      {
+        "item": "modelos",
+        "texto": "convolutional neural networks (CNNs), attention-based architectures, and YOLO-based frameworks"
+      },
+      {
+        "item": "tecnica",
+        "texto": "AI-driven lane and obstacle detection methods"
+      }
+    ]
+  },
+  {
+    "id": "F0038",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight human pose estimation methods"
+      }
+    ]
+  },
+  {
+    "id": "F0039",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Comprehensive Survey"
+      },
+      {
+        "item": "tecnica",
+        "texto": "on-device recommender systems (DeviceRSs)"
+      }
+    ]
+  },
+  {
+    "id": "F0040",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "tipo",
+        "texto": "A Review"
+      },
+      {
+        "item": "modelos",
+        "texto": "CNN BiGRU model"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Quantization Techniques"
+      }
+    ]
+  }
+]

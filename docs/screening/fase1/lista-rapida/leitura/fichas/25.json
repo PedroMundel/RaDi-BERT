@@ -1,0 +1,32 @@
+{"id": "25", "titulo": "Low-rank matrix factorization for Deep Neural Network training with high-dimensional output targets", "ano": 2013,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "todas: Abstract, 1 Introduction, 2 Low-Rank Matrix Factorization, 3 Low-Rank Analysis (3.1-3.4), 4 Results on a Larger Task (4.1-4.2), 5 Language Modeling, 6 Conclusions", "paginas": "1-5 (paper completo, incluindo tabelas, figuras e referências)"},
+ "resumo": "O artigo fatora a matriz de pesos da camada final (softmax) de uma DNN de reconhecimento de fala em duas matrizes menores, partindo da hipótese de que poucos alvos de saída ficam ativos por entrada e por isso essa matriz tem posto baixo. Aplicado a modelagem acústica (Broadcast News 50h e 400h, Switchboard 300h) e a modelagem de linguagem (DNN-LM), a fatoração com posto r=128 (ou 512 no caso com mais saídas) reduz 28-49% dos parâmetros sem perda relevante de acurácia. O ganho não é só de tamanho: no treinamento de segunda ordem (Hessian-free) o posto baixo reduz o número de iterações e chega a 55% de aceleração no tempo de treino. É um trabalho de rede feedforward clássica para fala (DNN sigmoide + softmax), anterior aos Transformers, e sua motivação central é acelerar o treino, não a inferência.",
+ "perguntas": {
+   "P1": {"r": "não", "por": "não propõe taxonomia nem organiza uma área; é um artigo de técnica única, testada em três tarefas (Seções 3-5)."},
+   "P2": {"r": "sim", "por": "explica o mecanismo (fatoração A=B×C, condição r < pmn/(m+n) na Seção 2) e a razão empírica do posto baixo (poucos alvos ativos por vez, Fig. 3, p.3)."},
+   "P3": {"r": "não", "por": "cita trabalhos anteriores de regressão multivariada e matrix completion (Seção 1, p.1) mas não narra a origem/evolução da linha; é o próprio ponto de partida, não um relato histórico dele."},
+   "P6": {"r": "sim", "por": "é o trabalho mais antigo da divisão 'fatoração de baixo posto' na lista (2013, antecede o item 24 de 2014); introduz a fatoração de baixo posto de matrizes de peso em DNNs como técnica de redução de parâmetros e aceleração de treino."},
+   "P4a": {"r": "parcial", "por": "dá receita prática replicável (arquitetura, equações, valores de r testados, Tabelas 1-6) mas não libera código nem benchmark público."},
+   "P4b": {"r": "não", "por": "não trata de destilação de conhecimento; é fatoração de matriz."},
+   "V": {"r": "sim", "por": "define posto (rank), fatoração de baixo posto, camada softmax/alvos de saída, erro de norma espectral, treino por cross-entropy, treino de sequência Hessian-free, WER e perplexidade (Seções 2-5)."},
+   "A": {"r": "não", "por": "é DNN feedforward clássica para reconhecimento de fala de 2013, pré-Transformer e pré-LLM; não retrata a área atual."},
+   "R": {"r": "não", "por": "trata de uma rede totalmente conectada (sigmoide + softmax) para modelagem acústica e de linguagem, sem discutir encoder/decoder/transformer; família: feedforward clássica pré-Transformer."}
+ },
+ "termos_chave": ["low-rank factorization (fatoração de baixo posto)", "rank r (posto)", "softmax layer / output targets", "erro de norma espectral", "cross-entropy training", "Hessian-free sequence training", "word error rate (WER)", "perplexidade"],
+ "pre_requisitos": ["álgebra linear básica (posto e fatoração de matriz)", "redes neurais feedforward (MLP) e backpropagation", "função softmax e treino por cross-entropy", "noções de reconhecimento de fala (LVCSR, HMM/GMM)", "otimização de segunda ordem (Hessian-free), em nível superficial"],
+ "nivel": "intermediário",
+ "nivel_por": "o texto é curto e direto, mas exige entender posto de matriz e a arquitetura de DNN da época; falta o vocabulário de arquiteturas atuais, o que pede alguma bagagem prévia de quem está começando.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Abstract e Introdução (p.1) para motivação e números-resumo; Seção 2 (p.2) para o mecanismo de fatoração; Tabela 1 e Figuras 2-3 (p.3) para a evidência do posto baixo; Conclusão, Seção 6 (p.4).",
+ "acrescimo": "É o mais antigo dos dois títulos da divisão 'fatoração de baixo posto' na lista (2013, antes do item 24 de 2014) e dá a justificativa teórica original (poucos alvos de saída ativos por entrada implicam posto baixo na camada final) que o item 24 não traz, por focar em kernels convolucionais.",
+ "sobreposicao": ["Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation"],
+ "bloco_atual": "B fundadores",
+ "bloco_sugerido": "B fundadores",
+ "veredito": "manter",
+ "veredito_por": "é o trabalho fundador da divisão de fatoração de baixo posto na lista, com mecanismo bem explicado e resultado sólido; serve à base mais como história e mecanismo do que como atualidade, mas isso é esperado do bloco B.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+   {"texto": "we suspect that the last weight layer (i.e. matrix) has low rank", "pagina": "1"},
+   {"texto": "the introduction of low-rank factorization helps to further constrain the space of search directions and makes the optimization more efficient", "pagina": "3"}
+ ]}

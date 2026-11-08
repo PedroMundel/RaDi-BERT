@@ -1,0 +1,274 @@
+[
+  {
+    "id": "F0761",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "This Review provides a comprehensive review of the role played by embedded systems in industrial automation",
+    "objetivo": null,
+    "motivo": "Revisão de sistemas embarcados na automação industrial; não trata de modelos de IA nem de nenhum eixo de custo de implantação (§1.2)."
+  },
+  {
+    "id": "F0762",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "The major objective of this proposed study is to identify and classify the given Twitter input data as real or fake through deep learning mechanisms",
+    "objetivo": null,
+    "motivo": "Estudo primário de classificação de fake news (acurácia), sem relação com custo de implantação; não é survey."
+  },
+  {
+    "id": "F0763",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0764",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "We propose a hybrid BERT-based model with Top-K routing and auxiliary losses to mitigate routing collapse and improve efficiency",
+    "objetivo": null,
+    "motivo": "Modelo BERT com técnica de routing tipo MoE visando eficiência; é estudo primário (não survey), aplicado a ABSA específico."
+  },
+  {
+    "id": "F0766",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0767",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This review focuses on the risk detection and safe driving field of autonomous driving, and analyzes related cutting-edge technologies in depth",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): detecção de risco em direção autônoma."
+  },
+  {
+    "id": "F0768",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "This model achieves efficient classification without relying on word embeddings or large pre-trained models",
+    "objetivo": null,
+    "motivo": "Estudo primário (não survey) de modelo leve para análise de sentimento, evitando modelos grandes (eixo ii)."
+  },
+  {
+    "id": "F0769",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)/(d)",
+    "frase": "empirical deployment profiling across heterogeneous edge platforms including NVIDIA Jetson, Intel OpenVINO, and mobile processors",
+    "objetivo": "saber + saber fazer",
+    "motivo": "Survey cobre compressão/lightweighting e implantação em hardware de borda, cruzando CNN/ViT/Mamba, com perfilamento empírico de implantação."
+  },
+  {
+    "id": "F0770",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "This paper presents LUME (a Lightweight Unbiased Multi-teacher Ensemble) for RRS",
+    "objetivo": null,
+    "motivo": "Estudo primário (não survey); ensemble multi-professor consolidado via destilação em modelo leve único (eixo ii)."
+  },
+  {
+    "id": "F0771",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This study presents a systematic review of 72 studies on quantization applied to medical images, following PRISMA guidelines",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): quantização aplicada a imagens médicas."
+  },
+  {
+    "id": "F0772",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0773",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we propose a novel Bidirectional Counterfactual Distillation (BiCoD) framework for review-based recommendation",
+    "objetivo": null,
+    "motivo": "Estudo primário; 'distillation' usada para mitigar viés de recomendação, não para reduzir custo de implantação."
+  },
+  {
+    "id": "F0774",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "SSD MobileNet V1, SSD MobileNet V2, and SSD inception V2",
+    "objetivo": null,
+    "motivo": "Survey de detecção humana restrita a detectores CNN (SSD MobileNet/Inception), técnica só-CNN (b)."
+  },
+  {
+    "id": "F0775",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "YOLO11n-seg architecture",
+    "objetivo": null,
+    "motivo": "Estudo primário com modelo CNN (YOLO), fora do escopo de arquitetura (§1.3), aplicação específica (fissuras)."
+  },
+  {
+    "id": "F0776",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "A Review of Photoplethysmography-Based Blood Pressure Monitoring: From Cloud-Based Machine Learning to TinyML Edge Deployment",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): monitoramento de pressão arterial via PPG."
+  },
+  {
+    "id": "F0777",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "COVA automatically improves the accuracy of lightweight models through their specialization",
+    "objetivo": null,
+    "motivo": "Estudo primário (não survey); especialização automática de modelos leves para câmeras de borda (eixo i/ii)."
+  },
+  {
+    "id": "F0778",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "we investigate how to adapt the features of PrLMs to new domains without fine-tuning",
+    "objetivo": null,
+    "motivo": "Estudo primário sobre adaptação de domínio não supervisionada em BERT (PrLM), reduzindo necessidade de dado rotulado (eixo iii)."
+  },
+  {
+    "id": "F0779",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "This review provides a history and analysis of GenAI with a focus on current use for code generation, testing, and more efficient usability/UX design",
+    "objetivo": null,
+    "motivo": "Revisão de história/uso de GenAI (geração de código, UX), sem eixo de custo de implantação."
+  },
+  {
+    "id": "F0781",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)/(d)",
+    "frase": "we provide a review of existing studies focusing on-device ML models for IoT applications in terms of energy consumption",
+    "objetivo": "saber",
+    "motivo": "Survey sobre modelos ML on-device e consumo de energia (eixo ii), cobrindo múltiplas aplicações de IoT."
+  },
+  {
+    "id": "F0782",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "Lightweight Convolutional Neural Networks (LCNNs)",
+    "objetivo": null,
+    "motivo": "Survey restrita a CNNs leves (LCNN), técnica só-CNN (b), aplicada a análise de imagem de trigo."
+  },
+  {
+    "id": "F0784",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "Support Vector Machine technique for pipeline failure prediction",
+    "objetivo": null,
+    "motivo": "Estudo primário sobre predição de falhas em pipelines de CI/CD via SVM; sem relação com custo de implantação de modelos."
+  },
+  {
+    "id": "F0785",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "The goal of this study is to further explore the promising intersection of MDE with ML (MDE4ML) through a systematic literature review (SLR)",
+    "objetivo": null,
+    "motivo": "Revisão sobre engenharia dirigida a modelos aplicada a ML (metodologia de desenvolvimento), sem eixo de custo de implantação."
+  },
+  {
+    "id": "F0786",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0787",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This paper presents a state-of-the-art review of recent advancement in the field of Embedded implementation of driver fatigue detection",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): detecção de fadiga do motorista, embarcado."
+  },
+  {
+    "id": "F0788",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · sistema/ferramenta",
+    "frase": "We present a production system for grounded, PR-native review that pairs static-analysis findings with AST-guided context extraction and a single-GPU, on-demand serving stack",
+    "objetivo": null,
+    "motivo": "Sistema de produção (ferramenta) para revisão de código com serving quantizado; não é survey."
+  },
+  {
+    "id": "F0789",
+    "veredito": "dúvida",
+    "regra": "geral (arquitetura do modelo não especificada)",
+    "frase": "this paper provides a detailed survey of DAOD algorithms",
+    "objetivo": null,
+    "motivo": "Survey de detecção de objetos com adaptação de domínio (possível eixo iii, menos dado rotulado no domínio-alvo), mas arquitetura do modelo (CNN vs. transformer) não fica clara nas frases recebidas."
+  },
+  {
+    "id": "F0790",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we propose a multitask learning-based bidirectional iterated dilated convolution model, BCNN-CWS, for low-resource NER",
+    "objetivo": null,
+    "motivo": "Modelo de convolução dilatada (CNN), fora do escopo de arquitetura (§1.3), apesar do contexto de baixo recurso."
+  },
+  {
+    "id": "F0791",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This review explores the performance, suitability, and implications of various deep learning algorithms within the context of embedded healthcare systems",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): sistemas de saúde embarcados, apesar de cobrir Transformer entre as arquiteturas."
+  },
+  {
+    "id": "F0792",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we introduce a novel deep-learning architecture, named DISCOREV, which employs cross-task knowledge distillation",
+    "objetivo": null,
+    "motivo": "Destilação usada para transferência de conhecimento entre tarefas de revisão de código, sem evidência de redução de custo de implantação."
+  },
+  {
+    "id": "F0793",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "A review on embeddable industrial drive systems",
+    "objetivo": null,
+    "motivo": "Revisão sobre sistemas de acionamento industrial embarcado; não menciona modelos de IA."
+  },
+  {
+    "id": "F0794",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This paper starts with a comprehensive review of vector quantization techniques",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): quantização vetorial aplicada a sistemas de recomendação."
+  },
+  {
+    "id": "F0795",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "FedDBL reduces the communication burden from 4.6 GB to only 138.4 KB per client using the ResNet-50 backbone at 50-round training",
+    "objetivo": null,
+    "motivo": "Modelo CNN (ResNet-50), fora do escopo de arquitetura (§1.3); ganho é em comunicação federada, eixo não coberto por §1.2."
+  },
+  {
+    "id": "F0796",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "systematic literature review (SLR) examining lightweight Machine learning models such as MobileNet and TinyML, IoT-based dietary monitoring solutions",
+    "objetivo": null,
+    "motivo": "Aplicação específica (c): monitoramento alimentar via IoT."
+  },
+  {
+    "id": "F0798",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "we will quickly review few of the recent state-of-the-art developments in the area of LiDAR generated 3D point cloud data compression",
+    "objetivo": null,
+    "motivo": "Revisão de compressão de dados de sensor (nuvem de pontos LiDAR), não de modelos de IA."
+  },
+  {
+    "id": "F0799",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "Graph Convolutional Network (GCN)",
+    "objetivo": null,
+    "motivo": "Modelo GNN (GCN), fora do escopo de arquitetura (§1.3); aplicação de detecção de fake reviews não relacionada a custo de implantação."
+  },
+  {
+    "id": "F0800",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "This thorough assessment examines the development and status of intelligent home automation systems",
+    "objetivo": null,
+    "motivo": "Revisão sobre automação residencial com dispositivos embarcados/IoT; não menciona modelos de IA."
+  }
+]

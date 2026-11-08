@@ -1,0 +1,24 @@
+[
+ {
+  "id": "F0961",
+  "title": "Nonnegative Matrix Factorization in Dimensionality Reduction: A Survey",
+  "year": "2025",
+  "abstract": "Dimensionality Reduction plays a pivotal role in improving feature learning accuracy and reducing training time by eliminating redundant features, noise, and irrelevant data. Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction. Despite its extensive use, there remains a need for a comprehensive analysis of NMF in the context of dimensionality reduction. To bridge this gap, this article presents a comprehensive survey of NMF, focusing on its applications in both feature extraction and feature selection. We propose a novel classification scheme for dimensionality reduction to enhance understanding of its core principles. Subsequently, we delve into a thorough summary of diverse NMF approaches used for feature extraction and selection. Furthermore, we discuss the latest research trends and potential future directions for leveraging NMF in dimensionality reduction, aiming to highlight areas that need further exploration and development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0962",
+  "title": "An Edge Deployment Framework to Scale AI in Industrial Applications",
+  "year": "2023",
+  "abstract": "Artificial Intelligence (AI) is increasingly explored in various domains and industries. Many companies experiment with AI, but too often those experiments are one-off analyses based on outdated data and the resulting models never make it into production. This paper proposes a framework for building and operating AI models at the industrial edge. The center of this framework is the model artifact, a model-generating entity. We analyze three AI model use-cases and user roles involved in industrial AI applications to illustrate the challenges in deploying and operating AI applications in industrial edge scenarios. We propose to structure the AI models into predefined artifacts that enable deployments with only a few clicks. The edge device links sensor data with the model input and returns the model output as feedback back into the industrial process. Model training, deployment, and management can be carried out in a scalable manner even by a non-expert. Several models can be managed in parallel, and data can be linked to the respective sensor or machine.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

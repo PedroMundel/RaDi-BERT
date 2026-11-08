@@ -1,0 +1,421 @@
+[
+ {
+  "id": "F0841",
+  "title": "Semantic and Structural Optimization of Resumes via LLMs for Improved ATS Matching",
+  "year": "2025",
+  "abstract": "This paper reviews a novel LLM-powered pipeline for generating resumes that are dynamically tailored to job descriptions and optimised for Applicant Tracking Systems (ATS). In today’s hiring landscape, most resumes are filtered before reaching a recruiter, primarily because of the rigid keyword-matching and formatting rules enforced by ATS algorithms. This presents a significant challenge for job seekers, especially those who cannot tailor their resumes for each application. Traditional resume tools often offer static templates or simple keyword suggestions, but generally fail to contextualise content and provide useful feedback. By combining structured parsing, semantic alignment, and iterative scoring, our system overcomes these limitations and generates highly customised, ATS-friendly resumes with minimal user effort. We demonstrate, through token-based and latent-space evaluations, that our optimised resumes nearly double their effectiveness compared to unmodified versions, improving alignment scores on average by 85%. This presents our approach as a valuable tool that enables job seekers to compete in increasingly competitive markets, while also representing a technological advancement.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0842",
+  "title": "Small Language Models for Drug-Drug Interaction Extraction from Biomedical Text: A Systematic Literature Review",
+  "year": "2026",
+  "abstract": "Drug–drug interaction (DDI) extraction from biomedical text is central to pharmacovigilance but remains challenging in resource-constrained clinical environments. While large language models have shown promise, their computational cost and deployment complexity limit practical adoption. This study systematically reviews the role of small language models (SLMs) for DDI extraction and examines their effectiveness, efficiency, and deployability. A systematic literature review was conducted following PRISMA guidelines, covering empirical studies published between 2020 and 2025 in PubMed, IEEE Xplore, ACM and  SpringerLink. Eligible studies were analysed with respect to model architectures, datasets, evaluation metrics, and deployment considerations. Quality assessment was applied to ensure methodological robustness. The synthesis indicates that SLM-based approaches, including CNN-, LSTM-, and lightweight transformer models, can achieve competitive F1-scores on benchmark DDI datasets while requiring substantially fewer computational resources than large language models. However, performance varies across datasets, and real-world clinical evaluations remain limited. These findings support the feasibility of deploying SLM-based DDI extraction systems in resource-constrained clinical and pharmacovigilance settings and provide a baseline for future benchmarking and comparative research in clinical natural language processing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0843",
+  "title": "A review of the Application of Additive Manufacturing in Endodontic access opening using SLM process",
+  "year": "2020",
+  "abstract": "3D Printing refers to a class of technology that can automatically construct 3-dimensional physical models from Computer Aided Design (CAD) data. Reduction of product development cycle time is a major concern in industries for achieving competitive advantage. Endodontic dentistry is the dental specialty concerned with the study and treatment of the dental pulp, and generally diagnose tooth pain and perform root canal treatment and other procedures relating to the interior of the tooth. This article, therefore, aims on being an assistive methodology in endodontics by applying 3D printing in order to reduce the strain involved in the tooth restoration process.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0844",
+  "title": "Peer Review #2 of \"A novel air quality monitoring and improvement system based on wireless sensor and actuator networks using LoRa communication (v0.1)\"",
+  "year": "2021",
+  "abstract": "In this paper, we study the air quality monitoring and improvement system based on wireless sensor and actuator network using LoRa communication.The proposed system is divided into two parts, indoor cluster and outdoor cluster, managed by a Dragino LoRa gateway.Each indoor sensor node can receive information about the temperature, humidity, air quality, dust concentration in the air and transmit them to the gateway.The outdoor sensor nodes have the same functionality, add the ability to use solar power, and are waterproof.The full-duplex relay LoRa modules which are embedded FreeRTOS is arranged to forward information from the nodes it manages to the gateway via uplink LoRa.The gateway collects and processes all of the system information and makes decisions to control the actuator to improve the air quality through the downlink LoRa.We build data management and analysis online software based on The Things Network and TagoIO platform.The system can operate with a coverage of 8.5 km, where optimal distances are established between sensor nodes and relay nodes and between relay nodes and gateways at 4.5 km and 4 km, respectively.Experimental results observed that the packet loss rate in real-time is less than 0.1% prove the effectiveness of the proposed system.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0845",
+  "title": "Machine Learning in Fluid Dynamics—Physics-Informed Neural Networks (PINNs) Using Sparse Data: A Review",
+  "year": "2025",
+  "abstract": "Fluid mechanics often involves complex systems characterized by a large number of physical parameters, which are usually described by experimental and numerical sparse data (temporal or spatial). The difficulty of obtaining complete spatio-temporal datasets is a common issue with conventional approaches, such as computational fluid dynamics (CFDs) and various experimental methods, particularly when evaluating and modeling turbulent flows. This review paper focuses on the integration of machine learning (ML), specifically physics-informed neural networks (PINNs), as a means to address this challenge. By directly incorporating governing physical equations into neural network training, PINNs present a novel method that allows for the reconstruction of flow from sparse and noisy data. This review examines various applications in fluid mechanics where sparse data is a common problem and evaluates the effectiveness of PINNs in enhancing flow prediction accuracy. An overview of diverse PINNs methods, their applications, and outcomes is discussed, demonstrating their flexibility and effectiveness in addressing challenges related to sparse data and illustrating that the future of fluid mechanics lies in the synergy between data-driven approaches and established physical theories.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0846",
+  "title": "Advancements in Image Compression Techniques: A Comprehensive Review",
+  "year": "2023",
+  "abstract": "Image compression is crucial for shrinking the size of digital photos without reducing quality. The demand for storage and bandwidth capacity continues to exceed available capacity, making image compression a necessary technique. The article compares and contrasts a number of lossy and lossless image compression methods, including Wavelet coding, transform coding, Run length coding, Huffman encoding, and Arithmetic coding. The study makes broad recommendations for identifying the best compression strategy for an image. The primary benefits, drawbacks, and research opportunities of these techniques are discussed to aid in selecting the appropriate compression method. The article concludes by stating that image compression is an essential technique that enables faster file transfer, storage optimization, and efficient use of physical storage resources.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0847",
+  "title": "ROM-SRAM hybrid compute-in-memory for edge AI: circuits, architectures and challenges",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0848",
+  "title": "Adaptive and Resource-efficient Agentic AI Systems for Mobile and Embedded Devices: A Survey",
+  "year": "2025",
+  "abstract": "Foundation models have reshaped AI by unifying fragmented architectures into scalable backbones with multimodal reasoning and contextual adaptation. In parallel, the long-standing notion of AI agents, defined by the sensing-decision-action loop, is entering a new paradigm: with FMs as their cognitive core, agents transcend rule-based behaviors to achieve autonomy, generalization, and self-reflection. This dual shift is reinforced by real-world demands such as autonomous driving, robotics, virtual assistants, and GUI agents, as well as ecosystem advances in embedded hardware, edge computing, mobile deployment platforms, and communication protocols that together enable large-scale deployment. Yet this convergence collides with reality: while applications demand long-term adaptability and real-time interaction, mobile and edge deployments remain constrained by memory, energy, bandwidth, and latency. This creates a fundamental tension between the growing complexity of FMs and the limited resources of deployment environments. This survey provides the first systematic characterization of adaptive, resource-efficient agentic AI systems. We summarize enabling techniques into elastic inference, test-time adaptation, dynamic multimodal integration, and agentic AI applications, and identify open challenges in balancing accuracy-latency-communication trade-offs and sustaining robustness under distribution shifts. We further highlight future opportunities in algorithm-system co-design, cognitive adaptation, and collaborative edge deployment. By mapping FM structures, cognition, and hardware resources, this work establishes a unified perspective toward scalable, adaptive, and resource-efficient agentic AI. We believe this survey can help readers to understand the connections between enabling technologies while promoting further discussions on the fusion of agentic intelligence and intelligent agents.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0849",
+  "title": "Lightweight HI source finding for next generation radio surveys",
+  "year": "2022",
+  "abstract": "Future deep HI surveys will be essential for understanding the nature of galaxies and the content of the Universe. However, the large volume of these data will require distributed and automated processing techniques. We introduce LiSA, a set of python modules for the denoising, detection and characterization of HI sources in 3D spectral data. LiSA was developed and tested on the Square Kilometer Array Science Data Challenge 2 dataset, and contains modules and pipelines for easy domain decomposition and parallel execution. LiSA contains algorithms for 2D-1D wavelet denoising using the starlet transform and flexible source finding using null-hypothesis testing. These algorithms are lightweight and portable, needing only a few user-defined parameters reflecting the resolution of the data. LiSA also includes two convolutional neural networks developed to analyse data cubes which separate HI sources from artifacts and predict the HI source properties. All of these components are designed to be as modular as possible, allowing users to mix and match different components to create their ideal pipeline. We demonstrate the performance of the different components of LiSA on the SDC2 dataset, which is able to find 95% of HI sources with SNR>3 and accurately predict their properties.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0850",
+  "title": "Embedded Intelligence: State-of-the-Art and Research Challenges",
+  "year": "2022",
+  "abstract": "Recent years have seen deployments of increasingly complex artificial intelligent (AI) and machine learning techniques being implemented on cloud server architectures and embedded into edge computing devices for supporting Internet of Things (IoT) and mobile applications. It is important to note that these embedded intelligence (EI) deployments on edge devices and cloud servers have significant differences in terms of objectives, models, platforms and research challenges. This paper presents a comprehensive survey on EI from four aspects: (1) First, the state-of-the-art for EI using a set of evaluation criteria is proposed and reviewed; (2) Second, EI for both cloud server accelerators and low-complexity edge devices are discussed; (3) Third, the various techniques for EI are categorized and discussed from the system, algorithm, architecture and technology levels; and (4) The paper concludes with the lessons learned and the future prospects are discussed in terms of the key role EI is likely to play in emerging technologies and applications such as Industry 4.0. This paper aims to give useful insights and future prospects for the developments in this area of study and highlight the challenges for practical deployments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0851",
+  "title": "Fog Computing: A Conceptual and Practical Overview",
+  "year": "2021",
+  "abstract": "Electronic gadgets, appliances, medical equipment, cameras, sensors, and cars are all part of the Internet of Things (IoT), which enables smart cities and infrastructure. It is predicted based on evidences that a minimum of forty nine billion IoT devices shall definitely be linked or connected with the Internet by or before 2020. Those devices will generate a huge and unprecedented amount of information, which conventional systems and cloud systems may find challenging to handle. Fog computing was created to address the shortcomings of existing technologies. Fog offers storage, computation, data, and application services at the network's edge, comparable to cloud computing. This article discusses the features that generally makes fog or edge computing a good stage for the recently evolved technology “IoT”, as well as application, characterization and interrelated research in the trending fields including IoT and Fog. Edge computing is a suitable platform for IoT because of its heterogeneous nature, mobility support, very low latency, and huge number of nodes. Rather of transmitting data to the cloud, data will be processed at the network edge.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0852",
+  "title": "SELF-SUPERVISED VISION TRANSFORMERS FOR CROSS-MODAL LEARNING (REVIEW)",
+  "year": "2025",
+  "abstract": "Computer vision systems are increasingly expanding their application in visual data analysis. Model training methods are undergoing the greatest development and improvement as the results of this stage significantly affect the final classification of objects and the interpretation of input information. \nTypically, computer vision systems use convolutional neural networks for training (Convolution Neural Network, CNN). The disadvantages of such systems are significant limitations in cross-modal learning, multimodality implementation, labeling of large amounts of data, etc. One of the ways to overcome these problems is to use Vision Transformers (ViT), which, compared to classical CNNs, have higher performance due to reduced inductive biases and high parallel computing efficiency. Introducing Self-Supervised Learning (SSL) technologies can significantly reduce the dependence on manually labeled data, contributing to the formation of generalized representations of images. Cross-Modal Learning (CML) expands the possibilities of processing them by combining data of different types. The development of the new approach, combined with the capabilities of cross-modal learning and self-learning in ViT in a single architecture, will ensure adaptability, efficiency, and system scalability in various applications.\nThe research aims to provide a detailed overview of ViTs, approaches to their architecture, and methods for improving their efficiency. The mathematical foundations of the key concepts of ViT, cross-modal learning and self-learning, the main modifications of ViT, and their integration with SSL and CML technologies are considered. A comparison of methods using characteristics, performance, and efficiency is provided. The key challenges and prospects facing researchers and developers while creating universal models in computer vision are outlined.\nViTs change computer vision by capturing global dependencies on images. Despite some challenges, ViTs provide excellent scalability and performance for large datasets. The active search for methods to overcome their limitations makes ViTs a key tool for improving image classification, object detection, and other computer vision tasks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0853",
+  "title": "MEET-LM: A method for embeddings evaluation for taxonomic data in the labour market",
+  "year": "2021",
+  "abstract": "Abstract Taxonomies are the mainstay of the semantic web as they aim at organising knowledge in concepts linked by IS-A relationships. However, keeping such hierarchies updated and able to represent the domain from which they have been drawn is still a time-consuming, costly and error prone activity. Here, word embeddings have proven to be effective in catching lexicon and semantic similarities to enrich taxonomies from text data. This, in turn, would require to evaluate the generated embeddings to estimate the extent to which they encode the semantic similarity derived from the hierarchy itself. In this paper, we propose and implement MEET-LM , a methodology that aims at generating and evaluating embeddings from a text corpus preserving the co-hyponymy relations synthesised from a domain-specific taxonomy. We apply MEET-LM to a real-life dataset of 2M+ vacancies related to ICT-jobs, framed within the research activities of an EU project that collects millions of Online Job Vacancies and classifies them within the European standard hierarchy ESCO. To show MEET-LM is useful in practice, we also trained a neural network to classify co-hyponym relations using the selected embeddings as features. Our experiments reach 99.4 % of accuracy and 86.5 % of f1-score.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0854",
+  "title": "Inductive Learning of Logical Theories with LLMs: An Expressivity-Graded Analysis",
+  "year": "2024",
+  "abstract": "This work presents a novel systematic methodology to analyse the capabilities and limitations of Large Language Models (LLMs) with feedback from a formal inference engine, on logic theory induction. The analysis is complexity-graded w.r.t. rule dependency structure, allowing quantification of specific inference challenges on LLM performance. Integrating LLMs with formal methods is a promising frontier in the Natural Language Processing field, as an important avenue for improving model inference control and explainability. In particular, inductive learning over complex sets of facts and rules, poses unique challenges for current autoregressive models, as they lack explicit symbolic grounding. While they can be complemented by formal systems, the properties delivered by LLMs regarding inductive learning, are not well understood and quantified. Empirical results indicate that the largest LLMs can achieve competitive results against a SOTA Inductive Logic Programming (ILP) system baseline, but also that tracking long predicate relationship chains is a more difficult obstacle than theory complexity for LLMs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0855",
+  "title": "Energy saving on IoT using LoRa: a systematic literature review",
+  "year": "2022",
+  "abstract": "The development of devices connected to the internet is very significant, encouraging the creation of the internet of things (IoT). With remote systems, IoT is not enough to use in case of internet instability. By using long range (LoRa), IoT systems can now solve this problem. Millions of data make IoT-LoRa have to spend a lot of energy. This paper helps discover where recent studies offer a broad perspective on energy savings using the systematic literature review (SLR). The paper extracted 252 articles from IEEE, ACM, MDPI, Springer, Hindawi, ScienceDirect, and IAES. 44 articles passed the specified inclusion and exclusion criteria. The article focuses on knowledge about IoT-Lora, energy saving needs, energy saving factors, and the paper demographics. The author synthesizes studies for that purpose on IoT applications using LoRa.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0856",
+  "title": "Adaptive Sparse Grid Discontinuous Galerkin Method: Review and Software Implementation",
+  "year": "2022",
+  "abstract": "This paper reviews the adaptive sparse grid discontinuous Galerkin (aSG-DG) method for computing high dimensional partial differential equations (PDEs) and its software implementation. The C ++ software package called AdaM-DG, implementing the aSG-DG method, is available on GitHub at https://github.com/JuntaoHuang/adaptive-multiresolution-DG . The package is capable of treating a large class of high dimensional linear and nonlinear PDEs. We review the essential components of the algorithm and the functionality of the software, including the multiwavelets used, assembling of bilinear operators, fast matrix-vector product for data with hierarchical structures. We further demonstrate the performance of the package by reporting the numerical error and the CPU cost for several benchmark tests, including linear transport equations, wave equations, and Hamilton-Jacobi (HJ) equations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0857",
+  "title": "A systematic literature review of lightweight YOLO models for object detection",
+  "year": "2025",
+  "abstract": "\n Object detection is a core task in computer vision, and the You Only Look Once (YOLO) family remains a preferred choice for real-time applications. With increasing demand to deploy detectors on resource-constrained devices, many researchers have proposed lightweight YOLO variants. This systematic literature review synthesizes peer-reviewed studies on lightweight YOLO models published from 2016 to 2025. We performed reproducible searches in Scopus and Web of Science, screened records using Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA), and applied a 12-item quality assessment to select 103 peer-reviewed journal and conference articles for detailed analysis. We classify primary lightweighting strategies—pruning, quantization, knowledge distillation, and lightweight network architectures—and evaluate their trade-offs in accuracy, latency, model size, and energy use. We also examine application domains, dataset effects, common evaluation metrics, and deployment platforms (\n e.g\n ., Jetson, Raspberry Pi, microcontrollers, Field-Programmable Gate Arrays (FPGAs)), and highlight practical hardware–software considerations. Emerging directions such as hybrid convolutional neural network (CNN)-Transformer modules and hardware-aware Neural Architecture Search are discussed, and key open challenges are identified, including cross-scene generalization, robustness to dynamic environmental interference, and the need for standardized evaluation protocols and hardware-aware co-design. This review consolidates current knowledge and offers practical guidance for researchers and practitioners developing or deploying lightweight YOLO models on constrained hardware.\n",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0858",
+  "title": "From Survey to Solution: Lightweight and Interpretable Multimodal Deepfake Detection Using CNNs and Grad-CAM",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0859",
+  "title": "Small Language Models for Developing Agentic AI in Healthcare: A Comprehensive Systematic Review and Critical Analysis",
+  "year": "2026",
+  "abstract": "Agentic artificial intelligence (AI) systems are emerging as a transformative approach in healthcare, enabling autonomous task execution through integrated reasoning and tool use. While early implementations have largely relied on large language models (LLMs), growing evidence suggests that smaller language models may be better suited for many healthcare workflows due to their efficiency, scalability, and practicality in real-world clinical environments. This review examines the current landscape of small language models (SLMs) used in agentic healthcare applications, including clinical documentation, decision support, patient triage, and administrative automation. We synthesize available evidence on their performance, safety, and economic implications, and discuss key considerations for clinical deployment, including regulatory alignment and governance. Overall, small language models appear to offer sufficient capability for most agentic healthcare tasks while providing meaningful advantages in deployability, cost, and operational efficiency, supporting their role as a viable and often preferable alternative for clinical implementation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0860",
+  "title": "Lightweight hybrid adaptive weighted ensemble integrating fine-tuned SBERT with lexical and statistical models for robust steam review sentiment classification",
+  "year": "2026",
+  "abstract": "User reviews on gaming platforms contain valuable indicators of satisfaction, but sentiment classification remains challenging due to slangs and domain-specific terminology. In this paper a lightweight hybrid ensemble is proposed for Steam review sentiment analysis that integrates three complementary components: (i) a Naïve Bayes classifier trained on NLTK token features, (ii) a logistic regression model using TF–IDF n-grams, and (iii) a fine-tuned Sentence-BERT (SBERT) transformer classifier for contextual semantic sentiment prediction. By combining symbolic, statistical, and semantic representations through an adaptive performance-weighted probability fusion strategy, the ensemble improves robustness to linguistic variability while remaining highly efficient compared to transformer-based end-to-end models. Experiments on a dataset of 147,586 Steam reviews across 160 games show that the proposed ensemble achieves an F1-score of 94.0% and ROC-AUC of 95.0%, outperforming classical baselines (Naïve Bayes, Random Forest, XGBoost) and achieving competitive results relative to the OPT-175B large language model, despite being orders of magnitude smaller. The proposed weighted fusion mechanism assigns dynamic importance to individual classifiers based on validation performance, enabling the ensemble to better exploit complementary strengths among lexical, statistical, and semantic representations. Ablation studies confirm that each component contributes distinct strengths: SBERT provides semantic depth, TF–IDF captures discriminative n-grams, and Naïve Bayes reinforces frequent lexical cues. The findings demonstrate that hybridizing classical machine learning with transformer embeddings offers an effective and computationally efficient strategy for domain-specific sentiment analysis of game reviews.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0861",
+  "title": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges",
+  "year": "2025",
+  "abstract": "This review critically distinguishes between AI Agents and Agentic AI, offering a structured, conceptual taxonomy, application mapping, and analysis of opportunities and challenges to clarify their divergent design philosophies and capabilities. We begin by outlining the search strategy and foundational definitions, characterizing AI Agents as modular systems driven and enabled by LLMs and LIMs for taskspecific automation. Generative AI is positioned as a precursor providing the foundation, with AI agents advancing through tool integration, prompt engineering, and reasoning enhancements. We then characterize Agentic AI systems, which, in contrast to AI Agents, represent a paradigm shift marked by multi-agent collaboration, dynamic task decomposition, persistent memory, and coordinated autonomy. Through a chronological evaluation of architectural evolution, operational mechanisms, interaction styles, and autonomy levels, we present a comparative analysis across both AI agents and agentic AI paradigms. Application domains enabled by AI Agents such as customer support, scheduling, and data summarization are then contrasted with Agentic AI deployments in research automation, robotic coordination, and medical decision support. We further examine unique challenges in each paradigm including hallucination, brittleness, emergent behavior, and coordination failure, and propose targeted solutions such as ReAct loops, retrieval-augmented generation (RAG), automation coordination layers, and causal modeling. This work aims to provide a roadmap for developing robust, scalable, and explainable AI-driven systems.  ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0862",
+  "title": "A Review of Lightweight Techniques for Animal Recognition Algorithms in Smart Cameras and Analysis of Application Prospects",
+  "year": "2025",
+  "abstract": "In today's rapidly evolving smart camera technology, animal recognition has emerged as one of its significant applications, showcasing immense potential across various fields. This technological innovation not only enhances the functionality and practicality of smart cameras but also establishes a solid foundation for their widespread application in ecological protection, security monitoring, and other areas. However, existing high-precision animal recognition models are computationally complex and demand substantial hardware resources, making real-time operation on embedded devices challenging and leading to several application difficulties. Therefore, incorporating lightweight techniques into animal recognition algorithms can significantly broaden the application scope of smart camera animal recognition technology while also reducing resource consumption and improving algorithm accuracy. This paper summarizes relevant articles and proposes the introduction of lightweight techniques to optimize algorithms, aiming to provide comprehensive and in-depth theoretical guidance and practical reference for the application of smart camera animal recognition technology.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0863",
+  "title": "A Survey of Short-Range Wireless Communication for Ultra-Low-Power Embedded Systems",
+  "year": "2024",
+  "abstract": "Wireless short-range communication has become widespread in the modern era, partly due to the advancement of the Internet of Things (IoT) and smart technology. This technology is now utilized in various sectors, including lighting, medical, and industrial applications. This article aims to examine the historical, present, and forthcoming advancements in wireless short-range communication. Additionally, the review will analyze the modifications made to communication protocols, such as Bluetooth, RFID and NFC, in order to better accommodate modern applications. Batteryless technology, particularly batteryless NFC, is an emerging development in short-range wireless communication that combines power and data transmission into a single carrier. This modification will significantly influence the trajectory of short-range communication and its applications. The foundation of most low-power, short-range communication applications relies on an ultra-low-power microcontroller. Therefore, this study will encompass an analysis of ultra-low-power microcontrollers and an investigation into the potential limitations they might encounter in the future. In addition to offering a thorough examination of current Wireless short-range communication, this article will also attempt to forecast future patterns and identify possible obstacles that future research may address.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0864",
+  "title": "A Survey on Recent Advancements in Lightweight Generative Adversarial Networks, their Applications and Datasets",
+  "year": "2023",
+  "abstract": "Generative Adversarial Networks (GANs) have garnered significant research attention owing to their revolutionary generator-vs-discriminator architecture, making them versatile for various domains, including medical, military, and computer vision applications. Nevertheless, their computationally demanding nature during training and inference restricts their widespread adoption on mobile and edge devices. In this study, the latest advancements are explored in lightweight GAN implementations, considering their unique characteristics and diverse applications. The objective is to identify modifications that can enhance the efficiency of GAN-based models without compromising their robustness and accuracy, both for specific use-cases and in a more general context. Additionally, a discussion is presented on the availability of datasets suitable for lightweight GAN training and evaluation, as well as potential research directions for the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0865",
+  "title": "Review On Evolution of Embedded System: Integrating Technical Roadmap and Wider Perspectives",
+  "year": "2025",
+  "abstract": "This paper examines the evolution of embedded systems and their increasing complexity, focusing on the impact of integration challenges on Real-Time Operating Systems (RTOS) design. As embedded applications expand across automotive, aerospace, and consumer electronics domains, the demand for seamless integration of multifaceted requirements intensifies. Concurrently, emerging paradigms such as the Internet of Intelligent Things (IIoT) advance in embedded machine learning (TinyML) and edge computing to enable intelligent, resource-constrained devices. This paper explores how these technological trends are reshaping RTOS design, emphasizing resource management, interface definition, and system reliability. Furthermore, it reviews current developments and future directions in embedded systems, highlighting the role of integrated and intelligent manufacturing systems within Industry 4.0 frameworks. By synthesizing insights across these domains, the paper outlines critical research challenges and potential solutions to support next-generation embedded applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0866",
+  "title": "A Survey on Secure and Private Federated Learning Using Blockchain: Theory and Application in Resource-Constrained Computing",
+  "year": "2023",
+  "abstract": "Federated learning (FL) has gained widespread popularity in recent years due to the fast booming of advanced machine learning and artificial intelligence, along with emerging security and privacy threats. Federated learning (FL) enables efficient model generation from local data storage of the edge devices without revealing the sensitive data to any entities. While this paradigm partly mitigates the privacy issues of users’ sensitive data, the performance of the FL process can be threatened and reach a bottleneck due to the growing cyber threats and privacy violation techniques. To expedite the proliferation of the FL process, the integration of blockchain for FL environments has drawn increasing attention from academia and industry. Blockchain has the potential to prevent security and privacy threats with its decentralization, immutability, consensus, and transparency characteristics. However, if the blockchain mechanism requires costly computational resources, then the resource-constrained FL clients cannot be involved in the training. Considering that, this survey focuses on reviewing the challenges, solutions, and future directions for the successful deployment of blockchain in resource-constrained FL environments. We comprehensively review variant blockchain mechanisms suitable for the FL process and discuss their tradeoffs for a limited resource budget. Furthermore, we extensively analyze the cyber threats that could be observed in a resource-constrained FL environment, and how blockchain can play a key role in blocking those cyberattacks. To this end, we highlight some potential solutions for the coupling of blockchain and FL that can offer high levels of reliability, data privacy, and distributed computing performance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0867",
+  "title": "Certification of embedded systems based on Machine Learning: A survey",
+  "year": "2021",
+  "abstract": "Advances in machine learning (ML) open the way to innovating functions in the avionic domain, such as navigation/surveillance assistance (e.g. vision-based navigation, obstacle sensing, virtual sensing), speechto-text applications, autonomous flight, predictive maintenance or cockpit assistance. Current certification standards and practices, which were defined and refined decades over decades with classical programming in mind, do not however support this new development paradigm. This article provides an overview of the main challenges raised by the use ML in the demonstration of compliance with regulation requirements, and a survey of literature relevant to these challenges, with particular focus on the issues of robustness and explainability of ML results.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0868",
+  "title": "Visualization for genomics data review in clinical contexts : Analyzing large, sparse data with multilevel structures",
+  "year": "2025",
+  "abstract": "Visualization is an interdisciplinary field related to data science and cognition, concerned with visual representations of data. Visualization research is often conducted in collaboration with researchers from other disciplines, for example, climate and environmental sciences, urban planning, and medicine. One such application area is genomics data, which is increasingly being used within healthcare for diagnosis and treatment selection. However, genomics data is often large and error-prone and requires interpretation to be of use to the treating physician. These challenges can be addressed with visualization. This thesis maps out the challenges and requirements of genomics data in clinical contexts from a visualization perspective. It contains an analysis of the tasks users performed and what data features were important to them. Several visualization environments for genomics data were designed and evaluated, based on these analyses. In general, the emphasis of the designs was on position and navigation, along with data aggregation and comparison of different data types. This was especially important for the work on copy number variant review, where several data sources were combined in a glyph. Therefore, genomics visualizations often benefit from combining multiple views, zooming, and different visual representations. Several of the challenges that were encountered in developing the genomics visualization environments generalize to other sequence data visualizations, such as timelines. Therefore, we studied how the sequence axis should be designed for these visualizations in general. In one study, graphs with straight layouts were compared to circular layouts. Another study investigated whether the x-axis could be stretched and compressed to reduce whitespace. The findings indicated that compressing axes can increase item visibility while the viewer maintains an understanding of the data distribution. A prominent recurring theme in the thesis is the utilization of position and the possibility of modifying the graph axes. Which axis type is most appropriate depends on the data, the task, and the user. In particular, it depends on how important the position along the axis is in comparison with all other data features. For genomics data, the position is typically not the most important feature. Therefore, axis manipulations can be both justified and appropriate.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0869",
+  "title": "Advancements in hybrid controllers and new era models of distillation column: A review",
+  "year": "2021",
+  "abstract": "Abstract Controller is a Heart of the Distillation Colum, which is widely used in most of the industries such as petrochemical, pharmaceutical, Oil and Gas. An intelligent precise autonomous hybrid intelligent controller can achieve higher efficiency and high-grade pure output with overall low-cost operation. The behavior of the plant is often non-linear and interactive, hence suitable model and perfect controller design is very critical. Study has been carried out for several models and controllers. An extensive analysis has been carried out with different controllers and models for their efficacy, performance and the purity of the byproduct. A comparative study has been done with different controllers and models with respect to their performance and various challenges posed in numerous literatures have been reviewed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0870",
+  "title": "Explainable lightweight neural networks: A survey on methods, metrics, and challenges",
+  "year": "2026",
+  "abstract": "The increasing application of Artificial Intelligence (AI) in resource-limited environments, particularly within computer vision tasks, together with ethical and practical considerations, has raised the demand for lightweight models that are both efficient and interpretable. This survey explores the integration of lightweight neural networks with explainable AI (XAI), addressing the need for models that are both computationally efficient and transparent. It reviews lightweight neural network techniques along with their advantages and limitations, as well as widely used XAI methods. A Scopus-based analysis is conducted to identify the most widely adopted lightweight approaches in current literature. Among these techniques, knowledge distillation (KD) stands out as the most widely adopted; therefore, the survey examines how KD interacts with XAI. It also reviews a range of existing qualitative and quantitative evaluation metrics specifically designed for evaluating XAI effectiveness. Finally, it presents an illustrative comparison of explanations across Convolutional Neural Networks (CNNs) and Transformer architectures, demonstrating architectural differences that motivate the need for XAI-aware cross-architecture distillation methods. Despite advancements, challenges remain in fully eliminating trade-offs between model complexity and explainability. This survey highlights the need for improved evaluation metrics and the design of explainable lightweight models to support interpretable and deployable lightweight AI systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0871",
+  "title": "Optimizing CI/CD Pipelines for Multi-Cloud Environments: Strategies for AWS and Azure Integration",
+  "year": "2025",
+  "abstract": "CI/CD pipelines are essential for modern software development to speed up application delivery and ensure reliability. However, organizations experience considerable management difficulties when they operate Continuous Integration and Deployment workflows between AWS and Azure. The research discusses multiple approaches to optimizing CI/CD pipelines and demonstrates their integration between AWS and Azure systems. The complete implementation guidelines within the method include selecting tools and best practices along with the necessary architectural elements to construct secure, scalable, and successful CI/CD pipelines. Success in deployment requires using standardized CI/CD platforms, infrastructure code implementation, and security platforms spanning multiple cloud environments, price reduction technologies, and consolidated monitoring tools. The deployment process framework integrates cloud platforms by implementing a solution that merges interoperability and security management alongside cost control functions. This proposal demonstrates its worth by applying the example project to prove significant benefits: fast deployment speed, lower costs, and dependable system infrastructure. The document explores actual applications of optimized pipelines, which decrease operational complexity and enhance resource utilization efficiency. The report includes deployment guidelines supplemented by practical examples to guide organizations during their adoption phase. Standardized CI/CD management approaches allow organizations to simplify deployment pipelines and automate workflow processes during multi-cloud connectivity risk management. The surveyed findings regarding optimizing AWS and Azure CI/CD workflows enable organizations to improve their DevOps performance in complex cloud infrastructure.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0872",
+  "title": "Data compression techniques in IoT-enabled wireless body sensor networks: A systematic literature review and research trends for QoS improvement",
+  "year": "2023",
+  "abstract": "[EN] The rapid proliferation of Wireless Sensor Networks (WSN) and other linked devices has given rise to several notions that blend the virtual and real worlds. A vision in which billions of intelligent objects are joined together to provide connectivity for anything, not just everyone. The data quantities gathered and transferred will expand significantly as the number of participants in the future Internet of things grows, rendering the traditional data gathering and processing methods impaired. As a result, the volume of data should be decreased so that decision-makers can mine and evaluate such massive amounts of data. In the Internet of things (IoT), dedicated to healthcare, various data may be collected from diverse body sensors, ambient sensors, and other data sources such as cameras, voice recorders, and so on. The processing, synchronization, aggregation, and compression of these heterogeneous data are crucial tasks for providing accurate real-time healthcare services. Energy efficiency imposes a strict limitation on wearable WSNs since wireless transmission consumes a large amount of power. Several compression approaches have been presented in the literature to tackle the issue of energy consumption. These approaches can be divided into three categories: communication compression, sampling compression, and data compression. Data compression mechanisms should lessen the data length and compress data using fewer resources. The peculiarities of the data should be addressed during the compression process. Irrelevant data might be eliminated depending on the user's capacity to use or comprehend such data. Data compression techniques are extensions of compression algorithms and data aggregation methods. Data compression algorithms play a substantial role in WBSNs as the sensors in WBSNs have restricted memory and low battery power. Furthermore, data should be transmitted quickly and lossless to provide real-time services. Despite the availability of many review papers on data compression techniques in wireless sensor networks, there is a lack of surveys that identify gaps in existing data compression techniques, highlight areas for future research, and provide a comprehensive analysis of the current trends and practices in the IoT-enabled WBSN, primarily the healthcare domain. This paper will fill the gap, provide a clear analysis, and review data compression mechanisms in IoT-enabled WBSN. We outline the main requirements for IoT-enabled WBSN, existing methods, and state-of-the-art solutions. Furthermore, we evaluated the performance of the current techniques in the literature based on several criteria such as compression ratio, complexity, energy saved, minimized transmission, energy consumption, Net energy saved, energy efficiency, reliability, and scalability. More importantly, we discussed how data compression methods could be a crucial enabler in solving many IoT problems. The paper also identifies open research problems and challenges for IoT-enabled WBSN.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0873",
+  "title": "LoRa Technology Overview and Smart Parking System Design",
+  "year": "2024",
+  "abstract": "The increasing number of motor vehicles causes urban traffic and parking problems. Therefore, automatic parking systems are needed to assist drivers in parking. These systems ensure efficient use of parking areas and therefore reduce traffic in densely populated areas. New applications developed using the IoT (Internet of Things) play an important role in many areas of our lives. The concept of IoT can be applied in many fields, from simple smart devices to smart cities, agriculture, industry, and health. At this point, the features of LoRa technology are introduced and compared with those of alternative technologies. Furthermore, a smart parking system suitable for open areas, where vacant spaces can be observed on the map, has been developed with two LoRa modules, an antenna, a microcontroller, and a mobile application interface. In the last section, examples of the integrated use of LoRa technology with other smart city technologies are given.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0874",
+  "title": "Review Paper on Real Time Application of Embedded System for Driver Safety by Using Raspberry Pi",
+  "year": "2021",
+  "abstract": "This project gives approach for real time detection of car driver drowsiness and alcoholic intoxication. There are various reasons behind the increasing number of vehicle accidents which are becoming a very serious issue but the ones that can be prevented are the mental and physical condition of the driver while driving and frequent monitoring of it can be achieved with the help of technology. In this project, we have developed an automatic system with will perform some task like issuing the alarm notification and switching off the car power source to stop the car upon receiving the positive detection message from Raspberry-pi.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0875",
+  "title": "Serving DNN Inference With Fine-Grained Spatio-Temporal Sharing of GPU Servers",
+  "year": "2024",
+  "abstract": "Deep Neural Networks (DNNs) are commonly deployed as online inference services. To meet interactive latency requirements of requests, DNN services require the use of Graphics Processing Unit (GPU) to improve their responsiveness. The unique characteristics of inference workloads pose new challenges to manage GPU resources. First, the GPU scheduler needs to carefully manage requests to meet their latency targets. Second, a single inference task often underutilizes GPU resources. Third, the fluctuating patterns of inference workloads pose difficulties in determining the resources allocated to each DNN model. Therefore, it is critical for the GPU scheduler to maximize GPU utilization by collocating multiple DNN models without violating the latency Service-Level Objectives (SLOs) of requests. However, we find that existing works are not adequate for achieving this goal among latency-sensitive inference tasks. Hence, we propose FineST, a scheduling framework for serving DNNs with fine-grained spatio-temporal sharing of GPU inference servers. To maximize GPU utilization, FineST allocates intra-GPU computing resources from both spatial and temporal dimensions across DNNs in a cost-effective way, while predicting interference overheads under diverse consolidated executions for controlling SLO violation rates. Compared to a state-of-the-art work, FineST improves the peak throughput of serving heterogeneous DNNsby up to 64.7% under SLO constraints.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0876",
+  "title": "on Current Trends in Advanced Computing",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0877",
+  "title": "Data Sampling In Federated Learning: Principles, Features And Taxonomy",
+  "year": "2023",
+  "abstract": "Federated learning collects data from various devices, analyzes it locally, aggregates it, and then finds meaningful insights from it. Data sampling works the same way by dividing the larger data set into smaller parts and applying computation to those data sets, which reduces the time taken to do the work. Data sampling in federated learning aims to find the ideal mixture of selecting data sets for training purposes to improve training accuracy while staying within the maximum capability of the device and network. In this article, we present an overview and analysis of recent data sampling techniques for federated learning. The list includes sampling approaches suitable for federated learning environments such as clustering, dynamic sampling, adaptive sampling, probabilistic sampling, and many more. The feature analysis is comprised of a description of the procedure, the criteria, and other relevant parameters for sampling. The efficiency of the sampling technique is analyzed via comparison of claimed accuracy and convergence rate with respect to the used dataset.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0878",
+  "title": "A Survey on Medical Remote Monitoring of Multiple Physiological Parameters Based on Wireless Embedded Internet",
+  "year": "2022",
+  "abstract": "Abstract: In rural areas the medical assessment methods have not improved enough to meet the needs and physiological parameter monitoring is been done by local monitoring system and also it has become an urgent need for the people especially for elder people and this technology enables users to concern about their personalized ,networked real time health monitor.The main resolution of this paper is that to design a global architecture with specification for medical policies which are applicable to design and implementation of an alert based medical system.so in the proposed system we are going to combine an ARM based embedded technology and a mobile technology i.e. embedded computer system and human computer interaction interface module and helps to transmit the local detection data to servers at the hospital through an internet network. Our proposed system collects the data with the help of particular sensor and display the multiple physiological parameters like body temperature , blood pressure ,blood oxygen pulse rates and also ECG signals for particular individuals in real time and Whenever the person encountered with dangerous or emergency situations we are going to get the led alarm signals. wireless technology expansion has been accelerated due to its suitability and cost effectiveness, compared with wired technology.the experimental results shows that the system has good data collection effect so that the effect of medical index collection on family health population service can beachieved]. Hence the system is easy to develop, stable in data sharing therefore its an ideal model for hospitals and public health centers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0879",
+  "title": "A Scoping Review on Quantization Methods for Medical Imaging AI",
+  "year": "2024",
+  "abstract": "Deep neural networks with state-of-the-art (SOTA) performance on medical imaging datasets such as Medical Resonance Imaging (MRI), Ultrasound (US), and Computed Tomography (CT) requires resource intensive environments (computing speed, data size, power usage, and memory size). With continuing Moore's law of doubling computing resources on a chip, some might believe that large deep neural networks are appropriate. However, there are many low-resource settings where such large models are wasteful or not implementable at the point of care. In this paper, we review recent (2017-2023) papers to identify the impact of compressing high-performance, critical task imaging models. In the literature, we found that Convolution Neural Network (CNN)-based models performed similarly to full-precision models by re-training or quantization-aware training. 3D-CNN models show SOTA performance on volumetric data. However, few published papers quantized 3D-CNN models. We summarize that quantized models are useful for segmenting and classifying medical images and, thus, important for low-resource settings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0880",
+  "title": "Peer Review #1 of \"Performance analysis of lightweight CNN models to segment infectious lung tissues of COVID-19 cases from tomographic images (v0.2)\"",
+  "year": "2021",
+  "abstract": "The pandemic of Coronavirus Disease-19 (COVID-19) has spread around the world causing an existential health crisis.Automated detection of COVID-19 infections in the lungs from Computed Tomography (CT) images offers huge potential in tackling the problem of slow detection and augments the conventional diagnostic procedures.However, segmenting COVID-19 from CT Scans is problematic, due to high variations in the types of infections and low contrast between healthy and infected tissues.While segmenting Lung CT Scans for COVID-19, fast and accurate results are required and furthermore, due to the pandemic, most of the research community has opted for various cloud based servers such as Google Colabs etc to develop their algorithms.High accuracy can be achieved using Deep Networks but the prediction time would vary as the resources are shared amongst many thus requiring the need to compare different lightweight segmentation model.To address this issue, we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN).The images in our dataset are preprocessed where the motion artifacts are removed.The four networks are UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet.Trained on our dataset of more than 3000 images, HR Net was found to be the best performing network achieving an accuracy of 96.24% and a Dice score of 0.9127.The analysis shows that lightweight CNN models perform better than other neural net models when to segment infectious tissue due to COVID-19 from CT slices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ }
+]

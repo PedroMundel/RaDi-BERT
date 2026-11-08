@@ -1,0 +1,29 @@
+# Dados baixados da fonte (ver dados/README.md)
+dados/esnli/
+resultados/lote-35B/amostra-treino.csv
+
+# Screening encerrado: bruto e vetores ficam só no notebook
+docs/screening/fase1/raw/
+docs/screening/fase1/emb/
+
+# Estado de execução e logs
+resultados/**/run/
+*.log
+*.err
+__pycache__/
+*.pyc
+
+# Modelos e checkpoints (HF Hub privado)
+*.gguf
+*.safetensors
+*.bin
+*.pt
+checkpoints/
+
+# Local
+.claude/settings.local.json
+config/maquina.env
+~$*
+
+# Ambiente local (uv)
+.venv/

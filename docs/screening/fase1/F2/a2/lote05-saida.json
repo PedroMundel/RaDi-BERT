@@ -1,0 +1,487 @@
+[
+  {
+    "id": "F0161",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review examines recent research and is the first to categorize brain-inspired methods into three key dimensions."
+      },
+      {
+        "item": "tipo",
+        "texto": "This review examines recent research"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large-scale pre-trained models, such as GPT"
+      },
+      {
+        "item": "tecnica",
+        "texto": "excessive computational resource requirements, inadequate adaptability to dynamic environments, susceptibility to catastrophic forgetting, and limited internal interpretability"
+      },
+      {
+        "item": "tecnica",
+        "texto": "hierarchical and modular designs, biologically inspired attention mechanisms, memory enhancement strategies, synaptic plasticity, and predictive coding"
+      }
+    ]
+  },
+  {
+    "id": "F0163",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0164",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper proposes leveraging sparsity in pre-trained LLMs to expedite this training process."
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper proposes"
+      },
+      {
+        "item": "modelos",
+        "texto": "Llama-2"
+      },
+      {
+        "item": "tecnica",
+        "texto": "sparsity in activated neurons"
+      },
+      {
+        "item": "pratica",
+        "texto": "Our code is available at https://github.com/OpenDFM/SAT"
+      }
+    ]
+  },
+  {
+    "id": "F0165",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "App store reviews are a primary signal for software maintenance decisions"
+      },
+      {
+        "item": "tipo",
+        "texto": "This study addresses all three gaps through a systematic, threephase evaluation."
+      },
+      {
+        "item": "modelos",
+        "texto": "Four open-source LLMs-Llama 3 8B/70B, Gemma 3 4B, and Mistral 7B"
+      },
+      {
+        "item": "tecnica",
+        "texto": "QLoRA-fine-tuned Llama 3 8B and four supervised encoder baselines (e.g., RoBERTa)"
+      }
+    ]
+  },
+  {
+    "id": "F0167",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0168",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0169",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Ubiquitous sensor networks (USNs) provide a seamless and real-time in-situ sensing infrastructure"
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey comprehensively analyzes resource optimization techniques"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Resource efficiency is essential for USNs due to the expected long operation time in typically resource-constrained environments"
+      }
+    ]
+  },
+  {
+    "id": "F0171",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "segmenting COVID-19 from CT Scans"
+      },
+      {
+        "item": "tipo",
+        "texto": "we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN)"
+      },
+      {
+        "item": "modelos",
+        "texto": "four Convolutional Neural Networks (CNN): The images in our dataset are preprocessed where the motion artifacts are removed. The four networks are UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet."
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight CNN models perform better than other neural net models when to segment infectious tissue"
+      }
+    ]
+  },
+  {
+    "id": "F0172",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Target detection is a revolutionary advancement in computer vision"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper summarizes the use of knowledge compression on target detection."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Knowledge Refinement, as one of the common means of model compression"
+      }
+    ]
+  },
+  {
+    "id": "F0174",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "the outstanding performance of Transformer models in natural language processing (NLP) has garnered attention in the field of computer vision (CV) and has been successfully applied to abnormal behavior recognition tasks"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper summarizes the research progress of Transformer models and their extended structures."
+      },
+      {
+        "item": "modelos",
+        "texto": "Transformer models, and introduce the Vision Transformer (ViT)"
+      }
+    ]
+  },
+  {
+    "id": "F0175",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "explores the integration of the Internet of Things (IoT) and embedded systems in creating a sustainable and interconnected technological ecosystem"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper presents the results of a structured scoping review (SSR)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "prevalent machine learning techniques for analyzing water quality data include K-Nearest Neighbors (KNN) and artificial neural networks (ANN)"
+      }
+    ]
+  },
+  {
+    "id": "F0176",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Tuberculosis (TB) continues to disproportionately decimate people in resource-constrained countries"
+      },
+      {
+        "item": "tipo",
+        "texto": "Preferred Reporting Items for Systematic and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) methodology guided the reporting of this scoping review"
+      },
+      {
+        "item": "modelos",
+        "texto": "Machine learning algorithms, like logistic regression, k-nearest neighbour, and support vector machine, and deep learning algorithms like long short-term memory and convolutional neural networks"
+      },
+      {
+        "item": "tecnica",
+        "texto": "have been used to detect TB and performed well based on the performance evaluation metrics"
+      }
+    ]
+  },
+  {
+    "id": "F0177",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "their use in robotics applications aims to achieve critical task execution by implementing sophisticated control and computer vision algorithms"
+      },
+      {
+        "item": "tipo",
+        "texto": "We review the state-of-the-art strategies available for Tiny Machine Learning (TinyML) implementation"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Tiny Machine Learning (TinyML) techniques: Hardware Architecture, Vision System, Power Consumption, and Embedded Software Platform development environment"
+      },
+      {
+        "item": "pratica",
+        "texto": "A basic TinyML implementation for embedded vision application using three low-cost embedded systems, Raspberry Pi Pico, ESP32, and Arduino Nano 33 BLE Sense"
+      }
+    ]
+  },
+  {
+    "id": "F0178",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Learnable embedding vector is one of the most important applications in machine learning"
+      },
+      {
+        "item": "tipo",
+        "texto": "we perform a comprehensive comparative analysis and experimental evaluation of embedding compression"
+      },
+      {
+        "item": "tecnica",
+        "texto": "we introduce a new taxonomy that categorizes these techniques based on their characteristics and methodologies, and further develop a modular benchmarking framework that integrates 14 representative methods"
+      }
+    ]
+  },
+  {
+    "id": "F0179",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Artificial intelligence (AI) has the potential to transform global health care, with extensive application in Brazil, particularly for diagnosis and screening."
+      },
+      {
+        "item": "tipo",
+        "texto": "A systematic review was performed."
+      },
+      {
+        "item": "modelos",
+        "texto": "Most studies were public initiatives, totaling 17 of 25 (68%), while 5 of 25 (20%) were private. In limited-income countries like Brazil, minimum technological requirements for implementing AI in health care must be carefully considered due to financial limitations"
+      }
+    ]
+  },
+  {
+    "id": "F0180",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Tea is the second most widely consumed beverage in the world, and its production and quality are economically significant."
+      },
+      {
+        "item": "tipo",
+        "texto": "This systematic review synthesizes deep learning approaches for tea-leaf disease detection, covering studies from 2015 to 2025. Following PRISMA guidelines"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight models, XAI, and real-world variability"
+      }
+    ]
+  },
+  {
+    "id": "F0181",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Event cameras output asynchronous per-pixel brightness changes instead of synchronized frames, enabling always-on, low-power perception for IoT applications"
+      },
+      {
+        "item": "tipo",
+        "texto": "This review synthesizes 59 detection studies (2019–2025) spanning three detector families"
+      },
+      {
+        "item": "tecnica",
+        "texto": "event-native ANNs, pure SNN, and hybrid ANN–SNN"
+      }
+    ]
+  },
+  {
+    "id": "F0184",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "integrating these models into factory settings remains challenging, as models that perform well on static datasets struggle with dynamic shop floor data"
+      },
+      {
+        "item": "tipo",
+        "texto": "This article addresses these gaps by conducting a systematic literature review combined with thematic analysis"
+      },
+      {
+        "item": "tecnica",
+        "texto": "MLOps is an emerging discipline focused on bridging the gap between ML models and production environments"
+      }
+    ]
+  },
+  {
+    "id": "F0186",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Graph-based machine learning approaches, especially Graph Convolutional Neural Networks (GCNs), effectively model such relationships"
+      },
+      {
+        "item": "tipo",
+        "texto": "This review highlights advancements in attention-based sparse GCN architectures for career forecasting"
+      },
+      {
+        "item": "modelos",
+        "texto": "Graph Convolutional Neural Networks (GCNs), Attention mechanisms"
+      }
+    ]
+  },
+  {
+    "id": "F0187",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0188",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0189",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "physical activity recognition has begun to play an important role for healthcare, sports, safety, and improving user interaction in intelligent environments"
+      },
+      {
+        "item": "tipo",
+        "texto": "This study provides a systematic review of the literature on lightweight artificial intelligence for recognizing physical activity"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight AI, combined with the optimization of machine learning models"
+      }
+    ]
+  },
+  {
+    "id": "F0191",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "deep neural networks have achieved significant progress in point cloud learning"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper presents the first comprehensive survey of label-efficient learning of point clouds."
+      },
+      {
+        "item": "tecnica",
+        "texto": "data augmentation, domain transfer learning, weakly-supervised learning, and pretrained foundation models"
+      }
+    ]
+  },
+  {
+    "id": "F0192",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0193",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The integration of Artificial Intelligence (AI) models in Industrial Internet of Things (IIoT) systems has emerged as a pivotal area of research"
+      },
+      {
+        "item": "tipo",
+        "texto": "This article presents a comprehensive review of state-of-the-art AI models applied in IIoT contexts"
+      },
+      {
+        "item": "pratica",
+        "texto": "the software and hardware tools available for integrating AI models into embedded platforms, encompassing solutions such as Vitis AI v3.5, TensorFlow Lite Micro v2.14, STM32Cube.AI v9.0"
+      }
+    ]
+  },
+  {
+    "id": "F0194",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0195",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "their size and computational needs make LLMs unsuitable for deployment on resource-constrained devices, where efficiency, speed, and low power consumption are critical"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper provides a comprehensive survey of TLM architectures and methodologies"
+      },
+      {
+        "item": "modelos",
+        "texto": "Tiny Language Models (TLMs), also known as BabyLMs"
+      },
+      {
+        "item": "tecnica",
+        "texto": "knowledge distillation, quantization, and pruning"
+      }
+    ]
+  },
+  {
+    "id": "F0197",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "limited representation of minority sentiment classes, particularly the neutral class, which could reduce the model's ability to recognize all sentiment categories proportionally"
+      },
+      {
+        "item": "tipo",
+        "texto": "This study evaluated GPT-4o-based data augmentation"
+      },
+      {
+        "item": "modelos",
+        "texto": "IndoBERT-LoRA"
+      },
+      {
+        "item": "tecnica",
+        "texto": "prompt-based augmentation and fine-tuning augmentation"
+      }
+    ]
+  },
+  {
+    "id": "F0198",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Serverless technologies have remained so far confined within the realm of cloud computing, but this is changing fast, with serverless/edgeless/deviceless paradigms being adopted more and more in decentralized and distributed systems"
+      },
+      {
+        "item": "tipo",
+        "texto": "the first in-person workshop on serverless computing for pervasive cloud-edge-device systems and services"
+      }
+    ]
+  },
+  {
+    "id": "F0200",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Synergies represent positive interactions where the progress of one SDG contributes positively to the progress of another."
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose the use of Small Language Models in addition of an advanced Retrieval Augmented Generation"
+      },
+      {
+        "item": "modelos",
+        "texto": "Small Language Models"
+      }
+    ]
+  }
+]

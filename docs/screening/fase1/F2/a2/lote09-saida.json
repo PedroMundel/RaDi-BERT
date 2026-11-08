@@ -1,0 +1,115 @@
+[
+  {"id": "F0321", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This paper presents a comprehensive synthesis of major breakthroughs in artificial intelligence (AI) over the past fifteen years"},
+    {"item": "tipo", "texto": "This paper presents a comprehensive synthesis"},
+    {"item": "modelos", "texto": "GPU-based model training, triggered a data-centric shift with ImageNet, simplified architectures through the Transformer, and expanded modeling capabilities with the GPT series"},
+    {"item": "tecnica", "texto": "sample complexity and data efficiency"},
+    {"item": "tecnica", "texto": "federated learning, privacy-enhancing technologies (PETs), and the data site paradigm"},
+    {"item": "tecnica", "texto": "synthetic data generation"}
+  ]},
+  {"id": "F0322", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This study presents a systematic review of recent advances in optimized Riemannian residual neural networks combined with LoRa-based wireless sensor networks (WSNs) for energy-efficient environmental monitoring in precision agriculture"},
+    {"item": "tipo", "texto": "This study presents a systematic review"},
+    {"item": "modelos", "texto": "Riemannian residual neural networks"},
+    {"item": "tecnica", "texto": "energy-efficient environmental monitoring"},
+    {"item": "tecnica", "texto": "optimized neural network architectures enhances predictive accuracy and data processing efficiency"},
+    {"item": "tecnica", "texto": "learning over complex manifold-structured data"}
+  ]},
+  {"id": "F0326", "acesso": "sem acesso", "frases": []},
+  {"id": "F0327", "acesso": "sem acesso", "frases": []},
+  {"id": "F0329", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This paper presents, at a conceptual level, the architecture of\"AIx4Soccer One Platform,\"a multi-tenant cloud SaaS operating system"},
+    {"item": "tipo", "texto": "This is a design and early-deployment paper, not an empirical evaluation"},
+    {"item": "modelos", "texto": "small, domain-specific models, rather than frontier LLMs"},
+    {"item": "tecnica", "texto": "an event-centric semantic data model in which every fact is a typed, immutable event in an append-only log"},
+    {"item": "pratica", "texto": "video analysis"},
+    {"item": "pratica", "texto": "video evidence and periodic review"}
+  ]},
+  {"id": "F0330", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This review presents a comprehensive overview of single image dehazing techniques developed over the past decade"},
+    {"item": "tipo", "texto": "This review presents"},
+    {"item": "modelos", "texto": "convolutional encoder-decoder architectures, multi-scale feature fusion, generative adversarial networks (GANs), and emerging transformer-based model's"},
+    {"item": "tecnica", "texto": "Dark Channel Prior (DCP), Color Attenuation Prior (CAP), and Retinex theory"},
+    {"item": "tecnica", "texto": "real-time, hardware-friendly dehazing models for edge deployment, considering power, latency, and memory constraints"},
+    {"item": "pratica", "texto": "We evaluate these methods on standard datasets, using metrics like PSNR and SSIM"}
+  ]},
+  {"id": "F0331", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This paper explores the transformative potential of Lightweight AI techniques in enhancing the capabilities of Unmanned Aerial Vehicles (UAVs)"},
+    {"item": "tipo", "texto": "We discuss key Lightweight AI techniques"},
+    {"item": "modelos", "texto": "Lightweight AI techniques"},
+    {"item": "tecnica", "texto": "Tiny Machine Learning (TinyML), model compression methods, edge computing, transfer learning, and federated learning"},
+    {"item": "pratica", "texto": "object detection, vegetation segmentation, forest-fire detection, real-time path planning, and autonomous landing"}
+  ]},
+  {"id": "F0332", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "this project develops a web-based system that determines whether a given text sample originates from a human user or an AI model"},
+    {"item": "tipo", "texto": "this project develops"},
+    {"item": "modelos", "texto": "transformer-based models such as BERT, and additional hybrid configurations with LSTM or CNN layers"},
+    {"item": "tecnica", "texto": "Natural Language Processing methods, including contextual filtering and sentimentaware analysis"},
+    {"item": "pratica", "texto": "web-based system"},
+    {"item": "pratica", "texto": "An interactive interface"},
+    {"item": "pratica", "texto": "Explainable AI tools"}
+  ]},
+  {"id": "F0333", "acesso": "sem acesso", "frases": []},
+  {"id": "F0336", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This review examines recent advancements in deep learning architectures, segmentation techniques, and optimization strategies"},
+    {"item": "tipo", "texto": "This review examines"},
+    {"item": "modelos", "texto": "Convolutional neural networks (CNNs)"},
+    {"item": "modelos", "texto": "advanced segmentation models such as U-Net and nnU-Net"},
+    {"item": "tecnica", "texto": "sparsity-aware orthogonal initialization (SAOI), which improves training efficiency and convergence"},
+    {"item": "tecnica", "texto": "sparse yet effective neural architectures, thereby reducing computational complexity without compromising performance"}
+  ]},
+  {"id": "F0340", "acesso": "sem acesso", "frases": []},
+  {"id": "F0341", "acesso": "sem acesso", "frases": []},
+  {"id": "F0343", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "This review highlights the potential of embedded vision and lightweight deep learning for real-time traffic understanding in ITS"},
+    {"item": "tipo", "texto": "This review highlights"},
+    {"item": "modelos", "texto": "deep learning-based vision"},
+    {"item": "modelos", "texto": "compact architectures"},
+    {"item": "tecnica", "texto": "model compression, pruning, and compact architectures"},
+    {"item": "tecnica", "texto": "edge-optimised inferences"},
+    {"item": "pratica", "texto": "detection, segmentation, and multi-object tracking"},
+    {"item": "pratica", "texto": "standardised benchmarks"}
+  ]},
+  {"id": "F0346", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "this work is focused on, including an overview of embedded systems and related technologies for Advanced Driver Assistance Systems (ADAS) development"},
+    {"item": "tipo", "texto": "Overview of Embedded Systems"},
+    {"item": "tecnica", "texto": "functional safety, reliability and performances"},
+    {"item": "pratica", "texto": "SoCs, Application Processors-APs, MCUs, software and boards"}
+  ]},
+  {"id": "F0347", "acesso": "sem acesso", "frases": []},
+  {"id": "F0348", "acesso": "sem acesso", "frases": []},
+  {"id": "F0349", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "In this paper, we design and implement an integrated MLOps framework"},
+    {"item": "tipo", "texto": "we design and implement"},
+    {"item": "modelos", "texto": "Machine Learning (ML) techniques"},
+    {"item": "tecnica", "texto": "the computing continuum paradigm, where heterogeneous and distributed resources are stretching all the way from Cloud to Edge and IoT devices"},
+    {"item": "pratica", "texto": "MLOps framework"},
+    {"item": "pratica", "texto": "scheduler"},
+    {"item": "pratica", "texto": "testbed environment"}
+  ]},
+  {"id": "F0355", "acesso": "sem acesso", "frases": []},
+  {"id": "F0356", "acesso": "sem acesso", "frases": []},
+  {"id": "F0357", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "Knowledge Distillation A Review of Methods and Applications in LiDAR Data"},
+    {"item": "tipo", "texto": "A Review"},
+    {"item": "tecnica", "texto": "Knowledge Distillation"},
+    {"item": "pratica", "texto": "LiDAR Data"}
+  ]},
+  {"id": "F0358", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "the preliminary background and the implementation of tensor decomposition are presented"},
+    {"item": "tipo", "texto": "some recent studies of tensor decomposition for traffic data imputation, traffic state prediction, and analysis of travel pattern are reviewed"},
+    {"item": "tecnica", "texto": "tensor decomposition"},
+    {"item": "tecnica", "texto": "tensor decomposition has played an important role in traffic data analytic solutions"},
+    {"item": "pratica", "texto": "traffic data imputation, traffic state prediction, and analysis of travel pattern"}
+  ]},
+  {"id": "F0359", "acesso": "ok", "frases": [
+    {"item": "objeto", "texto": "we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN)"},
+    {"item": "tipo", "texto": "we aim to analyse"},
+    {"item": "modelos", "texto": "Convolutional Neural Networks (CNN)"},
+    {"item": "modelos", "texto": "UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet"},
+    {"item": "tecnica", "texto": "lightweight CNN models"},
+    {"item": "tecnica", "texto": "lightweight CNN models perform better than other neural net models when to segment infectious tissue"},
+    {"item": "pratica", "texto": "dataset of more than 3000 images"}
+  ]},
+  {"id": "F0360", "acesso": "sem acesso", "frases": []}
+]

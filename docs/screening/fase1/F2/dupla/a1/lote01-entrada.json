@@ -1,0 +1,353 @@
+[
+ {
+  "id": "F0032",
+  "title": "A Comprehensive Survey on Vision Transformers, Few-Shot Learning, and Lightweight Clinical Deployment in Next-Generation Artificial Intelligence",
+  "year": "2026",
+  "abstract": "Early identification of malignant and pre-malignant skin lesions plays a decisive role in improving patient survival and treatment effectiveness. Despite notable progress in computeraided diagnosis, reliable skin lesion classification remains difficult due to subtle visual similarities between lesion types, severe class imbalance, and the limited availability of expert-annotated dermatological data. These challenges become even more pronounced in real-world clinical environments, where imaging conditions are often inconsistent and rare lesion categories are underrepresented. Recent advances in artificial intelligence have introduced promising alternatives to conventional convolutionbased models, particularly through the adoption of Vision Transformers, few-shot learning paradigms, and efficiencyoriented system designs. This survey examines contemporary research trends in skin lesion analysis, covering key developments in lesion preprocessing, segmentation-assisted representation learning, attention-based architectures, and data-efficient learning strategies. Each approach is critically discussed in terms of its diagnostic relevance, practical limitations, and suitability for clinical deployment. In addition, a unifying conceptual framework is presented that integrates global contextual understanding with adaptive learning from limited data. This perspective directly addresses persistent challenges related to scalability, interpretability, and generalization across diverse clinical settings. By systematically analyzing current methodologies, performance trade-offs, and open research gaps, this work provides a foundation for the development of next-generation dermatological imaging systems, with particular relevance to real-time screening, mobile platforms, and telemedicine-based healthcare applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0025",
+  "title": "Lightweight Deep Learning Models for Face Mask Detection in Real-Time Edge Environments: A Review and Future Research Directions",
+  "year": "2026",
+  "abstract": "Automated face mask detection remains an important component of hygiene compliance, occupational safety, and public health monitoring, even in post-pandemic environments where real-time and non-intrusive surveillance is required. Traditional deep learning models provide strong recognition performance but are often impractical for deployment on embedded and edge devices due to their computational and energy demands. Recent research has therefore emphasized lightweight and hybrid architectures that seek to preserve detection accuracy while reducing model complexity, inference latency, and power consumption. This review presents an architecture-centered synthesis of face mask detection systems, examining conventional convolutional models, lightweight convolutional networks such as the MobileNet family, and hybrid frameworks that integrate efficient backbones with optimized detection heads. Comparative analysis of reported results highlights key trade-offs between accuracy, efficiency, and deployment feasibility under heterogeneous datasets, evaluation protocols, and hardware settings. Open challenges, including improper mask detection, domain adaptation, model compression, and the extension of mask detection toward broader Personal Protective Equipment (PPE) compliance monitoring, are discussed to outline a forward-looking research agenda. Overall, this review consolidates current understanding of architectural design strategies for face mask detection and provides guidance for developing scalable, robust, and real-time deep learning solutions suitable for embedded and mobile platforms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0008",
+  "title": "Trends of Modern Processors for AI Acceleration",
+  "year": "2021",
+  "abstract": "As Machine Learning and Artificial Intelligence (AI) technology are playing the key role in the 4th industrial revolution, tremendous amounts of researches are actively conducted to blend the technologies into our daily lives with practical applications, such as autonomous vehicles, robots, drones, AI speaker, smart phone, intelligent surveillance, etc. Most of current works rely on GPU that is not a practical solution to embedded systems and mobile platforms due to its large form factor and power consumption. Instead, low-power hardware accelerators are essential for feasible implementation and they have been investigated recently with different aspects and architectures. In this talk, the technological challenges and trends in the latest AI accelerators are reviewed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0027",
+  "title": "A Survey on the Use of Lightweight Virtualization in I4.0 Manufacturing Environments",
+  "year": "2023",
+  "abstract": "Over the past decade, in the industrial sector we have witnessed the rise of a revolutionary movement, known as Industry 4.0, that promotes the digital transformation as the key to increase the competitiveness of manufacturing factories. Among the many technologies recognized as “drivers” of such revolutionary transition, microservices stand out as a software development paradigm capable of bringing several benefits to the manufacturing process. Whilst the literature offers many examples of initiatives exploiting microservices in digitally-advanced sectors (e.g., finance, telecommunication, retailing), its potential in the industrial manufacturing is yet to be fully unleashed. We conducted an extensive literature survey in the twofold aim of bringing to the reader’s attention the many benefits that the microservices paradigm may offer in industrial manufacturing settings, and drawing a picture of how light virtualization techniques are actually being exploited to achieve Industry 4.0 digitization goals. In this paper, we propose a structured analysis of the collected literature proposals which combines the benefits sought by authors when approaching to the microservices techniques and the specific scope of application of proposals. We conclude the paper highlighting the research aspects that have not been sufficiently explored in the literature and that would deserve further attention in the near future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0047",
+  "title": "Enhancing Federated Learning Evaluation: Exploring Instance-Level Insights with SQUARES in Image Classification Models",
+  "year": "2024",
+  "abstract": "Federated Learning (FL) presents a novel approach within the domain of Machine Learning (ML)—enabling the training of ML models in a distributed manner. This paradigmatic shift ensures the preservation of user privacy by conducting the training process at the edge, where data remains localized on individual devices. This stands in contrast to the conventional centralized paradigm—where users transmit data to a central server for processing. The FL framework operates within a more heterogeneous environment characterized by diverse data distributions across clients, a departure from the engineer-analyzed datasets typical of centralized paradigms. Whereas, evaluation of FL models typically relies on statistical techniques such as accuracy, recall, precision, log loss, and the confusion matrix, alongside visualization methods. While these techniques provide an overview of the model's performance and data utilization—they may lack granularity when comparing models with disparate characteristics. However, the SQUARES technique, offers a more nuanced evaluation of model performance at the instance level. This approach facilitates the examination of data biases, outlier detection, and model behavior during training on individual samples. Therefore, this study presents the development and evaluation of an FL image classification model across various scenarios—utilizing the SQUARES prototype. In addressing these more intricate scenarios, we aim to augment traditional visualizations and metrics, thereby uncovering insights and nuances that may elude standard evaluation methods prevalent in ML benchmarks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0073",
+  "title": "Overview of Some mm-Wave Antenna Designs Embedded in Metal Exteriors of Cellular Phones",
+  "year": "2020",
+  "abstract": "The overview of some mm-Wave antenna designs embedded in metal exteriors of cellular phones presents an evolution from the 5th generation mobile communications (5G) single-band single-polarized mm-Wave antennas, dual-band single-polarized mm-Wave antennas, dual-band single-polarized mm-Wave antennas in a non-mm-Wave antenna, dual-band dual-polarized mm-Wave antennas, dual-band dual-polarized mm-Wave antennas in a non-mm-Wave antenna, wideband dual-polarized mm-Wave antennas in a non-mm-Wave antenna, to 60-GHz single-band single-polarized mm-Wave antennas in a non-mm-Wave antenna.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0064",
+  "title": "Voluntary resource sharing at the network edge to provide cloud services: a systematic survey",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0044",
+  "title": "Algorithmic Versus Expert Rankings of Large Language Models in Peritoneal Dialysis Prescription Review: A Trap-Embedded Synthetic Benchmark",
+  "year": "2026",
+  "abstract": "Abstract Background Clinical LLM benchmarks rarely test whether algorithmic rankings agree with expert clinical judgment. We developed a trap-embedded peritoneal dialysis (PD) benchmark comparing multiple scoring constructs with blinded nephrologist ratings. Methods We generated 125 synthetic PD cases containing 13 ISPD-aligned trap types. Five LLMs (Claude Sonnet 4.5, GPT-5.4, Gemini 3.1 Pro, DeepSeek-R1, Grok 4.1 Fast) evaluated each case three times at temperature 0 (1,875 calls). Primary outcome was must-identify TDR must , analyzed with GEE and case-clustered bootstrap. Secondary analyses included a verbosity-sensitive alarm-burden proxy, WCS, relaxed-match scoring, WCS sensitivity analyses, and a 25-output blinded expert adequacy substudy. Must-identify kappa was 0.89 in Stage 1 and 0.92 in Stage 2. Results Rankings were discordant. Recall ranked Claude (0.977) and GPT-5.4 (0.955) above the other models (0.86–0.90, p<0.0001). The alarm-burden proxy favored concise models (Grok 0.689; 21.6 vs 2.4 issues/case), while WCS produced a third ordering. In the expert substudy, inter-rater concordance was strong (rho 0.977), but WCS did not show a positive association with expert adequacy (rho -0.17, p=0.41). Conclusion Clinical LLM rankings in PD prescription review depend strongly on scoring construct. Algorithmic metrics should be reported alongside blinded expert adequacy ratings and should not alone determine deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0091",
+  "title": "A Survey of Efficient Deep Learning Models for Moving Object Segmentation",
+  "year": "2023",
+  "abstract": "Moving object segmentation (MOS) is the process of identifying dynamic objects from video frames, such as moving vehicles or pedestrians, while discarding the background. It plays an essential role in many real-world applications such as autonomous driving, mobile robots, and surveillance systems. With the availability of a huge amount of data and the development of powerful computing infrastructure, deep learning-based methods have shown remarkable improvements in MOS tasks. However, as the dimension of data becomes higher and the network architecture becomes more complicated, deep learning-based MOS models are computationally intensive, which limits their deployment on resource-constrained devices and in delay-sensitive applications. Therefore, more research started to develop fast and lightweight models. This paper aims to provide a comprehensive review of deep learning-based MOS models, with a focus on efficient model design techniques. We summarize a variety of MOS datasets, and conduct a thorough review of segmentation accuracy metrics and model efficiency metrics. Most importantly, we compare the performance of efficient MOS models on popular datasets, identify competitive models and analyze their essential techniques. Finally, we point out existing challenges and present future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0085",
+  "title": "UAV-Embedded Sensors and Deep Learning for Pathology Identification in Building Façades: A Review",
+  "year": "2024",
+  "abstract": "The use of geotechnologies in the field of diagnostic engineering has become ever more present in the identification of pathological manifestations in buildings. The implementation of Unmanned Aerial Vehicles (UAVs) and embedded sensors has stimulated the search for new data processing and validation methods, considering the magnitude of the data collected during fieldwork and the absence of specific methodologies for each type of sensor. Regarding data processing, the use of deep learning techniques has become widespread, especially for the automation of processes that involve a great amount of data. However, just as with the increasing use of embedded sensors, deep learning necessitates the development of studies, particularly those focusing on neural networks that better represent the data to be analyzed. It also requires the enhancement of practices to be used in fieldwork, especially regarding data processing. In this context, the objective of this study is to review the existing literature on the use of embedded technologies in UAVs and deep learning for the identification and characterization of pathological manifestations present in building façades in order to develop a robust knowledge base that is capable of contributing to new investigations in this field of research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0090",
+  "title": "Lightweight CNN Transformer Hybrid for Real Time Leaf Disease Detection on Mobile Devices: A Review",
+  "year": "2025",
+  "abstract": "Real-time plant disease detection on mobile devices requires models that are both computationally efficient and highly accurate under field conditions. Traditional convolutional neural networks (CNNs) are effective at capturing local texture and edge features but often struggle with long-range dependencies, while Vision Transformers (ViTs) excel at global context modeling but incur high computational costs. Hybrid CNN–Transformer architectures have recently emerged as a promising solution, combining the strengths of both approaches. This review paper explores the development of lightweight CNN–Transformer hybrids specifically tailored for mobile deployment in plant disease detection. We highlight methods for architectural optimization, model compression (pruning, quantization, and knowledge distillation), and edge deployment frameworks (TensorFlow Lite, ONNX Runtime Mobile, Core ML). Evaluation is discussed across benchmark datasets such as PlantVillage and real-field images, focusing on accuracy, latency, memory footprint, and usability in rural agricultural settings. Finally, the review identifies open challenges, including domain shift, explainability, and few-shot adaptation to unseen diseases, offering insights into designing field-ready, efficient, and robust mobile AI solutions for agriculture",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0087",
+  "title": "Investigations of Object Detection in Images/Videos Using Various Deep Learning Techniques and Embedded Platforms—A Comprehensive Review",
+  "year": "2020",
+  "abstract": "In recent years there has been remarkable progress in one computer vision application area: object detection. One of the most challenging and fundamental problems in object detection is locating a specific object from the multiple objects present in a scene. Earlier traditional detection methods were used for detecting the objects with the introduction of convolutional neural networks. From 2012 onward, deep learning-based techniques were used for feature extraction, and that led to remarkable breakthroughs in this area. This paper shows a detailed survey on recent advancements and achievements in object detection using various deep learning techniques. Several topics have been included, such as Viola–Jones (VJ), histogram of oriented gradient (HOG), one-shot and two-shot detectors, benchmark datasets, evaluation metrics, speed-up techniques, and current state-of-art object detectors. Detailed discussions on some important applications in object detection areas, including pedestrian detection, crowd detection, and real-time object detection on Gpu-based embedded systems have been presented. At last, we conclude by identifying promising future directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0136",
+  "title": "Population-Based Hierarchical Non-Negative Matrix Factorization for Survey Data",
+  "year": "2022",
+  "abstract": "Motivated by the problem of identifying potential hierarchical population structure on modern survey data containing a wide range of complex data types, we introduce population-based hierarchical non-negative matrix factorization (PHNMF). PHNMF is a variant of hierarchical non-negative matrix factorization based on feature similarity. As such, it enables an automatic and interpretable approach for identifying and understanding hierarchical structure in a data matrix constructed from a wide range of data types. Our numerical experiments on synthetic and real survey data demonstrate that PHNMF can recover latent hierarchical population structure in complex data with high accuracy. Moreover, the recovered subpopulation structure is meaningful and can be useful for improving downstream inference.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0130",
+  "title": "Deep Learning and Optimization Approaches in Attention-Based Sparse Graph Convolutional Neural Network -Based Forecast Model for Career Planning in Human Resource Management: A Review",
+  "year": "2024",
+  "abstract": "The rapid evolution of artificial intelligence has significantly transformed decision-making processes in Human Resource Management, particularly in career planning and workforce analytics. Among emerging methodologies, Attention-Based Sparse Graph Convolutional Neural Networks (AS-GCNNs) have demonstrated remarkable capability in modeling complex relational data inherent in organizational structures. This review paper presents a comprehensive analysis of deep learning and optimization techniques integrated within AS-GCNN frameworks for forecasting career trajectories. The study explores how attention mechanisms enhance feature relevance, while sparsity constraints improve computational efficiency and interpretability. Furthermore, optimization strategies, including metaheuristic algorithms and gradient-based tuning, are examined for their role in improving prediction accuracy and convergence stability. The paper synthesizes recent advancements, identifies research gaps, and evaluates the applicability of these models in real-world HR scenarios such as employee retention, promotion forecasting, and skill development planning. Emphasis is placed on the integration of multi-source HR data, scalability challenges, and ethical considerations in AI-driven decision systems. The findings indicate that AS-GCNN models, when combined with robust optimization techniques, offer superior predictive performance and actionable insights, positioning them as a promising tool for strategic workforce planning in modern organizations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0121",
+  "title": "OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation",
+  "year": "2026",
+  "abstract": "Generative recommendation (GR) relies on large-beam decoding to generate hundreds of candidate items, creating a new scaling challenge for recurrent linear attention. Existing linear attention serving systems either materialize a full recurrent state for every beam or repeatedly replay shared history, incurring substantial memory and traffic overhead. To address this, we present OneLA, a linear-attention decoding framework that exploits the shared prompt and short divergent suffixes of GR workloads. Specifically, OneLA represents all beam states using a single shared prompt-derived state and compact, append-only records of their divergent transitions. Using this representation, OneLA computes only the state information required at each decoding step, without reconstructing a full recurrent state for every beam. Furthermore, OneLA uses a lightweight ancestry index to track the transition records that make up each beam's history, allowing beams to be updated without moving or copying existing records. A fused GPU kernel further reuses the shared state across beams. Our analysis shows that OneLA achieves 1.54-2.46x end-to-end decode speedups while substantially reducing recurrent-state memory use and data movement.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0134",
+  "title": "Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations",
+  "year": "2021",
+  "abstract": "Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations. It aims to provide effective, reproducible, and easy-to-use first-stage retrieval in a multi-stage ranking architecture. Our toolkit is self-contained as a standard Python package and comes with queries, relevance judgments, pre-built indexes, and evaluation scripts for many commonly used IR test collections. We aim to support, out of the box, the entire research lifecycle of efforts aimed at improving ranking with modern neural approaches. In particular, Pyserini supports sparse retrieval (e.g., BM25 scoring using bag-of-words representations), dense retrieval (e.g., nearest-neighbor search on transformer-encoded representations), as well as hybrid retrieval that integrates both approaches. This paper provides an overview of toolkit features and presents empirical results that illustrate its effectiveness on two popular ranking tasks. Around this toolkit, our group has built a culture of reproducibility through shared norms and tools that enable rigorous automated testing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0170",
+  "title": "Hardware and Cyber Vulnerabilities in Embedded Systems: An Overview for Power Grids, PV, EVs, and Storage Systems",
+  "year": "2025",
+  "abstract": "Power grids, photovoltaic (PV) systems, electric vehicles (EVs), EV charging stations, and lithium-ion storage solutions rely heavily on embedded systems, making them vulnerable to hardware and cyberattacks. As these systems become increasingly connected through digital control and data networks, their exposure to cyber threats also increases. For management, control, and communication, these systems depend on microprocessors and integrated circuits (ICs), which makes them susceptible to adversarial attacks. This survey provides a detailed discussion of hardware-based attacks, such as tampering, cyberattacks, man-in-the-middle attacks, data integrity attacks, denial-of-service attacks, side-channel attacks, and hardware Trojans (HT). It also examines how attackers might take advantage of weaknesses in the design, firmware, or supply chain of embedded hardware. The paper assesses the potential impact of these security threats on embedded systems across power grids, PV systems, EV infrastructure, and lithium-ion storage systems. Further, it highlights countermeasure techniques to secure these systems and mitigate the threats. Preventive and responsive methods, such as encryption, anomaly monitoring, secure hardware features, and trusted startup processes, are outlined. This paper aims to raise awareness of the importance of strong security strategies to develop robust EVs, renewable energy sources, and power grid infrastructure. The goal is to support engineers, researchers, and policymakers in building safer and more reliable energy systems for the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0192",
+  "title": "Embedded Intelligent Empathy: A Systematic Review Towards a Conceptual Framework",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0189",
+  "title": "LIGHTWEIGHT ARTIFICIAL INTELLIGENCE FOR PHYSICAL ACTIVITY RECOGNITION BASED ON WEARABLE DEVICES: A SYSTEMATIC LITERATURE REVIEW",
+  "year": "2025",
+  "abstract": "With the development of artificial intelligence, physical activity recognition has begun to play an important role for healthcare, sports, safety, and improving user interaction in intelligent environments. The active proliferation of wearable devices with multimodal sensors provides data collection, which can be used to improve the quality of life. Conventional AI models require large computing resources, so they are not suitable for devices with low performance. The study of lightweight AI, combined with the optimization of machine learning models, is gaining relevance. Such models work in conditions of limited memory and energy resources. Given the rapid technological progress and the latest relevant research, it is important to examine the current state of the physical activity recognition system, highlighting its strengths, as well as the challenges that this area continues to face. This study provides a systematic review of the literature on lightweight artificial intelligence for recognizing physical activity based on wearable devices, based on an analysis of articles published from 2010 to 2025.\n\nAuthor Biographies",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0183",
+  "title": "An Overview of On-Chip Sensing and Analytics for Resilient Integrated Circuits",
+  "year": "2026",
+  "abstract": "Resilient integrated circuits (ICs) are essential for safety- and mission-critical applications, where hardware faults can result in costly damage or even loss of lives. A resilient IC is designed to detect, tolerate, and adapt in real time to different faulty scanarios, maintaining correct functionality under varying operating and environmental conditions. Specialized sensing and analytics engines embedded in the chip play a central role in resilient ICs by providing real-time insight into the overall state, i.e., \"health\", of the chip. This paper presents an overview of commonly used on-chip sensors for IC status monitoring, and discusses fundamental design requirements for on-chip processing of sensor-generated data.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0238",
+  "title": "Lightweight Ensemble Models for Emotion Analysis in E-Commerce User Reviews: Performance and Scalability *",
+  "year": "2024",
+  "abstract": "This paper investigates the integration of sentiment analysis into emotion classification models applied to user reviews, aiming to enhance predictive performance and accuracy. While existing deep learning models, such as BERT, have achieved state-of-the-art results in various NLP tasks, their computational requirements can render them impractical for real-time applications. To address this challenge, a hybrid approach is proposed that combines the VADER sentiment analysis tool with the lightweight DistilBERT transformer model for classifying emotional sentiments in textual data. Utilizing a comprehensive dataset of labeled reviews, the study rigorously trains and evaluates the model’s capabilities. Experimental results reveal that enabling sentiment analysis significantly improves model performance, achieving an accuracy of 98.50%, precision of 91.50%, recall of 92.00%, and F1 score of 91.75%. These findings highlight the importance of sentiment scores in providing essential contextual information, which facilitates better handling of ambiguous language and enhances overall classification effectiveness.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0202",
+  "title": "High-dimensional data analytics in civil engineering: A review on matrix and tensor decomposition",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0211",
+  "title": "A Review of Approaches for Compassionate Checkpointing with Mobile Computing Systems",
+  "year": "2022",
+  "abstract": "A distribution system is a group of autonomous entities working together to address a challenge that cannot be addressed by any one of them alone. A distributed system called a mobile computing device (MCD) has certain processes that are executed on mobile nodes, whose position within the network shifts over time. Distributed mobile systems create new problems such as mobility, poor wireless channel bandwidth, disconnections, low battery life, and a lack of a steady, trustworthy store on mobile nodes. The issue of fault-tolerant computation in mobile distributed databases is discussed in this study. Checkpointing and roll- it-back recovery are the foundations for the procedures outlined.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0203",
+  "title": "Review of the Application of Lightweight Algorithms for Preventing Internet of Things devices from Distributed Denial of Services Attacks",
+  "year": "2026",
+  "abstract": "Among the industries that have been revolutionized by the new development of the Internet of Things (IoT) are healthcare, industry, and smart cities but at the same time, it has brought great security threats, notably Distributed Denial of Service (DDoS) attacks. Conventional deep learning intrusion detection systems offer good accuracy in detection, but can be costly in computation and do not fit well in the constrained resource environment of IoT. This review takes a critical look at the newer IoT-based DDoS detection methods with the attention to Federated Learning (FL), Explainable Artificial Intelligence (XAI), and lightweight machine learning (ML) methods. In a comparison of recent literature, it has been found that lightweight ML models including Support Vector Machines (SVM) and K-Nearest Neighbors (KNN) reach a detection accuracy of around 94-96% with low computational and communication overhead, which makes them an appropriate choice in the deployment of edge-based IoT. Conversely, the FL-integrated deep learning methods, such as FL-XAI frameworks and FL-LSTM models, achieve better detection accuracy (99-99.8) and better privacy protection, but pose serious training complexities, communication, and resource constraints on the devices. As a middle ground to scalability, interpretability, and detection accuracy (97-98%), hybrid models like FL-Autoencoders and FL-CNNs exist. Notwithstanding such progress, the majority of investigations are based on simulated data and do not provide the validity of IoT implementation in the real world, which defines a significant research gap. In general, these results indicate that lightweight ML models are the most viable choice in real-time IoT setups, and federated and explainable frameworks are promising the scalability, privacy-aware, and explainable IoT security systems, as long as their computational efficiency and applicability in the real world are further enhanced.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0255",
+  "title": "The Future of Chatbots: Survey on Generative Pretrained Models, Ernie, and Gemini",
+  "year": "2024",
+  "abstract": "The evolution of chatbots from rule-based, retrieval-based, contextual systems, to hybrid and generative AIpowered models. It aimsto solve complex natural language processing and task-specific challenges. The finding explores innovative self-attention mechanisms in the Generative Pretrained Transformer (GPT). The GPT model training and fine-tuning methods include discriminative fine-tuning, zeroshot and few-shot learning, parallel processing, and reinforcement learning with human feedback. Revolutionary multimodal AI models like GPT-4 (Open-AI), Ernie (Baidu), and Gemini (Google). The study discovers the advantages and limitations of chatbots.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0249",
+  "title": "Review for \"The Audiomaze : An EEG and motion capture study of human spatial navigation in sparse augmented reality\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0267",
+  "title": "The Role of Artificial Intelligence in Boosting Cybersecurity and Trusted Embedded Systems Performance: A Systematic Review on Current and Future Trends",
+  "year": "2025",
+  "abstract": "As technology becomes increasingly interconnected, ensuring the security of cyber and embedded systems is critical due to escalating vulnerabilities and sophisticated cyber threats. Researchers are exploring artificial intelligence (AI) to improve security mechanisms, yet there is a lack of a comprehensive technical, AI-focused analysis detailing the integration of AI into existing security hardware and frameworks. To address this gap, this article systematically reviews 63 articles on AI in cybersecurity and trusted embedded systems. The reviewed articles are categorized into four application domains: 1) Intrusion Detection and Prevention (IDPS), 2) Malware Detection, 3) Industrial Control and Cyber-Physical Systems (CPS) and 4) Distributed Denial-of-Service (DDoS) Detection and Prevention. We investigated current trends in integrating AI into security domains by summarizing the hardware used, the AI methodologies adopted, and the statistical distribution by publication year and region. The key findings of our review indicate that AI significantly enhances security measures by enabling capabilities such as detection, classification, feature selection, data privacy preservation, model combination, data generation, output interpretation, optimization, and adaptation. In addition, the benefits and challenges identified in these studies provide insight into the future potential of AI integration in security. Suggested directions for future work include improving generalization and scalability, exploring continuous or real-time monitoring, and improving AI model performance. This analysis serves as a foundation for advancing AI applications in the effective securing of cyber and embedded systems effectively.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0259",
+  "title": "Knowledge Distillation on Graphs: A Survey",
+  "year": "2023",
+  "abstract": "Graph Neural Networks (GNNs) have received significant attention for demonstrating their capability to handle graph data. However, they are difficult to be deployed in resource-limited devices because of model sizes and scalability constraints imposed by the multi-hop data dependency. In addition, real-world graphs usually possess complex structural information and features. Therefore, to improve the applicability of GNNs and fully encode the complicated topological information, Knowledge Distillation on Graphs (KDG) has been introduced to build a smaller but effective model, leading to model compression and performance improvement. Recently, KDG has achieved considerable progress, with many studies proposed. In this survey, we systematically review these works. Specifically, we first introduce the challenges and bases of KDG, then categorize and summarize the existing work of KDG by answering the following three questions: (1) what to distillate, (2) who to whom, and (3) how to distillate. We offer in-depth comparisons and elucidate the strengths and weaknesses of each design. Finally, we share our thoughts on future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0288",
+  "title": "Data-based modeling and control of nonlinear process systems using sparse identification: An overview of recent results",
+  "year": "2023",
+  "abstract": "This paper discusses recent developments in the data-based modeling and control of nonlinear chemical process systems using sparse identification of nonlinear dynamics (SINDy). SINDy is a recent nonlinear system identification technique that uses only measurement data to identify model dynamical systems in the form of first-order nonlinear differential equations. In this work, the challenges of handling time-scale multiplicities and noisy sensor data when using SINDy are addressed. Specifically, a brief overview of novel methods devised to overcome these challenges are described, along with modeling guidelines for using the proposed techniques for process systems. When applied to two-time-scale systems, to overcome model stiffness, which leads to ill-conditioned controllers, a reduced-order modeling approach is proposed where SINDy is used to model the slow dynamics, and nonlinear principal component analysis is used to algebraically ‘‘slave’’ the fast states to the slow states. The resulting model can then be used in a Lyapunov-based model predictive controller with guaranteed closed-loop stability provided the separation of fast and slow dynamics is sufficiently large. To handle high levels of sensor noise, SINDy is combined with subsampling and co-teaching to improve modeling accuracy. The challenges of modeling and controlling large-scale systems using noisy industrial data are then addressed by using ensemble learning with SINDy. After summarizing the advances, a nonlinear chemical process is used to provide an end-to-end demonstration of process modeling using sparse identification with guidelines for chemical engineering practitioners. Finally, several future research directions for the incorporation of SINDy into process systems engineering are proposed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0307",
+  "title": "REVIEW ANALYSIS INTERNET OF THINGS (IOT) USING LORA TECHNOLOGY",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0318",
+  "title": "Towards Optimized Retrieval-Augmented Generation: A Comprehensive Survey",
+  "year": "2025",
+  "abstract": "Retrieval-Augmented Generation (RAG) has emerged as a transformative paradigm for enhancing Large Language Models (LLMs) by grounding responses with external, non-parametric knowledge to enhance outputs and reduce hallucinations; however, the naïve retrieve-then-read approach faces significant limitations, necessitating optimization across the entire pipeline. This comprehensive survey delves into the diverse landscape of these optimization methodologies, moving beyond traditional approaches to explore innovative strategies that address critical challenges. We propose a four-stage taxonomy (Indexing, Retrieval, Augmentation, Generation) to structure the landscape of RAG optimization techniques, providing a detailed examination of chunking strategies, embedding techniques, query expansion methods, context compression algorithms, and prompt engineering approaches. Furthermore, we investigate recent innovations such as adaptive retrieval, hybrid architectures, and joint optimization techniques that synergistically combine improvements across multiple stages for enhanced end-to-end performance. Based on our synthesis of the existing literature, significant challenges remain in the development of effective RAG systems. Specifically, further research is needed to establish robust evaluation metrics, address computational limitations, and adapt these systems for use in diverse domains.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0292",
+  "title": "A Review of the Lightweight Technology of Object Detection Algorithms",
+  "year": "2024",
+  "abstract": "Deep learning has made significant progress in the field of object detection, especially convolutional neural networks have performed well in image classification, object detection, and segmentation tasks. However, with the increasing complexity of models and the demand for computing resources, traditional deep learning models face challenges in the deployment of resource-constrained mobile and embedded devices. In order to solve this problem, model compression and acceleration techniques have become a research hotspot, including pruning, quantification and knowledge distillation. The purpose of this paper is to review various algorithms in the field of object detection and their advantages and disadvantages, and to discuss the best optimization scheme based on the application and optimization effect of lightweight technology in various algorithms. The research objectives include: systematically summarizing and analyzing the main lightweight technologies currently used for object detection algorithms, evaluating their practical effects in object detection tasks, proposing improvement schemes suitable for specific application scenarios, and looking forward to the future development direction, and discussing potential research directions and technological breakthroughs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0325",
+  "title": "Computer-Assisted Web-Based Personal Interview Survey for Capturing Urban Mobility: A Contextual Approach in Resource-Constrained Settings",
+  "year": "2026",
+  "abstract": "\n This study demonstrates the operational deployment and feasibility of a computer-assisted web-based personal interview (CAWPI) approach in a resource-constrained urban setting. Piloted in Chattogram, Bangladesh, the method hybridizes face-to-face interviewing with a low-cost web platform under a bring-your-own-device (BYOD) strategy. It shows how such tools can be pragmatically adapted where pure computer-assisted web interviewing (CAWI) or an agency-provided device computer-assisted personal interviewing (CAPI) is infeasible. Data were collected from 550 households across 33 administrative wards, capturing household demographics, vehicle ownership, and daily travel behavior. The survey recorded travel history from 2,104 individuals, covering 3,884 trips. The CAWPI platform was optimized for low-bandwidth settings and integrated open-source tools, such as OpenStreetMap, for embedding geolocation during the survey data collection. Enumerators received training and real-time support throughout the survey. The effort achieved a 96% completion rate, with strong data quality reflected in consistent and logical trip timing, mode use, and activity patterns. The data were validated against nationally representative surveys. Challenges included limited geospatial search, occasional connectivity issues, and human input errors. The study identified best practices, including localized enumerator deployment, flexible data entry workflows, and continuous technical support. Findings suggest CAWPI has the potential to generate demographically representative and behaviorally coherent mobility data while remaining operationally feasible in resource-constrained settings. The approach is demonstrated as a contextually viable implementation for urban travel surveys in settings where structured data collection efforts are infrequent, particularly in the Global South, with future potential for offline capabilities and speech-to-text integration.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

@@ -1,0 +1,682 @@
+﻿[
+  {
+    "id": "F0761",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This Review provides a comprehensive review of the role played by embedded systems in industrial automation"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Review of Global Developments"
+      },
+      {
+        "item": "tecnica",
+        "texto": "The implementation of edge computing in embedded systems allows for decentralized data processing, reducing latency and enhancing the overall speed of decision-making in critical applications"
+      },
+      {
+        "item": "pratica",
+        "texto": "The use of advanced communication protocols such as OPC UA (Unified Architecture) and MQTT (Message Queuing Telemetry Transport) has become prevalent"
+      }
+    ]
+  },
+  {
+    "id": "F0762",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The major objective of this proposed study is to identify and classify the given Twitter input data as real or fake through deep learning mechanisms"
+      },
+      {
+        "item": "modelos",
+        "texto": "A Dense Convolutional Neural Network (DCNN) is hybridized with a bi-directional long-short-term memory (Bi-LSTM) model to extract the essential features and predict fake news from the given input text"
+      },
+      {
+        "item": "tecnica",
+        "texto": "feature extraction and prediction"
+      },
+      {
+        "item": "pratica",
+        "texto": "The proposed study used three different datasets and obtained higher classification accuracy as 99.5% in Fake News Detection on Twitter EDA, 99.59% in FakeNewsNet and 99.51% in ISOT"
+      }
+    ]
+  },
+  {
+    "id": "F0763",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0764",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This study advances aspect-based sentiment analysis (ABSA) for Persian-language user reviews in the tourism domain, addressing challenges of low-resource languages"
+      },
+      {
+        "item": "tipo",
+        "texto": "We propose a hybrid BERT-based model with Top-K routing and auxiliary losses to mitigate routing collapse and improve efficiency"
+      },
+      {
+        "item": "modelos",
+        "texto": "BERT-based model with Top-K routing"
+      },
+      {
+        "item": "tecnica",
+        "texto": "mitigate routing collapse and improve efficiency"
+      },
+      {
+        "item": "pratica",
+        "texto": "The dataset consists of 58,473 preprocessed reviews from the Iranian accommodation platform Jabama, manually annotated for aspects and sentiments"
+      }
+    ]
+  },
+  {
+    "id": "F0766",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0767",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review focuses on the risk detection and safe driving field of autonomous driving, and analyzes related cutting-edge technologies in depth"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Review from the Perspective of Embedded Systems"
+      },
+      {
+        "item": "tecnica",
+        "texto": "risk prediction, it explains the key technology paths based on multi-sensor fusion, deep learning, and data-driven"
+      }
+    ]
+  },
+  {
+    "id": "F0768",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper proposes a lightweight sentiment analysis system designed for movie reviews"
+      },
+      {
+        "item": "modelos",
+        "texto": "2D Convolutional Neural Network (2D CNN) to extract structured spatial features"
+      },
+      {
+        "item": "tecnica",
+        "texto": "This model achieves efficient classification without relying on word embeddings or large pre-trained models"
+      },
+      {
+        "item": "pratica",
+        "texto": "Experimental results on the IMDB dataset demonstrate a peak accuracy of 84.98% and a stable average accuracy of 84.72%"
+      }
+    ]
+  },
+  {
+    "id": "F0769",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review systematically bridges the gap between algorithmic innovation and hardware-aware deployment by presenting a critical analysis spanning three interconnected dimensions"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "modelos",
+        "texto": "architectural evolution from convolutional neural networks (CNNs) through Vision Transformers to emerging linear-complexity State Space Models (e.g., Mamba)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweighting-induced precision degradation and its compensation via knowledge distillation, structural reparameterisation, and frequency-domain enhancement"
+      },
+      {
+        "item": "pratica",
+        "texto": "empirical deployment profiling across heterogeneous edge platforms including NVIDIA Jetson, Intel OpenVINO, and mobile processors"
+      }
+    ]
+  },
+  {
+    "id": "F0770",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper presents LUME (a Lightweight Unbiased Multi-teacher Ensemble) for RRS"
+      },
+      {
+        "item": "tecnica",
+        "texto": "multi-teacher ensemble and debiased knowledge distillation to aggregate knowledge from multiple pretrained RRS"
+      },
+      {
+        "item": "pratica",
+        "texto": "Extensive experiments on various real-world benchmarks demonstrate that LUME successfully tackles the three problems"
+      }
+    ]
+  },
+  {
+    "id": "F0771",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This study presents a systematic review of 72 studies on quantization applied to medical images, following PRISMA guidelines"
+      },
+      {
+        "item": "tipo",
+        "texto": "systematic review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Post-Training Quantization (PTQ), Quantization-Aware Training (QAT), mixed precision, and binary/low-bit schemes"
+      },
+      {
+        "item": "pratica",
+        "texto": "frameworks such as PyTorch V 2.6.0, TensorFlow 2.19.0, and TensorFlow Lite, executed on server-class GPUs, edge/embedded devices, and specialized hardware"
+      }
+    ]
+  },
+  {
+    "id": "F0772",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0773",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Review-based recommendation methods typically integrate multiple behaviors, including interactions, reviews, and ratings, to model user preferences"
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose a novel Bidirectional Counterfactual Distillation (BiCoD) framework for review-based recommendation"
+      },
+      {
+        "item": "tecnica",
+        "texto": "adversarial counterfactual distillation module to suppress the impact of non-uniform rating distributions"
+      },
+      {
+        "item": "pratica",
+        "texto": "Extensive experiments on five real-world datasets validate the effectiveness and superiority of the proposed framework"
+      }
+    ]
+  },
+  {
+    "id": "F0774",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "human detection is carried out using deep learning that has developed rapidly and achieved extraordinary success in various object detection implementations"
+      },
+      {
+        "item": "tipo",
+        "texto": "survey"
+      },
+      {
+        "item": "modelos",
+        "texto": "SSD MobileNet V1, SSD MobileNet V2, and SSD inception V2"
+      },
+      {
+        "item": "tecnica",
+        "texto": "edge computing"
+      },
+      {
+        "item": "pratica",
+        "texto": "NVIDIA Jetson was chosen as a low power system designed to accelerate deep learning applications"
+      }
+    ]
+  },
+  {
+    "id": "F0775",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we propose a deep learning-based framework for surface crack detection using the Crack-Seg dataset and the YOLO11n-seg architecture"
+      },
+      {
+        "item": "modelos",
+        "texto": "YOLO11n-seg architecture"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight YOLO11n seg framework for real time surface crack detection"
+      },
+      {
+        "item": "pratica",
+        "texto": "the model reaches an inference rate of 3.6ms for each image (on Tesla T4), allowing for ultra-fast processing in highly automated inspection systems"
+      }
+    ]
+  },
+  {
+    "id": "F0776",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "cuffless continuous noninvasive blood pressure (cNIBP) monitoring based on photoplethysmography (PPG) has enjoyed great success through a wealth of high-performing machine learning (ML) algorithms"
+      },
+      {
+        "item": "tipo",
+        "texto": "A Review of Photoplethysmography-Based Blood Pressure Monitoring: From Cloud-Based Machine Learning to TinyML Edge Deployment"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Tiny machine learning (TinyML) has revolutionized the wave of wearable technology and enabled ML models to run inference on edge and tiny devices"
+      },
+      {
+        "item": "pratica",
+        "texto": "TinyML-powered PPG-based BP monitoring wearables"
+      }
+    ]
+  },
+  {
+    "id": "F0777",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we present and evaluate COVA (Contextually Optimized Video Analytics), a framework to assist in the automatic specialization of models for video analytics in edge cameras"
+      },
+      {
+        "item": "tecnica",
+        "texto": "automatic specialization of models"
+      },
+      {
+        "item": "pratica",
+        "texto": "COVA automatically improves the accuracy of lightweight models through their specialization"
+      }
+    ]
+  },
+  {
+    "id": "F0778",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we investigate how to adapt the features of PrLMs to new domains without fine-tuning"
+      },
+      {
+        "item": "modelos",
+        "texto": "pre-trained language models (PrLMs) (e.g., BERT)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "unsupervised domain adaptation (UDA)"
+      },
+      {
+        "item": "pratica",
+        "texto": "Experiments on two monolingual and multilingual Amazon review datasets"
+      }
+    ]
+  },
+  {
+    "id": "F0779",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review provides a history and analysis of GenAI with a focus on current use for code generation, testing, and more efficient usability/UX design"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "modelos",
+        "texto": "GenAI models like GANs and Transformer architecture"
+      }
+    ]
+  },
+  {
+    "id": "F0781",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we provide a review of existing studies focusing on-device ML models for IoT applications in terms of energy consumption"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "on-device ML models"
+      },
+      {
+        "item": "pratica",
+        "texto": "on-device Machine Learning (ML) models to provide intelligence for the Internet of Things (IoT) applications such as image classification, human activity recognition, and anomaly detection"
+      }
+    ]
+  },
+  {
+    "id": "F0782",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "systematic review of LCNN architectures is conducted, focusing on models applied to wheat-related image analysis across both field and storage scenarios"
+      },
+      {
+        "item": "tipo",
+        "texto": "systematic review"
+      },
+      {
+        "item": "modelos",
+        "texto": "Lightweight Convolutional Neural Networks (LCNNs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "classification performance, model compactness, computational efficiency, and compatibility with edge and embedded platforms"
+      }
+    ]
+  },
+  {
+    "id": "F0784",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This study introduces a framework that uses machine learning (ML) to predictably boost pipeline performance"
+      },
+      {
+        "item": "modelos",
+        "texto": "Support Vector Machine technique for pipeline failure prediction"
+      },
+      {
+        "item": "pratica",
+        "texto": "continuous integration and deployment (CI/CD) pipelines"
+      }
+    ]
+  },
+  {
+    "id": "F0785",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The goal of this study is to further explore the promising intersection of MDE with ML (MDE4ML) through a systematic literature review (SLR)"
+      },
+      {
+        "item": "tipo",
+        "texto": "systematic literature review"
+      },
+      {
+        "item": "pratica",
+        "texto": "modeling languages, model transformations, tool support"
+      }
+    ]
+  },
+  {
+    "id": "F0786",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0787",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper presents a state-of-the-art review of recent advancement in the field of Embedded implementation of driver fatigue detection"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "embedded system"
+      }
+    ]
+  },
+  {
+    "id": "F0788",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "We present a production system for grounded, PR-native review that pairs static-analysis findings with AST-guided context extraction and a single-GPU, on-demand serving stack"
+      },
+      {
+        "item": "modelos",
+        "texto": "quantized open-weight model"
+      },
+      {
+        "item": "tecnica",
+        "texto": "quantized"
+      },
+      {
+        "item": "pratica",
+        "texto": "single-GPU, on-demand serving stack (quantized open-weight model, multi-tier caching)"
+      }
+    ]
+  },
+  {
+    "id": "F0789",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "this paper provides a detailed survey of DAOD algorithms"
+      },
+      {
+        "item": "tipo",
+        "texto": "survey"
+      },
+      {
+        "item": "modelos",
+        "texto": "deep learning-based object detection"
+      },
+      {
+        "item": "tecnica",
+        "texto": "feature alignment, adversarial training, reconstruction-based methods, knowledge distillation"
+      }
+    ]
+  },
+  {
+    "id": "F0790",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we propose a multitask learning-based bidirectional iterated dilated convolution model, BCNN-CWS, for low-resource NER"
+      },
+      {
+        "item": "modelos",
+        "texto": "bidirectional iterated dilated convolution model"
+      },
+      {
+        "item": "tecnica",
+        "texto": "multitask learning"
+      },
+      {
+        "item": "pratica",
+        "texto": "Results of extensive experiments on public Chinese datasets demonstrate that BCNN-CWS achieves superior performance over state-of-the-art models"
+      }
+    ]
+  },
+  {
+    "id": "F0791",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This review explores the performance, suitability, and implications of various deep learning algorithms within the context of embedded healthcare systems"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "modelos",
+        "texto": "Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Transformer Networks"
+      }
+    ]
+  },
+  {
+    "id": "F0792",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we introduce a novel deep-learning architecture, named DISCOREV, which employs cross-task knowledge distillation"
+      },
+      {
+        "item": "tecnica",
+        "texto": "cross-task knowledge distillation"
+      },
+      {
+        "item": "pratica",
+        "texto": "code review tasks"
+      }
+    ]
+  },
+  {
+    "id": "F0793",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A review on embeddable industrial drive systems"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      }
+    ]
+  },
+  {
+    "id": "F0794",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper starts with a comprehensive review of vector quantization techniques"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Vector quantization"
+      },
+      {
+        "item": "pratica",
+        "texto": "recommender systems"
+      }
+    ]
+  },
+  {
+    "id": "F0795",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we propose a lightweight and universal FL framework, named federated deep-broad learning (FedDBL)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight"
+      },
+      {
+        "item": "pratica",
+        "texto": "FedDBL reduces the communication burden from 4.6 GB to only 138.4 KB per client using the ResNet-50 backbone at 50-round training"
+      }
+    ]
+  },
+  {
+    "id": "F0796",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "systematic literature review (SLR) examining lightweight Machine learning models such as MobileNet and TinyML, IoT-based dietary monitoring solutions"
+      },
+      {
+        "item": "tipo",
+        "texto": "systematic literature review"
+      },
+      {
+        "item": "modelos",
+        "texto": "lightweight Machine learning models such as MobileNet and TinyML"
+      },
+      {
+        "item": "tecnica",
+        "texto": "lightweight ML models"
+      }
+    ]
+  },
+  {
+    "id": "F0798",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we will quickly review few of the recent state-of-the-art developments in the area of LiDAR generated 3D point cloud data compression"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "tecnica",
+        "texto": "data compression"
+      }
+    ]
+  },
+  {
+    "id": "F0799",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "the present article proposes GEmFakeABSA: graph-embedded fake review detection using aspect-based sentiment analysis"
+      },
+      {
+        "item": "modelos",
+        "texto": "Graph Convolutional Network (GCN)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "aspect-based sentiment analysis (ABSA)"
+      },
+      {
+        "item": "pratica",
+        "texto": "Evaluated on 21,034 Amazon reviews across 30 product categories"
+      }
+    ]
+  },
+  {
+    "id": "F0800",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This thorough assessment examines the development and status of intelligent home automation systems"
+      },
+      {
+        "item": "tipo",
+        "texto": "review"
+      },
+      {
+        "item": "pratica",
+        "texto": "embedded devices and Internet of Things (IoT) technologies"
+      }
+    ]
+  }
+]

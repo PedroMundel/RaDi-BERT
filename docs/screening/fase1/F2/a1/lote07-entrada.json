@@ -1,0 +1,425 @@
+[
+ {
+  "id": "F0241",
+  "title": "Advancements in Embedded Systems and IoT for Automatic Heavy and Light Vehicle Parking: A Comprehensive Review",
+  "year": "2024",
+  "abstract": "This research paper comprehensively reviews automatic heavy and light vehicle parking systems, focusing on technological advancements in Embedded Systems and the Internet of Things (IoT). The escalating challenges in urban parking demand innovative solutions, and this paper assesses various literature surveys to explore the efficacy of these technologies in addressing the unique requirements of heavy and light vehicle parking. The investigation scrutinizes embedded systems as a foundational element, examining their hardware and software integrationto develop automated parking solutions. Additionally, the study explores the role of IoT in enhancing parking efficiency, leveraging sensors and communication technologies for real-time data acquisition and intelligent decision-making. Through an analysis of diverse literature surveys, this paper elucidates the strengths and limitations of different technological approaches, providing a comprehensive understanding of the state-of-the-art in automatic heavy and light vehicle parking. The synthesized insights are valuable for researchers, practitioners, and policymakers seeking to implement effective and scalable parking solutions in urban environments",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0242",
+  "title": "A Comprehensive Survey on Model Quantization for Deep Neural Networks",
+  "year": "2022",
+  "abstract": "Recent advancements in machine learning achieved by Deep Neural Networks (DNNs) have been significant. While demonstrating high accuracy, DNNs are associated with a huge number of parameters and computations, which leads to high memory usage and energy consumption. As a result, deploying DNNs on devices with constrained hardware resources poses significant challenges. To overcome this, various compression techniques have been widely employed to optimize DNN accelerators. A promising approach is quantization, in which the full-precision values are stored in low bit-width precision. Quantization not only reduces memory requirements but also replaces high-cost operations with low-cost ones. DNN quantization offers flexibility and efficiency in hardware design, making it a widely adopted technique in various methods. Since quantization has been extensively utilized in previous works, there is a need for an integrated report that provides an understanding, analysis, and comparison of different quantization approaches. Consequently, we present a comprehensive survey of quantization concepts and methods, with a focus on image classification. We describe clustering-based quantization methods and explore the use of a scale factor parameter for approximating full-precision values. Moreover, we thoroughly review the training of a quantized DNN, including the use of a straight-through estimator and quantization regularization. We explain the replacement of floating-point operations with low-cost bitwise operations in a quantized DNN and the sensitivity of different layers in quantization. Furthermore, we highlight the evaluation metrics for quantization methods and important benchmarks in the image classification task. We also present the accuracy of the state-of-the-art methods on CIFAR-10 and ImageNet.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0243",
+  "title": "Lightweight cryptographic algorithms based on different model architectures: A systematic review and futuristic applications",
+  "year": "2022",
+  "abstract": "Lightweight cryptography is a rapidly developing research field. Its main goal is to provide security for devices with fewer resources. These limited‐resource devices implement reliable ciphers that use very little power and computation. The lightweight cipher should be built for high performance while using the fewest resources possible, such as memory and power. In this article, we compare block ciphers and several other stream ciphers based on criteria such as input size, output size, structure employed, key size, number of rounds, vulnerable attacks, chip area, gate equivalent, memory use, throughput, and security features. Moreover, this article provides a detailed analysis comparing all cryptographic algorithms and their use in day‐to‐day life activities. This paper also discusses some lightweight ciphers, stream ciphers, and hybrid ciphers. Moreover, it shows the cryptanalysis of some block ciphers like DES.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0244",
+  "title": "Peer Review #2 of \"SC-JNMF: single-cell clustering integrating multiple quantification methods based on joint non-negative matrix factorization (v0.3)\"",
+  "year": "2021",
+  "abstract": "Single-cell RNA-sequencing is a rapidly evolving technology that enables us to understand biological processes at unprecedented resolution.Single-cell expression analysis requires a complex data processing pipeline, and the pipeline is divided into two main parts: The quantification part, which converts the sequence information into gene-cell matrix data; the analysis part, which analyzes the matrix data using statistics and/or machine learning techniques.In the analysis part, unsupervised cell clustering plays an important role in identifying cell types and discovering cell diversity and subpopulations.Identified cell clusters are also used for subsequent analysis, such as finding differentially expressed genes and inferring cell trajectories.However, single-cell clustering using gene expression profiles shows different results depending on the quantification methods.Clustering results are greatly affected by the quantification method used in the upstream process.In other words, even if the original RNA-sequence data is the same, gene expression profiles processed by different quantification methods will produce different clusters.In this article, we propose a robust and highly accurate clustering method based on joint non-negative matrix factorization (joint-NMF) by utilizing the information from multiple gene expression profiles quantified using different methods from the same RNA-sequence data.Our joint-NMF can extract common factors among multiple gene expression profiles by applying each NMF under the constraint that one of the factorized matrices is shared among multiple NMFs.The joint-NMF determines more robust and accurate cell clustering results by leveraging multiple quantification methods compared to conventional clustering methods, which use only a single gene expression profile.Additionally, we showed the usefulness of discovering marker genes with the extracted factors using our method.seq).This technology has reached a surprising level of resolution that reveals the regulation of gene 35 expression within cells.scRNA-seq measures gene expression on a cell-by-cell basis and allows the 36 analysis of the functions and properties of cells using this information.Many experimental protocols 37 and computational analyses exist for scRNA-seq, and they have different goals such as differential ex-38 pression analysis, cell clustering, cell classification, and trajectory reconstruction.Therefore, single-cell 39 analysis forms a pipeline (a series of procedures) that mainly consists of two parts, quantification of 40 gene expression and downstream analysis depends on the goals.In the quantification part of a pipeline, 41 gene expression levels measured for each cell (raw sequence data) are converted to a matrix called the 42 \"gene expression profile\".The quantification part also forms a pipeline including read quality control, 43 adaptor trimming, demultiplexing, deduplicating using barcodes, mapping to genome, counting transcripts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0245",
+  "title": "The Teacher-Student Relationship in the Use of Social Network Sites for Educational Purposes: A Systematic Review",
+  "year": "2021",
+  "abstract": "This paper aims at exploring the educational scholarly writing on the teacher-student relationship and performance within the use of Social Network Sites (SNSs) for educational purposes. To that end, a systematic review of 111 journal articles focused on young people, and found in ten relevant databases (ERIC, SCOPUS, WOS, JCR (SSCI), DOAJ, EBSCO, ISOC, REDIB, JSTOR, and PsycARTICLES), has been performed. The results show continuity in the roles of educators and students between physical and virtual spaces. This homogeneous conceptualisation is grounded on student-centred theories. Also, the existence of a theoretical confrontation between the figurative dichotomy of vertical (distance) and horizontal (closeness) teacher-student relationship is revealed and discussed. While most of the reviewed studies focused on requirements for technical training, the need for acquiring digital cultural knowledge is stressed. Finally, some of the educational implications of the ethical dimension of the teacher-student relationship in digital spaces are exposed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0246",
+  "title": "A Survey on Fingerprinting Technologies for Smartphones Based on Embedded Transducers",
+  "year": "2023",
+  "abstract": "Smartphones are a vital technology, they improve our social interactions, provide us a great deal of information, and bring forth the means to control various emerging technologies, like the numerous IoT devices that are controlled via smartphone apps. In this context, smartphone fingerprinting from sensor characteristics is a topic of high interest not only due to privacy implications or potential use in forensics investigations but also because of various applications in device authentication. In this work we review existing approaches for smartphone fingerprinting based on internal components, focusing mostly on camera sensors, microphones, loudspeakers, and accelerometers. Other sensors, i.e., gyroscopes and magnetometers, are also accounted, but they correspond to a smaller body of works. The output of these transducers, which convert one type of energy into another, e.g., mechanical into electrical, leaks through various channels such as mobile apps and cloud services, while there is little user awareness on the privacy risks. Needless to say, miniature physical imperfections from the manufacturing process make each such transducer unique. One of the main intentions of our study is to rank these sensors according to the accuracy they provide in identifying smartphones and to give a clear overview on the amount of research that each of these components triggered so far. We review the features which can be extracted from each type of data and the classification algorithms that have been used. Last but not least, we also point out publicly available data sets which can serve for future investigations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0247",
+  "title": "Green AI for Sustainable Transportation Infrastructure: A Systematic Review of Energy-Efficient Deep Learning in Railway, Highway, and Smart Mobility Systems (2020–2026)",
+  "year": "2026",
+  "abstract": "The present systematic review set out to reassess whether claims of energy-efficient deep learning in transportation infrastructure are supported by direct sustainability evidence. Deep learning models run in transportation systems on edge devices with a limited energy budget, and the literature labels them “green” or “energy-efficient”; the share of studies that support the label with measurement had not been quantified. Following PRISMA 2020, the Scopus, IEEE Xplore, and Web of Science databases were searched for the period from January 2020 to June 2026. Included were 721 studies applying Green AI techniques: pruning, quantization, knowledge distillation, lightweight architectures, TinyML, and dedicated accelerators. The review covers the transport domains of roads and ADAS, railway, connected and autonomous vehicles, and sensor networks. Studies were classified by the strongest efficiency evidence they report: a direct sustainability metric (energy, power, power efficiency, battery life, CO2) or computational proxies. A direct metric is reported by 58 studies (8.0%); the share is a lower-bound estimate. Full-text verification of a stratified random sample of 34 Tier 2 studies found one study with a direct metric not stated in its abstract (2.9%); the sample-adjusted estimate of the share is 10.7% (95% confidence interval 8.5 to 21.8%). The evidence levels differ: 48 studies (6.7% of the corpus) report power or energy measured on the target hardware, two derive battery life from a measured energy budget, seven report modelled or simulated values, and one a macro-level CO2 estimate. Railway contributes three studies. The largest measured reduction in energy per inference is 1961.8-fold (0.005 J on an FPGA against 9.77 J on a 95 W CPU); the largest modelled factor in the corpus is approximately 2400-fold (a memristor accelerator against an embedded GPU). Measured and modelled values are distinguished throughout the text. The studies that measure show that rigorous reporting is feasible; from the evidence presented follows the recommendation that an efficiency claim in transportation AI be supported by a direct metric measured or explicitly modelled on a named target platform.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0248",
+  "title": "A Comprehensive Review on EdgeIntelligence: Architectures and Frameworks",
+  "year": "2025",
+  "abstract": "Edge computing has emerged as a transformative paradigm addressing the growing need for processing data closer to its source. With the exponential increase in EC devices and latency-sensitive applications, edge computing aims to reduce latency, improve bandwidth efficiency, and enable real-time decision-making. Unlike traditional cloud computing, which relies heavily on centralized data centers, edge computing leverages a decentralized architecture that distributes computational tasks to edge devices and local servers. This review explores the current edge computing architectures and frameworks, focusing on their design, deployment models, and suitability for various applications.Furthermore, this paper examines how edge computing integrates with complementary technologies such as artificial intelligence, 5G, and EC to form robust ecosystems capable of addressing diverse industry needs. Special attention is given to security and privacy considerations in edge architectures, as well as resource management techniques for optimizing performance. By analyzing state-of-the-art frameworks, including federated edge solutions and container-based deployments, this paper aims to identify their strengths, limitations, and potential research directions for further innovation in edge computing systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0249",
+  "title": "Review for \"The Audiomaze : An EEG and motion capture study of human spatial navigation in sparse augmented reality\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0250",
+  "title": "A Review of TinyML for Human Activity Recognition on Edge Devices",
+  "year": "2026",
+  "abstract": "The integration of Tiny Machine Learning (TinyML) into human activity recognition (HAR) represents a paradigm shift in artificial intelligence, enabling real-time, efficient, and privacy-preserving analysis on resource-constrained edge devices. This paper presents a comprehensive review of TinyML for HAR, covering foundational concepts, methodologies, and applications. the review examines the state of the art of existing works and approaches that combine TinyML and HAR, providing a detailed review and comparison of models, algorithms, and frameworks. This comparison sheds light on the effectiveness and limitations of different methodologies. Key contributions include a systematic taxonomy of HAR systems leveraging TinyML, a detailed analysis of optimization techniques like pruning, quantization, and knowledge distillation, and insights into state-of-the-art frameworks and datasets. Challenges such as scalability, energy efficiency, and generalization to diverse environments are critically examined, alongside solutions like federated learning, multimodal data fusion, the integration of generative AI, neuromorphic hardware, 5G/6G and Internet Of Things (IoT) connectivity, which are highlighted as transformative enablers for advancing HAR applications. This review serves as a foundational resource for researchers and practitioners aiming to harness TinyML’s potential in activity recognition systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0251",
+  "title": "Intelligent Control Methods for Wheel-Slip Regulation in Automotive Braking Systems: A Systematic Review and Real-Time Embedded Feasibility Analysis",
+  "year": "2026",
+  "abstract": "This paper presents a systematic literature review of intelligent and advanced control methods for automotive wheel-slip regulation in anti-lock braking systems (ABS). Following a PRISMA-based workflow, records from IEEE Xplore, Scopus, and Engineering Village were searched for the 2014–2025 period. The search returned 5034 records; after removal of duplicates, patents, and out-of-range items, 1803 records were screened, 406 reports were assessed at full-text level, and 60 studies met the final eligibility criteria. The included studies were classified using a six-class taxonomy: fuzzy and neuro-fuzzy control, adaptive and self-tuning control, robust nonlinear control, predictive and optimization-based control, learning-assisted control, and hybrid or integrated control. The review shows that robust nonlinear and hybrid/integrated methods dominate the evidence base, while fuzzy and predictive methods remain important recurring families. Validation is still strongly simulation-weighted: many studies report braking-performance gains in slip tracking, stopping distance, chattering reduction, or road-friction robustness, but comparatively few provide hardware-in-the-loop, laboratory, or processor-level evidence. Only a very limited subset reports concrete embedded metrics such as execution time, sampling-period compliance, memory usage, or deadline margin. By combining systematic study selection, braking-specific control equations, primary-method classification, validation coding, embedded-implementation assessment, and comparative-scope analysis, this review identifies a persistent gap between algorithmic ABS performance and deployable real-time embedded feasibility. The findings motivate standardized benchmarking of intelligent braking controllers under common wheel-slip scenarios, common plant models, and common embedded timing metrics.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0252",
+  "title": "Leveraging AI and Automation in Research Project Planning and Execution: A Systematic Literature Review",
+  "year": "2025",
+  "abstract": "Artificial intelligence (AI) and automation have transformed research project management by enhancing predictive accuracy, decision-making, and resource allocation. This systematic literature review explores the application of AI-driven models and automation tools in improving research project planning and execution. Machine learning (ML) models, including Random Forest, Support Vector Machines (SVM), Artificial Neural Networks (ANN), and XGBoost, have demonstrated improved cost estimation, scheduling, and risk assessment. Deep learning models such as Convolutional Neural Networks (CNN) and Recurrent Neural Networks (RNN) have enabled dynamic scheduling and real-time decision-making. Hybrid AI models, combining decision trees, genetic algorithms, fuzzy logic, and Bayesian networks, have enhanced flexibility and risk mitigation. Automation tools like Slack AI, Microsoft Power Automate, Tableau AI, and Apache Airflow have streamlined task scheduling, compliance tracking, and progress monitoring, reducing administrative workload and improving project execution efficiency. Despite these advancements, challenges such as algorithmic bias, lack of transparency, and limited accessibility for smaller institutions remain significant barriers to AI adoption. The paper identifies gaps in AI applications in areas such as stakeholder management, communication, and procurement. Future research should focus on enhancing AI model interpretability, improving scalability across industries, and developing structured AI frameworks capable of integrating real-world data for continuous improvement in project management.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0253",
+  "title": "Deep Learning and Optimization Approaches in Resource allocation via Sparsity-Aware Orthogonal Initialization of Deep Neural Networks in free space optical communications: A Review",
+  "year": "2023",
+  "abstract": "Deep learning and optimization techniques have emerged as transformative solutions for addressing complex resource allocation challenges in free-space optical (FSO) communication systems. FSO communication offers high data rates and low latency; however, its performance is significantly affected by atmospheric turbulence, channel fading, and dynamic environmental conditions. Traditional optimization approaches often rely on precise system models, which are difficult to obtain in real-world deployments. To overcome these limitations, recent research has focused on model-free deep learning frameworks that can learn optimal resource allocation policies directly from data. For instance, primal–dual deep learning methods have been shown to efficiently handle stochastic optimization problems related to power allocation and relay selection without requiring explicit channel models. In parallel, the development of sparsity-aware neural architectures has gained attention to address computational and energy constraints in communication systems. Sparsity-Aware Orthogonal Initialization (SAOI) introduces structured sparsity into neural networks while preserving dynamical isometry, enabling efficient training of very deep models with reduced computational overhead. This is particularly relevant for FSO systems where real-time processing and energy efficiency are critical. By integrating sparsity-aware initialization with deep learning-based optimization strategies, it is possible to design scalable and robust resource allocation frameworks. Furthermore, deep learning techniques such as convolutional neural networks (CNNs), graph neural networks (GNNs), and reinforcement learning have been successfully applied to optimize channel estimation, adaptive modulation, and resource management in optical communication networks. These approaches enable intelligent decision-making under uncertainty and improve system reliability in the presence of turbulence and noise. \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0254",
+  "title": "GNSS-Free Outdoor Localization Techniques for Resource-Constrained IoT Architectures: A Literature Review",
+  "year": "2021",
+  "abstract": "Large-scale deployments of the Internet of Things (IoT) are adopted for performance improvement and cost reduction in several application domains. The four main IoT application domains covered throughout this article are smart cities, smart transportation, smart healthcare, and smart manufacturing. To increase IoT applicability, data generated by the IoT devices need to be time-stamped and spatially contextualized. LPWANs have become an attractive solution for outdoor localization and received significant attention from the research community due to low-power, low-cost, and long-range communication. In addition, its signals can be used for communication and localization simultaneously. There are different proposed localization methods to obtain the IoT relative location. Each category of these proposed methods has pros and cons that make them useful for specific IoT systems. Nevertheless, there are some limitations in proposed localization methods that need to be eliminated to meet the IoT ecosystem needs completely. This has motivated this work and provided the following contributions: (1) definition of the main requirements and limitations of outdoor localization techniques for the IoT ecosystem, (2) description of the most relevant GNSS-free outdoor localization methods with a focus on LPWAN technologies, (3) survey the most relevant methods used within the IoT ecosystem for improving GNSS-free localization accuracy, and (4) discussion covering the open challenges and future directions within the field. Some of the important open issues that have different requirements in different IoT systems include energy consumption, security and privacy, accuracy, and scalability. This paper provides an overview of research works that have been published between 2018 to July 2021 and made available through the Google Scholar database.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0255",
+  "title": "The Future of Chatbots: Survey on Generative Pretrained Models, Ernie, and Gemini",
+  "year": "2024",
+  "abstract": "The evolution of chatbots from rule-based, retrieval-based, contextual systems, to hybrid and generative AIpowered models. It aimsto solve complex natural language processing and task-specific challenges. The finding explores innovative self-attention mechanisms in the Generative Pretrained Transformer (GPT). The GPT model training and fine-tuning methods include discriminative fine-tuning, zeroshot and few-shot learning, parallel processing, and reinforcement learning with human feedback. Revolutionary multimodal AI models like GPT-4 (Open-AI), Ernie (Baidu), and Gemini (Google). The study discovers the advantages and limitations of chatbots.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0256",
+  "title": "A survey on consensus methods in blockchain for resource-constrained IoT networks",
+  "year": "2020",
+  "abstract": "The success of blockchain as the underlying technology for cryptocurrencies has opened up possibilities for its use\nin other application domains as well. The main advantages of blockchain for its potential use in other areas are its\ninherent security mechanisms and immunity to data manipulation attacks. A blockchain relies on a consensus method\nfor agreeing on any new data. Most of the consensus methods which are currently used for the blockchain of different\ncryptocurrencies require high computational power and thus are not suitable for resource-constrained systems. In this article, we survey the various blockchain-based consensus methods that are applicable to resource-constrained\nIoT devices and networks. In a typical IoT network, there exist several devices with limited computational and communication capabilities. Most often, these devices cannot perform intensive computations and are starved for bandwidth.\nTherefore, we discuss the possible measures that can be taken to reduce the computational power and convergence time\nfor the underlying consensus methods. We also talk about some of the alternatives to the public blockchain, such as\nprivate blockchain and tangle, along with their potential adoption for IoT networks. Furthermore, we review the existing\nconsensus methods that have been implemented and explore the possibility of utilizing them to realize a blockchainbased IoT network. Some of the open research challenges including AI-enabled blockchains are also put forward.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0257",
+  "title": "Analyzing the impact of features embedded in customers’ reviews of refurbished mobile phones on customer satisfaction",
+  "year": "2025",
+  "abstract": "Tremendous amount of online reviews are posted every day on different online platforms which act as a valuable data reservoir for understanding customer satisfaction and analyzing customer's purchase intentions. Success largely depends on the retention of customers, which again depends on customer satisfaction (CS) levels, so understanding customer satisfaction is fundamental for the success of refurbishing products. Thus, this paper seeks to identify the features associated with customer satisfaction of refurbished mobiles by analyzing the online reviews collected from Amazon.com through ANN based prediction model. Later it was substituted with other classifiers namely Random Forest (RF), XG Boost (XGB), K-Nearest Neighbors (KNN) and Decision tree (DT) to assess the accuracy of our Refurbished Mobile Customer Satisfaction (RMCS) prediction model. As a result of analyzing 400,000 reviews on refurbished mobiles, it was found that ANN outperformed other classifiers in predicting RMCS.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0258",
+  "title": "Beyond Translation: Evaluating Mathematical Reasoning Capabilities of LLMs in Sinhala and Tamil",
+  "year": "2026",
+  "abstract": "Large language models (LLMs) have achieved strong results in mathematical reasoning, and are increasingly deployed as tutoring and learning support tools in educational settings. However, their reliability for students working in non-English languages, especially low-resource languages, remains poorly understood. We examine this gap by evaluating mathematical reasoning in Sinhala and Tamil -- two languages widely used in South Asian schools but underrepresented in artificial intelligence (AI) research. Using a taxonomy of six math problem types, from basic arithmetic to complex unit conflict and optimization problems, we evaluate four prominent large language models. To avoid translation artifacts that confound language ability with translation quality, we construct a parallel dataset in which each problem is independently authored in Sinhala and Tamil by native speakers, and in English by fluent speakers, all with strong mathematical backgrounds. Our analysis demonstrates that while basic arithmetic reasoning transfers robustly across languages, complex reasoning tasks show significant degradation in Tamil and Sinhala. The pattern of failures varies by model and problem type, suggesting that strong performance in English does not guarantee reliable performance across languages. These findings have direct implications for the deployment of AI tools in multilingual classrooms, and highlight the need for language-specific evaluation before adopting large language models as math tutoring aids in non-English educational contexts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0259",
+  "title": "Knowledge Distillation on Graphs: A Survey",
+  "year": "2023",
+  "abstract": "Graph Neural Networks (GNNs) have received significant attention for demonstrating their capability to handle graph data. However, they are difficult to be deployed in resource-limited devices because of model sizes and scalability constraints imposed by the multi-hop data dependency. In addition, real-world graphs usually possess complex structural information and features. Therefore, to improve the applicability of GNNs and fully encode the complicated topological information, Knowledge Distillation on Graphs (KDG) has been introduced to build a smaller but effective model, leading to model compression and performance improvement. Recently, KDG has achieved considerable progress, with many studies proposed. In this survey, we systematically review these works. Specifically, we first introduce the challenges and bases of KDG, then categorize and summarize the existing work of KDG by answering the following three questions: (1) what to distillate, (2) who to whom, and (3) how to distillate. We offer in-depth comparisons and elucidate the strengths and weaknesses of each design. Finally, we share our thoughts on future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0260",
+  "title": "Review evolution of dual-resource-constrained scheduling problems in manufacturing systems: modeling and scheduling methods’ trends",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0261",
+  "title": "Learning from Few Samples: A Survey",
+  "year": "2020",
+  "abstract": "Deep neural networks have been able to outperform humans in some cases like image recognition and image classification. However, with the emergence of various novel categories, the ability to continuously widen the learning capability of such networks from limited samples, still remains a challenge. Techniques like Meta-Learning and/or few-shot learning showed promising results, where they can learn or generalize to a novel category/task based on prior knowledge. In this paper, we perform a study of the existing few-shot meta-learning techniques in the computer vision domain based on their method and evaluation metrics. We provide a taxonomy for the techniques and categorize them as data-augmentation, embedding, optimization and semantics based learning for few-shot, one-shot and zero-shot settings. We then describe the seminal work done in each category and discuss their approach towards solving the predicament of learning from few samples. Lastly we provide a comparison of these techniques on the commonly used benchmark datasets: Omniglot, and MiniImagenet, along with a discussion towards the future direction of improving the performance of these techniques towards the final goal of outperforming humans.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0262",
+  "title": "Recommender Systems Based on Nonnegative Matrix Factorization: A Survey",
+  "year": "2025",
+  "abstract": "Recommender systems (RSs) have gained significant attention for their ability to model user preferences and predict future trends. Collaborative filtering (CF), particularly through nonnegative matrix factorization (NMF), is a popular method for building these systems. This article presents a comprehensive survey of NMF-based methods in RSs, exploring enhancements that leverage key features such as sparsity, implicit feedback, and contextual information. We categorize developments into two main directions: pure NMF variants (including constrained, structured, and generalized NMF) and integrated NMF (INMF) approaches (combining NMF with traditional and deep learning models). Our survey provides researchers and practitioners with a structured overview of the field’s progress, identifies current challenges, and highlights promising directions for future research in NMF-based RSs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0263",
+  "title": "Review of LoRa WAN and its Application",
+  "year": "2020",
+  "abstract": "Today entire world is surrounded by wireless signals. IoT applications along with wireless sensors can create useful smart city applications. The conventional wireless options like mobile signals and data transmission & application specific wireless protocol are playing important role in IoT applications. Wireless technology helps us for Smart home automation, Industry Automation, Automobile automation, specific appliance, and equipment automation. In smart city application which analyzes data, monitor data as well as manage data of urban area, for effective communication proper wireless protocol is basic requirement. At present Bluetooth, ZigBee, Z wave, NFC, RFID, Wi-Fi, LoRaWAN and many more application specific wireless protocol are available in the market. The review latest wireless technology for IoT i.e. LoRaWAN an application specific wireless protocol is proposed in this paper along with",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0264",
+  "title": "Survey and Comparative Study of LoRa-Enabled Simulators for Internet of Things and Wireless Sensor Networks",
+  "year": "2022",
+  "abstract": "The Internet of Things (IoT) is one of the most important emerging technologies, spanning a myriad of possible applications, especially with the increasing number and variety of connected devices. Several network simulation tools have been developed with widely varying focuses and used in many research fields. Thus, it is critical to simulate the work of such systems and applications before actual deployment. This paper explores the landscape of available IoT and wireless sensor networks (WSNs) simulators and compares their performance using the Low Power Wide Area Network (LPWAN) communication technology called LoRa (Long Range), which has recently gained a lot of interest. Using a systematic approach, we present a chronological survey of available IoT and WSNs simulation tools. With this, we categorized and content-analyzed published scientific papers in the IoT and WSNs simulation tools research domain by highlighting the simulation tools, study type, scope of study and performance measures of the studies. Next, we present an overview of LoRa/LoRaWAN technology by considering its architecture, transmission parameters, device classes and available simulation tools. Furthermore, we discussed three popular open-source simulation tools/frameworks, namely, NS-3, OMNeT++ (FLoRa) and LoRaSim, for the simulation of LoRa/LoRaWAN networks. Finally, we evaluate their performance in terms of Packet Delivery Ratio (PDR), CPU utilization, memory usage, execution time and the number of collisions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0265",
+  "title": "A Comprehensive Review of Multi- Layer Convolutional Sparse Coding in Semantic Segmentation",
+  "year": "2024",
+  "abstract": "This research study investigates the advancements and performance of Convolutional Sparse Coding (CSC) strategies in semantic segmentation, with a particular focus on the Multi-Layer Convolutional Sparse Coding (ML-CSC) model. The ML-CSC framework integrates traditional U-Net architectures with multi-layer CSC blocks, addressing the limitations of conventional convolutional methods. This paper analyzes how the ML-CSC model enhances semantic and appearance information, promoting faster convergence and improved segmentation accuracy. This review highlights the model's performance across various datasets, including DeepCrack, Nuclei, and CamVid, achieving higher mean Intersection over Union (mIoU) scores compared to traditional U-Net models. The findings underscore the significance of the ML-CSC model in improving feature extraction and segmentation accuracy, marking a substantial advancement in the field. This analysis not only contributes to the understanding of ML-CSC's impact on semantic segmentation but also offers insights into future enhancements and relevant application areas, including medical imaging, urban planning, and autonomous driving.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0266",
+  "title": "Overview For Those Who May Not Have A Degree In Embedded Programming",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0267",
+  "title": "The Role of Artificial Intelligence in Boosting Cybersecurity and Trusted Embedded Systems Performance: A Systematic Review on Current and Future Trends",
+  "year": "2025",
+  "abstract": "As technology becomes increasingly interconnected, ensuring the security of cyber and embedded systems is critical due to escalating vulnerabilities and sophisticated cyber threats. Researchers are exploring artificial intelligence (AI) to improve security mechanisms, yet there is a lack of a comprehensive technical, AI-focused analysis detailing the integration of AI into existing security hardware and frameworks. To address this gap, this article systematically reviews 63 articles on AI in cybersecurity and trusted embedded systems. The reviewed articles are categorized into four application domains: 1) Intrusion Detection and Prevention (IDPS), 2) Malware Detection, 3) Industrial Control and Cyber-Physical Systems (CPS) and 4) Distributed Denial-of-Service (DDoS) Detection and Prevention. We investigated current trends in integrating AI into security domains by summarizing the hardware used, the AI methodologies adopted, and the statistical distribution by publication year and region. The key findings of our review indicate that AI significantly enhances security measures by enabling capabilities such as detection, classification, feature selection, data privacy preservation, model combination, data generation, output interpretation, optimization, and adaptation. In addition, the benefits and challenges identified in these studies provide insight into the future potential of AI integration in security. Suggested directions for future work include improving generalization and scalability, exploring continuous or real-time monitoring, and improving AI model performance. This analysis serves as a foundation for advancing AI applications in the effective securing of cyber and embedded systems effectively.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0268",
+  "title": "PhD Thesis: Exploring the role of (self-)attention in cognitive and computer vision architecture",
+  "year": "2023",
+  "abstract": "We investigate the role of attention and memory in complex reasoning tasks. We analyze Transformer-based self-attention as a model and extend it with memory. By studying a synthetic visual reasoning test, we refine the taxonomy of reasoning tasks. Incorporating self-attention with ResNet50, we enhance feature maps using feature-based and spatial attention, achieving efficient solving of challenging visual reasoning tasks. Our findings contribute to understanding the attentional needs of SVRT tasks. Additionally, we propose GAMR, a cognitive architecture combining attention and memory, inspired by active vision theory. GAMR outperforms other architectures in sample efficiency, robustness, and compositionality, and shows zero-shot generalization on new reasoning tasks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0269",
+  "title": "Application of Artificial Neural Network in Distillation System: A Critical Review of Recent Progress",
+  "year": "2021",
+  "abstract": "Distillation is a unit operation with multiple input parameters and multiple output parameters. It is characterized by multiple variables, coupling between input parameters, and non-linear relationship with output parameters. Therefore, it is very difficult to use traditional methods to control and optimize the distillation column. Artificial Neural Network (ANN) uses the interconnection between a large number of neurons to establish the functional relationship between input and output, thereby achieving the approximation of any non-linear mapping. ANN is used for the control and optimization of distillation tower, with short response time, good dynamic performance, strong robustness, and strong ability to adapt to changes in the control environment. This article will mainly introduce the research progress of ANN and its application in the modeling, control and optimization of distillation towers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0270",
+  "title": "A Survey on Sparse Learning Models for Feature Selection",
+  "year": "2020",
+  "abstract": "Feature selection is important in both machine learning and pattern recognition. Successfully selecting informative features can significantly increase learning accuracy and improve result comprehensibility. Various methods have been proposed to identify informative features from high-dimensional data by removing redundant and irrelevant features to improve classification accuracy. In this article, we systematically survey existing sparse learning models for feature selection from the perspectives of individual sparse feature selection and group sparse feature selection, and analyze the differences and connections among various sparse learning models. Promising research directions and topics on sparse learning models are analyzed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0271",
+  "title": "Recent Advances in Attention-Based Sparse Graph Convolutional Neural Network -Based Forecast Model for Career Planning in Human Resource Management: A Systematic Review",
+  "year": "2024",
+  "abstract": "The integration of advanced artificial intelligence techniques into Human Resource Management (HRM) has significantly transformed traditional career planning methodologies. Among these advancements, attention-based sparse Graph Convolutional Neural Networks (GCNNs) have emerged as a powerful paradigm for modeling complex relationships within organizational data. This paper presents a systematic review of recent advances in attention-based sparse GCNN-based forecast models specifically designed for career planning applications. The study explores how attention mechanisms enhance interpretability and selective feature importance, while sparsity constraints improve computational efficiency and scalability in large-scale HR datasets. The review synthesizes findings from recent research to highlight key methodological developments, including hybrid architectures, dynamic graph learning, and optimization strategies. Furthermore, the paper examines the role of these models in predicting employee career trajectories, skill evolution, and organizational mobility patterns. Challenges such as data heterogeneity, privacy concerns, and model generalization are critically analyzed. The study also identifies emerging trends, including the integration of explainable AI and reinforcement learning within graph-based HR analytics frameworks. By providing a comprehensive overview, this paper aims to guide researchers and practitioners in leveraging attention-based sparse GCNN models for intelligent and data-driven career planning systems, ultimately contributing to improved workforce management and strategic decision-making in modern organizations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0272",
+  "title": "A review on 3D Gaussian splatting for sparse view reconstruction",
+  "year": "2025",
+  "abstract": "Sparse view 3D reconstruction remains challenging due to inherent data scale limitations. Mainstream sparse view 3D reconstruction algorithms based on the NeRF framework struggle to balance generation quality and real-time performance. Recently, the advent of 3D Gaussian Splatting technology has demonstrated remarkable results, becoming increasingly prominent in 3D scene representation and reconstruction. Exploring the application of 3D Gaussian Splatting technology for sparse view 3D reconstruction represents a promising research avenue. Based on this, our paper provides a comprehensive review of current sparse view 3D reconstruction methods leveraging 3D Gaussian Splatting, with an emphasis on extracting effective reconstruction information from input images and utilizing these data to generate realistic scenes efficiently and reliably. We then provide a detailed discussion on how the algorithm addresses issues such as artifacts and scale ambiguous, which are common challenges in this field. In the subsequent sections, we present both quantitative and qualitative comparisons of various sparse-view 3D reconstruction methods, roughly demonstrating the advantages of sparse view 3D Gaussian splatting methods in terms of reconstruction quality and efficiency. Furthermore, we analyze the potential applications of sparse view 3D Gaussian splatting methods. Finally, we identify the challenges faced by sparse-view 3D Gaussian splatting reconstruction and suggest potential solutions. We hope that our analysis will provide valuable insights for future research efforts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0273",
+  "title": "The Latest in Natural Language Generation: Trends, Tools and Applications in Industry",
+  "year": "2023",
+  "abstract": "Natural Language Generation (NLG) has experienced rapid progress in recent years with advancements in artificial intelligence contributing to its evolution. In this paper, we present a comprehensive review of the latest trends, models, tools, and applications of NLG across various industries. We discuss the increasing use of deep learning algorithms and neural networks, the development of multilingual NLG models, and the integration of NLG with other artificial intelligence (AI) technologies such as natural language understanding (NLU) and machine translation (MT). Furthermore, we examine the different pre-trained language models available, including autoregressive models, masked language models, encoder-decoder models, and hybrid models, along with their evaluation and improvement. We also explore the applications of NLG in business intelligence, customer service, healthcare, education, and multimodal language models, highlighting the potential of NLG in communication and decision-making, as well as its significant implications for cybersecurity. This paper aims to provide a thorough understanding of the current state of NLG and its potential to revolutionize various industries in the digital era.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0274",
+  "title": "A Review of Embedded Intelligence and IoT-Enabled Energy Saving Strategies for Shared Refrigerators",
+  "year": "2026",
+  "abstract": "Refrigeration appliances are continuous-load devices and remain an important contributor to building and household electricity consumption. In shared-use scenarios such as campuses, dormitories, and apartments, the operating conditions of refrigerators become highly dynamic due to irregular user access, fluctuating thermal loads, and intermittent door-opening events. This review examines recent progress in embedded sensing, Internet of Things communication, edge-cloud collaboration, and intelligent control for energy-efficient refrigeration systems, with particular emphasis on shared refrigerators. The literature shows a clear transition from fixed thermostatic control to multi-sensor, behavior-aware, and AI-assisted strategies. Wi-Fi, BLE, and LoRa provide different trade-offs in throughput, latency, power consumption, and deployment scale, while edge-assisted architectures improve robustness and reduce communication delay. On the control side, fuzzy logic, artificial neural networks, reinforcement learning, and demand-based defrosting have reported energy savings ranging from a few percent in domestic refrigerators to more than 20% in intelligent supervisory settings, depending on system configuration and operating assumptions. A campus shared refrigerator system is further condensed as a representative case to illustrate the implementation pathway from perception to decision and actuation. Finally, limitations and future directions are discussed, including lightweight edge learning, multi-device collaborative control, user-in-the-loop energy feedback, and digital-twin-assisted optimization.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0275",
+  "title": "Embedded System Design Student’s Learning Readiness Instruments: Systematic Literature Review",
+  "year": "2022",
+  "abstract": "To evaluate and measure the effects of student’s preparation before studying an embedded system design course, a systematic literature analysis was conducted, spanning publications from 1992 to 2020. Furthermore, evaluating such effects may help to close the gap between academically taught abilities and industry-required skills. The goal of the review was to gather and evaluate all reputable and effective studies that have looked into students’ learning preparation issues and solutions in embedded system design courses. Nonetheless, the purpose of this work was to extract and discuss the key features and methodologies from the selected research publications in order to present researchers and practitioners with a clear set of recommendations and solutions. The findings revealed that no instrument has been developed yet to assess students’ readiness to take up an embedded system design course. Furthermore, the majority of the instruments offered lacked concept clarity.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0276",
+  "title": "Denoising precedes enrichment: aspect-sentiment-aware graph contrastive distillation network for review-based recommendation",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0277",
+  "title": "A comprehensive review of lightweight blockchain practices for smart cities: a security and efficacy assessment",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0278",
+  "title": "Investigation on Efficient Deep Learning Framework for Spinal Deformities: A Review Approach",
+  "year": "2022",
+  "abstract": ".",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0279",
+  "title": "A Scoping Review Protocol for Supply Chain Management Systems for Point of Care Diagnostics Services: Optimising COVID-19 Testing Capacity in Resource-limited Settings",
+  "year": "2021",
+  "abstract": "\n BackgroundRapid and specific diagnostic tests are essential for severe acute respiratory syndrome coronavirus type 2 (SARS-CoV-2) testing to allow prompt isolation and early treatment initiation if necessary. Currently, reverse transcription polymerase chain reaction (RT-PCR) tests are the gold standard for SARS-CoV-2 testing but are difficult to implement in resource-limited settings with poor access to laboratory infrastructure. Point of care (POC) testing may be more feasible in resource-limited settings because POC testing is cost-effective, easy to perform, results are rapid, and they can be performed at all levels of healthcare by health professionals with minimal training. To ensure equitable access, it is important that SARS-CoV-2 testing is optimised through well-established supply chain management (SCM). Here we outline a protocol for a scoping review aimed at mapping literature on SCM for POC testing in resource limited settings to guide both future research and the implementation of SARS-CoV-2 POC diagnostics. MethodologyThis scoping review will be guided by an adapted version of the Arksey and O’Malley methodological framework. We will search the Medline Ovid, Medline EBSCO, Scopus, PubMed, PsychInfo, Web of Science and EBSCOHost databases. We will search gray literature in the form of dissertations/theses, conference proceedings, websites of international organisations such as the World Health Organisation and government reports. We will include articles reporting evidence published since inception. Language restrictions will not be applied. We will use a search summary table to test the effectiveness of the search strategy. Two reviewers will screen eligible studies using a tool developed for this scoping review. The quality of the included studies will be appraised using the mixed method appraisal tool (MMAT) version 2018. Discussion The proposed scoping review will gather relevant studies on SCM systems for POC diagnostics services globally. We anticipate that this review’s findings will guide future research on SCM systems for POC diagnostics services in resource-limited settings. The results will be published in a scientific journal, presented at relevant conferences and form part of workshops with key stakeholders involved in SCM systems for POC diagnostics services.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0280",
+  "title": "Recommendation systems techniques based on generative models and matrix factorization: a survey",
+  "year": "2024",
+  "abstract": "Collaborative filtering (CF) is a technique that can filter out items that a user might like based on the behaviors and preferences of similar users. It is a key en-abler technique for an effective recommendation system (RS). Model-based recommendation systems, a subset of CF, use data, typically ratings, to construct models for providing personalized suggestions to users. Our objective in this work is to provide a comprehensive overview of various techniques employed in Model-based RS, focusing on their theoretical foundations and practical applications. We explore the core challenges associated with recommendation, including the top-N recommendation problem, and explore the state-of-the-art model-based methods used to address these challenges. In this survey, we categorize these techniques into three distinct classes: matrix factorization, similarity-based, and completion-based methods. To compare their performance, we evaluated these techniques over the MovieLens datasets using two metrics: Mean Average Precision (MAP), Normalized Discounted Cumulative Gain (NDCG), precision and recall.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

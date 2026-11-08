@@ -1,0 +1,32 @@
+{"id": "15", "titulo": "Distilling the Knowledge in a Neural Network", "ano": 2015,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "Abstract; 1 Introduction; 2 Distillation; 2.1 Matching logits is a special case of distillation; 3 Preliminary experiments on MNIST; 4 Experiments on speech recognition; 4.1 Results; 5 Training ensembles of specialists on very big datasets (5.1-5.5); 6 Soft Targets as Regularizers; 6.1; 7 Relationship to Mixtures of Experts; 8 Discussion", "paginas": "1-9 (texto completo, todas as 9 páginas)"},
+ "resumo": "O paper propõe transferir o conhecimento de um modelo grande (ou de um ensemble) para um modelo pequeno treinando o pequeno para reproduzir as probabilidades de saída suavizadas do grande, em vez de apenas os rótulos corretos. A suavização é obtida elevando a temperatura do softmax, o que expõe as probabilidades relativas das classes erradas e carrega informação sobre como o modelo grande generaliza. Os autores provam que, no limite de temperatura alta, essa destilação equivale a igualar os logits do modelo grande e do pequeno, generalizando a técnica anterior de Caruana et al. (2006). Os experimentos em MNIST e num modelo acústico de produção do Google mostram que o modelo destilado recupera a maior parte do ganho de um ensemble muito maior. O paper introduz ainda modelos especialistas treinados em subconjuntos confusos de classes como forma barata de escalar ensembles em datasets enormes. É o trabalho que cunhou o termo e o mecanismo de destilação de conhecimento por soft targets, servindo de base para quase toda a linha de destilação posterior.",
+ "perguntas": {
+  "P1": {"r": "não", "por": "não é um survey nem propõe taxonomia da área; apresenta um único método (destilação) e uma comparação pontual com mixtures of experts (seção 7)."},
+  "P2": {"r": "sim", "por": "explica o mecanismo via a fórmula do softmax com temperatura (seção 2, eq. 1) e demonstra formalmente por que destilar com logits é caso especial de destilação (seção 2.1, eqs. 2-4)."},
+  "P3": {"r": "parcial", "por": "situa o trabalho como extensão do método de Caruana et al. 2006 (seção 1, p. 1-2), mas não narra uma história ampla da linha de destilação além desse antecedente imediato."},
+  "P6": {"r": "sim", "por": "é o trabalho fundador que cunhou o termo \"distillation\" e a formulação de soft targets com temperatura de softmax; abre a linha de destilação de conhecimento por probabilidades suavizadas (todo o artigo)."},
+  "P4a": {"r": "parcial", "por": "reporta hiperparâmetros e resultados reprodutíveis (temperatura, peso da perda, arquiteturas testadas em MNIST e no ASR, seções 3-4), mas não fornece código, ferramenta ou benchmark padronizado."},
+  "P4b": {"r": "sim", "por": "o artigo inteiro é a proposta original de destilação de conhecimento."},
+  "V": {"r": "sim", "por": "define e nomeia os termos centrais da divisão (seção 2 e 5.2): distillation, soft targets, temperature, cumbersome model, transfer set, logits, specialist models, dustbin class."},
+  "A": {"r": "não", "por": "trata de MNIST e de um modelo acústico DNN feedforward de 2015 (seção 3-4), anterior ao Transformer e aos LLMs; não discute a era atual."},
+  "R": {"r": "não", "por": "o paper é de 2015, dois anos antes do Transformer; usa redes feedforward (MLP) e DNNs acústicas, sem discutir encoder/decoder ou transformer x CNN/RNN."}
+ },
+ "termos_chave": ["distillation", "soft targets", "softmax temperature", "cumbersome model", "transfer set", "logits", "specialist models", "dustbin class"],
+ "pre_requisitos": ["rede neural feedforward (MLP)", "função softmax e cross-entropy", "backpropagation / gradiente descendente", "overfitting e regularização (dropout)", "ensemble de modelos", "KL-divergence (para a seção de especialistas)"],
+ "nivel": "introdutório",
+ "nivel_por": "texto curto (9 páginas), prova matemática simples e autocontida (seção 2.1), poucos pré-requisitos além de redes neurais básicas; é o ponto de entrada natural antes de surveys mais densos sobre destilação.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "abstract e introdução (p. 1-2) para a motivação e a ideia central; seção 2 e 2.1 (p. 2-3) para o mecanismo de destilação com temperatura e a prova de que matching de logits é caso especial; seção 8 Discussion (p. 8) para o resumo dos resultados. Seções 3-6 (p. 3-8, experimentos em MNIST, fala e specialists) são leitura opcional para quem quer evidência empírica.",
+ "acrescimo": "é o trabalho que originou a formulação de destilação por soft targets com temperatura de softmax que as outras obras de destilação da lista aplicam ou revisam; nenhuma outra obra da lista introduz esse mecanismo, e o mecanismo de specialist models via clustering da matriz de covariância (seção 5) não reaparece em nenhuma outra obra da lista.",
+ "sobreposicao": ["Model compression", "Knowledge Distillation: A Survey", "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter"],
+ "bloco_atual": "B fundadores",
+ "bloco_sugerido": "B fundadores",
+ "veredito": "manter",
+ "veredito_por": "é o fundador canônico da divisão destilação, citado por praticamente todo trabalho subsequente de destilação de conhecimento; cumpre exatamente o papel do bloco B.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+  {"texto": "The relative probabilities of incorrect answers tell us a lot about how the cumbersome model tends to generalize.", "pagina": "2"},
+  {"texto": "matching logits of the cumbersome model is actually a special case of distillation", "pagina": "2"}
+ ]}

@@ -1,0 +1,539 @@
+﻿[
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This survey offers a thorough review of the latest advancements in diffusion model quantization"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "model quantization has emerged as a pivotal technique for both compression and acceleration"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "U-Net architectures and Diffusion Transformers (DiT)"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "The list of related papers, corresponding codes, pre-trained models and comparison results are publicly available at the survey project homepage https://github.com/TaylorJocelyn/Diffusion-Model-Quantization."
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0001"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "In this paper, we review various end-to-end automatic speech recognition algorithms and their optimization techniques for on-device applications"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "speech recognition systems based on Connectionist Temporal Classification (CTC), Recurrent Neural Network Transducer (RNN-T), Attention-based Encoder-Decoder models (AED), Monotonic Chunk-wise Attention (MoChA), transformer-based speech recognition systems"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "These fully neural network-based systems require much smaller memory footprints compared to conventional algorithms"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0002"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This literature review focuses on various techniques for reducing resource requirements and compressing large language models"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "quantization, pruning, knowledge distillation, and architectural optimizations"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0003"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0004"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0005"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0007"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "the technological challenges and trends in the latest AI accelerators are reviewed"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "low-power hardware accelerators are essential for feasible implementation"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0008"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "combining Federated Learning (FL) and the Internet of Things (IoT) symbolizes a revolutionary trend in edge-based intelligence"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "FL offers an exclusive decentralized feature for machine learning wherein the data resides on IoT devices"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0009"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "Our focus is on the individual devices present at different levels of the smart healthcare infrastructure and the QoS requirements of the healthcare system as a whole"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "edge computing and artificial intelligence (AI) can deal with such problems"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0010"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "The control of street lights in the city can be controlled as a whole in one place with the help of and also it is assisted by artificial intelligence for its automation"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "The technology measures the quality of the air and tests for purity"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0011"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "Structural Health Monitoring (SHM) is increasingly embraced thanks to advancements in the Internet of Things (IoT) and Artificial Intelligence (AI) being combined and infused"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "Through case studies, the practical applications of SHM are illustrated, emphasizing its effectiveness in real-world scenarios"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0013"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0015"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "In this survey, we provide a comprehensive review of deep TD models"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "deep neural networks (DNNs)"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "Deep TD techniques can be mainly divided into two categories: linear and nonlinear deep TD"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0016"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0017"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "we introduce CultureSynth, a novel framework comprising (1) a comprehensive hierarchical multilingual cultural taxonomy"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Cultural competence, defined as the ability to understand and adapt to multicultural contexts, is increasingly vital for large language models (LLMs)"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "large language models (LLMs)"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0018"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "In this paper, we investigate the works that KD applies to FEL"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Knowledge Distillation (KD) has been leveraged as an important technique to tackle the above challenges in FEL"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0019"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review systematically analyzes ECG classification research published between 2017 and 2024"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "The classification of electrocardiogram (ECG) signals is essential for early arrhythmia detection"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "hardware constraints crucial for deployment in pacemakers, Holter monitors, and wearable ECG patches"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0020"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper provides a comprehensive overview of pruning as a model compression strategy"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Model compression techniques aim to reduce model size and computational cost without significantly compromising accuracy"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "pruning has emerged as one of the most effective methods"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0021"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This survey presents a comprehensive overview of deepfake audio generation and detection techniques"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Deepfake audio generation systems are creating extremely realistic human voices"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "CNN-based and transformer-based"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "commonly used datasets and evaluation metrics like accuracy, AUROC and EER"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0022"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "An overview of the significant turning points and patterns that have influenced the development of NLP is given in this study"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Natural Language Processing (NLP) has evolved dramatically, moving from early rule based systems to the current era dominated by advanced deep learning models"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Transformer and other models"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0023"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "optimized recommendation system is developed for analyzing customer reviews"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Customer reviews and ratings are more helpful to the new customer to purchase the product"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "batch normalized capsule networks (NCN)"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0024"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review presents an architecture-centered synthesis of face mask detection systems"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Automated face mask detection remains an important component of hygiene compliance, occupational safety, and public health monitoring"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "MobileNet family, and hybrid frameworks"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "model compression, and the extension of mask detection toward broader Personal Protective Equipment (PPE) compliance monitoring"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0025"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This study presents a comprehensive survey of methods and architectures for automatic cervical cancer detection"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "deep learning (DL) techniques have emerged as powerful tools for automating cervical cancer detection and segmentation from medical images"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "convolutional neural networks (CNNs), segmentation models such as U-Net and nnU-Net"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "deep learning models achieve high classification accuracy (above 95%) and segmentation performance (Dice scores up to 0.90)"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0026"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "the application of UAV in urban planning and construction is mainly manifested in urban planning survey, urban illegal building supervision and environmental monitoring"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "embedded technology can be managed by multiple users, you can run multiple processes program"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0028"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper first introduces the recognition methods of face recognition"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "reducing the computing and storage overhead of deep neural networks is a very important and challenging problem in the field of face recognition"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "lightweight neural networks"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0029"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "a comprehensive review can provide researchers and practitioners with valuable insights into the current state and future research scopes of agentic AI"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Agentic AI is gaining new insights and advancements in the field of Artificial Intelligence"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0030"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper reviews research from 2020 to 2025 on lightweight object detection"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "object detection becomes vital in sectors such as agriculture, industry, and healthcare"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "efficient architecture and model compression techniques"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0031"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This survey examines contemporary research trends in skin lesion analysis"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Early identification of malignant and pre-malignant skin lesions plays a decisive role in improving patient survival and treatment effectiveness"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Vision Transformers, few-shot learning paradigms, and efficiency-oriented system designs"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0032"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper provides a survey of the trending resource-efficient and secure techniques currently used with distributed estimation algorithms"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "resource-efficient distributed state estimation"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "protocol-based scheduling, static event-triggered scheduling, dynamic event-triggered scheduling and stochastic event-triggered scheduling"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0033"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0034"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0035"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper reviews recent advances AI-driven lane and obstacle detection methods"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Autonomous driving and Advanced Driver Assistance Systems (ADAS) rely heavily on accurate lane detection, vehicle recognition, and obstacle avoidance"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "convolutional neural networks (CNNs), attention-based architectures, and YOLO-based frameworks"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "deploying computationally intensive models on automotive-grade processors remains a key challenge"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0036"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper provides a comprehensive review of lightweight human pose estimation methods"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "The integration of human pose estimation in mobile and embedded systems has been limited by computational constraints"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0038"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "To bridge this gap, we aim to provide a comprehensive survey of DeviceRSs"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "there has been a shift of focus from CloudRSs to on-device recommender systems (DeviceRSs)"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "deployment and inference of DeviceRSs, exploring how large recommendation models can be compressed"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0039"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review synthesizes recent developments in air quality prediction using embedded Machine Learning (ML) and Deep Learning (DL) models with emphasis on 8 bit quantization"
+                       },
+                       {
+                           "item":  "objeto",
+                           "texto":  "Air pollution is a major global environmental and health concern, necessitating accurate and timely forecasting of pollutant levels"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "CNN BiGRU model"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "multi task learning frameworks, spatial temporal modeling over multiple pollutants, and transformer based approaches"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0040"
+    }
+]

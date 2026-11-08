@@ -1,0 +1,179 @@
+[
+  {
+    "id": "F0241",
+    "decisao": "claramente fora",
+    "motivo": "Sistemas embarcados para automação de estacionamento; não é sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0242",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0243",
+    "decisao": "claramente fora",
+    "motivo": "Criptografia leve; não é sobre modelos de ML"
+  },
+  {
+    "id": "F0244",
+    "decisao": "claramente fora",
+    "motivo": "Bioinformática (single-cell RNA-seq clustering); não é sobre eficiência de modelos de ML para implantação"
+  },
+  {
+    "id": "F0245",
+    "decisao": "claramente fora",
+    "motivo": "Educação e redes sociais; não é sobre ML ou IA"
+  },
+  {
+    "id": "F0246",
+    "decisao": "claramente fora",
+    "motivo": "Fingerprinting de smartphones; infraestrutura de sensores, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0247",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0248",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0249",
+    "decisao": "sem acesso"
+  },
+  {
+    "id": "F0250",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0251",
+    "decisao": "claramente fora",
+    "motivo": "Métodos de controle para sistemas de frenagem automotiva; não é sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0252",
+    "decisao": "claramente fora",
+    "motivo": "IA para gestão de projetos; não é sobre eficiência de modelos de ML para implantação"
+  },
+  {
+    "id": "F0253",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0254",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0255",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0256",
+    "decisao": "claramente fora",
+    "motivo": "Blockchain para IoT; não é sobre modelos de ML"
+  },
+  {
+    "id": "F0257",
+    "decisao": "claramente fora",
+    "motivo": "Análise de satisfação de clientes com ML; aplicação de ML, não sobre eficiência de modelos"
+  },
+  {
+    "id": "F0258",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0259",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0260",
+    "decisao": "sem acesso"
+  },
+  {
+    "id": "F0261",
+    "decisao": "claramente fora",
+    "motivo": "Técnicas de meta-learning e few-shot; não trata de eficiência ou implantação de modelos"
+  },
+  {
+    "id": "F0262",
+    "decisao": "claramente fora",
+    "motivo": "Sistemas de recomendação com fatoração de matriz; não é sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0263",
+    "decisao": "claramente fora",
+    "motivo": "Tecnologia LoRaWAN; não é sobre modelos de ML"
+  },
+  {
+    "id": "F0264",
+    "decisao": "claramente fora",
+    "motivo": "Simuladores LoRa para IoT; não é sobre modelos de ML"
+  },
+  {
+    "id": "F0265",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0266",
+    "decisao": "sem acesso"
+  },
+  {
+    "id": "F0267",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0268",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0269",
+    "decisao": "claramente fora",
+    "motivo": "Redes neurais aplicadas a destilação química (engenharia); não é sobre knowledge distillation em ML"
+  },
+  {
+    "id": "F0270",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0271",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0272",
+    "decisao": "claramente fora",
+    "motivo": "3D Gaussian splatting para reconstrução; é computação gráfica, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0273",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0274",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0275",
+    "decisao": "claramente fora",
+    "motivo": "Educação em sistemas embarcados; não é sobre modelos de ML"
+  },
+  {
+    "id": "F0276",
+    "decisao": "sem acesso"
+  },
+  {
+    "id": "F0277",
+    "decisao": "sem acesso"
+  },
+  {
+    "id": "F0278",
+    "decisao": "passa"
+  },
+  {
+    "id": "F0279",
+    "decisao": "claramente fora",
+    "motivo": "Gestão de supply chain para diagnósticos; não é sobre modelos de ML"
+  },
+  {
+    "id": "F0280",
+    "decisao": "passa"
+  }
+]

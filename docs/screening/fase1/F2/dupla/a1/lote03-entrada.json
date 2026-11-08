@@ -1,0 +1,325 @@
+[
+ {
+  "id": "F0678",
+  "title": "Lightweight and Real-Time Deep Learning Models for Fetal Head Segmentation: A Review of Techniques and Applications",
+  "year": "2025",
+  "abstract": "Accurate fetal biometric parameters, such as head circumference, biparietal diameter, and occipitofrontal diameter of the head are important for prenatal diagnosis and growth tracking. Manually measuring them from ultrasound or magnetic resonance imaging is time consuming and depends too much on the operator. This has led to the use of artificial intelligence and deep learning for automation. Recently, convolutional neural networks, encoder decoder architectures, and hybrid attention mechanisms have greatly increased segmentation accuracy and speed. This survey reviews recent advances from 2021 to 2025 in automatic fetal head and brain segmentation and biometric estimation. Different imaging methods and problem formulations are covered, including real time light weight models, advanced U net and Atrous pooling variants, multi-task methods for standard plane identification, Spatio temporal models for videos and volumes, and classical shape constrained postprocessing. This study also summarizes dataset features, evaluation metrics, and benchmark results, highlighting the lack of a standard ultrasound dataset as a key limitation. Major problems discussed include acoustic artifacts, motion induced distortion, lack of data, and variation across scanners and populations. Promising research directions include self-supervised learning, uncertainty, adaptation across domains, and whole examination AI systems tested through prospective clinical trials. Overall, it is found that deep learning based fetal biometry systems are nearing clinical use. Future work will need to focus on making them more robust, explainable, and able to be integrated into obstetric imaging workflows.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0663",
+  "title": "Water Monitoring System Embedded with Internet of Things (IoT) Device: A Review",
+  "year": "2020",
+  "abstract": "Urbanisation and population growth lead to increased water demand and might affect the water sources. Hence, it is important to manage it effectively. This paper reviews the use of Internet of Things (IoT) device in monitoring water system to conserve and manage the precious resources. The IoT technology is most synonymous with the latest wireless system for data acquisition for real-time monitoring surveillances. The real-time monitoring process involves large distribution of monitoring sensor and network such as computing, wireless sensor network and cloud computing. Traditionally, water quantity and quality reading has been labour intensive and subsequently an expensive process. By application of IoT, human involvement shall be minimized and most procedural decisions in a normal process will be made by algorithms. Developing user-friendly IoT tools will be an excellent contender in real time water monitoring solutions and lead to efficient management.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0720",
+  "title": "Resource-efficient cyber-physical systems design: A survey",
+  "year": "2020",
+  "abstract": "Abstract Many Cyber-Physical Systems (CPSs) in industrial applications are embedded control systems. With the increasing scale and complexity of such system, the resource efficiency in the system design has become an important issue. The resources of CPSs mainly include: computation resource, communication resource and memory resource. The CPSs combine computation, communication and instruction/data storage closely, and realize the combination and coordination of computing resources and physical resources. This paper classifies the existing mainstream research results from three aspect: computation resource, communication resource and memory resource, reviews the research hotspots of each research field, and discusses the urgent problems related to computation resource, communication resource and memory resource in CPSs, as well as the possible research directions in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0688",
+  "title": "Clinical Implementation of Predictive Models Embedded within Electronic Health Record Systems: A Systematic Review",
+  "year": "2020",
+  "abstract": "Predictive analytics using electronic health record (EHR) data have rapidly advanced over the last decade. While model performance metrics have improved considerably, best practices for implementing predictive models into clinical settings for point-of-care risk stratification are still evolving. Here, we conducted a systematic review of articles describing predictive models integrated into EHR systems and implemented in clinical practice. We conducted an exhaustive database search and extracted data encompassing multiple facets of implementation. We assessed study quality and level of evidence. We obtained an initial 3393 articles for screening, from which a final set of 44 articles was included for data extraction and analysis. The most common clinical domains of implemented predictive models were related to thrombotic disorders/anticoagulation (25%) and sepsis (16%). The majority of studies were conducted in inpatient academic settings. Implementation challenges included alert fatigue, lack of training, and increased work burden on the care team. Of 32 studies that reported effects on clinical outcomes, 22 (69%) demonstrated improvement after model implementation. Overall, EHR-based predictive models offer promising results for improving clinical outcomes, although several gaps in the literature remain, and most study designs were observational. Future studies using randomized controlled trials may help improve the generalizability of findings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0719",
+  "title": "Energy Efficient Implementation of CNNs Using Pruning: Techniques and Insights",
+  "year": "2025",
+  "abstract": "The incredible performance of Convolutional Neural Networks (CNNs) is typically credited to their expansive underlying frameworks, which entail substantial environmental and computational costs and thereby limit their deployment on embedded devices. As deep learning models are increasingly integrated into our everyday lives, minimizing their energy consumption becomes extremely critical. Pruning, a popular model compression technique, has thus gained interest due to its ability to effectively reduce storage and computational costs. However, research focusing on the energy efficiency of such implementations has been limited. In this paper, we review recent pruning techniques that target energy efficiency of convolutional neural networks. We categorize these techniques into various groups, including structured/unstructured, specialized hardware/general-purpose hardware, datasets, energy efficiency metrics, iterative/one-shot, and more. Through this survey, we aim to raise awareness of the topic and promote the design and deployment of sustainable CNN models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0687",
+  "title": "Design Trade-offs and Technology Scaling in CMOS DAC Architectures",
+  "year": "2026",
+  "abstract": "DACs, or digital-to-analog converters, are crucial devices that connect digital systems to the physical world. A variety of resistor-based DACs are examined in this review, such as R-2R ladder designs, binary-weighted networks (such as W2W current-mirror versions), and DACs that employ digital calibration in R-2R structures. The emphasis is on how well they perform at high resolution or speed, how much space they require, how complex they are, and how well they function in terms of linearity (measured as INL and DNL). We also examine how these DACs function in various CMOS technologies (such as 45 nm, 90 nm, and 180 nm) to observe how performance and power consumption are impacted by technology shrinkage. Since they only require two types of resistors and have a constant output resistance, R-2R ladders are simple to scale. However, unless they are calibrated, they may have linearity issues because of mismatches. [1], [5], [7] Binary-weighted DACs are fast and simple to scale, but as the number of bits increases, they require more power and space and require numerous components. By using matched MOSFET pairs, W-2W current-mirror designs minimize the number of sections, assist in matching, and minimize power and area. Digitally calibrated R-2R DACs allow for very good linearity without requiring extremely precise components by adding small, adjustable parts that help correct for mismatches. DACs usually need less space, utilize less power, and have better linearity for the same design as technology shrinks from 180 nm to 45 nm. For instance, power consumption decreases by about 30%, and the linearity error of a 4-bit DAC decreases from approximately 2.0 LSB in 180 nm to approximately 1.0 LSB in 45 nm. [1], [4] In conclusion, R-2R and binary DACs sacrifice linearity and space for quick and easy conversions. Accuracy and space efficiency can be enhanced by W-2W designs and calibration methodologies. Large DACs, even smaller technology sizes, and more sophisticated on-chip calibration techniques could all be explored in further research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0728",
+  "title": "The Role of Artificial Intelligence in Enhancing Maternal and Child Health Through Digital Health Initiatives in Resource-Limited Settings: A Narrative Review",
+  "year": "2026",
+  "abstract": "Maternal and child healthcare remains a key global health challenge in low-resource settings. Insufficient training of healthcare workers and the unavailability of skilled medical personnel have led to high maternal and neonatal mortality and pregnancy-related complications. Addressing these challenges is critical for improving healthcare outcomes in these regions. Artificial intelligence (AI) applications have demonstrated significant potential for improving maternal and child health by enabling personalized care and supporting data-driven clinical decision-making. These technologies offer practical solutions for overcoming systemic barriers. The integration of AI into health systems enables predictive analytics, telemedicine, and automated diagnostics. Projects such as interoperable AI language modules and solar-powered mobile health units have effectively enhanced maternal and child health services. Countries including the United States, India, Kenya, Uganda, and the Philippines have implemented AI models to deliver focused care for pregnant women and neonates. However, challenges such as poor infrastructure, limited acceptability, lack of medical expertise, and data confidentiality concerns remain. Enhancing healthcare professionals’ training, conducting trials of AI models, and embedding AI into existing healthcare systems can substantially reduce these limitations. With ongoing development, AI is poised to shape the future of maternal and child healthcare and address most implementation barriers. This review includes studies published between January 2010 and November 2024, with the final database search conducted on November 20, 2024.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0759",
+  "title": "A Review on Event-Augmented, Audio-Visual Distillation for MicroLip-Reading with Tiny Transformers",
+  "year": "2026",
+  "abstract": "Micro-lip-reading is an emerging research area that aims to recognize speech by observing subtle and fast lip movements. It has significant potential in applications such as assistive technologies for hearing-impaired individuals, silent communication in noisy environments, touch-free human-computer interaction, and real-time processing on wearable or mobile devices. Traditional RGB video often struggles to capture these micromovements due to motion blur, low frame rates, and sensitivity to lighting. Event cameras, which record brightness changes asynchronously with microsecond resolution, provide complementary motion information and enable more precise tracking of lip dynamics. Recent advances in tiny transformer architectures allow for efficient modeling of temporal and spatial patterns across audio, RGB, and event modalities, while knowledge distillation techniques help transfer information from large models to smaller, edge-friendly models without sacrificing performance. This review presents an overview of event-based and audiovisual fusion approaches, benchmark datasets, evaluation metrics, and practical deployment strategies. It also discusses current challenges, including data scarcity, lighting sensitivity, and crossmodal fusion complexity. Overall, combining event-based vision, audio-visual integration, and lightweight transformers provides a powerful framework for accurate, low-latency micro-lip-reading suitable for real-world, resource-constrained scenarios.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0753",
+  "title": "Review of Deep Learning and Explainable AI Approaches for Skin Cancer Detection in Embedded Biomedical Systems",
+  "year": "2025",
+  "abstract": "The large number of skin cancer cases need early detection with accuracy to reduce mortality rate. Towards this different Artificial Intelligence (AI) models can be used to detect and predict with accuracy. This research investigates recent developments in Deep Learning (DL) and Explainable Artificial Intelligence (XAI) for skin cancer diagnosis striking a balance between model accuracy and clinical interpretability. Well known DL models like ResNet50, DenseNet121, InceptionV3, EfficientNetB0, and hybrid architectures including HRNet-XGB are studied and compared. In order to create a reliable, interpretable AI system for early skin cancer diagnosis, this research suggests future paths including multimodal data integration, clinician-in-the-loop evaluation, and mobile-compatible deployments. A hybrid approach using Explainable AI (XAI) is proposed to derive more accurate diagnosis based on the models trained, thereby helping in early detection of skin cancer.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0731",
+  "title": "A review of augmented reality in embedded systems for smart farming: innovations, applications and future directions",
+  "year": "2025",
+  "abstract": "The integration of augmented reality (AR) into embedded agricultural systems is reshaping precision farming by enabling real-time visualizations and interactions with complex environmental data. In the face of mounting global pressures, from climate variability to resource constraints and food system demands, AR-enhanced platforms present a promising pathway toward more efficient farming practices. However, existing research has predominantly treated AR as a standalone tool, overlooking its potential to link and enable the functional integration of diverse embedded technologies. Therefore, the objective of the present review is to investigate how AR visualization can integrate data from Internet of Things devices, unmanned aerial vehicles, farming machinery, robotics, edge computing platforms and artificial intelligence (AI) to enable their coordinated, field-level deployment in precision agriculture. The article offers three primary contributions: a structured synthesis of AR applications across embedded systems, a conceptual architecture for AR-centered smart farming and an integrated analysis of research gaps and future directions. Key research gaps include the lack of studies addressing model interpretability and system interoperability, insufficient exploration of real-time edge AI processing and gesture-based AR controls, and the absence of globally representative data sets for AI image analysis. Future research directions include the development of low-latency data pipelines, explainable AI interfaces, swarm-capable Drone-AR systems, energy-efficient edge AI models, federated learning for data privacy and participatory design strategies tailored for resource-limited contexts. These findings offer valuable insights for researchers, technology developers, policymakers and farmers working to implement scalable, secure and accessible AR-powered agricultural solutions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0769",
+  "title": "Lightweight Skin Lesion Segmentation for Edge Deployment: A Critical Review of Architectures, Accuracy Compensation, and Clinical Translation",
+  "year": "2026",
+  "abstract": "Automated skin lesion segmentation via deep learning has achieved remarkable accuracy in controlled laboratory settings, yet its clinical translation to point-of-care (PoC) edge devices remains fundamentally constrained by the computational demands of state-of-the-art architectures. This review systematically bridges the gap between algorithmic innovation and hardware-aware deployment by presenting a critical analysis spanning three interconnected dimensions: 1) architectural evolution from convolutional neural networks (CNNs) through Vision Transformers to emerging linear-complexity State Space Models (e.g., Mamba), evaluated against a unified efficiency–accuracy Pareto framework rather than isolated accuracy rankings; 2) mathematical formalisation of lightweighting-induced precision degradation and its compensation via knowledge distillation, structural reparameterisation, and frequency-domain enhancement, with explicit assessment of evidence quality and reproducibility across studies; and 3) empirical deployment profiling across heterogeneous edge platforms including NVIDIA Jetson, Intel OpenVINO, and mobile processors. Through a multi-dimensional evaluation framework integrating spatial overlap (Dice), boundary fidelity (HD95), and on-device throughput (FPS), supplemented by a meta-analysis of dataset usage biases and validation protocol inconsistencies, we establish that heterogeneous multi-paradigm fusion architectures can preserve clinical-grade segmentation quality under severe resource constraints—provided that evaluation methodologies are standardised. Critically, our quantitative analysis of 36 reviewed studies reveals that approximately 65% of reported performance figures are derived from non-standardised data splits, rendering direct cross-study comparisons statistically unreliable. We further identify critical open challenges—including cross-domain generalisation, hardware–algorithm co-design, demographic fairness, and edge-native federated learning—and delineate actionable research trajectories toward democratising expert-level dermatological AI diagnostics in resource-limited healthcare environments worldwide.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0784",
+  "title": "Enhancing Software Deployment Pipelines with the Application of ML Techniques",
+  "year": "2025",
+  "abstract": "Continuous integration and deployment (CI/CD) pipelines, which are infamous for their slowness, frequent failures, and protracted build times, are a crucial part of the modern software development process. This study introduces a framework that uses machine learning (ML) to predictably boost pipeline performance. A Support Vector Machine technique for pipeline failure prediction will be developed as part of this effort. The method will also optimize resource allocation to decrease build times and provide dynamic framework for continuous development of CI/CD pipelines. This study assumes a comprehensive review of the literature and introduces a new approach based on the support vector machine (SVM) technology. The results demonstrate that the framework optimizes memory utilization and CPU, reduces build time by 33% and declines test success and failure rates by 60%. It also dramatically lowers resource consumption. The results showed that current DevOps approaches are able to tackle long-standing issues with CI/CD since they are intelligently scalable. This study laid the framework for future work in software engineering workflows including adaptive systems by introducing the idea of ML to the CI/CD process with the goal of improving pipeline efficacy and reliability.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0797",
+  "title": "A Review of Pruning and Harvesting Manipulators",
+  "year": "2021",
+  "abstract": "The increase of the world population and a decrease in agricultural labour availability have motivated research robotics in the agricultural field. This paper aims to analyze the state of the art related to manipulators used in the agricultural robotics field. Two pruning and seven harvesting manipulators were reviewed and are analyzed. The pruning manipulators were used in two different scenarios: (i) grapevines and (ii) apple trees. These manipulators showed that a light-controlled environment could reduce visual errors and that prismatic joints on the manipulator are advantageous to obtain a higher reach. The harvesting manipulators were used for 5 different products: (i) strawberries, (ii) tomatoes, (iii) apples, (iv) sweet-peppers and (v) iceberg lettuce. The harvesting manipulators showed that a different kinematic configuration is required for different end-effectors, as some end-effectors only require horizontal movements and others require more degrees of freedom to reach and grasp the target. This work will support new developments of novel solutions related to agricultural robotic grasping and manipulation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0766",
+  "title": "Review for \"Neural network identification of water pipe blockage from smart embedded passive acoustic measurements\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0824",
+  "title": "Serverless Architecture and Its Impact on Scalable Web Services",
+  "year": "2026",
+  "abstract": "In the rapidly evolving landscape of modern cloud computing, serverless computing is transforming the cloud architecture by allowing developer to develop and run applications excluding handling physical infrastructure. Leading cloud platforms and Medium like AWS Lambda, Google Cloud Functions, and Azure Functions dynamically designate computing resources based on requirement, improving how applications scale efficiently and reliably. This research examined how serverless architecture impact the scalability, cost effectiveness and elasticity of web services, with particular emphasis on real-world deployment scenarios across diverse industries and use cases. It also sites key hurdles such as dependency on particular vendors, delay in responding, and data security concerns, all of which represent significant barriers to widespread adoption. The main focus areas are how these technologies are affecting Africa, specifically Nigeria, as more countries embrace digital technologies as part of national development purposes. To address these dimensions comprehensively, the study employs a structured and systematic review methodology. By evaluating an in-dept examination and recent findings drawn from peer-reviewed literature and industry case studies, key patterns and insights emerge. This document includes that serverless computing provides effective solution for scalable web services, both globally and withing emerging market, positioning it as a strategic enabler of digital transformation and broader economic growth in resource-constrained environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0834",
+  "title": "A Review on Home Security Embedded Systems Using IoT",
+  "year": "2021",
+  "abstract": "Internet of Things (IoT) is used to create the notion of remotely connecting and monitoring actual world objects (things) via the Internet.When it comes to our house, this idea can be aptly included to make it smarter, safer and automated.This IoT venture focuses on building a smart wireless home security machine which sends signals to the owner by the use of Internet in case of any trespass and raises an alarm optionally.Besides, the equal can also be utilized for home automation with the aid of making use of the equal set of sensors.The advantage obtained via preferring this system over the similar form of present structures is that the indicators and the repute despatched by means of the Wi-Fi connected microcontroller managed system can be acquired by using the consumer on his telephone from any distance irrespective of whether or not his mobile smartphone is related to the internet.IoT refers to the infrastructure of connected physical gadgets which is growing at a speedy charge as massive range of units and objects are getting associated to the Internet.Home security is a very beneficial software of IoT and we are the use of it to create an less expensive security gadget for properties as well as industrial use.The device will inform the proprietor about any unauthorized entry or each time the door is opened by sending a notification to the user.After the consumer gets the notification, he can take the vital actions.The security gadget will use a microcontroller recognised as Arduino Uno to interface between the components, a magnetic Reed sensor to monitor the status, a buzzer for sounding the alarm, and a WiFi module, ESP8266 to join and speak the usage of the Internet.The main benefits of such a gadget includes the ease of placing up, decrease charges and low maintenance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0805",
+  "title": "A review of lightweight convolutional neural networks for ultrasound signal classification",
+  "year": "2025",
+  "abstract": "Ultrasound signal processing plays an important role in medical image analysis. Embedded ultrasonography systems with low power consumption and high portability are suitable for disaster rescue, but due to the difficulty of ultrasonic signal recognition, operators need to have strong professional knowledge, and it is not easy to deploy ultrasonography systems in areas with relatively weak infrastructures. In recent years, with the continuous development in the field of deep learning and artificial intelligence, lightweight convolutional neural networks have brought new opportunities for ultrasound signal processing. This paper focuses on investigating lightweight convolutional neural networks applied to ultrasound signal classification. Combined with the characteristics of ultrasound signals, this paper provides a detailed review of lightweight algorithms from two perspectives: model compression and operational optimization. Among them, model compression deals with the overall framework to reduce network redundancy, and the latter aims at the lightweight design of the basic operational module “convolution” in the network. The experimental results of some classical models and algorithms on the ImageNet dataset are summarized. Through the comprehensive analysis, we present some problems and provide an outlook on the future development of lightweight techniques for ultrasound signal classification.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0808",
+  "title": "HydraInfer: Hybrid Disaggregated Scheduling for Multimodal Large Language Model Serving",
+  "year": "2025",
+  "abstract": "Multimodal Large Language Models (MLLMs) have been rapidly advancing, enabling cross-modal understanding and generation, and propelling artificial intelligence towards artificial general intelligence. However, existing MLLM inference systems are typically designed based on the architecture of language models, integrating image processing and language processing as a single scheduling unit. This design struggles to accommodate the heterogeneous demands of different stages in terms of computational resources, memory access patterns, and service-level objectives (SLOs), leading to low resource utilization and high request latency, ultimately failing to meet the service requirements of diverse inference scenarios. To address these challenges, we propose HydraInfer, an efficient MLLM inference system that adopts a Hybrid Encode-Prefill-Decode (EPD) Disaggregation architecture. By scheduling the three stages - encode, prefill, and decode - onto separate heterogeneous inference instances, the system flexibly reallocates resources across stages, significantly reducing idle computation, alleviating resource bottlenecks, and improving overall system throughput and scalability. In addition, HydraInfer supports a stage-level batching strategy that enhances load balancing, enables parallel execution of visual and language models, and further optimizes inference performance. Experiments under real multimodal inference workloads demonstrate that HydraInfer can achieve up to 4x higher inference throughput compared to state-of-the-art systems (e.g., vLLM) on a single-node 8xH800 GPU cluster, while meeting the 90th percentile request SLO.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0850",
+  "title": "Embedded Intelligence: State-of-the-Art and Research Challenges",
+  "year": "2022",
+  "abstract": "Recent years have seen deployments of increasingly complex artificial intelligent (AI) and machine learning techniques being implemented on cloud server architectures and embedded into edge computing devices for supporting Internet of Things (IoT) and mobile applications. It is important to note that these embedded intelligence (EI) deployments on edge devices and cloud servers have significant differences in terms of objectives, models, platforms and research challenges. This paper presents a comprehensive survey on EI from four aspects: (1) First, the state-of-the-art for EI using a set of evaluation criteria is proposed and reviewed; (2) Second, EI for both cloud server accelerators and low-complexity edge devices are discussed; (3) Third, the various techniques for EI are categorized and discussed from the system, algorithm, architecture and technology levels; and (4) The paper concludes with the lessons learned and the future prospects are discussed in terms of the key role EI is likely to play in emerging technologies and applications such as Industry 4.0. This paper aims to give useful insights and future prospects for the developments in this area of study and highlight the challenges for practical deployments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0857",
+  "title": "A systematic literature review of lightweight YOLO models for object detection",
+  "year": "2025",
+  "abstract": "\n Object detection is a core task in computer vision, and the You Only Look Once (YOLO) family remains a preferred choice for real-time applications. With increasing demand to deploy detectors on resource-constrained devices, many researchers have proposed lightweight YOLO variants. This systematic literature review synthesizes peer-reviewed studies on lightweight YOLO models published from 2016 to 2025. We performed reproducible searches in Scopus and Web of Science, screened records using Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA), and applied a 12-item quality assessment to select 103 peer-reviewed journal and conference articles for detailed analysis. We classify primary lightweighting strategies—pruning, quantization, knowledge distillation, and lightweight network architectures—and evaluate their trade-offs in accuracy, latency, model size, and energy use. We also examine application domains, dataset effects, common evaluation metrics, and deployment platforms (\n e.g\n ., Jetson, Raspberry Pi, microcontrollers, Field-Programmable Gate Arrays (FPGAs)), and highlight practical hardware–software considerations. Emerging directions such as hybrid convolutional neural network (CNN)-Transformer modules and hardware-aware Neural Architecture Search are discussed, and key open challenges are identified, including cross-scene generalization, robustness to dynamic environmental interference, and the need for standardized evaluation protocols and hardware-aware co-design. This review consolidates current knowledge and offers practical guidance for researchers and practitioners developing or deploying lightweight YOLO models on constrained hardware.\n",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0841",
+  "title": "Semantic and Structural Optimization of Resumes via LLMs for Improved ATS Matching",
+  "year": "2025",
+  "abstract": "This paper reviews a novel LLM-powered pipeline for generating resumes that are dynamically tailored to job descriptions and optimised for Applicant Tracking Systems (ATS). In today’s hiring landscape, most resumes are filtered before reaching a recruiter, primarily because of the rigid keyword-matching and formatting rules enforced by ATS algorithms. This presents a significant challenge for job seekers, especially those who cannot tailor their resumes for each application. Traditional resume tools often offer static templates or simple keyword suggestions, but generally fail to contextualise content and provide useful feedback. By combining structured parsing, semantic alignment, and iterative scoring, our system overcomes these limitations and generates highly customised, ATS-friendly resumes with minimal user effort. We demonstrate, through token-based and latent-space evaluations, that our optimised resumes nearly double their effectiveness compared to unmodified versions, improving alignment scores on average by 85%. This presents our approach as a valuable tool that enables job seekers to compete in increasingly competitive markets, while also representing a technological advancement.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0875",
+  "title": "Serving DNN Inference With Fine-Grained Spatio-Temporal Sharing of GPU Servers",
+  "year": "2024",
+  "abstract": "Deep Neural Networks (DNNs) are commonly deployed as online inference services. To meet interactive latency requirements of requests, DNN services require the use of Graphics Processing Unit (GPU) to improve their responsiveness. The unique characteristics of inference workloads pose new challenges to manage GPU resources. First, the GPU scheduler needs to carefully manage requests to meet their latency targets. Second, a single inference task often underutilizes GPU resources. Third, the fluctuating patterns of inference workloads pose difficulties in determining the resources allocated to each DNN model. Therefore, it is critical for the GPU scheduler to maximize GPU utilization by collocating multiple DNN models without violating the latency Service-Level Objectives (SLOs) of requests. However, we find that existing works are not adequate for achieving this goal among latency-sensitive inference tasks. Hence, we propose FineST, a scheduling framework for serving DNNs with fine-grained spatio-temporal sharing of GPU inference servers. To maximize GPU utilization, FineST allocates intra-GPU computing resources from both spatial and temporal dimensions across DNNs in a cost-effective way, while predicting interference overheads under diverse consolidated executions for controlling SLO violation rates. Compared to a state-of-the-art work, FineST improves the peak throughput of serving heterogeneous DNNsby up to 64.7% under SLO constraints.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0882",
+  "title": "Is embedded indexing a worthwhile pursuit for indexers? A qualitative survey of current practices and thoughts for the future",
+  "year": "2025",
+  "abstract": "Professional indexers have been able to embed index entries into book content for several decades, but it is still a niche practice. A qualitative survey was conducted in 2024 to explore why indexers are doing embedded indexing, what processes and software they are using for this work, and their thoughts about the future of embedding. Reflecting on the survey results and their own considerable experience with back-of-book indexing, the authors conclude, among other points, that the profitability of embedded indexing depends on familiarity and efficiency with the process and the software.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0920",
+  "title": "Charting the Growth of Social-Physical HRI (spHRI): A Systematic Review Pipeline Augmented by Small Language Models",
+  "year": "2026",
+  "abstract": "Social-physical human-robot interaction (spHRI) has grown rapidly across robotics, human-computer interaction, human-robot interaction, and haptics. Yet, fragmented terminology and inconsistent methodologies make systematic synthesis difficult. To support scalable review practices, we evaluated the extent to which small language models (SLMs; < 1.5B parameters) can assist with title and abstract screening for a large spHRI systematic review. While no SLMs matched human reviewers' performance, the models operated locally and screened papers orders of magnitude faster. The combined SLM ensemble identified 39 papers reviewers missed, representing 10.29% of the final relevant dataset. These results demonstrate that SLMs can augment, rather than replace, expert reviewers and make large-scale literature reviews accessible and sustainable.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0889",
+  "title": "A Review of Embedded Systems Technology Applied to Electrical Machines",
+  "year": "2024",
+  "abstract": "In recent years, electrical machines have been garnering increased attention due to their numerous advantages, leading to the evolution of various high-performance control techniques. Such control strategies require more complex processors to be properly executed. This article comprehensively reviews embedded systems technology applied to electrical machines. An extensive literature review has been conducted in different academic databases and suppliers web sites. This work contributes to the state of the art in embedded systems for power electronic converters and control systems for electrical drives.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0904",
+  "title": "Clutter suppression in ultrasound: performance evaluation and review of low-rank and sparse matrix decomposition methods",
+  "year": "2020",
+  "abstract": "Vessel diseases are often accompanied by abnormalities related to vascular shape and size. Therefore, a clear visualization of vasculature is of high clinical significance. Ultrasound color flow imaging (CFI) is one of the prominent techniques for flow visualization. However, clutter signals originating from slow-moving tissue are one of the main obstacles to obtain a clear view of the vascular network. Enhancement of the vasculature by suppressing the clutters is a significant and irreplaceable step for many applications of ultrasound CFI. Currently, this task is often performed by singular value decomposition (SVD) of the data matrix. This approach exhibits two well-known limitations. First, the performance of SVD is sensitive to the proper manual selection of the ranks corresponding to clutter and blood subspaces. Second, SVD is prone to failure in the presence of large random noise in the dataset. A potential solution to these issues is using decomposition into low-rank and sparse matrices (DLSM) framework. SVD is one of the algorithms for solving the minimization problem under the DLSM framework. Many other algorithms under DLSM avoid full SVD and use approximated SVD or SVD-free ideas which may have better performance with higher robustness and less computing time. In practice, these models separate blood from clutter based on the assumption that steady clutter represents a low-rank structure and that the moving blood component is sparse. In this paper, we present a comprehensive review of ultrasound clutter suppression techniques and exploit the feasibility of low-rank and sparse decomposition schemes in ultrasound clutter suppression. We conduct this review study by adapting 106 DLSM algorithms and validating them against simulation, phantom, and in vivo rat datasets. Two conventional quality metrics, signal-to-noise ratio (SNR) and contrast-to-noise ratio (CNR), are used for performance evaluation. In addition, computation times required by different algorithms for generating clutter suppressed images are reported. Our extensive analysis shows that the DLSM framework can be successfully applied to ultrasound clutter suppression.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0955",
+  "title": "Review of Lightweight Deep Convolutional Neural Networks",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0935",
+  "title": "Tracking Penetration Test Activities",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0950",
+  "title": "Energy-Efficient 3D Scene Representation: A Review of Sparse-View Gaussian Splatting for Sustainable AI",
+  "year": "2026",
+  "abstract": "Neural 3D scene representation methods have enabled significant advances in photorealistic reconstruction and novel view synthesis, but often at the cost of high computational and energy demands. In particular, Neural Radiance Field (NeRF)–based approaches rely on dense volumetric sampling and repeated neural network inference, resulting in long training times and substantial power consumption. Such characteristics limit their scalability and suitability for sustainability-driven applications that require frequent updates, long-term deployment, or operation under energy constraints. 3D Gaussian Splatting (3DGS) has recently emerged as an efficient alternative that replaces implicit neural fields with explicit Gaussian primitives and rasterization-style rendering, achieving real-time performance with significantly reduced computational overhead. However, this efficiency comes with reduced robustness under sparse-view supervision, where limited input data leads to geometric instability and degraded reconstruction quality. To address these limitations, recent extensions such as Few-Shot Gaussian Splatting (FSGS) and Co-Regularized Gaussian Splatting (CoR-GS) introduce principled strategies for initialization, densification, pruning, and supervision that improve stability without reintroducing computationally expensive neural rendering. This paper presents a concise review and unified discussion of Gaussian-based sparseview reconstruction methods from the perspective of energyefficient and sustainable AI. By interpreting recent advances through a quality–energy trade-off lens, we highlight how explicit geometric representations enable scalable 3D perception while aligning with clean energy and sustainability goals. The analysis underscores the role of energy-aware design in advancing responsible and deployable AI systems, in direct alignment with the objectives of IEEE BHTC 2026.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0947",
+  "title": "What Makes a Good Natural Language Prompt?",
+  "year": "2025",
+  "abstract": "As large language models (LLMs) have progressed towards more human-like and human--AI communications have become prevalent, prompting has emerged as a decisive component. However, there is limited conceptual consensus on what exactly quantifies natural language prompts. We attempt to address this question by conducting a meta-analysis surveying more than 150 prompting-related papers from leading NLP and AI conferences from 2022 to 2025 and blogs. We propose a property- and human-centric framework for evaluating prompt quality, encompassing 21 properties categorized into six dimensions. We then examine how existing studies assess their impact on LLMs, revealing their imbalanced support across models and tasks, and substantial research gaps. Further, we analyze correlations among properties in high-quality natural language prompts, deriving prompting recommendations. We then empirically explore multi-property prompt enhancements in reasoning tasks, observing that single-property enhancements often have the greatest impact. Finally, we discover that instruction-tuning on property-enhanced prompts can result in better reasoning models. Our findings establish a foundation for property-centric prompt evaluation and optimization, bridging the gaps between human--AI communication and opening new prompting research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0961",
+  "title": "Nonnegative Matrix Factorization in Dimensionality Reduction: A Survey",
+  "year": "2025",
+  "abstract": "Dimensionality Reduction plays a pivotal role in improving feature learning accuracy and reducing training time by eliminating redundant features, noise, and irrelevant data. Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction. Despite its extensive use, there remains a need for a comprehensive analysis of NMF in the context of dimensionality reduction. To bridge this gap, this article presents a comprehensive survey of NMF, focusing on its applications in both feature extraction and feature selection. We propose a novel classification scheme for dimensionality reduction to enhance understanding of its core principles. Subsequently, we delve into a thorough summary of diverse NMF approaches used for feature extraction and selection. Furthermore, we discuss the latest research trends and potential future directions for leveraging NMF in dimensionality reduction, aiming to highlight areas that need further exploration and development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ }
+]

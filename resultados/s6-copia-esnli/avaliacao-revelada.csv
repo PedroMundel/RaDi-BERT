@@ -1,0 +1,21 @@
+n,rot,H,X,Y,best,X_e,haiku,sonnet,vencedor
+1,implicação,ssn,ssn,nnn,X,sonnet,nnn,ssn,sonnet
+2,contradição,pnn,ssn,ssn,X,sonnet,ssn,ssn,sonnet
+3,implicação,psn,sss,ssn,Y,sonnet,ssn,sss,haiku
+4,implicação,pnn,ssn,ssn,Y,haiku,ssn,ssn,sonnet
+5,neutro,psn,ssn,ssn,empate,haiku,ssn,ssn,empate
+6,implicação,ssn,ssn,ssn,X,sonnet,ssn,ssn,sonnet
+7,contradição,snn,ssn,ssn,Y,haiku,ssn,ssn,sonnet
+8,implicação,ssn,ssn,nsn,X,sonnet,nsn,ssn,sonnet
+9,neutro,ssn,ssn,ssn,X (incerto),sonnet,ssn,ssn,sonnet
+10,contradição,snn,ssn,ssn,X (leve),haiku,ssn,ssn,haiku
+11,neutro,ssn,ssn,ssn,empate (3),haiku,ssn,ssn,empate
+12,contradição,spn,snn,spn,Y,haiku,snn,spn,sonnet
+13,neutro,ssn,psn,psn,Humano,haiku,psn,psn,Humano
+14,contradição,ssn,ssn,ssn,Y,haiku,ssn,ssn,sonnet
+15,neutro,psn,ssn,ssn,X,sonnet,ssn,ssn,sonnet
+16,neutro,ssn,ssn,ssn,Y,sonnet,ssn,ssn,haiku
+17,neutro,psn,ssn,ssn,X (incerto),sonnet,ssn,ssn,sonnet
+18,implicação,ssn,ssn,ssn,X,sonnet,ssn,ssn,sonnet
+19,implicação,ssn,ssn,sss,X,sonnet,sss,ssn,sonnet
+20,contradição,psn,ssn,ssn,X,sonnet,ssn,ssn,sonnet

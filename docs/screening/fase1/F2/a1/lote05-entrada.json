@@ -1,0 +1,435 @@
+[
+ {
+  "id": "F0161",
+  "title": "A Review on Bridging Brain-InspiredMechanisms and Large-Scale Pre-trainedModels: Toward Adaptive, Efficient, andInterpretable AI",
+  "year": "2025",
+  "abstract": "Large-scale pre-trained models, such as GPT, greatly improve numerous areas of artificial intelligence (AI), including natural language understanding, image recognition, and the integration of various data types. However, these models continue to encounter significant challenges, including excessive computational resource requirements, inadequate adaptability to dynamic environments, susceptibility to catastrophic forgetting, and limited internal interpretability. By comparison, the human brain exhibits efficient learning from sparse data, demonstrates robust adaptability across diverse contexts, operates with minimal energy consumption, retains information over extended periods, and can be elucidated through its underlying cognitive processes. This review examines recent research and is the first to categorize brain-inspired methods into three key dimensions. It explores how mechanisms of the human brain, such as hierarchical and modular designs, biologically inspired attention mechanisms, memory enhancement strategies, synaptic plasticity, and predictive coding, could inspire optimizations for large-scale models. This review not only synthesizes the current state of the field but also proposes potential directions for future research. There remains a need for stronger theories, better testing methods, improved hardware–software coordination, and careful consideration of ethical issues. Overcoming these challenges will require closer collaboration between neuroscientists, cognitive scientists, machine learning experts, and engineers. Through such collaboration, the field may develop the next generation of AI systems that perform at the highest levels while being more efficient, flexible, and transparent.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0162",
+  "title": "A Systematic Literature Review of Lightweight Blockchain for IoT",
+  "year": "2022",
+  "abstract": "The Internet of Things (IoT) has become an essential part of our society. IoT devices are used in our houses, hospitals, cars, industry, etc., making our lives easier. Nonetheless, there are a number of serious concerns about security, privacy and performance issues in IoT. It has been proven that the aforementioned issues are strictly related to the high degree of centralisation of current IoT architecture. Thus, there is an increasing interest in adopting blockchain in IoT. However, blockchain adoption is not straightforward due to the power, storage and computational limitations of IoT. Consequently, the concept of lightweight blockchain is getting more and more attention from researchers and engineers. In this paper, we conduct a systematic literature review on the lightweight blockchain concept for IoT following the PRISMA methodology. We systematically analyse “lightweight blockchain for IoT” proposals in order to better understand the limitations of blockchain for IoT, the characteristics of the current work on this topic and further research opportunities. Specifically, we analyse the definition of lightweight blockchain that other authors give, the characteristics of the reviewed proposals, their “lightweight” aspects and their evaluation. Finally, we discuss the results of the review along with further research opportunities. Consequently, this work is mostly focused on understanding the technical and performance-related aspects of blockchain for IoT as a prelude to more specific analysis such as security (i.e., attacks, vulnerabilities, etc.).",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0163",
+  "title": "A survey and analysis of different lightweight block cipher techniques for resource-constrained devices",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0164",
+  "title": "Sparsity-Accelerated Training for Large Language Models",
+  "year": "2024",
+  "abstract": "Large language models (LLMs) have demonstrated proficiency across various natural language processing (NLP) tasks but often require additional training, such as continual pre-training and supervised fine-tuning. However, the costs associated with this, primarily due to their large parameter count, remain high. This paper proposes leveraging \\emph{sparsity} in pre-trained LLMs to expedite this training process. By observing sparsity in activated neurons during forward iterations, we identify the potential for computational speed-ups by excluding inactive neurons. We address associated challenges by extending existing neuron importance evaluation metrics and introducing a ladder omission rate scheduler. Our experiments on Llama-2 demonstrate that Sparsity-Accelerated Training (SAT) achieves comparable or superior performance to standard training while significantly accelerating the process. Specifically, SAT achieves a $45\\%$ throughput improvement in continual pre-training and saves $38\\%$ training time in supervised fine-tuning in practice. It offers a simple, hardware-agnostic, and easily deployable framework for additional LLM training. Our code is available at https://github.com/OpenDFM/SAT.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0165",
+  "title": "An Empirical Study of App Review Classification Using Large Language Models",
+  "year": "2026",
+  "abstract": "App store reviews are a primary signal for software maintenance decisions, yet classifying them reliably remains challenging due to informal language, brevity, and overlapping class boundaries. Large language models (LLMs) offer prompt-based alternatives to supervised classifiers that eliminate annotation costs, but three gaps limit their practical adoption: the effect of prompt structure on classification performance is understudied, evaluation on app review datasets is scarce relative to formal specification corpora, and direct protocol-controlled comparisons between prompting and parameter-efficient fine-tuning are rare. This study addresses all three gaps through a systematic, threephase evaluation. We assess four open-source LLMs-Llama 3 8B/70B, Gemma 3 4B, and Mistral 7B-across three app review datasets (PAN, Maalej, Scalabrino) differing in class granularity and annotation philosophy. Seven structurally distinct prompt templates are compared in a zero-shot exploratory phase, followed by stratified 10-fold cross-validation experiments with shot counts from 0 to 7. The best prompt-based configuration is then compared against QLoRA-fine-tuned Llama 3 8B and four supervised encoder baselines (e.g., RoBERTa). The definitionbased prompt template significantly outperforms all alternatives across every model-dataset combination, with the largest gains on the most fine-grained dataset. Few-shot prompting improves over zero-shot in most conditions, though gains are non-monotonic on datasets with semantically overlapping classes. RoBERTa and QLoRA achieve statistically equivalent performance and both significantly outperform the best prompt-based configuration on two of three datasets, confirming that lightweight fine-tuning provides a measurable and consistent advantage when labeled data is available. When it is not, investing in prompt structure yields more return than scaling model size.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0166",
+  "title": "A Literature Survey on Various Streaming Protocol and Compression Techniques in Multimedia Transmission with Internet of Things",
+  "year": "2021",
+  "abstract": "In recent times, with wide spread of Internet, streaming media is getting more prevalent. Various streaming protocols have been primarily established to make transference of multimedia content easier to end user. Recent streaming protocols are frequently established with networking development and computing prospects. In the past few years, Real Time Communications, comprising numerous protocols and technologies have been contributory to the creation of media sessions through switching systems. Familiar legacy procedures such as Real Time Control Protocol (RTCP) and Real Time Transfer Protocol (RTP) are the ideal instruments to achieve the transfer process; although, in Internet of Things (IoT) environment, convergence properties are inadequate and their usage turn out to be a major challenge. In recent years, multimedia application comprises mobile networks, incorporated sensors and IoT devices. Only some of the research works are obtainable to assist protected multimedia communications achieved in IoT. In this paper, we analyze numerous streaming protocols employed in IoT organizations and explain appropriate taxonomies with classification. The integration of Multimedia Services and IoT still pose challenge due to the limited capabilities of IoT devices and unique features of multimedia applications. The main intention of this paper is to support the future investigations to further enhance streaming protocols and various compression techniques used for transmission of multimedia data in IoT.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0167",
+  "title": "A comparative review and analysis of medical image encryption and compression techniques",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0168",
+  "title": "A comprehensive survey on pretrained foundation models: a history from BERT to ChatGPT",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0169",
+  "title": "Resource-Efficient Ubiquitous Sensor Networks for Smart Agriculture: A Survey",
+  "year": "2024",
+  "abstract": "Smart agriculture is an enabling technology addressing the increasing challenges of efficiency, sustainability, and quality of food production. It requires rich data from the farming area at high spatial and temporal resolution. Although remote sensing systems have become readily available recently, in-situ sensing is still required to capture important properties of soil, crops, and their close environment. Ubiquitous sensor networks (USNs) provide a seamless and real-time in-situ sensing infrastructure that could overcome some limitations of smart agriculture. Resource efficiency is essential for USNs due to 1) the expected long operation time in typically resource-constrained environments, 2) the vast amount of captured and processed data, and 3) the ever-increasing application requirements. This survey comprehensively analyzes resource optimization techniques for USNs along three USN layers: the sensing, the communication & connectivity, and the processing & analysis layer. It discusses the application of these techniques in the smart agriculture domain and identifies current challenges and open research issues.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0170",
+  "title": "Hardware and Cyber Vulnerabilities in Embedded Systems: An Overview for Power Grids, PV, EVs, and Storage Systems",
+  "year": "2025",
+  "abstract": "Power grids, photovoltaic (PV) systems, electric vehicles (EVs), EV charging stations, and lithium-ion storage solutions rely heavily on embedded systems, making them vulnerable to hardware and cyberattacks. As these systems become increasingly connected through digital control and data networks, their exposure to cyber threats also increases. For management, control, and communication, these systems depend on microprocessors and integrated circuits (ICs), which makes them susceptible to adversarial attacks. This survey provides a detailed discussion of hardware-based attacks, such as tampering, cyberattacks, man-in-the-middle attacks, data integrity attacks, denial-of-service attacks, side-channel attacks, and hardware Trojans (HT). It also examines how attackers might take advantage of weaknesses in the design, firmware, or supply chain of embedded hardware. The paper assesses the potential impact of these security threats on embedded systems across power grids, PV systems, EV infrastructure, and lithium-ion storage systems. Further, it highlights countermeasure techniques to secure these systems and mitigate the threats. Preventive and responsive methods, such as encryption, anomaly monitoring, secure hardware features, and trusted startup processes, are outlined. This paper aims to raise awareness of the importance of strong security strategies to develop robust EVs, renewable energy sources, and power grid infrastructure. The goal is to support engineers, researchers, and policymakers in building safer and more reliable energy systems for the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0171",
+  "title": "Peer Review #2 of \"Performance analysis of lightweight CNN models to segment infectious lung tissues of COVID-19 cases from tomographic images (v0.1)\"",
+  "year": "2021",
+  "abstract": "The pandemic of Coronavirus has spread around the world causing an existential health crisis.Automated detection of COVID-19 infections in the lungs from Computed Tomography (CT) images offers huge potential in tackling the problem of slow detection and augments the conventional diagnostic procedures.However, segmenting COVID-19 from CT Scans is problematic, due to high variations in the types of infections and low contrast between healthy and infected tissues.While segmenting Lung CT Scans for COVID-19, fast and accurate results are required and furthermore, due to the pandemic, most of the research community has opted for various cloud based servers such as Google Colabs etc to develop their algorithms.High accuracy can be achieved using Deep Networks but the prediction time would vary as the resources are shared amongst many thus requiring the need to compare different lightweight segmentation model.To address this issue, we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN).The images in our dataset are preprocessed where the motion artifacts are removed.The four networks are UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet.Trained on our dataset of more than 3000 images, HR Net was found to be the best performing network achieving an accuracy of 96.24% and a Dice score of 0.9127.The analysis shows that lightweight CNN models perform better than other neural net models when to segment infectious tissue due to COVID-19 from CT slices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0172",
+  "title": "A Review of Knowledge Distillation in Object Detection",
+  "year": "2025",
+  "abstract": "Target detection is a revolutionary advancement in computer vision that provides the ability to identify specific targets in images for a wide variety of applications, including but not limited to video surveillance, face recognition, and autonomous driving. Although target detection has been developed to a high level and can be deployed for applications in several fields, there are still some problems in practice, such as the two-phase detection algorithm has high detection accuracy but slow detection speed, while the one-phase detection algorithm is fast, but its accuracy is poor. We need to combine their respective advantages further for related algorithm research, and we need to reach a balance between detection speed and detection accuracy so that the algorithms can be deployed on edge devices with limited computational power. Knowledge Refinement, as one of the common means of model compression, can solve the above problems, and it reduces the deployment difficulty of the algorithms. In this paper, we summarize the use of knowledge compression on target detection. We conclude the methods mentioned in the paper from an objective and unbiased perspective and suggest possible improvement directions, and we provide an outlook on the future trend of combining distillation learning and target detection. This paper provides a clear overview of the field of target detection and provides an idea of future trends.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0173",
+  "title": "Switching away: Exploring on-device media multitasking in web surveys",
+  "year": "2020",
+  "abstract": "Abstract The use of web surveys is a common and popular data collection method in behavioral and social research. Compared to other established survey modes, web surveys are frequently cheaper and less time consuming, because they are commonly self-administered. They also allow respondents to take part with few time and location restrictions. However, research has shown that web surveys are frequently associated with multitasking, which may negatively affect response behavior and response quality. In this study, we use paradata detecting switching away from the web survey to explore on-device media multitasking. We conducted a web survey in an opt-in access panel in Germany and randomly assigned respondents to a PC or smartphone condition. The results reveal that on-device media multitasking is more common on PCs than on smartphones. We also find evidence that engaging in on-device media multitasking affects response quality. Respondents who switch away are more likely to select the middle response category. In addition, the results show that the question presentation format, the device type, and respondents’ age and education are associated with the occurrence of on-device media multitasking. These findings point to the importance of controlling for on-device media multitasking in web surveys.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0174",
+  "title": "A Survey on Transformer Architecture Design for Abnormal Behavior Recognition Tasks",
+  "year": "2025",
+  "abstract": "In recent years, the outstanding performance of Transformer models in natural language processing (NLP) has garnered attention in the field of computer vision (CV) and has been successfully applied to abnormal behavior recognition tasks. This paper summarizes the research progress of Transformer models and their extended structures. Firstly, we review the crucial role of the self-attention mechanism and large-scale pretraining in the success of Transformer models for abnormal behavior recognition tasks and introduce the Vision Transformer (ViT), the first model applied to image classification tasks. Subsequently, we provide an overview of four widely-used public datasets for abnormal behavior recognition. We discuss the design concepts and operational mechanisms of Transformer models by distinguishing between pure Transformer architectures and convolution + Transformer architectures. We also objectively evaluate the strengths and limitations of various improved Transformer models and their applicable scenarios. Finally, we summarize the current state of development of Transformer models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0175",
+  "title": "A Structured Review of IoT-Based Embedded Systems and Machine Learning for Water Quality Monitoring",
+  "year": "2025",
+  "abstract": "This paper presents the results of a structured scoping review (SSR) that explores the integration of the Internet of Things (IoT) and embedded systems in creating a sustainable and interconnected technological ecosystem. The study focuses on water quality monitoring, an area where these technologies have demonstrated significant potential. The SSR follows a meticulous methodology, covering planning, execution, and documentation stages to ensure a comprehensive and unbiased review of the existing literature. Key research questions guide the review, focusing on extracting and analyzing water sample characteristics, using machine learning algorithms for classification, and the technologies utilized in these systems. The search process involved multiple databases, yielding 343 articles, of which 8 met the stringent inclusion and exclusion criteria. The review highlights the widespread use of IoT for real-time data collection and artificial intelligence (AI) for analyzing complex patterns in water quality data. Our findings underscore the significance of temperature, pH, turbidity, and conductivity, commonly utilized in water classification. In addition, prevalent machine learning techniques for analyzing water quality data include K-Nearest Neighbors (KNN) and artificial neural networks (ANN). Despite the advances, challenges such as implementation costs, connectivity in remote areas, and the interpretability of AI models remain. This review underscores the transformative potential of IoT and AI in water quality monitoring, with implications for ensuring safe drinking water and sustainable water resource management.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0176",
+  "title": "Towards incorporating data-driven artificial intelligence-based tools in tuberculosis diagnosis in resource-constrained countries: A scoping review",
+  "year": "2026",
+  "abstract": "Tuberculosis (TB) continues to disproportionately decimate people in resource-constrained countries, despite the disease being curable and preventable. Despite several TB containment measures, such as screening and diagnosis, thousands of mortalities are still recorded daily, worldwide, making it a serious global public health concern. The inherent challenges faced by healthcare systems in resource-constrained countries make their residents susceptible to TB-related deaths, especially when coupled with the double burden of disease arising from human immunodeficiency virus (HIV) co-infection. While researchers are increasingly interested in applying artificial intelligence (AI) to TB detection, there is a dearth of reviews that organise such literature. Preferred Reporting Items for Systematic and Meta-Analyses extension for Scoping Reviews (PRISMA-ScR) methodology guided the reporting of this scoping review on deep and machine learning models deployed to tackle TB in resource-limited settings. Machine learning algorithms, like logistic regression, k-nearest neighbour, and support vector machine, and deep learning algorithms like long short-term memory and convolutional neural networks, have been used to detect TB and performed well based on the performance evaluation metrics. However, various challenges still exist in resource-constrained countries, such as a shortage of localised, large-scale, real-time, and well-annotated datasets, high chest x-ray hardware expenses, limited integration with local health information systems, limited application in different subgroups, limited capability in detecting non-TB abnormalities, and limited sputum-based detection. Data-driven AI-based tools present unmatched opportunities to end TB in resource-constrained contexts through enhanced, accurate, and timely TB detection. However, concerted efforts are needed to overcome the identified challenges by investing in localised datasets and integrating AI with existing healthcare infrastructure. • Tuberculosis (TB) continues to kill many people globally despite it being curable. • Resource-constrained settings face various challenges in dealing with TB, such as a lack of specialists. • Machine learning can address skills gaps and facilitate timely TB detection, saving lives through timely treatment. • This paper provides insights into the potential role of ML in TB detection in resource-constrained settings. • This lack of specialists often leads to delayed detection and false positives and negatives. • It also provides recommendations on how such technologies can be incorporated into daily clinical practice.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0177",
+  "title": "A Review on Resource-Constrained Embedded Vision Systems-Based Tiny Machine Learning for Robotic Applications",
+  "year": "2024",
+  "abstract": "The evolution of low-cost embedded systems is growing exponentially; likewise, their use in robotics applications aims to achieve critical task execution by implementing sophisticated control and computer vision algorithms. We review the state-of-the-art strategies available for Tiny Machine Learning (TinyML) implementation to provide a complete overview using various existing embedded vision and control systems. Our discussion divides the article into four critical aspects that high-cost and low-cost embedded systems must include to execute real-time control and image processing tasks, applying TinyML techniques: Hardware Architecture, Vision System, Power Consumption, and Embedded Software Platform development environment. The advantages and disadvantages of the reviewed systems are presented. Subsequently, the perspectives of them for the next ten years are present. A basic TinyML implementation for embedded vision application using three low-cost embedded systems, Raspberry Pi Pico, ESP32, and Arduino Nano 33 BLE Sense, is presented for performance analysis.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0178",
+  "title": "Experimental Analysis of Large-scale Learnable Vector Storage Compression",
+  "year": "2023",
+  "abstract": "Learnable embedding vector is one of the most important applications in machine learning, and is widely used in various database-related domains. However, the high dimensionality of sparse data in recommendation tasks and the huge volume of corpus in retrieval-related tasks lead to a large memory consumption of the embedding table, which poses a great challenge to the training and deployment of models. Recent research has proposed various methods to compress the embeddings at the cost of a slight decrease in model quality or the introduction of other overheads. Nevertheless, the relative performance of these methods remains unclear. Existing experimental comparisons only cover a subset of these methods and focus on limited metrics. In this paper, we perform a comprehensive comparative analysis and experimental evaluation of embedding compression. We introduce a new taxonomy that categorizes these techniques based on their characteristics and methodologies, and further develop a modular benchmarking framework that integrates 14 representative methods. Under a uniform test environment, our benchmark fairly evaluates each approach, presents their strengths and weaknesses under different memory budgets, and recommends the best method based on the use case. In addition to providing useful guidelines, our study also uncovers the limitations of current methods and suggests potential directions for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0179",
+  "title": "Artificial Intelligence in Healthcare: Systematic Review of Diagnostic and Screening Tools in Brazil's Resource-Limited Settings (Preprint)",
+  "year": "2024",
+  "abstract": "Background: Artificial intelligence (AI) has the potential to transform global health care, with extensive application in Brazil, particularly for diagnosis and screening. Objective: This study aimed to conduct a systematic review to understand AI applications in Brazilian health care, especially focusing on the resource-constrained environments. Methods: A systematic review was performed. The search strategy included the following databases: PubMed, Cochrane Library, Embase, Web of Science, LILACS, and SciELO. The search covered papers from 1993 to November 2023, with an initial overview of 714 papers found, of which 25 papers were selected for the final sample. Meta-analysis data were evaluated based on three main metrics: area under the receiver operating characteristic curve, sensitivity, and specificity. A random effects model was applied for each metric to address study variability. Results: Key specialties for AI tools include ophthalmology and infectious disease, with a significant concentration of studies conducted in São Paulo state (13/25, 52%). All papers included testing to evaluate and validate the tools; however, only two conducted secondary testing with a different population. In terms of risk of bias, 10 of 25 (40%) papers had medium risk, 8 of 25 (32%) had low risk, and 7 of 25 (28%) had high risk. Most studies were public initiatives, totaling 17 of 25 (68%), while 5 of 25 (20%) were private. In limited-income countries like Brazil, minimum technological requirements for implementing AI in health care must be carefully considered due to financial limitations and often insufficient technological infrastructure. Of the papers reviewed, 19 of 25 (76%) used computers, and 18 of 25 (72%) required the Windows operating system. The most used AI algorithm was machine learning (11/25, 44%). The combined sensitivity was 0.8113, the combined specificity was 0.7417, and the combined area under the receiver operating characteristic curve was 0.8308, all with P<.001. Conclusions: There is a relative balance in the use of both diagnostic and screening tools, with widespread application across Brazil in varied contexts. The need for secondary testing highlights opportunities for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0180",
+  "title": "Explainable and Lightweight Deep Learning Models for Tea Leaf Disease Detection: A Systematic Review and Future Research Directions",
+  "year": "2026",
+  "abstract": "• Systematically reviews 76 studies on tea leaf disease detection using deep learning • Introduces a unified taxonomy for lightweight and explainable model design • Compares model accuracy, latency, and efficiency across major architectures • Identifies gaps in dataset quality, generalization, and explainability fidelity • Outlines future directions for deployable, interpretable, and mobile-friendly systems Tea is the second most widely consumed beverage in the world, and its production and quality are economically significant. Therefore, it is essential to monitor tea leaf health to protect the yield; however, manual inspection is labor-intensive and often inefficient. Recent advances in deep learning have improved the accuracy and feasibility of automated tea-leaf disease identification. Regardless of this development, significant challenges remain, particularly regarding in-field applicability and compatibility with devices with limited resources. This systematic review synthesizes deep learning approaches for tea-leaf disease detection, covering studies from 2015 to 2025. Following PRISMA guidelines, an initial search of five databases yielded 524 records; 76 peer-reviewed studies were included after screening. The review categorizes key plant stresses, tabulates public datasets, compares deep learning architectures, and evaluates lightweight models, XAI, and real-world variability. A methodological quality assessment using a predetermined checklist confirms that the literature’s quality has advanced. The literature shows notable achievements in accuracy and clear progress toward on-device inference. However, the field is still hampered by a lack of ideal datasets, limited model explainability, poor deployment reporting, and insufficient standardized evaluation for efficiency and robustness. As a solution to these gaps, this review proposes an evidence-based set of design guidelines for lightweight and explainable recognition of tea leaf diseases, emphasizing external validation, transparent explanations, and deployment-ready efficiency reporting; empirical benchmarking under a unified protocol is identified as a priority for future work. This review on recognizing tea leaf diseases aims to assist researchers, support farmers, identify gaps, and provide recommendations for future developments in precision tea agriculture.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0181",
+  "title": "Event-based object detection from spiking neural networks to IoT edge deployment: a systematic review",
+  "year": "2026",
+  "abstract": "Event cameras output asynchronous per-pixel brightness changes instead of synchronized frames, enabling always-on, low-power perception for IoT applications such as smart surveillance, autonomous drones, and robotic perception. As research combining event sensors with spiking, conventional, and hybrid neural networks accelerates, gaining a structured understanding of the field’s trajectory becomes essential for guiding future work. This review synthesizes 59 detection studies (2019–2025) spanning three detector families (event-native ANN, pure SNN, and hybrid ANN–SNN) to provide that big-picture map. Progress has been rapid: event-native ANNs now exceed 52% COCO mAP on key automotive benchmarks, SNN inference pipelines have been compressed by orders of magnitude, and a neuromorphic drone detector operates at sub-10 mW on-chip power (idle measured, dynamic modeled) under sparse-detection duty cycling. However, evaluation practices differ widely in benchmarking protocols, metric definitions, and energy reporting: we find that a single evaluation choice—the inference frequency—can shift reported accuracy by up to 42.6 mAP points, far exceeding the few-point spread that separates state-of-the-art architectures, so protocol differences can dominate apparent architectural ones when interpreting published results. To support future research and IoT practitioners, this review offers a unified technical primer on event-camera detection, organized benchmark synthesis tables with protocol annotations, an energy evidence inventory distinguishing hardware measurements from analytical estimates, and an IoT deployment analysis addressing communication, memory, and latency constraints. A research agenda identifies the concrete steps needed to advance event-camera detection from laboratory benchmarks toward field-deployable IoT systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0182",
+  "title": "Contact Force Estimation of Continuum Robots without Embedded Sensors: A Review",
+  "year": "2025",
+  "abstract": "Continuum robots enable safe and adaptive interaction with complex, unstructured, or constrained environments through continuous deformation, making them particularly suitable for medical and industrial applications. Accurate contact force sensing is essential to ensure safe and effective physical interaction in such scenarios. Although various embedded force sensors have been developed, sensor‐free approaches offer advantages in miniaturization, cost‐effectiveness, and biocompatibility. This review provides a comprehensive overview of sensor‐free contact force estimation methods for continuum robots, with an emphasis on algorithmic principles rather than specific continuum robot designs or applications. First, contact forces reported in the literature are systematically classified according to their distribution, components, and dynamics. Next, existing force estimation methods are divided into three categories: actuation‐based, deflection‐based, and environment‐based. For each category, the underlying algorithmic principles are discussed, representative challenges are highlighted, and their typical application scenarios are outlined. Finally, emerging trends and potential directions for future research are outlined.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0183",
+  "title": "An Overview of On-Chip Sensing and Analytics for Resilient Integrated Circuits",
+  "year": "2026",
+  "abstract": "Resilient integrated circuits (ICs) are essential for safety- and mission-critical applications, where hardware faults can result in costly damage or even loss of lives. A resilient IC is designed to detect, tolerate, and adapt in real time to different faulty scanarios, maintaining correct functionality under varying operating and environmental conditions. Specialized sensing and analytics engines embedded in the chip play a central role in resilient ICs by providing real-time insight into the overall state, i.e., \"health\", of the chip. This paper presents an overview of commonly used on-chip sensors for IC status monitoring, and discusses fundamental design requirements for on-chip processing of sensor-generated data.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0184",
+  "title": "Industrial MLOps: a systematic review of architectures and implementation challenges",
+  "year": "2026",
+  "abstract": "The rise of advanced digitalization in Industry 4.0 has enabled manufacturers to leverage data through AI and ML solutions for various manufacturing challenges. However, integrating these models into factory settings remains challenging, as models that perform well on static datasets struggle with dynamic shop floor data. MLOps is an emerging discipline focused on bridging the gap between ML models and production environments; however, in the manufacturing domain, questions remain about how to effectively deploy ML models using MLOps. This article addresses these gaps by conducting a systematic literature review combined with thematic analysis to explore architectures and frameworks used to adopt MLOps in real-world industrial applications, referred to here as industrial MLOps. The study identifies key architectural requirements and outlines seven implementation challenges, with recommendations and architecture mappings to overcome them. Results show that fully automated MLOps frameworks remain underdeveloped, and that modular, scalable architectures are recommended to address model drift, data quality, and integration challenges.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0185",
+  "title": "Standardization in Clinical Data Repositories - A Case Study of SLUK HISCDR",
+  "year": "2025",
+  "abstract": "The absence of standardized, interoperable, and secure Clinical Data Repositories (CDRs) limits effective healthcare delivery and data-driven decision-making in low-resource environments. This study presents the design and implementation of the SLUK HISCDR, a cloud-based CDR developed at Sule Lamido University, Kafin Hausa, Nigeria, initially deployed as J-Care. Using a two-phased pragmatic approach, Phase One developed and piloted J-Care, a SaaS microservices platform that digitized clinical workflows at the SLUK clinic. Phase Two expanded the system into a secure, federated CDR and incorporated a statewide baseline health data assessment for Jigawa State. The methodology combined software engineering techniques, a cross-sectional survey of 286 PHCs, 18 secondary facilities, and 1 tertiary facility, and Power BI for analytics and visualization. Findings show that SLUK HISCDR provides a viable, scalable model for standardized CDR deployment in Nigeria. The paper recommends nationwide policy adoption, investment in digital infrastructure, improved rural staffing, and future integration of federated machine learning for predictive analytics.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0186",
+  "title": "A Survey of Methods and Architectures for Attention-Based Sparse Graph Convolutional Neural Network-Based Forecast Model for Career Planning in Human Resource Management",
+  "year": "2025",
+  "abstract": "The rapid advancement of artificial intelligence and big data analytics has significantly transformed human resource management (HRM), particularly in career planning and workforce analytics. Traditional HR systems, which rely on rule-based or statistical methods, often fail to capture the complex relationships among employees, skills, job roles, and organizational structures. With the increasing availability of workforce data from enterprise systems and professional platforms, intelligent predictive models have become essential. Graph-based machine learning approaches, especially Graph Convolutional Neural Networks (GCNs), effectively model such relationships by representing entities as nodes and interactions as edges. These models enable accurate forecasting of career paths and personalized recommendations. However, conventional GCNs treat all connections equally, limiting their effectiveness. Attention mechanisms address this by assigning importance to relevant nodes and relationships, improving prediction accuracy and interpretability. Additionally, sparse graph neural networks handle incomplete and heterogeneous HR data efficiently. Attention-based and heterogeneous graph models further enhance job recommendation systems by capturing complex dependencies between skills, roles, and career trajectories. This review highlights advancements in attention-based sparse GCN architectures for career forecasting, emphasizing their ability to support intelligent talent management, while also identifying challenges and future directions for scalable and adaptive HR analytics systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0187",
+  "title": "AI and Metaheuristic Optimization in Additive Manufacturing of Lightweight Alloys: A Critical Review",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0188",
+  "title": "Lightweight Encryption Schemes for the Internet of Things: A Review",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0189",
+  "title": "LIGHTWEIGHT ARTIFICIAL INTELLIGENCE FOR PHYSICAL ACTIVITY RECOGNITION BASED ON WEARABLE DEVICES: A SYSTEMATIC LITERATURE REVIEW",
+  "year": "2025",
+  "abstract": "With the development of artificial intelligence, physical activity recognition has begun to play an important role for healthcare, sports, safety, and improving user interaction in intelligent environments. The active proliferation of wearable devices with multimodal sensors provides data collection, which can be used to improve the quality of life. Conventional AI models require large computing resources, so they are not suitable for devices with low performance. The study of lightweight AI, combined with the optimization of machine learning models, is gaining relevance. Such models work in conditions of limited memory and energy resources. Given the rapid technological progress and the latest relevant research, it is important to examine the current state of the physical activity recognition system, highlighting its strengths, as well as the challenges that this area continues to face. This study provides a systematic review of the literature on lightweight artificial intelligence for recognizing physical activity based on wearable devices, based on an analysis of articles published from 2010 to 2025.\n\nAuthor Biographies",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0190",
+  "title": "Peer Review #4 of \"A lightweight and secure online/offline cross-domain authentication scheme for VANET systems in Industrial IoT (v0.2)\"",
+  "year": "2021",
+  "abstract": "In heterogeneous wireless networks, the industrial Internet of Things (IIoT) is an essential contributor to increasing productivity and effectiveness.However, in various domains, such as industrial wireless scenarios, small cell domains, and vehicular ad hoc networks, an efficient and stable authentication algorithm is required (VANET).Specifically, IoT vehicles deal with vast amounts of data transmitted between VANET entities in different domains in such a large-scale environment.Also, crossing from one territory to another may have the connectivity services down for a while, leading to service interruption because it is pervasive in remote areas and places with multipath obstructions.Hence, it is vulnerable to specific attacks (e.g., replay attacks, modification attacks, man-in-the-middle attacks, and insider attacks), making the system inefficient.Also, high processing data increases the computation and communication cost, leading to an increased workload in the system.Thus, to solve the above issues, we propose an online/offline lightweight authentication scheme for the VANET cross-domain system in IIoT to improve the security and efficiency of the VANET.The proposed scheme utilizes an efficient AES-RSA algorithm to achieve integrity and confidentiality of the message.The offline joining is added to avoid remote network intrusions and the risk of network service interruptions.The proposed work includes two different significant goals to achieve first, then secure message on which the data is transmitted and efficiency in a cryptographic manner.The Burrows Abdi Needham (BAN logic) logic is used to prove that this scheme is mutually authenticated.The system's security has been tested using the well-known AVISPA tool to evaluate and verify its security formally.The results show that the proposed scheme outperforms the ID-CPPA, AAAS, and HCDA schemes by 53%, 55%, and 47% respectively in terms of computation cost, and 65%, 83%, and 40% respectively in terms of communication cost.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0191",
+  "title": "A Survey of Label-Efficient Deep Learning for 3D Point Clouds",
+  "year": "2023",
+  "abstract": "In the past decade, deep neural networks have achieved significant progress in point cloud learning. However, collecting large-scale precisely-annotated point clouds is extremely laborious and expensive, which hinders the scalability of existing point cloud datasets and poses a bottleneck for efficient exploration of point cloud data in various tasks and applications. Label-efficient learning offers a promising solution by enabling effective deep network training with much-reduced annotation efforts. This paper presents the first comprehensive survey of label-efficient learning of point clouds. We address three critical questions in this emerging research field: i) the importance and urgency of label-efficient learning in point cloud processing, ii) the subfields it encompasses, and iii) the progress achieved in this area. To this end, we propose a taxonomy that organizes label-efficient learning methods based on the data prerequisites provided by different types of labels. We categorize four typical label-efficient learning approaches that significantly reduce point cloud annotation efforts: data augmentation, domain transfer learning, weakly-supervised learning, and pretrained foundation models. For each approach, we outline the problem setup and provide an extensive literature review that showcases relevant progress and challenges. Finally, we share our views on the current research challenges and potential future directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0192",
+  "title": "Embedded Intelligent Empathy: A Systematic Review Towards a Conceptual Framework",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0193",
+  "title": "Overview of AI-Models and Tools in Embedded IIoT Applications",
+  "year": "2024",
+  "abstract": "The integration of Artificial Intelligence (AI) models in Industrial Internet of Things (IIoT) systems has emerged as a pivotal area of research, offering unprecedented opportunities for optimizing industrial processes and enhancing operational efficiency. This article presents a comprehensive review of state-of-the-art AI models applied in IIoT contexts, with a focus on their utilization for fault prediction, process optimization, predictive maintenance, product quality control, cybersecurity, and machine control. Additionally, we examine the software and hardware tools available for integrating AI models into embedded platforms, encompassing solutions such as Vitis AI v3.5, TensorFlow Lite Micro v2.14, STM32Cube.AI v9.0, and others, along with their supported high-level frameworks and hardware devices. By delving into both AI model applications and the tools facilitating their deployment on low-power devices, this review provides a holistic understanding of AI-enabled IIoT systems and their practical implications in industrial settings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0194",
+  "title": "A Critical Determinant of Project Success",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0195",
+  "title": "Tiny Language Models for Automation and Control: Overview, Potential Applications, and Future Research Directions",
+  "year": "2025",
+  "abstract": "Large Language Models (LLMs), like GPT and BERT, have significantly advanced Natural Language Processing (NLP), enabling high performance on complex tasks. However, their size and computational needs make LLMs unsuitable for deployment on resource-constrained devices, where efficiency, speed, and low power consumption are critical. Tiny Language Models (TLMs), also known as BabyLMs, offer compact alternatives by using advanced compression and optimization techniques to function effectively on devices such as smartphones, Internet of Things (IoT) systems, and embedded platforms. This paper provides a comprehensive survey of TLM architectures and methodologies, including key techniques such as knowledge distillation, quantization, and pruning. Additionally, it explores potential and emerging applications of TLMs in automation and control, covering areas such as edge computing, IoT, industrial automation, and healthcare. The survey discusses challenges unique to TLMs, such as trade-offs between model size and accuracy, limited generalization, and ethical considerations in deployment. Future research directions are also proposed, focusing on hybrid compression techniques, application-specific adaptations, and context-aware TLMs optimized for hardware-specific constraints. This paper aims to serve as a foundational resource for advancing TLMs capabilities across diverse real-world applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0196",
+  "title": "RETRACTED: Embedded Sensors with 3D Printing Technology: Review",
+  "year": "2024",
+  "abstract": "Embedded sensors (ESs) are used in smart materials to enable continuous and permanent measurements of their structural integrity, while sensing technology involves developing sensors, sensory systems, or smart materials that monitor a wide range of properties of materials. Incorporating 3D-printed sensors into hosting structures has grown in popularity because of improved assembly processes, reduced system complexity, and lower fabrication costs. 3D-printed sensors can be embedded into structures and attached to surfaces through two methods: attaching to surfaces or embedding in 3D-printed sensors. We discussed various additive manufacturing techniques for fabricating sensors in this review. We also discussed the many strategies for manufacturing sensors using additive manufacturing, as well as how sensors are integrated into the manufacturing process. The review also explained the fundamental mechanisms used in sensors and their applications. The study demonstrated that embedded 3D printing sensors facilitate the development of additive sensor materials for smart goods and the Internet of Things.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0197",
+  "title": "Evaluating GPT-4o-based Data Augmentation for Imbalanced Multiclass Sentiment Classification of GoPay Reviews Using IndoBERT-LoRA",
+  "year": "2026",
+  "abstract": "This study evaluated GPT-4o-based data augmentation for imbalanced multiclass sentiment classification of GoPay user reviews using IndoBERT-LoRA. The main problem addressed in this study was the limited representation of minority sentiment classes, particularly the neutral class, which could reduce the model’s ability to recognize all sentiment categories proportionally. The dataset consisted of 16,955 Google Play Store reviews that were manually labeled into positive, neutral, and negative classes. Two augmentation strategies were compared, namely prompt-based augmentation and fine-tuning augmentation. The generated synthetic data were evaluated using novelty, diversity, duplication, and manual validation of sampled reviews before being incorporated into the training data. The IndoBERT-LoRA model was trained under four scenarios: baseline, class weighting, prompt-based augmentation, and fine-tuning augmentation. The results showed that fine-tuning produced better lexical-level quality indicators, as indicated by more stable novelty and diversity scores and a lower duplication rate. Both augmentation strategies improved macro recall and macro F1-score compared with the baseline and class weighting scenario. The largest improvement occurred in the neutral class, where recall increased from 0.5633 to 0.7801 with prompt-based augmentation and to 0.8133 with fine-tuning augmentation. These findings indicate that GPT-4o-based augmentation improved minority-class recognition, although the improvement involved a trade-off between recall, precision, and implementation cost.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0198",
+  "title": "STARLESS'23: 2nd Workshop on Serverless computing for pervasive cloud-edge-device systems and services - Welcome and Committees *LESS 2023 welcome message",
+  "year": "2023",
+  "abstract": "After the successful kick-off of the *LESS workshop series in 2022 as a virtual event due to the lingering travel restrictions for the COVID-19 pandemic, we are very excited to host the first in-person workshop on serverless computing for pervasive cloud-edge-device systems and services. Serverless technologies have remained so far confined within the realm of cloud computing, but this is changing fast, with serverless/edgeless/deviceless paradigms being adopted more and more in decentralized and distributed systems thanks to the flexible Function-as-a-Service (FaaS) programming model and their ability to efficiently adapt to changing environments. Our ambition through *LESS 2023 is to raise awareness of serverless opportunities within pervasive computing and their associated open research challenges. We aim to lead the way for further research activities in this emerging area, with potentially high impact on the market of Internet of Things (IoT), smart cities, industrial automation, mobile health, and so on. We thank the TPC members for their timely and professional efforts in reviewing the submissions received, which resulted in a technical program with three very high quality papers covering the topics of performance evaluation, open source contributions, and Artificial Intelligence. Moreover, we would like to thank Gregor Schiele for his inspiring keynote speech on adaptive AI in holistic pervasive systems, as well as Gabriele Russo Russo for anticipating his main conference talk on decentralized edge-cloud FaaS in a meet-the-author session. We also thank the PerCom organizers and the PerCom workshop co-chairs, Carlo Vallati and Qi Han, for their continued support and assistance in all the organization phases. Finally, we thank all the authors and workshop attendees for their contributions and participation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0199",
+  "title": "Rapid Estimation of the Entropy of Long Codes with Dependent Bits on Low-Power, Low-Bit Microcontrollers (Review of Literature on Reducing the Dimension of a Problem)",
+  "year": "2020",
+  "abstract": "Introduction. The aim of the work is to reduce the requirements for bit depth and processor performance of a trusted computing environment when estimating the entropy of long codes with dependent bits.\nMaterials and Methods. Testing procedures recommended by the Russia national standards are used. The transition from the analysis of ordinary long codes to Hamming distances between random Alien codes and the Own image code is used.\nResults. It is shown that the transition to the presentation of data by the normal distribution law in the space of Hamming distances makes the relationship between mathematical expectation and entropy almost linear. Low-bit tables are constructed that relate the first statistical moments of the distribution of Hamming distances to the entropy of long codes. In calculations, the correlation index of the digits of the studied codes can vary widely.\nDiscussion and Conclusion. The calculation of the mathematical expectation and standard deviation is easily feasible on low-discharge low-power microcontrollers. The use of the synthesized tables makes it possible to pass easily from the lower statistical moments of the Hamming distances to the entropy of long codes. The task of calculating entropy is accelerated many times in comparison with Shannon’s procedures and becomes feasible on cheap low-bit processors.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0200",
+  "title": "BLU-SynTra: Distinguish Synergies and Trade-offs between Sustainable Development Goals Using Small Language Models",
+  "year": "2024",
+  "abstract": "Since the United Nations defined the Sustainable Development Goals, studies have shown that these goals are interlinked in different ways. The concept of SDG interlinkages refers to the complex network of interactions existing within and between the SDGs themselves. These interactions are referred to as synergies and trade-offs. Synergies represent positive interactions where the progress of one SDG contributes positively to the progress of another. On the other hand, trade-offs are negative interactions where the progress of one SDG has a negative impact on another. However, evaluating such interlinkages is a complex task, not only because of the multidimensional nature of SDGs, but also because it is highly exposed to personal interpretation bias and technical limitations. Recent studies are mainly based on expert judgements, literature reviews, sentiment or data analysis. To remedy these limitations we propose the use of Small Language Models in addition of an advanced Retrieval Augmented Generation to distinguish synergies and trade-offs between SDGs. In order to validate our results, we have drawn on the study carried out by the European Commission’s Joint Research Centre which provides a database of interlinkages labelled according to the presence of synergies or trade-offs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

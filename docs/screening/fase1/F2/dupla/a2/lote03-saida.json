@@ -1,0 +1,533 @@
+[
+ {
+  "id": "F0678",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This survey reviews recent advances from 2021 to 2025 in automatic fetal head and brain segmentation and biometric estimation."
+   },
+   {
+    "item": "objeto",
+    "texto": "Accurate fetal biometric parameters, such as head circumference, biparietal diameter, and occipitofrontal diameter of the head are important for prenatal diagnosis and growth tracking."
+   },
+   {
+    "item": "modelos",
+    "texto": "convolutional neural networks, encoder decoder architectures, and hybrid attention mechanisms have greatly increased segmentation accuracy and speed."
+   },
+   {
+    "item": "tecnica",
+    "texto": "Different imaging methods and problem formulations are covered, including real time light weight models, advanced U net and Atrous pooling variants, multi-task methods for standard plane identification, Spatio temporal models for videos and volumes, and classical shape constrained postprocessing."
+   },
+   {
+    "item": "pratica",
+    "texto": "This study also summarizes dataset features, evaluation metrics, and benchmark results, highlighting the lack of a standard ultrasound dataset as a key limitation."
+   }
+  ]
+ },
+ {
+  "id": "F0720",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper classifies the existing mainstream research results from three aspect: computation resource, communication resource and memory resource, reviews the research hotspots of each research field"
+   },
+   {
+    "item": "objeto",
+    "texto": "resource efficiency in the system design has become an important issue."
+   },
+   {
+    "item": "tecnica",
+    "texto": "The resources of CPSs mainly include: computation resource, communication resource and memory resource."
+   }
+  ]
+ },
+ {
+  "id": "F0688",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "Here, we conducted a systematic review of articles describing predictive models integrated into EHR systems and implemented in clinical practice."
+   },
+   {
+    "item": "objeto",
+    "texto": "Predictive analytics using electronic health record (EHR) data have rapidly advanced over the last decade."
+   },
+   {
+    "item": "tecnica",
+    "texto": "The most common clinical domains of implemented predictive models were related to thrombotic disorders/anticoagulation (25%) and sepsis (16%)."
+   },
+   {
+    "item": "pratica",
+    "texto": "We obtained an initial 3393 articles for screening, from which a final set of 44 articles was included for data extraction and analysis."
+   }
+  ]
+ },
+ {
+  "id": "F0719",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "we review recent pruning techniques that target energy efficiency of convolutional neural networks."
+   },
+   {
+    "item": "objeto",
+    "texto": "Pruning, a popular model compression technique, has thus gained interest due to its ability to effectively reduce storage and computational costs."
+   },
+   {
+    "item": "modelos",
+    "texto": "Convolutional Neural Networks (CNNs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "We categorize these techniques into various groups, including structured/unstructured, specialized hardware/general-purpose hardware, datasets, energy efficiency metrics, iterative/one-shot, and more."
+   }
+  ]
+ },
+ {
+  "id": "F0759",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "objeto",
+    "texto": "Micro-lip-reading is an emerging research area that aims to recognize speech by observing subtle and fast lip movements."
+   },
+   {
+    "item": "tipo",
+    "texto": "[título] A Review on Event-Augmented, Audio-Visual Distillation for MicroLip-Reading with Tiny Transformers"
+   },
+   {
+    "item": "modelos",
+    "texto": "tiny transformer architectures allow for efficient modeling of temporal and spatial patterns across audio, RGB, and event modalities, while knowledge distillation techniques help transfer information from large models to smaller, edge-friendly models"
+   },
+   {
+    "item": "tecnica",
+    "texto": "This review presents an overview of event-based and audiovisual fusion approaches, benchmark datasets, evaluation metrics, and practical deployment strategies."
+   }
+  ]
+ },
+ {
+  "id": "F0753",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This research investigates recent developments in Deep Learning (DL) and Explainable Artificial Intelligence (XAI) for skin cancer diagnosis striking a balance between model accuracy and clinical interpretability."
+   },
+   {
+    "item": "objeto",
+    "texto": "The large number of skin cancer cases need early detection with accuracy to reduce mortality rate."
+   },
+   {
+    "item": "modelos",
+    "texto": "Well known DL models like ResNet50, DenseNet121, InceptionV3, EfficientNetB0, and hybrid architectures including HRNet-XGB are studied and compared."
+   },
+   {
+    "item": "tecnica",
+    "texto": "this research suggests future paths including multimodal data integration, clinician-in-the-loop evaluation, and mobile-compatible deployments."
+   }
+  ]
+ },
+ {
+  "id": "F0731",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "the objective of the present review is to investigate how AR visualization can integrate data from Internet of Things devices, unmanned aerial vehicles, farming machinery, robotics, edge computing platforms and artificial intelligence (AI) to enable their coordinated, field-level deployment in precision agriculture."
+   },
+   {
+    "item": "objeto",
+    "texto": "The integration of augmented reality (AR) into embedded agricultural systems is reshaping precision farming by enabling real-time visualizations and interactions with complex environmental data."
+   },
+   {
+    "item": "tecnica",
+    "texto": "The article offers three primary contributions: a structured synthesis of AR applications across embedded systems, a conceptual architecture for AR-centered smart farming and an integrated analysis of research gaps and future directions."
+   },
+   {
+    "item": "pratica",
+    "texto": "Key research gaps include the lack of studies addressing model interpretability and system interoperability, insufficient exploration of real-time edge AI processing and gesture-based AR controls, and the absence of globally representative data sets for AI image analysis."
+   }
+  ]
+ },
+ {
+  "id": "F0769",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This review systematically bridges the gap between algorithmic innovation and hardware-aware deployment by presenting a critical analysis spanning three interconnected dimensions"
+   },
+   {
+    "item": "objeto",
+    "texto": "Automated skin lesion segmentation via deep learning has achieved remarkable accuracy in controlled laboratory settings, yet its clinical translation to point-of-care (PoC) edge devices remains fundamentally constrained by the computational demands of state-of-the-art architectures."
+   },
+   {
+    "item": "modelos",
+    "texto": "architectural evolution from convolutional neural networks (CNNs) through Vision Transformers to emerging linear-complexity State Space Models (e.g., Mamba)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "mathematical formalisation of lightweighting-induced precision degradation and its compensation via knowledge distillation, structural reparameterisation, and frequency-domain enhancement"
+   },
+   {
+    "item": "pratica",
+    "texto": "empirical deployment profiling across heterogeneous edge platforms including NVIDIA Jetson, Intel OpenVINO, and mobile processors."
+   }
+  ]
+ },
+ {
+  "id": "F0784",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This study introduces a framework that uses machine learning (ML) to predictably boost pipeline performance."
+   },
+   {
+    "item": "objeto",
+    "texto": "Continuous integration and deployment (CI/CD) pipelines, which are infamous for their slowness, frequent failures, and protracted build times, are a crucial part of the modern software development process."
+   },
+   {
+    "item": "tecnica",
+    "texto": "A Support Vector Machine technique for pipeline failure prediction will be developed as part of this effort. The method will also optimize resource allocation to decrease build times"
+   },
+   {
+    "item": "pratica",
+    "texto": "The results demonstrate that the framework optimizes memory utilization and CPU, reduces build time by 33% and declines test success and failure rates by 60%."
+   }
+  ]
+ },
+ {
+  "id": "F0766",
+  "acesso": "sem acesso",
+  "frases": []
+ },
+ {
+  "id": "F0824",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This research examined how serverless architecture impact the scalability, cost effectiveness and elasticity of web services"
+   },
+   {
+    "item": "objeto",
+    "texto": "serverless computing is transforming the cloud architecture by allowing developer to develop and run applications excluding handling physical infrastructure."
+   },
+   {
+    "item": "tecnica",
+    "texto": "It also sites key hurdles such as dependency on particular vendors, delay in responding, and data security concerns"
+   },
+   {
+    "item": "pratica",
+    "texto": "the study employs a structured and systematic review methodology."
+   }
+  ]
+ },
+ {
+  "id": "F0805",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper focuses on investigating lightweight convolutional neural networks applied to ultrasound signal classification."
+   },
+   {
+    "item": "objeto",
+    "texto": "Ultrasound signal processing plays an important role in medical image analysis."
+   },
+   {
+    "item": "modelos",
+    "texto": "lightweight convolutional neural networks"
+   },
+   {
+    "item": "tecnica",
+    "texto": "this paper provides a detailed review of lightweight algorithms from two perspectives: model compression and operational optimization."
+   },
+   {
+    "item": "pratica",
+    "texto": "The experimental results of some classical models and algorithms on the ImageNet dataset are summarized."
+   }
+  ]
+ },
+ {
+  "id": "F0808",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "we propose HydraInfer, an efficient MLLM inference system that adopts a Hybrid Encode-Prefill-Decode (EPD) Disaggregation architecture."
+   },
+   {
+    "item": "objeto",
+    "texto": "Multimodal Large Language Models (MLLMs) have been rapidly advancing, enabling cross-modal understanding and generation"
+   },
+   {
+    "item": "modelos",
+    "texto": "Multimodal Large Language Models (MLLMs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "By scheduling the three stages - encode, prefill, and decode - onto separate heterogeneous inference instances, the system flexibly reallocates resources across stages"
+   },
+   {
+    "item": "pratica",
+    "texto": "Experiments under real multimodal inference workloads demonstrate that HydraInfer can achieve up to 4x higher inference throughput compared to state-of-the-art systems (e.g., vLLM)"
+   }
+  ]
+ },
+ {
+  "id": "F0850",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper presents a comprehensive survey on EI from four aspects"
+   },
+   {
+    "item": "objeto",
+    "texto": "Recent years have seen deployments of increasingly complex artificial intelligent (AI) and machine learning techniques being implemented on cloud server architectures and embedded into edge computing devices for supporting Internet of Things (IoT) and mobile applications."
+   },
+   {
+    "item": "tecnica",
+    "texto": "the various techniques for EI are categorized and discussed from the system, algorithm, architecture and technology levels"
+   },
+   {
+    "item": "pratica",
+    "texto": "This paper aims to give useful insights and future prospects for the developments in this area of study"
+   }
+  ]
+ },
+ {
+  "id": "F0857",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This systematic literature review synthesizes peer-reviewed studies on lightweight YOLO models published from 2016 to 2025."
+   },
+   {
+    "item": "objeto",
+    "texto": "Object detection is a core task in computer vision, and the You Only Look Once (YOLO) family remains a preferred choice for real-time applications."
+   },
+   {
+    "item": "modelos",
+    "texto": "lightweight YOLO variants"
+   },
+   {
+    "item": "tecnica",
+    "texto": "We classify primary lightweighting strategies—pruning, quantization, knowledge distillation, and lightweight network architectures—and evaluate their trade-offs in accuracy, latency, model size, and energy use."
+   },
+   {
+    "item": "pratica",
+    "texto": "We also examine application domains, dataset effects, common evaluation metrics, and deployment platforms (e.g., Jetson, Raspberry Pi, microcontrollers, Field-Programmable Gate Arrays (FPGAs))"
+   }
+  ]
+ },
+ {
+  "id": "F0841",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper reviews a novel LLM-powered pipeline for generating resumes that are dynamically tailored to job descriptions and optimised for Applicant Tracking Systems (ATS)."
+   },
+   {
+    "item": "objeto",
+    "texto": "most resumes are filtered before reaching a recruiter, primarily because of the rigid keyword-matching and formatting rules enforced by ATS algorithms."
+   },
+   {
+    "item": "modelos",
+    "texto": "LLM-powered"
+   },
+   {
+    "item": "tecnica",
+    "texto": "By combining structured parsing, semantic alignment, and iterative scoring, our system overcomes these limitations and generates highly customised, ATS-friendly resumes"
+   },
+   {
+    "item": "pratica",
+    "texto": "We demonstrate, through token-based and latent-space evaluations, that our optimised resumes nearly double their effectiveness compared to unmodified versions, improving alignment scores on average by 85%."
+   }
+  ]
+ },
+ {
+  "id": "F0875",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "we propose FineST, a scheduling framework for serving DNNs with fine-grained spatio-temporal sharing of GPU inference servers."
+   },
+   {
+    "item": "objeto",
+    "texto": "Deep Neural Networks (DNNs) are commonly deployed as online inference services."
+   },
+   {
+    "item": "modelos",
+    "texto": "Deep Neural Networks (DNNs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "To maximize GPU utilization, FineST allocates intra-GPU computing resources from both spatial and temporal dimensions across DNNs in a cost-effective way, while predicting interference overheads under diverse consolidated executions for controlling SLO violation rates."
+   },
+   {
+    "item": "pratica",
+    "texto": "Compared to a state-of-the-art work, FineST improves the peak throughput of serving heterogeneous DNNsby up to 64.7% under SLO constraints."
+   }
+  ]
+ },
+ {
+  "id": "F0920",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "To support scalable review practices, we evaluated the extent to which small language models (SLMs; < 1.5B parameters) can assist with title and abstract screening for a large spHRI systematic review."
+   },
+   {
+    "item": "objeto",
+    "texto": "Social-physical human-robot interaction (spHRI) has grown rapidly across robotics, human-computer interaction, human-robot interaction, and haptics."
+   },
+   {
+    "item": "modelos",
+    "texto": "small language models (SLMs; < 1.5B parameters)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "fragmented terminology and inconsistent methodologies make systematic synthesis difficult."
+   },
+   {
+    "item": "pratica",
+    "texto": "The combined SLM ensemble identified 39 papers reviewers missed, representing 10.29% of the final relevant dataset."
+   }
+  ]
+ },
+ {
+  "id": "F0889",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This article comprehensively reviews embedded systems technology applied to electrical machines."
+   },
+   {
+    "item": "objeto",
+    "texto": "electrical machines have been garnering increased attention due to their numerous advantages, leading to the evolution of various high-performance control techniques."
+   },
+   {
+    "item": "tecnica",
+    "texto": "This work contributes to the state of the art in embedded systems for power electronic converters and control systems for electrical drives."
+   }
+  ]
+ },
+ {
+  "id": "F0904",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "In this paper, we present a comprehensive review of ultrasound clutter suppression techniques and exploit the feasibility of low-rank and sparse decomposition schemes in ultrasound clutter suppression."
+   },
+   {
+    "item": "objeto",
+    "texto": "Vessel diseases are often accompanied by abnormalities related to vascular shape and size."
+   },
+   {
+    "item": "tecnica",
+    "texto": "A potential solution to these issues is using decomposition into low-rank and sparse matrices (DLSM) framework."
+   },
+   {
+    "item": "pratica",
+    "texto": "We conduct this review study by adapting 106 DLSM algorithms and validating them against simulation, phantom, and in vivo rat datasets."
+   }
+  ]
+ },
+ {
+  "id": "F0955",
+  "acesso": "sem acesso",
+  "frases": []
+ },
+ {
+  "id": "F0935",
+  "acesso": "sem acesso",
+  "frases": []
+ },
+ {
+  "id": "F0950",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "This paper presents a concise review and unified discussion of Gaussian-based sparseview reconstruction methods from the perspective of energyefficient and sustainable AI."
+   },
+   {
+    "item": "objeto",
+    "texto": "Neural 3D scene representation methods have enabled significant advances in photorealistic reconstruction and novel view synthesis, but often at the cost of high computational and energy demands."
+   },
+   {
+    "item": "modelos",
+    "texto": "3D Gaussian Splatting (3DGS) has recently emerged as an efficient alternative that replaces implicit neural fields with explicit Gaussian primitives and rasterization-style rendering"
+   },
+   {
+    "item": "tecnica",
+    "texto": "recent extensions such as Few-Shot Gaussian Splatting (FSGS) and Co-Regularized Gaussian Splatting (CoR-GS) introduce principled strategies for initialization, densification, pruning, and supervision that improve stability without reintroducing computationally expensive neural rendering."
+   }
+  ]
+ },
+ {
+  "id": "F0947",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "We attempt to address this question by conducting a meta-analysis surveying more than 150 prompting-related papers from leading NLP and AI conferences from 2022 to 2025"
+   },
+   {
+    "item": "objeto",
+    "texto": "prompting has emerged as a decisive component."
+   },
+   {
+    "item": "modelos",
+    "texto": "large language models (LLMs)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "We propose a property- and human-centric framework for evaluating prompt quality, encompassing 21 properties categorized into six dimensions."
+   },
+   {
+    "item": "pratica",
+    "texto": "we analyze correlations among properties in high-quality natural language prompts, deriving prompting recommendations."
+   }
+  ]
+ },
+ {
+  "id": "F0961",
+  "acesso": "ok",
+  "frases": [
+   {
+    "item": "tipo",
+    "texto": "this article presents a comprehensive survey of NMF, focusing on its applications in both feature extraction and feature selection."
+   },
+   {
+    "item": "objeto",
+    "texto": "Dimensionality Reduction plays a pivotal role in improving feature learning accuracy and reducing training time by eliminating redundant features, noise, and irrelevant data."
+   },
+   {
+    "item": "modelos",
+    "texto": "Nonnegative Matrix Factorization (NMF)"
+   },
+   {
+    "item": "tecnica",
+    "texto": "We propose a novel classification scheme for dimensionality reduction to enhance understanding of its core principles."
+   },
+   {
+    "item": "pratica",
+    "texto": "we delve into a thorough summary of diverse NMF approaches used for feature extraction and selection."
+   }
+  ]
+ }
+]

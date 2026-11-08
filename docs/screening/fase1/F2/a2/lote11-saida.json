@@ -1,0 +1,258 @@
+﻿[
+  {
+    "id": "F0401",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "This work reviews research around an alternative approach to machine learning known as federated learning"},
+      {"item": "tipo", "texto": "This work reviews research"},
+      {"item": "tecnica", "texto": "privacy preserving methods applied to federated learning"}
+    ]
+  },
+  {
+    "id": "F0403",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Predicting road users' future trajectories remains an active research challenge"},
+      {"item": "tipo", "texto": "This paper presents a comparative and experimental review of state-of-the-art vehicle TP models"},
+      {"item": "tecnica", "texto": "we evaluate representative approaches w.r.t the taxonomy in terms of accuracy, model complexity, computational performance, and real-time feasibility"},
+      {"item": "pratica", "texto": "we evaluate representative approaches w.r.t the taxonomy in terms of accuracy, model complexity, computational performance, and real-time feasibility across a high-performance architecture and an embedded architecture"}
+    ]
+  },
+  {
+    "id": "F0404",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "EVA pipelines, composed of deep neural networks (DNNs), typically demand efficient inference serving under stringent latency requirements"},
+      {"item": "tipo", "texto": "we introduce OctopInf, a novel resource-efficient and workload-aware inference serving system"},
+      {"item": "modelos", "texto": "deep neural networks (DNNs)"},
+      {"item": "tecnica", "texto": "fine-grained resource allocation, adaptive batching, and workload balancing"},
+      {"item": "pratica", "texto": "Extensive evaluations on a real-world testbed"}
+    ]
+  },
+  {
+    "id": "F0406",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Event detection classifies unlabeled sentences into event labels"},
+      {"item": "tipo", "texto": "we investigate few-shot event detection in this paper and propose TaLeM"},
+      {"item": "tecnica", "texto": "taxonomy-aware self-supervised learning framework (TaSeLF) and the taxonomy-aware prototypical networks (TaPN)"},
+      {"item": "pratica", "texto": "Extensive experiments in the four types of meta tasks"}
+    ]
+  },
+  {
+    "id": "F0407",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions"},
+      {"item": "tipo", "texto": "we proposed a novel framework topic2features (T2F)"},
+      {"item": "tecnica", "texto": "leveraged unsupervised topic modelling LDA (Latent dirichlet allocation)"},
+      {"item": "pratica", "texto": "we did careful evaluation on two types of datasets"}
+    ]
+  },
+  {
+    "id": "F0408",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Deep reinforcement learning has achieved impressive results in recent years; yet, it is still severely troubled by environments showcasing sparse rewards"},
+      {"item": "tipo", "texto": "the present work puts together a literature compilation of such environmental features"},
+      {"item": "tecnica", "texto": "environmental features, covering particularly those that have been taken advantage of and those that continue to pose a challenge"}
+    ]
+  },
+  {
+    "id": "F0409",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Low-Rank Adaptation (LoRA) has emerged as an efficient and practical solution for style-specific fine-tuning within Latent Diffusion Models (LDMs)"},
+      {"item": "tipo", "texto": "This paper reviews the underlying mechanism of LoRA"},
+      {"item": "modelos", "texto": "Denoising Diffusion Probabilistic Models (DDPMs), Stable Diffusion, Latent Diffusion Models (LDMs)"},
+      {"item": "tecnica", "texto": "low-rank updates interact with attention layers to encode stylistic features"}
+    ]
+  },
+  {
+    "id": "F0410",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0413",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0415",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Data mining techniques and learning algorithms are utilised to discover knowledge from data"},
+      {"item": "tipo", "texto": "This work presents a systematic review of the studies in the field of BIM-embedded knowledge discovery"},
+      {"item": "tecnica", "texto": "The K-means algorithm was also deployed to cluster similar features"}
+    ]
+  },
+  {
+    "id": "F0416",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "In Large Language Model (LLM) inference, the output length of an LLM request is typically regarded as not known a priori"},
+      {"item": "tipo", "texto": "we develop a novel scheduler for LLM inference and serving"},
+      {"item": "modelos", "texto": "Large Language Model (LLM)"},
+      {"item": "tecnica", "texto": "learning to rank"},
+      {"item": "pratica", "texto": "Our code is available at https://github.com/hao-ai-lab/vllm-ltr.git"}
+    ]
+  },
+  {
+    "id": "F0417",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction"},
+      {"item": "tipo", "texto": "this paper presents a comprehensive survey of NMF"},
+      {"item": "tecnica", "texto": "diverse NMF approaches used for feature extraction and selection"}
+    ]
+  },
+  {
+    "id": "F0419",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Convolutional neural networks (CNNs) have emerged as powerful artificial intelligence tools for medical image analysis"},
+      {"item": "tipo", "texto": "This review aimed to critically map the available evidence regarding convolutional neural networks for medical imaging"},
+      {"item": "modelos", "texto": "Convolutional neural networks (CNNs)"},
+      {"item": "tecnica", "texto": "CNN architectures, diagnostic performance, and deployment challenges"},
+      {"item": "pratica", "texto": "A total of 18 studies met the inclusion criteria"}
+    ]
+  },
+  {
+    "id": "F0420",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Weakly supervised semantic segmentation (WSSS) based on image-level class labels has become a new research hotspot"},
+      {"item": "tipo", "texto": "In this paper, the WSSS algorithms with image-level class labels are classified and sorted out"},
+      {"item": "tecnica", "texto": "seed generation and mask refinement"}
+    ]
+  },
+  {
+    "id": "F0421",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "This study proposes a self-distillation framework based on XLM-RoBERTa-base for binary sentiment analysis"},
+      {"item": "tipo", "texto": "This study proposes a self-distillation framework"},
+      {"item": "modelos", "texto": "XLM-RoBERTa-base"},
+      {"item": "tecnica", "texto": "high-temperature soft-label transfer, feature-level representation alignment, and focal-loss-based class weighting"}
+    ]
+  },
+  {
+    "id": "F0422",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Evasive answers avoid, obscure, or reframe the question asked"},
+      {"item": "tipo", "texto": "We introduce the task of evasive answer detection in financial Q&A and propose a multi-level taxonomy"},
+      {"item": "tecnica", "texto": "simple, inter-pretable baselines (surface cues, hedge detection, tense, and embedding alignment)"}
+    ]
+  },
+  {
+    "id": "F0423",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0424",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Reasoning segmentation requires localizing targets based on complex, implicit queries"},
+      {"item": "tipo", "texto": "we propose GEAR-Seg (Grounded Explainable Agent for Reasoning Segmentation)"},
+      {"item": "modelos", "texto": "Large Language Model (LLM)"},
+      {"item": "tecnica", "texto": "translating visual pixels into dense, attribute-rich text"},
+      {"item": "pratica", "texto": "we construct GEAR-131K, a massive benchmark (over 38k images, 656k QA-mask pairs)"}
+    ]
+  },
+  {
+    "id": "F0425",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "image classification has become a current research hotspot"},
+      {"item": "tipo", "texto": "This paper reviews the current research status of image classification models"},
+      {"item": "modelos", "texto": "DenseNet-201, Xception, MobileNetV3-Small and ResNet-50 models"},
+      {"item": "tecnica", "texto": "Convolutional Neural Network, Recurrent Neural Networks and Long Short-Term Memory"}
+    ]
+  },
+  {
+    "id": "F0426",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0427",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0429",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "The first part of the paper briefly introduces the automatic speech recognition (ASR) technology"},
+      {"item": "tipo", "texto": "The first part of the paper briefly introduces the automatic speech recognition (ASR) technology, mainly about its development status"},
+      {"item": "tecnica", "texto": "The second part summarizes the current technical bottlenecks and related solutions"}
+    ]
+  },
+  {
+    "id": "F0431",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "researchers have developed many recommendation systems for online products"},
+      {"item": "tipo", "texto": "we survey the learning-based methods for solving the cold-start problem"},
+      {"item": "tecnica", "texto": "cold-start problem in a recommendation, social recommendation, and data sparsity"}
+    ]
+  },
+  {
+    "id": "F0432",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Nonnegative Matrix Factorization (NMF) has acquired a relevant role in the panorama of knowledge extraction"},
+      {"item": "tipo", "texto": "This paper aims to present the state-of-the-art on NMF initialization schemes"},
+      {"item": "tecnica", "texto": "initialization methods affect convergence behaviour, the quality of the final solution, and NMF performance"}
+    ]
+  },
+  {
+    "id": "F0433",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "The accelerated use of the Internet of Things (IoT) and embedded systems has influenced modern agriculture"},
+      {"item": "tipo", "texto": "This paper presents a systematic review of IoT and embedded system applications in smart agriculture published between 2021 and 2025"},
+      {"item": "tecnica", "texto": "sensing technologies, communication protocols, cloud-based analytics, and intelligent automation"}
+    ]
+  },
+  {
+    "id": "F0435",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Depth completion aims at predicting dense pixel-wise depth from an extremely sparse map"},
+      {"item": "tipo", "texto": "we provide a comprehensive literature review"},
+      {"item": "tecnica", "texto": "design aspects of network architectures, loss functions, benchmark datasets, and learning strategies"}
+    ]
+  },
+  {
+    "id": "F0437",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "AI-based sensing at wireless edge devices has the potential to significantly enhance Artificial Intelligence (AI) applications"},
+      {"item": "tipo", "texto": "we propose a novel framework for privacy-preserving AI-based sensing"},
+      {"item": "tecnica", "texto": "devices apply transformations of extracted features before transmission"}
+    ]
+  },
+  {
+    "id": "F0439",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "This paper presents TAPA-ICL, a novel in-context learning (ICL) framework for few/zero-shot symbolic music understanding task"},
+      {"item": "tipo", "texto": "This paper presents TAPA-ICL, a novel in-context learning (ICL) framework"},
+      {"item": "modelos", "texto": "large language models (LLMs)"},
+      {"item": "tecnica", "texto": "taxonomy-aware prompt augmentation (TAPA) and structured chain-of-thought (CoT) prompts"}
+    ]
+  },
+  {
+    "id": "F0440",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time photorealistic novel view synthesis"},
+      {"item": "tipo", "texto": "This paper presents a comprehensive review of the major methodological directions developed to overcome sparse-view limitations"},
+      {"item": "tecnica", "texto": "enhance initialization through stereo fusion, regulate Gaussian density via guided insertion or pruning, augment supervision using synthesized pseudo views"}
+    ]
+  }
+]

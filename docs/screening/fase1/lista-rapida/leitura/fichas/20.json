@@ -1,0 +1,31 @@
+{"id": "20", "titulo": "Optimal Brain Damage", "ano": 1989,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "Abstract; 1 Introduction; 2 Optimal Brain Damage (2.1 Computing the second derivatives; 2.2 The recipe; 2.3 Experiments); 3 Conclusions and Outlook; referências", "paginas": "598-605 (todas, artigo completo de 8 páginas)"},
+ "resumo": "O artigo propõe o Optimal Brain Damage (OBD), um critério para decidir quais pesos remover de uma rede neural já treinada, baseado na segunda derivada (Hessiana) da função objetivo em vez do valor absoluto do peso. Os autores argumentam que magnitude não é um bom proxy de importância e derivam uma medida de saliência a partir de uma aproximação de Taylor de segunda ordem, com três simplificações (diagonal, extrema, quadrática) que tornam o cálculo tratável. A receita final é um laço de seis passos: treinar, calcular a Hessiana diagonal, calcular a saliência de cada peso, remover os de menor saliência, retreinar e iterar. Em uma rede de reconhecimento de dígitos manuscritos (2578 parâmetros), o OBD manteve o desempenho removendo até 60% dos parâmetros após retreino, superando a remoção por magnitude e por sorteio aleatório, e usado interativamente permitiu remover uma camada inteira reduzindo os parâmetros pela metade. O trabalho é curto e específico de método, não organiza a área nem discute arquiteturas Transformer, mas fundou o critério de saliência por segunda ordem para poda, retomado décadas depois em poda de LLMs.",
+ "perguntas": {
+  "P1": {"r": "não", "por": "não há taxonomia da área; cita técnicas concorrentes (weight decay, VC dimension, MDL) só para contrastar com a proposta própria (Seção 1, p.598-600)."},
+  "P2": {"r": "sim", "por": "explica o mecanismo por trás da saliência (Taylor de 2ª ordem, Hessiana diagonal) e justifica cada aproximação (diagonal, extrema, quadrática) na Seção 2, p.600-601."},
+  "P3": {"r": "parcial", "por": "situa a proposta como evolução da poda por magnitude e weight decay (Seção 1, p.599), mas não narra a história da área de poda como um todo."},
+  "P6": {"r": "sim", "por": "é o artigo fundador da linha de poda por saliência via informação de segunda ordem (precursor do Optimal Brain Surgeon), dentro da divisão poda e esparsidade."},
+  "P4a": {"r": "parcial", "por": "dá um algoritmo reproduzível de 6 passos (Seção 2.2, p.602), mas não é ferramenta, código, sistema ou benchmark padronizado."},
+  "P4b": {"r": "não", "por": "não trata de destilação de conhecimento em nenhum ponto do texto."},
+  "V": {"r": "sim", "por": "define saliência, Hessiana diagonal e as três aproximações com precisão matemática (Seção 2, p.600-602)."},
+  "A": {"r": "não", "por": "rede pré-Transformer, feedforward de pesos compartilhados para dígitos manuscritos (1989); mostra o estado da área muito antes da era dos LLMs."},
+  "R": {"r": "não", "por": "não discute encoder/decoder nem Transformer x CNN/RNN (o Transformer não existia); trabalha sobre uma rede feedforward de pesos compartilhados (proto-CNN), sem comparar famílias arquiteturais."}
+ },
+ "termos_chave": ["saliência (saliency)", "Hessiana diagonal", "aproximação diagonal", "aproximação extrema", "aproximação quadrática", "aproximação de Levenberg-Marquardt", "poda por magnitude (magnitude-based pruning)", "complexidade de rede / MDL"],
+ "pre_requisitos": ["cálculo multivariável (série de Taylor, Hessiana)", "backpropagation", "treino supervisionado com erro quadrático médio (MSE)", "noção de overfitting e generalização", "redes de pesos compartilhados (proto-CNN)"],
+ "nivel": "intermediário",
+ "nivel_por": "o artigo é curto (8 páginas) e a receita final (§2.2) cabe em 6 passos simples, mas a derivação da saliência (Taylor de 2ª ordem, Hessiana, aproximações) exige cálculo que um iniciante ainda não domina.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Abstract e Introdução (p.598-600, motivação e contraste com poda por magnitude) + Seção 2.2 'The recipe' (p.602, o algoritmo em 6 passos) + Seção 3 Conclusions and Outlook (p.604); pode pular a derivação da Hessiana em 2.1 (p.601-602) se o objetivo for só aplicar o método.",
+ "acrescimo": "É a origem datada (1989) do critério de saliência por segunda derivada para poda, o contraponto teórico direto à poda por magnitude que obras posteriores do bloco B usam, refinam ou (no caso de LLMs) reaproximam por custo computacional. Nenhuma outra obra da lista discute a derivação de Taylor/Hessiana para justificar o que remover.",
+ "sobreposicao": ["Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding", "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks", "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot", "Pruning and Quantization for Deep Neural Network Acceleration: A Survey"],
+ "bloco_atual": "B fundadores",
+ "bloco_sugerido": "B fundadores",
+ "veredito": "manter",
+ "veredito_por": "é o artigo fundador citável da linha de poda por saliência de segunda ordem (precursor do Optimal Brain Surgeon e, por linhagem conceitual, de métodos de poda de LLM como SparseGPT que também aproximam informação de Hessiana); cumpre exatamente o papel de 'fundador' do bloco B para a divisão poda e esparsidade.",
+ "substituto_sugerido": "", "confianca": "alta",
+ "citacoes": [
+  {"texto": "One of the main points of this paper is to move beyond the approximation that \"magnitude equals saliency\"", "pagina": "600"},
+  {"texto": "We emphasize that the starting point was a state-of-the-art network.", "pagina": "604"}
+ ]}

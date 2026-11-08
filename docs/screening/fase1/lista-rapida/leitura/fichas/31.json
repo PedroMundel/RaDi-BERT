@@ -1,0 +1,31 @@
+{"id": "31", "titulo": "Reformer: The Efficient Transformer", "ano": 2020,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "abstract; introdução; seção 2 (LSH attention, incl. 2.1 tarefa sintética); seção 3 (Reversible Transformer); tabela 3 (complexidade); seção 4 (related work); seção 5 (experimentos); seção 6 (conclusão); apêndice A (multi-round LSH)", "paginas": "1-12 (documento inteiro, arXiv 2001.04451)"},
+ "resumo": "O paper propõe o Reformer, que ataca o custo de memória e tempo do Transformer em sequências longas com duas ideias combináveis: atenção por locality-sensitive hashing (LSH), que troca a comparação de todo par query-chave (O(L^2)) por comparação só dentro do mesmo bucket de hash (O(L log L)); e camadas residuais reversíveis, que eliminam a necessidade de guardar ativações de cada camada para o backward, reduzindo o custo de memória de N camadas para o de uma só. Uma terceira técnica, chunking do feed-forward, ataca separadamente o custo da dimensão interna dessas camadas. Os autores mostram, em tarefa sintética, em modelagem de linguagem em enwik8 com 64 mil tokens, em geração de imagem (imagenet64) e em tradução WMT En-De, que o Reformer chega perto do Transformer cheio em qualidade com muito menos memória e mais velocidade em sequências longas. O paper é um artigo de método, não de mapeamento: não organiza a área em taxonomia, mas explica o mecanismo (por que LSH aproxima bem a atenção, por que reversibilidade não muda o resultado) com ablações dedicadas para cada peça.",
+ "perguntas": {
+   "P1": {"r": "não", "por": "é um artigo de método único (LSH attention + camadas reversíveis), não organiza a área em categorias; a única tabela comparativa (Tabela 1 e 3, p.5 e 7) é de complexidade de variantes próprias, não uma taxonomia da área."},
+   "P2": {"r": "sim", "por": "explica o mecanismo passo a passo (por que softmax é dominado pelos maiores termos, por que LSH aproxima vizinhos próximos, por que reversibilidade permite reconstruir ativações) e isola cada técnica em ablação própria na seção 5 (p.8), não só compara números finais."},
+   "P3": {"r": "parcial", "por": "a seção 4 Related Work (p.7) situa o Reformer frente a sparse Transformer, product-key attention e memory networks, mas é contextualização pontual, não uma narrativa da evolução da atenção eficiente."},
+   "P6": {"r": "sim", "por": "é o primeiro a aplicar LSH à atenção do Transformer, por afirmação própria (p.7: \"Locality-sensitive hashing (LSH) has, to our knowledge, not been directly applied to Transformer attention layers before\"); abre a linha de atenção esparsa por hashing dentro da divisão \"atenção e sequência eficientes\"."},
+   "P4a": {"r": "parcial", "por": "não é um guia de implantação, mas dá tabela de complexidade memória/tempo (p.5 e 7) útil para decisão de engenharia e disponibiliza código (nota de rodapé, p.8: github.com/google/trax)."},
+   "P4b": {"r": "não", "por": "não trata de destilação de conhecimento em nenhuma parte do texto."},
+   "V": {"r": "sim", "por": "define e nomeia termos próprios usados na área: LSH attention, shared-QK attention, camada reversível (RevNet), chunking, hash bucket, multi-round hashing (seções 2 e 3, p.2-7)."},
+   "A": {"r": "não", "por": "é de 2020, anterior à era dos LLMs e do foco em serving/inferência em produção (2023+); a própria atenção LSH foi pouco adotada depois, superada na prática por técnicas como FlashAttention para o mesmo problema de memória."},
+   "R": {"r": "sim", "por": "é específico da arquitetura Transformer (atenção): discute mascaramento causal para uso em decoder (p.4) e também testa o modelo encoder-decoder completo em tradução (p.8-9), então cobre tanto a família encoder quanto decoder do Transformer, mas não trata CNN/RNN."}
+ },
+ "termos_chave": ["locality-sensitive hashing (LSH)", "LSH attention", "shared-QK attention", "camada residual reversível (RevNet)", "chunking de feed-forward", "hash bucket", "multi-round hashing", "complexidade O(L log L)"],
+ "pre_requisitos": ["atenção escalada por produto interno (scaled dot-product attention)", "atenção multi-cabeça", "arquitetura Transformer (encoder-decoder)", "redes residuais e checkpointing de gradiente", "notação de complexidade assintótica (O(L^2))", "busca aproximada de vizinhos mais próximos / hashing"],
+ "nivel": "avançado", "nivel_por": "assume domínio sólido de atenção, complexidade computacional e mecânica de backpropagation; é um paper de método denso em matemática (equações 1-16), não uma introdução à área.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "abstract e introdução (p.1-2, motivação de memória) -> seção 2 LSH attention (p.2-5) -> seção 3 Reversible Transformer e tabela 3 (p.6-7) -> seção 5 experimentos (p.7-9) -> conclusão (p.10)",
+ "acrescimo": "traz o mecanismo fundador de atenção esparsa por hashing (LSH) e o truque de camadas reversíveis para cortar memória de ativações, os dois combináveis e independentes de outras técnicas de eficiência (quantização, poda, destilação). Nenhuma outra obra da lista usa hashing para aproximar atenção.",
+ "sobreposicao": [
+   "07 [A mapas] (2020) Efficient Transformers: A Survey",
+   "32 [B fundadores] (2023) Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+   "34 [B fundadores] (2022) FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness"
+ ],
+ "bloco_atual": "B fundadores", "bloco_sugerido": "B fundadores",
+ "veredito": "manter", "veredito_por": "é o paper que abriu a linha de atenção esparsa por hashing no Transformer, com mecanismo bem explicado e ablações próprias; cumpre o papel de fundador da divisão \"atenção e sequência eficientes\" ao lado de Mamba (mecanismo concorrente) e FlashAttention (mecanismo complementar).", "substituto_sugerido": "", "confianca": "alta",
+ "citacoes": [
+   {"texto": "we replace dot-product attention by one that uses locality-sensitive hashing, changing its complexity from O(L2) to O(L log L)", "pagina": "1"},
+   {"texto": "Locality-sensitive hashing (LSH) has, to our knowledge, not been directly applied to Transformer attention layers before.", "pagina": "7"}
+ ]}

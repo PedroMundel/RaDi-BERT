@@ -1,0 +1,433 @@
+[
+ {
+  "id": "F0001",
+  "title": "Diffusion Model Quantization: A Review",
+  "year": "2025",
+  "abstract": "Recent success of large text-to-image models has empirically underscored the exceptional performance of diffusion models in generative tasks. To facilitate their efficient deployment on resource-constrained edge devices, model quantization has emerged as a pivotal technique for both compression and acceleration. This survey offers a thorough review of the latest advancements in diffusion model quantization, encapsulating and analyzing the current state of the art in this rapidly advancing domain. First, we provide an overview of the key challenges encountered in the quantization of diffusion models, including those based on U-Net architectures and Diffusion Transformers (DiT). We then present a comprehensive taxonomy of prevalent quantization techniques, engaging in an in-depth discussion of their underlying principles. Subsequently, we perform a meticulous analysis of representative diffusion model quantization schemes from both qualitative and quantitative perspectives. From a quantitative standpoint, we rigorously benchmark a variety of methods using widely recognized datasets, delivering an extensive evaluation of the most recent and impactful research in the field. From a qualitative standpoint, we categorize and synthesize the effects of quantization errors, elucidating these impacts through both visual analysis and trajectory examination. In conclusion, we outline prospective avenues for future research, proposing novel directions for the quantization of generative models in practical applications. The list of related papers, corresponding codes, pre-trained models and comparison results are publicly available at the survey project homepage https://github.com/TaylorJocelyn/Diffusion-Model-Quantization.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0002",
+  "title": "A Review of On-Device Fully Neural End-to-End Automatic Speech Recognition Algorithms",
+  "year": "2020",
+  "abstract": "In this paper, we review various end-to-end automatic speech recognition algorithms and their optimization techniques for on-device applications. Conventional speech recognition systems comprise a large number of discrete components such as an acoustic model, a language model, a pronunciation model, a text-normalizer, an inverse-text normalizer, a decoder based on a Weighted Finite State Transducer (WFST), and so on. To obtain sufficiently high speech recognition accuracy with such conventional speech recognition systems, a very large language model (up to 100 GB) is usually needed. Hence, the corresponding WFST size becomes enormous, which prohibits their on-device implementation. Recently, fully neural network end-to-end speech recognition algorithms have been proposed. Examples include speech recognition systems based on Connectionist Temporal Classification (CTC), Recurrent Neural Network Transducer (RNN-T), Attention-based Encoder-Decoder models (AED), Monotonic Chunk-wise Attention (MoChA), transformer-based speech recognition systems, and so on. These fully neural network-based systems require much smaller memory footprints compared to conventional algorithms, therefore their on-device implementation has become feasible. In this paper, we review such end-to-end speech recognition models. We extensively discuss their structures, performance, and advantages compared to conventional algorithms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0003",
+  "title": "Inference Optimizations for Large Language Models: Effects, Challenges, and Practical Considerations",
+  "year": "2024",
+  "abstract": "Large language models are ubiquitous in natural language processing because they can adapt to new tasks without retraining. However, their sheer scale and complexity present unique challenges and opportunities, prompting researchers and practitioners to explore novel model training, optimization, and deployment methods. This literature review focuses on various techniques for reducing resource requirements and compressing large language models, including quantization, pruning, knowledge distillation, and architectural optimizations. The primary objective is to explore each method in-depth and highlight its unique challenges and practical applications. The discussed methods are categorized into a taxonomy that presents an overview of the optimization landscape and helps navigate it to understand the research trajectory better.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0004",
+  "title": "A survey of parameter-efficient fine-tuning techniques for audio foundation models",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0005",
+  "title": "Multimodal artificial intelligence models for liver fibrosis staging: a scoping review.",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0006",
+  "title": "Technical Review: Key concepts of health database management for public health workforce development in resource-limited settings",
+  "year": "2023",
+  "abstract": "The academic and professional technology communities recognize that data science and big data management are essential methods for handling and using data in modern society for decision-making that ultimately leads to societal improvements. These insights are applicable to the world-wide practice of public health. The purpose of this technical review is to provide the public health decision-maker with an overview of key concepts of health database management to help guide additional individual or workforce development in order to support public health practice. This discussion is organized with the following subheading: Definition: Health Data Management; Data Preparation Actions; Basic SQL Commands in Microsoft Access; and Basic Data Management Procedures. Public health workforce development efforts that include discussion and skill-building activities dealing with issues and topics in health data management could contribute to developing the public health competencies of all public health professionals, including those in resource-limited settings, for the benefit of reporting disease outbreaks and other health outcomes of interest to local public health authorities.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0007",
+  "title": "Practical Lab Monitoring System",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0008",
+  "title": "Trends of Modern Processors for AI Acceleration",
+  "year": "2021",
+  "abstract": "As Machine Learning and Artificial Intelligence (AI) technology are playing the key role in the 4th industrial revolution, tremendous amounts of researches are actively conducted to blend the technologies into our daily lives with practical applications, such as autonomous vehicles, robots, drones, AI speaker, smart phone, intelligent surveillance, etc. Most of current works rely on GPU that is not a practical solution to embedded systems and mobile platforms due to its large form factor and power consumption. Instead, low-power hardware accelerators are essential for feasible implementation and they have been investigated recently with different aspects and architectures. In this talk, the technological challenges and trends in the latest AI accelerators are reviewed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0009",
+  "title": "Enriching Security in Federated Learning and IoT - A Systematic Review",
+  "year": "2026",
+  "abstract": "In this era of ubiquitous connectivity and smart systems, combining Federated Learning (FL) and the Internet of Things (IoT) symbolizes a revolutionary trend in edge-based intelligence. FL offers an exclusive decentralized feature for machine learning wherein the data resides on IoT devices improving privacy and also minimizes the huge data exchange. Integration of FL with IoT covers wide range of applications with the involvement of real time analytics. Still there exists obstacles from this integration like attacks on IoT devices. To counteract these attacks or threats several security mechanisms have evolved with different approaches. These approaches focus on enhancing the FL-IoT environment by preserving data confidentiality or security by checking the authentication of users using IoT devices. With the advancement in the development of edge devices, maintaining the synchronization between FL and IoT is critical for achieving desirable intelligence in next generation networks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0010",
+  "title": "Toward QoS Monitoring in IoT Edge Devices Driven Healthcare—A Systematic Literature Review",
+  "year": "2023",
+  "abstract": "Smart healthcare is altering the delivery of healthcare by combining the benefits of IoT, mobile, and cloud computing. Cloud computing has tremendously helped the health industry connect healthcare facilities, caregivers, and patients for information sharing. The main drivers for implementing effective healthcare systems are low latency and faster response times. Thus, quick responses among healthcare organizations are important in general, but in an emergency, significant latency at different stakeholders might result in disastrous situations. Thus, cutting-edge approaches like edge computing and artificial intelligence (AI) can deal with such problems. A packet cannot be sent from one location to another unless the “quality of service” (QoS) specifications are met. The term QoS refers to how well a service works for users. QoS parameters like throughput, bandwidth, transmission delay, availability, jitter, latency, and packet loss are crucial in this regard. Our focus is on the individual devices present at different levels of the smart healthcare infrastructure and the QoS requirements of the healthcare system as a whole. The contribution of this paper is five-fold: first, a novel pre-SLR method for comprehensive keyword research on subject-related themes for mining pertinent research papers for quality SLR; second, SLR on QoS improvement in smart healthcare apps; third a review of several QoS techniques used in current smart healthcare apps; fourth, the examination of the most important QoS measures in contemporary smart healthcare apps; fifth, offering solutions to the problems encountered in delivering QoS in smart healthcare IoT applications to improve healthcare services.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0011",
+  "title": "A Literature Survey on Artificial Intelligence-Based Smart City Automation Using LoRa and IOT for Street Lights and Air Quality Check",
+  "year": "2022",
+  "abstract": "The LoRa technology can be installed in various smart city centres. The control of street lights in the city can be controlled as a whole in one place with the help of and also it is assisted by artificial intelligence for its automation. To guarantee the cleanliness and quality of the air and reduce pollution, smart cities have installed air quality monitoring systems in strategic locations. The technology measures the quality of the air and tests for purity.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0012",
+  "title": "Cloud-Native Infrastructure for K-12 Assessment Logistics: A Framework for Scalable Educational Systems",
+  "year": "2026",
+  "abstract": "The modern environment of the K-12 standardized assessment logistics requires a technological infrastructure that can coordinate the complex operations of the various school districts and ensure high compliance. The emergence of cloud-native systems and microservices-based architectures has revolutionized systems that overcome the limitations of legacy systems, which had difficulty in scaling, reliability, and cost-effectiveness during peak testing times. The shift to monolithic, on-prem infrastructure to distributed, cloud-enabled systems can be seen as a radical rethink of the educational assessment logistics, which make resource allocation elastic, scale automatically, and provide greater operational agility. Current evaluation systems combine continuous integration and deployment pipelines, streamlined data processing frameworks, and advanced security architectures to provide dependable, agreeable, and efficient operationalization. Regulatory policies, such as FERPA and COPPA, offer a high degree of protection to student data, which requires a thorough security control, auditing policy, and vendor management procedures. Complex monitoring tools and chaos engineering methodologies enhance operational resilience by giving visibility in real time of system health, early anomalies, and certified and approved fault tolerance. The paradigms, as well as optimization methodologies and security frameworks, assist the educational assessment organizations in the provision of equitable, timely, and compliant assessment services at lowered operational overheads and infrastructure expenses. Such modernization initiatives may assist the larger educational objective of providing the student with fair opportunities to show learning by providing reliable, accessible, and high-quality assessment experiences.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0013",
+  "title": "Synergy between Embedded and Non-Embedded Sensors in IoT Networks for Structural Health Monitoring of Concrete Structures: A Literature Review",
+  "year": "2025",
+  "abstract": "The natural aging process of civil constructions results in material degradation, which lowers the structure’s resilience and serviceability. To prevent tragic malfunctions, this natural eventuality needs to be monitored closely. While in situ, non-intrusive, periodic techniques have become more popular, however, a remote and continuous monitoring solution is still required. Structural Health Monitoring (SHM) is increasingly embraced thanks to advancements in the Internet of Things (IoT) and Artificial Intelligence (AI) being combined and infused. The main topics of this review are the foundations of SHM as a form of Non-intrusive evaluations and how it connects to the Internet of Things (IoT) for civil constructions. This paper also covers the numerous kinds of sensors that are utilized for SHM, namely embedded sensors including piezoelectric and fiber optic sensors, and non-embedded sensors such as accelerometers and strain gauges. Through case studies, the practical applications of SHM are illustrated, emphasizing its effectiveness in real-world scenarios. Additionally, this review also discusses the difficulties of the automatic damage detection of structures, and the need for innovative solutions. Ultimately, this study emphasizes the economic advantages linked to the application of SHM.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0014",
+  "title": "Queries with External Predicates",
+  "year": "2025",
+  "abstract": "Real-life query languages feature external predicates such as user-defined functions or built-in arithmetic and string operations. These predicates are often infinite, potentially leading to unsafe or non-computable queries. To overcome this, traditional languages such as SQL, put significant syntactic restrictions on the use of external predicates. These restrictions have been relaxed in a number of modern query languages, each doing it in their own way. Our goal therefore is to provide a theoretical basis for querying with external predicates. To this end, we formalize queries with external predicates based on the notion of access patterns. We develop a suitable evaluation model, based on Turing machines with oracles, and tailor the classical notion of query safety to it. Since query safety is undecidable in general, we can only produce sufficient conditions for guaranteeing safety. We do so by developing an inference system to derive safety and computability for relational algebra, first-order logic, as well as for a language that combines them both.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0015",
+  "title": "A Health-Focused Risk Taxonomy for AI: Assessing Unsafe Content Detection with Small Language Models (SLMs)",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0016",
+  "title": "Deep tensor decomposition: A survey",
+  "year": "2025",
+  "abstract": "Tensor decomposition (TD) has been recognized as an effective technique for multilinear dimensionality reduction and feature extraction for decades. However, traditional TD approaches often struggle to capture complex hierarchical structures and nonlinear relationships in high-dimensional datasets. For instance, in biomedical settings, disease groups may naturally contain subgroups or exhibit hierarchical structures; mechanistic interactions among diseases, drugs and targets often demonstrate nonlinearity. To address these challenges, a new paradigm, deep tensor decomposition (deep TD) has recently emerged inspired by the success of deep learning. Deep TD techniques can be mainly divided into two categories: linear and nonlinear deep TD. Linear deep TD exploits the layered structure of deep neural networks (DNNs) to recursively factorize factor matrices obtained from the classic TD enabling feature extraction at multiple levels of granularity. Nonlinear deep TD leverages the expressive power of DNNs to capture nonlinear correlations within the data. Despite rapid progress, there remains no unified treatment of deep TD methods. In this survey, we provide a comprehensive review of deep TD models, together with the deep learning training schemes for TD, and applications of deep TD models. Finally, we discuss open challenges and outline promising directions for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0017",
+  "title": "A From a Formalized Parallel Action Language to its Efficient Code Generation",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0018",
+  "title": "CultureSynth: A Hierarchical Taxonomy-Guided and Retrieval-Augmented Framework for Cultural Question-Answer Synthesis",
+  "year": "2025",
+  "abstract": "Cultural competence, defined as the ability to understand and adapt to multicultural contexts, is increasingly vital for large language models (LLMs) in global environments. While several cultural benchmarks exist to assess LLMs' cultural competence, current evaluations suffer from fragmented taxonomies, domain specificity, and heavy reliance on manual data annotation. To address these limitations, we introduce CultureSynth, a novel framework comprising (1) a comprehensive hierarchical multilingual cultural taxonomy covering 12 primary and 130 secondary topics, and (2) a Retrieval-Augmented Generation (RAG)-based methodology leveraging factual knowledge to synthesize culturally relevant question-answer pairs. The CultureSynth-7 synthetic benchmark contains 19,360 entries and 4,149 manually verified entries across 7 languages. Evaluation of 14 prevalent LLMs of different sizes reveals clear performance stratification led by ChatGPT-4o-Latest and Qwen2.5-72B-Instruct. The results demonstrate that a 3B-parameter threshold is necessary for achieving basic cultural competence, models display varying architectural biases in knowledge processing, and significant geographic disparities exist across models. We believe that CultureSynth offers a scalable framework for developing culturally aware AI systems while reducing reliance on manual annotation\\footnote{Benchmark is available at https://github.com/Eyr3/CultureSynth.}.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0019",
+  "title": "Survey of Knowledge Distillation in Federated Edge Learning",
+  "year": "2023",
+  "abstract": "The increasing demand for intelligent services and privacy protection of mobile and Internet of Things (IoT) devices motivates the wide application of Federated Edge Learning (FEL), in which devices collaboratively train on-device Machine Learning (ML) models without sharing their private data. Limited by device hardware, diverse user behaviors and network infrastructure, the algorithm design of FEL faces challenges related to resources, personalization and network environments. Fortunately, Knowledge Distillation (KD) has been leveraged as an important technique to tackle the above challenges in FEL. In this paper, we investigate the works that KD applies to FEL, discuss the limitations and open problems of existing KD-based FEL approaches, and provide guidance for their real deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0020",
+  "title": "A systematic review of ECG arrhythmia classification: embedded feasibility, adherence to standards, and fair evaluation",
+  "year": "2025",
+  "abstract": "The classification of electrocardiogram (ECG) signals is essential for early arrhythmia detection. However, many studies fail to follow standardization protocols, leading to inconsistencies in performance evaluation and real-world applicability. Additionally, hardware constraints crucial for deployment in pacemakers, Holter monitors, and wearable ECG patches are often overlooked, limiting practical use in resource-constrained environments. This review systematically analyzes ECG classification research published between 2017 and 2024, focusing on studies that meet the E3C (Embedded, Clinical, and Comparative Criteria). These criteria include adherence to the inter-patient paradigm, compliance with AAMI recommendations, and evaluation of model feasibility for embedded deployment. We conduct a comparative analysis of accuracy, inference time, energy consumption, and memory usage, identifying state-of-the-art methods that align with the E3C. Our findings show that while many models achieve high accuracy, few address key constraints like patient-independent data partitioning and hardware limitations. Finally, we propose standardized performance reporting to enable fair comparisons and enhance real-world applicability. By addressing these gaps, this study aims to guide research toward more robust and clinically viable ECG classification models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0021",
+  "title": "Pruning in Model Compression: Techniques, Challenges, and Future Directions",
+  "year": "2026",
+  "abstract": "Deep learning models have achieved remarkable success across domains such as computer vision, natural language\nprocessing, and speech recognition. However, their increasing size and computational requirements pose significant challenges\nfor deployment on resource-limited devices. Model compression techniques aim to reduce model size and computational cost\nwithout significantly compromising accuracy. Among these techniques, pruning has emerged as one of the most effective\nmethods. This paper provides a comprehensive overview of pruning as a model compression strategy, exploring its principles,\ntypes, applications, and challenges. Comparative insights and future research directions are also discussed to highlight\npruning’s continuing relevance in the era of efficient AI.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0022",
+  "title": "A Survey on Deepfake Audio Detection Techniques: Challenges, Approaches, and Prospects for Mobile Deployment",
+  "year": "2026",
+  "abstract": "Abstract—With the recent advancements in technology and Artificial Intelligence, the threat of deepfake audio also increased rapidly and significantly in the recent times. Deepfake audio generation systems are creating extremely realistic human voices. With this kind of improvements, it gets increasingly challenging to differentiate between genuinely real and manipulated audios, leading to serious posing risks to security, privacy and trust in digital communication. This survey presents a comprehensive overview of deepfake audio generation and detection techniques. We highlight rapid advancements in various deepfake audio generation methods such as text-to-speech synthesis, voice conversion, and real-time voice cloning. These techniques make detection complex by introducing very subtle artifacts in speech signals. The paper also examines key feature extractions methods like STFT, Mel- Spectrograms and CQT, exploring their complementary roles in capturing temporal, spectral and perceptual inconsistencies. Further, it explores deep learning models, CNN-based and transformer- based, once in particular, because they have shown strong performance in detecting deepfake audio. There is discussion, highlighting the importance of multi-feature fusion and data augmentation. Combining diverse representations like this increases accuracy and robustness for detection of synthetic audio. Additionally, there is analysis of commonly used datasets and evaluation metrics like accuracy, AUROC and EER. Despite progress, challenges such as real-time deployment issues, poor generalization, dataset limitations and ethical concerns remain significant. Overall, the conclusion of the survey is that effective deepfake audio detection requires integrated approaches like combining multiple features, adaptive models and realistic data.\n\nKeywords— deepfake voice, voice cloning, CNN, spectrogram, STFT, Mel spectrogram, CQT, ASVspoof, mobile application",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0023",
+  "title": "Evolution of Natural Language Processing: A Review",
+  "year": "2024",
+  "abstract": "Over the years, Natural Language Processing (NLP) has evolved dramatically, moving from early rule based systems to the current era dominated by advanced deep learning models. An overview of the significant turning points and patterns that have influenced the development of NLP is given in this study. In the early days of Natural Language Processing (NLP), rule based methods were the main focus. Linguists would manually create rules to analyze and comprehend human language. Although these systems were somewhat successful, they were unable to handle the complexity and unpredictability of spoken language. A major change was brought about by the introduction of probabilistic models and machine learning techniques with the emergence of statistical approaches. The development of methods like n gram models and hidden Markov models during this time allowed computers to handle linguistic patterns. Large scale linguistic resources like word embeddings and annotated corpora started to appear, which further accelerated the development of NLP. Machine learning algorithms have led to notable advancements in tasks such as machine translation, named entity recognition, and part of speech tagging. NLP has seen a revolution in recent years thanks to deep learning, which uses neural networks to learn intricate language representations. Sequential dependencies in language can now be better understood because of models like Long Short Term Memory Networks (LSTMs) and Recurrent Neural Networks (RNNs). The addition of attention mechanisms, as demonstrated by Transformer and other models, improves the model's ability to manage long range dependencies and perform better on a variety of NLP tasks. In the future, NLP will develop in ways that go beyond performance measurements, exploring interpretability, ethical issues, and the incorporation of multimodal data. As the area develops, it becomes increasingly important to eliminate biases, ensure ethical AI deployment, and improve user centric experiences. This introduction lays the groundwork for an in depth examination of the development of NLP, highlighting significant turning points, difficulties, and potential future directions in this vibrant and quickly developing subject.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0024",
+  "title": "Effective Customer Review Analysis Using Combined Capsule Networks with Matrix Factorization Filtering",
+  "year": "2023",
+  "abstract": "Nowadays, commercial transactions and customer reviews are part of human life and various business applications. The technologies create a great impact on online user reviews and activities, affecting the business process. Customer reviews and ratings are more helpful to the new customer to purchase the product, but the fake reviews completely affect the business. The traditional systems consume maximum time and create complexity while analyzing a large volume of customer information. Therefore, in this work optimized recommendation system is developed for analyzing customer reviews with minimum complexity. Here, Amazon Product Kaggle dataset information is utilized for investigating the customer review. The collected information is analyzed and processed by batch normalized capsule networks (NCN). The network explores the user reviews according to product details, time, price purchasing factors, etc., ensuring product quality and ratings. Then effective recommendation system is developed using a butterfly optimized matrix factorization filtering approach. Then the system’s efficiency is evaluated using the Rand Index, Dunn index, accuracy, and error rate.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0025",
+  "title": "Lightweight Deep Learning Models for Face Mask Detection in Real-Time Edge Environments: A Review and Future Research Directions",
+  "year": "2026",
+  "abstract": "Automated face mask detection remains an important component of hygiene compliance, occupational safety, and public health monitoring, even in post-pandemic environments where real-time and non-intrusive surveillance is required. Traditional deep learning models provide strong recognition performance but are often impractical for deployment on embedded and edge devices due to their computational and energy demands. Recent research has therefore emphasized lightweight and hybrid architectures that seek to preserve detection accuracy while reducing model complexity, inference latency, and power consumption. This review presents an architecture-centered synthesis of face mask detection systems, examining conventional convolutional models, lightweight convolutional networks such as the MobileNet family, and hybrid frameworks that integrate efficient backbones with optimized detection heads. Comparative analysis of reported results highlights key trade-offs between accuracy, efficiency, and deployment feasibility under heterogeneous datasets, evaluation protocols, and hardware settings. Open challenges, including improper mask detection, domain adaptation, model compression, and the extension of mask detection toward broader Personal Protective Equipment (PPE) compliance monitoring, are discussed to outline a forward-looking research agenda. Overall, this review consolidates current understanding of architectural design strategies for face mask detection and provides guidance for developing scalable, robust, and real-time deep learning solutions suitable for embedded and mobile platforms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0026",
+  "title": "A Survey of Methods and Architectures for Automatic Cervical Cancer Detection and Segmentation Using Sparsity-Aware Orthogonal Initialization in Deep Neural Network Classifiers",
+  "year": "2025",
+  "abstract": "Cervical cancer is a major global health concern, particularly in developing regions where early detection remains limited. Traditional diagnostic methods such as Pap smear and colposcopy rely heavily on manual interpretation, which can be time-consuming and prone to variability. In recent years, deep learning (DL) techniques have emerged as powerful tools for automating cervical cancer detection and segmentation from medical images including Pap smear slides, MRI, and CT scans.This study presents a comprehensive survey of methods and architectures for automatic cervical cancer detection, with a focus on convolutional neural networks (CNNs), segmentation models such as U-Net and nnU-Net, and hybrid frameworks. Additionally, the role of sparsity-aware orthogonal initialization (SAOI) in improving training efficiency and model scalability is examined.Recent advancements demonstrate that deep learning models achieve high classification accuracy (above 95%) and segmentation performance (Dice scores up to 0.90). Hybrid models combining segmentation and classification outperform standalone approaches by improving feature representation and decision-making. However, challenges such as limited datasets, lack of generalization, and computational complexity remain. \nThis survey highlights current trends, comparative performance, and research gaps, emphasizing the need for scalable, explainable, and clinically deployable AI-based systems for cervical cancer diagnosis.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0027",
+  "title": "A Survey on the Use of Lightweight Virtualization in I4.0 Manufacturing Environments",
+  "year": "2023",
+  "abstract": "Over the past decade, in the industrial sector we have witnessed the rise of a revolutionary movement, known as Industry 4.0, that promotes the digital transformation as the key to increase the competitiveness of manufacturing factories. Among the many technologies recognized as “drivers” of such revolutionary transition, microservices stand out as a software development paradigm capable of bringing several benefits to the manufacturing process. Whilst the literature offers many examples of initiatives exploiting microservices in digitally-advanced sectors (e.g., finance, telecommunication, retailing), its potential in the industrial manufacturing is yet to be fully unleashed. We conducted an extensive literature survey in the twofold aim of bringing to the reader’s attention the many benefits that the microservices paradigm may offer in industrial manufacturing settings, and drawing a picture of how light virtualization techniques are actually being exploited to achieve Industry 4.0 digitization goals. In this paper, we propose a structured analysis of the collected literature proposals which combines the benefits sought by authors when approaching to the microservices techniques and the specific scope of application of proposals. We conclude the paper highlighting the research aspects that have not been sufficiently explored in the literature and that would deserve further attention in the near future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0028",
+  "title": "Design of an unmanned aerial vehicle survey system based on embedded 3D machine vision imaging perception",
+  "year": "2021",
+  "abstract": "At present, the application of UAV in urban planning and construction is mainly manifested in urban planning survey, urban illegal building supervision and environmental monitoring of urban construction projects. Secondly, based on embedded technology can be managed by multiple users, you can run multiple processes program, open and run the code, the system powerful, which makes it to be able to do many tasks in the field of, and running is stable, many developers will be able to enjoy its source code publicly, relative to other real-time operating system has the absolute advantage.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0029",
+  "title": "A Review of Face Recognition Methods Based on Lightweight Deep Neural Networks",
+  "year": "2023",
+  "abstract": "Face recognition has always been a research hotspot in the field of artificial intelligence. Although the most advanced methods are mainly deep learning methods based on convolutional neural networks, the huge computational overhead is also the main factor restricting its application. While improving the accuracy rate, reducing the computing and storage overhead of deep neural networks is a very important and challenging problem in the field of face recognition. Therefore, it is very important to study the face detection and recognition method based on lightweight network and design highly discriminative feature representation. This paper first introduces the recognition methods of face recognition, including traditional recognition methods and quantified recognition methods, and summarizes the advantages and disadvantages of face recognition. Then the representative data sets and commonly used evaluation indexes in the field of lightweight neural networks are combed. Finally, the development trend of lightweight neural network face recognition technology is forecasted.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0030",
+  "title": "Emergence of Agentic AI: A Review on Evolution, Background, Working Principles, Applications, Adoption Factors, and Future Research Directions",
+  "year": "2026",
+  "abstract": "Agentic AI is gaining new insights and advancements in the field of Artificial Intelligence, fostering significant potential to enable rapid transformation across various domains.This rapid advancement and the potential to revolutionize various domains advocate the need for a deeper understanding and firm grasp of the technology. Moreover, an investigation into state of the art research directions in agentic AI needs to be conducted to comprehensively assess the potential scope for improvement and application.Therefore, to address these objectives, a comprehensive review can provide researchers and practitioners with valuable insights into the current state and future research scopes of agentic AI.Hence, this work considers the recently published scholarly contributions in agentic AI across various domains and discusses the fundamentals and working principles of Agentic AI, traces the historical and theoretical evolution of agency in artificial systems, explores and discusses Agentic AIs architecture, working principles, and functionalities, explores real-world applications of Agentic AI across various domains, analyzes the research findings, identifies current challenges, and discuss potential future research directions, and proposes a comprehensive framework of stakeholders intention to use and adopt Agentic AI with the help of proposed system quality dimensions.Therefore, this systematic review provides researchers and practitioners with a comprehensive understanding of Agentic AI, its current developments and applications, highlights key research gaps, and outlines future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0031",
+  "title": "A survey of lightweight methods for object detection networks",
+  "year": "2026",
+  "abstract": "As social production technologies develop, object detection becomes vital in sectors such as agriculture, industry, and healthcare. It decreases dependence on manual labour and enhances accuracy and efficiency. However, edge devices confront limitations in computational power, storage, and energy, creating a trade-off between accuracy and model size. To tackle this, academia and industry have proposed solutions including hardware-coordinated acceleration, adaptive task lightweighting, and hybrid compression. This paper reviews research from 2020 to 2025 on lightweight object detection, providing a systematic overview of efficient architecture and model compression techniques, explaining their mechanisms, challenges, and future directions to support ongoing progress.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0032",
+  "title": "A Comprehensive Survey on Vision Transformers, Few-Shot Learning, and Lightweight Clinical Deployment in Next-Generation Artificial Intelligence",
+  "year": "2026",
+  "abstract": "Early identification of malignant and pre-malignant skin lesions plays a decisive role in improving patient survival and treatment effectiveness. Despite notable progress in computeraided diagnosis, reliable skin lesion classification remains difficult due to subtle visual similarities between lesion types, severe class imbalance, and the limited availability of expert-annotated dermatological data. These challenges become even more pronounced in real-world clinical environments, where imaging conditions are often inconsistent and rare lesion categories are underrepresented. Recent advances in artificial intelligence have introduced promising alternatives to conventional convolutionbased models, particularly through the adoption of Vision Transformers, few-shot learning paradigms, and efficiencyoriented system designs. This survey examines contemporary research trends in skin lesion analysis, covering key developments in lesion preprocessing, segmentation-assisted representation learning, attention-based architectures, and data-efficient learning strategies. Each approach is critically discussed in terms of its diagnostic relevance, practical limitations, and suitability for clinical deployment. In addition, a unifying conceptual framework is presented that integrates global contextual understanding with adaptive learning from limited data. This perspective directly addresses persistent challenges related to scalability, interpretability, and generalization across diverse clinical settings. By systematically analyzing current methodologies, performance trade-offs, and open research gaps, this work provides a foundation for the development of next-generation dermatological imaging systems, with particular relevance to real-time screening, mobile platforms, and telemedicine-based healthcare applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0033",
+  "title": "Resource-efficient and secure distributed state estimation over wireless sensor networks: a survey",
+  "year": "2021",
+  "abstract": "Wireless sensor networks (WSNs) are extensively adopted for remote monitoring and tracking scenarios, such as battlefield surveillance, target detection and tracking, traffic condition detection, power system monitoring and health monitoring, thanks to their promising benefits in terms of flexibility, reliability and cost-effectiveness. However, some critical WSN applications, such as intelligent transportation and smart grid monitoring, have stringent requirements in terms of resource budget and security. This paper provides a survey of the trending resource-efficient and secure techniques currently used with distributed estimation algorithms over WSNs. Recent progresses on these two major research trends are reviewed, respectively, for WSN-based monitoring systems. More specifically, the first part of the survey covers the state-of-the-art in resource-efficient distributed state estimation. The main results along this line of research are classified into protocol-based scheduling, static event-triggered scheduling, dynamic event-triggered scheduling and stochastic event-triggered scheduling. Then, in the second part, the latest results on secure distributed state estimation are reviewed, where secure distributed state estimation under data integrity attacks and data available attacks, and distributed attack detection are examined, respectively. Finally, several challenging issues in the context of distributed state estimation are discussed for potential future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0034",
+  "title": "A Review of Wireless Agent Systems and Architecture",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0035",
+  "title": "Update on Security Analysis and Implementations of KNOT",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0036",
+  "title": "Review of AI-Based Lane and Obstacle Detection Techniques for Embedded Automotive Systems",
+  "year": "2026",
+  "abstract": "Autonomous driving and Advanced Driver Assistance Systems (ADAS) rely heavily on accurate lane detection, vehicle recognition, and obstacle avoidance to ensure safety and reliability. Traditional computer vision techniques, though widely used, often fail under poor illumination, occlusion, and degraded markings. Deep learning models, particularly convolutional neural networks (CNNs), attention-based architectures, and YOLO-based frameworks, have advanced detection accuracy and adaptability, while GANs improve robustness under challenging conditions. Hybrid approaches combining lightweight CNNs with classical vision methods demonstrate practical trade-offs between efficiency and robustness for embedded deployment. However, deploying computationally intensive models on automotive-grade processors remains a key challenge due to constraints on latency, power, and functional safety. This paper reviews recent advances AI-driven lane and obstacle detection methods, assesses their suitability for real-time embedded systems, and highlights emerging hardware platforms such as NVIDIA DRIVE Orin, DRIVE Thor, and Qualcomm Snapdragon Ride that aim to bridge the gap between research and real-world deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0037",
+  "title": "Lightweight Blockchain of Things (BCoT) Architecture for Enhanced Security: A Literature Review",
+  "year": "2021",
+  "abstract": "Both the internet of things (IoT) and distributed ledger technology (DLT), more commonly known as the blockchain, are two popular emerging technologies of this era. While blockchain offers strengthened security, along with other benefits, it requires peer-to-peer (P2P) nodes for its consensus process. On the contrary, IoT ecosystems inherently consist of many P2P nodes but it is highly critiqued for its lack of security measures. Therefore, the fusion of these complementary duos, known as the blockchain of things (BCoT), has become a recent research trend. While the fit is good and the benefits such consolidation can offer are obvious, a lot of challenges are yet to be addressed. Therefore, we have conducted a comprehensive literature review, covering 33 research articles, spanning over the last six years (2016–2021), to report the state-of-the-art research in this domain. We have synthesised the existing literature by comparing, contrasting, resembling as well as critically evaluating them and thus, deduced the current challenges and future research directions, particularly with regards to lightweightness.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0038",
+  "title": "A Review of Lightweight Human Pose Estimation Research",
+  "year": "2024",
+  "abstract": "The integration of human pose estimation in mobile and embedded systems has been limited by computational constraints. This paper provides a comprehensive review of lightweight human pose estimation methods, focusing on the design, implementation, and application of algorithms optimized for efficiency. We discuss the current research status, key challenges, and future directions in the development of lightweight models for real-time performance on resource-constrained devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0039",
+  "title": "On-Device Recommender Systems: A Comprehensive Survey",
+  "year": "2024",
+  "abstract": "Recommender systems have been widely deployed in various real-world applications to help users identify content of interest from massive amounts of information. Traditional recommender systems work by collecting user-item interaction data in a cloud-based data center and training a centralized model to perform the recommendation service. However, such cloud-based recommender systems (CloudRSs) inevitably suffer from excessive resource consumption, response latency, as well as privacy and security risks concerning both data and models. Recently, driven by the advances in storage, communication, and computation capabilities of edge devices, there has been a shift of focus from CloudRSs to on-device recommender systems (DeviceRSs), which leverage the capabilities of edge devices to minimize centralized data storage requirements, reduce the response latency caused by communication overheads, and enhance user privacy and security by localizing data processing and model training. Despite the rapid rise of DeviceRSs, there is a clear absence of timely literature reviews that systematically introduce, categorize and contrast these methods. To bridge this gap, we aim to provide a comprehensive survey of DeviceRSs, covering three main aspects: (1) the deployment and inference of DeviceRSs, exploring how large recommendation models can be compressed and utilized within resource-constrained on-device environments; (2) the training and update of DeviceRSs, discussing how local data can be leveraged for model optimization on the device side; (3) the security and privacy of DeviceRSs, unveiling their potential vulnerability to malicious attacks and defensive strategies to safeguard these systems. Furthermore, we provide a fine-grained and systematic taxonomy of the methods involved in each aspect, followed by a discussion regarding challenges and future research directions. This is the first comprehensive survey on DeviceRSs that covers a spectrum of tasks to fit various needs. We believe this survey will help readers understand the current research status in this field, equip them with relevant technical foundations, and stimulate new research ideas for developing DeviceRSs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0040",
+  "title": "A Review On Air Quality Prediction Using Embedded Machine Learning And Deep Learning Models With Quantization Techniques",
+  "year": "2025",
+  "abstract": "Air pollution is a major global environmental and health concern, necessitating accurate and timely forecasting of pollutant levels to mitigate adverse effects.Recent advances in machine learning and deep learning enable precise air quality prediction, yet deploying these models in real world resource constrained settings remains challenging.Embedded models augmented with quantization techniques offer an efficient solution by reducing computational costs without significant loss of accuracy.This review synthesizes recent developments in air quality prediction using embedded Machine Learning (ML) and Deep Learning (DL) models with emphasis on 8 bit quantization, hybrid architectures, attention mechanisms, and knowledge distillation.The focal study demonstrates a CNN BiGRU model achieving an R² of 0.99 for PM2.5 on IoT devices, balancing high accuracy with model compression.Through analysis of fourteen contemporary works, this paper highlights multi task learning frameworks, spatial temporal modeling over multiple pollutants, and transformer based approaches as emerging trends.Persistent challenges include extending forecast horizons, improving generalizability, and enhancing real time deployment viability.The review concludes by discussing future directions integrating ensemble methods, Bayesian hyperparameter optimization, and quantum learning potentials toward robust, scalable air quality prediction systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ }
+]

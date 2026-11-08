@@ -1,0 +1,427 @@
+[
+ {
+  "id": "F0641",
+  "title": "Peer Review #4 of \"Topic2features: a novel framework to classify noisy and sparse textual data using LDA topic distributions (v0.2)\"",
+  "year": "2021",
+  "abstract": "In supervised machine learning, specifically in classification tasks, selecting and analyzing the feature vector to achieve better results is one of the most important tasks.Traditional methods such as comparing the features' cosine similarity and exploring the datasets manually to check which feature vector is suitable is relatively time consuming.Many classification tasks failed to achieve better classification results because of poor feature vector selection and sparseness of data.In this paper, we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions of hidden topics gathered from dataset and converting into feature vectors to build supervised classifier.For this we leveraged unsupervised topic modelling LDA (Latent dirichlet allocation) approach to retrieve the topic distributions employed in supervised learning algorithms.We make use of labelled data and topic distributions of hidden topics that were generated from that data.We explore how the representation based on topics affect the classification performance by applying supervised classification algorithms.Additionally, we did careful evaluation on two types of datasets and compared them with baseline approaches without topic distributions and other comparable methods.The results show that our framework performs significantly better in terms of classification performance compared to the baseline(without T2F) approaches and also yields improvement in terms of F1 score compared to other compared approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0642",
+  "title": "Hierarchical Group-Conditional Conformal Risk Control for Selective Prediction in Language Models",
+  "year": "2026",
+  "abstract": "Large language models serve heterogeneous populations structured by domain, topic difficulty, and linguistic style. Conformal risk control (CRC) gives rigorous marginal risk guarantees for selective prediction with abstention, but marginal guarantees do not imply per-group ones: a model can meet the population budget while systematically over-exposing subgroups to errors. Under mild shift in group composition, standard CRC violates the budget in up to 47% of trials. We propose HG-CRC (Hierarchical Group-Conditional CRC), a post-hoc calibration framework enforcing simultaneous risk guarantees across all nodes of a user-defined group hierarchy. It applies a Bonferroni correction over nodes and a leaf-first policy that uses the most specific applicable threshold, falling back to coarser nodes when a finer one is uncertified or rejects the example. It needs only a held-out calibration set, with no retraining. We evaluate on three models (Qwen3-4B, Llama-3.1-8B-Instruct, Gemma-3-4B) and two benchmarks (ARC Challenge, MMLU-Pro) across eight configurations probing IID generalization, heterogeneity, mixture/domain/prompt/difficulty shift, label noise, and quantization. Main result: HG-CRC reaches an empirical 0% violation rate and WGER=0 on ARC Challenge for high-accuracy models (Qwen3-4B, Llama-3.1-8B). At 500 bootstrap trials these zeros are empirical upper bounds (true rate up to 0.6%), not certified. Results are benchmark-specific: on MMLU-Pro these models abstain entirely or (Llama) retain WGER=0.014. Gemma-3-4B, poorly calibrated here, degrades gracefully by abstaining. Participation cost vs. global CRC is 22 to 37 points. Ablations show hierarchical depth clears the budget: removing difficulty level returns violations to about 11%. Bonferroni is needed for the theoretical guarantee, though its empirical effect matters only with many nodes.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0643",
+  "title": "A Survey of Smart Buildings and Homes using Low-Power Wide-Area Network (LoRa WAN)",
+  "year": "2020",
+  "abstract": "Living in the age of internet, life has become smarter and more convenient for us today. Smart home automation is the process which all the household appliances can be controlled, monitored and maintained automatically by the intelligence of device far from home regardless is typically called home automation which makes home smart. It connects everything in the network through internet. The idea of house being totally mechanized used to be numerous. Presently, it is a reality. Shrewd homes and penetrating home items are prominent in light of the fact that they offer more accommodation and security for family. User can check the update status of a device time to time. These gadgets can convey, track and send data, and react according to user command. In this technology we can control household appliances like lighting, AC, fan, washing machine, TV, Fridge, security system etc. By using artificial intelligence, it can also be self-controlled and monitored by itself. These frameworks additionally help increment home’s vitality effectiveness, which can lessen vitality bill. This survey depicts the smart home and building automation in terms of energy management by using systematic usages of home appliances with low power wide area network. It is a novel proposed approach which we reviewed at minimum cost system to determine an authentic smart home by using its intelligent management of home appliances in efficient manner. Home mechanization framework includes a lot of system and diverse technology with low power wide area network.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0644",
+  "title": "Cognitive Classification Based on Revised Bloom’s Taxonomy Using Learning Vector Quantization",
+  "year": "2020",
+  "abstract": "The cognitive dimensions of the new bloom taxonomy consist of six categories, namely C1, C2, C3, C4, C5, and C6. The difference is using verbs at each cognitive level. Based on the cognitive level, it appears that the C1 level is the lowest thinking level while C6 is the highest thinking level. However, cognitive classification to develop students’ knowledge towards high-level cognitive skills has not been applied to managing students in learning. The focus of this study is to determine the cognitive classification structure using the bloom taxonomy. Learning Vector Quantization (LVQ) is used to classify cognitive levels into three classes, namely Low Cognitive (CL), Medium Cognitive (CM), and High Cognitive (CH). The results showed that the cognitive classification of LVQ succeeded in classifying the cognitive domains into three cognitive classes, namely CL, CM, and CH with an accuracy of 97% through a learning rate of 0.3.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0645",
+  "title": "Empowering Mobile Edge Computing by Exploiting Reconﬁgurable Intelligent Surface",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0646",
+  "title": "AI in Wearable Embedded Systems for Healthcare Monitoring: A Review",
+  "year": "2025",
+  "abstract": "With an eye towards real-time health monitoring and early diagnosis, this review investigates how Artificial Intelligence (AI), Embedded Systems, and the Internet of Things (IoT) could be used in wearable healthcare technology. This study examines current developments in low-power embedded systems, edge artificial intelligence computing, sensor technologies, and IoT connections that all help to provide intelligent, energy-efficient wearable devices. Results show that although embedded microcontrollers offer continuous monitoring with low energy consumption, artificial intelligence-driven analytics increase diagnosis accuracy and enable predictive healthcare. IoT integration enables flawless data transfer for remote patient care, therefore supporting more responsive and easily available healthcare service. Important issues such data security, power constraints, ethical questions, and openness in AI decision-making still exist despite these developments. Emerging technologies such as Explainable AI (XAI), federated learning, blockchain-based security, and self-powered wearables as hopeful paths for addressing these constraints are highlighted in this study. The last point underlines how important it is to combine IoT, embedded systems, and artificial intelligence in wearable technologies to turn reactive medical practices into preventive healthcare approaches. Future studies should concentrate on developing trust, increasing openness, and boosting energy efficiency in AI-driven healthcare wearables if we are to guarantee effective deployment and general acceptance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0647",
+  "title": "Embedded operating system and industrial applications: a review",
+  "year": "2021",
+  "abstract": "The complexity of an embedded system is directly proportional to the requirements of industrial applications. Various embedded operating system (OS) approaches had been built to fulfil the requirements. This review aims to systematically address the similarities and differences of the embedded OS solutions and analyse the factors that will influence decision-making when choosing what solution to use in the applications. This paper reviews three standard solutions; super loop, cooperative, and real-time operating system (RTOS). These are commonly used in industrial applications. By grouping the tasks in the foreground and background execution region, the concept and working principle of each of them are reviewed. The unique feature of RTOS in the context of task switching was used to define the deterministic characteristic of meeting the deadlines. The importance and performance of this characteristic is addressed and compared among various solutions in this paper. Subsequently, this paper reviewed the internet of things (IoT) requirements, automotive, medical and consumer electronics industry. The influential factors on choosing the right embedded OS to be used are extracted based on the requirements. They are reviewed in the perspective of memory footprint, regulated standards, cost-effectiveness, time effectiveness, and scalability.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0648",
+  "title": "QButterfly: Lightweight Survey Extension for Online User Interaction Studies for Non-Tech-Savvy Researchers",
+  "year": "2023",
+  "abstract": "We provide a user-friendly, flexible, and lightweight open-source HCI toolkit (github.com/QButterfly) that allows non-tech-savvy researchers to conduct online user interaction studies using the widespread Qualtrics and LimeSurvey platforms. These platforms already provide rich functionality (e.g., for experiments or usability tests) and therefore lend themselves to an extension to display stimulus web pages and record clickstreams. The toolkit consists of a survey template with embedded JavaScript, a JavaScript library embedded in the HTML web pages, and scripts to analyze the collected data. No special programming skills are required to set up a study or match survey data and user interaction data after data collection. We empirically validated the software in a laboratory and a field study. We conclude that this extension, even in its preliminary version, has the potential to make online user interaction studies (e.g., with crowdsourced participants) accessible to a broader range of researchers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0649",
+  "title": "Model-Driven Deep Learning DOA Estimation Methods Based on Sparse Parameter Estimation: A Review",
+  "year": "2026",
+  "abstract": "In array signal processing, Direction of Arrival (DOA) estimation is employed to determine the directions of incoming signals. Under such conditions, high signal-to-noise ratios (SNR), an adequate number of snapshots, and optimally configured arrays enable classic methods such as Multiple Signal Classification (MUSIC) and Estimation of Signal Parameters via Rotational Invariance Techniques (ESPRIT) to achieve high accuracy. Yet, their accuracy suffers under low SNR, sparse snapshots, coherent multipath, or imperfect arrays. To address these limitations, sparse reconstruction formulates DOA estimation as a sparse recovery problem, but still encounters challenges such as high computational cost, sensitivity to hyperparameters, and grid mismatch. Recent advances in model-driven deep learning have boosted data adaptability by transforming iterative optimization into trainable networks, applied to enhanced MUSIC, sparse iterative networks, sparse Bayesian learning, atomic norm methods, 1-bit quantization, and non-ideal arrays. Thus, this paper investigates model-driven deep learning DOA estimation methods based on sparse parameter estimation, outlining sparse modeling paradigms and integrating algorithmic frameworks from process flow, sparse priors, model-learning fusion, to continuous angle estimation. Then, trade-offs among accuracy, complexity, and generalization are examined under low SNR, coherent multipath, and non-ideal arrays. The results show that these methods significantly improve the accuracy and robustness of multi-source DOA estimation, reduce the computational cost, and enable efficient feedforward inference in complex conditions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0650",
+  "title": "EDMF: Efficient Deep Matrix Factorization With Review Feature Learning for Industrial Recommender System",
+  "year": "2022",
+  "abstract": "Recommendation accuracy is a fundamental problem in the quality of the recommendation system. In this article, we propose an efficient deep matrix factorization (EDMF) with review feature learning for the industrial recommender system. Two characteristics in user’s review are revealed. First, interactivity between the user and the item, which can also be considered as the former’s scoring behavior on the latter, is exploited in a review. Second, the review is only a partial description of the user’s preferences for the item, which is revealed as the sparsity property. Specifically, in the first characteristic, EDMF extracts the interactive features of onefold review by convolutional neural networks with word-attention mechanism. Subsequently, ${L}_{0}$ norm is leveraged to constrain the review considering that the review information is a sparse feature, which is the second characteristic. Furthermore, the loss function is constructed by maximum a posteriori estimation theory, where the interactivity and sparsity property are converted as two prior probability functions. Finally, the alternative minimization algorithm is introduced to optimize the loss functions. Experimental results on several datasets demonstrate that the proposed methods, which show good industrial conversion application prospects, outperform the state-of-the-art methods in terms of effectiveness and efficiency.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0651",
+  "title": "Peer Review #2 of \"SC-JNMF: single-cell clustering integrating multiple quantification methods based on joint non-negative matrix factorization (v0.2)\"",
+  "year": "2021",
+  "abstract": "Single-cell RNA-sequencing is a rapidly evolving technology that enables us to understand biological processes at unprecedented resolution.Single-cell expression analysis requires a complex data processing pipeline, and the pipeline is divided into two main parts: The quantification part, which converts the sequence information into gene-cell matrix data; the analysis part, which analyzes the matrix data using statistics and/or machine learning techniques.In the analysis part, unsupervised cell clustering plays an important role in identifying cell types and discovering cell diversity and subpopulations.Identified cell clusters are also used for subsequent analysis, such as finding differentially expressed genes and inferring cell trajectories.However, single-cell clustering using gene expression profiles shows different results depending on the quantification methods.Clustering results are greatly affected by the quantification method used in the upstream process.In other words, even if the original RNA-sequence data is the same, gene expression profiles processed by different quantification methods will produce different clusters.In this article, we propose a robust and highly accurate clustering method based on joint non-negative matrix factorization (joint-NMF) by utilizing the information from multiple gene expression profiles quantified using different methods from the same RNA-sequence data.Our joint-NMF can extract common factors among multiple gene expression profiles by applying each NMF under the constraint that one of the factorized matrices is shared among multiple NMFs.The joint-NMF determines more robust and accurate cell clustering results by leveraging multiple quantification methods compared to conventional clustering methods, which use only a single gene expression profile.Additionally, we showed the usefulness of discovering marker genes with the extracted factors using our method.seq).This technology has reached a surprising level of resolution that reveals the regulation of gene 35 expression within cells.scRNA-seq measures gene expression on a cell-by-cell basis and allows the 36 analysis of the functions and properties of cells using this information.Many experimental protocols 37 and computational analyses exist for scRNA-seq, and they have different goals such as differential ex-38 pression analysis, cell clustering, cell classification, and trajectory reconstruction.Therefore, single-cell 39 analysis forms a pipeline (a series of procedures) that mainly consists of two parts, quantification of 40 gene expression and downstream analysis depends on the goals.In the quantification part of a pipeline, 41 gene expression levels measured for each cell (raw sequence data) are converted to a matrix called the 42 \"gene expression profile\".The quantification part also forms a pipeline including read quality control, 43 adaptor trimming, demultiplexing, deduplicating using barcodes, mapping to genome, counting transcripts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0652",
+  "title": "Identification Overview of Industry 4.0 Essential Attributes and Resource-Limited Embedded Artificial-Intelligence-of-Things Devices for Small and Medium-Sized Enterprises",
+  "year": "2022",
+  "abstract": "Nowadays there is a growing demand for small- and medium-sized enterprises (SMEs) to improve their level of digitalisation. This situation becomes even more critical in cases when SMEs act in the role of a subcontractor of large enterprises who demand the utilisation of certain digital operations. This paper aims to identify the essential Industry 4.0 attributes for the requirements of SMEs that enterprises can purchase to deploy an adequate solution with a view of increasing their competitiveness in the market. By analysing research articles and statistical data from the worldwide Web of Science database, we identify the major Industry 4.0 attributes for SME: Internet of Things (IoT), Big Data, Artificial Intelligence (AI), Cloud Computing, Simulation and Cybersecurity. Based on the review results and a survey by the European Commission, we propose devices primarily designed to implement AI tasks in industrial environments that meet the essential attributes for SMEs and have low entry costs. The subject of IoT is thoroughly addressed. Its subsets and the relationship between Industrial Internet of Things (IIoT) and Artificial Intelligence of Things (AIoT) are introduced and described. The characteristics of the listed devices as related to usability in the identified attributes are verified. Therefore, the description of the devices is provided with respect to their usability in SMEs. The main purpose of this paper is to identify attributes for SMEs and to develop strategic plans for the digitalisation requirements, particularly in the development of Artificial Intelligence as part of the implementation of the IoT pillar.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0653",
+  "title": "Distilling Desired Comments for Enhanced Code Review with Large Language Models",
+  "year": "2024",
+  "abstract": "There has been a growing interest in using Large Language Models (LLMs) for code review thanks to their proven proficiency in code comprehension. The primary objective of most review scenarios is to generate desired review comments (DRCs) that explicitly identify issues to trigger code fixes. However, existing LLM-based solutions are not so effective in generating DRCs for various reasons such as hallucination. To enhance their code review ability, they need to be fine-tuned with a customized dataset that is ideally full of DRCs. Nevertheless, such a dataset is not yet available, while manual annotation of DRCs is too laborious to be practical. In this paper, we propose a dataset distillation method, Desiview, which can automatically construct a distilled dataset by identifying DRCs from a code review dataset. Experiments on the CodeReviewer dataset comprising more than 150K review entries show that Desiview achieves an impressive performance of 88.93%, 80.37%, 86.67%, and 84.44% in terms of Precision, Recall, Accuracy, and F1, respectively, surpassing state-of-the-art methods. To validate the effect of such a distilled dataset on enhancing LLMs' code review ability, we first fine-tune the latest LLaMA series (i.e., LLaMA 3 and LLaMA 3.1) to build model Desiview4FT. We then enhance the model training effect through KTO alignment by feeding those review comments identified as non-DRCs to the LLMs, resulting in model Desiview4FA. Verification results indicate that Desiview4FA slightly outperforms Desiview4FT, while both models have significantly improved against the base models in terms of generating DRCs. Human evaluation confirms that both models identify issues more accurately and tend to generate review comments that better describe the issues contained in the code than the base LLMs do.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0654",
+  "title": "Lightweight Deep Learning Models for Retinal Disease Classification: A Survey",
+  "year": "2026",
+  "abstract": "Retinal disorders represent a major global health burden and remain among the predominant causes of irreversible vision loss, with more than two billion individuals affected worldwide. In Saudi Arabia, it is estimated that one in six adults suffers from visual impairment, and diabetic retinopathy has been reported to be a significant contributor to vision loss. Therefore, screening and diagnosis of this condition are of paramount importance from a public health perspective. Recent advances in deep learning have significantly improved automated retinal image analysis, enabling earlier and more reliable detection of pathological patterns; however, many state-of-the-art models remain computationally intensive, limiting their practicality in resource-constrained healthcare settings. The emergence of lightweight and efficient deep learning models has prompted increased research into their design and evaluation. This study conducts an in-depth survey of DL methods for retinal disease classification. This study conducts an in-depth survey of deep learning (DL) methods for retinal disease classification. Particular emphasis is placed on approaches leveraging lightweight architectures and efficient training strategies. The survey analyzes approximately forty research articles published between 2020 and 2025, covering studies trained and evaluated on commonly used benchmark datasets including ODIR, RFMiD, APTOS 2019, EyePACS, DR-Fundus, OCT2017, and the Bangladesh Multiclass Fundus dataset.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0655",
+  "title": "Field-Reliability Analysis of Lightweight Orange Disease Screening: Image-Quality Effects, Failure Taxonomy, and Practical Triage for Edge Deployment",
+  "year": "2026",
+  "abstract": "Reliable edge-based citrus disease screening requires more than high benchmark accuracy; it must identify when an image and its prediction are trustworthy under field conditions. This study analyzed a balanced three-class orange image corpus comprising healthy fruit, citrus canker, and melanose using a lightweight hue, saturation, and value (HSV)–local binary pattern (LBP)–histogram of oriented gradient (HOG) representation and calibrated confidence profiling. Rather than treating all classifications as equally actionable, the analysis linked prediction confidence with image-quality limitations and residual error patterns. The results showed that difficult cases were concentrated around the early canker–healthy boundary, where weak chromatic changes, subtle rind texture, shadowing, blur, and non-disease surface defects reduced diagnostic reliability. A quality-aware triage scheme was therefore established to separate direct acceptance, image recapture, and expert or local refinement. The findings support a practical field-reliability framework for low-cost orange disease screening on mobile and edge devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0656",
+  "title": "Lightweight Multimodal Fusion Architectures for Intraday Abnormal Return Reversal Prediction of S&P 500 Constituent Stocks: A Literature Review",
+  "year": "2026",
+  "abstract": "Integrating lightweight deep learning models with multimodal fusion techniques provides a promising approach to complex predictive tasks in resource-constrained environments. Drawing on recent literature, this paper systematically reviews research in three major areas: lightweight deep learning, multimodal fusion, and intraday reversal prediction and quantitative trading strategy optimization for S&P 500 constituent stocks. Empirical studies in non-financial domains show that lightweight neural architectures can balance predictive accuracy and computational efficiency. However, their adoption in financial forecasting remains limited. Most multimodal fusion methods integrate information at the feature level. The intraday reversal effect in S&P 500 constituent stocks has been empirically confirmed. However, existing prediction models typically rely on single-modal inputs or complex architectures, without combining lightweight design and multimodal fusion, making them unsuitable for real-time intraday trading. Accordingly, this paper identifies several key research gaps and proposes hypothesis and key insights to support the practical deployment of quantitative trading.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0657",
+  "title": "A systematic literature review of sparsity issues in recommender systems",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0658",
+  "title": "Operational Approaches for AI-Enabled ICT Access in Resource-Constrained Settings: A Systematic Review of Practices for Connectivity and Power Constraints",
+  "year": "2025",
+  "abstract": "Artificial intelligence (AI) is a key enabler of Africa’s digital transformation across sectors such as health, education, agriculture, and finance. However, persistent connectivity and power constraints continue to limit inclusive impact. A systematic review based on PRISMA synthesises evidence from 19 peer-reviewed studies (2016–2025) on how AI-enabled ICT systems operate under low bandwidth and intermittent energy conditions. Three main operational approaches are identified: data-light content delivery, offline-first synchronisation, and essential-mode continuity, each supported by cross-layer optimisation. Reported outcomes include reduced latency , energy savings on edge devices, and improved service uptime in primary care and education deployments. Findings show that software-defined intelligence, such as predictive routing, caching or compression, and energy-aware scheduling, can sustain digital services without requiring major hardware expansion. Scalability remains constrained by fragmented policy, skills gaps, and data scarcity. The proposed AI-Operational Access Framework (AIOAF) provides guidance for context-aware design in resource-limited environments, while coordinated policy alignment, capacity building, and ethical governance remain essential to achieving resilient and inclusive digital ecosystems across Africa.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0659",
+  "title": "Multidimensional Modelling in NoSQL Database : A Systematic Review",
+  "year": "2023",
+  "abstract": "NoSQL Database Manager Systems (DBMS) are an alternative to analytical systems and have been used in this regard. As analytical systems often use data multidimensional modelling, the question arises of how to apply this modelling to NoSQL DBMS, which has such differentiated physical characteristics of relational databases. A systematic literature review (SLR) is performed to gather the aspects prompting the application of multidimensional modelling to NoSQL. One hundred twelve were pre-selected, and 67 were classified as relevant according to the research questions defined for this SLR. Three main approaches are highlighted: classical multidimensional modelling, multidimensional modelling with junctions of aggregated facts and dimensions in a single entity, and multidimensional modelling with aggregated facts and dimensions in a single entity, and adding pre-computed summaries. These approaches are explained, and their differences and similarities are detailed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0660",
+  "title": "A Review of Lightweight YOLO-based Models for Real Time PCB Surface Defect Detection",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0661",
+  "title": "Sequential On-Device Multitasking within Online Surveys: A Data Quality and Response Behavior Perspective",
+  "year": "2022",
+  "abstract": "The risk of multitasking is high in online surveys. However, knowledge on the effects of multitasking on answer quality is sparse and based on suboptimal approaches. Research reports inconclusive results concerning the consequences of multitasking on task performance. However, studies suggest that especially sequential-multitasking activities are expected to be critical. Therefore, this study focusses on sequential-on-device-multitasking activities (SODM) and its consequences for data quality. Based on probability-based data, this study aims to reveal the prevalence of SODM based on the javascript function OnBlur, to reflect the its determinants and to examine the consequences for data quality. Results show that SODM was detected for 25% of all respondents and that respondent attributes and the device used to answer the survey are related to SODM. Moreover, it becomes apparent that SODM is significantly correlated to data quality measures. Therefore, I propose SODM behavior as a new instrument for researching suboptimal response behavior.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0662",
+  "title": "Real-Time Hybrid Query Transformation Method for Enhancing Search System Performance in Korean Language Applications",
+  "year": "2026",
+  "abstract": "This study addresses the real-time performance limits of Korean-language search systems caused by morphological complexity and the cost of semantic processing. We propose a hybrid query transformation method that couples rule-based preprocessing with a Transformer-based postprocessor. The rule-based stage simplifies agglutinative input, and the Transformer refines user intent and semantic context. On a curated Korean query set, our approach attains 89.0% Precision@5 (95% CI: 87.2–90.7) with 95 ms average latency (95% CI: 92–98), about 21% faster than an NLP-only baseline. User surveys and expert interviews further confirm practical applicability. To strengthen reliability and scope transparency, we report five-fold cross-validation, noise-robustness tests (spacing errors, minor typos), and comparisons against open proxy baselines (e.g., BM25+ KoNLPy). These additions clarify the study’s focus on Korean while providing reproducible evidence of robustness, positioning the framework as deployment-ready for Korean and a solid basis for future multilingual extensions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0663",
+  "title": "Water Monitoring System Embedded with Internet of Things (IoT) Device: A Review",
+  "year": "2020",
+  "abstract": "Urbanisation and population growth lead to increased water demand and might affect the water sources. Hence, it is important to manage it effectively. This paper reviews the use of Internet of Things (IoT) device in monitoring water system to conserve and manage the precious resources. The IoT technology is most synonymous with the latest wireless system for data acquisition for real-time monitoring surveillances. The real-time monitoring process involves large distribution of monitoring sensor and network such as computing, wireless sensor network and cloud computing. Traditionally, water quantity and quality reading has been labour intensive and subsequently an expensive process. By application of IoT, human involvement shall be minimized and most procedural decisions in a normal process will be made by algorithms. Developing user-friendly IoT tools will be an excellent contender in real time water monitoring solutions and lead to efficient management.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0664",
+  "title": "Virtualization Technology for Dependable Embedded Systems: A Survey for Transportation and Industrial Domains",
+  "year": "2025",
+  "abstract": "Next-generation transportation and industrial systems are characterized by a continuously increasing number of integrated software functionalities and computational performance requirements. Nevertheless, there is also a need to reduce the cost, number, size, power consumption, volume and weight of integrated dependable embedded systems. In this context, virtualization technology enables the reconciliation of these challenges supporting the integration of multiple software functionalities of mixed-criticality (real-time and non-real-time, safety and non-safety-related) on a single computing device. This survey provides an overview of virtualization solutions (hypervisors, microkernels, and separation kernels) and categorizes research contributions addressing virtualization, real-time, dependability, and domain-specific technological challenges.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0665",
+  "title": "Field Programmable Gate Array: An Extensive Review, Recent Trends, Challenges and Applications",
+  "year": "2024",
+  "abstract": "A field programmable gate array (FPGA) is a type of programmable logic device that the consumer can modify after production to carry out a variety of tasks, from fundamental logic gate operations to AI systems and beyond. More than 70,000 documents pertaining to FPGA have been found in the two most prominent scientific databases, Scopus and Clarivate Web of Science. These articles demonstrate the wide variety of FPGA-based applications, from navigation systems on Mars rovers to a new mechanism that allows the kilograms redefinition’s magnetic suspension system. This paper provides a comprehensive overview of field-programmable gate arrays (FPGAs), taking readers on a journey from the basics to sophisticated programming techniques. No matter how much or how little experience you have with FPGA programming, this study will be an invaluable resource for filling in the gaps in your knowledge. Readers will have a solid grounding in essential topics including FPGA architecture, hardware description languages, and synthesis. The present work addresses critical subjects such as FPGA architecture, hardware description languages, and synthesis, thereby providing readers with a robust foundation. Furthermore, it boldly ventures into the domain of advanced topics, including high-level synthesis and parallel processing, amplifying its appeal to seasoned FPGA enthusiasts. It is unequivocally evident that this work serves as an indispensable resource, equipping individuals from diverse backgrounds with the proficiency to fully exploit the remarkable potential of FPGAs across a myriad of applications and industries. This study also provides an overview of the recent trends and evolution of the related applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0666",
+  "title": "Enhancing the MLOPS Deployment Process Using Gen AI",
+  "year": "2024",
+  "abstract": "This paper examines the current state of MLOps and emphasizes the importance of developing ML and AI-powered applications. The study commences by defining MLOps and conducting a Literature Review to highlight critical studies in this area. It then delves into the current state of MLOps, providing examples of how major tech companies implement MLOps across their organizations. Additionally, the paper discusses the benefits of utilizing MLOps and addresses deployment challenges in the current process. Furthermore, it proposes an innovative solution to improve existing practices. It presents a technical architecture system design for implementing this novel approach using GenAI to enhance and streamline the MLOps deployment process.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0667",
+  "title": "Mitigating the Effect of Class Imbalance in Data with Hierarchical and Dependable Structure",
+  "year": "2026",
+  "abstract": "Classifying cybersecurity vulnerabilities using the Common Weakness Enumeration (CWE) taxonomy is challenging due to extreme class imbalance and strong hierarchical dependencies among weakness categories. Although oversampling techniques such as Synthetic Minority Oversampling Technique (SMOTE) and Adaptive Synthetic Sampling (ADASYN) are widely adopted to mitigate class imbalance, their effectiveness for hierarchical CWE text classification remains largely unexplored. This paper proposes a Hierarchy-Aware RoBERTa framework that explicitly incorporates CWE structural information through learnable parent-class embeddings, preserving taxonomic consistency. Our experiments demonstrate that synthetic interpolation in high-dimensional embedding spaces violates the inherent parent-child constraints of the CWE hierarchy, offering only marginal benefits for classical ML models while consistently degrading deep learning architectures. Evaluated on a CWE Research Concept dataset, the proposed model achieves a weighted F1-score of 0.76 without data augmentation, outperforming all baselines with notable gains on minority classes, including the Class category whose F1-score improves from 0.49 to 0.60 over the BERT baseline. Our results suggest that hierarchyaware representation learning is a more principled alternative to oversampling for structured vulnerability classification.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0668",
+  "title": "Lightweight AI for IoT Security: A Survey of IoT Threats, Model Compression, TinyML, Federated Learning, and Edge-Based Intrusion Detection",
+  "year": "2026",
+  "abstract": "With IoT deployments projected to exceed 40 billion devices by 2034, the attack surface available to cyber adversaries continues to widen at an unprecedented pace. Botnet-fueled DDoS offensives now represent a dominant fraction of worldwide network incidents. While AI-driven intrusion detection can achieve remarkable accuracy, the computational demands of conventional models far exceed what resource-limited IoT nodes can sustain devices that may offer only 256 KB of flash storage and operate on milliwatt-level power budgets. This survey provides a focused analysis of lightweight AI strategies published between 2024 and 2025 for securing IoT infrastructures, spanning model compression (quantization, pruning, knowledge distillation), efficient neural architectures, TinyML runtime platforms, and federated learning paradigms. We carry out a side-by-side assessment of nine recent lightweight intrusion detection systems, evaluating them on detection accuracy, model footprint, and real-world deployment feasibility. The results indicate that combining knowledge distillation with quantization delivers the most favorable compression-versus-accuracy balance ($99.4 \\%$ accuracy within a 20 KB model), whereas TinyML offers the most direct route to on-device execution on microcontrollers. We further outline unresolved issues including adversarial susceptibility and the absence of unified evaluation benchmarks and point toward emerging research avenues such as neuromorphic hardware and post-quantum cryptographic primitives.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0669",
+  "title": "Small Language Models for Phishing Website Detection: A Review of Cost, Performance, and Privacy Trade-Offs",
+  "year": "2026",
+  "abstract": "This review investigates Goldenits et al.'s (2025) empirical comparison of fifteen open small language models (SLMs) for phishing website detection, which aimed to evaluate whether locally hosted models can achieve the same accuracy as proprietary large language models (LLMs), without the prohibitive costs or privacy concerns. The authors test each model with a stratified sample of 1,000 labelled websites from a pool of 10,395 websites and measure the accuracy, precision, recall and F1 score of the results. The best local model, llama3.3:70b, achieves an F1 score of 0.893 and recall of 0.948, which is close to, but still lower than, the F1 scores above 0.95 achieved by the largest proprietary systems (Goldenits et al. 2025). This review restates the three research questions posed in this paper, assesses the evidence provided for each of the questions and situates the evidence in the context of the existing literature on cost-aware deployment (Irugalbandara et al. 2024; Kavya & Sumathi, 2024) and LLM-based phishing detection (Koide et al. 2024). It concludes that, besides the number of parameters, the deployability of an SLM depends on its architecture and on the reliability of its output format, which does not depend only on its classification skill.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0670",
+  "title": "Review for \"The Audiomaze : An EEG and motion capture study of human spatial navigation in sparse augmented reality\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0671",
+  "title": "Locate Globally, Segment Locally: A Progressive Architecture With Knowledge Review Network for Salient Object Detection",
+  "year": "2021",
+  "abstract": "Salient object location and segmentation are two different tasks in salient object detection (SOD). The former aims to globally find the most attractive objects in an image, whereas the latter can be achieved only using local regions that contain salient objects. However, previous methods mainly accomplish the two tasks simultaneously in a simple end-to-end manner, which leads to the ignorance of the differences between them. We assume that the human vision system orderly locates and segments objects, so we propose a novel progressive architecture with knowledge review network (PA-KRN) for SOD. It consists of three parts. (1) A coarse locating module (CLM) that uses body-attention label locates rough areas containing salient objects without boundary details. (2) An attention-based sampler highlights salient object regions with high resolution based on body-attention maps. (3) A fine segmenting module (FSM) finely segments salient objects. The networks applied in CLM and FSM are mainly based on our proposed knowledge review network (KRN) that utilizes the finest feature maps to reintegrate all previous layers, which can make up for the important information that is continuously diluted in the top-down path. Experiments on five benchmarks demonstrate that our single KRN can outperform state-of-the-art methods. Furthermore, our PA-KRN performs better and substantially surpasses the aforementioned methods.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0672",
+  "title": "NETWORK-AWARE, PRIVACY-PRESERVING, AND RESOURCE-EFFICIENT FACE RECOGNITION FOR IOT, EDGE, AND CLOUD-BASED AUTHENTICATION: A SYSTEMATIC SURVEY",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0673",
+  "title": "Deep Learning and Optimization Approaches in EEG-based Classification of Neuropsychiatric Disorders Using Deep Sparse Neural Networks with Gooseneck Barnacle Optimization Algorithm: A Review",
+  "year": "2024",
+  "abstract": "Electroencephalography (EEG)-based analysis has emerged as a powerful non-invasive tool for diagnosing neuropsychiatric disorders such as depression, schizophrenia, and bipolar disorder. Recent advances in deep learning (DL) have significantly improved the ability to extract complex temporal–spatial features from EEG signals, enabling more accurate and automated classification systems. This review explores deep learning and optimization approaches for EEG-based neuropsychiatric disorder classification, with a focus on deep sparse neural networks (DSNNs) and bio-inspired optimization techniques such as the Gooseneck Barnacle Optimization Algorithm (GBOA). Sparse neural architectures reduce computational complexity and enhance generalization, while optimization algorithms improve parameter tuning and convergence efficiency. The paper systematically reviews studies published between 2020 and 2023, highlighting trends in convolutional neural networks (CNNs), recurrent neural networks (RNNs), hybrid models, and graph-based architectures. Comparative analysis demonstrates that optimized DL models outperform traditional machine learning techniques in accuracy and robustness. However, challenges such as data variability, limited datasets, and interpretability remain. The integration of DSNNs with advanced optimization techniques presents a promising direction for scalable, efficient, and clinically applicable EEG-based diagnostic systems. This review provides insights into current advancements and identifies future research opportunities in neuropsychiatric disorder detection. \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0674",
+  "title": "Comprehensive Review of Benefits from the Use of Neuron Connection Pruning Techniques During the Training Process of Artificial Neural Networks in Reinforcement Learning: Experimental Simulations in Atari Games",
+  "year": "2023",
+  "abstract": "This paper presents a comprehensive examination of the advantages associated with the application of neuron connection pruning techniques in the training of Artificial Neural Networks (ANNs) within the context of Reinforcement Learning (RL). Our study involved rigorous experimentation through numerous Atari game simulations, with a focus on recording crucial metrics, including reward accumulation per episode, actions performed per episode, and computation time per action. The key highlight of our research is the compelling discovery that increasing the likelihood of disconnecting connections between neurons yields a significant enhancement in RL model performance. This remarkable performance boost can be attributed to the unique characteristics of RL and ANNs in RL tasks. In RL, each model processes input layers containing vast vectors of information encompassing all attributes of the current state. Our findings provide valuable insights into optimizing ANNs for RL tasks and demonstrate the practical benefits of connection pruning techniques in enhancing the performance of RL models. These results shows that when no pruning of connections is applied, and ANNs train as fully connected, the simulations are left unsolved. However, when ANNs with some pruning are employed, the tasks are successfully solved. Furthermore, our findings reveal a noteworthy side effect: increasing the dropout rate of train connections can significantly reduce processing time. This outcome holds significant implications for optimizing RL models, as it not only enhances performance but also streamlines computational efficiency.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0675",
+  "title": "A Contemporary and Comprehensive Survey on Streaming Tensor Decomposition",
+  "year": "2023",
+  "abstract": "Tensor decomposition has been demonstrated to be successful in a wide range of applications, from neuroscience and wireless communications to social networks. In an online setting, factorizing tensors derived from multidimensional data streams is however nontrivial due to several inherent problems of real-time stream processing. In recent years, many research efforts have been dedicated to developing online techniques for decomposing such tensors, resulting in significant advances in streaming tensor decomposition or tensor tracking. This topic is emerging and enriches the literature on tensor decomposition, particularly from the data stream analystics perspective. Thus, it is imperative to carry out an overview of tensor tracking to help researchers and practitioners understand its developments and achievements, summarise the current trends and advances, and identify challenging problems. In this article, we provide a contemporary and comprehensive survey on different types of tensor tracking techniques. We particularly categorize the state-of-the-art methods into three main groups: streaming CP decompositions, streaming Tucker decompositions, and streaming decompositions under other tensor formats (i.e., tensor-train, t-SVD, and BTD). In each group, we further divide the existing algorithms into sub-categories based on their main optimization framework and model architectures. Finally, we present several applications, research challenges, open problems, and potential directions of tensor tracking in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0676",
+  "title": "A Brief Review on Slider-Crank Mechanism",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0677",
+  "title": "Internet of UAV Mounted RFID for Various Applications Using LoRa Technology: A Comprehensive Survey",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0678",
+  "title": "Lightweight and Real-Time Deep Learning Models for Fetal Head Segmentation: A Review of Techniques and Applications",
+  "year": "2025",
+  "abstract": "Accurate fetal biometric parameters, such as head circumference, biparietal diameter, and occipitofrontal diameter of the head are important for prenatal diagnosis and growth tracking. Manually measuring them from ultrasound or magnetic resonance imaging is time consuming and depends too much on the operator. This has led to the use of artificial intelligence and deep learning for automation. Recently, convolutional neural networks, encoder decoder architectures, and hybrid attention mechanisms have greatly increased segmentation accuracy and speed. This survey reviews recent advances from 2021 to 2025 in automatic fetal head and brain segmentation and biometric estimation. Different imaging methods and problem formulations are covered, including real time light weight models, advanced U net and Atrous pooling variants, multi-task methods for standard plane identification, Spatio temporal models for videos and volumes, and classical shape constrained postprocessing. This study also summarizes dataset features, evaluation metrics, and benchmark results, highlighting the lack of a standard ultrasound dataset as a key limitation. Major problems discussed include acoustic artifacts, motion induced distortion, lack of data, and variation across scanners and populations. Promising research directions include self-supervised learning, uncertainty, adaptation across domains, and whole examination AI systems tested through prospective clinical trials. Overall, it is found that deep learning based fetal biometry systems are nearing clinical use. Future work will need to focus on making them more robust, explainable, and able to be integrated into obstetric imaging workflows.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0679",
+  "title": "Utilizing Textual Information in Knowledge Graph Embedding: A Survey of Methods and Applications",
+  "year": "2020",
+  "abstract": "Techniques that map the entities and relations of the knowledge graph (KG) into a low-dimensional continuous space are called KG embedding or knowledge representation learning. However, most existing techniques learn the embeddings based on the facts in KG alone, suffering from the issues of imperfection and spareness of KG. Recently, the research on textual information in KG embedding has attracted much attention due to the rich semantic information supplied by the texts. Thus, in this paper, a survey of techniques for textual information based KG embedding is proposed. Firstly, we introduce the techniques for encoding the textual information to represent the entities and relations from perspectives of encoding models and scoring functions, respectively. Secondly, methods for incorporating the textual information in the existing embedding techniques are summarized. Thirdly, we discuss the training procedure of textual information based KG embedding techniques. Finally, applications of KG embedding with textual information in the specific tasks such as KG completion in zero-shot scenario, multilingual entity alignment, relation extraction and recommender system are explored. We hope that this survey will give insights to researchers into textual information based KG embedding.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0680",
+  "title": "Review and Development of a Scalable Lightweight Blockchain Integrated Model (LightBlock) for IoT Applications",
+  "year": "2023",
+  "abstract": "The Internet of things (IoT) is on the rise, and it is increasingly becoming a ubiquitous computing service that requires large data storage and processing. Due to the limited capabilities of most IoT devices, they always rely on cloud services for storage and computing, posing security and privacy risks. Due to its significant aspects, such as data security and privacy, Blockchain (BC) has drawn significant interest in alleviating these concerns. Despite its potential benefits, Blockchain’s high complexity and limited scalability make it computationally expensive and incompatible with IoT devices requiring lightweight solutions. Although several models have been proposed for this purpose, the issue is still far from being resolved. These models have significant constraints, such as resource optimization during operation. By presenting a scalable lightweight Blockchain integrated model (LightBlock), the primary objective of this work is to enable the usage of BC in the IoT environment. LightBlock is implemented by optimizing the components of a lightweight, scalable Blockchain. Lastly, the study’s findings should provide IoT users with a high level of security and privacy by ensuring applicability and offering end-to-end security.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

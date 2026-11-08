@@ -1,0 +1,274 @@
+[
+  {
+    "id": "F0121",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "we present OneLA, a linear-attention decoding framework that exploits the shared prompt and short divergent suffixes of GR workloads.",
+    "objetivo": null,
+    "motivo": "framework primário para acelerar decodificação (inferência), não é survey"
+  },
+  {
+    "id": "F0122",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0123",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0124",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0125",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "This study includes reviews and discussions of substantial issues related to supervised and unsupervised machine learning techniques, highlighting the advantages and limitations of each algorithm, and discusses the research trends and recommendations for further study.",
+    "objetivo": null,
+    "motivo": "survey geral de ML para IoT, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0127",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "Graph Neural Networks (GNNs) have become mainstream due to their ability to model power system topology.",
+    "objetivo": null,
+    "motivo": "trabalho primário sobre GNN em sistemas de potência, fora do escopo de modelos (§1.3)"
+  },
+  {
+    "id": "F0128",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "model compression methods like knowledge distillation, pruning and quantization, which enable efficient deployment on embedded systems",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): compressão para detectores de objeto (SSD/YOLO)"
+  },
+  {
+    "id": "F0130",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "This review paper presents a comprehensive analysis of deep learning and optimization techniques integrated within AS-GCNN frameworks for forecasting career trajectories.",
+    "objetivo": null,
+    "motivo": "review de GCNN para RH, sem eixo de custo de implantação e fora do escopo de modelos"
+  },
+  {
+    "id": "F0131",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "We extend the cone-ray exact-NMF pipeline of Ramteke (arXiv:2606.22451) from the uniform-support regime r_+ = r to the gap regime r_+>r, and classify recoverable nonnegative factorisations by the rank of the W-factor into a three-regime taxonomy.",
+    "objetivo": null,
+    "motivo": "trabalho primário de fatoração de matrizes, sem relação com modelos da área"
+  },
+  {
+    "id": "F0132",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "We present RelateAnything, a 53M-parameter model taking an image and regions from any source and returning scored relations over a predicate vocabulary supplied at inference as strings.",
+    "objetivo": null,
+    "motivo": "modelo primário de visão computacional, sem foco em custo de implantação"
+  },
+  {
+    "id": "F0133",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0134",
+    "veredito": "fora",
+    "regra": "§3.4 sistema/ferramenta",
+    "frase": "Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations.",
+    "objetivo": null,
+    "motivo": "ferramenta/toolkit de IR, não é survey"
+  },
+  {
+    "id": "F0135",
+    "veredito": "dúvida",
+    "regra": "dúvida (frases insuficientes)",
+    "frase": "An embedded system is a programmed controlling and operating system with a dedicated function within a larger mechanical orelectrical system, often with real-time computing constraints.",
+    "objetivo": null,
+    "motivo": "frases genéricas, sem sinal de survey nem de relação com a área"
+  },
+  {
+    "id": "F0137",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This survey reviews small language models for privacy-preserving harmful-content detection on resource-constrained platforms, focusing on toxicity and grooming detection.",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): detecção de conteúdo nocivo com SLMs em borda"
+  },
+  {
+    "id": "F0138",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "This paper presents a comprehensive approach to designing and implementing embedded software architectures that enable efficient, low-power, and high-accuracy data acquisition and processing from heterogeneous sensor arrays.",
+    "objetivo": null,
+    "motivo": "trabalho primário de arquitetura de software embarcado para sensores, sem modelo da área"
+  },
+  {
+    "id": "F0139",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0141",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "This is a brief overview of the methodology around exponential family PCA.",
+    "objetivo": null,
+    "motivo": "overview de PCA, sem relação com custo de implantação de modelos da área"
+  },
+  {
+    "id": "F0142",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0143",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0144",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "Present paper covers the various embedded system and computer vision methodologies, techniques and innovations used in the field of spray painting robots.",
+    "objetivo": null,
+    "motivo": "cobertura de métodos de visão/embarcados para robôs de pintura, sem eixo de implantação da área"
+  },
+  {
+    "id": "F0145",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0146",
+    "veredito": "dúvida",
+    "regra": "dúvida (frases insuficientes)",
+    "frase": "Task offloading plays an essential enabler in reducing the burden on devices with limited resources by efficiently utilizing edge server network infrastructures.",
+    "objetivo": null,
+    "motivo": "não fica claro se o offloading é de modelos de IA ou de tarefas computacionais genéricas"
+  },
+  {
+    "id": "F0147",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0149",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "we propose FlexEMR, a system architecture that fully disaggregates these resources, and interconnects them via an optimized RDMA network.",
+    "objetivo": null,
+    "motivo": "arquitetura de sistema primária para servir modelos de recomendação, não é survey"
+  },
+  {
+    "id": "F0150",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0152",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)",
+    "frase": "As deep learning models are widely applied across various domains, a critical challenge is how to compress models while maintaining high reasoning capability.",
+    "objetivo": "saber",
+    "motivo": "review de destilação de conhecimento (compressão de modelo), eixo memória/hardware"
+  },
+  {
+    "id": "F0153",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0154",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "We start the reproduction effort by using the code open-sourced by the authors.",
+    "objetivo": null,
+    "motivo": "relatório de reprodução de método de destilação, não é survey"
+  },
+  {
+    "id": "F0155",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "In mobile edge computing (MEC) environment, effective microservices deployment significantly reduces vendor costs and minimizes application latency.",
+    "objetivo": null,
+    "motivo": "implantação de microsserviços genéricos, não de modelos da área (§1.3)"
+  },
+  {
+    "id": "F0156",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0157",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "Using entropy-based adaptive neuro-fuzzy inferences system (E-ANFIS) that combines fuzzy logic and neural networks",
+    "objetivo": null,
+    "motivo": "alocação de recursos em CDN usando fuzzy-neuro, fora do escopo de modelos da área"
+  },
+  {
+    "id": "F0158",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "This in-depth review presents a structured exploration of the state-of-the-art in LVLMs, systematically organized through a three-step research review process.",
+    "objetivo": null,
+    "motivo": "review de LVLMs focado em detecção de objetos, sem eixo de custo de implantação nas frases"
+  },
+  {
+    "id": "F0159",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "This research evaluates the essential elements required to support large-scale deployment of multi-agent LLM systems",
+    "objetivo": null,
+    "motivo": "estudo primário sobre implantação em larga escala de agentes LLM, não é survey"
+  },
+  {
+    "id": "F0160",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "This paper presents a comprehensive review and system-level analysis of intelligent embedded sensor–based waste management architectures integrating Internet of Things (IoT), wireless communication, and data-driven analytics.",
+    "objetivo": null,
+    "motivo": "review de arquiteturas IoT para gestão de lixo, sem modelo da área e sem eixo de implantação"
+  }
+]

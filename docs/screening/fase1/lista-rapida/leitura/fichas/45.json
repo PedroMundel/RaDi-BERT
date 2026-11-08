@@ -1,0 +1,32 @@
+{"id": "45", "titulo": "Attention is All you Need", "ano": 2017,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "Abstract; 1 Introduction; 2 Background; 3 Model Architecture (3.1 Encoder/Decoder Stacks, 3.2 Attention, 3.3 Position-wise FFN, 3.4 Embeddings/Softmax, 3.5 Positional Encoding); 4 Why Self-Attention (Tabela 1); 5 Training; 6 Results (Tabelas 2, 3, 4); 7 Conclusion; Apendice de visualizacoes de atencao", "paginas": "1-15 (integra)"},
+ "resumo": "O artigo propoe o Transformer, uma arquitetura de traducao de sequencias que abandona recorrencia e convolucao e se apoia inteiramente em mecanismos de atencao. Descreve a atencao escalada por produto escalar e a atencao multi-cabeca, o empilhamento de camadas de encoder e decoder com conexoes residuais e normalizacao, e a codificacao posicional senoidal que substitui a nocao de ordem antes dada pela recorrencia. Compara formalmente o custo computacional, o grau de paralelizacao e o comprimento do caminho entre posicoes distantes de atencao, recorrencia e convolucao, justificando a escolha por atencao. Os experimentos em traducao WMT 2014 ingles-alemao e ingles-frances alcancam estado da arte com uma fracao do custo de treino dos modelos anteriores, e um teste em parsing de constituintes em ingles mostra que a arquitetura generaliza. E o texto-fonte da distincao encoder/decoder que toda a familia de modelos posteriores (BERT, GPT, T5) reaproveita.",
+ "perguntas": {
+   "P1": {"r": "não", "por": "Nao organiza uma area em categorias; apresenta uma unica arquitetura nova, comparando-a a poucos modelos concorrentes (Secao 6.1, Tabela 2)."},
+   "P2": {"r": "sim", "por": "Explica o mecanismo (produto escalar, escala por raiz de dk, multi-cabeca) e o porque de cada escolha de projeto, com analise formal de complexidade e caminho maximo (Secao 3.2 e Secao 4, Tabela 1, p. 3-7)."},
+   "P3": {"r": "parcial", "por": "A Secao 2 (Background, p. 2) situa o trabalho frente a RNN/LSTM e a modelos convolucionais (ByteNet, ConvS2S), mas e contexto imediato, nao uma narrativa historica da area."},
+   "P6": {"r": "sim", "por": "É o trabalho fundador da linha Transformer (atencao pura, sem recorrencia/convolucao), da qual derivam depois as tres familias encoder-only, decoder-only e encoder-decoder (paper inteiro, arquitetura da Figura 1, p. 3)."},
+   "P4a": {"r": "não", "por": "So cita disponibilidade de codigo em repositorio externo (tensor2tensor, p. 10, Conclusao); nao traz guia, benchmark reproduzivel ou discussao de sistema de implantação."},
+   "P4b": {"r": "não", "por": "Nao trata de destilacao de conhecimento em nenhum momento do texto."},
+   "V": {"r": "sim", "por": "Define e nomeia formalmente scaled dot-product attention, multi-head attention, positional encoding, query/key/value, entre outros (Secao 3.2-3.5, p. 3-6)."},
+   "A": {"r": "não", "por": "E de 2017, anterior a era dos LLMs; mostra a origem da arquitetura em tarefas de traducao e parsing, nao o estado atual da area (Secoes 5-6, p. 7-10)."},
+   "R": {"r": "sim", "por": "É o proprio texto que introduz e detalha a arquitetura encoder-decoder com atencao (Secao 3.1, p. 3), base da qual BERT, GPT e T5 depois derivam encoder-only e decoder-only; discute a familia Transformer completa (encoder+decoder), nao uma variante isolada."}
+ },
+ "termos_chave": ["self-attention", "scaled dot-product attention", "multi-head attention", "positional encoding", "encoder-decoder", "query/key/value", "position-wise feed-forward network", "masked (auto-regressive) decoding"],
+ "pre_requisitos": ["redes recorrentes (RNN/LSTM)", "mecanismo de atencao em seq2seq (Bahdanau)", "arquitetura encoder-decoder", "embeddings e softmax", "multiplicacao de matrizes/algebra linear basica", "otimizacao com gradiente (Adam, dropout)"],
+ "nivel": "intermediário",
+ "nivel_por": "O texto e curto (15 paginas) e bem estruturado com figuras, mas pressupoe familiaridade previa com RNN, atencao e seq2seq; sem essa base o leitor iniciante tem dificuldade com a notacao das Secoes 3.2 e 4.",
+ "objetivo": "saber",
+ "por_onde_ler": "Abstract e Secao 1 Introduction (p. 1-2); Secao 3 Model Architecture, sobretudo 3.2 Attention (p. 2-6); Secao 4 Why Self-Attention e Tabela 1 (p. 6-7); Secao 7 Conclusion (p. 10).",
+ "acrescimo": "É a unica obra da lista que apresenta, na fonte primaria, o mecanismo de atencao (scaled dot-product, multi-head) e a arquitetura encoder-decoder que sustentam a coluna 'R arquitetura' de toda a base: sem ela nao se entende por que BERT (46) e encoder-only, GPT/LLaMA (48, 49) sao decoder-only e T5 (47) e encoder-decoder, nem o que Reformer (31), FlashAttention (34) e Efficient Transformers (07) estao otimizando.",
+ "sobreposicao": ["BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding", "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer", "Language Models are Few-Shot Learners", "LLaMA: Open and Efficient Foundation Language Models"],
+ "bloco_atual": "C conceitos",
+ "bloco_sugerido": "C conceitos",
+ "veredito": "manter",
+ "veredito_por": "E o texto-fonte da arquitetura que da nome a divisao 'atencao e sequencias eficientes' e sustenta a distincao encoder/decoder usada na coluna R de toda a base; pertence a C conceitos porque e pre-requisito conceitual, nao fundador de uma tecnica de eficiencia especifica.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+   {"texto": "We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely.", "pagina": "1"},
+   {"texto": "a self-attention layer connects all positions with a constant number of sequentially executed operations, whereas a recurrent layer requires O(n) sequential operations", "pagina": "6"}
+ ]}

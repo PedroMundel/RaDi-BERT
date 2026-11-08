@@ -1,0 +1,491 @@
+﻿[
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "This survey examines contemporary research trends in skin lesion analysis"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This survey examines"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Vision Transformers, few-shot learning paradigms"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "segmentation-assisted representation learning, attention-based architectures, and data-efficient learning strategies"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "mobile platforms, and telemedicine-based healthcare applications"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0032"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "This review presents an architecture-centered synthesis of face mask detection systems"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review presents"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "lightweight convolutional networks such as the MobileNet family"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "model compression"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "embedded and mobile platforms"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0025"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "the technological challenges and trends in the latest AI accelerators are reviewed"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "the technological challenges and trends in the latest AI accelerators are reviewed"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "low-power hardware accelerators"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0008"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Federated Learning (FL) presents a novel approach within the domain of Machine Learning (ML)"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This study presents the development and evaluation of an FL image classification model"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "training process at the edge"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "SQUARES technique"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0047"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0064"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Clinical LLM benchmarks rarely test whether algorithmic rankings agree with expert clinical judgment"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "We developed a trap-embedded peritoneal dialysis (PD) benchmark"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Five LLMs (Claude Sonnet 4.5, GPT-5.4, Gemini 3.1 Pro, DeepSeek-R1, Grok 4.1 Fast)"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "benchmark"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0044"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Moving object segmentation (MOS) is the process of identifying dynamic objects from video frames"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper aims to provide a comprehensive review of deep learning-based MOS models"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "deep learning-based MOS models"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "efficient model design techniques"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0091"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "the objective of this study is to review the existing literature on the use of embedded technologies in UAVs and deep learning for the identification and characterization of pathological manifestations"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "is to review the existing literature"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "deep learning techniques"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "embedded technologies in UAVs"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0085"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Real-time plant disease detection on mobile devices requires models"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review paper explores the development of lightweight CNN–Transformer hybrids"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Hybrid CNN–Transformer architectures"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "model compression (pruning, quantization, and knowledge distillation)"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "TensorFlow Lite, ONNX Runtime Mobile, Core ML"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0090"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "object detection is locating a specific object from the multiple objects present in a scene"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This paper shows a detailed survey on recent advancements"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "convolutional neural networks"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "speed-up techniques"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "real-time object detection on Gpu-based embedded systems"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0087"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "identifying potential hierarchical population structure on modern survey data"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "we introduce population-based hierarchical non-negative matrix factorization (PHNMF)"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0136"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Attention-Based Sparse Graph Convolutional Neural Networks (AS-GCNNs) have demonstrated remarkable capability"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review paper presents a comprehensive analysis"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Attention-Based Sparse Graph Convolutional Neural Networks (AS-GCNNs)"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "sparsity constraints improve computational efficiency"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0130"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Generative recommendation (GR) relies on large-beam decoding"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "we present OneLA, a linear-attention decoding framework"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "fused GPU kernel"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0121"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Pyserini is a Python toolkit for reproducible information retrieval research"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "Pyserini is a Python toolkit"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "sparse retrieval (e.g., BM25 scoring using bag-of-words representations), dense retrieval (e.g., nearest-neighbor search on transformer-encoded representations)"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "toolkit"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0134"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0192"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "physical activity recognition has begun to play an important role"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This study provides a systematic review of the literature"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "lightweight AI, combined with the optimization of machine learning models"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "wearable devices with multimodal sensors"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0189"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0202"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Distributed Denial of Service (DDoS) attacks"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This review takes a critical look at the newer IoT-based DDoS detection methods"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "lightweight machine learning (ML) methods including Support Vector Machines (SVM) and K-Nearest Neighbors (KNN)"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "Federated Learning (FL)"
+                       },
+                       {
+                           "item":  "pratica",
+                           "texto":  "deployment of edge-based IoT"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0203"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "sentiment analysis into emotion classification models applied to user reviews"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "a hybrid approach is proposed"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "DistilBERT transformer model"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0238"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0249"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "The evolution of chatbots from rule-based, retrieval-based, contextual systems, to hybrid and generative AI-powered models"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "The evolution of chatbots"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Generative Pretrained Transformer (GPT), GPT-4, Ernie, and Gemini"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "discriminative fine-tuning, zero-shot and few-shot learning, parallel processing, and reinforcement learning with human feedback"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0255"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Graph Neural Networks (GNNs) have received significant attention"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "Knowledge Distillation on Graphs (KDG) has been introduced"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Graph Neural Networks (GNNs)"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "Knowledge Distillation"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0259"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "ensuring the security of cyber and embedded systems is critical"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "this article systematically reviews 63 articles on AI in cybersecurity"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0267"
+    },
+    {
+        "frases":  [
+
+                   ],
+        "acesso":  "sem acesso",
+        "id":  "F0307"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Retrieval-Augmented Generation (RAG) has emerged as a transformative paradigm"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "This comprehensive survey delves into"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "Large Language Models (LLMs)"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "context compression algorithms"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0318"
+    },
+    {
+        "frases":  [
+                       {
+                           "item":  "objeto",
+                           "texto":  "Deep learning has made significant progress in the field of object detection"
+                       },
+                       {
+                           "item":  "tipo",
+                           "texto":  "The purpose of this paper is to review various algorithms"
+                       },
+                       {
+                           "item":  "modelos",
+                           "texto":  "convolutional neural networks"
+                       },
+                       {
+                           "item":  "tecnica",
+                           "texto":  "pruning, quantification and knowledge distillation"
+                       }
+                   ],
+        "acesso":  "ok",
+        "id":  "F0292"
+    }
+]

@@ -1,0 +1,345 @@
+# Residência em IA — UFG 2026/2
+
+Atividades do processo da Residência em Bacharelado em Inteligência Artificial.
+Atividade atual (10/09): **TEMA v3 em formulação** — injeção de racionalização de LLM em modelos encoder-only, que não geram texto. Nasceu do Pedro lendo o Distilling Step-by-Step. Hipótese viva: **H2, cabeça decodificadora auxiliar descartada na inferência** (mecanismo validado pelo DHRD sobre decoder-only; lacuna arquitetural sobre encoder). H1 (regressão para embedding da racionalização) foi verificada e está **ocupada** (LRKD, WWW'26). Estado, hipóteses, ponte teórica e pendências em `docs/pesquisa/tema-v3-racionalizacao-encoder.md`. Prazo de execução: 3–4 meses. Hardware: RTX 5060 8GB. **Orçamento (13/10): US$ 100 de crédito de API da Anthropic + US$ 250 de sessões na nuvem do Claude Code** (gerar racionalização do treino inteiro do e-SNLI com Haiku 5.5 em lote ≈ US$ 10; ver `docs/2026-10-13-custo-racionalizacao-llm.md`). **Nuvem (Pedro, 20/10):** roda sessões com agentes (nuvem do Claude + app do GitHub). Uma tarefa de ~17M tokens custou ~US$ 65 (~US$ 3,8/M), sobram ~US$ 185. Serve para trabalho de agente, **não para gerar o dataset**: sai mais caro que o lote da API, não fixa modelo e prompt por item, e pode cair nos Consumer Terms (§3: proíbe treinar "any" modelo de IA; o plano dos créditos está a verificar).
+
+**Tarefa e dataset DECIDIDOS (Pedro, 13/10): NLI de 3 classes no e-SNLI**, cross-encoder com cabeça de classificação; professor = Claude, sem publicar pesos nem dataset (14/10). Semana 6 entregue (14/10). **Semana 7 (19/10) = gerar o dataset:** protocolo de 4 rodadas contra prompt ruim (< US$ 5 arriscados antes da rodada grande) e precedentes de licença (Tülu 3 usou Claude 3.5 Sonnet; sanções conhecidas da Anthropic = corte de acesso, nenhum processo) em `docs/2026-10-19-geracao-dataset-prompt-e-licenca.md`. Decisões de variantes, nº de pares e professor: do Pedro. **⚠️ 20/10: a Usage Policy (incorporada pelo §D.2) proíbe treinar *qualquer* modelo de IA com as saídas sem autorização prévia, e não só concorrente.** O argumento do §D.4 não cobre isso. Ver a correção no §2.1 do doc de licença. **20/10 (Pedro): Claude como gerador ARQUIVADO por ora.** Duas frentes: (1) piloto de 45 pares com `Qwen/Qwen3.5-9B` local (GGUF Q4_K_M via `llama-server`), script em `src/radibert/piloto_qwen.py`, mesmos pares e prompt do piloto do Claude; **rodado em 20/10 com as variantes A/B/D** (relatório `resultados/piloto-qwen/relatorio.md`: tirar as definições não tira o molde; "uma frase, o fato que decide" (D) dá ~16 palavras sem frase vazia; ~1 s/par na 5060; espera a leitura do Pedro); **25/10: gate 7 sem feedback; E não é final para o Pedro → variante F (pergunta "por quê", sem rótulo nem "premise/hypothesis") rodou, seção F do relatório; 26/10: FR (pergunta reescrita pelo Qwen) rodou, inverteu 1 rótulo em 45 (#126); FRG (FR + guarda de molde por regex) corrige; FR × FRG mostrou que o llama-server NÃO reproduz entre rodadas (34/44 respostas mudam com prompt igual): só diferença maior que ~6 casos em 45 é sinal; F e FRG no Qwen3.6-35B-A3B (26/10): corrige #948 e #9, os erros fixos do 9B, a ~4–5× o tempo; 26/10: `--n-cpu-moe 27` leva o 35B a 2,0 s/par na F; em 90 pares (`amostra-90.csv`) a F do 35B errou ~3–4 × ~10 da F do 9B (leitura do Claude), a reescrita perde o detalhe que decide (guarda não vê) e a F do 9B reproduziu 45/45 num servidor novo (o ruído é da FR/FRG); 27/10: com pedidos simultâneos (`QWEN_WORKERS`), F no 9B a 0,28 s/par (8 pedidos, `-ub 128 -cms 0`) e no 35B a 1,66 s/par (4 pedidos, `--n-cpu-moe 30`: o 27 estoura a VRAM quando outros apps seguram GPU); configuração congelada reproduz, mudar lote muda o texto mas não a superfície; 27/10 (Pedro): 35B + F decididos; primeiro lote no TREINO do e-SNLI (baixado com OK dele em 27/10; antes só o dev estava no disco) terminado às 6h24: 16.000 pares, 1,20 s/par, sem queda, todos com `stop`; ninguém leu os textos ainda, ordem aleatória com semente 42; 28/10: eco marcado (`marcar_eco.py` -> `marcas.csv`, 1.252 pares, 7,8%; regra reproduz o dev), discordância não marcada (PC instável); 29/10: avaliação humana cega pela rubrica de Wiegreffe et al. 2022 (30 Qwen + 20 GPT-3 já julgados pelos avaliadores do paper; `montar_leitura_cega.py`, gabarito `leitura-50-gabarito.csv`) em Google Forms (`criar_formulario.gs`), respondida pelo Pedro e amigos, sem resultado ainda; termo `docs/residencia/termo-de-entrega-Semana-8.md` rascunhado (29/10) — `resultados/lote-35B/` (`lote.py`, `rodar.sh`, saída `racionalizacoes-F-35B.csv`)**; candidatos abertos em `docs/2026-10-20-professores-abertos.md` (nível 3); (2) estudar as perdas: `docs/2026-10-20-perdas-o-que-e-I-gradiente.md` (I, ∇θ L, ΔL; checagem "nomeia o rótulo" trocada por I(R;X|Y) por braço + cosseno g_c·g_a no treino).
+
+**Entregas:** `docs/residencia/termo-de-entrega-Semana-1.md` **já foi entregue** e **o gate da Semana 1 já passou**
+(declarado 15/09) — não editar o termo; `docs/residencia/preparacao-arguicao-gate.md` está encerrado (só registro).
+`docs/residencia/termo-de-entrega-Semana-2.md` (19/09) é a versão final escrita pelo Pedro para o gate 2 (3 docs de
+`entrega/` linkados) — **gate 2 passou (declarado 19/09), sem feedback, sem apresentação**; termo
+fechado, não editar. **Semana 3 (23/09):** rascunho em `docs/residencia/termo-de-entrega-Semana-3.md` (pedido dele), links `entrega/Arvore de Citacao.docx` e `entrega/Desenho da Leitura por Agentes.docx`; roteiro de fala em `docs/residencia/apresentacao-gate-3.md` (gate = termo no projetor, sem slides; entregável sempre .docx). **F1 da camada C executada** (árvore de citação S2 + OpenAlex): relatório `docs/screening/fase1/2026-09-23-camadaC-F1-relatorio.md`, coluna `camada_C_F1`, página em `docs/screening/fase1/figs/arvore-citacao-F1.html`. **24/09:** decisões da F1 dadas (desceram: só as 1.214 com palavra de tipo vão à F2; sem dado de citação vai; 50–99 = 30%); **lista de leitura de destilação** (17 obras, nível 3) por funil sobre a árvore externa (referências), a pedido do Pedro, para ler já — `docs/screening/fase1/2026-09-24-kd-lista-leitura.md`; outras divisões esperam o mapa v1 (forma em T). Scripts em `scripts/screening/`. **26–27/09: calibração dos agentes (M4) passou** (`docs/screening/fase1/2026-09-26-calibracao-agentes-relatorio.md`) e **F2 executada** (962 obras, cadeia Haiku->Haiku->Sonnet; relatório `docs/screening/fase1/2026-09-27-F2-relatorio.md`, checkpoint `docs/screening/fase1/F2/ESTADO.md`): 55 relevante · 157 dúvida (quase toda regra (c)); **só 1 grupo desceu, ~11,5 mil seguem, ~1.400 relevantes estimadas** — **erro de desenho da F2** (grupo = área; ver Rejected). **Plano novo, nada rodou:** `docs/screening/fase1/2026-09-27-plano-classificador.md` — classificador SPECTER2 + regressão logística sobre os 797 vereditos, contrato de funil, e a etapa C3 (de ~1.100 relevantes para ~50) **ainda não existe**; decisões D1–D5 do Pedro. **Riscos medidos (27/09):** `docs/screening/fase1/C1-diagnostico/2026-09-27-riscos-classificador.md` — classificador bate todas as linhas de base (72% das relevantes em 25% da lista × 28% ao acaso) mas K95 = 67%, não 25%; causa: 55 positivos (n efetivo 20), gabarito 21/28 no grupo 2, **hardware só 56% e ferramentas 0** — proposta: critério por cobertura de subárea + aprendizado ativo em rodadas de ~200; decisões R-D1–R-D5. Vetores copiados para `docs/screening/fase1/emb/`. **Critérios de relevância (27/09):** `docs/criterios-de-relevancia.md` (literatura + dois níveis: A tópico, B situacional por perguntas P1–P4b, V, A, R; P6 e acréscimo fora da triagem; P5 nas notas) e **método de baixo para cima** `docs/screening/fase1/2026-09-27-metodo-bottom-up.md` — camada 1 (critérios) em correção pelo Pedro: D-1, D-A (atualidade), D-N. Tabela-mestra NÃO tocada pela F2. **27/09 — MUDANÇA DE RUMO (Pedro): sem tempo para bottom-up; lista de alta qualidade rápida.** Surveys viram **júri** (91 com referências + reserva de hardware só para hardware, 'hardware é bem importante'); co-citação -> **lista v2 com 56 obras** em 4 blocos (13 mapas · 31 fundadores · 7 conceitos · 5 sistemas; 11 divisões pelo título; 18 ajustes do Claude declarados): `docs/screening/fase1/2026-09-27-lista-rapida-v2.md` + `lista-rapida/lista-v2.csv`. **Fichas de leitura por agentes (27/09):** 56 fichas (Sonnet, texto completo em 53, só abstract em Deng 2020 e LSTM) -> `docs/screening/fase1/2026-09-27-lista-v2-fichas.md` (síntese §0: 55 manter; redundância real só entre mapas 02/04/05; P3 história contada fraca; 4 introdutórias para começar). **Espera a revisão do Pedro** (§6 do relatório da lista). Pausados: F2, classificador como triagem, método por camadas. **Semana 4 (01/10):** rascunho `docs/residencia/termo-de-entrega-Semana-4.md` (formato 'fiz isso por esse motivo', regra nova da skill) + entregáveis `entrega/Selecao das Obras.docx` e `entrega/Metodo de Leitura.docx` (fontes .md ao lado); escolhas abertas no fim do termo. Termos seguintes saem da skill do projeto `/termogate` (`.claude/skills/termogate/`),
+que codifica o tom dele a partir da reescrita que fez do rascunho. A `docs/residencia/proposta-de-tema.md` (rev. 2, 15/09)
+é o documento vivo do tema, com a especialização na abertura.
+
+**MODO DE TRABALHO (Pedro, 08/11):** 2 semanas de atraso; o PC (RTX 5060) perdeu o slot NVMe e roda com outro SSD
+(SATA); o SSD do projeto está no notebook (`WKST-001`, GTX 1650). (1) **IA liberada para acelerar**: o veto do gate 4
+abaixo não guia mais o trabalho (continua: não disfarçar LLM nas entregas). (2) **Notebook = contexto e exploração;
+PC = tudo que precisa de GPU.** (3) **Tudo compartilhável entre as duas máquinas** (GitHub, HF Hub, Drive).
+**Repo (08/11): `PedroMundel/RaDi-BERT`, privado, branch `main`.** Fora do git: `dados/esnli/` (baixar pela
+`dados/README.md`), `amostra-treino.csv` (regenera com `lote.py amostra`), `docs/screening/fase1/raw|emb`, GGUF e
+checkpoints (HF Hub privado). Ponte entre as máquinas: SSH do notebook para o PC (a configurar).
+
+**GATE 4 — FEEDBACK DO PROFESSOR (01/10, transmitido em 05/10; texto e abertos F1–F5 em `docs/feedback-gate-4.md`):**
+(1) história não dá base agora — foco em obras **recentes, com métodos e ferramentas atuais**; (2) das 91 surveys só
+3–5 servem, e **não refazer a pesquisa** — o screening fecha; (3) **daqui pra frente, nada de Claude/Gemini/ChatGPT
+salvo necessidade real**. **O Pedro discorda (05/10) e segue usando LLM:** leitura e extração são dele; o Claude é
+interlocutor e redige o que ele explicou. Não propor agentes nem fichas por LLM; não pôr no texto ideia que ele não
+disse; nunca disfarçar o uso de LLM nas entregas. **Adendo (05/10):** em pessoa o professor foi mais tranquilo (a
+fala era obrigação de quem argui), e **o termo do gate fica fora do veto**: o Claude redige a partir do registro da
+semana, e o Pedro sempre adapta, nunca cola. **Sem mapa (Pedro, 05/10).** Semana 5 = escolher mais obras, as
+melhores possíveis, entre as 56: `docs/screening/fase1/2026-10-05-lista-56-para-selecao.md` (selos ✔/◐/✗ = leitura do
+Claude do critério "recente"). **Seleção do Pedro (05/10): saíram as 17 ✗, ficam 39 para o gate da semana 5.**
+Lacunas sugeridas no fim do arquivo (ModernBERT, GQA, Orca, survey de KD de LLM, MobileLLM; metadados conferidos),
+esperando a decisão dele. **07/10: lista com 50 obras** (39 + 7 lidas + e-SNLI, Ho 2023, survey de CoT de Chu 2024,
+CoK de Wang 2024): `docs/screening/fase1/Lista de Obras.docx`. **Semana 5 fechada (07/10):** `docs/residencia/termo-de-entrega-Semana-5.md`
++ `entrega/Obras Lidas v4.docx`; leituras dele em `Downloads/Leituras Semana 5.docx`. **O desenho do tema NÃO está
+decidido** (Pedro, 07/10: "vou decidindo mais pra frente"). Estado completo no `HANDOFF.md`.
+
+**Leitura do Pedro (declarado 10/09):** apenas **Distilling Step-by-Step** e **DHRD** — dos dois ele escreveu resumo próprio, que são entregáveis. Nenhum outro artigo do projeto foi lido por ele. **Atualização 23/09:** terminou **Petersen et al. 2008** (nível 1). **Atualização 01/10:** declarou ter lido também **Agrawal, Ahemad & Sembium 2025** (nível 1; entra em `entrega/Obras Lidas v3`). **Arksey & O'Malley 2005 e Kitchenham & Charters 2007: leu o resumo preparado pelo Claude, não a fonte** (declarado 01/10) — no Obras Lidas v3 ficam numa seção separada "lidos por resumo"; não contam como nível 1. **01/10:** Hinton 2015, Yuan 2024 e Kwon 2023 (leitura dirigida). **06/10: DistilBERT (Sanh 2019)**, com extração dele em `docs/leituras/fichas/distilbert-sanh-2019.md`; recusou MobileBERT e Gou 2020 por "6+ anos, só para história". Necessidades que a leitura levantou → `docs/2026-10-06-destilacao-surveys-losses-bert.md` (nível 3). **⚠️ Wadhwa et al. 2024 (EMNLP, arXiv:2406.14511)** já testou racionalização embaralhada com aluno decoder: é o controle que o tema v3 dava como lacuna. A pergunta passa a ser "vale para encoder?".
+
+**CRITÉRIO DO PROGRAMA (declarado pelo professor/coordenador em 11/09, e ele é por quem tudo passa):**
+a Residência **não avalia inovação nem produto final — avalia o processo**. "O produto final é você, não o
+seu TCC." O tema v3 foi considerado "ótimo e explorável", mas **"muito produto"**: ele não conseguiu ver
+**qual especialização** o Pedro está construindo. A pergunta que precisa de resposta antes de qualquer
+outra é **"você vai ser o quê?"** — e o tema entra como veículo dessa resposta, não como fim. Toda
+proposta e todo documento de entrega deve tornar a especialização visível; o tema é instância dela.
+**Consequência direta:** novidade deixa de ser critério. Um método já publicado (Agrawal) é **blueprint
+para aprender**, não ameaça. Nulo bem controlado e documentado é ciclo completo — conta.
+
+**O PROCESSO DO PROFESSOR (transmitido pelo Pedro em 15/09, palavras do professor):** três Momentos/Etapas
+para virar especialista em qualquer área — **Etapa 1: história, fundamentos, ferramentas** (divisões da
+área, vocabulário) · **Etapa 2: "frameworks" de apoio** · **Etapa 3: trilhas ou campos de aplicação**.
+A pesquisa bibliográfica pedida é **"screening", em contraposição à Revisão Sistemática**: o objetivo
+é *"encontrar artigos relevantes e que suportem o início da Etapa 1: levantando a história da área, as
+suas divisões, fundamentos, vocabulário e etc."* **Consequência:** o levantamento feito até 10/09
+(`docs/pesquisa/artigos-verificados.md`, ~50 artigos em 7 frentes) foi busca de fronteira a serviço do tema — serve
+para a Etapa 3, não para a Etapa 1. **A Etapa 1 da especialização nomeada ainda não foi feita.** A seção
+de "fundacionais" de `docs/pesquisa/metodo-busca-artigos.md`, descartada em 09/09, pode voltar a ter função — decisão
+do Pedro.
+
+**DEFINIÇÃO DE FUNDAMENTOS DO PROFESSOR (transmitida pelo Pedro em 22/09, da última aula, palavras
+do professor):** *"Os FUNDAMENTOS de qualquer Área ('porção') de Conhecimento é construído ao longo do
+TEMPO (história), reunindo FERRAMENTAS que auxiliam na execução de toda e qualquer ATIVIDADE que seja
+necessária dentro de uma TRILHA relacionada à Área. Toda Trilha também tem seus próprios fundamentos!
+Um(a) especialista conhece 'o que forma' (ou compõe) a sua área de especialização ATUALMENTE
+(fundamentos)."* **Leitura a confirmar pelo Pedro (pendências B1–B4):** história, fundamentos e ferramentas
+não são três pilares paralelos — fundamentos é o produto, história e ferramentas são como ele se
+constrói; a unidade das ferramentas é a **atividade** (não a divisão), e o método ainda não tem eixo de
+atividade; cada trilha (Etapa 3 — o tema v3 é uma) terá fundamentos próprios, fora da Etapa 1;
+"atualmente" confirma a janela 2020+ para o mapa e sem janela para história. Consequências para o
+método: decisão do Pedro, depois do Petersen.
+
+**PENDÊNCIAS PÓS-PETERSEN:** `docs/pendencias-pos-petersen.md` (aberto 22/09) — tudo que surgiu enquanto o
+Pedro lia o Petersen 2008 (RQs, definição de fundamentos, filtro-tipo × Petersen, loop do pool, funil por
+voltas, critérios de inclusão, start set, rótulos). **Nada decidido; cada item é uma pergunta para ele.**
+Regra (22/09): decisão que falta é perguntada — nunca preenchida e rotulada como "do Claude".
+
+**ESPECIALIZAÇÃO NOMEADA PELO PEDRO (15/09), com as palavras dele:**
+- *"Você vai ser o quê?"* → **"eficiência de modelos para implantação"** — e o tema v3 é "só uma análise
+  dentro dessa área", não a área.
+- *"O que quer saber fazer que hoje não sabe?"* → **"conhecimento profundo sobre a arquitetura de
+  encoders, decoders e encoder-decoders"** — é o que este ciclo ensina.
+- Encaixe (observação do Claude, não do Pedro): a trilha de leitura já cruza as três famílias — DSbS
+  (encoder-decoder, T5) → DHRD (decoder-only) → Agrawal (BERT + decoder T5) → v3 (encoder-only). A
+  narrativa da proposta é essa.
+
+**DEFINIÇÃO DE FRAMEWORK (Etapa 2; trazida pelo Pedro em 30/09, origem a confirmar):** estrutura flexível de diretrizes, práticas e ferramentas pré-definidas que serve de **esqueleto** (base, arquitetura, funções essenciais) para um projeto, para não reinventar a roda. Teste e consequências em `docs/criterios-de-relevancia.md` §7.1: **vale nos dois sentidos (Pedro, 30/09: 'é os dois')**: software (esqueleto de código) **e** conceitual/metodológico (diretrizes e práticas que prescrevem decisões num projeto: roofline, pipeline do Deep Compression, métricas de Sze, text-to-text do T5); taxonomia só conta se disser quando usar cada ramo.
+
+**MÉTODO DE LEITURA DO PEDRO (rápido, 01/10 — 'mais rápida mas com os mesmos ganhos'):** `docs/metodo-de-leitura.md` — **caça dirigida em 5 paradas** (promessa · origem · núcleo · Ctrl+F · fecho), ~35 min/obra, colhendo os **mesmos 13 ganhos** da versão detalhada (v1, 30/09, guardada em `docs/metodo-de-leitura-v1-*.md`); escreve direto nos 4 arquivos acumulados de `docs/leituras/` (= material do gate); ficha do agente só como guia de ONDE ler (páginas), nunca de O QUE. Página em toda anotação.
+
+**OS TRÊS OBJETIVOS DAS OBRAS (Pedro, 26/09):** as obras servem a **saber** (conhecimento, compreensão
+profunda), **saber fazer** (prática em contextos diferentes) e **saber ser** (domínio visto no comportamento;
+*"obras não ensinam isso"*), ou a uma combinação. Como vira regra nos agentes está em aberto:
+`docs/screening/fase1/2026-09-26-plano-agentes-F2.md` §5.
+
+**Régua de decisão do Pedro (anterior; em revisão após 11/09):** o tema tem que gritar para um empregador "eu resolvo um problema seu" + carregar professional improvement + ser inovador sem ser fronteira + caber no orçamento. O professor inverteu a ênfase: *professional improvement* vira o critério primário, "gritar para empregador" é secundário, e "inovador" sai. A especialização está nomeada (acima); a régua nova o Pedro ainda não escreveu por extenso. Ele decide; Claude é apoio à decisão, não executor — exceto escrever arquivos, que é sempre autorizado (documentação não é execução).
+
+**PROCEDÊNCIA (regra permanente):** todo arquivo de pesquisa deve declarar quem leu o quê, em três níveis — (1) Pedro leu, (2) Claude leu o texto completo, (3) agente verificou página e resumo apenas. Nível 3 serve para triagem, **nunca para citação**: metadados são confiáveis, interpretação de método e resultado pode ter erro de sumarização. Nada entra em texto assinado pelo Pedro sem que ele tenha lido o original.
+
+## Arquivos
+
+- `docs/residencia/semana-1-topicos/topicos-csce2026.md` — os 289 tópicos extraídos das 3 CfPs (IDs A01–Q44), com análise crítica das CfPs no topo. Fonte da verdade.
+- `docs/residencia/semana-1-topicos/clusters.md` — síntese: clusters nomeados, âncora + satélites, teste do elevador. PREENCHIDO 18/08.
+- `docs/pesquisa/interesses-estudos-futuros.md` (raiz) — todos os 3/2.5 que caíram nas podas, por área; NÃO é parte da especialização.
+- `docs/residencia/semana-1-topicos/artigos/` — notas de leitura da Fase 4 (surveys + papers dos finalistas).
+- `docs/residencia/semana-1-topicos/objecoes-e-respostas.md` — objeções à config (O1 BIA≠CD, O2 assimetria ML/dados, O3 1/80, O4 empregador, O5 salário, O6 gap-de-ML≠âncora) com respostas prontas + regra R1 anti-atrofia.
+- `docs/residencia/semana-1-topicos/temas-candidatos.md` — 20 temas propostos (10 âncora C2 + 10 âncora ML c/ satélites dados+segurança), com pares espelhados e critérios de escolha. TODOS rejeitados (ver `## Rejected`).
+- `.docx` correspondentes: gerar SÓ ao finalizar cada .md (placeholders já existem).
+
+**Arquivos do ciclo de tema (28/08–10/09):**
+
+- `entrega/` — **versões de entrega do gate 2 (17/09), md + .docx gerados:** `metodo-screening.md`
+  → `Metodo de Screening.docx` · `fundamentacao-metodo-screening.md` → `Fundamentacao do Metodo de
+  Screening.docx` · `pool-termos.md` → `Pool de Termos.docx`. Regras da versão de entrega: primeira
+  pessoa, sem metacomentários/versões/citações do Pedro, sem "Pedro", sem caracteres fora do teclado
+  (— · § ⟨⟩ ≥ → × ² viram - / cap. / (rev-N) / >= / -> / x / ^2), numeração própria (Procedimento =
+  cap. 10; sem seção de orçamento de tempo). Formatação "feia" de propósito: Arial 12, headings padrão
+  pretos, Table Grid; código do pool como imagem. Conversor em scratchpad (`md2docx_plain.py`) — se
+  precisar regerar, reescrever a partir do md. **Os documentos de trabalho na raiz continuam sendo a
+  fonte; a entrega é derivada.** A Fundamentação declara níveis de leitura do Pedro (Petersen [1],
+  Arksey & O'Malley [2], Tricco [3]) que **ainda não aconteceram** — ler antes de entregar.
+  **Leituras nível 4 feitas (19/09):** Wohlin 2014 e Kitchenham & Charters 2007 lidos na fonte
+  (PDFs em `docs/artigos/`, notas `notas-wohlin-2014.md`, `notas-kitchenham-charters-2007.md`);
+  tabela §1 do método-do-método conferida, sem divergência. Glaser & Strauss 1967 **só por fonte
+  secundária** (Saunders et al. 2018) — `notas-glaser-strauss-1967.md`; o `[4]` declarado na
+  Fundamentação entregue está acima do real para essa fonte; corrigir se o doc for reentregue.
+- `docs/metodo-de-construcao-do-metodo.md` — **o método do método (17/09).** Responde "como você criou
+  isso?": as dez decisões mapeadas aos componentes-padrão de protocolo de revisão (Kitchenham 2007,
+  Arksey & O'Malley 2005, Petersen 2008, Wohlin 2014, saturação de Glaser & Strauss — **nível 3, a
+  confirmar na fonte antes de citar**), o que o método muda e por quê, trilha datada de quem decidiu o
+  quê, e o script de resposta para a arguição — incluindo "usou IA?".
+- `docs/screening/` (renomeada de `screening/` em 22/09, pedido do Pedro) — `papers/volta-N/` recebe os PDFs de cada volta, depois movidos por cluster; **apagar só com pedido dele, e avisar o que virou lixo ao fim de cada volta**. Execução 3: plano em `fase1/2026-09-22-plano-fase1-exec3.md`, passo 0 (contagens) em `fase1/2026-09-22-exec3-passo0.md`.
+- `docs/screening/fase1/` — **Fase 1 em andamento (disparada pelo Pedro em 21/09).** `raw/` = retorno bruto
+  das bases em JSON, sem filtro (K&C §6.1.4). **23/09, a pedido do Pedro:** o bruto das execuções 1 e 2 (`raw/2026-09-21-*`) e o `edge` antigo da execução 3 foram para a **Lixeira do Windows** (recuperáveis até ele esvaziar); as leituras em .md continuam. **Floresta final:** `2026-09-22-floresta.md` + `-obras.csv` (118.659 obras); limpeza em camadas A->B->C em `2026-09-23-proposta-metodo-limpeza.md`. **Execução 1** (string v0, piso 100): 1.721/1.734/409,
+  legível em `2026-09-21-string-mae-retorno-bruto.md` — ~94% era ruído de `resource-constrained`/
+  `on-device`. **Calibração do Pedro (21/09):** esses termos viraram filha `edge` (pool, emenda 1); piso
+  em teste a 60. **Execução 2** (string regenerada): 100/103/89 → **154 obras únicas**, com decisão por
+  obra em `2026-09-21-candidatos-string-mae-exec2.md` (58 entra · 9 sem filtro · **36 borda, decisão do
+  Pedro** · 40 fora · 12 não é survey) — **saída da Fase 1 da string-mãe; nível 3, nada lido.** Registro
+  nível 3 (Fase 2) espera o Pedro ler Petersen 2008. Filhas e Google Scholar não rodados. Decisão
+  ⟨rev-22⟩ (21/09): veredito por termo do pool a cada rodada de saturação.
+- `docs/screening/pool-termos-etapa1.md` — **vocabulário versionado do screening (v0, 17/09; execução 1 em 21/09).** 34 termos do Pedro +
+  8 do Claude em 7 grupos, com origem; as strings de busca são composições dele (mãe + filhas, por
+  base), como texto — **nenhuma executada**. Regras de entrada/aposentadoria, **revisão por evidência de retorno** (§3) e versões/emendas no arquivo.
+- `docs/screening/metodo-screening-etapa1.md` — **o método vivo (v3.7, 22/09; v2.4 de 17/09 era o fechado).** ⟨rev-33⟩ (bloco N): leitura para **classificar** é **escada** abstract -> introdução -> conclusão (a escada é o limite, sem teto de 5 min; dúvida só no topo); leitura para **extrair** (taxonomia, ferramentas, referências, glossário) é fixa em todo survey que entrou; abstract ausente -> buscar por arXiv id/DOI, senão introdução; §1.4 declara o screening como mapa que também extrai, sem avaliar resultado. ⟨rev-34⟩ (bloco G): §1.2.1 pertencimento **por survey** — parcial entra como base; CNN/GNN/difusão fora; aplicação específica só sem survey geral; infraestrutura de implantação dentro; hardware é divisão ("pra saber que existe"); §3.4 exclusão **não é survey** (primário fica no bruto e volta como seminal; paper de sistema -> ferramentas); G4: treino puro fora. ⟨rev-35⟩ fecha as pendências pós-Petersen (só restam F3 e o teste da bimodalidade, que dependem de dado): `filtro-tipo` declarado como restrição; lacuna do pool também pelas perguntas de §1.4; relato de funil por volta; esquema evolui na extração; registro `screening/registro-etapa1.md` + `.csv`; **05/10 = até o mapa v1**. **A execução 2 foi calibração — a Fase 1 roda de novo, e o Pedro quer o plano antes de qualquer execução.** ⟨rev-23⟩: três facetas do mapa (divisão × pilar × **arquitetura**, eixo §1.2 anotado no Y) como colunas do §8 e bubble plot em §9.1. ⟨rev-24⟩: plot **A** (unidade survey) a cada rodada como instrumento do loop, **B** (unidade paper referenciado) no fim; a extração passa a registrar a **seção citante** de cada referência (§6, §7) — precondição de B. ⟨rev-25⟩: o pool muda **por evidência de retorno** (uma regra, duas direções — ruído sobre o bruto, lacuna sobre o plot A), com cláusula anti-viés (termo movido é obrigado a rodar em filha; **filha `edge` obrigatória**) e vocabulário versão × emenda; + checkpoint do nome da área antes de consolidar, até saturar, só antes do v1. ⟨rev-26⟩: **gate de relevância** no checkpoint (candidato rodado sozinho antes de ganhar volta), parada em "mais da metade já no pool", **teto de 8 voltas** (ampliável por ele) e voltas como métrica de gate. ⟨rev-27⟩ §5.3: **conjunto inicial com diversidade obrigatória** (autores disjuntos, venues distintos, >= 1 por pico de ano — os 8 mais citados das 58 são todos de 2020-21, e a distribuição é bimodal com vale em 2022), **detector de cluster** (divisões novas por survey tem de cair; se não cair, cluster perdido) e **teste da bimodalidade marcado como instrumento nosso**, não de Wohlin. ⟨rev-28⟩ **os termos passam a ser os do professor**: *fundamentos* é o **produto** (o que forma a área hoje) e o antigo "fundamentos" de §1.1/§6 vira **conceitos** — renomeado em todo o método, inclusive no valor da coluna *pilar*; **§1.4 nova** com a hierarquia, as **cinco perguntas do screening** (todas de *onde encontrar*, nenhuma de *o que é verdade* — a linha que separa screening de RSL) e os limites de escopo (fundamentos da trilha ficam fora); **§3.3 nova: eixo de atividade** (ferramenta serve atividade, bottom-up, só o que a fonte declara; mapeamento completo é da Etapa 2); colunas `atividade` e `era` no §8; **era é atributo da divisão, não divisão** (escolha delegada ao Claude pelo Pedro). ⟨rev-29⟩: **ferramenta se pesquisa fora de survey** — filha `ferramentas` sem `filtro-tipo` (paper de sistema), ferramentas nomeadas pela fonte viram item de extração, e registros de ecossistema (HF/ONNX/MLPerf) entram como descoberta nível 3 não citável. Achado que motivou: termo preciso de ferramenta devolve 0-3 surveys — a área documenta as ferramentas, não as pesquisa. ⟨rev-30⟩: **população = surveys sem piso de citação** (opção b) — o piso sai da busca e vira critério de registro (§3.2, valor **60**), porque piso na busca é idade disfarçada de qualidade. Medição 22/09 no S2 com a string limpa: com piso 103 · **sem piso 863** · sem palavras de tipo 16.821 · papers com >=60 citações 793. Os 41.412 da execução 1 eram string suja, não esta população. ⟨rev-31⟩ §11.1: **loop por voltas** na Fase 1, cada volta terminando em decisão do Pedro; o filtro **ordena, não apaga** (descartado fica no bruto e volta se uma rodada abrir grupo novo); alvo **provisório** de ~50 documentos — ele só fecha o número depois de ver gráficos e tabelas das primeiras voltas. ⟨rev-32⟩: **proposta de agrupamento** por volta é artefato do Claude, datado, **fora do registro** (`screening/fase1/<data>-volta-N-agrupamento.md`), com quatro salvaguardas — ordena e não apaga; mostra sempre os membros; marcada como proposta nível 3; **agrupamento não é divisão** e morre na volta seguinte. Motivo da cautela: a cicatriz do Agrawal (§7). Decididos pelo Pedro em 22/09, pós-Petersen. Screening da Etapa 1
+  da especialização: dez decisões ditadas pelo Pedro + 21 correções de revisão marcadas `⟨rev-N⟩`,
+  todas decididas por ele em 16/09 (defaults de §3.2/§4 por omissão, com calibração). Trilha:
+  `docs/formulario-metodo-screening.md` (perguntas) e `docs/revisao-metodo-screening-2026-09-15.md`
+  (achados). **Ler antes de qualquer busca.** Abertos só: nome do registro, data-alvo da Etapa 1,
+  divisão de horas. **A Fase 1 (screening geral) só dispara com ordem do Pedro.**
+- `docs/pesquisa/mapa-do-terreno.md` — **ler primeiro em sessão nova sobre tema/pesquisa.** Como julgar pesquisa em IA: os 5 tipos de alegação, o que torna pergunta difícil, os 6 instrumentos (baseline, confundidor, ablação, ruído, teto/piso, validade externa), o regime do Pedro, referência de arquiteturas e de destilação sem GPU grande, e as 7 perguntas para decidir.
+- `docs/pesquisa/artigos-verificados.md` — registro único dos ~50 artigos verificados na fonte, em 7 frentes, + taxonomia de métodos (11 de 18 usam o mesmo) + lista de leitura deduplicada de 8.
+- `docs/pesquisa/tema-v3-racionalizacao-encoder.md` — o tema vivo: pergunta, H1/H2 com verificação, ponte teórica, desenho de estudo, **aplicações industriais e o que NÃO é aplicação**, pendências.
+- `docs/datasets-nli-verificacao.md` — **ler antes de qualquer conversa sobre tarefa/dataset.**
+  Números verificados de ASSIN2 e e-SNLI na fonte primária, com procedência por nível. Três achados
+  que mudam o quadro: o ASSIN2 é **binário** e foi feito de propósito com "fatos simples" e sem
+  contradição (vem de legendas de imagem via SICK-BR); o **SICK-BR está queimado** como conjunto
+  fora de domínio porque é a fonte do ASSIN2; o único par OOD em pt-BR é ASSIN2 → ASSIN 1.
+- `docs/artigos/notas-herrewijnen-eacl2026.md` — notas da primeira leitura integral de paper do projeto.
+- `docs/artigos/notas-dhrd-xu2025.md` · `notas-distilling-step-by-step.md` · `notas-li-icd-2508.16777.md`
+  — as outras leituras de nível 2, com PDFs na mesma pasta. **Só estas quatro são citáveis.**
+- `docs/pesquisa/secao-dsbs-cabeca-auxiliar.md` e `docs/pesquisa/secao-dhrd-transferencia-encoder.md` (raiz) — seções de
+  entregável derivadas dos resumos que o Pedro escreveu dos dois papers: o que cada um **licencia**
+  no desenho (cabeça auxiliar descartada; transferência para encoder) e o que **não** licencia, com
+  nível 1 (Pedro) e nível 2 (Claude) marcados item por item. A do DHRD traz três correções ao resumo.
+- `docs/pesquisa/metodo-busca-artigos.md` — método de busca (funil, snowball por citação, filtros, saturação). Contém seções de string e de fundacionais que o Pedro mandou desconsiderar em 09/09.
+- `docs/residencia/semana-1-topicos/dinamica-preferencias.md` — 36/42 respostas de preferência revelada; é o que mostrou que a âncora real do Pedro é ML, não dados.
+- `docs/residencia/semana-1-topicos/tema-escolhido.md` (v1) e `docs/residencia/semana-1-topicos/tema-v2-fusao-slm.md` — temas anteriores, superados. Mantidos como trilha de decisão.
+- `docs/residencia/semana-1-topicos/titulos-alternativos-100.md` e `docs/residencia/semana-1-topicos/dominios-f10-descricoes.md` — 136 títulos e 110 domínios candidatos, todos reprovados; úteis como registro do que já foi descartado.
+
+## Método de seleção — funil macro → meso → micro
+
+Os 289 tópicos foram agrupados em **16 macro-temas** (M1–M16), cada um subdividido em **meso-grupos** temáticos, contendo os **micro-tópicos** (IDs originais da CfP).
+
+**Processo acordado (iterativo, um macro por vez):**
+1. Claude apresenta o macro da vez como **painel interativo no menu lateral** (widget com botões 0/1/2/3/?), estruturado macro → meso → micro com mini-explicação de cada item. SEMPRE usar o painel para pontuação — inclusive para pontuar os próprios macros; explicações longas e discussão ficam no chat.
+2. Pedro pontua no painel e levanta dúvidas; decidimos juntos os casos ambíguos antes de seguir.
+3. Só então passamos ao próximo macro. Notas registradas no `topicos-csce2026.md`.
+4. Tópicos idênticos repetidos entre conferências (ex.: A02 = B44 = J03 = Q34) aparecem como UMA linha no painel; a nota replica para os IDs equivalentes.
+
+**Escala de notas:**
+| Nota | Significado |
+|---|---|
+| 0 | Ignoro |
+| 1 | Curiosidade — leria um post |
+| 2 | Quero estudar de verdade |
+| 2.5 | Indeciso entre 2 e 3 — candidato a âncora/satélite, resolver na consolidação |
+| 3 | Quero ser **reconhecido** nisso |
+| ? | Não sei do que se trata — Claude explica, Pedro repontua |
+
+**Macro-temas:** M1 LLMs/GenAI/NLP · M2 Fundamentos ML/DL · M3 Agentes/RL/autônomos · M4 Grafos · M5 Bayesianos/estatísticos · M6 Otimização/meta-heurísticas · M7 Fuzzy/rough sets · M8 IA simbólica/conhecimento · M9 Processo/qualidade de dados · M10 Infra big data · M11 Busca/IR/recomendação · M12 Privacidade/segurança · M13 Séries temporais · M14 Visão/sinal/multimídia · M15 Cognição/neuro-inspirados · M16 Aplicações de domínio
+
+**Progresso:** FUNIL COMPLETO (M1–M16 ✔, 18/08/2026) · Ranking: C2 › C1 › C6 · PODAS 1 e 2 aplicadas (critério final: pipeline de dados INTEIRO, ênfase em estruturação; trilha completa na seção "Poda" do topicos-csce2026.md) · Consolidação preenchida: 29 conceitos nota 3 (21 C2 + 4 C1 + 4 C6) · clusters.md escrito · Pendente: Pedro revisar elevador + colunas pessoais da consolidação; conferir rebaixamento de I30/N08 (C4, faltaram no painel de veto) · Próxima etapa: FASE 4 — surveys (começar por Zha et al., data-centric AI, dossiê C2)
+
+**Fase de leitura (Fase 4):** 1 survey por ETAPA do pipeline, não por tópico de CfP — ~8 leituras no total (plano numerado no clusters.md). Depois 2–3 papers apontados por cada survey, lendo título + abstract + figuras. Notas em `docs/residencia/semana-1-topicos/artigos/`.
+
+## Fatos verificados (17/08/2026)
+
+- TCCs das turmas anteriores (80 itens no repositório UFG, verificado 19/08): ~8 têm dados como núcleo (não 1), frequência crescendo; pool saturado é LLM/agentes (~25%); estruturação de dados é território virgem. Análise em `docs/residencia/semana-1-topicos/analise-tccs-anteriores.md`.
+
+- As CfPs de 2026 quase não mencionam LLM/GenAI (1 item: E01; bloco C do ICDATA). Nenhum track de LLM entre as 21 conferências do congresso. Listas recicladas de anos anteriores — detalhes no topo do `topicos-csce2026.md`.
+- Teste pendente para validar o venue: olhar proceedings reais na Springer (https://link.springer.com/conference/csce-1) e contar papers de LLM.
+- ICDATA: aceitação ~40–50%, deadline estendido 18/06/2026, proceedings Springer Nature.
+
+## Rejected
+
+- **Distilling Step-by-Step como obra-base da replicação** (31/10, Pedro: "minha base *É* o Agrawal") — a replicação
+  pedida pelo professor (aula de 31/10) sai do Agrawal 2025; o DSbS fica como origem do tema, não como base.
+- **Contraste do SCOTT (Wang et al. 2023) para gerar ou pontuar as justificativas** (28/10, Pedro: "overcomplicate things") — exige outra passada do Qwen sobre o lote e só serviria para as opções pós-geração (filtro por template, reescrita). Registro em `docs/ideias-de-desenho.md`.
+- **Variante D pura (uma frase, ≤ 25 palavras) como prompt final do Qwen** (21/10, Pedro: A/B "muito verbosas", mas na
+  D "a qualidade caiu") — quer meio-termo puxando para a D; caminho em aberto: variante E com exemplos à la Wiegreffe 2022.
+- **Circularidade como veto ou critério de aceite da justificativa** (20/10, Pedro: "preferência de veto minha, mas
+  também 100% infundada") — nenhum paper mede dano ao aluno; sai da régua da rodada 0 e da hipótese da variante D.
+- **Ajuste fino de BERT "por fazer" como trabalho da semana** (13/10, Pedro) — já fez várias vezes, não entrega
+  nada; e só planejamento numa semana também não basta (o projeto já tinha 5 semanas de preparação).
+- **Professor de pesos abertos (Qwen3) no lugar do Claude** (14/10, Pedro) — mantém o Claude, sem publicar pesos nem
+  dataset; o argumento que sustenta é "o classificador NLI não é modelo concorrente" (Commercial Terms §D.4).
+  Detalhe em `docs/2026-10-13-custo-racionalizacao-llm.md` §8. **REABERTO (20/10, Pedro):** o argumento do §D.4 caiu
+  com a Usage Policy; o Claude como gerador fica arquivado por ora e o `Qwen/Qwen3.5-9B` vai a piloto.
+- **Dataset do Agrawal como base do experimento** (14/10) — e-commerce proprietário; ESCI e GLUE sem justificativa
+  humana. ESCI só como possível 2º conjunto de replicação.
+- **Encoder já ajustado para NLI como ponto de partida** (14/10) — teto e contaminação com o SNLI; partir só do
+  pré-treinado.
+- **Item de termo descrevendo o rigor do método em vez do achado** (14/10, Pedro: "explicar demais a coisa errada") —
+  regra 11 da skill `termogate`.
+
+- **Montar mapa da área (mapa v1)** (05/10, Pedro) — "não é pra montar nenhum mapa"; a semana pede obras.
+- **MobileBERT (2020) e Knowledge Distillation: A Survey (Gou, 2020) como leitura** (06/10, Pedro) — "6+ anos,
+  muito desatualizado, serve apenas pra história quando eu quiser consultar".
+- **História como pilar de leitura agora** (01/10, professor no gate 4) — não dá base neste ponto; foco em obras
+  recentes com métodos e ferramentas atuais. Ver `docs/feedback-gate-4.md`.
+- **Ampliar ou refazer o screening** (01/10, professor) — "você tem muito mais do que precisa"; das 91 surveys, 3–5 servem.
+- **Agentes e LLM como método visível do processo** (01/10, professor) — "não quero ver mais nada de claude, gemini,
+  chatgpt a não ser que seja uma necessidade real".
+
+- **Método de leitura de 5 perguntas** (01/10) — o Pedro pediu "mais simples" querendo dizer **mais rápido com os
+  mesmos ganhos**, não menos ganhos. Substituído pela caça dirigida em 5 paradas (`docs/metodo-de-leitura.md`).
+- **Framework só como software (teste estreito do Claude)** (30/09) — Pedro: "é os dois". Diretriz/prática que
+  prescreve decisão também é framework (§7.1 dos critérios).
+- **Mapa por extração de taxonomias antes de ter a lista** (27/09) — sem tempo para o bottom-up completo. A lista sai
+  do júri de surveys; o bottom-up do mapa foi movido para a leitura (`docs/leituras/mapa-divisoes.md`).
+
+- **Regra do três por grupo (F2) quando o grupo é a própria área** (27/09) — só derruba grupo com 0 relevantes;
+  com ~7% de relevância, 0 em 50 acontece 2,6% das vezes, e o grupo 2 (3.988 obras) contém 21/28 do gabarito.
+  Resultado: 962 leituras e ~800 obras a menos de 12,5 mil. **Era calculável antes de rodar.** Regra nova:
+  **contrato de funil** — toda etapa declara entrada, saída prevista com a conta, custo, sucesso e parada antes de
+  rodar (`docs/screening/fase1/2026-09-27-plano-classificador.md` §1). Substituída por classificador obra a obra.
+
+- **Endpoint em lote do Semantic Scholar (`/paper/batch`) como fonte única de referências** (23/09) —
+  devolveu listas vazias para 63% das obras da camada C; obra a obra recupera parte, e as de editora
+  (IEEE/Elsevier/ACM) seguem ocultas. Substituído pela união S2 (obra a obra) + OpenAlex.
+- **Slides para o gate** (23/09) — Pedro: "nunca tem slides, sempre só o termo no projetor". Roteiro é
+  fala sobre o termo; entregáveis sempre .docx.
+
+- **Filtro de título por termo exato do pool como corte da floresta** (22/09) — recuperou só 36/58 do
+  gabarito (62%): títulos usam formas curtas ("Transformer Compression", "Edge LLMs") e 8 surveys da
+  área nem têm palavra de tipo no título. Radicais subiram para 79% no teste, mas dobraram o volume
+  com ruído (`quant`->quantum); Pedro mandou "deixar tudo igual". Substituído pela limpeza em camadas.
+- **Camada A "excluir quem não é Ciência da Computação"** (23/09) — inócuo: a busca já filtrou CS
+  (118.637/118.659 têm CS). **E excluir Medicina/Educação/Matemática** — derrubaria cajuzeiros (4, 2 e 5
+  dos 28 de ajuste têm esses campos).
+- **Abstract como corte por palavra** (22/09) — 3.794 obras com termo núcleo no abstract, e as mais
+  citadas eram ruído (*Vision Transformer*, *YOLOv11*, *Industry 5.0*). Abstract serve para julgar
+  (escada), não para cortar 100 mil obras.
+- **Aplicar classificação de grupos sem o Pedro revisar grupo a grupo** (23/09) — erro de processo do
+  Claude na camada B (inclusive o ViT pendurado como pendente). Regra: proposta detalhada por grupo antes
+  de qualquer marcação.
+- **Amostra fixa de 30 por grupo na F2** (23/09) — a regra do três limita a proporção, não o número
+  escondido, que cresce com o grupo (Hanley & Lippman-Hand 1983, sem tratamento de população finita).
+  Substituída pela amostra por tamanho de grupo (50/40/30/proporcional/tudo).
+
+- **Excluir paper cujo termo aparece só nas frases de abertura do resumo** (22/09) — técnica do
+  Petersen et al. 2008 (§ sobre *variability*), testada sobre os 89 resumos do arXiv da execução 2:
+  dos 7 nessa condição, **6 estavam dentro da área** e 1 fora. O mecanismo do nosso ruído é o inverso
+  — survey de outro assunto com uma seção de eficiência cita o termo no **meio** do resumo. Não adotada. (Correção 22/09: o bulk do S2 **devolve** resumo quando o campo é pedido — a execução 2 não o pedia.)
+- **`machine learning systems`, `benchmarking`, `toolkit` e `inference framework` no pool** (22/09) —
+  medidos em 22/09: 56, 1.374, 116 e 3 retornos, todos ruído (o último devolve só *causal inference* —
+  "inference" é ambíguo). Ficaram fora do grupo `ferramentas`.
+- **Era (pré-LLM × pós-LLM) como divisão do mapa** (22/09) — escolha delegada pelo Pedro ao Claude
+  para evitar viés dele. Divisão só existe se um survey aprovado a declarar (§9); "pré-LLM" é
+  **periodização**, não técnica, e como divisão o mapa passaria a misturar dois eixos. Entra como
+  **atributo** (coluna `era`) e, se o teste confirmar, como fato do **pilar história**.
+- **Petersen puro como população do screening** (22/09) — 16.821 papers (área sem as palavras de
+  tipo). É mapping study de verdade: mudaria §2, §6 e §7 inteiros e faria o mapa vir de keywording de
+  papers primários em vez de taxonomia de survey. Fora por orçamento; a restrição fica declarada
+  (pendência C1). Adotada a opção (b): surveys **sem piso de citação** (863 no S2).
+- **Piso de citação como parâmetro de busca** (22/09) — é **idade disfarçada de qualidade**: os 8
+  surveys mais citados das 58 da Fase 1 são todos de 2020–21. O piso passa a valer só no **registro**
+  (§3.2, valor 60), depois da triagem de relevância.
+- **Lista a priori de termos como taxonomia top-down** (17/09) — o próprio Pedro: "muito vaga para
+  top-down literal; só palavras que vieram na cabeça, e eu não conheço da área". Virou pool de termos:
+  vocabulário e registro de ponto de partida, não divisões. Top-down só no contorno (§1), bottom-up no
+  conteúdo (§9 do método).
+- **String de busca decretada (string-mãe fixa)** (17/09) — substituída pelo pool de termos versionado;
+  a string é composição do pool, regenerada a cada versão. Motivo: a string v0 congelaria o vocabulário
+  que o Pedro ainda não tem.
+- **Espinha dorsal do mapa = taxonomia do survey mais recente (ou mais citado)** (16/09) — derrubada
+  pelo Pedro: recência não garante qualidade e citação envelhece. Substituída por união com
+  consolidação (§9 do método): ≥ 2 surveys consolidam, singular fica marcada, o Pedro mescla com motivo.
+- **Degrau intermediário de procedência ("S — lido em nível de screening")** (15/09) — Pedro manteve a
+  escala 3 → 2 → 1: o screening *é* o nível 3 (agente extrai), Claude lê inteiro (2), Pedro lê (1).
+- **Interseção como regra do mapa (só divisão em que ≥ 2 surveys concordam desde o início)** (16/09)
+  — perderia as divisões recentes, que só um survey cobre; nesta área o recente é o serving.
+- **Novidade como critério de escolha ou defesa de tema** (11/09) — o professor/coordenador declarou
+  que a Residência avalia processo, não inovação. A análise de 10/09 ("o que sobra de inédito após o
+  Agrawal", a tabela de opções ranqueada por "risco de novidade" em `docs/pesquisa/tema-v4-opcoes-pos-agrawal.md`, a
+  Parte 0 da `docs/residencia/preparacao-arguicao-gate.md`) foi feita sob a régua errada. O conteúdo factual (leituras,
+  números, lacunas) continua válido; **o ranking e a moldura precisam ser refeitos** com a pergunta
+  "qual opção ensina mais da especialização?" — depois que o Pedro nomear a especialização.
+- **Apresentar o tema como fim** (11/09) — "muito produto", nas palavras do professor. O tema é veículo
+  de uma especialização nomeada; a proposta precisa abrir por "o que estou me tornando", não por "de
+  onde veio o tema".
+- **H2, cabeça decodificadora auxiliar descartada na inferência, COMO CONTRIBUIÇÃO DE MECANISMO**
+  (10/09) — **ocupada por Agrawal, Ahemad & Sembium, COLING 2025 Industry Track**
+  (`aclanthology.org/2025.coling-industry.12`, Amazon): BERT base 110M + decoder T5 base como cabeça
+  auxiliar, `L_total = L_cls + 0,1·L_aux`, decoder descartado na entrega; +6% em GLUE. A variante
+  "Embedding-based Reasoning" deles ocupa também o H1. Eles ainda resolvem a pendência 9b (warmup em
+  duas fases, decoder pré-treinado). **Sobrevive a pergunta do CONTROLE** — eles não rodaram
+  racionalização embaralhada nem aleatória, nem avaliação fora de domínio. Ver
+  `docs/artigos/notas-agrawal-coling2025.md` e a pendência 5 do `tema-v3`.
+- **Triagem nível 3 como base para julgar novidade** (10/09) — o Agrawal estava em nível 3,
+  classificado como "incógnita"; a triagem não pegou o mecanismo, e o mecanismo era o do tema. **Causa real, contada pelo Pedro em 23/09:** o agente **não conseguiu acessar** o paper, o aviso virou pendência solta e ficou parado até o Claude insistir — falha de processo. Regra nova: estado `sem acesso` com rotas automáticas e lista por volta (`docs/screening/fase1/2026-09-23-desenho-agentes.md`, M6). Nível 3
+  serve para saber que o artigo existe, nunca para decidir se o espaço está livre.
+- **NER como tarefa principal do tema v3** (10/09) — não é impedimento arquitetural (encoder rotula token nativamente), mas a maior parte das decisões de NER é superfície (maiúscula, contexto, formato); o efeito ficaria diluído nos poucos casos inferenciais, e a racionalização passaria a ser por span, elevando as partes móveis. Descartado por custo de detecção.
+- **Geração de insight em prosa sobre documentos como aplicação do tema** (10/09) — é trabalho de decoder. Encoder produz rótulo ou trecho, não parágrafo. Sobrevive o vetor do H1 (agrupar, ordenar por confiança, sinalizar OOD), que é estrutura sobre acervo, não texto explicativo.
+- **Narrar a troca de temas nos documentos de entrega** (10/09) — decisão de moldura do Pedro. Os critérios que saíram dos descartes entram declarados como critérios. A trilha permanece em `tema-escolhido.md` e `tema-v2-fusao-slm.md`.
+- **Popular a proposta de tema com análise que o Pedro não leu** (10/09) — regra que passou a valer para todo documento assinado por ele: se ele não leu, não entra. Saíram da proposta a lista de aplicações industriais, a fórmula α/β/γ, o Herrewijnen, a tabela de riscos e a comparação metodológica com o time do Google.
+- **Seção "os pesos da perda são busca de verdade"** na `docs/pesquisa/secao-dhrd-transferencia-encoder.md` (10/09) — não licenciava nada sobre a transferência para encoder, e duplicava conteúdo já registrado no `tema-v3`. Sobreviveu só a correção factual (α=β=1 vale para três modelos, não só os 8B).
+- **Citar Li et al. (arXiv:2508.16777) como EACL 2026** (10/09) — o venue não se sustenta na fonte: o arXiv não traz campo *Comments* e o PDF usa template ACL genérico. Conferir na ACL Anthology antes de atribuir venue.
+- **Rodapé de PDF como evidência de venue** (10/09) — a linha "39th Conference on NeurIPS 2025" no DHRD é o texto padrão do `neurips_2025.sty` e sai em qualquer submissão. O venue real (Efficient Reasoning Workshop) está no campo *Comments* do arXiv. Vale como regra geral.
+
+- **Reanálise de resultado publicado como OBJETO de pesquisa próprio** (10/09) — exige julgar as premissas e análises de outros pesquisadores, o que demanda precisão extrema e não cabe numa primeira pesquisa. Continua válida como *interferência anterior* para ler e citar.
+- **Tema v2, fusão de especialistas** (10/09) — o próprio Pedro derrubou o argumento de mercado: servidores já carregam vários adaptadores LoRA sobre uma base única, então fundir perde para trocar em quase todo cenário empresarial. Sobrevive só em borda, simultaneidade e organizações sem nuvem.
+- **H1, regressão para o embedding da racionalização, COMO HIPÓTESE ISOLADA** (10/09) — mecanismo já ocupado: LRKD (arXiv:2601.21611, WWW'26) faz exatamente isso sobre um cross-encoder BERT. Lacuna restante é incremental. **Sobrevive como braço da ablação mesclada com H2** (ver `docs/pesquisa/tema-v3-racionalizacao-encoder.md`).
+- **Lista de leitura deduplicada de 8 artigos** (10/09) — servia ao tema v2 (SLM/fusão); papers de eficiência de memória de modelo grande perderam função quando o tema foi para encoders. Nova lista em `docs/pesquisa/artigos-verificados.md`.
+- **Seções de string de busca e de identificação de fundacionais** em `docs/pesquisa/metodo-busca-artigos.md` (09/09) — Pedro mandou desconsiderar para a busca de fronteira. Permanecem no arquivo, não foram removidas. **Reabertas pelo Pedro para outro propósito** — a Fase 2B (fundacionais) volta como critério de seminal no `docs/screening/metodo-screening-etapa1.md` §4 (15/09), e a string de busca volta como composição do `docs/screening/pool-termos-etapa1.md` (17/09), para mapa da área, não fronteira.
+- Os 20 temas do `temas-candidatos.md` como estão (28/08) — nenhum passa na régua nova do Pedro: o tema precisa "gritar" para um empregador (mercado abstrato) "eu resolvo um problema seu" + carregar professional improvement (critério pessoal, não do edital). Temas pesquisa-primeiro (gap sintético→real etc.) reprovados por serem legíveis só para revisor.
+- Usar o tema estacionado (datasets pt-BR jurídico) como critério de poda/decisão — era ideia solta; o foco é o pipeline de dados INTEIRO, com ênfase em estruturação/engenharia.
+- Inverter âncora para ML (dados como satélite) — âncora ≠ plano de estudos; gap de ML se fecha via R1 (ver O6 em objecoes-e-respostas.md). Reabrir SÓ se Pedro preferir a lista B dos temas-candidatos.
+
+- Pontuar os 289 tópicos linha a linha num painel único — rejeitado por custo; substituído pelo funil iterativo por macro.
+- Config b2 (C9×C2 sem C1) — dominada pela config c (C9×C2×C1) em todos os critérios.
+- Iniciar consolidação direto após o funil — excesso de notas altas (53 conceitos =3); poda vem primeiro.
+- Dossiês de área para C3/C5/C7/C8 — sinal fraco no funil (amplo demais / perfil ferramenta); só sob demanda.

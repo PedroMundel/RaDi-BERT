@@ -1,0 +1,55 @@
+{
+ "N": 14901,
+ "sem_tecnica": 7796,
+ "tcount": {
+  "quantization  [compressão]": 628,
+  "pruning  [compressão]": 1185,
+  "memory management  [inferência/serving]": 352,
+  "efficient attention  [inferência/serving]": 84,
+  "mixture of experts  [adaptação]": 191,
+  "on-device  [edge]": 835,
+  "inference engine  [ferramentas]": 912,
+  "speculative decoding  [inferência/serving]": 101,
+  "data-efficient  [dado/confiança]": 423,
+  "early exiting  [inferência/serving]": 42,
+  "lightweight  [edge]": 1191,
+  "resource-efficient  [edge]": 881,
+  "embedded  [edge]": 1155,
+  "deployment framework  [ferramentas]": 188,
+  "parameter-efficient fine-tuning  [adaptação]": 213,
+  "LoRA  [adaptação]": 157,
+  "model serving  [ferramentas]": 644,
+  "knowledge distillation  [compressão]": 546,
+  "kernels and compilers  [inferência/serving]": 170,
+  "inference server  [ferramentas]": 111,
+  "calibration  [dado/confiança]": 271,
+  "small language models  [compressão]": 110,
+  "tensor decomposition  [compressão]": 110,
+  "deep learning compiler  [ferramentas]": 116,
+  "KV cache compression  [inferência/serving]": 38,
+  "inference library  [ferramentas]": 69,
+  "continuous batching  [inferência/serving]": 48,
+  "weak supervision  [dado/confiança]": 56,
+  "reasoning distillation  [compressão]": 3
+ },
+ "arch": {
+  "LLM (família n/d)": 2477,
+  "decoder-only": 943,
+  "transformer (família n/d)": 995,
+  "CNN / RNN": 1282,
+  "encoder-decoder": 209,
+  "indeterminado": 9348,
+  "vision transformer": 160,
+  "encoder-only": 489
+ },
+ "tipo": {
+  "ferramenta (trilha)": 3309,
+  "survey (tipo no título)": 5320,
+  "primário / sem tipo": 6272
+ },
+ "cit": {
+  "0–9": 11035,
+  "10–59": 2805,
+  "60+": 1061
+ }
+}

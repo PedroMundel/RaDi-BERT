@@ -1,0 +1,254 @@
+<title>Árvore de citação da F1</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600&display=swap">
+<style>
+:root{
+  --ground:#f3f4f0; --panel:#fbfbf8; --ink:#1c2420; --ink2:#56615b; --line:#d9ddd5; --edge:28,36,32;
+  --ligada:#2f7d5b; --penultima:#7457d0; --golden:#b8901a; --solta:#b4473a; --recente:#d0822a; --semdado:#8b9690;
+  --gab:#1d5fc4; --focus:#1d5fc4;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+  --serif:"Source Serif 4",Georgia,serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    color-scheme:dark;
+    --ground:#121614; --panel:#1a1f1c; --ink:#e4e8e3; --ink2:#9aa59e; --line:#2c332f; --edge:220,228,222;
+    --ligada:#4fb487; --penultima:#9d86ec; --golden:#e0bb45; --solta:#e0705f; --recente:#eda253; --semdado:#7d8a83;
+    --gab:#6aa3ff; --focus:#6aa3ff;
+  }
+}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --ground:#121614; --panel:#1a1f1c; --ink:#e4e8e3; --ink2:#9aa59e; --line:#2c332f; --edge:220,228,222;
+  --ligada:#4fb487; --penultima:#9d86ec; --golden:#e0bb45; --solta:#e0705f; --recente:#eda253; --semdado:#7d8a83;
+  --gab:#6aa3ff; --focus:#6aa3ff;
+}
+html,body{height:100%}
+body{background:var(--ground);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.45}
+.wrap{padding-inline:16px;padding-block:18px 24px;max-width:1500px;margin:0 auto;display:flex;flex-direction:column;gap:14px}
+header{display:flex;flex-wrap:wrap;align-items:baseline;gap:6px 18px}
+h1{font-family:var(--serif);font-weight:600;font-size:26px;margin:0;text-wrap:balance;letter-spacing:-.01em}
+.sub{color:var(--ink2);max-width:75ch;margin:0}
+.stats{display:flex;flex-wrap:wrap;gap:6px 22px;font-family:var(--mono);font-size:12.5px;color:var(--ink2);font-variant-numeric:tabular-nums}
+.stats b{color:var(--ink);font-weight:500}
+.controls{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:var(--panel)}
+.seg button{font:inherit;font-size:13px;background:none;border:0;color:var(--ink2);padding:6px 11px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--ground)}
+.seg button:focus-visible,input:focus-visible{outline:2px solid var(--focus);outline-offset:1px}
+.lbl{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink2);margin-right:6px}
+input[type=search]{font:inherit;font-size:13px;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--panel);color:var(--ink);width:min(300px,100%)}
+label.chk{display:inline-flex;gap:6px;align-items:center;font-size:13px;color:var(--ink2);cursor:pointer}
+.main{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:14px}
+@media (max-width:900px){.main{grid-template-columns:1fr}}
+.stage{position:relative;background:var(--panel);border:1px solid var(--line);border-radius:8px;height:min(74vh,820px);min-height:380px;overflow:hidden;touch-action:none}
+canvas{display:block;width:100%;height:100%;cursor:grab}
+canvas.drag{cursor:grabbing}
+.hint{position:absolute;left:10px;bottom:8px;font-size:11.5px;color:var(--ink2);background:color-mix(in srgb,var(--panel) 85%,transparent);padding:2px 6px;border-radius:4px;pointer-events:none}
+.tip{position:absolute;pointer-events:none;max-width:320px;background:var(--ink);color:var(--ground);font-size:12.5px;padding:7px 9px;border-radius:6px;line-height:1.35}
+.tip small{display:block;opacity:.75;font-family:var(--mono);font-size:11px;margin-top:3px}
+aside{display:flex;flex-direction:column;gap:14px}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.box h2{font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px;font-weight:600}
+.legend{display:grid;grid-template-columns:auto 1fr auto;gap:5px 9px;align-items:center;font-size:13px}
+.legend .n{font-family:var(--mono);font-size:12px;color:var(--ink2);font-variant-numeric:tabular-nums;text-align:right}
+.dot{width:10px;height:10px;border-radius:50%}
+.ring{width:10px;height:10px;border-radius:50%;border:2px solid var(--gab);box-sizing:border-box}
+.sel-title{font-family:var(--serif);font-size:16px;font-weight:600;margin:0 0 6px;text-wrap:balance}
+dl{display:grid;grid-template-columns:auto 1fr;gap:3px 12px;margin:0;font-size:13px}
+dt{color:var(--ink2)} dd{margin:0;font-family:var(--mono);font-size:12.5px}
+.list{margin:8px 0 0;padding:0;list-style:none;font-size:12.5px;max-height:220px;overflow:auto;display:flex;flex-direction:column;gap:4px}
+.list li{cursor:pointer;color:var(--ink)} .list li:hover{text-decoration:underline}
+.list .y{font-family:var(--mono);color:var(--ink2);margin-right:5px}
+.muted{color:var(--ink2);font-size:12.5px;margin:0}
+.off{font-size:12.5px;color:var(--ink2);margin:0 0 6px}
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Árvore de citação da F1</h1>
+    <p class="sub">Quem cita quem dentro das 14.901 obras da camada C (Semantic Scholar + OpenAlex). O bloco grande é a área; os círculos azuis são o gabarito. Nível 3: metadado de citação, nada lido.</p>
+  </header>
+  <div class="stats" id="stats"></div>
+  <div class="controls">
+    <span><span class="lbl">Vista</span><span class="seg" id="mode"><button aria-pressed="true" data-v="rede">Rede</button><button aria-pressed="false" data-v="arvore">Árvore por ano</button></span></span>
+    <span><span class="lbl">Cor</span><span class="seg" id="color"><button aria-pressed="true" data-v="dest">Destino F1</button><button aria-pressed="false" data-v="b">Camada B</button><button aria-pressed="false" data-v="ano">Ano</button></span></span>
+    <input type="search" id="q" placeholder="Buscar título (ex.: quantization)" aria-label="Buscar título">
+    <label class="chk"><input type="checkbox" id="edges" checked> ligações</label>
+    <label class="chk"><input type="checkbox" id="gab" checked> gabarito</label>
+  </div>
+  <div class="main">
+    <div class="stage" id="stage">
+      <canvas id="cv" aria-label="Rede de citação"></canvas>
+      <div class="tip" id="tip" hidden></div>
+      <div class="hint" id="hint">roda do mouse: zoom · arrastar: mover · clique: ver quem cita e é citado · duplo clique: recentrar</div>
+    </div>
+    <aside>
+      <div class="box" id="selbox"><h2>Obra selecionada</h2><p class="muted">Clique num ponto. As ligações da obra acendem: <b style="color:var(--gab)">azul</b> = ela cita, <b style="color:var(--recente)">laranja</b> = cita ela.</p></div>
+      <div class="box"><h2 id="legtitle">Destino na F1</h2><div class="legend" id="legend"></div></div>
+      <div class="box"><h2>Fora do desenho</h2><p class="off">Obras sem nenhuma ligação dentro do conjunto (isoladas) não têm posição na rede:</p><div class="legend" id="iso"></div></div>
+    </aside>
+  </div>
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(() => {
+const D = JSON.parse(document.getElementById('data').textContent);
+// node: [x,y,ano,titulo,cit,indeg,outdeg,destino,camadaB,gab,main]
+const N = D.nodes.map((a,i)=>({i,x:a[0],y:a[1],ano:a[2],t:a[3],cit:a[4],inn:a[5],out:a[6],dest:a[7],b:a[8],gab:a[9],main:a[10]}));
+const E = D.edges;
+const outs = N.map(()=>[]), ins = N.map(()=>[]);
+E.forEach(([a,b])=>{outs[a].push(b); ins[b].push(a);});
+const fmt = n => n.toLocaleString('pt-BR');
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+const DEST = [['ligada','--ligada','ligada ao bloco da área'],['golden','--golden','golden ticket'],['penúltima','--penultima','penúltima (bilhete 21–50)'],
+  ['solta recente (2025-26)','--recente','solta recente (fica)'],['sem dado de citação','--semdado','sem dado de citação'],['solta (desce)','--solta','solta (desce)']];
+const BCAT = [['núcleo','#2f7d5b'],['misto','#3f7fb0'],['a testar (uso?)','#c0632d'],['dentro (§1.2.1 d)','#8a5bb8'],['arquiteturas (§1.1)','#b08a1f'],['salvaguarda (título)','#8b9690']];
+const ANOS = [2020,2021,2022,2023,2024,2025,2026];
+const ANOCOR = ['#1b4f72','#246a8a','#2f869b','#4aa39d','#7cbc8d','#b8cf73','#e9d460'];
+
+document.getElementById('stats').innerHTML =
+  `<span><b>${fmt(D.total)}</b> obras</span><span><b>${fmt(E.length)}</b> citações internas</span>`+
+  `<span>bloco da área <b>${fmt(D.main)}</b></span><span><b>${fmt(D.ilhas)}</b> ilhas (${fmt(D.ilhas_nos)} obras)</span>`+
+  `<span>isoladas <b>${fmt(Object.values(D.isoladas).reduce((a,b)=>a+b,0))}</b></span>`;
+
+// ---- estado ----
+let mode='rede', colorBy='dest', showEdges=true, showGab=true, sel=null, hover=null, query='';
+const cv=document.getElementById('cv'), ctx=cv.getContext('2d'), stage=document.getElementById('stage'), tip=document.getElementById('tip');
+let W=0,H=0,dpr=1, view={s:1,tx:0,ty:0};
+let colors={};
+
+// posições de cada vista, normalizadas em [0,1]
+function norm(get){ let xs=N.map(n=>get(n)[0]), ys=N.map(n=>get(n)[1]);
+  const x0=Math.min(...xs),x1=Math.max(...xs),y0=Math.min(...ys),y1=Math.max(...ys);
+  return N.map((n,i)=>[(xs[i]-x0)/(x1-x0||1),(ys[i]-y0)/(y1-y0||1)]); }
+const P_rede = norm(n=>[n.x,n.y]);
+const rnd = i => { let s=Math.sin(i*12.9898)*43758.5453; return s-Math.floor(s); };
+const P_arv = N.map((n,i)=>{ const yr=Math.min(Math.max(n.ano,2020),2026);
+  return [ (yr-2020+0.12+0.76*rnd(i))/7, n.main? 0.03+0.94*P_rede[i][1] : 0.03+0.94*P_rede[i][1] ]; });
+let cur = P_rede.map(p=>p.slice()), from=null, to=null, t0=0;
+const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+function readColors(){ colors={}; DEST.forEach(([k,v])=>colors[k]=css(v)); colors.gab=css('--gab'); colors.recente=css('--recente'); colors.edge=css('--edge'); colors.ink=css('--ink'); colors.ink2=css('--ink2'); colors.panel=css('--panel'); }
+function nodeColor(n){
+  if(colorBy==='dest') return colors[n.dest];
+  if(colorBy==='b'){ const c=BCAT.find(b=>b[0]===n.b); return c?c[1]:'#999'; }
+  const k=ANOS.indexOf(n.ano); return ANOCOR[k<0?0:k];
+}
+function radius(n){ return (1.3+Math.sqrt(n.inn)*0.55)*Math.pow(view.s,0.35); }
+
+function resize(){ dpr=window.devicePixelRatio||1; const r=stage.getBoundingClientRect(); W=r.width; H=r.height;
+  cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr); draw(); }
+const pad=28;
+function sx(p){ return (pad+p[0]*(W-2*pad))*view.s+view.tx; }
+function sy(p){ return (pad+p[1]*(H-2*pad))*view.s+view.ty; }
+
+function legend(){
+  const L=document.getElementById('legend'), T=document.getElementById('legtitle');
+  const count=f=>N.filter(f).length;
+  let rows=[];
+  if(colorBy==='dest'){ T.textContent='Destino na F1 (obras no desenho)'; rows=DEST.map(([k,v,l])=>[css(v),l,count(n=>n.dest===k)]); }
+  else if(colorBy==='b'){ T.textContent='Categoria da camada B'; rows=BCAT.map(([k,c])=>[c,k,count(n=>n.b===k)]); }
+  else { T.textContent='Ano'; rows=ANOS.map((y,i)=>[ANOCOR[i],String(y),count(n=>n.ano===y)]); }
+  rows.push(['ring','gabarito (ajuste + teste)',count(n=>n.gab)]);
+  L.innerHTML=rows.map(([c,l,n])=>`${c==='ring'?'<span class="ring"></span>':`<span class="dot" style="background:${c}"></span>`}<span>${l}</span><span class="n">${fmt(n)}</span>`).join('');
+  document.getElementById('iso').innerHTML=DEST.filter(([k])=>D.isoladas[k]).map(([k,v,l])=>`<span class="dot" style="background:${css(v)}"></span><span>${l}</span><span class="n">${fmt(D.isoladas[k])}</span>`).join('');
+}
+
+function draw(){
+  ctx.setTransform(dpr,0,0,dpr,0,0); ctx.clearRect(0,0,W,H);
+  const q=query, match = q? N.map(n=>n.t.toLowerCase().includes(q)) : null;
+  const focus = sel!==null ? new Set([sel,...outs[sel],...ins[sel]]) : null;
+  if(mode==='arvore'){ // faixas de ano
+    ctx.font='11px '+css('--mono'); ctx.fillStyle=colors.ink2; ctx.textAlign='center';
+    ANOS.forEach((y,k)=>{ const x=sx([(k+0.5)/7,0]); if(x>-40&&x<W+40) ctx.fillText(String(y),x,14);
+      const xl=sx([k/7,0]); ctx.strokeStyle=`rgba(${colors.edge},0.08)`; ctx.beginPath(); ctx.moveTo(xl,0); ctx.lineTo(xl,H); ctx.stroke(); });
+    ctx.textAlign='left'; ctx.fillText('← raízes (antigas)',8,H-26); ctx.textAlign='right'; ctx.fillText('folhas (recentes) →',W-8,H-26);
+  }
+  if(showEdges){
+    ctx.lineWidth=0.6; ctx.strokeStyle=`rgba(${colors.edge},${focus||match?0.025:0.06})`; ctx.beginPath();
+    for(const [a,b] of E){ ctx.moveTo(sx(cur[a]),sy(cur[a])); ctx.lineTo(sx(cur[b]),sy(cur[b])); }
+    ctx.stroke();
+  }
+  if(focus){
+    ctx.lineWidth=1.1;
+    ctx.strokeStyle=colors.gab; ctx.globalAlpha=.75; ctx.beginPath();
+    for(const b of outs[sel]){ ctx.moveTo(sx(cur[sel]),sy(cur[sel])); ctx.lineTo(sx(cur[b]),sy(cur[b])); } ctx.stroke();
+    ctx.strokeStyle=colors.recente; ctx.beginPath();
+    for(const a of ins[sel]){ ctx.moveTo(sx(cur[sel]),sy(cur[sel])); ctx.lineTo(sx(cur[a]),sy(cur[a])); } ctx.stroke();
+    ctx.globalAlpha=1;
+  }
+  const order=N.slice().sort((a,b)=>a.inn-b.inn);
+  for(const n of order){
+    const x=sx(cur[n.i]), y=sy(cur[n.i]); if(x<-20||x>W+20||y<-20||y>H+20) continue;
+    const dim=(focus&&!focus.has(n.i))||(match&&!match[n.i]);
+    ctx.globalAlpha=dim?0.12:0.9; ctx.fillStyle=nodeColor(n);
+    const r=radius(n); ctx.beginPath(); ctx.arc(x,y,r,0,6.2832); ctx.fill();
+    if(showGab&&n.gab&&!dim){ ctx.globalAlpha=1; ctx.lineWidth=1.8; ctx.strokeStyle=colors.gab; ctx.beginPath(); ctx.arc(x,y,r+2.5,0,6.2832); ctx.stroke(); }
+  }
+  ctx.globalAlpha=1;
+  // rótulos das maiores raízes
+  const top=N.slice().sort((a,b)=>b.inn-a.inn).slice(0, view.s>2?25:10);
+  ctx.font='11.5px '+css('--sans'); ctx.textAlign='left';
+  for(const n of top){ if(focus&&!focus.has(n.i)) continue; const x=sx(cur[n.i]), y=sy(cur[n.i]); if(x<0||x>W||y<0||y>H) continue;
+    const s=n.t.length>44?n.t.slice(0,42)+'…':n.t; const r=radius(n);
+    ctx.lineWidth=3; ctx.strokeStyle=colors.panel; ctx.strokeText(s,x+r+4,y+4); ctx.fillStyle=colors.ink; ctx.fillText(s,x+r+4,y+4); }
+  if(sel!==null){ const n=N[sel], x=sx(cur[sel]), y=sy(cur[sel]); ctx.lineWidth=2; ctx.strokeStyle=colors.ink; ctx.beginPath(); ctx.arc(x,y,radius(n)+4,0,6.2832); ctx.stroke(); }
+}
+
+function animate(target){
+  if(reduce){ cur=target.map(p=>p.slice()); draw(); return; }
+  from=cur.map(p=>p.slice()); to=target; t0=performance.now();
+  const step=now=>{ let k=Math.min(1,(now-t0)/650); k=k<.5?2*k*k:1-Math.pow(-2*k+2,2)/2;
+    cur=from.map((p,i)=>[p[0]+(to[i][0]-p[0])*k,p[1]+(to[i][1]-p[1])*k]); draw(); if(k<1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}
+
+function pick(mx,my){ let best=null,bd=1e9; for(const n of N){ const dx=sx(cur[n.i])-mx, dy=sy(cur[n.i])-my, d=dx*dx+dy*dy, r=radius(n)+4; if(d<r*r&&d<bd){bd=d;best=n.i;} } return best; }
+
+const DLAB={'ligada':'ligada','golden':'golden ticket','penúltima':'penúltima','solta recente (2025-26)':'solta recente','sem dado de citação':'sem dado','solta (desce)':'solta (desce)'};
+function showSel(){
+  const box=document.getElementById('selbox');
+  if(sel===null){ box.innerHTML='<h2>Obra selecionada</h2><p class="muted">Clique num ponto. As ligações da obra acendem: <b style="color:var(--gab)">azul</b> = ela cita, <b style="color:var(--recente)">laranja</b> = cita ela.</p>'; return; }
+  const n=N[sel]; const esc=s=>s.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+  const li=arr=>arr.slice().sort((a,b)=>N[b].inn-N[a].inn).slice(0,40).map(j=>`<li data-i="${j}"><span class="y">${N[j].ano}</span>${esc(N[j].t)}</li>`).join('');
+  box.innerHTML=`<h2>Obra selecionada</h2><p class="sel-title">${esc(n.t)}</p>
+  <dl><dt>ano</dt><dd>${n.ano}</dd><dt>citações (S2)</dt><dd>${fmt(n.cit)}</dd><dt>citada no conjunto</dt><dd>${n.inn}</dd><dt>cita no conjunto</dt><dd>${n.out}</dd>
+  <dt>destino F1</dt><dd>${DLAB[n.dest]||n.dest}</dd><dt>camada B</dt><dd>${n.b}</dd>${n.gab?`<dt>gabarito</dt><dd>${n.gab}</dd>`:''}</dl>
+  ${ins[sel].length?`<p class="muted" style="margin-top:10px">Citada por (${ins[sel].length}):</p><ul class="list">${li(ins[sel])}</ul>`:''}
+  ${outs[sel].length?`<p class="muted" style="margin-top:10px">Cita (${outs[sel].length}):</p><ul class="list">${li(outs[sel])}</ul>`:''}`;
+  box.querySelectorAll('li[data-i]').forEach(el=>el.addEventListener('click',()=>{ sel=+el.dataset.i; centerOn(sel); showSel(); draw(); }));
+}
+function centerOn(i){ const p=cur[i]; const bx=(pad+p[0]*(W-2*pad)), by=(pad+p[1]*(H-2*pad)); view.tx=W/2-bx*view.s; view.ty=H/2-by*view.s; }
+
+// ---- interação ----
+let drag=null, moved=false;
+cv.addEventListener('pointerdown',e=>{ drag={x:e.clientX,y:e.clientY,tx:view.tx,ty:view.ty}; moved=false; cv.setPointerCapture(e.pointerId); cv.classList.add('drag'); });
+cv.addEventListener('pointermove',e=>{ const r=cv.getBoundingClientRect(), mx=e.clientX-r.left, my=e.clientY-r.top;
+  if(drag){ const dx=e.clientX-drag.x, dy=e.clientY-drag.y; if(Math.abs(dx)+Math.abs(dy)>3) moved=true; view.tx=drag.tx+dx; view.ty=drag.ty+dy; tip.hidden=true; draw(); return; }
+  const h=pick(mx,my); if(h!==hover){ hover=h; }
+  if(h===null){ tip.hidden=true; return; }
+  const n=N[h]; tip.innerHTML=''; tip.textContent=n.t; const sm=document.createElement('small'); sm.textContent=`${n.ano} · ${fmt(n.cit)} cit. · citada ${n.inn}× no conjunto · ${DLAB[n.dest]||n.dest}${n.gab?' · gabarito '+n.gab:''}`; tip.appendChild(sm);
+  tip.hidden=false; const tw=tip.offsetWidth, th=tip.offsetHeight; tip.style.left=Math.min(mx+14,W-tw-6)+'px'; tip.style.top=(my+14+th>H? my-th-10 : my+14)+'px'; });
+cv.addEventListener('pointerup',e=>{ cv.classList.remove('drag'); const r=cv.getBoundingClientRect(); if(!moved){ const h=pick(e.clientX-r.left,e.clientY-r.top); sel=h; showSel(); draw(); } drag=null; });
+cv.addEventListener('pointerleave',()=>{ tip.hidden=true; });
+cv.addEventListener('wheel',e=>{ e.preventDefault(); const r=cv.getBoundingClientRect(), mx=e.clientX-r.left, my=e.clientY-r.top;
+  const k=Math.exp(-e.deltaY*0.0015), s=Math.min(40,Math.max(0.5,view.s*k)), f=s/view.s; view.tx=mx-(mx-view.tx)*f; view.ty=my-(my-view.ty)*f; view.s=s; draw(); },{passive:false});
+cv.addEventListener('dblclick',()=>{ view={s:1,tx:0,ty:0}; draw(); });
+
+function seg(id,cb){ const el=document.getElementById(id); el.addEventListener('click',e=>{ const b=e.target.closest('button'); if(!b) return;
+  el.querySelectorAll('button').forEach(x=>x.setAttribute('aria-pressed',String(x===b))); cb(b.dataset.v); }); }
+seg('mode',v=>{ mode=v; view={s:1,tx:0,ty:0}; animate(v==='rede'?P_rede:P_arv); });
+seg('color',v=>{ colorBy=v; legend(); draw(); });
+document.getElementById('edges').addEventListener('change',e=>{ showEdges=e.target.checked; draw(); });
+document.getElementById('gab').addEventListener('change',e=>{ showGab=e.target.checked; draw(); });
+document.getElementById('q').addEventListener('input',e=>{ query=e.target.value.trim().toLowerCase(); draw(); });
+matchMedia('(prefers-color-scheme: dark)').addEventListener('change',()=>{ readColors(); legend(); draw(); });
+new MutationObserver(()=>{ readColors(); legend(); draw(); }).observe(document.documentElement,{attributes:true,attributeFilter:['data-theme']});
+new ResizeObserver(resize).observe(stage);
+readColors(); legend(); resize();
+})();
+</script>

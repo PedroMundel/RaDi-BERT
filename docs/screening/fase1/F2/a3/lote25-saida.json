@@ -1,0 +1,18 @@
+[
+  {
+    "id": "F0961",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo de §1.2",
+    "frase": "Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction",
+    "objetivo": null,
+    "motivo": "survey de NMF para redução de dimensionalidade; nenhuma frase liga a técnica a inferência, memória/hardware ou dado rotulado de modelos"
+  },
+  {
+    "id": "F0962",
+    "veredito": "fora",
+    "regra": "§3.4 sistema/ferramenta",
+    "frase": "This paper proposes a framework",
+    "objetivo": null,
+    "motivo": "propõe um framework de sistema, não revisa/organiza literatura como survey"
+  }
+]

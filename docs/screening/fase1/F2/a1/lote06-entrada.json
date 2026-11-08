@@ -1,0 +1,423 @@
+[
+ {
+  "id": "F0201",
+  "title": "Direct Preference Optimization toward Mobile and Edge Acceleration: A Survey",
+  "year": "2026",
+  "abstract": "Deploying large language and foundation models on resource-constrained mobile and edge devices requires alignment that is compute-efficient, robust to distribution shift, and memory-efficient. Direct Preference Optimization (DPO) and related RL-free methods recast alignment as density-ratio shaping, enabling reference minimization, implicit-reward surrogates, and calibrated trust-region/KL control that translate into shorter, more stable, and cheaper generations on-device. This survey distills the probabilistic foundations and edge-oriented techniques that turn preference learning into an accelerator, covering reference-light objectives, compression- and quantization-aware training, and privacy-preserving, real-world deployments, while highlighting open problems for power- and thermally limited hardware.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0202",
+  "title": "High-dimensional data analytics in civil engineering: A review on matrix and tensor decomposition",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0203",
+  "title": "Review of the Application of Lightweight Algorithms for Preventing Internet of Things devices from Distributed Denial of Services Attacks",
+  "year": "2026",
+  "abstract": "Among the industries that have been revolutionized by the new development of the Internet of Things (IoT) are healthcare, industry, and smart cities but at the same time, it has brought great security threats, notably Distributed Denial of Service (DDoS) attacks. Conventional deep learning intrusion detection systems offer good accuracy in detection, but can be costly in computation and do not fit well in the constrained resource environment of IoT. This review takes a critical look at the newer IoT-based DDoS detection methods with the attention to Federated Learning (FL), Explainable Artificial Intelligence (XAI), and lightweight machine learning (ML) methods. In a comparison of recent literature, it has been found that lightweight ML models including Support Vector Machines (SVM) and K-Nearest Neighbors (KNN) reach a detection accuracy of around 94-96% with low computational and communication overhead, which makes them an appropriate choice in the deployment of edge-based IoT. Conversely, the FL-integrated deep learning methods, such as FL-XAI frameworks and FL-LSTM models, achieve better detection accuracy (99-99.8) and better privacy protection, but pose serious training complexities, communication, and resource constraints on the devices. As a middle ground to scalability, interpretability, and detection accuracy (97-98%), hybrid models like FL-Autoencoders and FL-CNNs exist. Notwithstanding such progress, the majority of investigations are based on simulated data and do not provide the validity of IoT implementation in the real world, which defines a significant research gap. In general, these results indicate that lightweight ML models are the most viable choice in real-time IoT setups, and federated and explainable frameworks are promising the scalability, privacy-aware, and explainable IoT security systems, as long as their computational efficiency and applicability in the real world are further enhanced.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0204",
+  "title": "A Review on AI Control of Reactive Distillation for Various Applications",
+  "year": "2020",
+  "abstract": "In this chapter, previous studies on reactive distillation process control including control using conventional as well as soft sensor control, membrane assisted reactive distillation design and simulation, estimation and control are discussed. The review of literature in different dimensions is carried out to explore the opportunities in the field of research work. The chapter is focused on dynamics and control of Reactive distillation, its control using Conventional Techniques, Model Predictive Control MPC), Reactive Distillation using Soft Sensors/Soft Controllers, Membrane assisted reactive distillation, Biodiesel in Reactive Divided Wall Column: Design and Control and Membrane reactive divided wall column. These control techniques are proposed and analyzed by many researchers. These techniques have potential use in process industries to have better soft sensor control of nonlinear processes.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0205",
+  "title": "Artificial Intelligence Applications in Project Scheduling: A Systematic Review, Bibliometric Analysis, and Prospects for Future Research",
+  "year": "2023",
+  "abstract": "Abstract The availability of digital infrastructures and the fast-paced development of accompanying revolutionary technologies have triggered an unprecedented reliance on Artificial intelligence (AI) techniques both in theory and practice. Within the AI domain, Machine Learning (ML) techniques stand out as essential facilitator largely enabling machines to possess human-like cognitive and decision making capabilities. This paper provides a focused review of the literature addressing applications of emerging ML tools to solve various Project Scheduling Problems (PSPs). In particular, it employs bibliometric and network analysis tools along with a systematic literature review to analyze a pool of 104 papers published between 1985 and August 2021. The conducted analysis unveiled the top contributing authors, the most influential papers as well as the existing research tendencies and thematic research topics within this field of study. A noticeable growth in the number of relevant studies is seen recently with a steady increase as of the year 2018. Most of the studies adopted Artificial Neural Networks, Bayesian Network and Reinforcement Learning techniques to tackle PSPs under a stochastic environment, where these techniques are frequently hybridized with classical metaheuristics. The majority of works (57%) addressed basic Resource Constrained PSPs and only 15% are devoted to the project portfolio management problem. Furthermore, this study clearly indicates that the application of AI techniques to efficiently handle PSPs is still in its infancy stage bringing out the need for further research in this area. This work also identifies current research gaps and highlights a multitude of promising avenues for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0206",
+  "title": "Data efficient deep learning for liver and liver tumor segmentation: A comprehensive survey",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0207",
+  "title": "Artificial intelligence in construction risk management: a decade of developments, challenges, and integration pathways",
+  "year": "2025",
+  "abstract": "Abstract The increasing complexity and uncertainty of construction projects have driven a paradigm shift in risk management, with Artificial Intelligence (AI) emerging as a transformative tool. This systematic review examines 87 peer-reviewed studies published between 2014 and 2024, assessing the role of AI technologies—including machine learning (ML), natural language processing (NLP), knowledge-based reasoning (KBR), optimisation algorithms (OAs), and computer vision (CV)—across the construction risk management lifecycle. Using PRISMA guidelines and NVivo-based mixed-method analysis, the review identifies AI’s core functions in risk identification, assessment, response, and monitoring, while uncovering key barriers such as fragmented implementation, limited adaptability, and socio-organisational resistance. ML and CV dominate predictive and visual analysis, while NLP and KBR support compliance and rule-based decision-making; OAs optimise resource trade-offs. Despite increasing research, critical gaps persist, including fragmented AI integration, limited attention to implementation barriers, and underrepresentation of adaptive response and monitoring stages. This paper makes four specific contributions: (1) it offers a functional taxonomy that maps AI methods to distinct risk management tasks and phases; (2) it synthesizes technical, organisational, and ethical challenges hindering real-world AI adoption; (3) it introduces an integrated AI–risk management lifecycle framework that aligns AI capabilities with construction project needs; and (4) it extends classical risk epistemologies by embedding Beck’s, Power’s, and Aven’s perspectives into the discourse on AI governance. These contributions provide a structured foundation for advancing research and guiding practitioners toward responsible, resilient, and explainable AI deployment in high-stakes construction environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0208",
+  "title": "Text Classification: How Machine Learning Is Revolutionizing Text Categorization",
+  "year": "2025",
+  "abstract": "The automated classification of texts into predefined categories has become increasingly prominent, driven by the exponential growth of digital documents and the demand for efficient organization. This paper serves as an in-depth survey of text classification and machine learning, consolidating diverse aspects of the field into a single, comprehensive resource—a rarity in the current body of literature. Few studies have achieved such breadth, and this work aims to provide a unified perspective, offering a significant contribution to researchers and the academic community. The survey examines the evolution of machine learning in text categorization (TC), highlighting its transformative advantages over manual classification, such as enhanced accuracy, reduced labor, and adaptability across domains. It delves into various TC tasks and contrasts machine learning methodologies with knowledge engineering approaches, demonstrating the strengths and flexibility of data-driven techniques. Key applications of TC are explored, alongside an analysis of critical machine learning methods, including document representation techniques and dimensionality reduction strategies. Moreover, this study evaluates a range of text categorization models, identifies persistent challenges like class imbalance and overfitting, and investigates emerging trends shaping the future of the field. It discusses essential components such as document representation, classifier construction, and performance evaluation, offering a well-rounded understanding of the current state of TC. Importantly, this paper also provides clear research directions, emphasizing areas requiring further innovation, such as hybrid methodologies, explainable AI (XAI), and scalable approaches for low-resource languages. By bridging gaps in existing knowledge and suggesting actionable paths forward, this work positions itself as a vital resource for academics and industry practitioners, fostering deeper exploration and development in text classification.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0209",
+  "title": "Review on Lightweight Cryptography Techniques and Steganography Techniques for IOT Environment",
+  "year": "2023",
+  "abstract": "In the modern world, technology has connected to our day-to-day life in different forms. The Internet of Things (IoT) has become an innovative criterion for mass implementations and a part of daily life. However, this rapid growth leads the huge traffic and security problems. There are several challenges arise while deploying IoT. The most common challenges are privacy and security during data transmission. To address these issues, various lightweight cryptography and steganography techniques were introduced. These techniques are helpful in securing the data over the IoT. The hybrid of cryptography and steganography mechanisms provides enhanced security to confidential messages. Any messages can be secured by cryptography or by embedding the messages into any media files, including text, audio, image, and video, using steganography. Hence, this article has provided a detailed review of efficient, lightweight security solutions based on cryptography and steganography and their function over IoT applications. The objective of the paper is to study and analyze various Light weight cryptography techniques and Steganography techniques for IoT. A few works of literature were reviewed in addition to their merits and limitations. Furthermore, the common problems in the reviewed techniques are explained in the discussion section with their parametric comparison. Finally, the future scope to improve IoT security solutions based on lightweight cryptography and steganography is mentioned in the conclusion part.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0210",
+  "title": "Survey, Analysis and Comparison of Radar Technologies for Embedded Vital Sign Monitoring",
+  "year": "2022",
+  "abstract": "Contactless vital sign monitoring systems are becoming increasing in demand for a wide range of biomedical applications. Millimetre-wave radars and embedded signal processing are the most promising technologies to enable non-contact vital signs monitoring. In this work, the challenging task of heart rate estimation from radar data has been addressed. Three different radar systems from Infineon, Texas Instruments and Acconeer, and four algorithms, FFT, Median-FFT, STFT and Median-STFT, have been analysed and compared against a reference sensor. Accuracy, as well as power figures, have been reported for all the radar systems. A dataset of 16 volunteers has been acquired, yielding a total of 400 minutes of radar-recorded vital sign data. The accuracy of the four investigated algorithms has been reported on average and per subject for every radar. The algorithm exploiting the Short Time Fourier Transform (STFT) is able to achieve an error as low as 0.02% on a single person and of 6.4% in heart rate estimation on average across the whole dataset.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0211",
+  "title": "A Review of Approaches for Compassionate Checkpointing with Mobile Computing Systems",
+  "year": "2022",
+  "abstract": "A distribution system is a group of autonomous entities working together to address a challenge that cannot be addressed by any one of them alone. A distributed system called a mobile computing device (MCD) has certain processes that are executed on mobile nodes, whose position within the network shifts over time. Distributed mobile systems create new problems such as mobility, poor wireless channel bandwidth, disconnections, low battery life, and a lack of a steady, trustworthy store on mobile nodes. The issue of fault-tolerant computation in mobile distributed databases is discussed in this study. Checkpointing and roll- it-back recovery are the foundations for the procedures outlined.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0212",
+  "title": "Knowledge Graph Embedding: An Overview",
+  "year": "2023",
+  "abstract": "Many mathematical models have been leveraged to design embeddings for representing Knowledge Graph (KG) entities and relations for link prediction and many downstream tasks. These mathematically-inspired models are not only highly scalable for inference in large KGs, but also have many explainable advantages in modeling different relation patterns that can be validated through both formal proofs and empirical results. In this paper, we make a comprehensive overview of the current state of research in KG completion. In particular, we focus on two main branches of KG embedding (KGE) design: 1) distance-based methods and 2) semantic matching-based methods. We discover the connections between recently proposed models and present an underlying trend that might help researchers invent novel and more effective models. Next, we delve into CompoundE and CompoundE3D, which draw inspiration from 2D and 3D affine operations, respectively. They encompass a broad spectrum of techniques including distance-based and semantic-based methods. We will also discuss an emerging approach for KG completion which leverages pre-trained language models (PLMs) and textual descriptions of entities and relations and offer insights into the integration of KGE embedding methods with PLMs for KG completion.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0213",
+  "title": "Artificial intelligence in embedded systems: A review of techniques, applications, and challenges",
+  "year": "2025",
+  "abstract": "The convergence of Artificial Intelligence (AI) and embedded systems has revolutionized modern electronic engineering, enabling intelligent functionalities in devices with constrained power, memory, and processing resources. This review explores the evolution, techniques, hardware platforms, and application domains of embedded AI, focusing on advancements such as TinyML, federated learning, and hybrid models. It further categorizes the landscape of AI-capable embedded hardware, including microcontrollers, SoCs, FPGAs, ASICs, and modular AI accelerators. Real-world deployments across agriculture, healthcare, automotive, IIoT, robotics, and smart cities are discussed, with emphasis on privacy-aware, real-time, and energy-efficient implementations. The paper also outlines critical challenges such as computational limits, latency, model updates, and security risks. Lastly, it highlights emerging trends including neuromorphic computing, self-learning models, cross-platform ML deployment, and hardware-algorithm co-design, offering a forward-looking perspective on the future of AI in embedded applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0214",
+  "title": "Densifying Knowledge Hypergraphs with LLM-based review distillation for conversational consumer decision support",
+  "year": "2026",
+  "abstract": "• Review-driven structural induction alleviates sparsity in conversational recommendation. • LLM-distilled review semantics are grounded as entities to densify hypergraph structures. • Item-centric hypergraph learning supports joint recommendation and response generation. • Two-stage training stabilizes structure learning under sparse conversational supervision.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0215",
+  "title": "Dynamic Service Placement in Multi-access Edge Computing: a Systematic Literature Review",
+  "year": "2022",
+  "abstract": "The advent of new cloud-based applications such as mixed reality, online gaming, autonomous driving, and healthcare has introduced infrastructure management challenges to the underlying service network. Multi-access edge computing (MEC) extends the cloud computing paradigm and leverages servers near end-users at the network edge to provide a cloud-like environment. The optimum placement of services on edge servers plays a crucial role in the performance of such service-based applications. Dynamic service placement problem addresses the adaptive configuration of application services at edge servers to facilitate end-users and those devices that need to offload computation tasks. While reported approaches in the literature shed light on this problem from a particular perspective, a panoramic study of this problem reveals the research gaps in the big picture. This paper introduces the dynamic service placement problem and outline its relations with other problems such as task scheduling, resource management, and caching at the edge. We also present a systematic literature review of existing dynamic service placement methods for MEC environments from networking, middleware, applications, and evaluation perspectives. In the first step, we review different MEC architectures and their enabling technologies from a networking point of view. We also introduce different cache deployment solutions in network architectures and discuss their design considerations. The second step investigates dynamic service placement methods from a middleware viewpoint. We review different service packaging technologies and discuss their trade-offs. We also survey the methods and identify eight research directions that researchers follow. Our study categorises the research objectives into six main classes, proposing a taxonomy of design objectives for the dynamic service placement problem. We also investigate the reported methods and devise a solutions taxonomy comprising six criteria. In the third step, we concentrate on the application layer and introduce the applications that can take advantage of dynamic service placement. The fourth step investigates evaluation environments used to validate the solutions, including simulators and testbeds. We introduce real-world datasets such as edge server locations, mobility traces, and service requests used to evaluate the methods. We compile a list of open issues and challenges categorised by various viewpoints in the last step.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0216",
+  "title": "The need for Lightweight Consensus algorithms in IoT environment: A review",
+  "year": "2024",
+  "abstract": "The proliferation of Internet of Things (IoT) devices worldwide has led to heightened concerns regarding device safety and the security and privacy of user data. Blockchain technology, as a decentralized solution, has been extensively studied for its potential to address these security and privacy requirements in IoT environments. The consensus algorithm employed in blockchain significantly impacts power consumption and network throughput, making it critical to select an appropriate algorithm for resource-constrained devices. This paper reviews existing proposals and methodologies for consensus mechanisms for energy and security management in IoT environments. It also defines \"lightweight consensus\" algorithms, examines the challenges of implementing these protocols in IoT, and suggests experiments to enhance the scalability of blockchain consensus for IoT. The survey encompasses approximately 85 papers from 2016 to 2023, including literature reviews and experimental studies, providing researchers with insights into developing consensus protocols suitable for resource-constrained settings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0217",
+  "title": "The most used MPPT algorithms: Review and the suitable low-cost embedded board for each algorithm",
+  "year": "2020",
+  "abstract": "Abstract In order to increase the production of photovoltaic-based cleaner energy, the maximum power point tracking (MPPT) controller was employed. Because different MPPT algorithms have been adduced in the literature, it is mandatory to compare and differentiate them to select the most adequate MPPT for a particular application or to make suggestions for future research regarding MPPT. This paper reviews (extensively) the most used MPPT algorithms. They are classified into three groups: (1) direct, such as hill climbing (HC), perturb and observe (PO (2) indirect, namely fractional short-circuit current (FSCC), Fractional Open-Circuit Voltage (FOCV), and pilot cell and (3); soft computing methods such as a Kalman filter, fuzzy logic control (FLC), neural network, partial swarm optimization (PSO), ant colony optimization (ACO), artificial bee colony (ABC), bat algorithm and hybrid PSO-FLC. A detailed principle of operation and the merits and downsides of each method are discussed. Also, the distributed MPPT and other MPPT methods are briefly presented. Finally, a recommendation of the most well-suited embedded board for the implementation of each method is presented and discussed. To complete these objectives, this manuscript focuses solely on the low-cost embedded board.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0218",
+  "title": "An innovative word embedded and optimization based hybrid artificial intelligence approach for aspect-based sentiment analysis of app and cellphone reviews",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0219",
+  "title": "Streaming Algorithms for Subspace Analysis: Comparative Review and Implementation on IoT Devices",
+  "year": "2023",
+  "abstract": "Subspace analysis (SA) is a widely used technique for coping with high-dimensional data and is becoming a fundamental step in the early treatment of many signal-processing tasks. However, traditional SA often requires a large amount of memory and computational resources, as it is equivalent to eigenspace determination. To address this issue, specialized streaming algorithms have been developed, allowing SA to be run on low-power devices, such as sensors or edge devices. Here, we present a classification and a comparison of these methods by providing a consistent description and highlighting their features and similarities. We also evaluate their performance in the task of subspace identification with a focus on computational complexity and memory footprint for different signal dimensions. Additionally, we test the implementation of these algorithms on common hardware platforms typically employed for sensors and edge devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0220",
+  "title": "Distilling Knowledge in Gastroenterology: An Artificial Intelligence System for Assisting Colonoscopy and Pathology Report Review",
+  "year": "2026",
+  "abstract": "Objective To develop an efficient and domain-adapted system to process colonoscopy and pathology reports using knowledge distillation techniques. Patients and Methods We implemented a knowledge distillation framework to create a smaller, domain-specific large language models-based natural language processing model for summarizing and extracting key information from clinical reports. The model was trained on a dataset consisting of 5500 colonoscopy reports and 7000 pathology reports taken from January 1, 2024, to June 30, 2024. Performance was evaluated against ground truth polyp categories derived from pathology report diagnoses. Results The distilled model reported high domain-specific performance, achieving 95.2% accuracy (95% CI, 93.9%-96.5%), 0.95 precision, and a 31.5% improvement in inference speed relative to the teacher model. Despite being substantially smaller than the teacher model, it maintained strong capability in polyp category identification from key clinical factors, including polyp number, size, histology, and location across colonoscopy and pathology reports. Domain clinicians reported high agreement with model outputs across all 6 evaluated clinical questions, confirming its reliability for supporting follow-up recommendation workflows. Conclusion This work presents a step toward making domain-specific natural language processing models for gastroenterology more efficient and scalable. By leveraging knowledge distillation, we report the potential for creating more practical domain-specific models that can assist in interpreting complex clinical documentation. Future work will focus on real-world validation and expanding the model to other procedural report types.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0221",
+  "title": "Big data analytics in the AEC industry: scientometric review and synthesis of research activities",
+  "year": "2024",
+  "abstract": "PurposeUnlocking the potential of Big Data Analytics (BDA) has proven to be a transformative factor for the Architecture, Engineering and Construction (AEC) industry. This has prompted researchers to focus attention on BDA in the AEC industry (BDA-in-AECI) in recent years, leading to a proliferation of relevant research. However, an in-depth exploration of the literature on BDA-in-AECI remains scarce. As a result, this study seeks to systematically explore the state-of-the-art review on BDA-in-AECI and identify research trends and gaps in knowledge to guide future research.Design/methodology/approachThis state-of-the-art review was conducted using a mixed-method systematic review. Relevant publications were retrieved from Scopus and then subjected to inclusion and exclusion criteria. A quantitative bibliometric analysis was conducted using VOSviewer software and Gephi to reveal the status quo of research in the domain. A further qualitative analysis was performed on carefully screened articles. Based on this mixed-method systematic review, knowledge gaps were identified and future research agendas of BDA-in-AECI were proposed.FindingsThe results show that BDA has been adopted to support AEC decision-making, safety and risk assessment, structural health monitoring, damage detection, waste management, project management and facilities management. BDA also plays a major role in achieving construction 4.0 and Industry 4.0. The study further revealed that data mining, cloud computing, predictive analytics, machine learning and artificial intelligence methods, such as deep learning, natural language processing and computer vision, are the key methods used for BDA-in-AECI. Moreover, several data acquisition platforms and technologies were identified, including building information modeling, Internet of Things (IoT), social networking and blockchain. Further studies are needed to examine the synergies between BDA and AI, BDA and Digital twin and BDA and blockchain in the AEC industry.Originality/valueThe study contributes to the BDA-in-AECI body of knowledge by providing a comprehensive scope of understanding and revealing areas for future research directions beneficial to the stakeholders in the AEC industry.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0222",
+  "title": "Correction to “PartitionTuner: An operator scheduler for deep‐learning compilers supporting multiple heterogeneous processing units”",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0223",
+  "title": "Analysis of image types, compression techniques and performance assessment metrics : A review",
+  "year": "2022",
+  "abstract": "Abstract The rapid advancement of digital technology has created a demand for improved compression methods. Image compression is data compression applied to digital images. The goal is to eliminate picture data redundancy in order to store or transfer data efficiently. When a picture is compressed at low bitrates, the image fidelity is lost. Images can be compressed in several ways. This paper reviews image kinds and compression strategies. All type of images and the factors by which one can identify the performance assessment of images are described in this paper.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0224",
+  "title": "Computationally efficient deep learning models for diabetic retinopathy detection: a systematic literature review",
+  "year": "2024",
+  "abstract": "Diabetic retinopathy, often resulting from conditions like diabetes and hypertension, is a leading cause of blindness globally. With diabetes affecting millions worldwide and anticipated to rise significantly, early detection becomes paramount. The survey scrutinizes existing literature, revealing a noticeable absence of consideration for computational complexity aspects in deep learning models. Notably, most researchers concentrate on employing deep learning models, and there is a lack of comprehensive surveys on the role of vision transformers in enhancing the efficiency of these models for DR detection. This study stands out by presenting a systematic review, exclusively considering 84 papers published in reputable academic journals to ensure a focus on mature research. The distinctive feature of this Systematic Literature Review (SLR) lies in its thorough investigation of computationally efficient approaches and models for DR detection. It sheds light on the incorporation of vision transformers into deep learning models, highlighting their significant contribution to improving accuracy. Moreover, the research outlines clear objectives related to the identified problem, giving rise to specific research questions. Following an assessment of relevant literature, data is extracted from digital archives. Additionally, in light of the results obtained from this SLR, a taxonomy for the detection of diabetic retinopathy has been presented. The study also highlights key research challenges and proposes potential avenues for further investigation in the field of detecting diabetic retinopathy.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0225",
+  "title": "A Survey of Sample-Efficient Deep Learning for Change Detection in Remote Sensing: Tasks, strategies, and challenges",
+  "year": "2025",
+  "abstract": "In the last decade, the rapid development of deep learning (DL) has made it possible to perform automatic, accurate, and robust Change Detection (CD) on large volumes of Remote Sensing Images (RSIs). However, despite advances in CD methods, their practical application in real-world contexts remains limited due to the diverse input data and the applicational context. For example, the collected RSIs can be timeseries observations, and more informative results are required to indicate the time of change or the specific change category. Moreover, training a Deep Neural Network (DNN) requires a massive amount of training samples, whereas in many cases these samples are difficult to collect. To address these challenges, various specific CD methods have been developed considering different application scenarios and training resources. Additionally, recent advancements in image generation, self-supervision, and visual foundation models (VFMs) have opened up new approaches to address the ’data-hungry’ issue of DL-based CD. The development of these methods in broader application scenarios requires further investigation and discussion. Therefore, this article summarizes the literature methods for different CD tasks and the available strategies and techniques to train and deploy DL-based CD methods in sample-limited scenarios. We expect that this survey can provide new insights and inspiration for researchers in this field to develop more effective CD methods that can be applied in a wider range of contexts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0226",
+  "title": "The potential use of lightweight cellular concrete in pavement application: a review",
+  "year": "2020",
+  "abstract": "Protecting the pavement subgrade to increase the service life of road pavements is an aspect currently being explored. Several alternative pavement subbase materials are being considered, including Lightweight Cellular Concrete (LCC). Due to its lower weight, LCC incorporating industrial by-product, making it sustainable, and ease of use amongst other benefits, is seen as a potential candidate. This paper reports reviewing the potential application of LCC within the pavement structure with a specific application as a subbase. It examines the various properties such as modulus of elasticity, compressive and tensile strength, Water absorption, and freeze-thaw resistance necessary for pavement application. It also assesses its use in the field in Canada considering the design methods utilized. Some limitations and gaps for LCC application in pavements are also established and recommendations on how to further its use and performance. This review concludes that LCC possesses potential as a pavement subbase alternative; however, other mechanical properties like LCC’s fatigue life is essential. A comparative field study is also recommended to monitor actual performance and various factors on performance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0227",
+  "title": "Federated Learning: A Comprehensive Survey on Types, Applications, Challenges, and Future Directions",
+  "year": "2025",
+  "abstract": "Federated Learning (FL) is a new machine learning (ML) paradigm where multiple parties jointly train a model without sharing each other’s raw data, which is beneficial for predictive analytics with privacy protection and low data transmission cost. This work surveys the basic concepts in FL such as the three categories of FL: horizontal FL, vertical FL, and federated transfer learning, which are suitable for different types of data partitioning. With that in mind, FL is fitting for applications in healthcare, finance, edge computing, and IoT devices as it is able to maintain privacy-aware AI development. FL, however, has its own challenges, including communication overhead, computational costs, data heterogeneity, security, and fairness. The decentralized nature of the clients thus requires frequent exchanging of model updates, leading to more bandwidth-centric and high-latency constraints which may hinder their scaling silently. Furthermore, an ongoing challenge in FL concerns fairness, i.e., reducing potential biases that emerge from unbalanced data distributions. The next chapter of FL research would be a little more on the side of communication efficiency and probably leveraging adaptive compression mechanisms and zero-aggregation. To improve accuracy when dealing with heterogeneous environments, federated learning personalization (FL) is also gaining ground toward modifying models for each client while leveraging global knowledge. Additionally, continuing breakthroughs in federated reinforcement learning could further broaden the applicability of FL to dynamic, autonomous decision-making systems. Addressing these challenges will be key to creating scalable, secure and efficient FL frameworks for mainstream integration into privacy-sensitive fields. This survey presents a thorough introduction to FL, covering its advantages along with its disadvantages and future research trends. As FL tackles essential technical constraints and enhances its algorithmic architecture, it could potentially transform decentralized AI space and foster innovation in various fields.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0228",
+  "title": "Lightweight Deep Learning Models for Wildlife Monitoring in IoT and Edge Applications: A Survey",
+  "year": "2025",
+  "abstract": "The convergence of Internet of Things (IoT) technologies with lightweight deep learning models has opened new opportunities for wildlife monitoring, where real-time detection and early warning are essential for both conservation and public safety. This paper provides a structured survey of recent studies applying convolutional neural networks (CNNs) such as YOLO and EfficientDet to resource-constrained edge environments. Unlike previous reviews, the analysis emphasizes the trade-offs between accuracy, computational efficiency and energy consumption, with a particular focus on conditions relevant to Central Europe and Slovakia, where brown bear (Ursus arctos) incidents are increasing. The survey methodology included works published between 2019 and 2025 in IEEE, MDPI and arXiv databases, resulting in seven core studies and three complementary benchmarking papers. Results show that YOLOv8 and YOLOv9 consistently achieve state-of-the-art accuracy (mAP >90%) but they are limited by high power demands, while EfficientDet Lite and hybrid EfficientDet + MobileNet pipelines offer superior performance-per-watt, sustaining 6–10 FPS on Raspberry Pi devices with significantly lower energy cost. The findings highlight that no single model fully addresses the accuracy – efficiency – scalability triad instead, hybrid architectures, combining high-precision detectors with lightweight edge models, offer the most practical path toward sustainable and regionally adaptable monitoring.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0229",
+  "title": "A Short Survey on Embedded AI with Edge Computing for Maritime Applications",
+  "year": "2025",
+  "abstract": "Embedded AI systems, when integrated with Edge Computing, enable real-time processing and data analytics on-board maritime operations, effectively addressing power and computation limitations. This paper reviews such integrated systems, explores their benefits, and examines their implications for maritime applications. We discuss relevant technologies and applications, focusing specifically on AI systems deployed at sea. The implementation of Convolutional Neural Networks, particularly YOLO, is analysed across maritime applications ranging from object detection to autonomous vehicle operations. We also explore how Internet of Things (IoT) devices and sensors enhance the performance of embedded AI systems in maritime environments. Our analysis identifies four main areas: maritime object detection, marine ecosystem monitoring, autonomous vehicle operations, and maritime search and rescue missions. Results indicate that embedded AI systems significantly improve operational efficiency and enable new capabilities in maritime applications, particularly in autonomous vehicle operations and real-time monitoring systems. However, addressing resource constraints and improving system reliability in harsh maritime conditions remains a challenge for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0230",
+  "title": "Discovering Sparse Counterfactual Factors via Latent Adjustment for Survey-based Community Intervention",
+  "year": "2026",
+  "abstract": "Transportation surveys are widely used to understand travel preferences and adoption barriers, yet most survey-based analyses remain descriptive or predictive and rarely provide sparse, policy-feasible intervention strategies. We study sparse counterfactual community intervention from survey responses, where the goal is to shift a target respondent group toward a desired reference group through controllable survey-variable adjustments. We formulate this task as a policy-feasible distributional alignment problem using a fixed-basis nonnegative latent representation that preserves pre/post comparability and provides a stable map from latent factors to original variables. To make latent movement actionable, target-relevant latent factors are identified through Shapley-guided attribution and transferred to controllable variables as intervention priorities. Feasible group-level adjustments are then learned by minimizing an entropy-regularized optimal-transport discrepancy between the post-intervention target distribution and the reference distribution, together with a weighted $\\ell_{2,1}$ penalty that promotes shared policy-lever sparsity. Experiments on real-world transportation survey datasets show that the proposed framework produces compact and interpretable policy-feasible interventions with explicit adjustment magnitudes, improves population-level conversion, and preserves intervention sparsity. Code and datasets are publicly available at: https://github.com/pangjunbiao/latent-group-alignment.git",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0231",
+  "title": "Capturing LLM Capabilities via Evidence-Calibrated Query Clustering",
+  "year": "2026",
+  "abstract": "Query clustering organizes queries into groups that reflect shared latent capability demands, enabling capability-aware LLM evaluation. Existing clustering methods, which primarily rely on semantic taxonomies or embeddings, often fail to capture such latent capability requirements due to a misalignment between surface-level semantics and actual model performance. We propose ECC, an algorithm that calibrates prior semantic embeddings using limited posterior model comparisons to bridge the gap between surface-level semantics and latent capability requirements. ECC characterizes each cluster through a capability profile parameterized by a Bradley-Terry model and uses trainable mixture weights to accommodate queries with mixed capability demands, jointly learning a flexible, capability-aware clustering structure that supports query-specific inference of LLM capabilities. Extensive quantitative and qualitative evaluations demonstrate that ECC significantly improves LLM capability ranking quality, outperforming human-labeled and embedding-based baselines by an average of 17.64 and 18.02 percentage points, respectively, and proves effective in downstream tasks such as query routing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0232",
+  "title": "Pipelined architecture for sparse DNNs",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0233",
+  "title": "Efficient Three-Class Sentiment Classification of IMDb Reviews Using LoRA-Based Fine-Tuning on Pseudo-labeled Data",
+  "year": "2026",
+  "abstract": "Sentiment analysis has become an important task in natural language processing for understanding public opinions expressed in online reviews. However, most publicly available IMDb datasets are limited to binary sentiment labels, which restricts the ability of sentiment analysis systems to capture neutral opinions. This study proposes an efficient sentiment analysis framework that transforms the binary IMDb dataset into a three-class sentiment classification problem consisting of positive, neutral, and negative sentiments. The proposed approach integrates pseudolabeling with Parameter-Efficient Fine-Tuning (PEFT) using the Low-Rank Adaptation (LoRA) technique on the Longformer architecture. Experimental results show that the model achieves an accuracy of 77.06%, a weighted F1-score of 72.17%, and a Matthews Correlation Coefficient (MCC) of 0.6232. The results demonstrate that LoRA-based fine-tuning can significantly reduce computational requirements while maintaining competitive performance in sentiment classification tasks. These findings indicate that the proposed framework provides a practical and computationally efficient solution for large-scale sentiment analysis, particularly for environments with limited computational resources.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0234",
+  "title": "A review: Lightweight architecture model in deep learning approach for lung disease identification",
+  "year": "2025",
+  "abstract": "As one of the leading causes of death worldwide, early detection of lung disease is a very important step to improve the effectiveness of treatment. By using medical image data, such as X-ray or CT-scan, classification of lung disease can be done. Deep learning methods have been widely used to recognize complex patterns in medical images, but this approach has the constraints of requiring large data variations and high computing resources. In overcoming these constraints, the lightweight architecture in deep learning can provide a more efficient solution based on the number of parameters and computing time. This method can be applied to devices with low processor specifications on portable devices such as mobile phones. This article presents a comprehensive review of 23 research studies published between 2020 and 2025, focusing on various lightweight architectures and optimization techniques aimed at improving the accuracy of lung disease detection. The results show that these models are able to significantly reduce parameter sizes, resulting in faster computation times while maintaining competitive accuracy compared to traditional deep learning architectures. From the research that has been done, it can be seen that SqueezeNet applied on public COVID-19 datasets is the best basic architecture with high accuracy, and the number of parameters is 570 thousand, which is very low. On the other hand, UNet requires 31.07 million parameters, and SegNet requires 29.45 million parameters trained on CT scan images from Italian Society of Medical and Interventional Radiology and Radiopedia, so it is less efficient. For the combination method, EfficientNetV2 and Extreme Learning Machine (ELM) are able to achieve the highest accuracy of 98.20 % and can significantly reduce parameters. The worst performance is shown by VGG and UNet with a decrease in accuracy from 91.05 % to 87 % and an increase in the number of parameters. It can be concluded that the lightweight architecture can be applied to medical image classification in the diagnosis of lung disease quickly and efficiently on devices with limited specifications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0235",
+  "title": "An overview of pruning and harvesting manipulators",
+  "year": "2021",
+  "abstract": "\nPurpose\nThe motivation for robotics research in the agricultural field has sparked in consequence of the increasing world population and decreasing agricultural labor availability. This paper aims to analyze the state of the art of pruning and harvesting manipulators used in agriculture.\n\n\nDesign/methodology/approach\nA research was performed on papers that corresponded to specific keywords. Ten papers were selected based on a set of attributes that made them adequate for review.\n\n\nFindings\nThe pruning manipulators were used in two different scenarios: grapevines and apple trees. These manipulators showed that a light-controlled environment could reduce visual errors and that prismatic joints on the manipulator are advantageous to obtain a higher reach. The harvesting manipulators were used for three types of fruits: strawberries, tomatoes and apples. These manipulators revealed that different kinematic configurations are required for different kinds of end-effectors, as some of these tools only require movement in the horizontal axis and others are required to reach the target with a broad range of orientations.\n\n\nOriginality/value\nThis work serves to reduce the gap in the literature regarding agricultural manipulators and will support new developments of novel solutions related to agricultural robotic grasping and manipulation.\n",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0236",
+  "title": "A Formula-Driven Survey and Research Agenda for On-Policy Distillation",
+  "year": "2026",
+  "abstract": "On-policy distillation (OPD) trains an LLM on states induced by the current or recent student policy: the student generates complete or partial rollouts, a teacher or self-teacher scores the resulting tokens under their generated contexts, and dense log-probability, logit, or distributional signals are converted into post-training updates. This survey studies OPD as a feedback-to-update problem rather than a single loss family. We develop a formula-driven taxonomy from two routes -- direct distributional losses and policy-gradient-style log-ratio updates -- and use it to organize core methods, verifier- or outcome-guided hybrids, industrial reports, framework implementations, failure modes, and stabilization recipes under explicit evidence boundaries. The taxonomy shows that OPD effectiveness depends not only on KL direction or teacher access, but also on state compatibility, support construction, temporal credit, vocabulary-level probability routing, gates and weights, and regularization. We further separate two mechanisms often conflated in sampled-token OPD stability discussions. Temporal credit asks how teacher-student log-ratio returns should weight sampled actions across a rollout; vocabulary routing asks where probability mass should move when negative feedback suppresses a sampled token. This distinction yields bias boundaries for immediate, return-to-go, discounted, and baseline-corrected estimators, motivates GAE-OPD as a value-based hypothesis for log-ratio returns, and motivates Counterfactual Routed OPD (CR-OPD) for routing probability mass toward teacher-supported, student-reachable alternatives. We close by mapping actionability diagnostics, failure mechanisms, case studies, open problems, and a reporting checklist onto the same feedback-to-update variables.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0237",
+  "title": "BRIEF REVIEW PAPER ON SMART GLOVES FOR SPEECH IMPAIRED PEOPLE USING IOT AND EMBEDDED SYSTEM",
+  "year": "2023",
+  "abstract": "Speech is the easy and fastest way for communication in the world.It becomes difficult for speech impaired people to communicate with normal people as they use sign language for communication.When a speechimpaired person communicates with normal person, the bridge gap between speech impaired and normal masses is too much to fill.The gesture recognition can be done in two ways, Image processing based and sensor-based.The Objective of the project is to design a smart glove for sign language translation that helps an easy way of communication for speech impaired or hearing-impaired people.In this project, glove need to be equipped with sensors such as Flex sensor, Accelerometer, Touch sensor which sense different sign language gestures.Flex sensors are placed on fingers which measure the bending of fingers according to a gesture made.An accelerometer is placed on the palm which measures the location of the hand in X, Y, Z axes.Touch sensors are placed in between the fingers and measures if there is any contact between the fingers.The sensed data from sensors is sent to Arduino UNO board for further processing and transfer data to an android phone via bluetooth module.The data we get will be in the form of text.This text data is then converted into speech through Google text -speech converter.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0238",
+  "title": "Lightweight Ensemble Models for Emotion Analysis in E-Commerce User Reviews: Performance and Scalability *",
+  "year": "2024",
+  "abstract": "This paper investigates the integration of sentiment analysis into emotion classification models applied to user reviews, aiming to enhance predictive performance and accuracy. While existing deep learning models, such as BERT, have achieved state-of-the-art results in various NLP tasks, their computational requirements can render them impractical for real-time applications. To address this challenge, a hybrid approach is proposed that combines the VADER sentiment analysis tool with the lightweight DistilBERT transformer model for classifying emotional sentiments in textual data. Utilizing a comprehensive dataset of labeled reviews, the study rigorously trains and evaluates the model’s capabilities. Experimental results reveal that enabling sentiment analysis significantly improves model performance, achieving an accuracy of 98.50%, precision of 91.50%, recall of 92.00%, and F1 score of 91.75%. These findings highlight the importance of sentiment scores in providing essential contextual information, which facilitates better handling of ambiguous language and enhances overall classification effectiveness.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0239",
+  "title": "A Comprehensive Review of Llm Neural Network Enhancements for Advanced Driving Assistance Systems Through Quantization",
+  "year": "2025",
+  "abstract": "Deep learning models, particularly Large Language Models (LLMs), have shown high degrees of complexity in recent years and have, therefore, made effective quantization techniques necessary. These are very important for the efficient deployment of models into environments of limited resources in autonomous driving and Advanced Driver Assistance Systems (ADAS). Quantization is of paramount importance in the field of ADAS, as accuracy directly relates to safety. More importantly, quantization technique advances do allow the design of safety-critical features with higher accuracy in ADAS, such as the brand new Full Self-Driving technology developed by Tesla, whose processing speeds reach over 100 frames per second and with more than 85 % accuracy. This is a survey paper that covers the latest developments in this particular area of operator quantization, which are Gradient-based Post-Training Quantization (GPTQ), Generalized Gradient Update Framework (GGUF), and Adaptive Weight Quantization (AWQ). While memory could be reduced to a low level, performance is not affected at all. Yet, most of the time, it sacrifices the accuracy of the latest advances in quantization, like PTQ or QAT. We review a plethora of advanced quantization techniques to improve both the performance and efficiency of real-world deep learning models. The aim is to demonstrate the efficiency and effectiveness achieved when advanced methods of quantization are applied to improve deep learning models for real applications thereby offering insights into promising research opportunities.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0240",
+  "title": "A Comprehensive Review of Parkinson's Disease Recognition from EEG Using Attention-Based Sparse Graph Convolutional Neural Networks",
+  "year": "2024",
+  "abstract": "Parkinson’s Disease (PD) is a progressive neurodegenerative disorder characterized by motor and non-motor impairments, requiring early and accurate diagnosis for effective management. Electroencephalography (EEG) has emerged as a non-invasive and cost-effective tool for detecting neural abnormalities associated with PD. However, conventional machine learning approaches often fail to capture the complex spatial-temporal relationships in EEG signals. Recently, attention-based sparse graph convolutional neural networks (ASGCNNs) have demonstrated significant promise in improving classification performance by modeling functional brain connectivity and selectively emphasizing informative EEG channels. This review provides a comprehensive analysis of state-of-the-art methodologies (2020–2023) for PD recognition using EEG, focusing on attention mechanisms and graph-based deep learning architectures. It examines advances in feature extraction, graph construction strategies, and interpretability. Comparative analysis highlights that ASGCNN models outperform traditional CNN and RNN approaches by leveraging channel interdependencies and sparsity constraints. Furthermore, this study identifies key challenges such as dataset limitations, model generalization, and clinical applicability. Future directions include hybrid architectures integrating transformers, multi-domain feature fusion, and explainable AI. The findings suggest that attention-based GCN frameworks represent a transformative approach for accurate, scalable, and interpretable EEG-based PD diagnosis. \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

@@ -1,0 +1,442 @@
+[
+ {
+  "id": "F0321",
+  "title": "Artificial Intelligence Breakthroughs and Data Futures: A Retrospective and Prospective Review",
+  "year": "2026",
+  "abstract": "This paper presents a comprehensive synthesis of major breakthroughs in artificial intelligence (AI) over the past fifteen years, integrating historical, theoretical, and technological perspectives. It identifies key inflection points in AI’s evolution by tracing the convergence of computational resources, data access, and algorithmic innovation. The analysis highlights how researchers enabled GPU-based model training, triggered a data-centric shift with ImageNet, simplified architectures through the Transformer, and expanded modeling capabilities with the GPT series. Rather than treating these advances as isolated milestones, the paper frames them as indicators of deeper paradigm shifts. By applying concepts from statistical learning theory such as sample complexity and data efficiency, the paper explains how researchers translated breakthroughs into scalable solutions and why the field must now embrace data-centric approaches. In response to rising privacy concerns and tightening regulations, the paper evaluates emerging solutions like federated learning, privacy-enhancing technologies (PETs), and the data site paradigm, which reframe data access and security. In cases where real-world data remains inaccessible, the paper also assesses the utility and constraints of mock and synthetic data generation. By aligning technical insights with evolving data infrastructure, this study offers strategic guidance for future AI research and policy development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0322",
+  "title": "Recent Advances in Optimized Riemannian Residual Neural Networks: An Advanced Energy-Efficient Environmental Monitoring in Precision Agriculture using LoRa-based Wireless Sensor Networks: A Systematic Review",
+  "year": "2025",
+  "abstract": "Precision agriculture has emerged as a transformative approach to enhance crop productivity, resource utilization, and environmental sustainability. The integration of artificial intelligence, particularly deep learning models such as Riemannian residual neural networks, with Internet of Things (IoT)-enabled wireless sensor networks has significantly improved environmental monitoring systems. This study presents a systematic review of recent advances in optimized Riemannian residual neural networks combined with LoRa-based wireless sensor networks (WSNs) for energy-efficient environmental monitoring in precision agriculture. Recent studies highlight that LoRa-based WSNs provide long-range, low-power communication capabilities, making them ideal for large-scale agricultural monitoring systems. Additionally, the incorporation of optimized neural network architectures enhances predictive accuracy and data processing efficiency. Riemannian residual neural networks, in particular, enable learning over complex manifold-structured data, improving model performance in environmental sensing applications. Furthermore, IoT-based sensor networks facilitate real-time monitoring of parameters such as soil moisture, temperature, and nutrient levels, contributing to improved crop management and yield optimization. Despite these advancements, challenges such as energy consumption, network scalability, data heterogeneity, and model complexity persist. This review analyses current trends, identifies key challenges, and outlines future research directions for developing intelligent, energy-efficient precision agriculture systems. \n  \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0323",
+  "title": "A Comprehensive Survey of Lightweight Authentication Mechanisms for Vehicle Group Communication in 5G Networks",
+  "year": "2025",
+  "abstract": "High-speed and ultra-low latency communication enabled by 5G technology will change vehicular network programs which demand robust group authentication to protect V2X (vehicle-to-everything) communications against cyberattacks. This survey reviews state-of-the-art lightweight authentication protocols for 5G vehicular applications showing technology that stands out due to its security, scalability, and efficiency. ECC, chaotic maps and dynamic key management are some important techniques, but they can provide mutual authentication with low computational load. The survey compares these protocols based on speed, privacy, and resource usage to reveal two aspects: (1) challenges of each protocol for which no solutions exist together with the suitable whistle-blowing sponsors towards 5G vehicular networks, and (2) possible paths that may be considered as solutions for scalable secured group authentication.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0324",
+  "title": "A Review of Fingerprint-Based LoRa Indoor Localization Techniques",
+  "year": "2024",
+  "abstract": "With the rapid development of IoT based on LoRa technology, the demand for LoRa-based indoor positioning has increased. This paper provides an overview of existing LoRa-based indoor fingerprint localization techniques. We first introduce the current status and principles of LoRa indoor positioning. Then we highlight the general process and key technologies of the fingerprint-based LoRa localization methods, including finger-print data acquisition, preprocessing, and localization algorithms. Through comprehensive analysis of LoRa indoor fingerprint localization technology, this paper aims to provide insights for researchers and promote further development and practical applications of LoRa technology.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0325",
+  "title": "Computer-Assisted Web-Based Personal Interview Survey for Capturing Urban Mobility: A Contextual Approach in Resource-Constrained Settings",
+  "year": "2026",
+  "abstract": "\n This study demonstrates the operational deployment and feasibility of a computer-assisted web-based personal interview (CAWPI) approach in a resource-constrained urban setting. Piloted in Chattogram, Bangladesh, the method hybridizes face-to-face interviewing with a low-cost web platform under a bring-your-own-device (BYOD) strategy. It shows how such tools can be pragmatically adapted where pure computer-assisted web interviewing (CAWI) or an agency-provided device computer-assisted personal interviewing (CAPI) is infeasible. Data were collected from 550 households across 33 administrative wards, capturing household demographics, vehicle ownership, and daily travel behavior. The survey recorded travel history from 2,104 individuals, covering 3,884 trips. The CAWPI platform was optimized for low-bandwidth settings and integrated open-source tools, such as OpenStreetMap, for embedding geolocation during the survey data collection. Enumerators received training and real-time support throughout the survey. The effort achieved a 96% completion rate, with strong data quality reflected in consistent and logical trip timing, mode use, and activity patterns. The data were validated against nationally representative surveys. Challenges included limited geospatial search, occasional connectivity issues, and human input errors. The study identified best practices, including localized enumerator deployment, flexible data entry workflows, and continuous technical support. Findings suggest CAWPI has the potential to generate demographically representative and behaviorally coherent mobility data while remaining operationally feasible in resource-constrained settings. The approach is demonstrated as a contextually viable implementation for urban travel surveys in settings where structured data collection efforts are infrequent, particularly in the Global South, with future potential for offline capabilities and speech-to-text integration.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0326",
+  "title": "A Survey on Hardware Accelerator Design of Deep Learning for Edge Devices",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0327",
+  "title": "World Journal on Educational Technology: Current Issues",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0328",
+  "title": "Survey of LoRa Technology in Agriculture IoT",
+  "year": "2020",
+  "abstract": "Wireless signals have proved to be vital part in the field of Internet of Things (IoT).Various smart applications can be developed using wireless sensors and equipment for making the systems remotely accessible.Mobile signals, data transmission application and specific wireless protocol are playing important role in IoT applications.Wireless technology helps us for Smart home automation, Industrial Automation, Automobile automation, Smart Agriculture etc.In smart agriculture systems, various field sensors such as soil sensor, moisture sensor, sprinkler system, temperature sensors etc are implanted throughout large field area.In such cases the wireless sensors and data transmission plays vital role in saving time and energy, monitoring the large area without physical contact.Various processors can be used to detect, analyse and process this sensor data.However, it is necessity of the time to get reliable, low cost and effective communication network.In remote or rural areas, for effective communication proper wireless protocol is basic requirement.At present Bluetooth, ZigBee, RFID, Wi-Fi, LoRaWAN and many more application specific wireless protocol are available in the market.The survey of latest wireless communication technology that can be used with IoT i.e.Features of LoRa technology and comparative study of similar wireless technology has been proposed in this paper.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0329",
+  "title": "AIx4Soccer: A Unified Platform Architecture for Football Club Management and Structured Athlete Development",
+  "year": "2026",
+  "abstract": "Football clubs, academies, and federations operate a growing but fragmented portfolio of digital tools: separate systems for video analysis, GPS/performance tracking, medical records, scouting, and administration. This fragmentation is most acute outside the elite European clubs that can afford integration, producing a digital divide that disadvantages grassroots clubs in developing markets such as Brazil, paradoxically the world's largest exporter of professional players. This paper presents, at a conceptual level, the architecture of\"AIx4Soccer One Platform,\"a multi-tenant cloud SaaS operating system that unifies club-management workflows and embeds a structured athlete-development methodology, the PDI Framework (Plano de Desenvolvimento Individual / Individual Development Plan). We describe two companion components:\"Tak Tik,\"a certified two-sided marketplace connecting clubs with video analysts under a 75%/25% (analyst/platform) revenue split, and the PDI/TBIL methodology, which links development plans to video evidence and periodic review. As Materials and Methods, we state explicit requirements and give a formal, implementation-independent specification of the platform's proposed future substrate: an event-centric semantic data model in which every fact is a typed, immutable event in an append-only log that induces a growing knowledge graph. We situate the design against the literature on athlete-development frameworks, sports-analytics workflows, two-sided-market economics, and multi-tenant SaaS patterns, and discuss youth data-protection obligations (Brazil's LGPD and 2025 Digital ECA; the EU GDPR), algorithmic-fairness risks in talent evaluation, and why small, domain-specific models, rather than frontier LLMs, are the appropriate intelligence layer. This is a design and early-deployment paper, not an empirical evaluation, making no efficacy claims.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0330",
+  "title": "A Review of Real-Time Single Image Dehazing Architectures for Embedded Vision Under Adverse Weather Conditions",
+  "year": "2026",
+  "abstract": "Single image dehazing plays a pivotal role in enhancing visual quality for computer vision systems operating in outdoor or adverse weather conditions. Applications such as autonomous driving, aerial surveillance, smart monitoring, and environmental analysis rely heavily on clear visibility. Haze, caused by atmospheric light scattering, degrades image contrast, sharpness, and color fidelity, significantly impacting the performance of downstream tasks. This review presents a comprehensive overview of single image dehazing techniques developed over the past decade, bridging prior-based physical-model-based methods with recent learning-based approaches. Prior-based dehazing methods, such as the Dark Channel Prior (DCP), Color Attenuation Prior (CAP), and Retinex theory, are classified as domain-based techniques. These approaches leverage handcrafted assumptions to estimate scene transmission and atmospheric light, offering computational efficiency but often struggling with dense or non-uniform haze scenarios. In contrast, learning-based methods including convolutional encoder-decoder architectures, multi-scale feature fusion, generative adversarial networks (GANs), and emerging transformer-based model’s achieve superior performance by learning haze-relevant representations directly from data. These models generalize well across synthetic and real-world domains and support end-to-end optimization. We evaluate these methods on standard datasets, using metrics like PSNR and SSIM to assess pixel fidelity and perceptual quality. Furthermore, we analyze the impact of various loss functions on training dynamics and restoration outcomes. A particular emphasis is placed on real-time, hardware-friendly dehazing models for edge deployment, considering power, latency, and memory constraints. Finally, we highlight ongoing challenges including generalization to unseen haze conditions, color distortion, limited real-world data, and training complexity. Future directions include transformer efficiency, unsupervised and semi-supervised learning, multimodal fusion, lightweight network design, and domain adaptation. This review serves as a timely resource for advancing robust and deployable dehazing solutions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0331",
+  "title": "Lightweight AI for Drones: A Survey",
+  "year": "2025",
+  "abstract": "This paper explores the transformative potential of Lightweight AI techniques in enhancing the capabilities of Unmanned Aerial Vehicles (UAVs). As the demand for real-time processing and efficient data management grows, traditional AI models face significant limitations due to their high computational and resource requirements. We discuss key Lightweight AI techniques, including Tiny Machine Learning (TinyML), model compression methods, edge computing, transfer learning, and federated learning, which collectively enable more efficient UAV operations. The paper further examines various applications of Lightweight AI in drones, highlighting its role in pandemic response, object detection, vegetation segmentation, forest-fire detection, real-time path planning, and autonomous landing. Each application demonstrates how lightweight models can improve decision-making and operational efficiency in dynamic environments. We also address the challenges faced in implementing these technologies, such as resource constraints and the need for robust real-time processing. Finally, we outline future directions for research and development in Lightweight AI, emphasizing the necessity for continued innovation to fully leverage UAV potential across diverse sectors. This comprehensive analysis underscores the critical role of Lightweight AI in advancing UAV technology and enhancing their functionalities in various practical applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0332",
+  "title": "Web App for Detecting AI Text Using NLP Techniques",
+  "year": "2026",
+  "abstract": "The rapid growth of large language models has increased the presence of AI-generated text across social media,\nmaking it increasingly challenging to distinguish automated content from human contributions. This raises concerns regarding\nmisinformation, artificial engagement, and the overall integrity of online discussions, creating a need for dependable detection\nmechanisms. In response, this project develops a web-based system that determines whether a given text sample originates from\na human user or an AI model. The development process is organized into multiple stages, beginning with the cleaning and\npreprocessing of social media text using Natural Language Processing methods, including contextual filtering and sentimentaware analysis. Classification is carried out using transformer-based models such as BERT, and additional hybrid\nconfigurations with LSTM or CNN layers are explored to capture deeper linguistic and sequential features. To support largescale and multilingual usage, the system is backed by a scalable architecture capable of real-time processing. An interactive\ninterface is provided to allow users to review predictions, observe analytical trends, and navigate the system efficiently. The\ninclusion of Explainable AI tools further clarifies model behaviour by highlighting the textual elements that influence each\ndecision.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0333",
+  "title": "Review for \"Fermentation process quality prediction using teacher student stacked sparse recurrent autoencoder\"",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0334",
+  "title": "Review of Online Teacher-Student Interaction",
+  "year": "2025",
+  "abstract": "This paper presents a multifaceted review of online teacher-student interaction, from the perspectives of historical, empirical, and theoretical aspects. Historically, it traces the evolution of discourse analysis, with a specific focus on teachers' discourse analysis in the realm of online teaching. By examining past studies, it uncovers recent challenges such as issues in communication flow and students’ engagement in teaching activities. It also identifies literature gaps, like the lack of long-term impact studies. Empirically, it goes through all the key variables like student participation, course type, students’ interaction competence, teacher feedback styles, and so on. The dimensions of the research, such as the influence of different platforms, are also explored. A detailed table showcases the matrix and meta-analysis of relevant literature, enabling a systematic overview of the empirical findings. Flanders Interaction Analysis Categories System (FIACS), as one of the key theories used in the analysis of interaction mode, has been reviewed from the historical approach, which will lay the theoretical foundation for studies of online teacher-student interaction.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0335",
+  "title": "Machine learning-assisted design of lightweight refractory high-entropy alloys: a comprehensive review",
+  "year": "2026",
+  "abstract": "Lightweight refractory high-entropy alloys (LRHEAs) represent an emerging class of structural materials that integrate low density with exceptional strength and outstanding high-temperature stability, positioning them as promising candidates for aerospace and advanced industrial applications. Nevertheless, the design of LRHEAs is challenged by their vast compositional space, complex multi-objective performance trade-offs, and the inefficiency of conventional trial-and-error experimental approaches. In recent years, machine learning (ML) has emerged as a transformative tool in this domain, offering the capacity to analyze high-dimensional datasets and uncover hidden correlations between composition, processing, microstructure, and properties. This review systematically examines both conventional design strategies—including empirical parameters, phase diagram calculations, and first-principles simulations—and the emerging ML-aided design framework, with a focus on bridging traditional knowledge and data-driven methodologies. We critically survey recent advances in ML applications across three key areas: compositional optimization, mechanistic interpretation, and atomic-scale simulation. Target-driven ML models facilitate efficient navigation of the alloy design space, while interpretable algorithms integrated with atomic simulations provide fundamental insights into strengthening and toughening mechanisms. The review concludes by summarizing current achievements and identifying persistent challenges related to data scarcity, model transferability, and physical interpretability. Looking forward, we envision that a deeper integration of high-throughput experiments, multi-scale simulations, and artificial intelligence will establish a robust, systematic, and accelerated design paradigm for next-generation LRHEAs. • Systematic overview of conventional and machine learning–assisted design strategies for LRHEAs. • Critical assessment of ML-enabled advances in composition optimization, mechanistic insights, and atomic-scale simulations for LRHEAs. • Perspectives on integrated high-throughput, multiscale, and AI-driven design of LRHEAs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0336",
+  "title": "Recent Advances in Automatic Cervical Cancer Detection and Segmentation Using Sparsity-Aware Orthogonal Initialization in Deep Neural Network Classifiers: A Systematic Review",
+  "year": "2024",
+  "abstract": "Cervical cancer remains a major cause of cancer-related mortality among women worldwide, particularly in low- and middle-income countries where access to early diagnostic facilities is limited. Early detection through screening methods such as Pap smear, HPV testing, and colposcopy is crucial for reducing mortality rates; however, manual examination of cervical cell images is often time-consuming, subjective, and prone to human error. In recent years, deep learning-based approaches have significantly enhanced the automation of cervical cancer detection and segmentation tasks. Convolutional neural networks (CNNs) have demonstrated strong performance in identifying abnormal cellular patterns, while advanced segmentation models such as U-Net and nnU-Net enable precise delineation of tumor regions with high accuracy. A notable advancement in this area is sparsity-aware orthogonal initialization (SAOI), which improves training efficiency and convergence by enabling sparse yet effective neural architectures, thereby reducing computational complexity without compromising performance. This review examines recent advancements in deep learning architectures, segmentation techniques, and optimization strategies, highlighting key trends, challenges, and future directions such as explainable AI, multimodal data integration, and improved clinical validation for real-world applicability.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0337",
+  "title": "Hierarchy-Aware Global Model for Hierarchical Text Classification",
+  "year": "2020",
+  "abstract": "Hierarchical text classification is an essential yet challenging subtask of multi-label text classification with a taxonomic hierarchy. Existing methods have difficulties in modeling the hierarchical label structure in a global view. Furthermore, they cannot make full use of the mutual interactions between the text feature space and the label space. In this paper, we formulate the hierarchy as a directed graph and introduce hierarchy-aware structure encoders for modeling label dependencies. Based on the hierarchy encoder, we propose a novel end-to-end hierarchy-aware global model (HiAGM) with two variants. A multi-label attention variant (HiAGM-LA) learns hierarchy-aware label embeddings through the hierarchy encoder and conducts inductive fusion of label-aware text features. A text feature propagation model (HiAGM-TP) is proposed as the deductive variant that directly feeds text features into hierarchy encoders. Compared with previous works, both HiAGM-LA and HiAGM-TP achieve significant and consistent improvements on three benchmark datasets.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0338",
+  "title": "How Much Do Reviews Really Contribute? A Study on Text-Enriched Matrix Factorization for Recommendations",
+  "year": "2026",
+  "abstract": "Incorporating textual reviews into a Recommender System has become a prominent strategy for enriching collaborative signals with semantic information. However, the actual contribution of review-derived representations remains an open question, particularly when strong collaborative baselines are employed. In this work, we systematically investigate the impact of textual information on Matrix Factorization by introducing and comparing three enrichment strategies over a common collaborative backbone. First, we propose a learnable gating mechanism that adaptively balances collaborative and textual signals during training. This mechanism is applied to two distinct review representations: (i) aggregated topic profiles extracted from user and item histories, and (ii) full text embedding representations derived from reviews. Additionally, we explore a cross-attention mechanism that identifies and emphasizes the most informative dimensions of the textual representation before fusion with collaborative factors. We evaluate six variants: pure, enriched with topic profiles and text via gating; enriched with topics and text via gating; and enhanced with cross-attention over textual features. Experiments across multiple review-based datasets reveal that although adaptive fusion mechanisms improve representation flexibility, the marginal contribution of textual signals remains limited compared to the collaborative backbone. These findings suggest that, under typical rating-prediction settings, collaborative information continues to dominate performance, raising important considerations for the effective integration of semantic review signals into recommendation models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0339",
+  "title": "Embedded and Surface-Mounted Fiber Bragg Grating as a Multiparameter Sensor in Fiber-Reinforced Polymer Composite Materials: A Review",
+  "year": "2023",
+  "abstract": "Fiber-reinforced plastic (FRP) composites are utilized extensively in various high-end industries. Therefore, developing a proper sensing and monitoring system is crucial to monitor the production and post-production in-service structural behaviors of composite materials. This paper provides a comprehensive literature review focusing on Fiber Bragg Grating (FBG) as a multiparameter sensor in FRP composite materials. The review is mainly divided into two main themes, namely, embedded FBGs and surface-attached FBGs, followed by further sub-themes according to the application of the FBGs. Contemporary issues regarding FBGs as sensors in composite materials are also discussed. Subsequently, a comparative analysis between the embedded and surface-attached techniques from various perspectives is presented before further recommendation for the ideal embedding conditions and techniques is provided. This review is summarized with a projected view on the future of FBGs as a sensor, generally, and in composite laminates, specifically.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0340",
+  "title": "WALTZ – A PLATFROM FOR TANGO CONTROLS WEB APPLICATIONS",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0341",
+  "title": "Review for \"Neural network identification of water pipe blockage from smart embedded passive acoustic measurements\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0342",
+  "title": "A review and analysis of secure and lightweight ECC‐based RFID authentication protocol for Internet of Vehicles",
+  "year": "2021",
+  "abstract": "Radio‐frequency identification (RFID) technology has proliferated over the last few years and being deployed as identification technology in numerous domains like intelligent transportation systems (ITS) and Internet of Vehicles (IoV) for applications like road safety, efficient traffic management, automatic toll collection, intelligent parking, etc. As RFID devices, as well as the possible domains of ITS and IoV onto which the RFID technology can be deployed, are usually resource‐constrained, thus, security and privacy become a major concern. So, public‐key cryptography becomes the better choice for enhancing the security of RFID based systems. Elliptic curve cryptography (ECC) is one of the dominant and secure asymmetric‐key cryptosystems being used for RFID security due to its smaller key size. Numerous RFID authentication schemes based on ECC have been suggested in literature, however, the majority has various serious security weaknesses. To bridge those existing security weaknesses, an enhanced ECC based light weight protocol for RFID systems has been proposed in this article. An extensive security analysis has been performed to demonstrate various secure features offered by our proposed protocol, and formal security analysis is being conducted using Automated Validation of Internet Security Protocols and Applications tool. The performance of our proposed RFID protocol has been compared with various existing RFID based security solutions on the basis of parameters, that is, computational cost, communication cost, and storage requirement. Simulation results indicate that the proposed lightweight protocol is more secure and performance efficient than the existing RFID protocols, and is well suited for practical applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0343",
+  "title": "Real-Time Urban Traffic Perception for Resource-Constrained Embedded Vision: A Review",
+  "year": "2025",
+  "abstract": "Urban mobility is essential to the economic and social vitality of cities, but congestion, pollution, and security issues continue to plague urban transport systems. Conventional traffic sensing and control techniques cannot provide timely and scalable awareness at a large scale in complex urban environments, so the development of intelligence data-driven solutions is justifiable. Recent years have witnessed great strides in deep learning-based vision for tasks such as detection, segmentation, and multi-object tracking in urban areas, but deploying such models on omnipresent but resource-constrained edge hardware is a significant bottleneck. This review highlights the potential of embedded vision and lightweight deep learning for real-time traffic understanding in ITS. It surveys model compression, pruning, and compact architectures, and edge-optimised inferences, all of which, combined with edge–cloud collaborations that consider accuracy, latency, and energy tradeoff, render the model inferencing feasible at the edge. The survey also addresses practical evaluation criteria, challenges including robustness, data drift, worst case latency, safety, as well as maintainability. Finally, it outlines a set of future trends-adaptive inference, smart offloading, hardware-aware design, and standardised benchmarks pave the way for scalable, reliable, and green ITS deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0344",
+  "title": "Matrix Factorization: An Introduction to Traditional Methods and a Review of Recent Application Research",
+  "year": "2025",
+  "abstract": "Matrix decomposition, as a core mathematical tool for low-rank representation and latent feature extraction in high-dimensional data, has evolved in recent years from the realm of classical numeri-cal linear algebra to become a key component of intelligent computing engines. This paper systemat-ically reviews the mathematical mechanisms, stability conditions, and algorithmic complexity of three major classical methods: LU, Cholesky, and SVD. It identifies theoretical bottlenecks within the traditional framework concerning interpretability, computational efficiency, and complex pattern characterization. Subsequently, it focuses on three interdisciplinary scenarios—hyperspectral remote sensing, lncRNA–disease association prediction, and ground-penetrating radar clutter suppres-sion—to dissect recent advancements and failure mechanisms in non-negative matrix factorization, low-rank sparse modelling, and tensor regularization strategies. Furthermore, it proposes a synergis-tic optimization pathway integrating domain knowledge, regularization constraints, and stochastic algorithms. This demonstrates the feasibility of embedding physical equations, biological priors, and deep learning nonlinear representations into a unified loss function, enabling a paradigm shift from static data analysis to dynamic system intervention. Finally, we envision personalized computational models for millisecond-scale closed-loop neural modulation, providing an extensible methodological framework for deep applications of matrix decomposition in precision medicine and real-time engi-neering systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0345",
+  "title": "Internet of things: review, architecture and applications",
+  "year": "2022",
+  "abstract": "Devices linked to the internet of things (IoT) may communicate with one another in several settings. Furthermore, rather of relying on an existing centralized system, users may develop their own network by using wireless capabilities. This kind of network is known as a wireless mobile ad hoc network. The mobile ad-hoc network (MANET) enables IoT devices to connect with one another in an unstructured networked environment. IoT devices may connect, establish linkages, and share data on a continuous basis. In this system, the cloud's purpose is to store and analyze data acquired from IoT devices. One of the most significant challenges in cloud computing has been identified as information security, and its resolution will result in an even bigger increase in cloud computing usage and popularity in the future. Finally, the goal of this project is to create a framework for facilitating communication between IoT devices in a Cloud and MANET context. Our major contribution is a ground-breaking research initiative that combines cloud computing with the MANET and connects the internet of things. This research might be used to the IoT in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0346",
+  "title": "Overview of Embedded Systems to Build Reliable and Safe ADAS and AD Systems",
+  "year": "2020",
+  "abstract": "Automotive industry is a key sector in developed countries, taking advantage from Electronic and Semiconductor industries, for which this work is focused on, including an overview of embedded systems and related technologies for Advanced Driver Assistance Systems (ADAS) development, end user applications and their implementation (SoCs, Application Processors-APs, MCUs, software and boards), manufacturers solutions, architectures, trends and other aspects (like methodologies) to improve functional safety, reliability and performances. The current status to permit the transition from ADAS to Autonomous Driving (AD) systems and Self-Driving Cars (SDC) is also explored.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0347",
+  "title": "LENS: label sparsity-tolerant adversarial learning on spatial deceptive reviews",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0348",
+  "title": "Battery health state prediction based on lightweight neural networks: A review",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0349",
+  "title": "Optimization of Execution for Machine Learning Applications in the Computing Continuum",
+  "year": "2022",
+  "abstract": "Today, adoption of Machine Learning (ML) techniques is widespread and is encountered in almost every aspect of our everyday lives. The plethora of IoT devices and the enormous amounts of data that are being generated has led to the evolution of existing and the development of new learning algorithms that aim in leveraging data for driving accurate inference and automated decision-making. In parallel, with the computing continuum paradigm, where heterogeneous and distributed resources are stretching all the way from Cloud to Edge and IoT devices, it is imperative that ML applications reap the performance and efficiency benefits of heterogeneity. However, ML application developers and data scientists are faced with the burden of manually deploying their applications in a manner that is frequently sub-optimal.In this paper, we design and implement an integrated MLOps framework that, initially, enables developers to decompose an ML workflow into its functional steps, which correspond to distinct stages of the development and execution of an ML model. Our developed scheduler is therefore able to efficiently schedule these individual components by considering their specific requirements for computing capacity during the training stage, and for low network latency during data ingestion and model serving. The proposed MLOps framework is evaluated with a proof-of-concept experimentation conducted in a realistic testbed environment. Results show significant benefits in performance, when compared with scheduling the whole ML workflow.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0350",
+  "title": "Uncovering fake reviews through graph-embedded hierarchical attention networks",
+  "year": "2026",
+  "abstract": "User-generated reviews strongly influence consumer decisions and product strategies on e-commerce platforms; however, fake reviews significantly undermine their credibility. Existing fake review detection (FRD) approaches struggle with limited context and sparse features, thus restricting their ability to capture deeper linguistic and relational patterns. Consequently, this paper proposes a multi-component hierarchical neural architecture, GEmHAttenFake, that integrates Graph Convolutional Networks (GCNs) embedded representation with a Hierarchical Attention Network (HAN) to model both the linguistic and relational dependencies within reviews for FRD. At the word and sentence levels, a Bi-LSTM encoder coupled with a graph-based representation captures syntactic and contextual relationships among words, aspects, and sentiment, which helps detect unnatural and fabricated patterns in fake reviews. Experiments on benchmark Amazon review datasets show that the proposed GCN-HAN with verified purchase achieves 85.35% accuracy and 84.55% F1-score. GEmHAttenFake outperforms non-GCN-HAN with identical dependency features by + 4.59% accuracy and + 3.23% F1-score. It also surpasses the GCN-HAN variant without verified purchase by + 9.32% accuracy and + 5.97% F1-score. These results demonstrate the effectiveness of combining relational modeling with verified purchase signals while improving prediction interpretability. Additional assessment on the OPSpam dataset further validates the effectiveness of the proposed model.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0351",
+  "title": "Image Transmission via LoRa Networks – A Survey",
+  "year": "2020",
+  "abstract": "Long Range (Lora) technology is assumed to be the subsequent of the wireless communication for the Internet of Things (IoT). Although LoRa provides emulative characteristics, such as a wider cover range, lower expenditure and decreased energy consumption, the usable narrow bandwidth for physical layer modulation in LoRa makes it inapplicable for high bit rate data transmission from devices like visual sensors. Nevertheless, because data from images are larger than those that origin from sensors, one of the main problems of visual IoT is the efficiency of image transmission in networks where bandwidth is narrow. This paper, aims at reviewing the available methods applied to transfer images via LoRa infrastructure, for the first time in the literature. The limitations of each method are pointed out and the challenges that need to be handled in the future are also defined towards establishing a reliable image transfer over a LoRa network.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0352",
+  "title": "Research on Opinion Targets Extraction of Travel Reviews Based on RoBERTa Embedded BILSTM-CRF Model",
+  "year": "2021",
+  "abstract": "Tourism is a form of cultural expression. The key step of fine-grained sentiment analysis of travel review evaluation text is opinion targets extraction. It aims to analyze travel review text and extract the opinion targets contained in it, and targets extraction’s accuracy rate directly affects the accuracy rate of sentiment analysis. Due to the outstanding performance of pre-training language models in the field of natural language processing in recent years, in order to improve the accuracy of opinion targets extraction, we propose a RoBERTa pre-training language model and Chinese pre-training word embedding vector, combined with BiLSTM (bidirectional long short-term memory) and CRF (conditional random field) opinion targets extraction model. The experimental results on the travel review data set of the Mafengwo travel software show that the extraction effect of this model is improved to varying degrees compared with other existing opinion targets extraction models based on deep learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0353",
+  "title": "Hybrid homomorphic‐asymmetric lightweight cryptosystem for securing smart devices: A review",
+  "year": "2023",
+  "abstract": "The Internet of Things (IoT) has emerged as a new concept in information and communication technology, and its structure depends on smart device communications. It was evolving as a significant factor of the Internet and made the interconnection of huge devices likely, accumulating huge amounts of information through innovative technologies. Thus, the requirement for IoT security is more significant. Scalable services and applications are susceptible to information leakage and attacks, demanding higher privacy and security. Cryptography is a technique to secure data integrity, confidentiality, authentication, and network access control. Owing to several limitations of IoT devices, the classical cryptographic protocols are not appropriate for all IoT smart devices like smart cities, smart homes and so forth. Consequently, researchers have introduced numerous lightweight cryptographic (LWC) protocols and algorithms for IoT security. Numerous solutions are available in the research field regarding security using cryptographic algorithms in IoT environments; however, such solutions have not attained satisfactory outcomes. So, finding a solution by examining the recent issues is open research. This article investigates the various LWC protocols for IoT devices and provides a reasonable enquiry into existing ubiquitous ciphers. Furthermore, the article appraises various recently presented lightweight (LW) block ciphers and hybrid homomorphic LWC regarding security. In addition, this article assists in comprehending the significance of security features and progression in cryptographic algorithms. Finally, the article reports on the necessary changes and recommends upcoming research focuses. Also, this article assists in realizing the importance of security and progressions in cryptographic algorithms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0354",
+  "title": "The Study of Building Information Model Server Focusing on IFC‐to‐RDB Conversion",
+  "year": "2026",
+  "abstract": "Different Industry Foundation Classes (IFC)‐to‐relational mapping strategies may result in substantially different database structures and performance characteristics. However, systematic comparisons remain limited because existing studies often employ different implementation methods and evaluation conditions. To address this issue, this study developed a framework for automatically generating relational database (RDB) schemas from IFC schema definitions according to different mapping strategies and evaluating their performance under identical conditions. Three representative mapping strategies were implemented and evaluated using the BUCKY benchmark and three IFC datasets of increasing size and complexity. The results show that relational schema design has a significant impact on both database generation efficiency and query performance. Among the evaluated approaches, the inheritance‐materialization strategy achieved the highest performance, while the normalized inheritance strategy provided a better balance between performance, semantic preservation, and data consistency. The proposed framework provides a reproducible methodology for evaluating IFC database architectures and building information model (BIM) server implementations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0355",
+  "title": "An Application-oriented Review of Standard and Integral Sparse Identification of Nonlinear Dynamics",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0356",
+  "title": "Revolutionary of secure lightweight energy efficient routing protocol for internet of medical things: a review",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0357",
+  "title": "Knowledge Distillation A Review of Methods and Applications in LiDAR Data",
+  "year": "2025",
+  "abstract": "International Journal of Computer Sciences and Engineering (A UGC Approved and indexed with DOI, ICI and Approved, DPI Digital Library) is one of the leading and growing open access, peer-reviewed, monthly, and scientific research journal for scientists, engineers, research scholars, and academicians, which gains a foothold in Asia and opens to the world, aims to publish original, theoretical and practical advances in Computer Science,Information Technology, Engineering (Software, Mechanical, Civil, Electronics & Electrical), and all interdisciplinary streams of Computing Sciences. It intends to disseminate original, scientific, theoretical or applied research in the field of Computer Sciences and allied fields. It provides a platform for publishing results and research with a strong empirical component. It aims to bridge the significant gap between research and practice by promoting the publication of original, novel, industry-relevant research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0358",
+  "title": "Tensor decomposition of transportation temporal and spatial big data: A brief review",
+  "year": "2024",
+  "abstract": "Recent development in sensing and communication technologies has made the collection of a large amount of traffic data easy and transportation engineering has entered the big data era. The massive traffic data provides some good opportunities for Intelligent Transportation System (ITS), while some great challenges because of its characteristics of large value, variety, velocity, veracity, and volume. In recent few years, tensor decomposition has played an important role in traffic data analytic solutions and attached great interest from both academic and industrial areas. In this paper, the preliminary background and the implementation of tensor decomposition are presented. Then, some recent studies of tensor decomposition for traffic data imputation, traffic state prediction, and analysis of travel pattern are reviewed. Furthermore, advantages and disadvantages are discussed. Finally, remaining challenges of the application of tensor decomposition in transportation engineering are pointed out.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0359",
+  "title": "Peer Review #1 of \"Performance analysis of lightweight CNN models to segment infectious lung tissues of COVID-19 cases from tomographic images (v0.1)\"",
+  "year": "2021",
+  "abstract": "The pandemic of Coronavirus has spread around the world causing an existential health crisis.Automated detection of COVID-19 infections in the lungs from Computed Tomography (CT) images offers huge potential in tackling the problem of slow detection and augments the conventional diagnostic procedures.However, segmenting COVID-19 from CT Scans is problematic, due to high variations in the types of infections and low contrast between healthy and infected tissues.While segmenting Lung CT Scans for COVID-19, fast and accurate results are required and furthermore, due to the pandemic, most of the research community has opted for various cloud based servers such as Google Colabs etc to develop their algorithms.High accuracy can be achieved using Deep Networks but the prediction time would vary as the resources are shared amongst many thus requiring the need to compare different lightweight segmentation model.To address this issue, we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN).The images in our dataset are preprocessed where the motion artifacts are removed.The four networks are UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet.Trained on our dataset of more than 3000 images, HR Net was found to be the best performing network achieving an accuracy of 96.24% and a Dice score of 0.9127.The analysis shows that lightweight CNN models perform better than other neural net models when to segment infectious tissue due to COVID-19 from CT slices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0360",
+  "title": "Small models, big impact: A review on the power of lightweight Federated Learning",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ }
+]

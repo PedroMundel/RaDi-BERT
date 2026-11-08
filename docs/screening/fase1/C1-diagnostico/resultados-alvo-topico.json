@@ -1,0 +1,48 @@
+{
+ "n_pos_T": 328,
+ "composicao": {
+  "relevante": 55,
+  "dúvida": 157,
+  "não é survey da área": 116
+ },
+ "LR_alvo_T": {
+  "K95_media": 0.806,
+  "K95_dp": 0.035,
+  "K90_media": 0.702,
+  "AP": 0.806,
+  "rec@10%": 0.189,
+  "rec@25%": 0.439
+ },
+ "kNN_alvo_T": {
+  "K95_media": 0.772,
+  "K95_dp": 0.019,
+  "K90_media": 0.717,
+  "AP": 0.748,
+  "rec@10%": 0.172,
+  "rec@25%": 0.415
+ },
+ "aleatória_alvo_T": {
+  "K95_media": 0.967,
+  "K95_dp": 0.008,
+  "K90_media": 0.92,
+  "AP": 0.521,
+  "rec@10%": 0.109,
+  "rec@25%": 0.271
+ },
+ "referência_LR_alvo_P1": {
+  "K95_media": 0.674,
+  "K95_dp": 0.05,
+  "K90_media": 0.648,
+  "AP": 0.499,
+  "rec@10%": 0.414,
+  "rec@25%": 0.717
+ },
+ "referência_LR_alvo_P2": {
+  "K95_media": 0.709,
+  "K95_dp": 0.056,
+  "K90_media": 0.54,
+  "AP": 0.625,
+  "rec@10%": 0.347,
+  "rec@25%": 0.663
+ }
+}

@@ -1,0 +1,426 @@
+[
+ {
+  "id": "F0361",
+  "title": "A multi agent classical Chinese translation method based on large language models",
+  "year": "2025",
+  "abstract": "Classical Chinese translation presents significant challenges: manual methods suffer from high costs and inconsistent quality, while both traditional machine translation and approaches relying solely on Large Language Models often fail to adequately capture intricate semantic nuances and cultural specificities. To overcome these limitations, this study proposes an LLM-driven multi-agent framework that decomposes translation into word-level interpretation, paragraph-level generation, and multi-dimensional review, integrating a specialized Key Word Interpretation Database, Retrieval-Augmented Generation, and iterative feedback. Experiments on The Records of the Grand Historian of China: The Hereditary Houses and the Biographies, Volume 7–10 show average improvements of 18.8–25.7% in BLEURT, BLEU-1, and METEOR over single-model baselines, with \\documentclass[12pt]{minimal} \\usepackage{amsmath} \\usepackage{wasysym} \\usepackage{amsfonts} \\usepackage{amssymb} \\usepackage{amsbsy} \\usepackage{mathrsfs} \\usepackage{upgreek} \\setlength{\\oddsidemargin}{-69pt} \\begin{document}$$\\sim$$\\end{document} 12.7% reduction in score variance, indicating enhanced stability. Human evaluation confirms gains in fluency, adequacy, and cultural fidelity, particularly for weaker baselines. Ablation results reveal the indispensable roles of contextual coherence review, grammatical validation, and keyword interpretation, while efficiency analysis shows that compared with the framework without useful agents, the running time of the proposed method increases by 3.21 times, with the main contributing factor being the introduction of keyword interpretation. The framework excels in resolving polysemy, preserving cultural allusions, and improving semantic coherence. Beyond Classical Chinese, it offers a transferable blueprint for other historical or low-resource languages, supporting high-fidelity cultural heritage translation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0362",
+  "title": "Long Range (LoRa) Agriculture Network in Northern New York: A Scoping Review",
+  "year": "2025",
+  "abstract": "The integration of IoT technologies into smart agriculture is driving significant improvements in farm productivity and sustainability. A key enabler of this trend is the emergence of Low-Power Wide-Area Networks (LPWANs), which offer long-range, energyefficient wireless communication for field-deployed sensors and devices. LoRa (Long Range) technology and the LoRaWAN protocol have gained prominence as costeffective solutions for connecting farms spread over large, rural areas. This paper presents a scoping review of LoRa-based networks in agricultural applications, with a focus on assessing their suitability for the environmental conditions of Northern New York (NNY). We review recent literature and case studies where LoRaWAN has been applied to agricultural monitoring and control including soil/climate sensing, crop management, and livestock tracking - and highlight the advantages (e.g., multikilometer range, multi-year battery life) that make LoRa attractive for farms. We also examine the challenges of deploying LoRa in NNY's cold climate and harsh winters, discussing how extreme low temperatures, snow cover, and terrain can impact signal propagation and device operation. The review results suggest that LoRa networks can substantially enhance precision agriculture in regions like NNY by enabling reliable, long-term data collection across vast farm landscapes. With proper planning to mitigate environmental challenges, LoRa technology is poised to support more efficient and resilient farming practices in cold-climate regions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0363",
+  "title": "Reviews and Ratings-Based Recommender System to Alleviate Single and Cross-Domain Data Sparsity",
+  "year": "2025",
+  "abstract": "Recommender Systems have been the backbone of several e-commerce companies for the last two decades forming the ubiquitous organ of current online entertainment. However, the lack of sufficient interactive information has been the curse of many single-domain recommender systems affecting the natural data sparsity. On the other hand, reviews posted by users respective to items can provide wealthy semantic facts regarding their preferences and product features. These reviews along with explicit ratings can alleviate the data sparsity. Although ratings and reviews are sometimes complementary, the fusion of user-item interactions and textual reviews is strongly effective in learning a more accurate portrayal of users and items (Us & Is) for recommendation. In this article, we present a recommender system to alleviate single and cross domain data sparsity using Long Short Term Memory (LSTM) Network-based recommendation model that learns the profound representations of users and items from users reviews and item scores. Our model contains a fusion of features from encoded textual reviews with respective users explicit ratings and an LSTM Network-based prediction module for recommendation. Supportively, considering that reviews reveal differently for patrons and items, we aggregate the item-based reviews, extract useful words, compute their frequencies, sort them, and select the most significant text words for encoding. A word-index-based dictionary maintained in the auxiliary domain is used to encode the most significant text words by assigning the dictionary indexes. The LSTM Network is trained using normalized item explicit rating vectors and encoded word vectors obtained from the item-specific user reviews. Thus, an item rating for a user can be predicted using the LSTM network, if the ratings and reviews (R2) of other users are known. Experiments on single and cross-domain configurations using four Amazon review datasets show that our Review-Ratings-Based Recommender System (RRBRS) model outperformed significantly to other competing baseline models. The objective RRBRS framework is to gain the knowledge of Us & Is and predict the item rating for a user.A single predictive network can be used in the proposed model to reduce the computational complexity and learns faster from the ratings-reviews.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0364",
+  "title": "Artificial intelligence-augmented histopathologic review using image analysis to optimize DNA yield from formalin-fixed paraffin-embedded slides",
+  "year": "2022",
+  "abstract": "To achieve minimum DNA input requirements for next-generation sequencing (NGS), pathologists visually estimate macrodissection and slide count decisions. Unfortunately, misestimation may cause tissue waste and increased laboratory costs. We developed an artificial intelligence (AI)-augmented smart pathology review system (SmartPath) to empower pathologists with quantitative metrics for accurately determining tissue extraction parameters. SmartPath uses two deep learning architectures, a U-Net based network for cell segmentation and a multi-field-of-view convolutional network for tumor area segmentation, to extract features from digitized H&E-stained formalin-fixed paraffin-embedded slides. From the segmented tumor area, SmartPath suggests a macrodissection area. To predict DNA yield per slide, the extracted features from within the macrodissection area are correlated with known DNA yields to fit a regularized linear model (R = 0.85). Then, a pathologist-defined target yield divided by the predicted DNA yield per slide gives the number of slides to scrape. Following model development, an internal validation trial was conducted within the Tempus Labs molecular sequencing laboratory. We evaluated our system on 501 clinical colorectal cancer slides, where half received SmartPath-augmented review and half traditional pathologist review. The SmartPath cohort had 25% more DNA yields within a desired target range of 100–2000 ng. The number of extraction attempts was statistically unchanged between cohorts. The SmartPath system recommended fewer slides to scrape for large tissue sections, saving tissue in these cases. Conversely, SmartPath recommended more slides to scrape for samples with scant tissue sections, especially those with degraded DNA, helping prevent costly re-extraction due to insufficient extraction yield. A statistical analysis was performed to measure the impact of covariates on the results, offering insights on how to improve future applications of SmartPath. With these improvements, AI-augmented histopathologic review has the potential to decrease tissue waste, sequencing time, and laboratory costs by optimizing DNA yields, especially for samples with scant tissue and/or degraded DNA.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0365",
+  "title": "A Comprehensive Survey of Lightweight Neural Networks for Face Recognition",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0366",
+  "title": "Learning Inflation Narratives from Reddit: How Lightweight LLMs Reveal Forward-Looking Economic Signals",
+  "year": "2026",
+  "abstract": "Public perceptions and expectations of inflation shape household spending, wage bargaining, and policy support, making them key determinants of macroeconomic outcomes. However, current measures rely on infrequent surveys and offer limited insight into underlying narratives and sector-specific concerns. This paper presents a novel approach to measuring public perception of inflation, using lightweight large language models (LLMs) fine-tuned on domain-specific Reddit data. We created an inflation classifier trained on posts related to components of the U.S. Consumer Price Index (CPI). When applied to more than 10 years of Reddit discussions (2012–2022), this classifier produces monthly Reddit inflation scores (RIS), which we validated against actual economic indicators. Our results show that fine-tuned lightweight LLMs perform well even with smaller training datasets, and the Reddit inflation scores strongly correlate with CPI (r = 0.91) and closely align with the University of Michigan: Inflation Expectation (MICH). Importantly, Granger causality tests suggested that social media–based inflation scores often precede movements in both CPI and MICH, indicating their potential as predictive, forward-looking economic signals. Furthermore, change-point and lexical analyses uncovered shifts in inflation-related narratives across sectors like groceries, transportation, and housing, revealing dimensions of inflation concern that are not directly observable in aggregate price indices. By complementing traditional economic indicators with narrative-rich signals, this study demonstrates how NLP-based measures can facilitate earlier detection of inflationary pressures and policy responses.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0367",
+  "title": "On the Automation of Code Review Tasks Through Cross-Task Knowledge Distillation",
+  "year": "2025",
+  "abstract": "Code review is essential for ensuring code quality and minimizing errors, but it is often complex, subjective, and time-consuming. Existing research treated code review tasks (i.e., quality estimation, comment generation, and code refinement) separately, despite their interconnections. We propose a novel deep learning architecture using cross-task knowledge distillation to address these tasks simultaneously. Our approach outperforms state-of-the-art methods in comment generation and code refinement, achieving superior BLEU and CodeBLEU scores.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0368",
+  "title": "Multi-Crop Disease Detection in Computer Vision for Resource-Constrained Farms—A Review",
+  "year": "2025",
+  "abstract": "Crop diseases remain a major threat to global agricultural productivity, particularly in resource-constrained regions, where early intervention is critical to ensuring food security. Smallholder farmers often practice intercropping, creating complex field conditions that challenge conventional disease detection systems. Although computer vision and machine learning offer powerful tools for early diagnosis, most existing approaches are tailored to single-crop scenarios and rely on cloud-based or high-resource environments, limiting their applicability in the field. This review synthesizes and explores recent advances in AI-based crop disease detection with emphasis on multi-crop and intercropped systems. We provide an overview of the detection pipeline from data acquisition and preprocessing to model training and deployment. We highlight technical challenges such as dataset scarcity, lack of modality diversity, poor model generalization, and limited real-world validation. Unlike prior reviews that isolate crops and modalities, this review uniquely integrates multi-crop, multimodal and edge deployable perspectives. We identify key research gaps and outline emerging opportunities for scalable solutions, including lightweight, multimodal models, offline-capable inference, edge deployment, and the integration of conversational AI for field-level support. By centering on the realities of low-connectivity, heterogeneous farming environments, this review aims to offer guidance toward inclusive and sustainable AI-driven agriculture.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0369",
+  "title": "Lightweight Human Pose Estimation with Enhanced Knowledge Review",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0370",
+  "title": "Special issue from mathematics to embedded devices",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0371",
+  "title": "A survey and future outlook on indoor location fingerprinting privacy preservation",
+  "year": "2024",
+  "abstract": "The pervasive integration of Indoor Positioning Systems (IPS) arises from the limitations of Global Navigation Satellite Systems (GNSS) in indoor environments, leading to the widespread adoption of Location-Based Services (LBS) in places such as shopping malls, airports, hospitals, museums, corporate campuses, and smart buildings. Specifically, indoor location fingerprinting (ILF) systems employ diverse signal fingerprints from user devices, enabling precise location identification by Location Service Providers (LSP). Despite its broad applications across various domains, ILF introduces a notable privacy risk, as both LSP and potential adversaries inherently have access to this sensitive information, compromising users'privacy. Consequently, concerns regarding privacy vulnerabilities in this context necessitate a focused exploration of privacy-preserving mechanisms. In response to these concerns, this survey presents a comprehensive review of Indoor Location Fingerprinting Privacy-Preserving Mechanisms (ILFPPM) based on cryptographic, anonymization, differential privacy (DP), and federated learning (FL) techniques. We also propose a distinctive and novel grouping of privacy vulnerabilities, adversary models, privacy attacks, and evaluation metrics specific to ILF systems. Given the identified limitations and research gaps in this survey, we highlight numerous prospective opportunities for future investigation, aiming to motivate researchers interested in advancing ILF systems. This survey constitutes a valuable reference for researchers and provides a clear overview for those beyond this specific research domain. To further help the researchers, we have created an online resource repository, which can be found at \\href{https://github.com/amir-ftlz/ilfppm}{https://github.com/amir-ftlz/ilfppm}.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0372",
+  "title": "A Review of the Embedded Deployment of Sign Language Detection Models: Metrics, Tradeoffs and Perspectives",
+  "year": "2025",
+  "abstract": "Sign language is the unique means of communication between deaf-mute people and society members. Unfortunately, the lack of sign language learning in many cultures along with the challenges associated with understanding it, leads to the isolation of deaf-mute individuals from their community. In response to this issue, recent years have witnessed a notable surge in research on sign language technologies, aimed at bridging the communication gap and fostering greater inclusivity. Leveraging recent advances in AI algorithms, embedded hardware, internet of things and emergence of Tiny Machine learning have paved the way for a revolution in the use of embedded systems for sign language recognition. Despite these significant advancements, a key remaining challenge is achieving the trade-off between high performance and resource constraints of embedded devices. To this end, the focus of this review is to provide a comprehensive overview of the complete pipeline from data collection to deployment of deep or machine learning models on embedded edge devices. It also offers a comparative of distinct hardware and framework tools used in these embedded applications of sign language recognition published from 2020 to 2025. Literature findings of this review show the possibility of designing an efficient embedded application which can recognize sign language in real-time. Furthermore, this study presents the future directions in order to accelerate the commercial deployment of these systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0373",
+  "title": "CompQ: QoE-Aware Compensation for Resumed Requests in Interactive LLM Inference Services",
+  "year": "2026",
+  "abstract": "Interactive large language model (LLM) services increasingly support tool invocation, external retrieval, and multi-step task execution, making pause-and-resume generation a common execution pattern. Although resumed phases are semantically part of the same user session, existing serving systems typically treat resumed requests as ordinary new arrivals, ignoring the waiting and service burden already accumulated before re-entry. As a result, resumed requests may face a second round of queuing, degrading service continuity and resumedphase Quality of Experience (QoE). We propose CompQ, a lightweight QoE-aware compensation mechanism that introduces a pre-resumption time-per-token metric to quantify this burden and selectively compensates requests most likely to suffer poor resumed-phase QoE. We implement a scheduler-side prototype in SGLang and evaluate it on a single GPU under controlled stall injection. Results show that CompQ substantially reduces resumed-phase latency in critical degradation regions, while revealing a structural trade-off with the first-token latency of newly arrived requests. These findings indicate that QoE-aware compensation for resumed requests is a distinct and worthwhile scheduling problem in interactive LLM services.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0374",
+  "title": "Teacher-Student Framework for Polyphonic Semi-supervised Sound Event Detection: Survey and Empirical Analysis",
+  "year": "2024",
+  "abstract": "Polyphonic sound event detection refers to the task of automatically identifying sound events occurring simultaneously in an auditory scene. Due to the inherent complexity and variability of real-world auditory scenes, building robust detectors for polyphonic sound event detection poses a significant challenge. The task becomes furthermore challenging without sufficient annotated data to develop sound event detection systems under a supervised learning regime. In this article, we explore the recent developments in polyphonic sound event detection, with a particular emphasis on the application of Teacher-Student techniques within the semi-supervised learning paradigm. Unlike previous works, we have consolidated and organized the fragmented literature on Teacher-Student techniques for polyphonic sound event detection. By examining the latest research, categorizing Teacher-Student approaches, and conducting an empirical study to assess the performance of each approach, this survey offers valuable insights and practical guidance for researchers and practitioners in the field. Our findings highlight the potential benefits of utilizing multiple learners, ensuring consistent predictions, and making thoughtful choices regarding perturbation strategies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0375",
+  "title": "An Empirical Survey-based Study into Industry Practice in Real-time Systems",
+  "year": "2020",
+  "abstract": "This paper presents results and observations from a survey of 120 industry practitioners in the field of real-time embedded systems. The survey provides insights into the characteristics of the systems being developed today and identifies important trends for the future. The survey aims to inform both academics and practitioners, helping to avoid divergence between industry practice and fundamental academic research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0376",
+  "title": "Advances in Robust Federated Learning: Heterogeneity Considerations",
+  "year": "2024",
+  "abstract": "In the field of heterogeneous federated learning (FL), the key challenge is to efficiently and collaboratively train models across multiple clients with different data distributions, model structures, task objectives, computational capabilities, and communication resources. This diversity leads to significant heterogeneity, which increases the complexity of model training. In this paper, we first outline the basic concepts of heterogeneous federated learning and summarize the research challenges in federated learning in terms of five aspects: data, model, task, device, and communication. In addition, we explore how existing state-of-the-art approaches cope with the heterogeneity of federated learning, and categorize and review these approaches at three different levels: data-level, model-level, and architecture-level. Subsequently, the paper extensively discusses privacy-preserving strategies in heterogeneous federated learning environments. Finally, the paper discusses current open issues and directions for future research, aiming to promote the further development of heterogeneous federated learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0377",
+  "title": "Machine Learning in Membrane Distillation for Pulp and Paper Wastewater Treatment: A Review",
+  "year": "2026",
+  "abstract": "Membrane distillation (MD) is a promising thermally driven separation technology for treating high-strength industrial wastewater, particularly from the pulp and paper industry. However, its performance is constrained by complex and nonlinear interactions among operating conditions, feed characteristics, and membrane properties, leading to challenges such as fouling, membrane wetting, and flux decline. Conventional modelling approaches are often inadequate in capturing these dynamic behaviours, resulting in limited predictive reliability. This review focuses on the application of machine learning (ML), with particular emphasis on artificial neural networks (ANNs), in enhancing MD performance prediction and optimization. ANN models have demonstrated strong capability in modelling nonlinear relationships and accurately predicting key performance indicators, including permeate flux, rejection efficiency, and fouling behaviour. Special attention is given to recent developments integrating ANN models with advanced membrane materials, such as polyvinylidene fluoride/cellulose nanocrystal (PVDF/CNC) composite membranes, to improve system efficiency and stability. Furthermore, probabilistic approaches, including Bayesian neural networks and Monte Carlo simulations, are discussed for uncertainty quantification and risk-informed decision-making. Key challenges, including data scarcity, model interpretability, and generalizability, are critically evaluated alongside emerging solutions such as explainable AI and digital twin systems. Overall, ANN-driven approaches offer significant potential to transform MD into a predictive, reliable, and intelligent wastewater treatment technology.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0378",
+  "title": "Privacy-Aware Multi-Device Cooperative Edge Inference with Distributed Resource Bidding",
+  "year": "2025",
+  "abstract": "Mobile edge computing (MEC) empowers mobile devices (MDs) in supporting artificial intelligence (AI) applications through collaborative efforts with proximal MEC servers. Unfortunately, despite the great promise of device-edge cooperative AI inference, data privacy has been an increasing concern. In this paper, we develop a novel privacy-aware multi-device cooperative edge inference system for classification tasks, which integrates a distributed bidding mechanism for the MEC server’s computational resources. Intermediate feature compression is adopted as a principled approach to minimize data privacy leakage. To determine the bidding values and feature compression ratios, we formulate a decentralized partially observable Markov decision process (DEC-POMDP) model, for which a multi-agent deep deterministic policy gradient (MADDPG)-based algorithm is developed. Simulation results demonstrate that given a sufficient level of data privacy protection, the proposed algorithm achieves 0.31-0.95% improvements in classification accuracy compared to the approach being agnostic to wireless channel conditions. The accuracy performance of the proposed algorithm is further enhanced by 1.54-1.67% when considering the difficulties of inference data in the DEC-POMDP model.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0379",
+  "title": "Learning with Capsules: A Survey",
+  "year": "2022",
+  "abstract": "Capsule networks were proposed as an alternative approach to Convolutional Neural Networks (CNNs) for learning object-centric representations, which can be leveraged for improved generalization and sample complexity. Unlike CNNs, capsule networks are designed to explicitly model part-whole hierarchical relationships by using groups of neurons to encode visual entities, and learn the relationships between those entities. Promising early results achieved by capsule networks have motivated the deep learning community to continue trying to improve their performance and scalability across several application areas. However, a major hurdle for capsule network research has been the lack of a reliable point of reference for understanding their foundational ideas and motivations. The aim of this survey is to provide a comprehensive overview of the capsule network research landscape, which will serve as a valuable resource for the community going forward. To that end, we start with an introduction to the fundamental concepts and motivations behind capsule networks, such as equivariant inference in computer vision. We then cover the technical advances in the capsule routing mechanisms and the various formulations of capsule networks, e.g. generative and geometric. Additionally, we provide a detailed explanation of how capsule networks relate to the popular attention mechanism in Transformers, and highlight non-trivial conceptual similarities between them in the context of representation learning. Afterwards, we explore the extensive applications of capsule networks in computer vision, video and motion, graph representation learning, natural language processing, medical imaging and many others. To conclude, we provide an in-depth discussion regarding the main hurdles in capsule network research, and highlight promising research directions for future work.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0380",
+  "title": "A comprehensive review of low-power design techniques in VLSI systems: From device physics to algorithmic optimization",
+  "year": "2026",
+  "abstract": "This paper presents a comprehensive examination of various low-power design techniques for VLSI circuits, highlighting the critical need to reduce energy consumption in battery-operated embedded systems while maintaining performance. The research discusses several strategies across multiple abstraction levels, including system, architectural, gate, and device levels. One of the standout elements of this review is the in-depth analysis of trade-offs (see Table 2), which assesses power savings, area overheads, and propagation delays across various technology nodes. By combining traditional methods like clock gating with innovative approaches, such as FinFET technology and machine-learning optimization, this study establishes a practical framework for achieving energy-efficient VLSI design. The findings suggest that selecting the right technique necessitates a careful balance between manufacturing constraints and the specific performance objectives of the application.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0381",
+  "title": "LPWAN’s – Overview, Market Scenario and Performance Analysis of Lora, Sigfox Using NB-Fi Range Calculator",
+  "year": "2021",
+  "abstract": "The Internet of Things (IoT), has witnessed the growth of the Low Power Wireless Area Networks (LPWAN). The capabilities of LPWAN’s are playing the important role in connecting devices. Proper selection of the LPWAN’s technologies plays important role in implementation. LPWAN includes LoRa, Sigfox, Narrow Band-Internet of Things (NB-IoT), Long Term Evolution for Machines (LTE-M) etc. This paper presents an overview of work done related to LPWAN Technologies. In this paper we presented the LPWAN market scenario. Strong momentum has observed in LPWAN market worldwide. The performance of the LPWAN Technologies such as LoRa and Sigfox is discussed. NB-Fi -range-calculator is used for theoretical performance analysis.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0382",
+  "title": "Physically consistent ultra-lightweight AI for real-time harmonics and stability in converter-dominated grids: Systematic review, evidence synthesis, and deployment gaps",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0383",
+  "title": "Learning Taxonomic Trees with Hierarchical Representation Regularization for Large Multimodal Models",
+  "year": "2026",
+  "abstract": "Taxonomies provide key information about the semantic relationships between concepts and the inherent organization of vision and language. Despite their impressive capabilities, large multimodal models (LMMs) often lack taxonomic knowledge, leading to low hierarchical visual recognition (HVR) consistency. These models typically only rely on language modeling objectives during fine-tuning and lack explicit taxonomy-aware regularization. To address this, we propose Hierarchical Representation Regularization ($HiR^2$), a simple plug-and-play regularizer that improves hierarchical consistency in LMMs. Specifically, we introduce a semantic-aware visual tree construction framework that extracts coarse-to-fine visual features from intermediate LLM layers guided by textual cues. The regularizer combines two complementary objectives: a taxonomic entailment loss that enforces hierarchy via hyperbolic entailment cones in the Lorentz model, and a discriminative dispersive loss that promotes angular separation of semantically similar embeddings on the unit sphere without disturbing the radial hierarchical structure. Extensive experiments demonstrate that $HiR^2$ effectively captures taxonomic structures across diverse LMMs and fine-tuning methods. Code is available at https://github.com/PKU-ICST-MIPL/HiR2_ICML2026.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0384",
+  "title": "A Novel Multi-Layer Sparse Regularizer based GRU Model for Consumer Reviews Summarization",
+  "year": "2023",
+  "abstract": "Text Summarization is considered as potential study area in recent past for its well-established growing popularity in domain specific areas.The consumer dominated society approved the summarization process as a tool for communication in shortest time span with wide coverage of valued basic knowledge.The Auto Text Summarization is developed digitally with various sophisticated tools and techniques in compressed opinion building process delivering millions of consumer's verdict at one scratch.The newest methodology of deep learning neural network had been adopted to narrate the precise fact with proposed novel MSRGRU (Multilayer Stacked Regularizer GRU) model for consumer review summarization technique.The adaptation of the model by proper utilization of sparse regularization process enhances quality of predicted summaries.Eventually the accuracy level of the model is remarkable as compared to the existing state-of-the -art techniques.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0385",
+  "title": "Performance Evaluation of PPP-AR Method for Engineering Surveys with Embedded GNSS Chipset in a Smartphone",
+  "year": "2020",
+  "abstract": "\n <p>Today, traditional Precise Point Positioning (PPP) method with high-cost geodetic grade Global Navigation Satellite System (GNSS) receivers has been used commonly for surveying, navigation, geodesy, geophysics and other engineering applications where dm-cm level accuracy is required. On the other hand, while smartphones have created a growing economic market in the world, they serve positioning, navigation and timing (PNT) services in varying accuracy levels to the users besides many other facilities. One of the most significant components of the smartphones involving multi-sensors for outdoor point-positioning and navigation is the embedded GNSS chipset. Especially, the world&#8217;s first dual-frequency GNSS smartphone produced by Xiaomi in May 2018, so-called Xiaomi Mi 8, brings a new aspect to PNT applications. In this study, a smartphone with dual-frequency embedded GNSS chipset was used to analyze the performance of PPP-Ambiguity Resolution (PPP-AR) method in engineering surveys. With respect to study aim, simultaneous static GNSS observations gathered with a geodetic grade GNSS receiver and a smartphone were conducted within a test setup. The static GNSS observations were repeated for 3 days and the campaign duration was 2 hours per day at the same daily time interval. All the raw GNSS observations were converted into Receiver Independent Exchange Format (RINEX) and processed by the relative point positioning method as a reference solution initially. Later, all observations were processed by the PPP-AR method. A widely used online post-processing GNSS service, namely CSRS-PPP, which was updated in August 2018 (GPSPACE to SPARK) were employed for PPP-AR solutions. As a conclusion, we analyze the performance of the embedded dual frequency GNSS chipset and assess the feasibility of them in different engineering surveys.</p><p><strong>Keywords:</strong> Smartphone Positioning, PPP-AR, Embedded GNSS Chipset, Dual-frequency, Engineering Surveys</p>\n",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0386",
+  "title": "Spectral density approximation methods for sparse graphs: A review",
+  "year": "2026",
+  "abstract": "Graphs provide a simple yet powerful abstraction for representing complex systems across diverse domains, including social networks, biology, economics, and technology. In these models, vertices represent entities, and edges represent the interactions between them. The spectral density (i.e., the empirical distribution of the eigenvalues of a matrix representation of a graph) captures key global structural and dynamical properties. It supports a wide range of tasks, including community detection, denoising, spectral clustering, and graph comparison. However, the exact computation of the spectral density scales cubically with the number of vertices, making it impractical for large, sparse graphs. To address this, numerous approximation methods have been developed that trade accuracy for efficiency. In this review, we comprehensively examine existing techniques for approximating spectral densities in large, sparse graphs, encompassing both classical and recent developments. We also provide an open-source Python library that implements all reviewed methods, available at https://github.com/fujita-team/fastSpectralDensity .",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0387",
+  "title": "Enhancing Teacher-Student Interaction Dynamics in Online Education: A Systematic Literature Review",
+  "year": "2025",
+  "abstract": "Background: Online learning is rapidly expanding, with increasing market size and user scale. However, the lack of teacher-student interaction remains a significant challenge. Identifying factors impacting teacher-student interaction can help improve online learning environments. Despite its importance, systematic research in this area is limited. This study addresses this gap by exploring factors influencing teacher-student interactions in online learning. \nPurpose: The aim of this study was to identify and categorize factors affecting teacher-student interaction in online learning. \nMethods: A systematic literature review was conducted using scientific publications in English and Chinese. Databases such as Scopus, PubMed, CNKI, ProQuest, Springer, and Google Scholar were searched for articles published up to 2022. The PRISMA guidelines were followed for article selection, and only articles with complete data and passing quality assessments were included. The final sample consisted of 33 articles published between 2015 and 2022. \nResults: The majority of participants (65%) were undergraduate students, and 58% of the studies employed quantitative methods to investigate factors influencing teacher-student interaction. The findings revealed that teacher-student interaction significantly impacts positive student outcomes, including satisfaction, motivation, academic achievement, and performance. \nFour Main Factors were Identified: (a) technological factors, (b) student individual characteristics, (c) teacher trait factors, and (d) course design factors. \nConclusion: Existing research predominantly focuses on undergraduate students and employs quantitative methods, while qualitative approaches and perspectives from primary/secondary school teachers and lecturers are underrepresented. Future research should address these gaps by incorporating diverse viewpoints and methodologies to comprehensively explore factors influencing teacher-student interaction in online learning environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0388",
+  "title": "Tensor Decomposition for Brain Data Characterization: A structured review on prerequisites, models, and constraints",
+  "year": "2025",
+  "abstract": "Recent advances in biomedical sensing have been generating large amounts of multi-way brain data. Matrix decomposition based classical brain data analysis requires flattening multi-way data into two-way matrices, which can not fully exploit the inherent multilinear structure. Tensors are natural representations of multi-way brain data, and tensor decomposition can better preserve the structural information of multi-way data. There are various tensor decompositions, and the optimal decomposition is task-specific. In this paper, we present a systematic tensor decomposition framework from 3 aspects: preprocessing strategies, decomposition network structures, and factor constraints. To provide actionable guidance for task-specific design with this tensor decomposition framework, we provide a series of implementations for brain data analysis applications, including brain data compression and reconstruction, single brain tensor analysis, and representative feature extraction.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0389",
+  "title": "Overview of Embedded Rust Operating Systems and Frameworks",
+  "year": "2024",
+  "abstract": "Embedded Operating Systems (OSs) are often developed in the C programming language. Developers justify this choice by the performance that can be achieved, the low memory footprint, and the ease of mapping hardware to software, as well as the strong adoption by industry of this programming language. The downside is that C is prone to security vulnerabilities unknowingly introduced by the software developer. Examples of such vulnerabilities are use-after-free, and buffer overflows. Like C, Rust is a compiled programming language that guarantees memory safety at compile time by adhering to a set of rules. There already exist a few OSs and frameworks that are entirely written in Rust, targeting sensor nodes. In this work, we give an overview of these OSs and frameworks and compare them on the basis of the features they provide, such as application isolation, scheduling, inter-process communication, and networking. Furthermore, we compare the OSs on the basis of the performance they provide, such as cycles and memory usage.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0390",
+  "title": "Toward an embedded system for gesture recognition based on artificial neural network using reconfigurable target (case study and review)",
+  "year": "2020",
+  "abstract": "With a view to create an intelligent remote control for robot movements, this article treats the study case of dataset creation using RSG (Reference Signal Generator). Using artificial intelligence, the device recognizes the gestures of an operator. Indeed, a neural network can classify time series data coming from accelerometers, and for a beginning 4 gestures are taken into consideration. The most challenging work is to build a reference dataset that is necessary for the learning process. To train the neural network, a huge amount of reference data should be created (hundreds of thousands of time-series vectors per gesture per sensor), which cannot be done manually by an operator. To overcome the issue, an RSG is created. This article also describes how a 1-DoF arm has been designed to emulate the behavior of the human arm doing gestures as well as the data acquisition system. The system is based on a software/hardware co-design implemented on Programmable System on Chip (PSoC).",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0391",
+  "title": "Ethical Design of Data-Driven Decision Support Tools for Improving Cancer Care: Embedded Ethics Review of the 4D PICTURE Project",
+  "year": "2025",
+  "abstract": "Oncology patients often face complex choices between treatment regimens with different risk-benefit ratios. The 4D PICTURE (Producing Improved Cancer Outcomes Through User-Centered Research) project aims to support patients, their families, and clinicians with these complex decisions by developing data-driven decision support tools (DSTs) for patients with breast cancer, prostate cancer, and melanoma as part of care path redesign using a methodology called MetroMapping. There are myriad ethical issues to consider as the project will create data-driven prognostic models and develop conversation tools using artificial intelligence while including patient perspectives by setting up boards of experiential experts in 8 different countries. This paper aims to review the key ethical challenges related to the design and development of DSTs in oncology. To explore the ethics of DSTs in cancer care, the project adopted the Embedded Ethics approach—embedding ethicists into research teams to sensitize team members to ethical aspects and assist in reflecting on those aspects throughout the project. We conducted what we call an embedded review of the project drawing from key literature on topics related to the different work packages of the 4D PICTURE project, whereas the analysis was an iterative process involving discussions with researchers in the project. Our review identified 13 key ethical challenges related to the development of DSTs and the redesigning of care paths for more personalized cancer care. Several ethical aspects were related to general potential issues of data bias and privacy but prompted specific research questions, for instance, about the inclusion of certain demographic variables in models. Design methodology in the 4D PICTURE project can provide insights related to design justice, a novel consideration in health care DSTs. Ethical points of attention related to health care policy, such as cost-effectiveness, financial sustainability, and environmental impact, were also identified, along with challenges in the research process itself, emphasizing the importance of epistemic justice, the role of embedded ethicists, and psychological safety. This viewpoint highlights ethical aspects previously neglected in the digital health ethics literature and zooms in on real-world challenges in an ongoing project. It underscores the need for researchers and leaders in data-driven medical research projects to address ethical challenges beyond the scientific core of the project. More generally, our tailored review approach provides a model for embedding ethics into large data-driven oncology research projects from the start, which helps ensure that technological innovations are designed and developed in an appropriate and patient-centered manner.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0392",
+  "title": "Unity is Strength: Cross-Task Knowledge Distillation to Improve Code Review Generation",
+  "year": "2023",
+  "abstract": "Code review is a fundamental process in software development that plays a critical role in ensuring code quality and reducing the likelihood of errors and bugs. However, code review might be complex, subjective, and time-consuming. Comment generation and code refinement are two key tasks of this process and their automation has traditionally been addressed separately in the literature using different approaches. In this paper, we propose a novel deep-learning architecture, DISCOREV, based on cross-task knowledge distillation that addresses these two tasks simultaneously. In our approach, the fine-tuning of the comment generation model is guided by the code refinement model. We implemented this guidance using two strategies, feedback-based learning objective and embedding alignment objective. We evaluated our approach based on cross-task knowledge distillation by comparing it to the state-of-the-art methods that are based on independent training and fine-tuning. Our results show that our approach generates better review comments as measured by the BLEU score.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0393",
+  "title": "Middleware Frameworks for Mobile Cloud Computing, Internet of Things and Cloud of Things: A Review",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0394",
+  "title": "A Survey of Community Detection in Complex Networks Using Nonnegative Matrix Factorization",
+  "year": "2022",
+  "abstract": "Community detection is one of the popular research topics in the field of complex networks analysis. It aims to identify communities, represented as cohesive subgroups or clusters, where nodes in the same community link to each other more densely than others outside. Due to the interpretability, simplicity, flexibility, and generality, nonnegative matrix factorization (NMF) has become a very ideal model for community detection and lots of related methods have been presented. To facilitate research on NMF-based community detection, in this article, we make a comprehensive review on NMF-based methods for community detection, especially the state-of-the-art methods presented in high prestige journals or conferences. First, we introduce the basic principles of NMF and explain why NMF can detect communities and design a general framework of NMF-based community detection. Second, according to the applicable network types, we propose a taxonomy to divide the existing NMF-based methods for community detection into six categories, namely, topology networks, signed networks, attributed networks, multilayer networks, dynamic networks, and large-scale networks. We deeply analyze representative methods in every category. Finally, we summarize the common problems faced by all methods and potential solutions and propose four promising research directions. We believe that this survey can fully demonstrate the versatility of NMF-based community detection and serve as a useful guideline for researchers in related fields.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0395",
+  "title": "Static Analysis Techniques for Embedded, Cyber-Physical, and Electronic Software Systems: A Comprehensive Survey",
+  "year": "2026",
+  "abstract": "Static analysis is a critical methodology for ensuring the quality, security, and safety of embedded, cyber-physical, and electronic software systems, particularly as such systems become increasingly complex and tightly coupled with hardware and real-time constraints. Through a systematic study of the literature, this paper summarizes the State-of-the-Art in static program analysis. We develop a comprehensive taxonomy of fundamental techniques, including model checking, abstract interpretation, data-flow analysis, and symbolic execution, and examine their application in modern analysis tools used in electronic and safety-critical systems. The survey thoroughly reviews applications across key domains, including vulnerability detection, automotive and embedded software verification, smart contract auditing, and AI-enabled electronic systems. We also critically analyze persistent challenges, including tool integration, scalability limitations, and the trade-off between analysis precision and soundness. Finally, by discussing emerging trends and future research directions—such as machine-learning-enhanced analysis and hybrid static–dynamic techniques—this work provides a structured framework to guide future research and industrial practice in the development of reliable electronic systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0396",
+  "title": "Development of Arduino applications for IoT applications in software engineering education: a systematic literature review",
+  "year": "2024",
+  "abstract": "The continuous development of software applications is a necessary step in producing high-quality products that will consistently meet end-user expectations and stakeholder needs. Development of Arduino applications, embedded in a product’s hardware, can and should be considered at the software engineering phase itself, even though current practice dictates it be handled by product engineers. The method used in this investigation was based on a systematic literature review (SLR). Therefore, this paper depicts a gap that currently exists within the body of literature surrounding the development of Arduino applications for ‘internet of things’ (IoT) applications in software engineering education in commercial and research fields. The result of this study are two findings investigates: i) relevant Arduino application development used in software engineering and ii) method for applying software engineering for Arduino applications. The limitations and constraints of each technique in respect to Arduino apps were also examined in order to provide a better understanding of each body of study's weaknesses and strengths. We realise that these studies are still insufficient and need to be evaluated and improved further.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0397",
+  "title": "A Review Based on Navigation Using Audio and Video Based Embedded System",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0398",
+  "title": "Blockchain Systems in Embedded Internet of Things: Systematic Literature Review, Challenges Analysis, and Future Direction Suggestions",
+  "year": "2022",
+  "abstract": "Internet of Things (IoT) environments can extensively use embedded devices. Without the participation of consumers; tiny IoT devices will function and interact with one another, but their operations must be reliable and secure from various threats. The introduction of cutting-edge data analytics methods for linked IoT devices, including blockchain, may lower costs and boost the use of cloud platforms. In a peer-to-peer network such as blockchain, no one has to be trusted because each peer is in charge of their task, and there is no central server. Because blockchain is tamper-proof, it is connected to IoT to increase security. However, the technology is still developing and faces many challenges, such as power consumption and execution time. This article discusses blockchain technology and embedded devices in distant areas where IoT devices may encounter network shortages and possible cyber threats. This study aims to examine existing research while also outlining prospective areas for future work to use blockchains in smart settings. Finally, the efficiency of the blockchain is evaluated through performance parameters, such as latency, throughput, storage, and bandwidth. The obtained results showed that blockchain technology provides security and privacy for the IoT.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0399",
+  "title": "A Survey: Research Progress of Feature Fusion Technology",
+  "year": "2024",
+  "abstract": "Feature fusion techniques represent a critical research content in the domain of deep learning, aiming to concatenate feature information from diverse sources or varying levels to generate more comprehensive and accurate representations. This technology is extensively employed in downstream tasks that necessitate rich target representations, such as image classification, semantic segmentation, and object detection. Over recent years, under the impetus of advancements in deep learning technologies, we have witnessed rapid progress in feature fusion techniques and their profound impact on the entire computer vision field. This paper takes an technique evolutionary perspective to comprehensively summarize the innovative contributions of feature fusion technology within four cutting-edge domains: Convolutional Neural Network (CNN), Vision Transformer (ViT), Graph Convolutional Network (GCN) and Neural Architecture Search (NAS). We provide a detailed introduction to the specific implementation process of each technology, and analytically explores the pivotal roles played by the concept of feature fusion in each of these technologies through different viewpoints. Finally, we provides a systematic overview of the mechanisms behind several classical methods and arrange the open-source code links, and we performance evaluation was conducted on several classic methods.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0400",
+  "title": "Comparative Study of Lightweight Target Detection Methods for Unmanned Aerial Vehicle-Based Road Distress Survey",
+  "year": "2024",
+  "abstract": "Unmanned aerial vehicles (UAVs) are effective tools for identifying road anomalies with limited detection coverage due to the discrete spatial distribution of roads. Despite computational, storage, and transmission challenges, existing detection algorithms can be improved to support this task with robustness and efficiency. In this study, the K-means clustering algorithm was used to calculate the best prior anchor boxes; Faster R-CNN (region-based convolutional neural network), YOLOX-s (You Only Look Once version X-small), YOLOv5-s, YOLOv7-tiny, YOLO-MobileNet, and YOLO-RDD models were built based on image data collected by UAVs. YOLO-MobileNet has the most lightweight model but performed worst in accuracy, but greatly reduces detection accuracy. YOLO-RDD (road distress detection) performed best with a mean average precision (mAP) of 0.701 above the Intersection over Union (IoU) value of 0.5 and achieved relatively high accuracy in detecting all four types of distress. The YOLO-RDD model most successfully detected potholes with an AP of 0.790. Significant or severe distresses were better identified, and minor cracks were relatively poorly identified. The YOLO-RDD model achieved an 85% computational reduction compared to YOLOv7-tiny while maintaining high detection accuracy.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

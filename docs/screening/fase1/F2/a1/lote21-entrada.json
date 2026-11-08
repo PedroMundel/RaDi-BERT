@@ -1,0 +1,419 @@
+[
+ {
+  "id": "F0801",
+  "title": "Automated Course-Program Outcome Mapping with Bloom's Taxonomy and DEI Classification Using Lightweight Transformer Models",
+  "year": "2025",
+  "abstract": "Effective alignment of Course Outcomes (COs) with Program Outcomes (POs) and Bloom’s Taxonomy levels is essential for accreditation and quality assurance in engineering education. This study employs transformer-based models, MiniLM-v2 and DistilBERT, to automate CO–PO mapping, Bloom’s classification, and DEI categorization. A dataset of over 1,000 CO–PO pairs from CHED guidelines was used to evaluate performance against Support Vector Classifier (SVC) baselines. For PO mapping, DistilBERT achieved the highest F1-score (0.22) and accuracy (0.25), outperforming MiniLM-v2 and SVC. In Bloom’s classification, both transformers scored F1 = 0.97, with MiniLM-v2 slightly surpassing DistilBERT in Macro-Average AUC (0.9910). For DEI mapping, MiniLM-v2 achieved the top Macro AUC (0.9909) due to its deeper architecture, balanced hidden size, and relational embedding mechanism, enabling superior semantic understanding. Integrated into a Flask-based web tool, these models provide an accessible, efficient system for curriculum development. Overall, MiniLM-v2 offers the best combination of accuracy, semantic understanding, and scalability for automated curriculum alignment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0802",
+  "title": "Evaluating Large Language Model Quality in Resource-Constrained Environments: An Educational Stakeholders' Survey on Accuracy, Completeness, and Readability in Brazil",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0803",
+  "title": "Evolutionary Computation for Sparse Multi-Objective Optimization: A Survey",
+  "year": "2025",
+  "abstract": "In various scientific and engineering domains, optimization problems often feature multiple objectives and sparse optimal solutions, which are commonly known as sparse multi-objective optimization problems (SMOPs). Since many SMOPs are pursued based on large datasets, they involve a large number of decision variables, leading to a huge search space that is challenging to find sparse Pareto optimal solutions. To address this issue, a number of multi-objective evolutionary algorithms (MOEAs) have been developed in recent years to identify non-zero variables through novel search strategies. However, there is currently limited literature that systematically reviews the related studies. In this article, a comprehensive survey is presented for sparse multi-objective optimization, which starts with a definition of SMOPs, followed by a taxonomy of existing sparse MOEAs. Then, the sparse MOEAs are reviewed in detail, followed by an introduction of benchmark and real-world applications that are used for performance assessment in sparse optimization. Finally, the survey is finished by summarizing the research status of sparse multi-objective optimization and outlining some promising research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0804",
+  "title": "Review of smart agriculture for resource-limited areas highlighting limits, opportunities and key-challenges for sustainable IoT and AI-based solutions",
+  "year": "2025",
+  "abstract": "Modern agriculture, at the crossroads of productivity and sustainability, is rapidly evolving from empirical methods to data-driven management through Internet of Things (IoT) and Artificial Intelligence (AI), marking the rise of Agriculture 4.0. Although Agriculture 4.0 has been widely studied, its application remains little explored in resource-limited areas, such as farming communities in underdeveloped and developing countries like Senegal, which face the challenges of food self-sufficiency and where agriculture remains traditional. The integration of smart technologies offers a strategic response to the challenges of food security and climate change by improving the productivity, sustainability, and efficiency of agricultural resources. This study therefore aims to address the lack of relevant analysis on the contributions of these technologies for sustainable and resilient agricultural systems. This paper explores several facets of Agriculture 4.0 through a study of the main agronomic indicators and environmental factors in order to analyse their influences on agricultural yield performance. A taxonomy of agricultural data highlighting their heterogeneity and legal issues has also been proposed. In fact, this paper deeply reviews the main aspects of Agriculture 4.0, identifying IoT and AI solutions deployed in various agricultural contexts and themes. This exhaustive sample of solutions is based on 100 recent and relevant research papers, from 2023 to 2025, in various online scientific databases, such as Springer, IEEE, MDPI, Science Direct, PMC, and Google Scholar. It also emerges from this study that the most used communication and data transmission technologies are LoRa and Wi-Fi, while AI algorithms, such as Random Forest and Convolutional Neural Networks (CNN) are commonly applied in predictive yield modelling and resource management optimization. Moreover, this work identifies advantages and limitations on smart agriculture proposals based on IoT and AI technologies, and discusses the key-challenging open research issues and solutions that need to be addressed to provide guidelines for innovative contributions that drive sustainable and productive agriculture.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0805",
+  "title": "A review of lightweight convolutional neural networks for ultrasound signal classification",
+  "year": "2025",
+  "abstract": "Ultrasound signal processing plays an important role in medical image analysis. Embedded ultrasonography systems with low power consumption and high portability are suitable for disaster rescue, but due to the difficulty of ultrasonic signal recognition, operators need to have strong professional knowledge, and it is not easy to deploy ultrasonography systems in areas with relatively weak infrastructures. In recent years, with the continuous development in the field of deep learning and artificial intelligence, lightweight convolutional neural networks have brought new opportunities for ultrasound signal processing. This paper focuses on investigating lightweight convolutional neural networks applied to ultrasound signal classification. Combined with the characteristics of ultrasound signals, this paper provides a detailed review of lightweight algorithms from two perspectives: model compression and operational optimization. Among them, model compression deals with the overall framework to reduce network redundancy, and the latter aims at the lightweight design of the basic operational module “convolution” in the network. The experimental results of some classical models and algorithms on the ImageNet dataset are summarized. Through the comprehensive analysis, we present some problems and provide an outlook on the future development of lightweight techniques for ultrasound signal classification.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0806",
+  "title": "Artificial Intelligence Application for Crude Distillation Unit: An Overview",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0807",
+  "title": "A Lightweight Multimodal Framework With Dilated CNN Audio Modeling and SE-Enhanced MobileNetV2 for Real-Time Sentiment Analysis of Customer Product Reviews",
+  "year": "2025",
+  "abstract": "The rapid growth of e-commerce has transformed customer feedback into a multimodal medium, encompassing not only text but also speech, images, and video reviews. Traditional unimodal sentiment analysis approaches—predominantly text-based,—fail to capture the rich emotional cues embedded in voice tone, facial expressions, and visual context, often resulting in misclassifications in cases of irony or ambiguous expressions. Recent multimodal sentiment analysis (MSA) studies have explored fusion strategies across text, audio, and video, however most existing methods either rely on computationally heavy architectures or prioritize text while underutilizing non-textual modalities. This study introduced the Audio–Video Squeeze-Excitation Network (AViSE-Net), a lightweight yet discriminative multimodal framework that leverages dilated CNNs for audio and an SE-enhanced MobileNetV2 backbone for video and image data. Key innovations include 1) dilated convolutions in the audio branch for efficient long-range temporal modelling, 2) channel-wise recalibration through squeeze-and-excitation blocks in the video pathway, 3) fusion with LayerNorm and GELU activations for stable cross-modal integration, and 4) a progressive unfreezing strategy to accelerate convergence while preserving pretrained visual features. Evaluated on a curated multimodal dataset of customer product reviews, AViSE-Net achieves 97.9% accuracy with ~50% fewer parameters than heavy baseline models such as BiLSTM+ ResNet18, while maintaining real-time inference speeds of ~42 fps on a GPU. Comparative experiments and ablation studies confirmed that each architectural enhancement contributes significantly to superior performance. These results establish AViSE-Net as a compact, scalable, and deployment-ready solution for real-world multimodal sentiment analysis in e-commerce and consumer feedback applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0808",
+  "title": "HydraInfer: Hybrid Disaggregated Scheduling for Multimodal Large Language Model Serving",
+  "year": "2025",
+  "abstract": "Multimodal Large Language Models (MLLMs) have been rapidly advancing, enabling cross-modal understanding and generation, and propelling artificial intelligence towards artificial general intelligence. However, existing MLLM inference systems are typically designed based on the architecture of language models, integrating image processing and language processing as a single scheduling unit. This design struggles to accommodate the heterogeneous demands of different stages in terms of computational resources, memory access patterns, and service-level objectives (SLOs), leading to low resource utilization and high request latency, ultimately failing to meet the service requirements of diverse inference scenarios. To address these challenges, we propose HydraInfer, an efficient MLLM inference system that adopts a Hybrid Encode-Prefill-Decode (EPD) Disaggregation architecture. By scheduling the three stages - encode, prefill, and decode - onto separate heterogeneous inference instances, the system flexibly reallocates resources across stages, significantly reducing idle computation, alleviating resource bottlenecks, and improving overall system throughput and scalability. In addition, HydraInfer supports a stage-level batching strategy that enhances load balancing, enables parallel execution of visual and language models, and further optimizes inference performance. Experiments under real multimodal inference workloads demonstrate that HydraInfer can achieve up to 4x higher inference throughput compared to state-of-the-art systems (e.g., vLLM) on a single-node 8xH800 GPU cluster, while meeting the 90th percentile request SLO.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0809",
+  "title": "Parameter Efficient Fine Tuning: A Comprehensive Analysis Across Applications",
+  "year": "2024",
+  "abstract": "The rise of deep learning has marked significant progress in fields such as computer vision, natural language processing, and medical imaging, primarily through the adaptation of pre-trained models for specific tasks. Traditional fine-tuning methods, involving adjustments to all parameters, face challenges due to high computational and memory demands. This has led to the development of Parameter Efficient Fine-Tuning (PEFT) techniques, which selectively update parameters to balance computational efficiency with performance. This review examines PEFT approaches, offering a detailed comparison of various strategies highlighting applications across different domains, including text generation, medical imaging, protein modeling, and speech synthesis. By assessing the effectiveness of PEFT methods in reducing computational load, speeding up training, and lowering memory usage, this paper contributes to making deep learning more accessible and adaptable, facilitating its wider application and encouraging innovation in model optimization. Ultimately, the paper aims to contribute towards insights into PEFT's evolving landscape, guiding researchers and practitioners in overcoming the limitations of conventional fine-tuning approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0810",
+  "title": "A review of critical issues in the design of lightweight flywheel rotors with composite materials",
+  "year": "2022",
+  "abstract": "Composite materials are widely used to build high-performance flywheels due to their high material strength and low mass density. The high degrees of freedom in material selection, design, and manufacturing techniques lead to a variety of rotor structures. This paper presents the characteristics of different composite rotors and the critical considerations in terms of designing, manufacturing, and testing them. The introduction starts with the limitations of a single filament-wound composite rim. Then, various rotor structures are presented as well as the critical issues regarding the composite rim design, rim-shaft connection, and rotor failure in order to make safe design recommendations. The aim is to summarize the current techniques and provide references for further developments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0811",
+  "title": "A Survey on Stability of Learning with Limited Labelled Data and its Sensitivity to the Effects of Randomness",
+  "year": "2023",
+  "abstract": "Learning with limited labelled data, such as prompting, in-context learning, fine-tuning, meta-learning, or few-shot learning, aims to effectively train a model using only a small amount of labelled samples. However, these approaches have been observed to be excessively sensitive to the effects of uncontrolled randomness caused by non-determinism in the training process. The randomness negatively affects the stability of the models, leading to large variances in results across training runs. When such sensitivity is disregarded, it can unintentionally, but unfortunately also intentionally, create an imaginary perception of research progress. Recently, this area started to attract research attention and the number of relevant studies is continuously growing. In this survey, we provide a comprehensive overview of 415 papers addressing the effects of randomness on the stability of learning with limited labelled data. We distinguish between four main tasks addressed in the papers (investigate/evaluate, determine, mitigate, benchmark/compare/report randomness effects), providing findings for each one. Furthermore, we identify and discuss seven challenges and open problems together with possible directions to facilitate further research. The ultimate goal of this survey is to emphasise the importance of this growing research area, which so far has not received an appropriate level of attention, and reveal impactful directions for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0812",
+  "title": "Collecting, Integrating and Processing IoT Sensor Data on Edge Devices for PD Monitoring: A Scoping Review",
+  "year": "2025",
+  "abstract": "Bradykinesia and tremor are critical motor symptoms in diagnosing and monitoring Parkinson’s disease (PD), a progressive neurodegenerative disorder. The integration of IoT sensors, smartwatch technology, and edge computing has facilitated real-time collection, processing, and analysis of data related to these impairments, enabling continuous monitoring of PD beyond traditional clinical settings. This survey provides a comprehensive review of recent technological advancements in data collection from wearable IoT sensors and its semantic integration and processing on edge devices, emphasizing methods optimized for efficient and low-latency processing. Additionally, this survey explores AI-driven techniques for detecting and analyzing bradykinesia and tremor symptoms on edge devices. By leveraging localized computation on edge devices, these approaches facilitate energy efficiency, data privacy, and scalability, making them suitable for deployment in real environments. This paper also examines related open-source tools and datasets, assessing their roles in improving reproducibility and integration into these environments. Furthermore, key challenges, including variability in real environments, model generalization, and computational constraints, are discussed, along with potential strategies to enhance detection accuracy and system robustness. By bridging the gap between sensor data collection and integration, and AI-based detection of bradykinesia and tremor on edge devices, this survey intends to contribute to the development of efficient, scalable, and privacy-preserving healthcare solutions for continuous PD monitoring.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0813",
+  "title": "Privacy Preservation in Resource-Constrained IoT Devices Using Blockchain—A Survey",
+  "year": "2021",
+  "abstract": "With opportunities brought by Internet of Things (IoT), it is quite a challenge to assure privacy preservation when a huge number of resource-constrained distributed devices is involved. Blockchain has become popular for its benefits, including decentralization, persistence, immutability, auditability and consensus. With the implementation of blockchain in IoT, the benefits provided by blockchain can be derived in order to make IoT more efficient and maintain trust. In this paper, we discuss some applications of IoT in different fields and privacy-related issues faced by IoT in resource-constrained devices. We discuss some applications of blockchain in vast majority of areas, and the opportunities it brings to resolve IoT privacy limitations. We, then, survey different researches based on the implementation of blockchain in IoT. The goal of this paper is to survey recent researches based on the implementation of blockchain in IoT for privacy preservation. After analyzing the recent solutions, we see that the blockchain is an optimal way for preventing identity disclosure, monitoring, and providing tracking in IoT.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0814",
+  "title": "A Survey of LSTM Pedestrian Intention Prediction and Lightweight Methods for Intelligent Guide Sticks",
+  "year": "2026",
+  "abstract": "The travel problem of visually impaired people is a worldwide issue that needs urgent attention. Although intelligent guide sticks provide obstacle detection and early warning through multi-sensor fusion and embedded algorithms, existing systems generally cannot model the temporal movement patterns of dynamic obstacles, such as pedestrians and vehicles, thereby hindering intention prediction and active obstacle avoidance. Long short-term memory (LSTM), with its gating mechanism, effectively captures long-term dependencies in trajectories and offers a promising solution. This review compares and analyzes LSTM against other mainstream temporal models under the resource constraints of intelligent guide sticks and finds that LSTM demonstrates a favorable combination in temporal modeling capability, lightweight maturity, and edge deployment feasibility. We categorize five lightweight techniques—architecture simplification, low-rank decomposition, structured pruning, quantization, and knowledge distillation—and examine their compression effectiveness, accuracy preservation, and hardware applicability across typical platforms. Furthermore, this review surveys application cases in speech guidance, trajectory prediction-based obstacle avoidance, positioning and navigation, edge computing, and Internet collaboration, exploring the diverse potential of LSTM in intelligent guide stick scenarios. The findings indicate that, after lightweight processing, LSTM models can meet the deployment requirements of resource-constrained edge devices, suggesting their potential feasibility on resource-constrained hardware platforms. However, existing applications still face challenges in balancing real-time performance and accuracy, meeting stringent resource constraints, and the absence of end-to-end validation on real intelligent guide stick prototypes. The reviewed evidence suggests that LSTM-based prediction represents a promising and practically valuable pathway for transitioning intelligent guide sticks from passive response to active prediction. Future research should prioritize real-world deployment validation, domain-specific data collection, and hardware-software co-design to realize its potential fully.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0815",
+  "title": "Review on Embedded Systems and the Internet of Things: Comparative Study",
+  "year": "2021",
+  "abstract": "Nowadays, thanks to the explosion of the Internet of Things or IoT, any object for public or industrial use can be connected to the Internet and become connected. Which requires companies to follow this explosion and to make improvements on their products to meet the evolving needs of human society. Going back before the explosion of the IoT, the business life was based on the embedded system concept. The latter is the combination of software and hardware, with fixed or programmable capabilities and it is specifically designed for a type of a particular application. This article presents a definition and a comparative study of a set of microcontrollers, boards, and operating systems the most used in IoT projects. Additionally, this comparative study helps us focus on the transition from embedded to IoT, by discussing the evolution of embedded systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0816",
+  "title": "Privacy-Preserving MLOps with Differential Privacy and AI-Guided Tuning",
+  "year": "2026",
+  "abstract": "When machine learning systems transition from being deployed within research environments to enterprise-scale deployment pipelines, protecting data privacy poses an increasing challenge while the model is being trained and/or used. Privacy-preserving techniques will predominantly rely on some form of static differential privacy (DP) constraint, with the challenge often being to balance privacy requirements with model performance, particularly with dynamic workloads. In this paper, we propose a new Privacy-Preserving MLOps (PP-MLOps) framework that combines AI-aided adaptive tuning of differential privacy in the automated MLOps lifecycle. These proposed agent approaches allow for a flexible way to continuously assess privacy risks, regulatory obligations to privacy and confidentiality, and the value of model utility metrics while adapting DP scale of noise, depth of clipping, and privacy budgets (ε, δ) in real-time to achieve optimal model utility. The continuous optimization of DP in CI/CD pipeline operations is actualized through also using reinforcement-learning based controllers to adjust for a range of privacy and performance tradeoff situations in real-time. Evaluation simulations show a 20% improvement in model accuracy retention in regulation compliant DP tuning and operational measures against traditional fixed DP configurations of varying distributions and operational risks. This study can lay the foundation for fully autonomous risk sensing and regulatory compliant MLOps while translating theoretical claims of privacy, application and assurance in a pragmatic framework machine learning deployment at scale.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0817",
+  "title": "Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs",
+  "year": "2025",
+  "abstract": "Small language models (SLMs; 1-12B params, sometimes up to 20B) are sufficient and often superior for agentic workloads where the objective is schema- and API-constrained accuracy rather than open-ended generation. We synthesize recent evidence across open and proprietary SLMs (Phi-4-Mini, Qwen-2.5-7B, Gemma-2-9B, Llama-3.2-1B/3B, Ministral-3B/8B, Apple on-device 3B, DeepSeek-R1-Distill) and connect it to modern evaluations (BFCL v3/v4, StableToolBench) and serving stacks (vLLM, SGLang, TensorRT-LLM) paired with guided decoding libraries (XGrammar, Outlines). We formalize SLM-default, LLM-fallback systems with uncertainty-aware routing and verifier cascades, and propose engineering metrics that reflect real production goals: cost per successful task (CPS), schema validity rate, executable call rate, p50/p95 latency, and energy per request. Guided decoding, strict JSON Schema outputs, and validator-first tool execution close much of the capability gap with larger models and often let SLMs match or surpass LLMs on tool use, function calling, and RAG at 10x-100x lower token cost with materially better latency and energy. We provide design patterns for agent stacks that prioritize SLMs: schema-first prompting, type-safe function registries, confidence scoring with verifier rollups, and lightweight adaptation via LoRA/QLoRA. We also delineate limits where fallback remains valuable (open-domain reasoning and some long-horizon planning). The result is a practical blueprint for building fast, inexpensive, and reliable agents that default to SLMs while preserving headroom with targeted LLM assistance. Keywords: small language models, agents, function calling, structured outputs, JSON Schema, guided decoding, LoRA/QLoRA, routing, energy efficiency, edge inference",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0818",
+  "title": "LLaMA-Reviewer: Advancing Code Review Automation with Large Language Models through Parameter-Efficient Fine-Tuning",
+  "year": "2023",
+  "abstract": "The automation of code review activities, a long-standing pursuit in software engineering, has been primarily addressed by numerous domain-specific pre-trained models. Despite their success, these models frequently demand extensive resources for pre-training from scratch. In contrast, Large Language Models (LLMs) provide an intriguing alternative, given their remarkable capabilities when supplemented with domain-specific knowledge. However, their potential for automating code review tasks remains largely unexplored.In response to this research gap, we present LLaMA-Reviewer, an innovative framework that leverages the capabilities of LLaMA, a popular LLM, in the realm of code review. Mindful of resource constraints, this framework employs parameter-efficient fine-tuning (PEFT) methods, delivering high performance while using less than 1% of trainable parameters.An extensive evaluation of LLaMA-Reviewer is conducted on two diverse, publicly available datasets. Notably, even with the smallest LLaMA base model consisting of 6.7B parameters and a limited number of tuning epochs, LLaMA-Reviewer equals the performance of existing code-review-focused models.The ablation experiments provide insights into the influence of various fine-tuning process components, including input representation, instruction tuning, and different PEFT methods. To foster continuous progress in this field, the code and all PEFT-weight plugins have been made open-source.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0819",
+  "title": "SYMPHONY: Enabling Compute-Memory Disaggregation in LLM Serving Systems",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0820",
+  "title": "A mini-review of embedded 3D printing: supporting media and strategies.",
+  "year": "2020",
+  "abstract": "Embedded 3D printing is an additive manufacturing method based on a material extrusion strategy. Its distinctive feature is that the printing process is carried out in a supporting medium, and the printed ink filaments can be embedded in the supporting medium. It makes the printing process almost undisturbed by gravity, and no additional support needs to be planned before the object is printed. In recent years, embedded 3D printing has been used in sensors, software robots, tissue engineering, dosage forms, and organ models, showing strong potential. This article summarizes embedded 3D printing's latest progress on supporting media and strategies in a short space.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0821",
+  "title": "Segmenting Clinicians’ Usage Patterns of a Digital Health Tool in Resource-Limited Settings: Clickstream Data Analysis and Survey Study",
+  "year": "2021",
+  "abstract": "Background Evidence-based digital health tools allow clinicians to keep up with the expanding medical literature and provide safer and more accurate care. Understanding users’ online behavior in low-resource settings can inform programs that encourage the use of such tools. Our program collaborates with digital tool providers, including UpToDate, to facilitate free subscriptions for clinicians serving in low-resource settings globally. Objective We aimed to define segments of clinicians based on their usage patterns of UpToDate, describe the demographics of those segments, and relate the segments to self-reported professional climate measures. Methods We collected 12 months of clickstream data (a record of users’ clicks within the tool) as well as repeated surveys. We calculated the total number of sessions, time spent online, type of activity (navigating, reading, or account management), calendar period of use, percentage of days active online, and minutes of use per active day. We defined behavioral segments based on the distributions of these statistics and related them to survey data. Results We enrolled 1681 clinicians from 75 countries over a 9-week period. We based the following five behavioral segments on the length and intensity of use: short-term, light users (420/1681, 25%); short-term, heavy users (252/1681, 15%); long-term, heavy users (403/1681, 24%); long-term, light users (370/1681, 22%); and never-users (252/1681, 15%). Users spent a median of 5 hours using the tool over the year. On days when users logged on, they spent a median of 4.4 minutes online and an average of 71% of their time reading medical content as opposed to navigating or managing their account. Over half (773/1432, 54%) of the users actively used the tool for 48 weeks or more during the 52-week study period. The distribution of segments varied by age, with lighter and less use among those aged 35 years or older compared to that among younger users. The speciality of medicine had the heaviest use, and emergency medicine had the lightest use. Segments varied strongly by geographic region. As for professional climate, most respondents (1429/1681, 85%) reported that clinicians in their area would view the use of a online tool positively, and compared to those who reported other views, these respondents were less likely to be never-users (286/1681, 17% vs 387/1681, 23%) and more likely to be long-term users (655/1681, 39% vs 370/1681, 22%). Conclusions We believe that these behavioral segments can help inform the implementation of digital health tools, identify users who may need assistance, tailor training and messaging for users, and support research on digital health efforts. Methods for combining clickstream data with demographic and survey data have the potential to inform global health implementation. Our forthcoming analysis will use these methods to better elucidate what drives digital health tool use.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0822",
+  "title": "Distilling Quality Enhancing Comments From Code Reviews to Underpin Reviewer Recommendation",
+  "year": "2024",
+  "abstract": "Code review is an important practice in software development. One of its main objectives is for the assurance of code quality. For this purpose, the efficacy of code review is subject to the credibility of reviewers, i.e., reviewers who have demonstrated strong evidence of previously making quality-enhancing comments are more credible than those who have not. Code reviewer recommendation (CRR) is designed to assist in recommending suitable reviewers for a specific objective and, in this context, assurance of code quality. Its performance is susceptible to the relevance of its training dataset to this objective, composed of all reviewers’ historical review comments, which, however, often contains a plethora of comments that are irrelevant to the enhancement of code quality. Furthermore, recommendation accuracy has been adopted as the sole metric to evaluate a recommender's performance, which is inadequate as it does not take reviewers’ relevant credibility into consideration. These two issues form the ground truth problem in CRR as they both originate from the relevance of dataset used to train and evaluate CRR algorithms. To tackle this problem, we first propose the concept of Quality-Enhancing Review Comments (QERC), which includes three types of comments - change-triggering inline comments, informative general comments, and approve-to-merge comments. We then devise a set of algorithms and procedures to obtain a distilled dataset by applying QERC to the original dataset. We finally introduce a new metric – reviewer's credibility for quality enhancement (RCQE) – as a complementary metric to recommendation accuracy for evaluating the performance of recommenders. To validate the proposed QERC-based approach to CRR, we conduct empirical studies using real data from seven projects containing over 82K pull requests and 346K review comments. Results show that: (a) QERC can effectively address the ground truth problem by distilling quality-enhancing comments from the dataset containing original code reviews, (b) QERC can assist recommenders in finding highly credible reviewers at a slight cost of recommendation accuracy, and (c) even “wrong” recommendations using the distilled dataset are likely to be more credible than those using the original dataset.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0823",
+  "title": "On-Device Privacy and Zero-Knowledge Storage in Mobile Applications: A Review with Attention to Cross-Platform React Native Development",
+  "year": "2026",
+  "abstract": "Mobile applications hold the most intimate data that most people generate—messages, health signals, finances, locations, and journals—and the architectural question of where such data live in plaintext has become the defining privacy decision of app design. On-device privacy names one pole of the answer: data is processed, stored, and protected where it originates, and services are designed so that servers hold ciphertext they cannot read, an architecture popularly called zero-knowledge storage. This review synthesizes the research literature relevant to building such applications, with specific attention to the cross-platform reality in which much of the mobile ecosystem, prominently React Native applications, is actually built. It first fixes terminology, distinguishing the cryptographic meaning of zero knowledge from the architectural marketing usage, and organizes the threat models—curious servers, device compromise, network adversaries, and legal compulsion—against which designs are meaningfully compared. It then reviews the platform security foundations, hardware-backed keystores, trusted execution, biometric gating, and their documented limits; encrypted local storage, from key derivation through database encryption to searchable and oblivious techniques and their leakage trade-offs; end-to-end encrypted synchronization and the protocol lineage that made forward secrecy deployable; and on-device privacy-preserving computation, including local inference, differential privacy, and federated learning, with the attack literature that bounds their guarantees. The cross-platform layer receives dedicated treatment: the JavaScript runtime, bridge architecture, dependency supply chain, and the misuse findings of the mobile security measurement literature as they bear on React Native designs. The review closes with the recurring gaps—usable key recovery, metadata protection, and verification of zero-knowledge claims—and identifies directions for research and practice.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0824",
+  "title": "Serverless Architecture and Its Impact on Scalable Web Services",
+  "year": "2026",
+  "abstract": "In the rapidly evolving landscape of modern cloud computing, serverless computing is transforming the cloud architecture by allowing developer to develop and run applications excluding handling physical infrastructure. Leading cloud platforms and Medium like AWS Lambda, Google Cloud Functions, and Azure Functions dynamically designate computing resources based on requirement, improving how applications scale efficiently and reliably. This research examined how serverless architecture impact the scalability, cost effectiveness and elasticity of web services, with particular emphasis on real-world deployment scenarios across diverse industries and use cases. It also sites key hurdles such as dependency on particular vendors, delay in responding, and data security concerns, all of which represent significant barriers to widespread adoption. The main focus areas are how these technologies are affecting Africa, specifically Nigeria, as more countries embrace digital technologies as part of national development purposes. To address these dimensions comprehensively, the study employs a structured and systematic review methodology. By evaluating an in-dept examination and recent findings drawn from peer-reviewed literature and industry case studies, key patterns and insights emerge. This document includes that serverless computing provides effective solution for scalable web services, both globally and withing emerging market, positioning it as a strategic enabler of digital transformation and broader economic growth in resource-constrained environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0825",
+  "title": "An s(CASP) In-Browser Playground based on Ciao Prolog",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0826",
+  "title": "A Systematic Review of Lightweight Multi-Scale Feature Extraction Models for Medical Image Segmentation",
+  "year": "2026",
+  "abstract": "Medical image segmentation functions as an essential tool for both clinical diagnosis and treatment preparation. Deep learning models achieve better segmentation accuracy but their high computational needs restrict their deployment in real-time or edge-device applications. Lightweight models with multi-scale feature extraction provide an efficient solution that maintains high-performance levels. The evaluation of their accuracy together with computational cost has not received sufficient systematic assessment. This review assesses lightweight segmentation models that use multi-scale features that were published between 2020 and 2025. The models are divided into three distinct categories: (1) pure CNNs, (2) CNNs with attention mechanisms, and (3) hybrid models that integrate transformers or MLPs. The evaluation process includes performance benchmarking of three public datasets (CVC-ClinicDB, Kvasir-SEG, and ISIC2018) through Dice score, mean IoU, parameter count, and GFLOPs metrics. The MILUNet and MSMULNet CNN-based models deliver high Dice scores exceeding 93% on Kvasir-SEG while maintaining extremely low complexity at under 2.2M parameters and 0.05 GFLOPs. The attention-based models PMFSNet and PIS-Net enhance global context understanding, but transformer-based models like LM-Net deliver superior accuracy at increased computational expense. The review demonstrates that segmentation accuracy depends on resource availability. Pure CNNs provide the best solution for fast efficient deployment, yet hybrid and transformer models deliver better precision when resources become available. Future research needs to develop better generalization capabilities for imaging modalities while optimizing the accuracy-efficiency tradeoff for practical clinical use.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0827",
+  "title": "Real-Time Facial Expression Recognition for Mobile and Embedded Devices: A Survey of Methods, Techniques, and Challenges",
+  "year": "2026",
+  "abstract": "With the widespread adoption of mobile and embedded devices, facial expression recognition (FER) is shifting from high-performance servers to resource-constrained platforms, where real-time inference is a key requirement. This paper investigates real-time FER in such scenarios. From an end-to-end pipeline perspective, it analyzes factors affecting real-time performance and identifies model inference as one of the primary bottlenecks in video-based systems. On this basis, lightweight network architectures and model compression and acceleration methods are reviewed, and representative models validated on real devices in existing studies are analyzed to summarize the trade-off between accuracy and real-time performance. Finally, it discusses limitations in evaluation standards, cross-device comparability, and robustness in complex environments, and outlines future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0828",
+  "title": "A Comprehensive Review of AI-Driven Raspberry Pi–Based Embedded Systems for IoT-Enabled Health Monitoring",
+  "year": "2026",
+  "abstract": "Healthcare has changed because of the fast rise of the Internet of Things (IoT) technologies. People can now use health management systems from home instead of being tracked in hospitals. The suggested system includes an AI-driven Raspberry Pi-based integrated system that can continuously and in real time check important health metrics like skin temperature, oxygen content, blood pressure, and heart rate. A Wi-Fi gadget sends the data safely to the cloud, where doctors can view it at any time through an Android app. Several biological devices send data to the cloud. This IoT-enabled system ensures real-time health monitoring, and alerts caregivers if abnormal readings are detected. The system provides low-cost, reliable, portable monitoring with real-time notifications, but is limited by short communication range, and signal obstruction. In addition, monitoring multiple parameters such as ECG, adds complexity. The system is great for chronic disease management, especially for children with diabetes and hypertension, as it enables them to monitor their health with a non-invasive and interactive approach. The system, enhanced with AI algorithms to detect health risks and issue alerts, optimizes patient management and decreases the frequency of hospital visits.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0829",
+  "title": "Efficient Retrieval of Matrix Factorization-Based Top-k Recommendations: A Survey of Recent Approaches",
+  "year": "2021",
+  "abstract": "Top-k recommendation seeks to deliver a personalized list of k items to each individual user. An established methodology in the literature based on matrix factorization (MF), which usually represents users and items as vectors in low-dimensional space, is an effective approach to recommender systems, thanks to its superior performance in terms of recommendation quality and scalability. A typical matrix factorization recommender system has two main phases: preference elicitation and recommendation retrieval. The former analyzes user-generated data to learn user preferences and item characteristics in the form of latent feature vectors, whereas the latter ranks the candidate items based on the learnt vectors and returns the top-k items from the ranked list. For preference elicitation, there have been numerous works to build accurate MF-based recommendation algorithms that can learn from large datasets. However, for the recommendation retrieval phase, naively scanning a large number of items to identify the few most relevant ones may inhibit truly real-time applications. In this work, we survey recent advances and state-of-the-art approaches in the literature that enable fast and accurate retrieval for MF-based personalized recommendations. Also, we include analytical discussions of approaches along different dimensions to provide the readers with a more comprehensive understanding of the surveyed works.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0830",
+  "title": "Analyzing Healthcare and Wellness Products’ Quality Embedded in Online Customer Reviews: Assessment with a Hybrid Fuzzy LMAW and Fermatean Fuzzy WASPAS Method",
+  "year": "2023",
+  "abstract": "With the high impetus in global digitization, online shopping (OS) is anticipated to increase further in the near future. Contrary to this anticipation, however, recent studies have emphasized a certain amount of drop in a considerable number of online purchasing transactions in 2022. One of the reasons might be customer dissatisfaction. To analyze online customer reviews, manual sentiment analysis was conducted to detect which quality criteria cause the dissatisfaction of online shoppers. The quality parameters are categorized into product, delivery service, and aftersales service quality (SQ). These main quality criteria are then divided into sub-factors. Eight health category products, including personal care products, wellness products, and household cleaners, were ranked to the importance of the sub-quality parameters using the multi-criteria decision-making (MCDM) method. In this study, a new hybrid MCDM method was also proposed, which combines the triangular fuzzy logarithm methodology of additive weights (F-LMAW) and the Fermatean fuzzy weighted aggregated sum product assessment method (FF-WASPAS). The study reveals that the most important criteria were products’ performance, as well as their side effects, pay-back, and change possibility, while the products’ reasonable price was the least important criterion. Aftersales service was more significant than delivery service. Furthermore, moisturizing creams and medical pillows were the most popular products bought in OS compared with hair conditioners and washing liquids. The study’s multifold contributions and managerial implications were elaborately discussed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0831",
+  "title": "Lightweight Steganography Technique in The Internet of Things: A survey",
+  "year": "2023",
+  "abstract": "In the context of the Internet of Things (IoT), lightweight steganography provides a revolutionary combination of technology and security, where data concealment meets the efficiency requirements of IoT devices. Lightweight steganography, as opposed to conventional steganographic methods, focuses on concealing information inside digital content while using the least amount of computer resources and energy. Secure data transfer is essential in the IoT world because linked devices may communicate with one another without interruption. IoT devices may communicate private data discreetly while conserving system resources, thanks to the elegant approach offered by lightweight steganography. This novel method makes use of complex algorithms that gently change data packets, turning them into bearers of hidden information without raising any red flags. The secrecy of IoT ecosystems is strengthened by lightweight steganography's easy integration of covert communication channels. In addition to improving data security, this technology also optimizes bandwidth usage and increases device battery life. A future when linked devices may transmit information safely, effectively, and surreptitiously is predicted as the IoT environment develops. This would usher in a period of unmatched data security and resource optimization.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0832",
+  "title": "Forty years of color quantization: a modern, algorithmic survey",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0833",
+  "title": "The Evolution of Small Language Models in Healthcare: A Narrative-Evolutionary Literature Review",
+  "year": "2026",
+  "abstract": "Small Language Models (SLMs) are emerging as transformative tools in healthcare AI, offering an optimal balance between task performance, privacy, and computational efficiency. Unlike Large Language Models (LLMs), which require substantial infrastructure and raise privacy concerns, SLMs are designed for domain-specific applications in real-time, resource-constrained clinical settings. This narrative-evolutionary review traces the development, capabilities, and deployment of SLMs across key healthcare domains, including clinical documentation, decision support, mental health, and telehealth. It outlines enabling technologies such as model compression, federated learning, and edge deployment that facilitate secure and efficient operation within sensitive healthcare infrastructures. To assess their clinical utility, we introduce a domain-relevance matrix and evaluate SLMs using both conventional and deployment-aware metrics, such as latency, memory usage, and compliance with data regulations. The review also identifies critical research gaps in benchmarking practices, data diversity, and explainability. We emphasize the importance of collaborative data ecosystems, standardized evaluation protocols, and socio-technical governance to ensure safe, multimodal, and regulation-compliant integration of SLMs in healthcare workflows. Overall, our findings position SLMs as a scalable, transparent, and context-aware solution for advancing real-world medical NLP, especially in scenarios demanding adaptability, trustworthiness, and decentralized AI performance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0834",
+  "title": "A Review on Home Security Embedded Systems Using IoT",
+  "year": "2021",
+  "abstract": "Internet of Things (IoT) is used to create the notion of remotely connecting and monitoring actual world objects (things) via the Internet.When it comes to our house, this idea can be aptly included to make it smarter, safer and automated.This IoT venture focuses on building a smart wireless home security machine which sends signals to the owner by the use of Internet in case of any trespass and raises an alarm optionally.Besides, the equal can also be utilized for home automation with the aid of making use of the equal set of sensors.The advantage obtained via preferring this system over the similar form of present structures is that the indicators and the repute despatched by means of the Wi-Fi connected microcontroller managed system can be acquired by using the consumer on his telephone from any distance irrespective of whether or not his mobile smartphone is related to the internet.IoT refers to the infrastructure of connected physical gadgets which is growing at a speedy charge as massive range of units and objects are getting associated to the Internet.Home security is a very beneficial software of IoT and we are the use of it to create an less expensive security gadget for properties as well as industrial use.The device will inform the proprietor about any unauthorized entry or each time the door is opened by sending a notification to the user.After the consumer gets the notification, he can take the vital actions.The security gadget will use a microcontroller recognised as Arduino Uno to interface between the components, a magnetic Reed sensor to monitor the status, a buzzer for sounding the alarm, and a WiFi module, ESP8266 to join and speak the usage of the Internet.The main benefits of such a gadget includes the ease of placing up, decrease charges and low maintenance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0835",
+  "title": "The application perspective of mutatoin testing",
+  "year": "2020",
+  "abstract": "The main goal of this thesis is to investigate, improve and extend the applicability of mutation testing. To seek the potential directions of how to improve and extend the applicability of mutation testing, we have started with a systematic literature review on the current state of how mutation testing is applied. The results from the systematic literature review have further guided us towards three directions of research: (1) speeding up mutation testing; (2) deepening our understanding ofmutation testing; (3) exploring new application domains ofmutation testing. For the first direction, we have leveraged compression techniques and weak mutation information to speed up mutation testing. The results have shown our proposed mutant compression techniques can effectively speed up strong mutation testing up to 94.3 times with an accuracy > 90%. Given the second direction, we are interested in gaining a better understanding of mutation testing especially in the situation where engineers cannot kill all the mutants by just adding test cases. We have investigated the relationships between code quality regarding the testability and observability, and the mutation score. We have observed a correlation between observability metrics and the mutation score. Furthermore, relatively simple refactoring operations/adding tests enable an increase in the mutation score. As for the third direction, we have explored two new application domains: one is physical computing, and the other is GPU programming. In both application domains, we have designed new mutation operators based on our observations of the common mistakes that could happen during the implementation of the software. We have found promising results in that mutation testing can help in revealing weaknesses of the test suite for both application domains. In summary, we have improved the applicability of mutation by proposing a new speed-up approach and investigating the relationship between testability/observability and mutation testing. Also, we have extended the applicability of mutation testing in physical computing and GPU programming domains.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0836",
+  "title": "Actionable Advice from Reviews via Mixture of LoRA Experts: A Two-LLM Pipeline for Issue Extraction and Business Recommendations",
+  "year": "2026",
+  "abstract": "Customer reviews contain detailed, domain specific signals about service failures and user expectations, but converting this unstructured feedback into actionable business decisions remains difficult. We study review-to-action generation: producing concrete, implementable recommendations grounded in review text. We propose a modular two-LLM framework in which an Issue model extracts salient issues and assigns coarse themes, and an Advice model generates targeted operational fixes conditioned on the extracted issue representation. To enable specialization without expensive full fine-tuning, we adapt the Advice model using a mixture of LoRA experts strategy: multiple low-rank adapters are trained and a lightweight gating mechanism performs token-level expert mixing at inference, combining complementary expertise across issue types. We construct synthetic review-issue-advice triples from Yelp reviews (airlines and restaurants) to supervise training, and evaluate recommendations using an eight dimension operational rubric spanning actionability, specificity, feasibility, expected impact, novelty, non-redundancy, bias, and clarity. Across both domains, our approach consistently outperforms prompting-only and single-adapter baselines, yielding higher actionability and specificity while retaining favorable efficiency-quality trade-offs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0837",
+  "title": "SYSTEMATIC LITERATURE REVIEW FOR LIGHTWEIGHT AUTHENTICATION ALGORITHM IN THE IoT",
+  "year": "2022",
+  "abstract": "The Internet of Things (IoT) being a promising technology of the future is expected to generate a tremendous amount of data that may be exposed to security flaws. Hence, to protect IoT applications from hackers, lightweight cryptography has been identified as one of the suitable mechanisms since it is designed to fulfil security demands in resource-constrained hardware and software. This paper aims to analyse the current security requirements in designing lightweight cryptography for IoT applications, specifically for integrity and authentication algorithms. There are three objectives to focus on: Determine the current state of integrity and authentication research, investigate the integrity and authentication requirements, and analyse the lightweight authentication algorithm currently used. The Kitchenham systematic review method was adopted using a four-step process. The selected articles in this study were retrieved from four reputable databases and 57 of them were deemed suitable for analysis after meeting the selection criteria. From this systematic literature review, it was discovered that there were three active research focuses on the IoT. The research focuses were mostly on cyberattacks against IoT applications, system security requirements and algorithms for lightweight authentication. Furthermore, the analysis also revealed the convergence of lightweight authentication algorithms to ensure the future sustainability of applications. This study may provide researchers with a reference in designing lightweight authentication algorithms to achieve the desired security requirements for sustainable security management in IoT.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0838",
+  "title": "Lightweight deep learning models for EEG decoding: a review",
+  "year": "2025",
+  "abstract": "Brain–computer interface (BCI) technology enables direct communication between the human brain and external devices by decoding electroencephalography (EEG)signals into actionable commands. As a noninvasive and portable modality, EEG-based BCIs hold promise for applications ranging from neurorehabilitation to assistive technologies. However, their performance depends critically on the accurate extraction of relevant neural features and the reliable recognition of underlying patterns. Deep learning has transformed this process. By automatically learning complex, task-relevant representations from raw or minimally processed EEG data, deep neural networks have surpassed many traditional handcrafted feature approaches in both accuracy and adaptability. Yet, the substantial computational and memory demands of many deep learning architectures limit their deployment in portable or real-time BCI systems. This challenge has motivated a growing interest in lightweight models-architectures optimized to reduce complexity while preserving or even enhancing performance. This paper provides a systematic review of such lightweight deep learning models for EEG signal classification. To organize this landscape, existing approaches are categorized into three main strategies: (1) information integration strategies based on multi-scale feature fusion, (2) hidden layer optimization strategies, and (3) hybrid improvement strategies based on structural optimization. The review synthesizes recent advances, identifies emerging trends, and outlines potential directions for future research. These insights aim to inform the design of efficient and robust EEG classification architectures capable of meeting the practical demands of real-world BCI applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0839",
+  "title": "A Critical Review of Technology Embedded Learning for Mathematics Learning",
+  "year": "2025",
+  "abstract": "The integration of embedded technology in mathematics learning has significantly influence modern practices. These days technological tools are quite helpful for teaching and learning. The use of technology in the classroom has grown in 21st century. As the demand on education in the modern age continue to rise, many forms of technology are having an enormous effect on classroom teaching. Technology must be used into actual classroom in order to improve students understanding in mathematics as well as critical thinking, problem solving ability, Therefore, it is essential to successfully embedded technology in mathematics instructions. Through the use of technology, we organized the classroom effectively and efficiently. According to Wei (2020), the technology-embedded classroom approach includes various forms of technology use in teaching. i.e., The technology- embedded classroom approach including technology assisted teaching, technology integrated teaching and technology- based teaching. However, challenges still exist during teaching and learning, without using technology, teacher may struggle to effectively deliver topic such as co-ordinate geometry, geometry, mensuration, circle etc. Additionally, students may bore during class while teaching by traditional method. Technology-embedded learning in mathematics offers many advantages. A technology-integrated classroom provides flexibility for both learners and instructors, allowing students to grasp topics with both abstract and concrete thinking. But it has many challenges too, such as high cost of technological tools, integration of mathematical tools, accessibility, lack of digital literacy etc. This paper critically reviews the role of technology for mathematics learning, explore its benefits and challenges and suggest some solution to integrate embedded technology in normal classroom for mathematics learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0840",
+  "title": "A Review of Lightweight Object Detection Algorithms for Mobile Augmented Reality",
+  "year": "2022",
+  "abstract": "org",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

@@ -1,0 +1,440 @@
+[
+ {
+  "id": "F0281",
+  "title": "A Survey on Sparse Mobile Crowdsensing: Functionalities and Research Issues",
+  "year": "2026",
+  "abstract": "Mobile Crowdsensing (MCS), also known as participatory sensing, refers to the process of utilizing the collective power of mobile devices (such as smartphones and wearables) to collect and share data about the environment, user behavior, and other phenomena. MCS leverages the ubiquity of mobile devices and their embedded sensors to create dynamic and large-scale sensing networks. Participants willingly contribute data from their devices, which are often equipped with sensors like Global Positioning System (GPS), cameras, accelerometers, and microphones. The collected data is aggregated and analyzed to gain insights into various aspects of urban environments, healthcare, transportation, and more. MCS offers real-time data collection, wide geographical coverage, and the potential for crowd-driven insights. Sparse Mobile Crowdsensing (SMCS) is a specialized variant of MCS that deals with the challenges posed by intermittent and irregular data collection from mobile devices. In SMCS scenarios, participants contribute data sporadically due to factors like device availability, user engagement, or incentives. The sporadic nature of data collection leads to gaps in the dataset, requiring innovative techniques for data imputation, prediction, and analysis. SMCS aims to overcome the limitations of sparse data to still provide valuable insights and meaningful applications. This paper provides a comprehensive and detailed study of the MCS and SMCS framework, the relevant research work carried out in sparse mobile crowdsensing, and at the end, we provide open research problems with the help of future research in this domain.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0282",
+  "title": "JWST Advanced Deep Extragalactic Survey (JADES) Data Release 5: Wisp Subtraction with the Nonnegative Matrix Factorization Algorithm",
+  "year": "2026",
+  "abstract": "Wisps are among the most prominent scattered light artifacts in JWST/NIRCam imaging. They often appear in certain regions of the detectors and contaminate observations at surface-brightness levels relevant for faint-source photometry. We introduce a new subtraction method that uses the nonnegative matrix factorization (NMF) algorithm to model and remove wisps. Using deep NIRCam observations from the JWST Advanced Deep Extragalactic Survey and other programs, we construct multicomponent, filter- and detector-specific wisp templates that capture the wisp structures and their exposure-to-exposure morphological variations. Wisps in individual exposures are represented as nonnegative linear combinations of these templates, consistent with their additive nature and reducing degeneracies relative to single-template scaling. Compared to existing approaches, our method delivers lower residual rms in wisp-affected regions and reduces photometric bias and scatter to levels consistent with clean detector areas. The NMF wisp templates are readily applicable to other data sets and are publicly released to support future NIRCam extragalactic surveys.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0283",
+  "title": "Differentiable Rendering and Identiﬁcation of Impact Sounds",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0284",
+  "title": "Factors Influencing LoRa Communication in IoT Deployment: Overview and Experience Analysis",
+  "year": "2022",
+  "abstract": "LoRa communication offers wireless sensor networks deployment for system or environmental monitoring over long distances and with low energy consumption. However, this radio communication technology is subject to environmental disturbances. In this paper, we propose an overview of the studies carried out on LoRa signal disturbances, taking the RSSI as a comparison parameter. Secondly, we extract the main influences to compare them with the data collected on the experimental platform of the Smart Village of Cozzano (Mediterranean area, Southern of Corsica island), a scientific program aiming to develop digital tools for the monitoring and the preservation of the environment. We use one of the most popular techniques in multivariate statistics, especially when analyzing large datasets, the principal component analysis (PCA). The results show the impact of some environmental parameters on communication quality.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0285",
+  "title": "A Generalized Formalism of Auto-Regressive Decoding for Speech Processing",
+  "year": "2026",
+  "abstract": "In speech processing, most state-of-the-art sequence prediction models rely on auto-regressive (AR) strategies to generate output sequences based on the raw predictions of the model. Despite their crucial role in the inference process, a comprehensive overview of AR strategies as a unified field is lacking, due largely to implicit and multiple definitions of next-token decoding. This context complicates the choice, comparison, and evaluation of strategies, while creating inconsistencies in the characterization of approaches as auto-regressive or not. We begin by setting explicit inclusion criteria for the field of AR search in speech processing, and derive a generalized theoretical framework to categorize and report on search strategies for neural models. We show the capabilities of this formalism in simplifying the design of benchmarks centered around the decoding process, allowing for ablation studies that are focused on search strategies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0286",
+  "title": "A descriptive review to sparsity measures",
+  "year": "2020",
+  "abstract": "Abstract Compressive sensing is a recent data sampling technique with a variety of advantages over the classical Shannon–Nyquist based technique. The main theoretical approach to compressive sensing is based on the informative value of data according to sparsity where the higher sparsity indicates the higher information content. Therefore, while data samples are linearly mixed and sensed by a much smaller number of sensors and result in compressively sensed data of much less volume, the sparsity maximization is a strong approach to retrieving the original higher volume data from the compressed one. The sparsity analysis is the main approach to the idea of compressive sensing, and an efficient measure of sparsity has a key role in this regard. Although k-sparsity is the sparsity measure in use by compressive sensing techniques, it being well established in the theoretical analysis of compressive sensing, there are a variety of sparsity measures. This chapter reviews the sparsity measures from the k-sparsity already in use to be compared with other more complicated sparsity measures.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0287",
+  "title": "Preview, Attend and Review: Schema-Aware Curriculum Learning for Multi-Domain Dialogue State Tracking",
+  "year": "2021",
+  "abstract": "Existing dialog state tracking (DST) models are trained with dialog data in a random order, neglecting rich structural information in a dataset. In this paper, we propose to use curriculum learning (CL) to better leverage both the curriculum structure and schema structure for task-oriented dialogs. Specifically, we propose a model-agnostic framework called Schema-aware Curriculum Learning for Dialog State Tracking (SaCLog), which consists of a preview module that pre-trains a DST model with schema information, a curriculum module that optimizes the model with CL, and a review module that augments mispredicted data to reinforce the CL training. We show that our proposed approach improves DST performance over both a transformer-based and RNN-based DST model (TripPy and TRADE) and achieves new state-of-the-art results on WOZ2.0 and MultiWOZ2.1.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0288",
+  "title": "Data-based modeling and control of nonlinear process systems using sparse identification: An overview of recent results",
+  "year": "2023",
+  "abstract": "This paper discusses recent developments in the data-based modeling and control of nonlinear chemical process systems using sparse identification of nonlinear dynamics (SINDy). SINDy is a recent nonlinear system identification technique that uses only measurement data to identify model dynamical systems in the form of first-order nonlinear differential equations. In this work, the challenges of handling time-scale multiplicities and noisy sensor data when using SINDy are addressed. Specifically, a brief overview of novel methods devised to overcome these challenges are described, along with modeling guidelines for using the proposed techniques for process systems. When applied to two-time-scale systems, to overcome model stiffness, which leads to ill-conditioned controllers, a reduced-order modeling approach is proposed where SINDy is used to model the slow dynamics, and nonlinear principal component analysis is used to algebraically ‘‘slave’’ the fast states to the slow states. The resulting model can then be used in a Lyapunov-based model predictive controller with guaranteed closed-loop stability provided the separation of fast and slow dynamics is sufficiently large. To handle high levels of sensor noise, SINDy is combined with subsampling and co-teaching to improve modeling accuracy. The challenges of modeling and controlling large-scale systems using noisy industrial data are then addressed by using ensemble learning with SINDy. After summarizing the advances, a nonlinear chemical process is used to provide an end-to-end demonstration of process modeling using sparse identification with guidelines for chemical engineering practitioners. Finally, several future research directions for the incorporation of SINDy into process systems engineering are proposed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0289",
+  "title": "Real-Time Embedded Monitoring Technologies in Modern Healthcare Systems: A Survey",
+  "year": "2024",
+  "abstract": "This literature survey provides an overview on the current state of the practice for real-time embedded healthcare monitoring systems. These technologies enable healthcare systems to keep a constant eye on patients, collecting vital health data. They can send alerts and insights to healthcare providers, allowing for faster and better care. Our survey includes an investigation on the rising use of artificial intelligence and deep learning along with the use of intelligent sensors for capturing and analyzing data in real-time health monitoring systems. We also examine the current state of connected embedded health monitoring systems via, e.g. the Internet of Things (IoT). Wireless sensor networks and Tele-Health technologies are also addressed as they are instrumental in enhancing the precision, accessibility, and real-time nature of health data, ensuring that both patients and providers are always connected. Our survey discusses the applications and advantages associated with these technologies, providing valuable insights into their role in enhancing patient care, decision support, and tracking. Additionally, we navigate through the challenges, seeking pathways to mitigate them, and ensuring that the technology is inclusive, secure, and efficient. By examining the latest research and innovations, this survey aims to illuminate the current state of real-time healthcare monitoring and guide future advancements in this critical field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0290",
+  "title": "A Review on FPGA Implementation of Lightweight Cryptography for Wireless Sensor Network",
+  "year": "2023",
+  "abstract": "Wireless sensor networks (WSNs) have become increasingly popular in recent years due to their ability to remotely monitor and gather data in a variety of applications. The frequent exchange of confidential data over the network makes WSNs vulnerable to various attacks that can threaten their security. To mitigate these attacks security services such as confidentiality, authentication, and integrity is required. The interacting devices in the network can be authenticated and the transmitted data can be protected using encryption methods. As WSNs are resource-limited, it is a challenge to develop and implement an encryption algorithm that is secure and resource-efficient. The National Institute of Standards and Technology (NIST) initiated the lightweight cryptography (LWC) project to standardize lightweight cryptography algorithms, useful for constrained environments where current standards are not acceptable. Lightweight cryptographic algorithms are designed to provide adequate security and performance while not being computationally very expensive. The combination of cryptographic algorithms with hardware can significantly increase the security level, efficiency, and lifetime of the sensor node. This paper presents a comparative study of the NIST LWC finalists, evaluating the top variants based on design and FPGA benchmarking metrics such as block size, performance parameters, and security. All of the ciphers were implemented and tested on Xilinx Artix-7 FPGA. Finally, the paper discusses some optimization measures and future directions for the use of lightweight cryptographic coprocessors in WSNs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0291",
+  "title": "Peer Review #3 of \"A novel air quality monitoring and improvement system based on wireless sensor and actuator networks using LoRa communication (v0.2)\"",
+  "year": "2021",
+  "abstract": "In this paper, we study the air quality monitoring and improvement system based on wireless sensor and actuator network using LoRa communication.The proposed system is divided into two parts, indoor cluster and outdoor cluster, managed by a Dragino LoRa gateway.Each indoor sensor node can receive information about the temperature, humidity, air quality, dust concentration in the air and transmit them to the gateway.The outdoor sensor nodes have the same functionality, add the ability to use solar power, and are waterproof.The full-duplex relay LoRa modules which are embedded FreeRTOS is arranged to forward information from the nodes it manages to the gateway via uplink LoRa.The gateway collects and processes all of the system information and makes decisions to control the actuator to improve the air quality through the downlink LoRa.We build data management and analysis online software based on The Things Network and TagoIO platform.The system can operate with a coverage of 8.5 km, where optimal distances are established between sensor nodes and relay nodes and between relay nodes and gateways at 4.5 km and 4 km, respectively.Experimental results observed that the packet loss rate in real-time is less than 0.1% prove the effectiveness of the proposed system.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0292",
+  "title": "A Review of the Lightweight Technology of Object Detection Algorithms",
+  "year": "2024",
+  "abstract": "Deep learning has made significant progress in the field of object detection, especially convolutional neural networks have performed well in image classification, object detection, and segmentation tasks. However, with the increasing complexity of models and the demand for computing resources, traditional deep learning models face challenges in the deployment of resource-constrained mobile and embedded devices. In order to solve this problem, model compression and acceleration techniques have become a research hotspot, including pruning, quantification and knowledge distillation. The purpose of this paper is to review various algorithms in the field of object detection and their advantages and disadvantages, and to discuss the best optimization scheme based on the application and optimization effect of lightweight technology in various algorithms. The research objectives include: systematically summarizing and analyzing the main lightweight technologies currently used for object detection algorithms, evaluating their practical effects in object detection tasks, proposing improvement schemes suitable for specific application scenarios, and looking forward to the future development direction, and discussing potential research directions and technological breakthroughs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0293",
+  "title": "Drilling fluids, lightweight drilling fluids and use of artificial intelligence in new developments: a review",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0294",
+  "title": "Lattice-based cryptosystems for the security of resource-constrained IoT devices in post-quantum world: a survey",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0295",
+  "title": "A Survey: Object Feature Analysis Based on Non-negative Matrix Factorization",
+  "year": "2021",
+  "abstract": "<jats:p>\n                        \n                    </jats:p>",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0296",
+  "title": "JSON-ASR: A lightweight data storage and exchange format for automatic systematic reviews of TCM",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0297",
+  "title": "Knowledge distillation in medical image analysis: A survey",
+  "year": "2026",
+  "abstract": "Deep learning frameworks have demonstrated significant promise in a wide range of medical image analysis tasks, such as image reconstruction, registration, super-resolution, denoising, segmentation, and classification. However, a prevailing issue in the existing literature is that many of these deep models are characterized by their heavy design, intricate pre-processing requirements, or an excessive number of parameters. Consequently, these factors result in extended model training times, high inference times, and substantial memory consumption, rendering them unsuitable for deployment in point-of-care settings. This comprehensive review article places a particular focus on recent efforts dedicated to developing lightweight and deployable deep learning models using knowledge distillation tailored for automated point-of-care diagnosis in medical imaging. It seeks to address the critical need for more efficient and resource friendly solutions that can operate effectively in real-time clinical environments. Furthermore, the article provides an in-depth examination of the current challenges associated with deploying deep learning models in point-of-care scenarios and explores potential strategies and innovations that hold promise for enhancing the reliability and accessibility of deep learning driven point-of-care diagnosis in the field of medical imaging.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0298",
+  "title": "Recent Advances in Federated Learning Driven Large Language Models: A Survey on Architecture, Performance, and Security",
+  "year": "2024",
+  "abstract": "Federated Learning (FL) offers a promising paradigm for training Large Language Models (LLMs) in a decentralized manner while preserving data privacy and minimizing communication overhead. This survey examines recent advancements in FL-driven LLMs, with a particular emphasis on architectural designs, performance optimization, and security concerns, including the emerging area of machine unlearning. In this context, machine unlearning refers to the systematic removal of specific data contributions from trained models to comply with privacy regulations such as the Right to be Forgotten. We review a range of strategies enabling unlearning in federated LLMs, including perturbation-based methods, model decomposition, and incremental retraining, while evaluating their trade-offs in terms of efficiency, privacy guarantees, and model utility. Through selected case studies and empirical evaluations, we analyze how these methods perform in practical FL scenarios. This survey identifies critical research directions toward developing secure, adaptable, and high-performing federated LLM systems for real-world deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0299",
+  "title": "A survey of model pruning for deep neural network",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0300",
+  "title": "Review on Application of Vision Transformers in IoT Edge Devices for Plant Sensor Measurement Forecasting",
+  "year": "2024",
+  "abstract": "The advances in computer vision methods in agriculture continue to gain attention due to safe non-invasive approach to estimate plant well-being in agricultural food production environments. This paper reviews some of the latest advances and methods in this field, particularly when estimating various plant characteristics and overall plant well-being from an image or set of plant images on the IoT Edge devices. The Vision Transformers (ViT) and Convolutional Neural Network (CNN) models currently are widely adopted and compared in this field. The most recent of the two types of model architectures – ViT is being researched in the context of IoT networks and its potential for deployment on Edge is being evaluated. However, more research is needed in this field to overcome the transformer model limitations and drawbacks. The current research shows that for transformer model deployment on the Edge there exists some optimization and compression techniques that would allow it to be adopted more widely across different computer vision tasks in agriculture on Edge. The hybrid model approach is also emerging where the advantages of both CNN and ViT are combined to reach higher accuracy and better performance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0301",
+  "title": "A Comprehensive Survey on Deep Learning-Based LoRa Radio Frequency Fingerprinting Identification",
+  "year": "2024",
+  "abstract": "LoRa enables long-range communication for Internet of Things (IoT) devices, especially those with limited resources and low power requirements. Consequently, LoRa has emerged as a popular choice for numerous IoT applications. However, the security of LoRa devices is one of the major concerns that requires attention. Existing device identification mechanisms use cryptography which has two major issues: (1) cryptography is hard on the device resources and (2) physical attacks might prevent them from being effective. Deep learning-based radio frequency fingerprinting identification (RFFI) is emerging as a key candidate for device identification using hardware-intrinsic features. In this paper, we present a comprehensive survey of the state of the art in the area of deep learning-based radio frequency fingerprinting identification for LoRa devices. We discuss various categories of radio frequency fingerprinting techniques along with hardware imperfections that can be exploited to identify an emitter. Furthermore, we describe different deep learning algorithms implemented for the task of LoRa device classification and summarize the main approaches and results. We discuss several representations of the LoRa signal used as input to deep learning models. Additionally, we provide a thorough review of all the LoRa RF signal datasets used in the literature and summarize details about the hardware used, the type of signals collected, the features provided, availability, and size. Finally, we conclude this paper by discussing the existing challenges in deep learning-based LoRa device identification and also envisage future research directions and opportunities.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0302",
+  "title": "A Survey of Incentive Mechanisms for Federated Learning",
+  "year": "2024",
+  "abstract": "Federated learning is a cutting-edge distributed machine learning technique that lowers the possibility of data leaking from centralized uploads by enabling users to cooperatively train models. It not only protects client privacy but also better utilizes decentralized data resources, demonstrating high learning performance. To employ their models in the training process, however, a significant number of clients must be involved, which inexorably uses up the device's resourcescomputational power, communication bandwidth, and energy. Therefore, incentivizing more clients to participate in federated learning is crucial. Typical methods can provide numerical or model-based compensation to ensure they contribute their valuable model resources. This paper provides a brief introduction to federated learning and incentive mechanisms, and surveys related research on federated learning incentives. Specifically, this paper categorizes existing federated learning incentive mechanisms into four technical approaches: Shapley values, Stackelberg games, auctions, and contracts. Finally, the paper discusses some future directions for incentivizing clients in federated learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0303",
+  "title": "Peer Review #1 of \"Topic2features: a novel framework to classify noisy and sparse textual data using LDA topic distributions (v0.1)\"",
+  "year": "2021",
+  "abstract": "In supervised machine learning, specifically in classification tasks, selecting and analyzing the feature vector to achieve better results is one of the most important tasks.Traditional methods such as comparing the features' cosine similarity and exploring the datasets manually to check which feature vector is suitable is relatively time consuming.Many classification tasks failed to achieve better classification results because of poor feature vector selection and sparseness of data.In this paper, we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions of hidden topics gathered from dataset and converting into feature vectors to build supervised classifier.For this we leveraged unsupervised topic modelling LDA (Latent dirichlet allocation) approach to retrieve the topic distributions employed in supervised learning algorithms.We make use of labelled data and topic distributions of hidden topics that were generated from that data.We explore how the representation based on topics affect the classification performance by applying supervised classification algorithms.Additionally, we did careful evaluation on two types of datasets and compared them with baseline approaches without topic distributions and other comparable methods.The results show that our framework performs significantly better in terms of classification performance compared to the baseline(without T2F) approaches and also yields improvement in terms of F1 score compared to other compared approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0304",
+  "title": "Hyperspectral Unmixing Based on Nonnegative Matrix Factorization: A Comprehensive Review",
+  "year": "2022",
+  "abstract": "Hyperspectral unmixing has been an important technique that estimates a set of endmembers and their corresponding abundances from a hyperspectral image (HSI). Nonnegative matrix factorization (NMF) plays an increasingly significant role in solving this problem. In this article, we present a comprehensive survey of the NMF-based methods proposed for hyperspectral unmixing. Taking the NMF model as a baseline, we show how to improve NMF by utilizing the main properties of HSIs (e.g., spectral, spatial, and structural information). We categorize three important development directions, including constrained NMF, structured NMF, and generalized NMF. Furthermore, several experiments are conducted to illustrate the effectiveness of associated algorithms. Finally, we conclude this article with possible future directions with the purposes of providing guidelines and inspiration to promote the development of hyperspectral unmixing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0305",
+  "title": "A Multi-Scale Feature Fusion Linear Attention Model for Movie Review Sentiment Analysis",
+  "year": "2025",
+  "abstract": "Sentiment classification is a key technique for analyzing the emotional tendency of user reviews and is of great significance to movie recommendation systems. However, existing methods often face challenges in practical applications due to complex model structures, low computational efficiency, or difficulties in balancing local details with global contextual features. To address these issues, this paper proposes a Multi-Scale Feature Fusion Linear Attention model (MSFFLA). The model consists of three core modules: the BERT Encoder module for extracting basic semantic features; the Parallel Multi-scale Feature Extraction module (PMFE) , which employs multi-branch dilated convolutions to accurately capture local fine-grained features; and the Global Multi-scale Linear Feature Extraction module (MGLFE) , which introduces a Multi-Scale Linear Attention mechanism (MSLA) to efficiently model global contextual dependencies with approximately linear computational complexity. Extensive experiments were conducted on three public datasets: SST-2, Amazon Reviews, and MR. The results show that compared to the state-of-the-art BERT-CondConv model, our model achieves improvements in accuracy and F1-Score by 1.8% and 0.4%, respectively, on the SST-2 dataset, and by 1.5% and 0.3% on the Amazon Reviews dataset. This study not only validates the effectiveness of the proposed model but also provides an efficient and lightweight solution for sentiment classification tasks in movie recommendation systems, demonstrating promising practical application prospects.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0306",
+  "title": "A Systematic Literature Review on Machine Learning Techniques for Enhancing Embedded Hardware Reliability",
+  "year": "2025",
+  "abstract": "Embedded systems (ES) have played a vital role in industrial automation and critical infrastructure, but their reliability has often been compromised by hardware faults, leading to downtime and safety concerns. Traditional threshold-based fault detection methods have frequently failed to adapt to dynamic environments and have struggled to identify early-stage failures. This study reviewed the effectiveness of artificial intelligence (AI), specifically machine learning (ML) models, for fault detection in ES. A systematic review methodology was employed to analyze the diagnostic performance of several deep learning (DL) architectures, including hybrid convolutional neural network-long short-term memory (CNN-LSTM) models, when implemented on resource-constrained edge devices. The results showed that optimized AI models achieved higher diagnostic accuracy and earlier fault identification compared to conventional approaches. Furthermore, these models enabled real-time, energy-efficient operation on platforms such as Raspberry Pi and ESP32 microcontrollers. It was concluded that AI-driven solutions significantly enhanced predictive maintenance and operational reliability in embedded system applications, demonstrating their transformative potential for future industrial systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0307",
+  "title": "REVIEW ANALYSIS INTERNET OF THINGS (IOT) USING LORA TECHNOLOGY",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0308",
+  "title": "Child-Computer Interaction Dynamics: A Systematic Review of Social Media Embedded Interactive Tools and Their Psychological Impacts",
+  "year": "2025",
+  "abstract": "Abstract Children are drawn to social media platforms that enable social and emotional interactions through features such as posting, messaging, and reactions. This systematic review, which included 41 journal articles published from 2011 to 2024, explored social media embedded interactive tools and psychological impacts on young children, emphasizing outcomes, associated risks and utilization of parental control options. The findings revealed that interactive tools on social media platforms such as posting and sharing, messaging and chat, reactions, games and challenges and content curation and discovery have diverse psychological impacts on children, affecting their social, cognitive, behavioral, and emotional well-being. However, they also introduce risks such as mental health issues, addiction, body image issues, distraction, and impaired social skills. Notably, a gap was observed regarding the impact of newer features such as live streaming, augmented reality and filters, and interactive tools like polls and quizzes. Parental controls (activity monitoring, screen time management, and account management) are crucial for safety, but their effectiveness varies, which is drawing interest from researchers, policymakers, and advocacy groups.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0309",
+  "title": "Programming Languages in Development of Embedded Systems: Preliminary Review",
+  "year": "2024",
+  "abstract": "In this work, a brief analysis of related work and comparation of programming languages in development of embedded systems has been presented. Focus of this paper is to show different programming languages used in various embedded systems as well as their popularity and efficiency in terms of speed and processing required data",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0310",
+  "title": "Quantum-Inspired Feature Learning and Parameter-Efficient Neural Architectures for IoT Intrusion Detection: A Comprehensive Review and Future Research Roadmap",
+  "year": "2026",
+  "abstract": "Rapid growth in the Internet of Things (IoT) networks means that almost limitless connectivity of intelligent devices and advanced technologies in the domains of healthcare, transport, industrial processes, and smart city automation are possible. However, the mass rollout of IoT devices with limited resources has exposed IoT networks to numerous cyber threat vectors including botnets, distributed denial-of-service (DDoS) attacks, the spread of malware, and unauthorized intrusions to computer networks. This has prompted the evolution of Intrusion Detection Systems (IDSs) from traditional machine learning (ML) techniques to various advanced deep learning techniques used for the detection and analysis of sophisticated cyberattack techniques on network traffic. Within this context, deep neural networks, convolutional neural networks, recurrent neural networks, and various autoencoder models, have all produced significant results with respect to attack detection; however, practical implementations have been constrained by a considerable amount of time and space resources. This has led to a focused interest in quantum-inspired learning approaches, which improve feature distinguishability for normal and attack traffic through the application of high dimensional probabilistic mappings. In addition, frameworks that utilize parameter-efficient design based on tensor decomposition, low-rank, and Kronecker factorizations, have reduced the time and space resources needed for attack detection. A comprehensive overview of IoT intrusion detection research, including benchmark datasets and ML and deep learning models, as well as quantum-inspired and structured neural approaches is provided in this paper. Additionally, current approaches are evaluated on their strengths and weaknesses, and major research gaps are noted. Lastly, the focus is on the development of the next generation of IoT security that is intelligent, scalable, and able to provide real-time protection.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0311",
+  "title": "Regulatory Requirements, Guidance, and Review of Embedded Digital Devices in Safety Systems",
+  "year": "2021",
+  "abstract": "Interest in embedded digital devices (EDDs) for monitoring and providing control of components is increasing in the nuclear power market as more and more users both within and outside the nuclear sector are employing EDDs. EDDs in other industries or countries may be known by the related terms as smart devices, devices of limited functionality, or intelligent devices. EDDs can sometimes perform a safety role when embedded in components such as temperature transmitters, pressure transmitters, voltage regulators, gas analyzers, boiler controllers, relays, and radiation monitors. The introduction of EDDs can affect safety by creating new hazards, vulnerabilities, failure modes, triggering mechanisms, and other potential safety concerns at both the component and system levels. The U.S. Nuclear Regulatory Commission’s (NRC’s) existing regulations and guidance cover the use of EDDs in safety-related and important to safety systems in nuclear power plants (NPPs). In addition to potential future challenges, the nature of EDDs being implemented in similar or identical manners between different plants and industries opens up the potential of leveraging the reviews of other regulators or utilization of industry certifications.Key words: embedded digital device, firmware",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0312",
+  "title": "Generalized Matrix Learning Vector Quantization Computational Method for Intelligent Decision Making: A Systematic Literature Review",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0313",
+  "title": "A Review of Recent Developments in SAR ADCs: Comparator Optimization and CMOS Scaling Trends",
+  "year": "2026",
+  "abstract": "ADCs [analog-to-digital converters] are essential for closing the gap between real-world analog signals and digital processing systems. The Successive Approximation Register [SAR] ADC is one of the ADC architectures that has gained improvement due to its balance of resolution, power effectiveness, and speed, making it largely suitable for biomedical, IoT, and embedded operations. This paper provides the recent development strategies aimed at optimizing SAR ADC performance in terms of power, speed, area, and resolution. Special emphasis is given to comparator infrastructures, as they represent the most critical block impacting the overall effectiveness. A review of multiple research contributions demonstrates that trade-offs are achieved through inventions in comparator design, DAC [digital-to-analog converters] and CMOS process scaling. The relative analysis suggests that adopting CMOS technologies can significantly reduce power and area while enhancing speed and integration. This study serves as a reference for the low-power, high- performance SAR ADC designs adopted for future applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0314",
+  "title": "A Survey on Intelligent Iterative Methods for Solving Sparse Linear Algebraic Equations",
+  "year": "2023",
+  "abstract": "Efficiently solving sparse linear algebraic equations is an important research topic of numerical simulation. Commonly used approaches include direct methods and iterative methods. Compared with the direct methods, the iterative methods have lower computational complexity and memory consumption, and are thus often used to solve large-scale sparse linear equations. However, there are numerous iterative methods, parameters and components needed to be carefully chosen, and an inappropriate combination may eventually lead to an inefficient solution process in practice. With the development of deep learning, intelligent iterative methods become popular in these years, which can intelligently make a sufficiently good combination, optimize the parameters and components in accordance with the properties of the input matrix. This survey then reviews these intelligent iterative methods. To be clearer, we shall divide our discussion into three aspects: a method aspect, a component aspect and a parameter aspect. Moreover, we summarize the existing work and propose potential research directions that may deserve a deep investigation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0315",
+  "title": "Peer Review #1 of \"SC-JNMF: single-cell clustering integrating multiple quantification methods based on joint non-negative matrix factorization (v0.1)\"",
+  "year": "2021",
+  "abstract": "Single-cell RNA-sequencing is a rapidly evolving technology that enables us to understand biological processes at unprecedented resolution.Single-cell expression analysis requires a complex data processing pipeline, and the pipeline is divided into two main parts: The quantification part, which converts the sequence information into gene-cell matrix data; the analysis part, which analyzes the matrix data using statistics and/or machine learning techniques.In the analysis part, unsupervised cell clustering plays an important role in identifying cell types and discovering cell diversity and subpopulations.Identified cell clusters are also used for subsequent analysis, such as finding differentially expressed genes and inferring cell trajectories.However, single-cell clustering using gene expression profiles shows different results depending on the quantification methods.Clustering results are greatly affected by the quantification method used in the upstream process.In other words, even if the original RNA-sequence data is the same, gene expression profiles processed by different quantification methods will produce different clusters.In this article, we propose a robust and highly accurate clustering method based on joint non-negative matrix factorization (joint-NMF) by utilizing the information from multiple gene expression profiles quantified using different methods from the same RNA-sequence data.Our joint-NMF can extract common factors among multiple gene expression profiles by applying each NMF under the constraint that one of the factorized matrices is shared among multiple NMFs.The joint-NMF determines more robust and accurate cell clustering results by leveraging multiple quantification methods compared to conventional clustering methods, which use only a single gene expression profile.Additionally, we showed the usefulness of discovering marker genes with the extracted factors using our method.seq).This technology has reached a surprising level of resolution that reveals the regulation of gene 35 expression within cells.scRNA-seq measures gene expression on a cell-by-cell basis and allows the 36 analysis of the functions and properties of cells using this information.Many experimental protocols 37 and computational analyses exist for scRNA-seq, and they have different goals such as differential ex-38 pression analysis, cell clustering, cell classification, and trajectory reconstruction.Therefore, single-cell 39 analysis forms a pipeline (a series of procedures) that mainly consists of two parts, quantification of 40 gene expression and downstream analysis depends on the goals.In the quantification part of a pipeline, 41 gene expression levels measured for each cell (raw sequence data) are converted to a matrix called the 42 \"gene expression profile\".The quantification part also forms a pipeline including read quality control, 43 adaptor trimming, demultiplexing, deduplicating using barcodes, mapping to genome, counting transcripts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0316",
+  "title": "Lightweight Block and Stream Cipher Algorithm: A Review",
+  "year": "2024",
+  "abstract": "Most of the Internet of Things (IoT), cell phones, and Radio Frequency Identification (RFID) applications need high speed in the execution and processing of data. this is done by reducing, system energy consumption, latency, throughput, and processing time. Thus, it will affect against security of such devices and may be attacked by malicious programs. Lightweight cryptographic algorithms are one of the most ideal methods Securing these IoT applications. Cryptography obfuscates and removes the ability to capture all key information patterns ensures that all data transfers occur Safe, accurate, verified, legal and undeniable.  Fortunately, various lightweight encryption algorithms could be used to increase defense against various attacks to preserve the privacy and integrity of such applications. In this study, an overview of lightweight encryption algorithms, and methods, in addition, a modern technique for these algorithms also will be discussed. Besides, a survey for the algorithm that would use minimal power, require less time, and provide acceptable security to low-end IoT devices also introduced, Evaluating the results includes an evaluation of the algorithms reviewed and what was concluded from them. Through the review, we concluded that the best algorithms depend on the type of application used. For example, Lightweight block ciphers are one of the advanced ways to get around security flaws.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0317",
+  "title": "A Review on an Optimized Knowledge Distillation Framework with Mamba-U Net Based on SAR for Brain Tumor Detection",
+  "year": "2025",
+  "abstract": "In Brain the abnormal or unbridled increase of the neurons or cells is brain tumor and it also known as tumor with in skull, which is one of most harmful and diseases. Every brain cancers are tumor, but not every tumors are cancerous. Some of noncancerous brain tumors are curable at early stage. Brain tumors are divided into four stages. Tumors classified as grade 1 and grade 2 are considered benign, meaning they are noncancerous and typically exhibit slow growth. Then, the grade 3 and grade 4 brain tumor is known as malignant tumor which grow more quickly and harmful disease. A better response to treatment after an early diagnosis of a brain tumour leads to a higher patient survival rate. Locating and classifying brain tumours in enormous collections of medical images involves a lot of time and effort when performed manually during standard clinical tasks. The benign tumor initially started to form with the brain and the malignant tumor forms in any location or organ of body which spread towards the brain [1]. Benign tumors include categories such as fibromas and adenomas, while malignant tumors are grouped into low-grade and high-grade types [2].",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0318",
+  "title": "Towards Optimized Retrieval-Augmented Generation: A Comprehensive Survey",
+  "year": "2025",
+  "abstract": "Retrieval-Augmented Generation (RAG) has emerged as a transformative paradigm for enhancing Large Language Models (LLMs) by grounding responses with external, non-parametric knowledge to enhance outputs and reduce hallucinations; however, the naïve retrieve-then-read approach faces significant limitations, necessitating optimization across the entire pipeline. This comprehensive survey delves into the diverse landscape of these optimization methodologies, moving beyond traditional approaches to explore innovative strategies that address critical challenges. We propose a four-stage taxonomy (Indexing, Retrieval, Augmentation, Generation) to structure the landscape of RAG optimization techniques, providing a detailed examination of chunking strategies, embedding techniques, query expansion methods, context compression algorithms, and prompt engineering approaches. Furthermore, we investigate recent innovations such as adaptive retrieval, hybrid architectures, and joint optimization techniques that synergistically combine improvements across multiple stages for enhanced end-to-end performance. Based on our synthesis of the existing literature, significant challenges remain in the development of effective RAG systems. Specifically, further research is needed to establish robust evaluation metrics, address computational limitations, and adapt these systems for use in diverse domains.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0319",
+  "title": "Survey and Benchmarking of Precision-Scalable MAC Arrays for Embedded DNN Processing",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0320",
+  "title": "On-Device Artificial Intelligence for Image Analysis in Resource-Limited Settings: A Review",
+  "year": "2025",
+  "abstract": "Medical imaging analysis in resource-limited settings face critical challenges, including inadequate computational infrastructure, unreliable connectivity, and a shortage of medical expertise.While cloud-based solutions have dominated medical artificial intelligence (AI), their reliance on stable internet and centralized data processing raises concerns about latency, privacy, and accessibility.On-device AI processes data locally on edge device and emerge as a transformative approach to address the given limitations.This review systematically explores the technical foundations, applications, and challenges of lightweight on-device AI for medical imaging in low-resource environments.Case studies across infectious disease detection using portable ultrasound, and retinal diagnostics demonstrate the feasibility of deploying compact models on devices such as Raspberry Pi-based platforms and smartphone.However, significant bottlenecks persist including hardware constraints, data scarcity, and ethical risks such as algorithmic bias.This study purpose the roadmap for future research to advocate for edge-cloud collaboration, bio-inspired ultra-low-power AI, and to bridge clinical and engineering domains.This review synthesizes cutting-edge advancements and provides practical insights for achieving equitable healthcare through decentralized and privacy-preserving AI solutions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ }
+]

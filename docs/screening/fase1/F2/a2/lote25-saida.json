@@ -1,0 +1,38 @@
+[
+  {
+    "id": "F0961",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Nonnegative Matrix Factorization in Dimensionality Reduction: A Survey"
+      },
+      {
+        "item": "tipo",
+        "texto": "this article presents a comprehensive survey of NMF, focusing on its applications in both feature extraction and feature selection"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction"
+      }
+    ]
+  },
+  {
+    "id": "F0962",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper proposes a framework for building and operating AI models at the industrial edge"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper proposes a framework"
+      },
+      {
+        "item": "tecnica",
+        "texto": "The edge device links sensor data with the model input and returns the model output as feedback back into the industrial process"
+      }
+    ]
+  }
+]

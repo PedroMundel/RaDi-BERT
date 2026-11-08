@@ -1,0 +1,254 @@
+[
+  {
+    "id": "F0001",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "This survey offers a thorough review of the latest advancements in diffusion model quantization",
+    "objetivo": null,
+    "motivo": "técnica de quantização aplicada só a modelos de difusão"
+  },
+  {
+    "id": "F0002",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "In this paper, we review various end-to-end automatic speech recognition algorithms and their optimization techniques for on-device applications",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): reconhecimento de fala (ASR) on-device"
+  },
+  {
+    "id": "F0003",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)",
+    "frase": "This literature review focuses on various techniques for reducing resource requirements and compressing large language models",
+    "objetivo": "saber",
+    "motivo": "survey geral de técnicas de compressão de LLM (quantização, pruning, KD, otimização arquitetural)"
+  },
+  {
+    "id": "F0004",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0005",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0007",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0008",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (e)",
+    "frase": "the technological challenges and trends in the latest AI accelerators are reviewed",
+    "objetivo": "saber",
+    "motivo": "survey de hardware/aceleradores de IA"
+  },
+  {
+    "id": "F0009",
+    "veredito": "dúvida",
+    "regra": "§1.2/§3.4 (frases insuficientes)",
+    "frase": "combining Federated Learning (FL) and the Internet of Things (IoT) symbolizes a revolutionary trend in edge-based intelligence",
+    "objetivo": null,
+    "motivo": "sem frase que declare o tipo (survey) nem eixo claro de §1.2; FL+IoT pode tocar implantação em borda mas não fica demonstrado"
+  },
+  {
+    "id": "F0010",
+    "veredito": "dúvida",
+    "regra": "§1.2/§3.4 (frases insuficientes)",
+    "frase": "edge computing and artificial intelligence (AI) can deal with such problems",
+    "objetivo": null,
+    "motivo": "menção a edge computing sugere possível eixo de implantação, mas não há frase que declare o tipo (survey) nem detalhe a técnica"
+  },
+  {
+    "id": "F0011",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "The control of street lights in the city can be controlled as a whole in one place with the help of and also it is assisted by artificial intelligence for its automation",
+    "objetivo": null,
+    "motivo": "não é survey; conteúdo é aplicação de automação urbana, sem relação com eficiência de implantação de modelos"
+  },
+  {
+    "id": "F0013",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "Through case studies, the practical applications of SHM are illustrated, emphasizing its effectiveness in real-world scenarios",
+    "objetivo": null,
+    "motivo": "estudo de caso (não organiza literatura); monitoramento estrutural, sem eixo de implantação de modelos"
+  },
+  {
+    "id": "F0015",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0016",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "In this survey, we provide a comprehensive review of deep TD models",
+    "objetivo": null,
+    "motivo": "survey de RL (temporal difference), sem eixo de implantação de modelos"
+  },
+  {
+    "id": "F0017",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0018",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "we introduce CultureSynth, a novel framework comprising (1) a comprehensive hierarchical multilingual cultural taxonomy",
+    "objetivo": null,
+    "motivo": "introduz framework/dataset próprio, não organiza literatura; tema é competência cultural de LLM, não implantação"
+  },
+  {
+    "id": "F0019",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c), indefinido",
+    "frase": "In this paper, we investigate the works that KD applies to FEL",
+    "objetivo": null,
+    "motivo": "KD é técnica da área, mas as frases não explicam o que é FEL nem se há eixo de implantação"
+  },
+  {
+    "id": "F0020",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "hardware constraints crucial for deployment in pacemakers, Holter monitors, and wearable ECG patches",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): classificação de ECG (dispositivos médicos)"
+  },
+  {
+    "id": "F0021",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)",
+    "frase": "This paper provides a comprehensive overview of pruning as a model compression strategy",
+    "objetivo": "saber",
+    "motivo": "survey geral de pruning como técnica de compressão"
+  },
+  {
+    "id": "F0022",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "This survey presents a comprehensive overview of deepfake audio generation and detection techniques",
+    "objetivo": null,
+    "motivo": "survey de geração/detecção de deepfake de áudio, sem eixo de implantação nas frases"
+  },
+  {
+    "id": "F0023",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "An overview of the significant turning points and patterns that have influenced the development of NLP is given in this study",
+    "objetivo": null,
+    "motivo": "survey histórico de NLP, sem eixo de implantação nas frases dadas"
+  },
+  {
+    "id": "F0024",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "optimized recommendation system is developed for analyzing customer reviews",
+    "objetivo": null,
+    "motivo": "paper primário de sistema de recomendação com rede neural própria, não survey; sem eixo de implantação"
+  },
+  {
+    "id": "F0025",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "model compression, and the extension of mask detection toward broader Personal Protective Equipment (PPE) compliance monitoring",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): detecção de máscara facial/EPI (visão)"
+  },
+  {
+    "id": "F0026",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This study presents a comprehensive survey of methods and architectures for automatic cervical cancer detection",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): imagem médica (câncer cervical)"
+  },
+  {
+    "id": "F0028",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "the application of UAV in urban planning and construction is mainly manifested in urban planning survey, urban illegal building supervision and environmental monitoring",
+    "objetivo": null,
+    "motivo": "aplicação de UAV em planejamento urbano; não é survey de literatura e não trata de implantação de modelos"
+  },
+  {
+    "id": "F0029",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "reducing the computing and storage overhead of deep neural networks is a very important and challenging problem in the field of face recognition",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): reconhecimento facial (biometria)"
+  },
+  {
+    "id": "F0030",
+    "veredito": "fora",
+    "regra": "§1.2.1 (sem eixo)",
+    "frase": "Agentic AI is gaining new insights and advancements in the field of Artificial Intelligence",
+    "objetivo": null,
+    "motivo": "survey de agentic AI, sem eixo de implantação nas frases dadas"
+  },
+  {
+    "id": "F0031",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This paper reviews research from 2020 to 2025 on lightweight object detection",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): detecção de objetos leve (visão, cf. exemplo YOLO)"
+  },
+  {
+    "id": "F0032",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This survey examines contemporary research trends in skin lesion analysis",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): imagem médica (lesões de pele)"
+  },
+  {
+    "id": "F0033",
+    "veredito": "dúvida",
+    "regra": "§1.3 (modelos não identificados)",
+    "frase": "resource-efficient distributed state estimation",
+    "objetivo": null,
+    "motivo": "frases não mencionam modelos da área (transformers/RNN/etc.); incerto se é sobre redes neurais ou estimação/controle clássico"
+  },
+  {
+    "id": "F0034",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0035",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0036",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "deploying computationally intensive models on automotive-grade processors remains a key challenge",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): detecção de faixa/obstáculos em condução autônoma (visão, YOLO)"
+  },
+  {
+    "id": "F0038",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "The integration of human pose estimation in mobile and embedded systems has been limited by computational constraints",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): estimativa de pose humana (visão)"
+  },
+  {
+    "id": "F0039",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "deployment and inference of DeviceRSs, exploring how large recommendation models can be compressed",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): sistemas de recomendação on-device"
+  },
+  {
+    "id": "F0040",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This review synthesizes recent developments in air quality prediction using embedded Machine Learning (ML) and Deep Learning (DL) models with emphasis on 8 bit quantization",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): previsão de qualidade do ar com modelos embarcados/quantização"
+  }
+]

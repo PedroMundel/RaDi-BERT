@@ -1,0 +1,32 @@
+{"id": "52", "titulo": "PyTorch: An Imperative Style, High-Performance Deep Learning Library", "ano": 2019,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "Abstract; 1 Introdução; 2 Background; 3 Princípios de design; 4 Usability centric design (4.1-4.3); 5 Performance focused implementation (5.1-5.5); 6 Evaluation (6.1-6.4); 7 Conclusion. Lista de referências apenas verificada por título, não lida.", "paginas": "1-12 (completo)"},
+ "resumo": "O artigo descreve os princípios de projeto e a arquitetura interna do PyTorch, framework de deep learning que combina execução dinâmica (eager, define-by-run) com desempenho competitivo. Explica como a diferenciação automática por overloading de operadores, o núcleo em C++ (libtorch), o alocador de memória com cache de CUDA e a contagem de referências (em vez de garbage collection) resolvem gargalos específicos de rodar Python de forma eficiente em GPU. Mostra também como o framework separa fluxo de controle (Python/CPU) de fluxo de dados (tensores/GPU) para sobrepor execução assíncrona, e como a extensão do módulo multiprocessing evita cópias desnecessárias entre processos. Na avaliação, compara a velocidade do PyTorch com CNTK, MXNet, TensorFlow, Chainer e PaddlePaddle em seis modelos, ficando sempre a até 17% do framework mais rápido, e mede a adoção crescente via menções em papers do arXiv. É um artigo de engenharia de sistema, não uma técnica de eficiência de modelo em si (não trata quantização, poda, destilação ou arquiteturas eficientes) — mas documenta a ferramenta de base sobre a qual quase toda a área é construída.",
+ "perguntas": {
+   "P1": {"r": "não", "por": "Descreve a arquitetura de um framework específico; não organiza uma área ou divisão em categorias explícitas (taxonomia)."},
+   "P2": {"r": "sim", "por": "Explica o mecanismo por trás das escolhas de implementação (overloading de operadores para autodiff, §4.3, p.5; alocador de memória com cache CUDA, §5.3, p.6; contagem de referências vs. garbage collection, §5.5, p.7), não só compara números."},
+   "P3": {"r": "parcial", "por": "§2 Background (p.2) traça um histórico curto de quatro tendências da computação científica (DSLs de array desde os anos 1960, autodiff, ecossistema Python, hardware GPU), mas serve para justificar o design, não como história da área de eficiência de modelos."},
+   "P6": {"r": "não", "por": "O próprio texto credita Chainer e DyNet como pioneiros da execução define-by-run (§4.1, p.3); o PyTorch é a engenharia que tornou essa ideia rápida e popular, não a linha que a abriu."},
+   "P4a": {"r": "sim", "por": "O artigo inteiro é sobre uma ferramenta real de uso corrente, com benchmarks reprodutíveis (Tabela 1, §6.3, p.8) e menção ao TorchScript para execução fora do interpretador Python (§5.1, p.5)."},
+   "P4b": {"r": "não", "por": "Não menciona destilação de conhecimento em nenhum momento do texto."},
+   "V": {"r": "sim", "por": "Define e usa de forma consistente termos técnicos centrais da área de sistemas de ML (eager execution, autograd, GIL, CUDA streams), embora sem um glossário formal separado."},
+   "A": {"r": "não", "por": "Publicado em 2019 (NeurIPS); os benchmarks usam AlexNet, VGG, ResNet e GNMT (§6.3, p.8), retratando o estado da arte pré-Transformer/pré-LLM, não a área atual."},
+   "R": {"r": "não", "por": "Os benchmarks (Tabela 1, p.8) usam CNNs (AlexNet, VGG-19, ResNet-50, MobileNet) e um RNN (GNMTv2); o texto não discute encoder-only, decoder-only nem encoder-decoder Transformer."}
+ },
+ "termos_chave": ["eager execution (define-by-run)", "automatic differentiation / autograd", "operator overloading", "Global Interpreter Lock (GIL)", "CUDA streams", "caching memory allocator", "reference counting", "TorchScript"],
+ "pre_requisitos": ["Programação orientada a objetos em Python", "Noção de diferenciação automática (backpropagation)", "Conceitos básicos de GPU/CUDA (kernels, streams)", "Grafo de computação estático vs. dinâmico", "Gerenciamento de memória (garbage collection vs. contagem de referências)", "O que é o GIL do CPython"],
+ "nivel": "intermediário",
+ "nivel_por": "A narrativa é acessível a quem está começando, mas exige familiaridade prévia com conceitos de sistemas (GIL, streams CUDA, alocação de memória) para acompanhar §4 e §5 com proveito; sem isso a leitura fica decorativa.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Abstract e Introdução (p.1-2) para a motivação; §3 Princípios de design (p.3); §4.1 Usability (p.3-4, com os Listings 1 e 2 de código); opcionalmente §5 (p.5-7) para quem quer os mecanismos internos; Tabela 1 em §6.3 (p.8) para os números de desempenho.",
+ "acrescimo": "É a única obra da lista sobre um framework de treino de propósito geral — a camada de programação sobre a qual praticamente todo o resto da lista é implementado na prática. Cobre o eixo 'ferramentas' da base de conhecimento pelo lado da infraestrutura de software (eager execution, autograd, gerência de memória em GPU), e não por uma técnica de eficiência específica (quantização, poda, destilação, NAS).",
+ "sobreposicao": [],
+ "bloco_atual": "D sistemas",
+ "bloco_sugerido": "D sistemas",
+ "veredito": "manter",
+ "veredito_por": "É o framework mais citado e adotado da área e fornece vocabulário de base (eager execution, autograd, GIL) útil para a Etapa 1; nenhuma outra obra da lista cobre a camada de framework de treino de propósito geral.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+   {"texto": "Trading 10% of speed for a significantly simpler to use model is acceptable; 100% is not.", "pagina": "3"},
+   {"texto": "it is better to have a simple but slightly incomplete solution than a comprehensive but complex and hard to maintain design", "pagina": "3"}
+ ]}

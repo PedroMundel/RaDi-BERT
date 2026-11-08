@@ -1,0 +1,421 @@
+[
+ {
+  "id": "F0761",
+  "title": "The Role of Embedded Systems in Industrial Automation: A Review of Global Developments",
+  "year": "2023",
+  "abstract": "The integration of embedded systems in industrial automation has witnessed significant advancements globally, revolutionizing manufacturing processes and enhancing overall efficiency. This Review provides a comprehensive review of the role played by embedded systems in industrial automation, highlighting key developments on a global scale. Embedded systems, characterized by their dedicated functionality within larger systems, have become indispensable in the realm of industrial automation. This paper explores the evolution and impact of embedded systems in automating various aspects of industrial processes, ranging from production and assembly lines to quality control and monitoring systems. One of the prominent trends observed in global developments is the integration of real-time communication capabilities in embedded systems. This enables seamless coordination between different components of the industrial ecosystem, fostering increased responsiveness and adaptability. The use of advanced communication protocols such as OPC UA (Unified Architecture) and MQTT (Message Queuing Telemetry Transport) has become prevalent, facilitating interoperability and data exchange in a standardized manner. The advent of Industry 4.0 has further accelerated the adoption of embedded systems in industrial automation. Smart factories leverage embedded systems to enable intelligent decision-making, predictive maintenance, and the creation of interconnected cyber-physical systems. The implementation of edge computing in embedded systems allows for decentralized data processing, reducing latency and enhancing the overall speed of decision-making in critical applications. Moreover, this review sheds light on the global trends in embedded systems design for industrial automation, emphasizing the move towards energy-efficient solutions. Power consumption considerations are crucial in industrial settings, and the integration of low-power design principles in embedded systems contributes to sustainable and environmentally friendly automation solutions. In conclusion, the role of embedded systems in industrial automation has undergone substantial transformations, influencing the global landscape of manufacturing processes. The integration of real-time communication, Industry 4.0 principles, and a focus on energy efficiency are key trends shaping the future of embedded systems in industrial automation. Understanding and embracing these developments will be pivotal for organizations seeking to stay competitive in the ever-evolving industrial landscape.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0762",
+  "title": "An Efficient Deep Learning Mechanism for Predicting Fake News/Reviews in Twitter Data",
+  "year": "2024",
+  "abstract": "Recently, social media platforms have been widely utilized as information sources due to their effortless accessibility and reduced costs. However, online platforms like Instagram, Twitter and Facebook get influenced by their users via fake news/reviews. The main intention of spreading fake news is to mislead other network users, which highly affects businesses, political parties, etc. Thus, an effective methodology is needed to predict fake news from social media automatically. The major objective of this proposed study is to identify and classify the given Twitter input data as real or fake through deep learning mechanisms. The proposed study involves four stages: pre-processing, embedded word analysis, feature extraction, and fake news/reviews prediction. Initially, pre-processing is performed to enhance the quality of data with the help of tokenization, stemming and stop word removal. Embedded word analysis is done using Advanced Word2Vec and GloVe modeling to enhance the performance of a proposed prediction model. Then, the hybrid deep learning model named Dense Convolutional assisted Gannet Optimal Bi-directional Network (DC_GO_BiNet) is introduced for feature extraction and prediction. A Dense Convolutional Neural Network (DCNN) is hybridized with a bi-directional long-short-term memory (Bi-LSTM) model to extract the essential features and predict fake news from the given input text. Also, the proposed model’s parameters are fine-tuned by adopting a gannet optimization (GO) algorithm. The proposed study used three different datasets and obtained higher classification accuracy as 99.5% in Fake News Detection on Twitter EDA, 99.59% in FakeNewsNet and 99.51% in ISOT. The analysis proves that the proposed model attains higher prediction results for each dataset than others.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0763",
+  "title": "CENTRAL ASIAN JOURNAL OF THEORETICAL AND APPLIED SCIENCES",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0764",
+  "title": "Aspect-Based Sentiment Analysis for Future Tourism Experiences: A BERT-MoE Framework for Persian User Reviews",
+  "year": "2026",
+  "abstract": "This study advances aspect-based sentiment analysis (ABSA) for Persian-language user reviews in the tourism domain, addressing challenges of low-resource languages. We propose a hybrid BERT-based model with Top-K routing and auxiliary losses to mitigate routing collapse and improve efficiency. The pipeline includes: (1) overall sentiment classification using BERT on 9,558 labeled reviews, (2) multi-label aspect extraction for six tourism-related aspects (host, price, location, amenities, cleanliness, connectivity), and (3) integrated ABSA with dynamic routing. The dataset consists of 58,473 preprocessed reviews from the Iranian accommodation platform Jabama, manually annotated for aspects and sentiments. The proposed model achieves a weighted F1-score of 90.6% for ABSA, outperforming baseline BERT (89.25%) and a standard hybrid approach (85.7%). Key efficiency gains include a 39% reduction in GPU power consumption compared to dense BERT, supporting sustainable AI deployment in alignment with UN SDGs 9 and 12. Analysis reveals high mention rates for cleanliness and amenities as critical aspects. This is the first ABSA study focused on Persian tourism reviews, and we release the annotated dataset to facilitate future multilingual NLP research in tourism.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0765",
+  "title": "A Survey of Cryptographic Algorithms for Lightweight Authentication Schemes in the Internet of Things Environment",
+  "year": "2022",
+  "abstract": "This paper discusses the cryptographic algorithms used in lightweight authentication schemes for the Internet of Things (IoT) systems. IoT systems contain sensors categorised as constraint devices with limitations in computing capability and limited power supply. Therefore, the traditional cryptographic algorithms are unsuitable for the IoT environment as they consist of complex processing and use vast amounts of energy to operate. In addressing this issue, researchers proposed lightweight cryptographic algorithms so that they can be used for securing authentication schemes for IoT systems. This area is proliferating, and many schemes have been proposed. However, a question arises as to how the lightweight features are achieved in the algorithms. Hence, this paper analyses the literature to fill the gap by conducting a scoping study to answer three pre-defined research questions. Our analysis demonstrates that lightweight features were primarily achieved using elliptic curve cryptography, hash functions and exclusive OR operation. Furthermore, three measures were mostly used in evaluating the schemes' effectiveness: security, low storage, and low computation cost. Finally, BAN logic, AVISPA, Proverif, and ROR were the three methods used for validating the authentication schemes again security attacks. This survey would help researchers understand lightweight cryptographic algorithms and decide on the standard performance measures and techniques for validating the authentication schemes, particularly for IoT systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0766",
+  "title": "Review for \"Neural network identification of water pipe blockage from smart embedded passive acoustic measurements\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0767",
+  "title": "Risk Prediction and Safety Driving in Automated Driving: A Review from the Perspective of Embedded Systems",
+  "year": "2025",
+  "abstract": "In recent years, automated driving technology is booming and reshaping the pattern of transportation, but its safety has attracted wide attention. In the embedded system, it is necessary to solve the security risks caused by sensor failures, complex road environments and emergencies. To enhance autonomous driving safety, risk detection, a crucial part, must accurately spot potential hazards. This review focuses on the risk detection and safe driving field of autonomous driving, and analyzes related cutting-edge technologies in depth. In terms of risk prediction, it explains the key technology paths based on multi-sensor fusion, deep learning, and data-driven, and realizes risk judgment and insight from comprehensive information capture, deep feature mining, and model optimization, respectively. Safety driving technology section, discusses lane keeping and departure warning, collision warning and automatic braking, blind area monitoring and obstacle avoidance technology. In the future, deep learning, edge calculation, multi-sensor fusion will promote autonomous driving to break through the dilemma, but challenges such as regulations, ethics, and network security will also follow.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0768",
+  "title": "A Lightweight Sentiment Analysis System for Movie Reviews Based on 2D Convolutional Neural Networks",
+  "year": "2026",
+  "abstract": "This paper proposes a lightweight sentiment analysis system designed for movie reviews. The method transforms 4,096-dimensional sparse text features into 64 x 64 x1 two-dimensional matrices, allowing a 2D Convolutional Neural Network (2D CNN) to extract structured spatial features. Unlike mainstream approaches, this model achieves efficient classification without relying on word embeddings or large pre-trained models. To mitigate overfitting inherent in high-dimensional sparse data, the architecture incorporates L2 regularization, Dropout, and noise injection. Experimental results on the IMDB dataset demonstrate a peak accuracy of 84.98% and a stable average accuracy of 84.72%. The findings suggest that lightweight 2D CNNs are highly effective for resource-limited scenarios such as online opinion monitoring and recommendation systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0769",
+  "title": "Lightweight Skin Lesion Segmentation for Edge Deployment: A Critical Review of Architectures, Accuracy Compensation, and Clinical Translation",
+  "year": "2026",
+  "abstract": "Automated skin lesion segmentation via deep learning has achieved remarkable accuracy in controlled laboratory settings, yet its clinical translation to point-of-care (PoC) edge devices remains fundamentally constrained by the computational demands of state-of-the-art architectures. This review systematically bridges the gap between algorithmic innovation and hardware-aware deployment by presenting a critical analysis spanning three interconnected dimensions: 1) architectural evolution from convolutional neural networks (CNNs) through Vision Transformers to emerging linear-complexity State Space Models (e.g., Mamba), evaluated against a unified efficiency–accuracy Pareto framework rather than isolated accuracy rankings; 2) mathematical formalisation of lightweighting-induced precision degradation and its compensation via knowledge distillation, structural reparameterisation, and frequency-domain enhancement, with explicit assessment of evidence quality and reproducibility across studies; and 3) empirical deployment profiling across heterogeneous edge platforms including NVIDIA Jetson, Intel OpenVINO, and mobile processors. Through a multi-dimensional evaluation framework integrating spatial overlap (Dice), boundary fidelity (HD95), and on-device throughput (FPS), supplemented by a meta-analysis of dataset usage biases and validation protocol inconsistencies, we establish that heterogeneous multi-paradigm fusion architectures can preserve clinical-grade segmentation quality under severe resource constraints—provided that evaluation methodologies are standardised. Critically, our quantitative analysis of 36 reviewed studies reveals that approximately 65% of reported performance figures are derived from non-standardised data splits, rendering direct cross-study comparisons statistically unreliable. We further identify critical open challenges—including cross-domain generalisation, hardware–algorithm co-design, demographic fairness, and edge-native federated learning—and delineate actionable research trajectories toward democratising expert-level dermatological AI diagnostics in resource-limited healthcare environments worldwide.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0770",
+  "title": "Lightweight Unbiased Multi-teacher Ensemble for Review-based Recommendation",
+  "year": "2022",
+  "abstract": "Review-based recommender systems (RRS) have received an increasing interest since reviews greatly enhance recommendation quality and interpretability. However, existing RRS suffer from high computational complexity, biased recommendation and poor generalization. The three problems make them inadequate to handle real recommendation scenarios. Previous studies address each issue separately, while none of them consider solving three problems together under a unified framework. This paper presents LUME (a Lightweight Unbiased Multi-teacher Ensemble) for RRS. LUME is a novel framework that addresses the three problems simultaneously. LUME uses multi-teacher ensemble and debiased knowledge distillation to aggregate knowledge from multiple pretrained RRS, and generates a small, unbiased student recommender which generalizes better. Extensive experiments on various real-world benchmarks demonstrate that LUME successfully tackles the three problems and has superior performance than state-of-the-art RRS and knowledge distillation based RS.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0771",
+  "title": "Quantization of Deep Neural Networks for Medical Image Analysis: A Systematic Review and Meta-Analysis",
+  "year": "2026",
+  "abstract": "Neural network quantization has become established as a key strategy for transitioning medical imaging models from research environments to clinical devices and resource-constrained edge platforms; however, the available evidence remains fragmented and focused on highly heterogeneous use cases. This study presents a systematic review of 72 studies on quantization applied to medical images, following PRISMA guidelines, with the aim of characterizing the relationship among quantization technique, network architecture, imaging modality, and execution environment, as well as their impact on latency, memory footprint, and clinical deployment. Based on a structured variable matrix, we analyze—through tailored visualizations—usage patterns of Post-Training Quantization (PTQ), Quantization-Aware Training (QAT), mixed precision, and binary/low-bit schemes across frameworks such as PyTorch V 2.6.0, TensorFlow 2.19.0, and TensorFlow Lite, executed on server-class GPUs, edge/embedded devices, and specialized hardware. The results reveal a strong concentration of evidence in PyTorch/TensorFlow pipelines using INT8 or mixed precision on GPUs and edge platforms, contrasted with limited attention to PACS/RIS interoperability, model lifecycle management, energy consumption, cost, and regulatory traceability. We conclude that, although quantization can approximate real-time performance and reduce memory footprint, its clinical adoption remains constrained by integration challenges, model governance requirements, and the maturity of the hardware–software ecosystem.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0772",
+  "title": "Automation and Robotics 2018: Advances in machine learning for intrusion detection Jon C Haass- Embry-Riddle University, USA",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0773",
+  "title": "Bidirectional Counterfactual Distillation for Review-Based Recommendation",
+  "year": "2026",
+  "abstract": "Review-based recommendation methods typically integrate multiple behaviors, including interactions, reviews, and ratings, to model user preferences. To effectively extract preference signals from diverse behaviors, some studies train multiple student models to capture distinct behavioral patterns, and leverage online distillation to facilitate collaborative learning among them. However, we argue that these techniques suffer from bias contamination from rating distributions and feature homogenization during cross-behavior knowledge transfer: (1) Rating distribution bias, arising from non-uniform historical ratings, propagates across behaviors through distillation, contaminating the true preference representations of other behaviors. (2) Static distillation strategies often lead to homogenized behavioral features, hindering the learning of behavior-specific preferences. \nTo address these issues, we propose a novel Bidirectional Counterfactual Distillation (BiCoD) framework for review-based recommendation. In BiCoD, we first design an adversarial counterfactual distillation module to suppress the impact of non-uniform rating distributions on distillation, thereby preventing it from contaminating the user's true preference representations across behaviors. Subsequently, we introduce a stage-aware bidirectional distillation strategy to enhance the distinctiveness of behavioral features, facilitating the effective learning of behavior-specific preferences. Extensive experiments on five real-world datasets validate the effectiveness and superiority of the proposed framework.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0774",
+  "title": "Real-Time Human Detection Using Deep Learning on Embedded Platforms: A Review",
+  "year": "2021",
+  "abstract": "The detection of an object such as a human is very important for image understanding in the field of computer vision. Human detection in images can provide essential information for a wide variety of applications in intelligent systems. In this paper, human detection is carried out using deep learning that has developed rapidly and achieved extraordinary success in various object detection implementations. Recently, several embedded systems have emerged as powerful computing boards to provide high processing capabilities using the graphics processing unit (GPU). This paper aims to provide a comprehensive survey of the latest achievements in this field brought about by deep learning techniques in the embedded platforms. NVIDIA Jetson was chosen as a low power system designed to accelerate deep learning applications. This review highlights the performance of human detection models such as PedNet, multiped, SSD MobileNet V1, SSD MobileNet V2, and SSD inception V2 on edge computing. This survey aims to provide an overview of these methods and compare their performance in accuracy and computation time for real-time applications. The experimental results show that the SSD MobileNet V2 model provides the highest accuracy with the fastest computation time compared to other models in our video datasets with several scenarios.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0775",
+  "title": "A lightweight YOLO11n seg framework for real time surface crack detection with segmentation",
+  "year": "2026",
+  "abstract": "The recognition of superficial cracks is essential to ensure the safety, durability, and longevity of civil infrastructure such as bridges, pavements, tunnels, and buildings. Traditional crack detection methods have been largely based on manual inspections and classical image processing techniques, including edge detection, thresholding, and morphological operations. With the rapid advancement of computer vision and deep learning, significant progress has been made in automating crack detection. To gain insight into previous research, we reviewed some studies from the past few years and identified YOLO11 as the most suitable model for crack detection tasks. In this study, we propose a deep learning-based framework for surface crack detection using the Crack-Seg dataset and the YOLO11n-seg architecture. Experimental results demonstrate that YOLO11n-seg achieves strong performance on the Crack-Seg dataset. The suggested model reaches a Precision of 78.8%, which is comparable to heavy baselines. Our results show that the suggested lightweight model, with just 2.8 million parameters, has a Box mAP@50 of 76.2% with a Mask mAP@50 of 58.7%. Most importantly, the model reaches an inference rate of 3.6ms for each image (on Tesla T4), allowing for ultra-fast processing in highly automated inspection systems. These findings establish a new benchmark for edge-deployable crack recognition, demonstrating the possibility that the YOLO11n-seg architecture may provide acceptable segmentation performance with lower computational cost than large, traditional methods.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0776",
+  "title": "A Review of Photoplethysmography-Based Blood Pressure Monitoring: From Cloud-Based Machine Learning to TinyML Edge Deployment",
+  "year": "2025",
+  "abstract": "Cuffless continuous noninvasive blood pressure (cNIBP) monitoring based on photoplethysmography (PPG) has enjoyed great success through a wealth of high-performing machine learning (ML) algorithms. Currently, this field is targeting AI-enabled real-time continuous blood pressure (BP) monitoring wearables. However, the superior state-of-the-art cloud-based models proposed in the literature incur heavy computational load and mandate a large memory footprint and energy requirements. Such factors hinder the deployment of these complex models on resource-constrained edge devices. Tiny machine learning (TinyML) has revolutionized the wave of wearable technology and enabled ML models to run inference on edge and tiny devices. However, limited research has explored the challenges and trade-offs in adapting PPG-based BP models to TinyML platforms. In this study, we attempt to fill this gap by examining the key limitations of existing cloud-based approaches, reviewing the limited attempts at edge-based implementation and the challenges encountered, and analyzing how recent cloud advancements can inform efficient TinyML edge solutions. This work provides a comprehensive reference for researchers, outlining key constraints, optimization strategies, and pathways for adapting cloud-based advancements to TinyML-powered PPG-based BP monitoring wearables.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0777",
+  "title": "Towards automatic model specialization for edge video analytics",
+  "year": "2021",
+  "abstract": "Judging by popular and generic computer vision challenges, such as the ImageNet or PASCAL VOC, neural networks have proven to be exceptionally accurate in recognition tasks. However, state-of-the-art accuracy often comes at a high computational price, requiring hardware acceleration to achieve real-time performance, while use cases, such as smart cities, require images from fixed cameras to be analyzed in real-time. Due to the amount of network bandwidth these streams would generate, we cannot rely on offloading compute to a centralized cloud. Thus, a distributed edge cloud is expected to process images locally. However, the edge is, by nature, resource-constrained, which puts a limit on the computational complexity that can execute. Yet, there is a need for a meeting point between the edge and accurate real-time video analytics. Specializing lightweight models on a per-camera basis may help but it quickly becomes unfeasible as the number of cameras grows unless the process is automated. In this paper, we present and evaluate COVA (Contextually Optimized Video Analytics), a framework to assist in the automatic specialization of models for video analytics in edge cameras. COVA automatically improves the accuracy of lightweight models through their specialization. Moreover, we discuss and review each step involved in the process to understand the different trade-offs that each one entails. Additionally, we show how the sole assumption of static cameras allows us to make a series of considerations that greatly simplify the scope of the problem. Finally, experiments show that state-of-the-art models, i.e., able to generalize to unseen environments, can be effectively used as teachers to tailor smaller networks to a specific context, boosting accuracy at a constant computational cost. Results show that our COVA can automatically improve accuracy of pre-trained models by an average of 21%.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0778",
+  "title": "Feature Adaptation of Pre-Trained Language Models across Languages and Domains with Robust Self-Training",
+  "year": "2020",
+  "abstract": "Adapting pre-trained language models (PrLMs) (e.g., BERT) to new domains has gained much attention recently. Instead of fine-tuning PrLMs as done in most previous work, we investigate how to adapt the features of PrLMs to new domains without fine-tuning. We explore unsupervised domain adaptation (UDA) in this paper. With the features from PrLMs, we adapt the models trained with labeled data from the source domain to the unlabeled target domain. Self-training is widely used for UDA which predicts pseudo labels on the target domain data for training. However, the predicted pseudo labels inevitably include noise, which will negatively affect training a robust model. To improve the robustness of self-training, in this paper we present class-aware feature self-distillation (CFd) to learn discriminative features from PrLMs, in which PrLM features are self-distilled into a feature adaptation module and the features from the same class are more tightly clustered. We further extend CFd to a cross-language setting, in which language discrepancy is studied. Experiments on two monolingual and multilingual Amazon review datasets show that CFd can consistently improve the performance of self-training in cross-domain and cross-language settings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0779",
+  "title": "The Rise of Generative AI in Enterprise App Development: A Review of Strategies and Technologies",
+  "year": "2024",
+  "abstract": "The skill set needed for enterprise application development is more extensive than what is taught in typical programming courses. Enterprise applications are often rather complicated, distributed, networked, and multi-user. As a result, proficient software engineers need to know more than just the fundamentals of a programming language. GenAI has radically changed the world of enterprise application development and pointed to new approaches and tools for enterprises. This review provides a history and analysis of GenAI with a focus on current use for code generation, testing, and more efficient usability/UX design. Some of the summarised GenAI models like GANs and Transformer architecture are compared with their potential aspects concerning content generation, data synthesis, and predictive analysis. This paper examines the performance, security, and other concerns of implanting GenAI across enterprise environments and how organisations can effectively deploy these tools to promote progress, cut time to market, and enhance development. Besides, the obstacles regarding the implementation of GenAI are also discussed, such as data security, ethical issues and the role of governance. This review should also be beneficial to practitioners and researchers who want to design or incorporate GenAI in enterprise application development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0780",
+  "title": "Advancing IoT Security: A Comprehensive Survey of Lightweight Cryptography Solutions",
+  "year": "2024",
+  "abstract": "A comprehensive survey of lightweight cryptography (LWC) solutions tailored to address the security challenges inherent in Internet of Things (IoT) environments.Evaluating various cryptographic primitives, including block ciphers, stream ciphers, hash functions, and elliptic curve cryptography, the study highlights the efficacy of AES and ECC in resource-constrained IoT devices.Emphasizing the necessity of lightweight cryptographic solutions amidst real-world constraints, the paper underscores ongoing research efforts and identifies future directions to fortify the security posture of IoT ecosystems.Through meticulous analysis and synthesis of findings, this survey advocates for the critical role of LWC in ensuring the resilience of IoT technologies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0781",
+  "title": "A Review of On-Device Machine Learning for Iot: An Energy",
+  "year": "2023",
+  "abstract": "Recently, there is a substantial interest in on-device Machine Learning (ML) models to provide intelligence for the Internet of Things (IoT) applications such as image classification, human activity recognition, and anomaly detection. Traditionally, ML models are deployed in the cloud or centralized servers to take advantage of their abundant computational resources. However, sharing data with the cloud and third parties degrades privacy and may cause propagation delay in the network due to a large amount of transmitted data impacting the performance of real-time applications. To this end, deploying ML models on-device (i.e., on IoT devices), in which data does not need to be transmitted, becomes imperative. However, deploying and running ML models on already resource-constrained IoT devices is challenging and requires intense energy consumption. Numerous works have been proposed in the literature to address this issue. Although there are considerable works that discuss energy-aware ML approaches for on-device implementation, there remains a gap in the literature on a comprehensive review of this subject. In this paper, we provide a review of existing studies focusing on-device ML models for IoT applications in terms of energy consumption. One of the key contributions of this study is to introduce a taxonomy to define approaches for employing energyaware on-device ML models on IoT devices in the literature. Based on our review in this paper, our key findings are provided and the open issues that can be investigated further by other researchers are discussed. We believe that this study will be a reference for practitioners and researchers who want to employ energy-aware on-device ML models for IoT applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:ok"
+  ]
+ },
+ {
+  "id": "F0782",
+  "title": "Lightweight Convolutional Neural Networks for Wheat Disease Detection and Classification: A Review and Comparative Study From Field to Storage",
+  "year": "2026",
+  "abstract": "The increasing adoption of Lightweight Convolutional Neural Networks (LCNNs) for agricultural applications has highlighted their potential for automated wheat disease detection and classification across both field (pre-harvest) and post-harvest storage environments. However, the effectiveness and deployability of such systems depend not only on model architecture but also critically on the quality and suitability of the datasets used for training and evaluation. In this paper, two complementary reviews are presented to address these intertwined challenges. First, a systematic review of LCNN architectures is conducted, focusing on models applied to wheat-related image analysis across both field and storage scenarios, with particular emphasis on classification performance, model compactness, computational efficiency, and compatibility with edge and embedded platforms, especially in the context of deployment under storage conditions. Second, a critical review of existing wheat grain image datasets is provided, examining dataset scale, acquisition conditions, annotation strategies, class diversity, and accessibility, with an emphasis on their relevance to storage-based disease detection tasks. The integrated analysis reveals a strong interdependence between architectural performance and dataset characteristics. Reported gains in LCNN accuracy are often influenced by dataset bias, controlled imaging conditions, and class imbalance, which can obscure real-world performance in storage environments. Lightweight models, while advantageous for deployment, are shown to be especially sensitive to limitations in data realism and annotation quality. Moreover, a mismatch is identified between current dataset acquisition practices and the operational conditions encountered in grain storage, including bulk aggregation, occlusion, dust, and uneven illumination. The findings highlight a fragmentation between model development and dataset construction in existing research. This study emphasizes the need for a co-design paradigm in which LCNN architectures and storage-realistic datasets are developed in tandem.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0783",
+  "title": "A Review of LoRa and LoRaWAN Technologies for IoT Applications",
+  "year": "2026",
+  "abstract": "This analysis undertakes a thorough review of LoRa and LoRaWAN technologies as they apply to Internet of Things\ncontexts. This review offers a structured comparative study of performance metrics across various deployment scenarios,\ncovering urban, rural, and forested environments. The investigation covers essential parameters, including spreading factor,\nbandwidth, coding rate, energy consumption, and network scalability. It assesses recent development in areas such as energy\noptimization, adaptive data rate mechanisms, and AI-driven approaches to network management. Focusing on the\ncomprehensive literature review, this study identifies notable research gaps and proposes possible ways for future research,\nmainly involving hybrid network architectures, the integration of edge intelligence, and cross-layer optimization strategies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0784",
+  "title": "Enhancing Software Deployment Pipelines with the Application of ML Techniques",
+  "year": "2025",
+  "abstract": "Continuous integration and deployment (CI/CD) pipelines, which are infamous for their slowness, frequent failures, and protracted build times, are a crucial part of the modern software development process. This study introduces a framework that uses machine learning (ML) to predictably boost pipeline performance. A Support Vector Machine technique for pipeline failure prediction will be developed as part of this effort. The method will also optimize resource allocation to decrease build times and provide dynamic framework for continuous development of CI/CD pipelines. This study assumes a comprehensive review of the literature and introduces a new approach based on the support vector machine (SVM) technology. The results demonstrate that the framework optimizes memory utilization and CPU, reduces build time by 33% and declines test success and failure rates by 60%. It also dramatically lowers resource consumption. The results showed that current DevOps approaches are able to tackle long-standing issues with CI/CD since they are intelligently scalable. This study laid the framework for future work in software engineering workflows including adaptive systems by introducing the idea of ML to the CI/CD process with the goal of improving pipeline efficacy and reliability.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0785",
+  "title": "Model-driven Engineering for Machine Learning Components: A Systematic Literature Review",
+  "year": "2023",
+  "abstract": "Context: Machine Learning (ML) has become widely adopted as a component in many modern software applications. Due to the large volumes of data available, organizations want to increasingly leverage their data to extract meaningful insights and enhance business profitability. ML components enable predictive capabilities, anomaly detection, recommendation, accurate image and text processing, and informed decision-making. However, developing systems with ML components is not trivial; it requires time, effort, knowledge, and expertise in ML, data processing, and software engineering. There have been several studies on the use of model-driven engineering (MDE) techniques to address these challenges when developing traditional software and cyber-physical systems. Recently, there has been a growing interest in applying MDE for systems with ML components. Objective: The goal of this study is to further explore the promising intersection of MDE with ML (MDE4ML) through a systematic literature review (SLR). Through this SLR, we wanted to analyze existing studies, including their motivations, MDE solutions, evaluation techniques, key benefits and limitations. Results: We analyzed selected studies with respect to several areas of interest and identified the following: 1) the key motivations behind using MDE4ML; 2) a variety of MDE solutions applied, such as modeling languages, model transformations, tool support, targeted ML aspects, contributions and more; 3) the evaluation techniques and metrics used; and 4) the limitations and directions for future work. We also discuss the gaps in existing literature and provide recommendations for future research. Conclusion: This SLR highlights current trends, gaps and future research directions in the field of MDE4ML, benefiting both researchers and practitioners",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0786",
+  "title": "PyFroid: Scaling Data Analysis on a Commodity Workstation",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0787",
+  "title": "Embedded Application for Driver Drowsiness Monitoring System A Review",
+  "year": "2020",
+  "abstract": "In recent years, road accident becomes one of the primary causes of death in the world. One of the main factors is the driver drowsiness. To prevent those accidents, many automobile manufacturers have installed driver assistance technology with drowsiness detection feature that controlled by a real-time embedded system. Meanwhile, researchers also have attempted to develop a better method to detect and implement a driver drowsiness monitoring system. This paper presents a state-of-the-art review of recent advancement in the field of Embedded implementation of driver fatigue detection. Each overview will focus on the implementation method using the embedded system.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0788",
+  "title": "Grounded AI for Code Review: Resource-Efficient Large-Model Serving in Enterprise Pipelines",
+  "year": "2025",
+  "abstract": "Automated code review adoption lags in compliance-heavy settings, where static analyzers produce high-volume, low-rationale outputs, and naive LLM use risks hallucination and incurring cost overhead. We present a production system for grounded, PR-native review that pairs static-analysis findings with AST-guided context extraction and a single-GPU, on-demand serving stack (quantized open-weight model, multi-tier caching) to deliver concise explanations and remediation guidance. Evaluated on safety-oriented C/C++ standards, the approach achieves sub-minute median first-feedback (offline p50 build+LLM 59.8s) while maintaining competitive violation reduction and lower violation rates versus larger proprietary models. The architecture is decoupled: teams can adopt the grounding/prompting layer or the serving layer independently. A small internal survey (n=8) provides directional signals of reduced triage effort and moderate perceived grounding, with participants reporting fewer human review iterations. We outline operational lessons and limitations, emphasizing reproducibility, auditability, and pathways to broader standards and assisted patching.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0789",
+  "title": "A survey on domain adaptive object detection",
+  "year": "2025",
+  "abstract": "\n In recent years, deep learning-based object detection has achieved significant advances, enabling its widespread deployment across diverse real-world applications. Conventional approaches typically assume consistent data distributions between the source and target domains, a premise that often fails to hold in practical scenarios, leading to substantial performance degradation in detection systems. Consequently, the domain shift problem has emerged as a critical research focus in the computer vision community, as evidenced by the proliferation of innovative methods presented annually in top-tier conferences and journals. Despite these advancements, comprehensive surveys dedicated specifically to domain-adaptive object detection (DAOD) remain scarce.To address this gap, this paper provides a detailed survey of DAOD algorithms. We first introduce foundational concepts, including deep domain adaptation and object detection, then systematically decompose DAOD into two subproblems to elucidate its developmental trajectory from a fundamental perspective. We further present the latest advances in DAOD algorithms, categorizing them into feature alignment, adversarial training, reconstruction-based methods, knowledge distillation, and other emerging paradigms. For each category, we analyze the research landscape and compare performance across benchmark datasets. Finally, through a thorough review and synthesis of existing approaches, we outline promising future research directions for DAOD.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0790",
+  "title": "Low-Resource Chinese Named Entity Recognition via CNN-based Multitask Learning",
+  "year": "2024",
+  "abstract": "Named entity recognition (NER) is a fundamental subtask for information extraction that aims to locate and classify named entities in unstructured text into predefined categories. Recently, large-scale language models (LLMs) have achieved SOTA performance on a variety of natural language processing tasks. However, because NER is a sequence labeling task in nature while LLMs is a text-generation model, the performance of LLMs on NER is still significantly below supervised baselines, and NER remains a difficult task. Meanwhile, the word boundary and semantic information of Chinese words are usually quite vague, as words contained in Chinese texts are not separated by spaces. Thus, the NER task still requires supervised learning paradigm and heavily relies on large amounts of labeled data, such as entity type and boundary information. However, the cost of labeling data can be prohibitively large, and the purely supervised approaches usually suffer from poor generalization capability. In this article, we propose a multitask learning-based bidirectional iterated dilated convolution model, BCNN-CWS, for low-resource NER via leveraging word boundary information of Chinese word segmentation (CWS) task. Specifically, to efficiently recognize named entities, an iterated dilated convolutional model with a limited number of layers is implemented. In addition, a bidirectional causal convolution mechanism is presented for contextual information extraction. Results of extensive experiments on public Chinese datasets demonstrate that BCNN-CWS achieves superior performance over state-of-the-art models, and it yields up to about 50% speed improvement over existing methods. It is worth noting that BCNN-CWS can be further improved by combining with a pretrained model.\n \nReceived: 25 Spetember 2024 | Revised: 4 November 2024 | Accepted: 28 November 2024 \n \nConflicts of Interest\nThe authors declare that they have no conflicts of interest to this work. \n \nData Availability Statement\nThe data that support the findings of this study are openly available in GitLab at https://github.com/jiangfeng13/BCNN-CWS\n \nAuthor Contribution Statement\nTao Wu: Conceptualization, Methodology, Writing – original draft, Writing – review & editing, Visualization, Supervision. Xinwen Cao: Resources, Data curation. Feng Jiang: Software, Validation, Formal analysis, Investigation, Writing – original draft. Canyixing Cui: Data curation, Writing -review & editing. Xuehao Li: Resources. Xingping Xian: Supervision, Project administration, Funding acquisition.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0791",
+  "title": "Comprehensive Review of Deep Learning Algorithms for Embedded Healthcare Applications",
+  "year": "2024",
+  "abstract": "The integration of deep learning algorithms into embedded healthcare applications has emerged as a promising avenue for revolutionizing medical diagnostics, monitoring, and treatment. This review explores the performance, suitability, and implications of various deep learning algorithms within the context of embedded healthcare systems. Leveraging a diverse range of algorithms including Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Long Short-Term Memory (LSTM), Transformer Networks, and more. The study presents an overview of embedded systems in healthcare, which leverage Deep learning algorithms to enhance their performance and enable physicians to provide prompt and accurate responses to patients.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0792",
+  "title": "Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation",
+  "year": "2024",
+  "abstract": "Code review is a fundamental process in software development that plays a pivotal role in ensuring code quality and reducing the likelihood of errors and bugs. However, code review can be complex, subjective, and time-consuming. Quality estimation, comment generation, and code refinement constitute the three key tasks of this process, and their automation has traditionally been addressed separately in the literature using different approaches. In particular, recent efforts have focused on fine-tuning pre-trained language models to aid in code review tasks, with each task being considered in isolation. We believe that these tasks are interconnected, and their fine-tuning should consider this interconnection. In this paper, we introduce a novel deep-learning architecture, named DISCOREV, which employs cross-task knowledge distillation to address these tasks simultaneously. In our approach, we utilize a cascade of models to enhance both comment generation and code refinement models. The fine-tuning of the comment generation model is guided by the code refinement model, while the fine-tuning of the code refinement model is guided by the quality estimation model. We implement this guidance using two strategies: a feedback-based learning objective and an embedding alignment objective. We evaluate DISCOREV by comparing it to state-of-the-art methods based on independent training and fine-tuning. Our results show that our approach generates better review comments, as measured by the BLEU score, as well as more accurate code refinement according to the CodeBLEU score.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0793",
+  "title": "Review on Embedded Methods in Parameter Estimation and Auto-tuning of Permanent Magnet Synchronous Servo Machine Driven Industrial Systems",
+  "year": "2021",
+  "abstract": "A review on embeddable industrial drive systems",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0794",
+  "title": "Vector Quantization for Recommender Systems: A Review and Outlook",
+  "year": "2024",
+  "abstract": "Vector quantization, renowned for its unparalleled feature compression capabilities, has been a prominent topic in signal processing and machine learning research for several decades and remains widely utilized today. With the emergence of large models and generative AI, vector quantization has gained popularity in recommender systems, establishing itself as a preferred solution. This paper starts with a comprehensive review of vector quantization techniques. It then explores systematic taxonomies of vector quantization methods for recommender systems (VQ4Rec), examining their applications from multiple perspectives. Further, it provides a thorough introduction to research efforts in diverse recommendation scenarios, including efficiency-oriented approaches and quality-oriented approaches. Finally, the survey analyzes the remaining challenges and anticipates future trends in VQ4Rec, including the challenges associated with the training of vector quantization, the opportunities presented by large language models, and emerging trends in multimodal recommender systems. We hope this survey can pave the way for future researchers in the recommendation community and accelerate their exploration in this promising field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0795",
+  "title": "FedDBL: Communication and Data Efficient Federated Deep-Broad Learning for Histopathological Tissue Classification",
+  "year": "2023",
+  "abstract": "Histopathological tissue classification is a fundamental task in computational pathology. Deep learning (DL)-based models have achieved superior performance but centralized training suffers from the privacy leakage problem. Federated learning (FL) can safeguard privacy by keeping training samples locally, while existing FL-based frameworks require a large number of well-annotated training samples and numerous rounds of communication which hinder their viability in real-world clinical scenarios. In this article, we propose a lightweight and universal FL framework, named federated deep-broad learning (FedDBL), to achieve superior classification performance with limited training samples and only one-round communication. By simply integrating a pretrained DL feature extractor, a fast and lightweight broad learning inference system with a classical federated aggregation approach, FedDBL can dramatically reduce data dependency and improve communication efficiency. Five-fold cross-validation demonstrates that FedDBL greatly outperforms the competitors with only one-round communication and limited training samples, while it even achieves comparable performance with the ones under multiple-round communications. Furthermore, due to the lightweight design and one-round communication, FedDBL reduces the communication burden from 4.6 GB to only 138.4 KB per client using the ResNet-50 backbone at 50-round training. Extensive experiments also show the scalability of FedDBL on model generalization to the unseen dataset, various client numbers, model personalization and other image modalities. Since no data or deep model sharing across different clients, the privacy issue is well-solved and the model security is guaranteed with no model inversion attack risk. Code is available at https://github.com/tianpeng-deng/FedDBL.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0796",
+  "title": "A SYSTEMATIC LITERATURE REVIEW OF LIGHTWEIGHT IOT AND ML-BASED APPROACHES FOR MONITORING DIETARY COMPLIANCE AND USER ENGAGEMENT",
+  "year": "2026",
+  "abstract": "In mitigating diseases related to Nutrition, dietary compliance remains vital, however monitoring remains difficult in low-resource settings. Potential solutions that have surfaced include Internet of Things (IoT) and lightweight Machine learning (ML) technologies, but evidence remains fragmented. The Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) 2020 guidelines and studies from online repositories such as Google Scholar, IEEE, PubMed, Xplore, and Scopus were used in conducting this systematic literature review (SLR), and thereafter supplemented with snowballing. Research papers published between the year 2015 to 2025 were the focus of this review which examined lightweight Machine learning models such as MobileNet and TinyML, IoT-based dietary monitoring solutions, and techniques for user engagement. Among the identified records numbering 358, twenty five (25) studies were included for qualitative synthesis. It was discovered that there was strong accuracy in food recognition by the lightweight ML models while still achieving computational efficiency. Furthermore, even though their use in African contexts were limited, positive indices for efficient diet monitoring were observed in some IoT-based systems using mobile and wearable devices. End-user compliance was enhanced via some techniques of engagement such as personalized feedback, cultural adaptation, and gamification. This review highlights opportunities for affordable, localized, and culturally relevant IoT–ML solutions in regions such as North-Central Nigeria.\n \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0797",
+  "title": "A Review of Pruning and Harvesting Manipulators",
+  "year": "2021",
+  "abstract": "The increase of the world population and a decrease in agricultural labour availability have motivated research robotics in the agricultural field. This paper aims to analyze the state of the art related to manipulators used in the agricultural robotics field. Two pruning and seven harvesting manipulators were reviewed and are analyzed. The pruning manipulators were used in two different scenarios: (i) grapevines and (ii) apple trees. These manipulators showed that a light-controlled environment could reduce visual errors and that prismatic joints on the manipulator are advantageous to obtain a higher reach. The harvesting manipulators were used for 5 different products: (i) strawberries, (ii) tomatoes, (iii) apples, (iv) sweet-peppers and (v) iceberg lettuce. The harvesting manipulators showed that a different kinematic configuration is required for different end-effectors, as some end-effectors only require horizontal movements and others require more degrees of freedom to reach and grasp the target. This work will support new developments of novel solutions related to agricultural robotic grasping and manipulation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0798",
+  "title": "A Quick Review on Recent Trends in 3D Point Cloud Data Compression Techniques and the Challenges of Direct Processing in 3D Compressed Domain",
+  "year": "2020",
+  "abstract": "Automatic processing of 3D Point Cloud data for object detection, tracking and segmentation is the latest trending research in the field of AI and Data Science, which is specifically aimed at solving different challenges of autonomous driving cars and getting real time performance. However, the amount of data that is being produced in the form of 3D point cloud (with LiDAR) is very huge, due to which the researchers are now on the way inventing new data compression algorithms to handle huge volumes of data thus generated. However, compression on one hand has an advantage in overcoming space requirements, but on the other hand, its processing gets expensive due to the decompression, which indents additional computing resources. Therefore, it would be novel to think of developing algorithms that can operate/analyse directly with the compressed data without involving the stages of decompression and recompression (required as many times, the compressed data needs to be operated or analyzed). This research field is termed as Compressed Domain Processing. In this paper, we will quickly review few of the recent state-of-the-art developments in the area of LiDAR generated 3D point cloud data compression, and highlight the future challenges of compressed domain processing of 3D point cloud data.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0799",
+  "title": "GEmFakeABSA: graph-embedded fake review detection using aspect-based sentiment analysis",
+  "year": "2026",
+  "abstract": "The bulk of customers and manufacturers who use e-business platforms depend largely on user comments when making purchase decisions and improving product quality. Unfortunately, this reliance also creates an opening for dishonest reviewers to deceive both consumers and producers by posting fake reviews. Addressing this problem directly supports the United Nations Sustainable Development Goal 12: ’Responsible Consumption and Production’ because reliable review ecosystems foster transparency and informed decision making in online markets. To mitigate this threat, the present article proposes GEmFakeABSA: Graph-Embedded Fake Review Detection using Aspect-Based Sentiment Analysis (ABSA). We further enhance fake review detection (FRD) by integrating ABSA with a Graph Convolutional Network (GCN) that leverages dependency graphs to capture contextual relationships among words, aspects, and sentiments, thereby exposing unnatural aspect-sentiment patterns in fabricated reviews. Because a GCN can also encode intricate relationships among users, reviews, and products, the resulting GCN-based ABSA model is highly effective when sentiment is not logically associated with specific aspects. Our proposed model combines linguistic information, part-of-speech (POS) features and ABSA-derived embeddings to improve every standard FRD metric in Amazon reviews spanning 30 product categories, even when each set of features is evaluated in isolation. Evaluated on 21,034 Amazon reviews across 30 product categories, GEmFakeABSA achieves 92.4% accuracy and surpasses the strongest BiLSTM-ABSA baseline by +2.3% precision, and +2.46% recall. All results are averaged over five random seeds with 95% confidence intervals; significance is assessed via two-sided paired t-tests across the 30 categories, and splits are stratified by product and reviewer to preclude train–test leakage. These results highlight the model’s potential for practical, real-time content moderation in responsible e-commerce.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0800",
+  "title": "A Comprehensive Review of Intelligent Home Automation Systems Using Embedded Devices and IoT",
+  "year": "2024",
+  "abstract": "The integration of embedded devices and Internet of Things (IoT) technologies is the main subject of this thorough assessment, which examines the development and status of intelligent home automation systems. Intelligent home automation systems provide remote control and automation of household appliances and systems, with the goal of improving the comfort, safety, and energy efficiency of residential surroundings. The different designs and parts of home automation systems such as sensors, actuators, controllers, communication protocols, and user interfaces are examined in this overview. It draws attention to the function of embedded devices, which act as the essential building blocks of these systems by supplying the required connectivity and processing power. The evaluation also covers the use of IoT technologies, which enable smooth device interoperability and communication, opening the door to more advanced automation and control capabilities. Important developments in artificial intelligence, cloud computing, and machine learning that enhance these systems' intelligence and flexibility are also examined. The paper also discusses issues including security, privacy, standards, and user adoption and offers possible fixes as well as future research possibilities. Creating AI algorithms that will help home automation systems comprehend and react to user context and preferences more effectively which can be done soon. We hope that this review will give readers a thorough grasp of intelligent home automation systems and provide insights into their design.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

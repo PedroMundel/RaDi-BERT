@@ -1,0 +1,198 @@
+[
+  {
+    "id": "F0841",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "Semantic and Structural Optimization of Resumes via LLMs for Improved ATS Matching",
+    "objetivo": null,
+    "motivo": "pipeline de otimização de currículos via LLM, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0842",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "deploying SLM-based DDI extraction systems in resource-constrained clinical and pharmacovigilance settings",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): extração de interação medicamentosa com SLMs"
+  },
+  {
+    "id": "F0845",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo de §1.2",
+    "frase": "This review paper focuses on the integration of machine learning (ML), specifically physics-informed neural networks (PINNs)",
+    "objetivo": null,
+    "motivo": "PINNs para dinâmica de fluidos, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0847",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0848",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)",
+    "frase": "We summarize enabling techniques into elastic inference, test-time adaptation, dynamic multimodal integration, and agentic AI applications",
+    "objetivo": "saber",
+    "motivo": "survey de sistemas agentic AI eficientes para dispositivos móveis/embarcados, cobre inferência elástica"
+  },
+  {
+    "id": "F0849",
+    "veredito": "fora",
+    "regra": "§3.4 sistema/ferramenta",
+    "frase": "We introduce LiSA, a set of python modules for the denoising, detection and characterization of HI sources in 3D spectral data",
+    "objetivo": null,
+    "motivo": "ferramenta de software para radioastronomia, não é survey nem trata eixo de implantação"
+  },
+  {
+    "id": "F0850",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (d)",
+    "frase": "increasingly complex artificial intelligent (AI) and machine learning techniques being implemented on cloud server architectures and embedded into edge computing devices",
+    "objetivo": "saber",
+    "motivo": "survey de inteligência embarcada, cobre implantação em edge computing"
+  },
+  {
+    "id": "F0852",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)",
+    "frase": "Introducing Self-Supervised Learning (SSL) technologies can significantly reduce the dependence on manually labeled data",
+    "objetivo": "saber",
+    "motivo": "revisão de ViT com SSL, reduz dependência de dado rotulado (eixo iii)"
+  },
+  {
+    "id": "F0854",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "This work presents a novel systematic methodology to analyse the capabilities and limitations of Large Language Models (LLMs)",
+    "objetivo": null,
+    "motivo": "estudo primário sobre expressividade lógica de LLMs, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0857",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "You Only Look Once (YOLO) family",
+    "objetivo": null,
+    "motivo": "técnicas de leveza aplicadas só a CNN (YOLO)"
+  },
+  {
+    "id": "F0858",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0859",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "agentic healthcare applications, including clinical documentation, decision support, patient triage, and administrative automation",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): SLMs em IA agentic para saúde"
+  },
+  {
+    "id": "F0860",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "In this paper a lightweight hybrid ensemble is proposed for Steam review sentiment analysis",
+    "objetivo": null,
+    "motivo": "artigo primário propondo ensemble leve para classificação de sentimento, não é survey"
+  },
+  {
+    "id": "F0861",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo de §1.2",
+    "frase": "This review critically distinguishes between AI Agents and Agentic AI, offering a structured, conceptual taxonomy, application mapping, and analysis of opportunities and challenges",
+    "objetivo": null,
+    "motivo": "taxonomia conceitual de agentes de IA, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0862",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "real-time operation on embedded devices",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): reconhecimento de animais em câmeras inteligentes"
+  },
+  {
+    "id": "F0864",
+    "veredito": "fora",
+    "regra": "§1.3 modelo fora do escopo",
+    "frase": "Generative Adversarial Networks (GANs) have garnered significant research attention owing to their revolutionary generator-vs-discriminator architecture",
+    "objetivo": null,
+    "motivo": "GAN não é transformer nem base de transformer (§1.3)"
+  },
+  {
+    "id": "F0865",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (d)",
+    "frase": "emerging paradigms such as the Internet of Intelligent Things (IIoT) advance in embedded machine learning (TinyML) and edge computing",
+    "objetivo": "saber",
+    "motivo": "survey sobre evolução de sistemas embarcados, cobre TinyML e edge computing"
+  },
+  {
+    "id": "F0866",
+    "veredito": "dúvida",
+    "regra": "frases insuficientes para eixo de §1.2",
+    "frase": "this survey focuses on reviewing the challenges, solutions, and future directions for the successful deployment of blockchain in resource-constrained FL environments",
+    "objetivo": null,
+    "motivo": "foco aparente em segurança/blockchain; sinal de recurso-restrito insuficiente para confirmar eixo de implantação"
+  },
+  {
+    "id": "F0867",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo de §1.2",
+    "frase": "This article provides an overview of the main challenges raised by the use ML",
+    "objetivo": null,
+    "motivo": "survey sobre certificação de sistemas embarcados baseados em ML, foco regulatório"
+  },
+  {
+    "id": "F0870",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (a)",
+    "frase": "knowledge distillation (KD) stands out as the most widely adopted",
+    "objetivo": "saber",
+    "motivo": "survey de redes leves explicáveis, cobre KD (técnica de eficiência) em CNN e Transformer"
+  },
+  {
+    "id": "F0874",
+    "veredito": "fora",
+    "regra": "§3.4 sistema/ferramenta",
+    "frase": "This project gives approach for real time detection of car driver drowsiness and alcoholic intoxication",
+    "objetivo": null,
+    "motivo": "projeto de sistema embarcado específico (Raspberry Pi) para segurança do motorista, não é survey"
+  },
+  {
+    "id": "F0875",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "we propose FineST, a scheduling framework for serving DNNs with fine-grained spatio-temporal sharing of GPU inference servers",
+    "objetivo": null,
+    "motivo": "artigo primário sobre serving de inferência DNN, não é survey"
+  },
+  {
+    "id": "F0876",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0877",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo de §1.2",
+    "frase": "In this article, we present an overview and analysis of recent data sampling techniques for federated learning",
+    "objetivo": null,
+    "motivo": "taxonomia de amostragem de dados em aprendizado federado, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0879",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "Convolution Neural Network (CNN)-based models",
+    "objetivo": null,
+    "motivo": "técnica de quantização aplicada só a CNN, em imagem médica"
+  },
+  {
+    "id": "F0880",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN)",
+    "objetivo": null,
+    "motivo": "análise de desempenho de CNNs para segmentação pulmonar COVID-19; não é survey"
+  }
+]

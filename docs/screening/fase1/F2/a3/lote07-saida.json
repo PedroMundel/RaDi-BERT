@@ -1,0 +1,166 @@
+[
+  {
+    "id": "F0242",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.2.1 (a)",
+    "frase": "we present a comprehensive survey of quantization concepts and methods",
+    "objetivo": "saber + saber fazer",
+    "motivo": "survey geral de quantização de DNNs (eixo de memória/hardware), com benchmarks reproduzíveis (CIFAR-10, ImageNet)"
+  },
+  {
+    "id": "F0247",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "The present systematic review set out to reassess whether claims of energy-efficient deep learning in transportation infrastructure are supported by direct sustainability evidence",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): revisão sobre eficiência energética de DL (pruning/quantização/KD/TinyML) aplicada a infraestrutura de transporte, não survey geral da área"
+  },
+  {
+    "id": "F0248",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (d)",
+    "frase": "This review explores the current edge computing architectures and frameworks",
+    "objetivo": "saber",
+    "motivo": "survey de infraestrutura de implantação (arquiteturas de edge computing, federated edge, deployments em containers)"
+  },
+  {
+    "id": "F0249",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0250",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "The integration of Tiny Machine Learning (TinyML) into human activity recognition (HAR) represents a paradigm shift in artificial intelligence, enabling real-time, efficient, and privacy-preserving analysis on resource-constrained edge devices",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): revisão de TinyML (com pruning/quantização/KD) aplicada a reconhecimento de atividade humana, não survey geral"
+  },
+  {
+    "id": "F0253",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "Deep learning and optimization techniques have emerged as transformative solutions for addressing complex resource allocation challenges in free-space optical (FSO) communication systems",
+    "objetivo": null,
+    "motivo": "review sobre alocação de recursos em comunicação óptica usando DL/otimização, sem eixo de custo de implantação do próprio modelo"
+  },
+  {
+    "id": "F0254",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "LPWANs have become an attractive solution for outdoor localization and received significant attention from the research community due to low-power, low-cost, and long-range communication",
+    "objetivo": null,
+    "motivo": "revisão sobre localização via redes LPWAN, sem menção a modelos de IA/arquitetura nem eixo de implantação"
+  },
+  {
+    "id": "F0255",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "The evolution of chatbots from rule-based, retrieval-based, contextual systems, to hybrid and generative AI-powered models",
+    "objetivo": null,
+    "motivo": "survey sobre evolução de chatbots/modelos generativos (GPT, Ernie, Gemini), sem foco em custo de implantação (inferência, memória ou dado rotulado)"
+  },
+  {
+    "id": "F0258",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "We examine this gap by evaluating mathematical reasoning in Sinhala and Tamil -- two languages widely used in South Asian schools but underrepresented in artificial intelligence (AI) research",
+    "objetivo": null,
+    "motivo": "estudo primário de avaliação de raciocínio matemático de LLMs em línguas de baixo recurso; não é survey e sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0259",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "Knowledge Distillation on Graphs (KDG) has been introduced to build a smaller but effective model, leading to model compression and performance improvement",
+    "objetivo": null,
+    "motivo": "técnica de destilação/compressão da área aplicada só a GNNs (grafos), fora do escopo de transformers/RNN/LSTM"
+  },
+  {
+    "id": "F0260",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0265",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "This research study investigates the advancements and performance of Convolutional Sparse Coding (CSC) strategies in semantic segmentation",
+    "objetivo": null,
+    "motivo": "revisão de codificação esparsa convolucional para segmentação semântica, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0266",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0267",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "this article systematically reviews 63 articles on AI in cybersecurity and trusted embedded systems",
+    "objetivo": null,
+    "motivo": "revisão de IA aplicada a segurança cibernética/sistemas embarcados (IDPS, malware, DDoS), sem eixo de custo de implantação do modelo"
+  },
+  {
+    "id": "F0268",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "We investigate the role of attention and memory in complex reasoning tasks",
+    "objetivo": null,
+    "motivo": "tese de doutorado (estudo primário) sobre atenção/memória em arquiteturas cognitivas e de visão; não é survey e sem eixo de implantação"
+  },
+  {
+    "id": "F0270",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "sparse learning models for feature selection",
+    "objetivo": null,
+    "motivo": "survey sobre seleção de atributos via aprendizado esparso, sem sinal de eixo de custo de implantação (inferência, memória ou dado rotulado)"
+  },
+  {
+    "id": "F0271",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "attention-based sparse Graph Convolutional Neural Networks (GCNNs)",
+    "objetivo": null,
+    "motivo": "técnica de esparsidade/atenção para eficiência aplicada só a GCNNs (grafos), fora do escopo de transformers/RNN/LSTM"
+  },
+  {
+    "id": "F0273",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "Natural Language Generation (NLG) has experienced rapid progress in recent years with advancements in artificial intelligence",
+    "objetivo": null,
+    "motivo": "revisão de modelos/taxonomia de NLG (autoregressivos, MLM, encoder-decoder), sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0274",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "This review examines recent progress in embedded sensing, Internet of Things communication, edge-cloud collaboration, and intelligent control for energy-efficient refrigeration systems",
+    "objetivo": null,
+    "motivo": "revisão sobre eficiência energética de sistemas de refrigeração via IA, não sobre custo de implantação do modelo em si"
+  },
+  {
+    "id": "F0276",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0277",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0278",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "Investigation on Efficient Deep Learning Framework for Spinal Deformities",
+    "objetivo": null,
+    "motivo": "título não se declara survey/review; parece estudo primário de framework de DL eficiente aplicado a diagnóstico específico (candidato a seminal)"
+  },
+  {
+    "id": "F0280",
+    "veredito": "fora",
+    "regra": "§1.2 sem eixo",
+    "frase": "Collaborative filtering (CF) is a technique that can filter out items that a user might like based on the behaviors and preferences of similar users",
+    "objetivo": null,
+    "motivo": "survey de sistemas de recomendação (filtragem colaborativa), sem eixo de custo de implantação de modelo"
+  }
+]

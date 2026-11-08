@@ -1,0 +1,422 @@
+[
+ {
+  "id": "F0681",
+  "title": "An Ensemble Model for Fake Online Review Detection Based on Data Resampling, Feature Pruning, and Parameter Optimization",
+  "year": "2021",
+  "abstract": "With the widespread of fake online reviews, the detection of fake reviews has become a hot research issue. Despite the efforts of existing studies on fake review detection, the issues of imbalanced data and feature pruning still lack sufficient attention. To address these gaps, the present study proposes an ensemble model for the detection of fake online reviews. The model consists of four steps, and the first three steps are proposed to optimize the base classifiers: (i) Data resampling: We propose a novel way to address the data imbalance problem by combining the resampling and the grid search technique. (ii) Feature pruning: We propose an ablation study to drop unimportant features. (iii) Parameters optimization: We apply the grid search algorithm to determine suitable values of the relevant parameters for each base classifier. (iv) Classifier ensembling: We apply majority voting and stacking strategies to integrate the optimized base classifiers. The proposed data resampling method is also applied for the meta-classifier in the stacking ensemble model. This study produces advances in terms of combining different methods or algorithms into a model and the results show that the proposed ensemble model outperforms some existing techniques, thereby providing a new way to solve the data imbalance and feature pruning issues in the field of fake review detection.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0682",
+  "title": "Review of modern methods for steganalysis and localization of embedded data in digital images",
+  "year": "2025",
+  "abstract": "The article provides a systematic review of modern steganalysis methods for digital images based on artificial neural networks. The primary stages of development of advanced cover-image models, from widely used artificial neural networks to contemporary hybrid models, are considered. Advantages and limitations of various types of neural networks for constructing stegodetectors for digital images are investigated. Based on comparative analysis of steganalysis accuracy, it is established that the use of advanced artificial neural networks achieves a detection accuracy of steganograms exceeding 90%, even at low embedding rates (less than 20%). Additionally, applying complex methods of processing both examined images, and feature vectors in multidimensional spaces with studied neural networks allows reducing the computational complexity of configuring stegodetectors without significant losses in stego images detection accuracy.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0683",
+  "title": "Peer Review #1 of \"Integer particle swarm optimization based task scheduling for device-edge-cloud cooperative computing to improve SLA satisfaction (v0.2)\"",
+  "year": "2022",
+  "abstract": "Task scheduling helps to improve the resource efficiency and the user satisfaction for Device-Edge-Cloud Cooperative Computing (DE3C), by properly mapping requested tasks to hybrid device-edge-cloud resources.In this paper, we focused on the task scheduling problem for optimizing the Service-Level Agreement (SLA) satisfaction and the resource efficiency in DE3C environments.Existing works only focused on one or two of three subproblems (offloading decision, task assignment and task ordering), leading to a suboptimal solution.To address this issue, we first formulated the problem as a binary nonlinear programming, and proposed an integer particle swarm optimization method (IPSO) to solve the problem in a reasonable time.With integer coding of task assignment to computing cores, our proposed method exploited IPSO to jointly solve the problems of offloading decision and task assignment, and integrated earliest deadline first scheme into the IPSO to solve the task ordering problem for each core.Extensive experimental results showed that our method achieved upto 953% and 964% better performance than that of several classical and state-of-the-art task scheduling methods in SLA satisfaction and resource efficiency, respectively.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0684",
+  "title": "Domain Generalization via Switch Knowledge Distillation for Robust Review Representation",
+  "year": "2023",
+  "abstract": ",",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0685",
+  "title": "Fingerprinting AI Applications and Phases in Edge-Assisted Distributed Learning and Inference using Side-Channel Data",
+  "year": "2026",
+  "abstract": "Edge computing has enabled users to experience ubiquitous artificial intelligence (AI) through distributed learning and inference. Continuous efforts to reduce computing burden from the edge devices and increased preservation of privacy have popularized remote inference and federated learning (FL). However, network-level side-channel information can still expose sensitive operational states. In this paper, we demonstrate that network-level telemetry data can be used to fingerprint edge-assisted learning and inference workflows and reveal their operational phases. We propose a hierarchical classification framework, where the first stage separates learning from inference, and the second distinguishes learning phases. In addition, we develop a testbed with convolutional and recurrent neural network-based FL and remote inference systems, alongside an attacker device collecting network sniffing data. Using features derived from flow volumes, transfer speeds, ratios, and latency, the system achieves fingerprinting accuracy of 100% between learning and inference tasks, and 95.9% across different learning phases. These results highlight the vulnerability of edge-assisted distributed AI systems to network-based side-channel fingerprinting.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0686",
+  "title": "Survey of Lightweight Object Detection Model Methods",
+  "year": "2024",
+  "abstract": "Deep neural networks have recently achieved significant success in many visual recognition tasks. However, these models suffer from being computationally expensive and memory intensive, hindering their deployment in devices with low memory resources or in applications with strict latency requirements. Therefore, studying and designing lightweight models is one of the current research hotspots. Building a lightweight object detection algorithm is a challenging task because the model must be carefully designed to minimize parameters and computing resources while achieving high detection performance. In the past 10 years, lightweight algorithm design has made significant progress. In this paper, we summarize lightweight object detection algorithms to further explore new ideas and directions for lightweight network design. This paper divides the lightweight algorithm design into three categories: backbone network, feature fusion network, and attention mechanism. For each category, this paper provides a detailed analysis of the performance, advantages, and limitations of the modules in the object detection task. Then, we briefly introduce some recent successful methods, such as the Mobilenet series and DETR. Finally, we conclude this paper and discuss the challenges and potential directions for future work. The development trend of lightweight design in the field of object detection is examined.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0687",
+  "title": "Design Trade-offs and Technology Scaling in CMOS DAC Architectures",
+  "year": "2026",
+  "abstract": "DACs, or digital-to-analog converters, are crucial devices that connect digital systems to the physical world. A variety of resistor-based DACs are examined in this review, such as R-2R ladder designs, binary-weighted networks (such as W2W current-mirror versions), and DACs that employ digital calibration in R-2R structures. The emphasis is on how well they perform at high resolution or speed, how much space they require, how complex they are, and how well they function in terms of linearity (measured as INL and DNL). We also examine how these DACs function in various CMOS technologies (such as 45 nm, 90 nm, and 180 nm) to observe how performance and power consumption are impacted by technology shrinkage. Since they only require two types of resistors and have a constant output resistance, R-2R ladders are simple to scale. However, unless they are calibrated, they may have linearity issues because of mismatches. [1], [5], [7] Binary-weighted DACs are fast and simple to scale, but as the number of bits increases, they require more power and space and require numerous components. By using matched MOSFET pairs, W-2W current-mirror designs minimize the number of sections, assist in matching, and minimize power and area. Digitally calibrated R-2R DACs allow for very good linearity without requiring extremely precise components by adding small, adjustable parts that help correct for mismatches. DACs usually need less space, utilize less power, and have better linearity for the same design as technology shrinks from 180 nm to 45 nm. For instance, power consumption decreases by about 30%, and the linearity error of a 4-bit DAC decreases from approximately 2.0 LSB in 180 nm to approximately 1.0 LSB in 45 nm. [1], [4] In conclusion, R-2R and binary DACs sacrifice linearity and space for quick and easy conversions. Accuracy and space efficiency can be enhanced by W-2W designs and calibration methodologies. Large DACs, even smaller technology sizes, and more sophisticated on-chip calibration techniques could all be explored in further research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0688",
+  "title": "Clinical Implementation of Predictive Models Embedded within Electronic Health Record Systems: A Systematic Review",
+  "year": "2020",
+  "abstract": "Predictive analytics using electronic health record (EHR) data have rapidly advanced over the last decade. While model performance metrics have improved considerably, best practices for implementing predictive models into clinical settings for point-of-care risk stratification are still evolving. Here, we conducted a systematic review of articles describing predictive models integrated into EHR systems and implemented in clinical practice. We conducted an exhaustive database search and extracted data encompassing multiple facets of implementation. We assessed study quality and level of evidence. We obtained an initial 3393 articles for screening, from which a final set of 44 articles was included for data extraction and analysis. The most common clinical domains of implemented predictive models were related to thrombotic disorders/anticoagulation (25%) and sepsis (16%). The majority of studies were conducted in inpatient academic settings. Implementation challenges included alert fatigue, lack of training, and increased work burden on the care team. Of 32 studies that reported effects on clinical outcomes, 22 (69%) demonstrated improvement after model implementation. Overall, EHR-based predictive models offer promising results for improving clinical outcomes, although several gaps in the literature remain, and most study designs were observational. Future studies using randomized controlled trials may help improve the generalizability of findings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0689",
+  "title": "Lightweight Encryption Algorithms for Internet of Things: A Review on Security and Performance Aspects",
+  "year": "2022",
+  "abstract": "Internet of Things (IoT) is a trending new technology based on networking and microcomputing. It transfers normal devices into smart devices capable of communicating with other devices and the Internet. IoT-enabled devices are often resource-constrained devices. They have weak processors, small memory and low power supply. This hindered the implementation of the same security protocols and standards used in normal computing devices for IoT. A solution on the horizon is within the field of lightweight cryptography (LWC) [1]–[3]. The new field aims to provide algorithms optimized for IoT while assuring proper levels of security. This paper aims to review four LWC algorithms which were proposed in ISO/IEC 29192 standard: SIMON, SPECK, PRESENT, and CLEFIA. The review is made based on levels of security and performance of the algorithms on IoT-enabled devices. Several recommendations are then deduced from the review.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0690",
+  "title": "A review of Pareto pruning methods for multi-objective optimization",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0691",
+  "title": "Non-Negative Matrix Factorization in Recommender Models: Concept, Survey, and Future Direction",
+  "year": "2025",
+  "abstract": "Recommender Systems have gained attraction since last two decades owing to its popularity of providing customers with the information of their choice, items they might purchase, movies they might watch and many preferences. This has led recommenders to penetrate almost all e-commerce and industrial applications. The Netflix Prize competition has shown the rising path to recommenders and Singular Value Decomposition (SVD) based factorization techniques. SVD and its variants are considered as one of the efficient approach for recommendation task, especially aligned for collaborative filtering task. However, these SVD approaches remains less interpretable and explainable, due to the presence of negative components in latent features of entities. In a realistic scenario, it is not possible to have negative components in the features. This leads to exploration of factorization techniques focused on positive components only. The non-negative counterpart of SVD, Non-negative Matrix Factorization (NMF) imposes the non-negativity constraint to features, allowing for more interpretable results. It has wide applicability ranging from Bioinformatics, topic modeling to recommenders. Till date, there have been several survey dedicated to core working of NMF. However, there was very limited literature available as to how different NMF works with recommender systems. There was no streamlined survey on NMF based recommender models that explores NMF in depth with advanced domains, case study and future directions. This article presents the insight on NMF based recommender models with focus on their mathematical modeling and taxonomy based on information they use, penalization term and optimization approach. The article offers the NMF based recommender model based on emerging approaches like Deep Learning, Federated Learning, Transformers, Explainability and Dynamicity. The article also brings up the open issues and challenges of NMF models. Further, the article presented an experimental analysis on NMF models with SVD and Neural Network model. The experimental analysis was covered on three benchmarked datasets of recommenders along with stability analysis. The results showcased the performance improvement brought by NMF in recommenders. Through this article, one can plunge into the dynamics of NMF for recommenders.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0692",
+  "title": "Survey on Smart Embedded Platforms for Motor Condition and Severity Analysis",
+  "year": "2026",
+  "abstract": "The significance of induction motors lies in their robustness, simplicity of design, durability, and minimum\nmaintenance, which makes them essential components in industry. Nevertheless, constant exposure to electrical, thermal, and\nmechanical stresses results in problems like overheating, winding deterioration, bearing damage, rotor imbalance, and\nvibrations. Without timely identification of these issues, they lead to breakdowns, delays, and additional expenses. The suggested\ninnovation refers to a smart embedded system to monitor the operational state of an induction motor and analyze fault levels in\nreal time. It measures the parameters of temperature, currents, and vibrations that reflect motor conditions. These measurements\nare carried out with sensors and analyzed by means of a microcontroller through comparison with predefined thresholds,\nresulting in fault recognition and classification. Existing systems lack remote monitoring and instant alerts. To address these\ngaps, the proposed system provides local monitoring along with IoT-based remote transmission. A buzzer/LED alert mechanism\nensures immediate notification during critical conditions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0693",
+  "title": "Review of Artificial Neural Network and Its Application Research in Distillation",
+  "year": "2021",
+  "abstract": "With the development of rectification technology, the scale of its production equipment has continued to expand, and its calculation requirements have become more complex. The use of traditional optimized control methods can no longer meet the requirements. Artificial neural networks imitate the human brain for self-learning and optimization, intelligently process various complex information, and have been widely used in various chemical processes. Because the artificial neural network has the advantages of self-learning, associative storage, and high-speed search for optimized solutions, it can perform high-precision simulation and prediction of rectification operations, and has been widely used in the optimal control of rectification towers. This article gives a basic overview of artificial neural networks, and introduces the application research of artificial neural networks in distillation at home and abroad.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0694",
+  "title": "Ethical Review of Teacher-Student Interaction in the Perspective of Smart Education and Exploration of Pathways",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0695",
+  "title": "Electromyography Signals in Embedded Systems: A Review of Processing and Classification Techniques",
+  "year": "2025",
+  "abstract": "This article provides an overview of the implementation of electromyography (EMG) signal classification algorithms in various embedded system architectures. They address the specifications used for implementation in different devices, such as the number of movements and the type of classification method. Architectures analyzed include microcontrollers, DSP, FPGA, SoC, and neuromorphic computers/chips in terms of precision, processing time, energy consumption, and cost. This analysis highlights the capabilities of each technology for real-time wearable applications such as smart prosthetics and gesture control devices, as well as the importance of local inference in artificial intelligence models to minimize execution times and resource consumption. The results show that the choice of device depends on the required system specifications, the robustness of the model, the number of movements to be classified, and the limits of knowledge concerning design and budget. This work provides a reference for selecting technologies for developing embedded biomedical solutions based on EMG.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0696",
+  "title": "A Survey of Potential MPI Complex Collectives: Large-Scale Mining and Analysis of HPC Applications",
+  "year": "2023",
+  "abstract": "Offload of MPI collectives to network devices, e.g., NICs and switches, is being implemented as an effective mechanism to improve application performance by reducing inter- and intra-node communication and bypassing MPI software layers. Given the rich deployment of accelerators and programmable NICs/switches in data centers, we posit that there is an opportunity to further improve performance by extending this idea (of in-network collective processing) to a new class of more complex collectives. The most basic type of complex collective is the fusion of existing collectives. In previous work we have demonstrated the efficacy of this additional hardware and software support and shown that it can substantially improve the performance of certain applications. In this work we extend this approach. We seek to characterize a large number of MPI applications to determine overall applicability, both breadth and type, and so provide insight for hardware designers and MPI developers about future offload possibilities. Besides increasing the scope of prior surveys to include finding (potential) new MPI constructs, we also tap into new methods to extend the survey process. Prior surveys on MPI usage considered lists of applications constructed based on application developers' knowledge. The approach taken in this paper, however, is based on an automated mining of a large collection of code sources. More specifically, the mining is accomplished by GitHub REST APIs. We use a database management system to store the results and to answer queries. Another advantage is that this approach provides support for a more complex analysis of MPI usage, which is accomplished by user queries.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0697",
+  "title": "LLM KV-cache: To Restore or To Recompute, That Is the Question",
+  "year": "2026",
+  "abstract": "Key-Value (KV)-caches are essential to modern Large Language Model (LLM) inference, transforming inference from a computationally prohibitive task into a practical one. However, the limited capacity of GPU High Bandwidth Memory (HBM) is often insufficient to retain KV-cache data for all active requests, especially when large models and long contexts are served. To address this limitation, modern inference systems support offloading KV-cache data from HBM to CPU DRAM, local, or remote storage. A known issue is the trade-off between restoring offloaded KV-cache data versus recomputing; the right policy is non-trivial and depends on dynamic factors such as storage bandwidth, interconnect performance, workload characteristics, context length, and service-level objectives (SLOs). In this paper, we first investigate the challenges of the restoration-recomputation trade-off and quantify its impact on inference performance when left unaddressed. We then present an I/O-aware KV-cache management policy that dynamically navigates this trade-off. Our approach maximizes inference throughput while satisfying service-level objectives by either restoring or recomputing KV-cache blocks based on the performance characteristics of the GPU and storage tiers. Initial theoretical results show a 10 × improvement in performance over simplistic static policies while maintaining SLO compliance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:ok"
+  ]
+ },
+ {
+  "id": "F0698",
+  "title": "A survey of latent factorization of tensor-based model compression: Algorithms, toolboxes and future directions",
+  "year": "2026",
+  "abstract": "Modern neural networks (NNs), while effective at learning representations from given samples and handling downstream pattern recognition tasks, typically contain tens to hundreds of millions of parameters. The growth in NN size motivates ongoing research on effective network compression with the purpose of reducing the computational burden without significantly sacrificing the model performance. It is especially critical when deploying NNs on resource-constrained devices where the computation and storage efficiency are highly concerned. A promising and currently popular solution to model compression is to replace the NN weight matrix with its low-rank tensor approximation, i.e., implementing an efficient latent factorization of tensors (LFT) process on the NNs parameters. Based on thorough investigations into the state-of-the-art LFT-based model compression methods, this survey 1) provides a comprehensive review on the latest research progress of LFT-based model compression methods on various NNs (e.g., Convolutional NNs, Recurrent NNs, and Transformers); 2) summarizes a number of widely-used LFT toolboxes; 3) evaluates LFT methods for model compression on a variety of main-stream NN backbones; and 4) discusses the development trend of LFT-based model compression technique. This survey aims to provide a systematic and comprehensive survey concerning the LFT-based model compression methods to artificial intelligence researchers and engineers, thereby promoting further research development in this crucial field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0699",
+  "title": "A comprehensive review of embedded systems in autonomous vehicles: Trends, challenges, and future directions",
+  "year": "2024",
+  "abstract": "The integration of embedded systems in autonomous vehicles represents a transformative paradigm shift in the automotive industry, offering unprecedented opportunities for enhanced safety, efficiency, and user experience. This comprehensive review explores the current landscape of embedded systems in autonomous vehicles, delving into emerging trends, persistent challenges, and future directions that shape the trajectory of this rapidly evolving field. The review begins by examining the foundational concepts of embedded systems in the context of autonomous vehicles, elucidating the intricate interplay between hardware and software components. It surveys the state-of-the-art technologies that empower these systems, including advanced sensors, actuators, and communication protocols, highlighting their pivotal roles in perception, decision-making, and control aspects of autonomous driving. One of the prominent trends discussed in this review is the increasing reliance on artificial intelligence (AI) and machine learning algorithms within embedded systems. The incorporation of these intelligent algorithms enables vehicles to adapt and learn from real-world scenarios, enhancing their ability to navigate diverse and dynamic environments. Additionally, the review sheds light on the growing emphasis on connectivity and edge computing, illustrating how embedded systems leverage these technologies to facilitate seamless communication between vehicles and their surrounding infrastructure. Despite the promising advancements, the review critically examines the persistent challenges that impede the widespread adoption of embedded systems in autonomous vehicles. Issues such as safety concerns, cybersecurity threats, and regulatory frameworks are analyzed, providing insights into the complex ecosystem in which these technologies operate. In addressing the future directions of embedded systems in autonomous vehicles, the review envisions a trajectory marked by continuous innovation and collaboration across industries. It anticipates the evolution of embedded systems towards more robust, adaptive, and fault-tolerant architectures, paving the way for increased autonomy and widespread deployment of autonomous vehicles. This comprehensive review provides a holistic understanding of embedded systems in autonomous vehicles, encapsulating current trends, challenges, and future directions. As the automotive landscape undergoes a paradigm shift, this review serves as a valuable resource for researchers, practitioners, and policymakers seeking to navigate the dynamic terrain of autonomous vehicle technology.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0700",
+  "title": "Pruning Deep Neural Networks for Green Energy-Efficient Models: A Survey",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0701",
+  "title": "Fiber Optic Sensors Embedded in Textile-Reinforced Concrete for Smart Structural Health Monitoring: A Review",
+  "year": "2021",
+  "abstract": "The last decade has seen rapid developments in the areas of carbon fiber technology, additive manufacturing technology, sensor engineering, i.e., wearables, and new structural reinforcement techniques. These developments, although from different areas, have collectively paved way for concrete structures with non-corrosive reinforcement and in-built sensors. Therefore, the purpose of this effort is to bridge the gap between civil engineering and sensor engineering communities through an overview on the up-to-date technological advances in both sectors, with a special focus on textile reinforced concrete embedded with fiber optic sensors. The introduction section highlights the importance of reducing the carbon footprint resulting from the building industry and how this could be effectively achieved by the use of state-of-the-art reinforcement techniques. Added to these benefits would be the implementations on infrastructure monitoring for the safe operation of structures through their entire lifespan by utilizing sensors, specifically, fiber optic sensors. The paper presents an extensive description on fiber optic sensor engineering that enables the incorporation of sensors into the reinforcement mechanism of a structure at its manufacturing stage, enabling effective monitoring and a wider range of capabilities when compared to conventional means of structural health monitoring. In future, these developments, when combined with artificial intelligence concepts, will lead to distributed sensor networks for smart monitoring applications, particularly enabling such distributed networks to be implemented/embedded at their manufacturing stage.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0702",
+  "title": "The Role of Lightweight AI Models in Supporting a Sustainable Transition to Renewable Energy: A Systematic Review",
+  "year": "2025",
+  "abstract": "The transition from fossil fuels to renewable energy (RE) sources is an essential step in mitigating climate change and ensuring environmental sustainability. However, large-scale deployment of renewables is accompanied by new challenges, including the growing demand for rare-earth elements, the need for recycling end-of-life equipment, and the rising energy footprint of digital tools—particularly artificial intelligence (AI) models. This systematic review, following the Preferred Reporting Items for Systematic Reviews and Meta-Analyses (PRISMA) guidelines, explores how lightweight, distilled AI models can alleviate computational burdens while supporting critical applications in renewable energy systems. We examined empirical and conceptual studies published between 2010 and 2024 that address the deployment of AI in renewable energy, the circular economy paradigm, and model distillation and low-energy AI techniques. Our findings indicate that adopting distilled AI models can significantly reduce energy consumption in data processing, enhance grid optimization, and support sustainable resource management across the lifecycle of renewable energy infrastructures. This review concludes by highlighting the opportunities and challenges for policymakers, researchers, and industry stakeholders aiming to integrate circular economy principles into RE strategies, emphasizing the urgent need for collaborative solutions and incentivized policies that encourage low-footprint AI innovation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0703",
+  "title": "Lightweight diffusion models: a survey",
+  "year": "2024",
+  "abstract": "Diffusion models (DMs) are a type of potential generative models, which have achieved better effects in many fields than traditional methods. DMs consist of two main processes: one is the forward process of gradually adding noise to the original data until pure Gaussian noise; the other is the reverse process of gradually removing noise to generate samples conforming to the target distribution. DMs optimize the application results through the iterative noise processing process. However, this greatly increases the computational and storage costs in the training and inference stages, limiting the wide application of DMs. Therefore, how to effectively reduce the resource consumption of using DMs while giving full play to their good performance has become a valuable and necessary research problem. At present, some research has been devoted to lightweight DMs to solve this problem, but there has been no survey in this area. This paper focuses on lightweight DMs methods in the field of image processing, classifies them according to their processing ideas. Finally, the development prospect of future work is analyzed and discussed. It is hoped that this paper can provide other researchers with strategic ideas to reduce the resource consumption of DMs, thereby promoting the further development of this research direction and providing available models for wider applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0704",
+  "title": "A Comprehensive Review of Lightweight CNN and Transfer Learning Techniques for Pneumonia Detection",
+  "year": "2025",
+  "abstract": "Pneumonia is a significant respiratory condition that necessitates prompt and precise diagnosis to enhance patient outcomes. Recently, deep learning, especially Convolutional Neural Networks (CNNs) and Transfer Learning (TL), has become the leading method for automated detection of pneumonia using chest X-ray (CXR) images. [1] This review examines 27 research articles published from 2019 to 2025, concentrating on methodologies, datasets, and performance metrics. The majority of studies utilize TL-based CNN frameworks, employing pre-trained models like VGG, ResNet, DenseNet, MobileNet, and EfficientNet. [3] The Kermany pediatric CXR dataset is the most commonly used, followed by extensive datasets from RSNA [2] and NIH ChestX-ray14. Kaggle serves as a crucial resource, functioning both as a dataset repository and a platform for sharing reproducible Python code. Reported validation accuracies range from 80% to 90%, with recent developments achieving up to approximately 99% in optimized settings. This survey underscores consistent methodological patterns, the significance of standardized datasets, and the continuous enhancement in model performance, providing a comprehensive reference for future AI-driven research in pneumonia diagnosis.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0705",
+  "title": "Knowledge distillation and teacher-student learning in medical imaging: Comprehensive overview, pivotal role, and future directions",
+  "year": "2025",
+  "abstract": "Knowledge Distillation (KD) is a technique to transfer the knowledge from a complex model to a simplified model. It has been widely used in natural language processing and computer vision and has achieved advanced results. Recently, the research of KD in medical image analysis has grown rapidly. The definition of knowledge has been further expanded by combining with the medical field, and its role is not limited to simplifying the model. This paper attempts to comprehensively review the development and application of KD in the medical imaging field. Specifically, we first introduce the basic principles, explain the definition of knowledge and the classical teacher-student network framework. Then, the research progress in medical image classification, segmentation, detection, reconstruction, registration, radiology report generation, privacy protection and other application scenarios is presented. In particular, the introduction of application scenarios is based on the role of KD. We summarize eight main roles of KD techniques in medical image analysis, including model compression, semi-supervised method, weakly supervised method, class balancing, etc. The performance of these roles in all application scenarios is analyzed. Finally, we discuss the challenges in this field and propose potential solutions. KD is still in a rapid development stage in the medical imaging field, we give five potential development directions and research hotspots. A comprehensive literature list of this survey is available at https://github.com/XiangQA-Q/KD-in-MIA.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0706",
+  "title": "Leveraging Hierarchical Taxonomies in Prompt-based Continual Learning",
+  "year": "2024",
+  "abstract": "Humans perceive the world as a series of sequential events, which can be hierarchically organized with different levels of abstraction based on conceptual knowledge. Drawing inspiration from human learning behaviors, this work proposes a novel approach to mitigate catastrophic forgetting in Prompt-based Continual Learning models by exploiting the relationships between continuously emerging class data. We find that applying human habits of organizing and connecting information can serve as an efficient strategy when training deep learning models. Specifically, by building a hierarchical tree structure based on the expanding set of labels, we gain fresh insights into the data, identifying groups of similar classes could easily cause confusion. Additionally, we delve deeper into the hidden connections between classes by exploring the original pretrained model's behavior through an optimal transport-based approach. From these insights, we propose a novel regularization loss function that encourages models to focus more on challenging knowledge areas, thereby enhancing overall performance. Experimentally, our method demonstrated significant superiority over the most robust state-of-the-art models on various benchmarks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0707",
+  "title": "Towards Role-Based Multi-Agent LLM Systems for Software Requirements Analysis",
+  "year": "2026",
+  "abstract": "This paper presents a structured overview of recent research on the application of Large Language Models (LLMs) and multi-agent systems in software requirements analysis and introduces a conceptual, role-based multi-agent architecture for addressing identified limitations. The proposed approach emphasizes hierarchical supervision, collaboration between Large and Small Language Models, and structured cross-checking based on report comparison and uncertaintyaware arbitration to improve robustness and reliability. The contribution of this work is theoretical and exploratory, providing a foundation for future research on multi-agent LLM systems aimed at improving the software requirements analysis process.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0708",
+  "title": "Deep recommendation algorithm based on reviews and descriptions neural matrix factorization under cold-start",
+  "year": "2026",
+  "abstract": "Existing recommendation methods rely solely on ratings or review interactions to determine user preferences, resulting in inability to make recommendations during the cold-start phase of a new item. This paper proposes a RDNMF(Reviews and Descriptions Neural Matrix Factorization) model that integrates review text, item description documents, and ratings. First, the pre-trained BERT model provided by Google is used to process review text and item description documents. LSTM is trained to analyze changes in user preferences over time. The impact of review text on user preferences is then analyzed. Next, user latent feature vectors and item latent feature vectors, both based on review text and item descriptions, are deeply mined. Finally, latent feature vectors obtained by decomposing the rating matrix, are input into an improved neural matrix factorization model. Experiments were conducted on four publicly available Amazon datasets and the BookCrossing dataset, and compared with various state-of-the-art algorithms. The results indicate that the recommendation performance of RDNMF has been improved. Among which, HR@10 improved by an average of 3.43%, and the RMSE decreased by an average of 2.78%, NDCG@10 improved by an average of 5.85%.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0709",
+  "title": "Knowledge Graph-Based Recommender Systems to Mitigate Data Sparsity: A Systematic Literature Review",
+  "year": "2025",
+  "abstract": "Recommender systems (RSs) have become important tools in the modern lifestyle; they have been integrated into all domains, spanning from entertainment (music, films, etc.) to more sensitive fields such as security and health care. Their success does not mean that they are ideal or flawless; quite the opposite, RSs suffer from plenty of drawbacks and challenges that need to be resolved. Data sparsity is a common problem in recommender systems; it has been of top interest among researchers. Numerous approaches from different perspectives have been proposed to mitigate it, including knowledge graphs (KGs), which quickly gained popularity due to the rich semantics residing in their components. In this paper, we will conduct a systematic literature review to explore and analyze in depth the existing contributions. Our work focuses on investigating the effectiveness of KGs to mitigate the data sparsity in RSs by discovering the techniques used, understanding how KGs are exploited, and what type of knowledge is extracted from them, besides studying their evaluation measures and discussing future directions that can strengthen the application of KGs to mitigate data sparsity in recommender systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0710",
+  "title": "A Survey on Efficient Vision‐Language Models",
+  "year": "2025",
+  "abstract": "Vision‐language models (VLMs) integrate visual and textual information, enabling a wide range of applications such as image captioning and visual question answering, making them crucial for modern AI systems. However, their high computational demands pose challenges for real‐time applications. This has led to a growing focus on developing efficient vision‐language models. In this survey, we review key techniques for optimizing VLMs on edge and resource‐constrained devices. We also explore compact VLM architectures, frameworks, and provide detailed insights into the performance–memory trade‐offs of efficient VLMs. Furthermore, we establish a GitHub repository at MPSC‐GitHub to compile all surveyed papers, which we will actively update. Our objective is to foster deeper research in this area.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0711",
+  "title": "Field Experiments of Real-Time Foreign News Distribution Powered by MT",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0712",
+  "title": "FEDERATED GRAPH NEURAL NETWORKS FOR PRIVACY-PRESERVING DATA SCIENCE IN HETEROGENEOUS ENVIRONMENTS: A SYSTEMATIC REVIEW",
+  "year": "2026",
+  "abstract": "The proliferation of distributed data across healthcare, finance, and smart city infrastructures has necessitated the development of collaborative learning paradigms that honor stringent privacy regulations. This systematic review explores the evolution of Federated Graph Neural Networks (Fed-GNN) as a robust solution for privacy-preserving data science in heterogeneous environments. We analyze recent advancements (2024–2026) in addressing \"topology-aware\" optimization and personalized aggregation for non-identically distributed (non-IID) graph data. This paper provides a comprehensive taxonomy of formal privacy mechanisms, specifically evaluating the trade-offs between Dynamic Adaptive Partitioned Homomorphic Encryption (DAPHE) and noise-injection strategies in differential privacy. By synthesizing benchmarks from high-impact frameworks such as FedGraphHE and FedDQ, we identify critical bottlenecks in communication efficiency and structural privacy. Finally, this review highlights significant research gaps in decentralized Byzantine resilience and proposes a two-phase roadmap for future research extensions in dynamic graph learning and lightweight edge-node deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0713",
+  "title": "A Review on Lossless Compression Techniques for Wireless Capsule Endoscopic Data.",
+  "year": "2020",
+  "abstract": "BACKGROUND\nThe videos produced during wireless capsule endoscopy have larger data size causing difficulty in transmission with limited bandwidth. The constraint on wireless capsule endoscopy hinders the performance of compression module.\n\n\nOBJECTIVES\nThe objectives of this paper are as follows: (i) to have an extensive review on the lossless compression techniques and (ii) to find out the limitations of the existing system and the possibilities for improvement.\n\n\nMETHOD\nThe literature review has been done with a focus on the compression schemes satisfying minimum computational complexity, less power dissipation and low memory requirements for hardware implementation. A thorough study on various lossless compression techniques is done under two perspectives, i.e., techniques applied on Bayer CFA and RGB images. The details of the various stages of wireless capsule endoscopy compression are looked into to have a better understanding. The suitable performance metrics for evaluating the compression techniques are listed from various literatures.\n\n\nRESULT\nIn addition to the Gastrolab database that is widely, WEO clinical endoscopy atlas and Gastrointestinal atlas found to be better alternatives for experimentation. Pre-processing operations, especially new subsampling patterns need to be given more focus to exploit the redundancies in the images. Investigations shows encoder module can be modified to bring more improvement towards compression. The real-time endoscopy still exists as a promising area for exploration.\n\n\nCONCLUSION\nThis review presents a research update on the details of wireless capsule endoscopy compression together with the findings as an eye-opener and guidance for further research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0714",
+  "title": "Tensor decomposition for analysing time-evolving social networks: an overview",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0715",
+  "title": "A Review of Techniques for Lightweight Monocular Depth Estimation",
+  "year": "2024",
+  "abstract": "Recent advancements in lightweight neural networks have enabled the deployment of monocular depth estimation (MDE) models on embedded platforms, including microcontrollers, mobile devices, and edge computing environments. Importantly, it allows the effective implementation of various applications, including visual synchronous localization and mapping (SLAM) in resource-constrained robotic systems. This review examines multiple approaches currently being explored for lightweight monocular depth estimation models, with a focus on techniques such as architecture optimization, network pruning and slimming, hybrid convolutional neural network (CNN)-transformer architectures, knowledge distillation, quantization, and low-precision computation, efficient training strategies, innovative loss functions, edge information utilization, energy-quality scalability, and improvements in up-sampling and decoders. This review highlights that combining architecture optimization, network pruning, and slimming with quantization and low-precision computation provides the optimal approach for reducing model parameters while preserving high accuracy.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0716",
+  "title": "Automatic Mapping of Upper-Level Ontology Classes (DOLCE) and Domain-Specific Ontology ITSMO",
+  "year": "2025",
+  "abstract": "This paper proposes a method for extending the top-level ontology DOLCE (DOLCE-lite version, referred to as TLO) to the domain of IT services without expert involvement. The main challenge addressed is the automatic mapping of classes in conditions of a small number of objects (<100) and the absence of annotated data. A review of existing approaches is conducted, their limitations are identified, and novel mapping methods are proposed, integrating embeddings and large language models. The suggested method achieved an 82.35% mapping accuracy when integrating DOLCE and ITSMO ontologies. As a result, the ITO-seed ontology was developed, containing linked classes from DOLCE and ITSMO, which can be utilized in further research and in building knowledge graphs for IT Service Management (ITSM) systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0717",
+  "title": "Women’s Cardiovascular Disease and Stroke Risk Stratification Using a Precision and Personalized Framework Embedded with an Explainable Artificial Intelligence Paradigm: A Narrative Review",
+  "year": "2026",
+  "abstract": "Background: Women face underdiagnosed cardiovascular disease (CVD)/stroke risks due to sex-specific pathophysiological mechanisms, including hormonal variations such as oestrogen decline, adverse pregnancy outcomes (APOs), endothelial dysfunction, autoimmune-mediated factors, and sexual dimorphism in cardiac remodelling. Conventional risk assessment tools, predominantly calibrated to male pathophysiology, lack sensitivity in detecting these female-specific determinants. We hypothesise that artificial intelligence (AI), machine learning (ML) and deep learning (DL) may offer a transformative approach by integrating multimodal data, including pathological biomarkers, clinical history, and vascular imaging, to enable precision CVD/stroke risk stratification, pending rigorous external validation in sex-stratified cohorts. Method: This narrative review adopts a PRISMA-informed study selection framework and oversees gender-specific biomarkers, including vasoactive peptides (adrenomedullin), adipocytokines (adiponectin), inflammatory mediators (hs-CRP, IL-6), and thrombogenic factors (homocysteine, D-dimer), alongside clinical variables (APOs, autoimmune disorders) and ultrasonographic markers, carotid intima-media thickness (cIMT), plaque burden and plaque area (PA). Advanced ML/DL algorithms were employed to synthesise these heterogeneous datasets, identifying nonlinear interactions for better outcomes. Findings: Key insights reveal that hormonal dynamics (e.g., hypoestrogenism post-menopause) modulate CVD risk, while APOs induce persistent endothelial dysfunction and subclinical atherosclerosis. Biomarker sexual dimorphism is evident; hs-CRP exhibits higher baseline levels in women, whereas adiponectin declines with metabolic dysfunction. Radiomic features (cIMT progression, plaque morphology) are a well-established biomarker for CVD risk stratification. Conclusions: The integration of AI-driven multimodal systems holds the potential to enable a paradigm shift from population-based to personalised risk assessment, addressing critical gaps in female CVD health. However, this potential is currently at the early validation stage, and widespread clinical implementation requires prospective, externally validated, and ethnically diverse studies. Future applications should incorporate longitudinal biomarker profiling and advanced imaging, namely shear wave elastography and plaque radiomics, to optimise predictive models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0718",
+  "title": "Comprehensive Sentiment Analysis of Polish Book Reviews Using Large and Small Language Models",
+  "year": "2024",
+  "abstract": "This paper presents a comprehensive study of sentiment analysis for Polish book reviews through the creation of a novel, manually annotated dataset and the evaluation of various language models. We introduce a detailed sentiment annotation scheme, addressing challenges encountered during the annotation process, and evaluate model performance on sentiment classification at both the sentence and document levels, as well as text type identification. The study compares specialized Polish transformer models, newly developed Polish-specific large language models (LLMs), and leading commercial LLMs, testing both fine-tuning and zero-shot approaches. Results show that fine-tuned, Polish-adapted LLMs significantly outperform both small language models (SLMs) and commercial zero-shot LLMs, underscoring the importance of domain-specific fine-tuning and language adaptation for sentiment analysis in specialized contexts like literary criticism.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0719",
+  "title": "Energy Efficient Implementation of CNNs Using Pruning: Techniques and Insights",
+  "year": "2025",
+  "abstract": "The incredible performance of Convolutional Neural Networks (CNNs) is typically credited to their expansive underlying frameworks, which entail substantial environmental and computational costs and thereby limit their deployment on embedded devices. As deep learning models are increasingly integrated into our everyday lives, minimizing their energy consumption becomes extremely critical. Pruning, a popular model compression technique, has thus gained interest due to its ability to effectively reduce storage and computational costs. However, research focusing on the energy efficiency of such implementations has been limited. In this paper, we review recent pruning techniques that target energy efficiency of convolutional neural networks. We categorize these techniques into various groups, including structured/unstructured, specialized hardware/general-purpose hardware, datasets, energy efficiency metrics, iterative/one-shot, and more. Through this survey, we aim to raise awareness of the topic and promote the design and deployment of sustainable CNN models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0720",
+  "title": "Resource-efficient cyber-physical systems design: A survey",
+  "year": "2020",
+  "abstract": "Abstract Many Cyber-Physical Systems (CPSs) in industrial applications are embedded control systems. With the increasing scale and complexity of such system, the resource efficiency in the system design has become an important issue. The resources of CPSs mainly include: computation resource, communication resource and memory resource. The CPSs combine computation, communication and instruction/data storage closely, and realize the combination and coordination of computing resources and physical resources. This paper classifies the existing mainstream research results from three aspect: computation resource, communication resource and memory resource, reviews the research hotspots of each research field, and discusses the urgent problems related to computation resource, communication resource and memory resource in CPSs, as well as the possible research directions in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

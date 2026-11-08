@@ -1,0 +1,294 @@
+[
+ {
+  "id": "C30",
+  "title": "The consequences of online partisan media",
+  "year": "2021",
+  "abstract": "Significance Popular wisdom suggests that the internet plays a major role in influencing people’s attitudes and behaviors related to politics, such as by providing slanted sources of information. Yet evidence for this proposition is elusive due to methodological difficulties and the multifaceted nature of online media effects. This study breaks ground by demonstrating a nudge-like approach for exploring these effects through a combination of real-world experimentation and computational social science techniques. The results confirm that it is difficult for people to be persuaded by competing media accounts during a contentious election campaign. At the same time, data from a longer time span suggest that the real consequence of online partisan media may be an erosion of trust in mainstream news. What role do ideologically extreme media play in the polarization of society? Here we report results from a randomized longitudinal field experiment embedded in a nationally representative online panel survey (N = 1,037) in which participants were incentivized to change their browser default settings and social media following patterns, boosting the likelihood of encountering news with either a left-leaning (HuffPost) or right-leaning (Fox News) slant during the 2018 US midterm election campaign. Data on ≈ 19 million web visits by respondents indicate that resulting changes in news consumption persisted for at least 8 wk. Greater exposure to partisan news can cause immediate but short-lived increases in website visits and knowledge of recent events. After adjusting for multiple comparisons, however, we find little evidence of a direct impact on opinions or affect. Still, results from later survey waves suggest that both treatments produce a lasting and meaningful decrease in trust in the mainstream media up to 1 y later. Consistent with the minimal-effects tradition, direct consequences of online partisan media are limited, although our findings raise questions about the possibility of subtle, cumulative dynamics. The combination of experimentation and computational social science techniques illustrates a powerful approach for studying the long-term consequences of exposure to partisan news.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C31",
+  "title": "Bringing AI To Edge: From Deep Learning's Perspective",
+  "year": "2020",
+  "abstract": "Edge computing and artificial intelligence (AI), especially deep learning for nowadays, are gradually intersecting to build a novel system, called edge intelligence. However, the development of edge intelligence systems encounters some challenges, and one of these challenges is the \\textit{computational gap} between computation-intensive deep learning algorithms and less-capable edge systems. Due to the computational gap, many edge intelligence systems cannot meet the expected performance requirements. To bridge the gap, a plethora of deep learning techniques and optimization methods are proposed in the past years: light-weight deep learning models, network compression, and efficient neural architecture search. Although some reviews or surveys have partially covered this large body of literature, we lack a systematic and comprehensive review to discuss all aspects of these deep learning techniques which are critical for edge intelligence implementation. As various and diverse methods which are applicable to edge systems are proposed intensively, a holistic review would enable edge computing engineers and community to know the state-of-the-art deep learning techniques which are instrumental for edge intelligence and to facilitate the development of edge intelligence systems. This paper surveys the representative and latest deep learning techniques that are useful for edge intelligence systems, including hand-crafted models, model compression, hardware-aware neural architecture search and adaptive deep learning models. Finally, based on observations and simple experiments we conducted, we discuss some future directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C32",
+  "title": "TRANSFORMING AGILE PROJECT MANAGEMENT THROUGH ARTIFICIAL INTELLIGENCE",
+  "year": "2025",
+  "abstract": "In the context of the rapid transformations of the past decade, Artificial Intelligence (AI) is significantly reshaping processes across all industries, including—perhaps most notably—software development. This paper explores the multifaceted role of AI in transforming Agile project management practices, highlighting key innovations, challenges, and benefits. Based on a review of the literature combined with exploratory case examples from current industry practices, the study identifies AI-driven technologies that enhance decision-making and forecasting capabilities. While AI offers significant advantages—such as automating routine tasks and enabling predictive insights—its integration also presents critical challenges. These include concerns related to data privacy and security, overreliance on technology, limitations in integration, and the pressing need for project managers to develop new competencies in a rapidly evolving technological landscape. The paper aims to provide a structured perspective on how AI can be strategically embedded into Agile processes to enhance project outcomes. The findings suggest that AI not only boosts productivity but also redefines team dynamics and strategic decision-making, contributing to a deeper understanding of how AI can sustainably support modern project management.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C33",
+  "title": "Maintaining Transient Diversity Is a General Principle for Improving Collective Problem Solving",
+  "year": "2023",
+  "abstract": "Humans regularly solve complex problems in cooperative teams. A wide range of mechanisms have been identified that improve the quality of solutions achieved by those teams on reaching consensus. We argue that many of these mechanisms work via increasing the transient diversity of solutions while the group attempts to reach a consensus. These mechanisms can operate at the level of individual psychology (e.g., behavioral inertia), interpersonal communication (e.g., transmission noise), or group structure (e.g., sparse social networks). Transient diversity can be increased by widening the search space of possible solutions or by slowing the diffusion of information and delaying consensus. All of these mechanisms increase the quality of the solution at the cost of increased time to reach it. We review specific mechanisms that facilitate transient diversity and synthesize evidence from both empirical studies and diverse formal models—including multiarmed bandits, NK landscapes, cumulative-innovation models, and evolutionary-transmission models. Apparent exceptions to this principle occur primarily when problems are sufficiently simple that they can be solved by mere trial and error or when the incentives of team members are insufficiently aligned. This work has implications for our understanding of collective intelligence, problem solving, innovation, and cumulative cultural evolution.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C34",
+  "title": "An Overview of Neural Network Compression",
+  "year": "2020",
+  "abstract": "Overparameterized networks trained to convergence have shown impressive performance in domains such as computer vision and natural language processing. Pushing state of the art on salient tasks within these domains corresponds to these models becoming larger and more difficult for machine learning practitioners to use given the increasing memory and storage requirements, not to mention the larger carbon footprint. Thus, in recent years there has been a resurgence in model compression techniques, particularly for deep convolutional neural networks and self-attention based networks such as the Transformer. \nHence, this paper provides a timely overview of both old and current compression techniques for deep neural networks, including pruning, quantization, tensor decomposition, knowledge distillation and combinations thereof. \nWe assume a basic familiarity with deep learning architectures\\footnote{For an introduction to deep learning, see ~\\citet{goodfellow2016deep}}, namely, Recurrent Neural Networks~\\citep[(RNNs)][]{rumelhart1985learning,hochreiter1997long}, Convolutional Neural Networks~\\citep{fukushima1980neocognitron}~\\footnote{For an up to date overview see~\\citet{khan2019survey}} and Self-Attention based networks~\\citep{vaswani2017attention}\\footnote{For a general overview of self-attention networks, see ~\\citet{chaudhari2019attentive}.},\\footnote{For more detail and their use in natural language processing, see~\\citet{hu2019introductory}}. Most of the papers discussed are proposed in the context of at least one of these DNN architectures.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C35",
+  "title": "Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization",
+  "year": "2026",
+  "abstract": "Despite the rapid advancements of large language models (LLMs), LLM serving systems remain memory-intensive and costly. The key-value (KV) cache, which stores KV tensors during autoregressive decoding, is crucial for enabling low-latency, high-throughput LLM inference serving. In this survey, we focus on system-aware KV infrastructure for serving LLMs (abbreviated as sKis). We revisit recent work from a system behavior perspective, organizing existing efforts into three dimensions: execution and scheduling (temporal), placement and migration (spatial), and representation and retention (structural). Furthermore, we analyze cross-behavior co-design affinity and behavior-objective links, highlighting future opportunities. Our work systematizes a rapidly evolving area, providing a foundation for understanding and innovating KV cache designs in modern LLM serving infrastructure.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C36",
+  "title": "Evaluating Large Language Models as Tools to Navigate Researchers in Rapidly Evolving Research Landscapes: A Case Study in Cancer Drug Response Prediction",
+  "year": "2025",
+  "abstract": "Large Language Models (LLMs) have emerged as promising tools for assisting researchers in automating and accelerating the synthesis of literature reviews. However, their reliability is a significant concern due to issues like factual inaccuracies and hallucinations. The key question is whether LLMs can reliably provide comprehensive, up-to-date overviews and analyses. This study evaluates the performance of three leading LLMs (OpenAI’s ChatGPT, Google’s Gemini, and DeepSeek) on the complex task of generating a comprehensive survey paper on deep learning for cancer Drug Response Prediction (DRP). By testing both standard and Deep Research (DR) / Deep Think (DT) modes of LLMs with prompts of varying detail, this paper assesses key academic dimensions, including reference management, content quality, and analytical depth. Key findings reveal that while DR modes of LLMs significantly improve reliability by eliminating hallucinations, performance variations exist across models and prompts. A trade-off between reference quantity and integration quality was observed, and even the best-performing models lacked the analytical depth of human experts, often requiring extensive human supervision. The study concludes that LLMs currently serve as powerful assistive tools but still cannot replace the critical validation and synthesis provided by human researchers. Choosing the best LLM to use depends on the task in hand, while several strategies can be implemented to improve the produced output.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C37",
+  "title": "Machine Learning-Aided Real-Time Optimized Multibeam for 6G Integrated Satellite-Terrestrial Networks: Global Coverage for Mobile Services",
+  "year": "2023",
+  "abstract": "Future wireless networks beyond the fifth generation (5G) have been envisioned to increase many folds, in terms of key performance metrics such as latency, data rate, reliability, mobility, and user's quality of experience. However, one of the biggest difference between the sixth generation (6G) and its predecessor is the ability to support high speed connectivity of mobile services for global coverage, especially focusing on under-connected areas (e.g., forests, oceans, deserts, and mountains). Integrated satellite-terrestrial networks (ISTNs) provide the best solution to unravel the unconnected issues of isolated areas not only on the ground but also in the air and on the sea. Despite this premise, the research in ISTNs is still in its infancy with many open problems, associated with long delay communications, large coverage for massive number of devices, and highly demanding real-time services. To alleviate these problems, this article introduces optimal multi-beam design empowered by machine learning techniques for 6G ISTNs, with respect to the real-time constraints of mission-critical services. First, we give an overview of the multibeam design for 6G ISTNs with user clustering approaches, energy-efficiency radio resource allocation, and distributed computing. Then, the frameworks for intelligent multibeam based on machine learning, real-time optimisation, and game theory, are proposed. As case studies, we investigate the performance of machine learning-aided real-time optimisation for 6G ISTNs in disaster relief and real-time optimal multibeam in satellite-terrestrial IoT networks. Potential research directions incorporating digital twin and quantum-inspired optimisation are presented to further support optimal multibeam design in 6G ISTNs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C38",
+  "title": "TALES: A Taxonomy and Analysis of Cultural Representations in LLM-generated Stories",
+  "year": "2025",
+  "abstract": "Millions of users across the globe turn to AI chatbots for their creative needs, inviting widespread interest in understanding how they represent diverse cultures. However, evaluating cultural representations in open-ended tasks remains challenging and underexplored. In this work, we present TALES, an evaluation of cultural misrepresentations in LLM-generated stories for diverse Indian cultural identities. First, we develop TALES-Tax, a taxonomy of cultural misrepresentations by collating insights from participants with lived experiences in India through focus groups (N=9) and individual surveys (N=15). Using TALES-Tax, we evaluate 6 models through a large-scale annotation study spanning 2,925 annotations from 108 annotators with lived experience and native language proficiency from across 71 regions in India and 14 languages. Concerningly, we find that 88% of the generated stories contain misrepresentations, and such errors are more prevalent in mid- and low-resourced languages and stories based in peri-urban regions in India. We also transform the annotations into TALES-QA, a standalone question bank to evaluate the cultural knowledge of models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C39",
+  "title": "Learnings from a Retail Recommendation System on Billions of Interactions at bol.com",
+  "year": "2021",
+  "abstract": "Recommender systems are ubiquitous in the modern internet, where they help users find items they might like. We discuss the design of a large-scale recommender system handling billions of interactions on a European e-commerce platform.We present two studies on enhancing the predictive performance of this system with both algorithmic and systems-related approaches. First, we evaluate neural network-based approaches on proprietary data from our e-commerce platform, and confirm recent results outlining that the benefits of these methods with respect to predictive performance are limited, while they exhibit severe scalability bottlenecks. Next, we investigate the impact of a reduction of the response latency of our serving system, and conduct an A/B test on the live platform with more than 19 million user sessions, which confirms that the latency reduction of the recommender system correlates with a significant increase in business-relevant metrics. We discuss the implications of our findings with respect to real world recommendation systems and future research on scalable session-based recommendation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C40",
+  "title": "Vision Transformers on the Edge: A Comprehensive Survey of Model Compression and Acceleration Strategies",
+  "year": "2025",
+  "abstract": "In recent years, vision transformers (ViTs) have emerged as powerful and promising techniques for computer vision tasks such as image classification, object detection, and segmentation. Unlike convolutional neural networks (CNNs), which rely on hierarchical feature extraction, ViTs treat images as sequences of patches and leverage self-attention mechanisms. However, their high computational complexity and memory demands pose significant challenges for deployment on resource-constrained edge devices. To address these limitations, extensive research has focused on model compression techniques and hardware-aware acceleration strategies. Nonetheless, a comprehensive review that systematically categorizes these techniques and their trade-offs in accuracy, efficiency, and hardware adaptability for edge deployment remains lacking. This survey bridges this gap by providing a structured analysis of model compression techniques, software tools for inference on edge, and hardware acceleration strategies for ViTs. We discuss their impact on accuracy, efficiency, and hardware adaptability, highlighting key challenges and emerging research directions to advance ViT deployment on edge platforms, including graphics processing units (GPUs), application-specific integrated circuit (ASICs), and field-programmable gate arrays (FPGAs). The goal is to inspire further research with a contemporary guide on optimizing ViTs for efficient deployment on edge devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C41",
+  "title": "A Dataset for Studying the Relationship between Human and Smart Devices",
+  "year": "2024",
+  "abstract": "This dataset reports the responses to a survey designed for investigating the relationship that humans have with their smart devices. The dataset was collected between May and July 2020 and is a sample of over 500 respondents of various ethnicities and backgrounds. These data were used for modeling the ways that people relate to their devices using the notion of agency. However, the data can be used for complementing any study that intends to investigate a tool-mediated communication from the perspective of users, applying a variety of beliefs, attitudes, and expectations that users have in relation to their devices and themselves. This article presents the survey items as well as some preliminary data insights. The collected data were in English and the responses were anonymized to ensure GDPR compliance. The data were stored in a .csv file containing the respondents’ answers to the questions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C42",
+  "title": "Knowledge Distillation: A Survey",
+  "year": "2020",
+  "abstract": "In recent years, deep neural networks have been successful in both industry and academia, especially for computer vision tasks. The great success of deep learning is mainly due to its scalability to encode large-scale data and to maneuver billions of model parameters. However, it is a challenge to deploy these cumbersome deep models on devices with limited resources, e.g., mobile phones and embedded devices, not only because of the high computational complexity but also the large storage requirements. To this end, a variety of model compression and acceleration techniques have been developed. As a representative type of model compression and acceleration, knowledge distillation effectively learns a small student model from a large teacher model. It has received rapid increasing attention from the community. This paper provides a comprehensive survey of knowledge distillation from the perspectives of knowledge categories, training schemes, teacher–student architecture, distillation algorithms, performance comparison and applications. Furthermore, challenges in knowledge distillation are briefly reviewed and comments on future research are discussed and forwarded.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C43",
+  "title": "Deep Model Compression and Architecture Optimization for Embedded Systems: A Survey",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio"
+  ]
+ },
+ {
+  "id": "C44",
+  "title": "LLM Inference Unveiled: Survey and Roofline Model Insights",
+  "year": "2024",
+  "abstract": "The field of efficient Large Language Model (LLM) inference is rapidly evolving, presenting a unique blend of opportunities and challenges. Although the field has expanded and is vibrant, there hasn't been a concise framework that analyzes the various methods of LLM Inference to provide a clear understanding of this domain. Our survey stands out from traditional literature reviews by not only summarizing the current state of research but also by introducing a framework based on roofline model for systematic analysis of LLM inference techniques. This framework identifies the bottlenecks when deploying LLMs on hardware devices and provides a clear understanding of practical problems, such as why LLMs are memory-bound, how much memory and computation they need, and how to choose the right hardware. We systematically collate the latest advancements in efficient LLM inference, covering crucial areas such as model compression (e.g., Knowledge Distillation and Quantization), algorithm improvements (e.g., Early Exit and Mixture-of-Expert), and both hardware and system-level enhancements. Our survey stands out by analyzing these methods with roofline model, helping us understand their impact on memory access and computation. This distinctive approach not only showcases the current research landscape but also delivers valuable insights for practical implementation, positioning our work as an indispensable resource for researchers new to the field as well as for those seeking to deepen their understanding of efficient LLM deployment. The analyze tool, LLM-Viewer, is open-sourced.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C45",
+  "title": "Resource-Efficient Convolutional Networks: A Survey on Model-, Arithmetic-, and Implementation-Level Techniques",
+  "year": "2021",
+  "abstract": "Convolutional neural networks (CNNs) are used in our daily life, including self-driving cars, virtual assistants, social network services, healthcare services, and face recognition, among others. However, deep CNNs demand substantial compute resources during training and inference. The machine learning community has mainly focused on model-level optimizations such as architectural compression of CNNs, whereas the system community has focused on implementation-level optimization. In between, various arithmetic-level optimization techniques have been proposed in the arithmetic community. This article provides a survey on resource-efficient CNN techniques in terms of model-, arithmetic-, and implementation-level techniques, and identifies the research gaps for resource-efficient CNN techniques across the three different level techniques. Our survey clarifies the influence from higher- to lower-level techniques based on our resource efficiency metric definition and discusses the future trend for resource-efficient CNN research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C46",
+  "title": "Edge Intelligence: A Review of Deep Neural Network Inference in Resource-Limited Environments",
+  "year": "2025",
+  "abstract": "Deploying deep neural networks (DNNs) in resource-limited environments—such as smartwatches, IoT nodes, and intelligent sensors—poses significant challenges due to constraints in memory, computing power, and energy budgets. This paper presents a comprehensive review of recent advances in accelerating DNN inference on edge platforms, with a focus on model compression, compiler optimizations, and hardware–software co-design. We analyze the trade-offs between latency, energy, and accuracy across various techniques, highlighting practical deployment strategies on real-world devices. In particular, we categorize existing frameworks based on their architectural targets and adaptation mechanisms and discuss open challenges such as runtime adaptability and hardware-aware scheduling. This review aims to guide the development of efficient and scalable edge intelligence solutions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C47",
+  "title": "Harnessing Digital Phenotyping to Advance University Student Mental Health (Brightline): Study Protocol for a Prospective Observational Study",
+  "year": "2025",
+  "abstract": "Introduction Mental health issues such as depression and anxiety are highly and disproportionally prevalent among university students. Beyond the academic rigor, stressors imposed by a new environment result in them being vulnerable to the onset and manifestation of mental health symptomatology. Leveraging smartphones and wearables for digital phenotyping capabilities is an innovative approach for monitoring and intervening in the mental health conditions of university students. This provides a unique opportunity to collect and identify digital and behavioral biomarkers, subsequently enabling the development of predictive models to identify university students at risk. Methods and analysis This study - Brightline - will employ an observational study design over a 6-month period, recruiting 500 students from a major public university in Singapore. Passive data collection will occur continuously throughout the monitoring period through a wearable device (Fitbit Charge 6) and smartphone sensors via the Brightline app, which utilizes a digital phenotyping data collection platform. Active data collection will consist of self-report questionnaires to be completed at the beginning of the study and follow-up assessments at one, three, and six months after. The passive and active data collected will be analyzed to identify the digital biomarkers associated with depression, anxiety, stress, loneliness, and affect among university students. Predictive models of these mental health issues will also be developed. Ethics and dissemination This study was approved by the Nanyang Technological University Institutional Review Board (IRB-2023-894). Findings from this study will be published in peer-reviewed journals and presented at academic conferences. Trial registration: NCT06770075.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C48",
+  "title": "FUZZY APPLICATION (MAMDANI METHOD) IN DECISION-MAKING ON LED TV SELECTION",
+  "year": "2024",
+  "abstract": "Science is now developing very quickly. Information technology has been used in various places. Using computers in business, government, and personal activities shows how important science and technology are in helping human activities. One method used to solve various problems is fuzzy logic. Several types of Fuzzy are classified as Fuzzy Inference Systems (FIS), namely Tsukamoto, Mamdani, and Sugeno. The application of vague logic in making decisions about choosing an LED TV is to make it easier to select electronic media. This research aims to help people who need clarification on the many LED TV choices currently available. So, we need a decision-making method to help people choose an LED TV that suits their needs and budget. One of the methods used in this research is the Mamdani method. There were 50 LED TV brands in this research, and the criteria used in selecting LED TVs were based on size, resolution, and price. An LED TV that meets the medium size, high resolution, and normal price criteria will be purchased. The LED TV data that meets the medium size, high resolution, and normal price criteria is the Samsung UA43AU7000KXXD brand LED TV. However, the actual decision remains based on the buyer's decision.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C49",
+  "title": "Causal Artificial Intelligence in Legal Language Processing: A Systematic Review",
+  "year": "2025",
+  "abstract": "Recent advances in legal language processing have highlighted limitations in correlation-based artificial intelligence approaches, prompting exploration of Causal Artificial Intelligence (AI) techniques for improved legal reasoning. This systematic review examines the challenges, limitations, and potential impact of Causal AI in legal language processing compared to traditional correlation-based methods. Following the Joanna Briggs Institute methodology, we analyzed 47 papers from 2017 to 2024 across academic databases, private sector publications, and policy documents, evaluating their contributions through a rigorous scoring framework assessing Causal AI implementation, legal relevance, interpretation capabilities, and methodological quality. Our findings reveal that while Causal AI frameworks demonstrate superior capability in capturing legal reasoning compared to correlation-based methods, significant challenges remain in handling legal uncertainty, computational scalability, and potential algorithmic bias. The scarcity of comprehensive real-world implementations and overemphasis on transformer architectures without causal reasoning capabilities represent critical gaps in current research. Future development requires balanced integration of AI innovation with law’s narrative functions, particularly focusing on scalable architectures for maintaining causal coherence while preserving interpretability in legal analysis.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C50",
+  "title": "Full Stack Optimization of Transformer Inference: a Survey",
+  "year": "2023",
+  "abstract": "Recent advances in state-of-the-art DNN architecture design have been moving toward Transformer models. These models achieve superior accuracy across a wide range of applications. This trend has been consistent over the past several years since Transformer models were originally introduced. However, the amount of compute and bandwidth required for inference of recent Transformer models is growing at a significant rate, and this has made their deployment in latency-sensitive applications challenging. As such, there has been an increased focus on making Transformer models more efficient, with methods that range from changing the architecture design, all the way to developing dedicated domain-specific accelerators. In this work, we survey different approaches for efficient Transformer inference, including: (i) analysis and profiling of the bottlenecks in existing Transformer architectures and their similarities and differences with previous convolutional models; (ii) implications of Transformer architecture on hardware, including the impact of non-linear operations such as Layer Normalization, Softmax, and GELU, as well as linear operations, on hardware design; (iii) approaches for optimizing a fixed Transformer architecture; (iv) challenges in finding the right mapping and scheduling of operations for Transformer models; and (v) approaches for optimizing Transformer models by adapting the architecture using neural architecture search. Finally, we perform a case study by applying the surveyed optimizations on Gemmini, the open-source, full-stack DNN accelerator generator, and we show how each of these approaches can yield improvements, compared to previous benchmark results on Gemmini. Among other things, we find that a full-stack co-design approach with the aforementioned methods can result in up to 88.7x speedup with a minimal performance degradation for Transformer inference.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C51",
+  "title": "Efficient Neural Networks for Tiny Machine Learning: A Comprehensive Review",
+  "year": "2023",
+  "abstract": "The field of Tiny Machine Learning (TinyML) has gained significant attention due to its potential to enable intelligent applications on resource-constrained devices. This review provides an in-depth analysis of the advancements in efficient neural networks and the deployment of deep learning models on ultra-low-power microcontrollers (MCUs) for TinyML applications. It introduces neural networks and discusses their architectures and resource requirements. It explores MEMS-based applications on ultra-low-power MCUs, highlighting their potential for enabling TinyML on resource-constrained devices. The review focuses on efficient neural networks for TinyML. It covers techniques such as model compression, quantization, and low-rank factorization, which optimize neural network architectures for minimal resource utilization on MCUs. The article then delves into the deployment of deep learning models on ultra-low-power MCUs, addressing challenges such as limited computational capabilities and memory resources. Techniques such as model pruning, hardware acceleration, and algorithm-architecture co-design are discussed. Lastly, the review provides an overview of current limitations in the field, including the tradeoff between model complexity and resource constraints. Overall, this review article presents a comprehensive analysis of efficient neural networks and deployment strategies for TinyML on ultra-low-power MCUs. It identifies future research directions for unlocking the potential of TinyML applications on resource-constrained devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C52",
+  "title": "Micromobility Sensing Systems and Safety Services: A Brief Review",
+  "year": "2024",
+  "abstract": "Micromobility refers to small, lightweight and low-speed personal devices including motorized (e-scooters) or non-motorized (bicycles) vehicles. However, the most vulnerable road users are riders of micromobility, including bicycles, e-bikes, e-scooters and motorcycles. Additionally, the safety of micromobility devices is considered the most significant factor that influence the adoption of this mode of transportation in urban environments. Therefore, different sensing systems have been used for collecting micromobility motion data and detecting various aspects of micromobility safety. This review summarises research on micromobility sensing systems and safety services. It is organised into four topics: micromobility and sensing approaches, micromobility safety challenges and potential solutions, micromobility sensors and data acquisition methods, and micromobility safety and hazard detection. Therefore, a brief account of micromobility sensing approaches and their roles in tackling micromobility safety challenges is given. Additionally, the applications of various types of micromobility data collection methods and sensos are described. Finally, a brief overview is given of possible applications micromobility sensing data in hazard detection techniques and therefore in shaping the micromobility safety schemes.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C53",
+  "title": "A Survey on Efficient Inference for Large Language Models",
+  "year": "2024",
+  "abstract": "Large Language Models (LLMs) have attracted extensive attention due to their remarkable performance across various tasks. However, the substantial computational and memory requirements of LLM inference pose challenges for deployment in resource-constrained scenarios. Efforts within the field have been directed towards developing techniques aimed at enhancing the efficiency of LLM inference. This paper presents a comprehensive survey of the existing literature on efficient LLM inference. We start by analyzing the primary causes of the inefficient LLM inference, i.e., the large model size, the quadratic-complexity attention operation, and the auto-regressive decoding approach. Then, we introduce a comprehensive taxonomy that organizes the current literature into data-level, model-level, and system-level optimization. Moreover, the paper includes comparative experiments on representative methods within critical sub-fields to provide quantitative insights. Last but not least, we provide some knowledge summary and discuss future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C54",
+  "title": "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding",
+  "year": "2024",
+  "abstract": "To mitigate the high inference latency stemming from autoregressive decoding in Large Language Models (LLMs), Speculative Decoding has emerged as a novel decoding paradigm for LLM inference. In each decoding step, this method first drafts several future tokens efficiently and then verifies them in parallel. Unlike autoregressive decoding, Speculative Decoding facilitates the simultaneous decoding of multiple tokens per step, thereby accelerating inference. This paper presents a comprehensive overview and analysis of this promising decoding paradigm. We begin by providing a formal definition and formulation of Speculative Decoding. Then, we organize in-depth discussions on its key facets, such as drafter selection and verification strategies. Furthermore, we present a comparative analysis of leading methods under third-party testing environments. We aim for this work to serve as a catalyst for further research on Speculative Decoding, ultimately contributing to more efficient LLM inference.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C55",
+  "title": "Adoption of Artificial Intelligence in Organizational Coaching Processes",
+  "year": "2026",
+  "abstract": "Artificial intelligence (AI) is transforming how organizations develop human potential, offering scalable and data-driven support for coaching and capability building. This study proposes and validates a conceptual framework for integrating AI into organizational coaching processes to enhance competence development and strategic alignment. AI-supported coaching in this research is treated as an emerging organizational technology whose potential organizational value depends less on model capability and more on governance design, decision rights, and auditable evaluation outputs. Following a mixed-methods, multi-phase design, the research combined a Systematic Literature Review (SLR) with the construction of a layered design architecture in which OSCAR serves as the primary coaching-process scaffold, complemented by KSA for competency specification, Situational Leadership for adaptive guidance, and KPIs for monitoring and governance. The framework structures AI-supported coaching across 10 interrelated phases, from contextual anchoring to review and measurement, while preserving iterative re-entry to earlier phases whenever review evidence, contextual change, or insufficient progress makes adjustment necessary. Prototyping demonstrated feasibility and coherence across models, while the focus group provided qualitative expert feedback on the framework’s clarity, governance needs, and perceived usefulness for competence development. At this stage, however, the KPI structures generated by the framework and the descriptive comparison across AI tools should be interpreted as prototype-level outputs rather than as empirically validated performance measures or evidence of added value over baseline approaches. Because the evaluation relied on two fictional prototyping scenarios and a small expert-oriented focus group (n = 6), the findings should be interpreted as evidence of prototype demonstration and qualitative refinement rather than of real-world effectiveness or organizational impact. The study also does not include a control group or comparison with traditional human coaching, so the added value of the AI-supported framework over alternative coaching arrangements remains a question for future empirical testing. Findings suggest that AI can usefully support organizational coaching by personalizing dialogue, structuring reflection, and generating auditable development artefacts, provided ethical safeguards and human oversight remain integral. The research contributes a preliminarily validated, ethics-informed, and governance-aware framework for AI adoption in organizational coaching and offers practical insights for embedding AI-enabled development in learning organizations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C56",
+  "title": "Efficient Methods for Natural Language Processing: A Survey",
+  "year": "2022",
+  "abstract": "Abstract Recent work in natural language processing (NLP) has yielded appealing results from scaling model parameters and training data; however, using only scale to improve performance means that resource consumption also grows. Such resources include data, time, storage, or energy, all of which are naturally limited and unevenly distributed. This motivates research into efficient methods that require fewer resources to achieve similar results. This survey synthesizes and relates current methods and findings in efficient NLP. We aim to provide both guidance for conducting NLP under limited resources, and point towards promising research directions for developing more efficient methods.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C57",
+  "title": "Compressing Large-Scale Transformer-Based Models: A Case Study on BERT",
+  "year": "2020",
+  "abstract": "Abstract Pre-trained Transformer-based models have achieved state-of-the-art performance for various Natural Language Processing (NLP) tasks. However, these models often have billions of parameters, and thus are too resource- hungry and computation-intensive to suit low- capability devices or applications with strict latency requirements. One potential remedy for this is model compression, which has attracted considerable research attention. Here, we summarize the research in compressing Transformers, focusing on the especially popular BERT model. In particular, we survey the state of the art in compression for BERT, we clarify the current best practices for compressing large-scale Transformer models, and we provide insights into the workings of various methods. Our categorization and analysis also shed light on promising future research directions for achieving lightweight, accurate, and generic NLP models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C58",
+  "title": "Hardware-Aware Neural Architecture Search: Survey and Taxonomy",
+  "year": "2021",
+  "abstract": "There is no doubt that making AI mainstream by bringing powerful, yet power hungry deep neural networks (DNNs) to resource-constrained devices would required an efficient co-design of algorithms, hardware and software. The increased popularity of DNN applications deployed on a wide variety of platforms, from tiny microcontrollers to data-centers, have resulted in multiple questions and challenges related to constraints introduced by the hardware. In this survey on hardware-aware neural architecture search (HW-NAS), we present some of the existing answers proposed in the literature for the following questions: \"Is it possible to build an efficient DL model that meets the latency and energy constraints of tiny edge devices?\", \"How can we reduce the trade-off between the accuracy of a DL model and its ability to be deployed in a variety of platforms?\". The survey provides a new taxonomy of HW-NAS and assesses the hardware cost estimation strategies. We also highlight the challenges and limitations of existing approaches and potential future directions.\n\nWe hope that this survey will help to fuel the research towards efficient deep learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ }
+]

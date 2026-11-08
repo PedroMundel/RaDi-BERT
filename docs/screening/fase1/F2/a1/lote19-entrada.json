@@ -1,0 +1,442 @@
+[
+ {
+  "id": "F0721",
+  "title": "Review on LoRa backscatter technology",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0722",
+  "title": "CUP: A Framework for Resource-Efficient Review-Based Recommenders",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0723",
+  "title": "Distilling Salient Reviews with Zero Labels",
+  "year": "2022",
+  "abstract": "Many people read online reviews to learn about real-world entities of their interest. However, majority of reviews only describes general experiences and opinions of the customers, and may not reveal facts that are specific to the entity being reviewed. In this work, we focus on a novel task of mining from a review corpus sentences that are unique for each entity. We refer to this task as Salient Fact Extraction. Salient facts are extremely scarce due to their very nature. Consequently, collecting labeled examples for training supervised models is tedious and cost-prohibitive. To alleviate this scarcity problem, we develop an unsupervised method, ZL-Distiller, which leverages contextual language representations of the reviews and their distributional patterns to identify salient sentences about entities. Our experiments on multiple domains (hotels, products, and restaurants) show that ZL-Distiller achieves state-of-the-art performance and further boosts the performance of other supervised/unsupervised algorithms for the task. Furthermore, we show that salient sentences mined by ZL-Distiller provide unique and detailed information about entities, which benefit downstream NLP applications including question answering and summarization.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0724",
+  "title": "Efficient Resource Allocation Algorithms in Satellite Edge Computing: A Survey",
+  "year": "2024",
+  "abstract": "To achieve higher throughput, the concept of edge computing on mobile devices has emerged. Subsequently, the idea of MEC was enhanced to satellite edge computing (SEC) to provide broader coverage in remote areas. To address energy and resource issues in SEC, this paper discusses the research trends in algorithms for more efficient resource allocation within SEC systems. Two resource allocation methods are introduced: the DRL-based DQN algorithm and the greedy strategy-based OEC-TA algorithm. The proposed algorithms are validated to significantly improve system performance and resource efficiency by allocating resources more effectively.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0725",
+  "title": "LLMs for Sentiment Analysis in Tourism Reviews: A Resource-Efficient Approach",
+  "year": "2024",
+  "abstract": "This paper investigates the utility of open source Large Language Models for sentiment analysis in tourism reviews, with particular focus on the hospitality sector. By harnessing the power of Large Language Models and zero-shot classification techniques, we propose a resource-efficient solution that enables firms to analyse sentiments and extract keywords from reviews without the need for extensive model customisation. Through a comprehensive analysis of various open source models, experimentation, and validation on real-world tourism datasets, we demonstrate the viability and effectiveness of our approach. Our findings highlight the potential of these models as accessible tools for enhancing decision-making processes in the tourism sector, enabling firms in the hospitality domain to leverage cutting-edge technology for competitive advantage.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0726",
+  "title": "Lightweight Video Anomaly Detection for Industrial Contexts: A Multi-Axis Taxonomy of Modeling, Efficiency, and Operational Robustness",
+  "year": "2026",
+  "abstract": "Video anomaly detection (VAD) plays a critical role in industrial Closed-circuit Television (CCTV) systems, where continuous operation, limited computational resources, and evolving scene dynamics impose strict design constraints. Despite extensive progress in VAD methods, existing literature often spans multiple conceptual dimensions. Still, it implicitly intertwines learning paradigms, temporal modeling strategies, efficiency considerations, and robustness requirements, thereby complicating systematic analysis and comparison—particularly for lightweight, deployable solutions. This paper introduces a multi-axis taxonomy for lightweight video anomaly detection in industrial surveillance scenarios. In contrast to hierarchical or single-perspective categorizations, the proposed taxonomy explicitly separates independent design dimensions. The proposed taxonomy provides a descriptive, non-evaluative design space that supports more straightforward interpretation and principled discussion of VAD approaches under industrial constraints. Rather than proposing new detection algorithms, this work contributes a compact conceptual framework that clarifies methodological trade-offs and facilitates more informed design choices for real-world industrial VAD systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0727",
+  "title": "A SURVEY OF THE PROBLEM AND TECHNIQUES IN RESOURCE ALLOCATION FOR MULTI-PROJECT SOFTWARE PROJECTS",
+  "year": "2024",
+  "abstract": "Managing multiple software projects concurrently presents challenges in resource allocation. This study explores these issues and potential solutions. We conducted research to identify and categorise the most pressing problems in this domain and evaluate the effectiveness of various techniques proposed to mitigate these challenges. The key challenges identified are resource underutilisation, inefficiency, and conflict. Projects often suffer from long durations, uncertainties, and cost overruns. Traditional project management methods, such as the Critical Path Method and Program Evaluation and Review Technique, assume unlimited resources and are designed for single-project environments, rendering them inadequate for multi-project scenarios. Consequently, more recent research has explored advanced approaches to develop more effective scheduling solutions, including heuristic algorithms, genetic algorithms, and hybrid methods. Still, they lack performance guarantees and may not consistently achieve optimal results. The study examines how researchers tackle these issues. Techniques include using upper and lower bounds for concurrent activities, project buffers, and optimising project makespan for better resource utilisation. Additionally, allocating the right people to projects and coordinated planning for resource-constrained scenarios are explored. The research indicates that multi-stage hybrid approaches utilising machine learning techniques yield the most promising results. Therefore, future research should focus on applying ML techniques to select the optimal algorithm and incorporate historical data, representing a promising direction for advancing this field. This analysis provides insights for researchers seeking to develop improved approaches to resource allocation in multi-project software development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0728",
+  "title": "The Role of Artificial Intelligence in Enhancing Maternal and Child Health Through Digital Health Initiatives in Resource-Limited Settings: A Narrative Review",
+  "year": "2026",
+  "abstract": "Maternal and child healthcare remains a key global health challenge in low-resource settings. Insufficient training of healthcare workers and the unavailability of skilled medical personnel have led to high maternal and neonatal mortality and pregnancy-related complications. Addressing these challenges is critical for improving healthcare outcomes in these regions. Artificial intelligence (AI) applications have demonstrated significant potential for improving maternal and child health by enabling personalized care and supporting data-driven clinical decision-making. These technologies offer practical solutions for overcoming systemic barriers. The integration of AI into health systems enables predictive analytics, telemedicine, and automated diagnostics. Projects such as interoperable AI language modules and solar-powered mobile health units have effectively enhanced maternal and child health services. Countries including the United States, India, Kenya, Uganda, and the Philippines have implemented AI models to deliver focused care for pregnant women and neonates. However, challenges such as poor infrastructure, limited acceptability, lack of medical expertise, and data confidentiality concerns remain. Enhancing healthcare professionals’ training, conducting trials of AI models, and embedding AI into existing healthcare systems can substantially reduce these limitations. With ongoing development, AI is poised to shape the future of maternal and child healthcare and address most implementation barriers. This review includes studies published between January 2010 and November 2024, with the final database search conducted on November 20, 2024.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0729",
+  "title": "A Multi‐Perspective Review on Embedded Systems Quality: State of the Field, Challenges, and Research Directions",
+  "year": "2025",
+  "abstract": "The use of embedded systems has increased significantly over the last decade with the proliferation of Internet of Things technology, automotive and healthcare innovations and the use of smart home appliances and consumer electronics. With this increase, the need for higher quality embedded systems has increased. There are various guidelines and standards, such as ISO/IEC 9126 and ISO/IEC 25010, for product quality evaluation. However, these guidelines cannot be directly applied to embedded systems due to the nature of these systems. Applying traditional quality standards or guidelines on these systems without modification may degrade the performance of the system, increase memory usage or energy consumption, or affect other critical physical metrics adversely. Consequently, several models and approaches have either been introduced or have adopted existing guidelines to produce high‐quality embedded systems. With this motivation, to understand the state of the art, and to identify the research directions in the field, we conducted a systematic literature review (SLR). In our research, we have investigated studies published from 1980 to 2024 and provided a comprehensive review of the scientific literature on quality models, quality attributes, employed practices, and the challenges, gaps, and pitfalls in the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0730",
+  "title": "AI-Enabled FET Sensors: Data Modalities, Learning Tasks, and Edge Deployment—A Review",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0731",
+  "title": "A review of augmented reality in embedded systems for smart farming: innovations, applications and future directions",
+  "year": "2025",
+  "abstract": "The integration of augmented reality (AR) into embedded agricultural systems is reshaping precision farming by enabling real-time visualizations and interactions with complex environmental data. In the face of mounting global pressures, from climate variability to resource constraints and food system demands, AR-enhanced platforms present a promising pathway toward more efficient farming practices. However, existing research has predominantly treated AR as a standalone tool, overlooking its potential to link and enable the functional integration of diverse embedded technologies. Therefore, the objective of the present review is to investigate how AR visualization can integrate data from Internet of Things devices, unmanned aerial vehicles, farming machinery, robotics, edge computing platforms and artificial intelligence (AI) to enable their coordinated, field-level deployment in precision agriculture. The article offers three primary contributions: a structured synthesis of AR applications across embedded systems, a conceptual architecture for AR-centered smart farming and an integrated analysis of research gaps and future directions. Key research gaps include the lack of studies addressing model interpretability and system interoperability, insufficient exploration of real-time edge AI processing and gesture-based AR controls, and the absence of globally representative data sets for AI image analysis. Future research directions include the development of low-latency data pipelines, explainable AI interfaces, swarm-capable Drone-AR systems, energy-efficient edge AI models, federated learning for data privacy and participatory design strategies tailored for resource-limited contexts. These findings offer valuable insights for researchers, technology developers, policymakers and farmers working to implement scalable, secure and accessible AR-powered agricultural solutions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0732",
+  "title": "LoRa-E: Overview and Performance Analysis",
+  "year": "2020",
+  "abstract": "LoRa-E is a new physical layer developed by Semtech to increase the capacity of LoRaWAN in dense and congested deployments. It has also been designed to address extremely long-range and large-scale communication scenarios with a focus on reaching gateway devices installed on satellites. Thanks to its design principles, it finely manages packet transmission, enabling Quality-of-Service policies on a per-packet basis. The core of LoRa-E is a Fast Frequency Hopping Spread Spectrum Modulation (FHSS) that uses frequency hopping sequences in which $\\sim$50~ms fragments are transmitted. Given the notorious adoption of LoRaWAN in the IoT application landscape, this article is a reference for understanding how exactly LoRa-E works, what performance it offers, and what its limitations are.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0733",
+  "title": "Gradient Hierarchical Clustering Method with Embedded Fine-Grained Text Features—A Case Study on Automotive Information Security System Document Review",
+  "year": "2026",
+  "abstract": "Feature granularity is a key factor affecting the computational cost and judgment accuracy of document clustering, holding significant importance for optimizing the efficiency of the review process and enhancing the accuracy of compliance judgments. This paper addresses issues in automotive information security system document review, such as low computational efficiency and the difficulty in balancing the dual needs of coarse screening and detailed review, by proposing a gradient hierarchical clustering method that embeds fine-grained text features. A gradient clustering framework based on the hierarchical extraction of coarse-grained summary features and fine-grained content features is constructed. This framework embeds semantic information of different granularities into the clustering process layer by layer according to the review workflow, achieving progressive document review from rapid screening to precise judgment. A two-stage feature extraction method based on large language models (LLMs) is designed. In the coarse-grained stage, the model is utilized to generate structured document summaries as primary features to support initial clustering. In the fine-grained stage, in-depth parsing of paragraph content from candidate documents is conducted as secondary features for compliance judgment, avoiding redundant computation on the entire document set. A hierarchical clustering algorithm based on gradient thresholds is proposed. It achieves fine-grained hierarchical modeling of standard texts by adaptively adjusting similarity thresholds at different levels and embeds the multi-dimensional semantic representation of standard clauses into each level of the clustering, enabling standard-driven precise matching. Experimental results show that the fine-grained feature extraction method achieved an F1-score of 82.93% on the MacBERT model, representing an improvement of 7.17 percentage points compared to traditional holistic encoding. The degree of dependence on feature granularity varies significantly across different types of standard clauses; performance improvement for numerical clauses was the largest at 16.39 percentage points, while for pure text clauses it was only 7.00 percentage points. In terms of clustering performance, the Tree Edit Distance (TED) of the gradient hierarchical clustering algorithm was 1247, a reduction of 35.26% compared to traditional Hierarchical Agglomerative Clustering (HAC). Dendrogram Purity reached 73.45%, an improvement of 8.88 percentage points. For the compliance judgment task, the complete system achieved accuracy, precision, recall, and F1-score of 88.34%, 86.52%, 85.76%, and 86.14% respectively, representing improvements of 19.61, 21.10, 21.58, and 21.35 percentage points compared to the baseline system. The average review time was 2.43 seconds, and computational efficiency improved by approximately 60% compared to traditional deep semantic clustering methods. The method proposed in this paper provides an effective technical solution for the automated compliance review of automotive information security standards, with broad application value in areas such as standard certification, document management, and compliance detection.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0734",
+  "title": "Overview of JavaScript Engines for Resource-Constrained Microcontrollers",
+  "year": "2020",
+  "abstract": "IoT devices often use small, constrained micro-controllers to implement their functionality. Usually, they are programmed with languages like C or C++, but there is a trend to use interpreted languages for this task. In this paper, we focus on JavaScript. We discuss the advantages and disadvantages of using this interpreted language for microcontroller development, we give an overview of the available JavaScript engines for constrained devices, and we compare these interpreters' general properties. One finding shows that the projects can be divided into embeddable interpreters (JerryScript, Duktape, mJS) and standalone runtimes (Espruino, Moddable, Mongoose OS). It was also identified that the interpreters follow different architectural approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0735",
+  "title": "TaxoRef: Embeddings Evaluation for AI-driven Taxonomy Refinement",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0736",
+  "title": "Multi-stage Threshold Method for Liver Tumor Segmentation in CT Scan Images and Its Implementation for FPGA",
+  "year": "2020",
+  "abstract": "Medical Imaging is a sub-field of scientific imaging. Medical image segmentation is a challenging task due to poor contrast and noise in the medical images. Medical image segmentation is applied for liver tumor detection in CT scan images in this paper. Liver tumor is pathological disorder that affects human metabolic activity. The early identification and diagnosis of liver tumor is important for curing liver cancer. In this paper a comprehensive overview of liver tumor detection using Multi stage Threshold Method is provided. It is developed using MATLAB, Xilinx System Generator (XSG) and synthesized for Spartan-6 (xc6slx16-2csg324) FPGA. The key objective is implementing liver tumor segmentationin CT scan image for an FPGA implementation with minimum device utilization and low compilation and execution time to be suitable for real-time medical applications. This paper describes in detail about hardware framework of Multi stageThreshold Method which is modeled by XSG design models (basic as well as Mcode blocks). Finally, a comparison is made in terms of power, delay and resource utilization for the implementations based on both basic and Mcode blocks. The results show reduction in resource utilized and power with slightly increase in delay using Mcode blocks compared to basic blocks..",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0737",
+  "title": "A Survey of Mixture of Experts Models: Architectures and Applications in Business and Finance",
+  "year": "2025",
+  "abstract": "This paper provides a comprehensive overview of MoE, covering its fundamental principles, architectural variations, advantages, limitations, and potential future directions. We delve into the core concepts of MoE, including the gating network, expert networks, and routing mechanisms, and discuss how these components work together to achieve specialization and efficiency. We also examine the application of MoE in models like GPT-4 and Mixtral, highlighting their impact on the field of AI. We cover theoretical foundations, hardware and software innovations, real-world deployments, and the evolving landscape of MoE research. This paper furthur provides a comprehensive survey of MoE architectures, tracing their evolution from early neural network implementations to modern large-scale applications in language models, time series forecasting, and tabular data analysis. Next, the paper examines how machine learning is applied to natural language processing, computer vision, finance and healthcare. We examine major problems, including routing imbalance, memory fragmentation and instability during training, by checking newly proposed answers found in research papers. After all, we summarize possible future areas of study and discuss how MoE models could transform the world of artificial intelligence moving forward. All the results in this paper are taken from the cited work.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0738",
+  "title": "A Review of Embedded Vein Visualization and Hyperglycemia Prediction Systems",
+  "year": "2026",
+  "abstract": "In this paper, an overview on the recent developments in near-infrared (NIR) imaging based vein visualization and artificial intelligence (AI) mediated non-invasive hyperglycemia prediction is presented. Non-invasive vascular imaging and glucose measurements are increasingly being used in the clinical setting as an alternative to traditional invasive imaging especially in patients with challenging venous access and with limited resources. This paper systematically reviews the design of methodologies introduced in either field including NIR illumination design, image preprocessing pipelines, feature extraction strategies, and AI model architectures, including classical machine learning and hybrid deep learning methods. Additionally the paper compares the performance of the major approaches that are reported in the literature, and outlines the chronic issues such as cross-subject variability, built in hardware limitations, and a lack of clinical validation. New gaps and trends in research, including multispectral imaging, federated learning, and TinyML-based edge deployment are also discussed in the paper.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0739",
+  "title": "A review on sparse fast fourier transform applications in image processing",
+  "year": "2020",
+  "abstract": "Fast Fourier Transform has long been established as an essential tool in signal processing. To address the computational issues while helping the analysis work for multi-dimensional signals in image processing, sparse Fast Fourier Transform model is reviewed here when applied in different applications such as lithography optimization, cancer detection, evolutionary arts and wasterwater treatment. As the demand for higher dimensional signals in various applications especially multimedia appplications, the need for sparse Fast Fourier Transform grows higher.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0740",
+  "title": "Generative Models Reimagined: Review into Resource-Efficient Training",
+  "year": "2025",
+  "abstract": "In the era of rapid improvements to generative artificial intelligence, resource-effective training methods are important for optimising models like BERT, ChatGPT, and Gemini. These large-scale models require tremendous processing capacity, which might be a barrier to scalability and sustainability. This review paper dives into novel strategies that improve computing economy while maintaining model performance. Architectural optimisation, quantisation, models pruning, and effective ways for discovering high-quality datasets while maintaining accuracy are among the key topics explored. The research emphasises sustainable AI approaches by demonstrating methods for reducing resource use while maintaining the resilience for generative models across several datasets. Furthermore, this paper identifies additional areas for study, such as refining model structures to reduce energy usage, improving data selection approaches, and creating hybrid models that incorporate different resource-saving techniques. Finally, the paper seeks to contribute to current efforts to balance AI developments with the requirement for long-term, scalable, and efficient model training methods.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0741",
+  "title": "A Review On Matrix Factorization Techniques Used For An Intelligent Recommender System",
+  "year": "2021",
+  "abstract": "This paper looks at the recommended schematic area and defines the existing set of suggested methods usually described under the three key categories: the content-based approaches, the collaborative approaches and the hybrid recommendation. These extend in terms of our awareness of users and products, as well as involve the integration of contextual information into the recommendation framework, to encourage multi-criteria ratings and to provide more versatile and less input types of recommendations. The goal of such a structure is to forecast what things a person may choose to base her/his old ratings on those of additional users. In practice the recommender system represents one of the most popular users of data mining engines. Often, historically academic study in the field is relied on the matrix finishing problem formulating a matrix, in which only one interaction (such as a credit rating) is taken into account for each user-item-pair. In certain device domains, however, several encounters with user objects of various types over time can be replicated. A variety of latest works have shown that this data can be used for creating more competitive personal data systems and to view explicit behavioral trends to be used in the management mechanism of referrals. A number of new initiatives have shown. In this paper, the present work is analyzed, considering data from those sequentially ordered logs of user-item in the recommendation process for details. Based on this analysis, an organization of the related target functions and objectives is proposed; current algorithmic solutions are described; process methods are addressed in the comparison of what we call sequence aware recommendation schemes; and to define obstacles in the field are presented.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0742",
+  "title": "A review on constrained recurrent sparse auto-encoder",
+  "year": "2020",
+  "abstract": "Sparse Dictionary Learning generates a sparse representation for images and signals along with a generalized learned dictionary. We examine closely to the constrained recurrent sparse auto-encoder (CRsAE) on its Encoder-Decoder plus recurrent architecture and experimenting CRsAE’s position in the classical dictionary learning problem. We further extend the visualizations, experiments, and metrics to evaluate the model in the context of both VAE and Dictionary Learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0743",
+  "title": "Efficient Deep Learning for Medical Image Segmentation: A Unified Cross-Paradigm Survey and Controlled Deployment Benchmark of CNN, Transformer, and Mamba Architectures",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0744",
+  "title": "Spine Reviews: Crowdsourcing Global Spine Expert Knowledge via Digital Ledger Technology",
+  "year": "2026",
+  "abstract": "Study Design: Prospective observational study using a novel digital ledger technology (DLT)-based crowdsourcing platform. Objective: To develop and evaluate Spine Reviews, a blockchain-based platform for aggregating spine treatment recommendations from an international specialist panel, and to validate the clinical coherence of the resulting dataset. Summary of Background Data: Predictive models for low back pain treatment are limited by small, homogeneous datasets that fail to capture inter-clinician variability. Traditional multi-center data collection is expensive, slow, and geographically constrained. DLT-based crowdsourcing with cryptographic credentialing may overcome these barriers. Methods: Five hundred synthetic patient vignettes (digital twins) were generated; 463 retained after quality control. A review platform was built on the Solana blockchain using non-transferable Soulbound Tokens (SBTs) for credentialing and smart-contract compensation. Fifty-two specialists from 7 countries provided 4+ reviews per vignette across four treatment tiers, without access to imaging or physical examination. Mixed-effects regression with reviewer random intercepts partitioned decision variability. Results: The platform collected 2,066 completed reviews (97.7%) over 37 days at USD 0.97/review. Variance decomposition revealed that 36.7% of treatment tier variability was attributable to patient presentation, 19.2% to reviewer practice style, and 44.1% to their interaction. Neurological deficits (beta=0.39), symptom duration (beta=0.12), and pain (beta=0.09) independently predicted treatment escalation (all p<0.001). Gwet's AC1 was almost perfect for emergency (0.92) and substantial for conservative decisions (0.67). Reviewer confidence in treatment recommendations decreased with escalating tier severity (conservative 4.59/5 vs surgical 4.05/5), suggesting appropriate uncertainty calibration. Conclusions: DLT with SBT credentialing enables rapid, global, cost-effective aggregation of clinically coherent expert judgment. The three-component variance structure quantifies clinical equipoise in spine care and establishes that predictive models require diverse, multi-reviewer training data. Keywords: digital ledger technology; blockchain; crowdsourcing; clinical decision-making; low back pain; Soulbound Tokens",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0745",
+  "title": "A multi-objective evolutionary optimization framework with an embedded time-distance rule simulation for vibroseis survey route planning",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0746",
+  "title": "An Overview of Laser Injection against Embedded Neural Network Models",
+  "year": "2021",
+  "abstract": "For many IoT domains, Machine Learning and more particularly Deep Learning brings very efficient solutions to handle complex data and perform challenging and mostly critical tasks. However, the deployment of models in a large variety of devices faces several obstacles related to trust and security. The latest is particularly critical since the demonstrations of severe flaws impacting the integrity, confidentiality and accessibility of neural network models. However, the attack surface of such embedded systems cannot be reduced to abstract flaws but must encompass the physical threats related to the implementation of these models within hardware platforms (e.g., 32-bit microcontrollers). Among physical attacks, Fault Injection Analysis (FIA) are known to be very powerful with a large spectrum of attack vectors. Most importantly, highly focused FIA techniques such as laser beam injection enable very accurate evaluation of the vulnerabilities as well as the robustness of embedded systems. Here, we propose to discuss how laser injection with state-of-the-art equipment, combined with theoretical evidences from Adversarial Machine Learning, highlights worrying threats against the integrity of deep learning inference and claims that join efforts from the theoretical AI and Physical Security communities are a urgent need.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0747",
+  "title": "A Review of Smart Technologies Embedded in Shoes",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0748",
+  "title": "A survey of deep nonnegative matrix factorization",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0749",
+  "title": "Knowledge Distillation In Medical Data Mining: A Survey",
+  "year": "2021",
+  "abstract": "In recent years, there have always been many problems in the medical field, such as a shortage of professionals and a shortage of medical resources. With the application of machine learning in the medical field, these problems have been alleviated to a certain extent, but these machine learning methods also have shortcomings, such as models are often too large to be deployed on lightweight equipment, and medical data sets are difficult to share, Many researchers have put forward many methods, and knowledge distillation is one of them. As a model compression and acceleration technology, knowledge distillation has been widely used in the medical field. The research of many researchers also shows that the use of knowledge distillation can effectively compress huge and complex models and improve the performance of models. Many studies show that the use of knowledge distillation can effectively solve many problems existing in models in the medical field, Aiming at the various applications of knowledge distillation in the medical field, this paper makes a comprehensive review from the perspectives of knowledge distillation, the problems that knowledge distillation can solve in the medical field and the practical application of knowledge distillation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0750",
+  "title": "Federated Learning in a Medical Context: A Systematic Literature Review",
+  "year": "2021",
+  "abstract": "Data privacy is a very important issue. Especially in fields like medicine, it is paramount to abide by the existing privacy regulations to preserve patients’ anonymity. However, data is required for research and training machine learning models that could help gain insight into complex correlations or personalised treatments that may otherwise stay undiscovered. Those models generally scale with the amount of data available, but the current situation often prohibits building large databases across sites. So it would be beneficial to be able to combine similar or related data from different sites all over the world while still preserving data privacy. Federated learning has been proposed as a solution for this, because it relies on the sharing of machine learning models, instead of the raw data itself. That means private data never leaves the site or device it was collected on. Federated learning is an emerging research area, and many domains have been identified for the application of those methods. This systematic literature review provides an extensive look at the concept of and research into federated learning and its applicability for confidential healthcare datasets.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0751",
+  "title": "Autonomous Robotic Pruning in Orchards and Vineyards: a Review",
+  "year": "2025",
+  "abstract": "Manual pruning is labor intensive and represents up to 25% of annual labor costs in fruit production, notably in apple orchards and vineyards where operational challenges and cost constraints limit the adoption of large-scale machinery. In response, a growing body of research is investigating compact, flexible robotic platforms capable of precise pruning in varied terrains, particularly where traditional mechanization falls short. This paper reviews recent advances in autonomous robotic pruning for orchards and vineyards, addressing a critical need in precision agriculture. Our review examines literature published between 2014 and 2024, focusing on innovative contributions across key system components. Special attention is given to recent developments in machine vision, perception, plant skeletonization, and control strategies, areas that have experienced significant influence from advancements in artificial intelligence and machine learning. The analysis situates these technological trends within broader agricultural challenges, including rising labor costs, a decline in the number of young farmers, and the diverse pruning requirements of different fruit species such as apple, grapevine, and cherry trees. By comparing various robotic architectures and methodologies, this survey not only highlights the progress made toward autonomous pruning but also identifies critical open challenges and future research directions. The findings underscore the potential of robotic systems to bridge the gap between manual and mechanized operations, paving the way for more efficient, sustainable, and precise agricultural practices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0752",
+  "title": "Towards Bridging Review Sparsity in Recommendation with Textual Edge Graph Representation",
+  "year": "2025",
+  "abstract": "Textual reviews enrich recommender systems with fine-grained preference signals and enhanced explainability. However, in real-world scenarios, users rarely leave reviews, resulting in severe sparsity that undermines the effectiveness of existing models. A natural solution is to impute or generate missing reviews to enrich the data. However, conventional imputation techniques -- such as matrix completion and LLM-based augmentation -- either lose contextualized semantics by embedding texts into vectors, or overlook structural dependencies among user-item interactions. To address these shortcomings, we propose TWISTER (ToWards Imputation on Sparsity with Textual Edge Graph Representation), a unified framework that imputes missing reviews by jointly modeling semantic and structural signals. Specifically, we represent user-item interactions as a Textual-Edge Graph (TEG), treating reviews as edge attributes. To capture relational context, we construct line-graph views and employ a large language model as a graph-aware aggregator. For each interaction lacking a textual review, our model aggregates the neighborhood's natural-language representations to generate a coherent and personalized review. Experiments on the Amazon and Goodreads datasets show that TWISTER consistently outperforms traditional numeric, graph-based, and LLM baselines, delivering higher-quality imputed reviews and, more importantly, enhanced recommendation performance. In summary, TWISTER generates reviews that are more helpful, authentic, and specific, while smoothing structural signals for improved recommendations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0753",
+  "title": "Review of Deep Learning and Explainable AI Approaches for Skin Cancer Detection in Embedded Biomedical Systems",
+  "year": "2025",
+  "abstract": "The large number of skin cancer cases need early detection with accuracy to reduce mortality rate. Towards this different Artificial Intelligence (AI) models can be used to detect and predict with accuracy. This research investigates recent developments in Deep Learning (DL) and Explainable Artificial Intelligence (XAI) for skin cancer diagnosis striking a balance between model accuracy and clinical interpretability. Well known DL models like ResNet50, DenseNet121, InceptionV3, EfficientNetB0, and hybrid architectures including HRNet-XGB are studied and compared. In order to create a reliable, interpretable AI system for early skin cancer diagnosis, this research suggests future paths including multimodal data integration, clinician-in-the-loop evaluation, and mobile-compatible deployments. A hybrid approach using Explainable AI (XAI) is proposed to derive more accurate diagnosis based on the models trained, thereby helping in early detection of skin cancer.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0754",
+  "title": "Real-time Pedestrian Detection Using Resource Constrained Embedded Platforms – A Review",
+  "year": "2023",
+  "abstract": "Autonomous Vehicles (AV) are currently limited to the sensors fitted on the vehicle itself to detect pedestrians instead of working collaboratively with the road side units (RSUs). If Resource Constrained Embedded Platforms (RCEPs) were capable of achieving real-time pedestrian detection, they could be deployed at busy traffic intersections to assist AVs. Currently, high-end GPU platforms are required to achieve real-time performance, but their size and cost mean they are not viable for deployment at busy traffic intersections. Therefore, this study performs a comparative analysis as to the ability of RCEPs to achieve real-time pedestrian detection using Convolutional Neural Network (CNN) architectures. Several CNN architectures were trained on a custom pedestrian dataset, with Tiny Yolov4 achieving 62% mean average precision (mAP). When deployed, this analysis indicates that some RCEPs are capable of achieving real-time pedestrian detection, benchmarked at 30FPS, with Tiny YOLOv4 achieving 40.48FPS on the NVIDIA Jetson Nano. The Raspberry Pi 4 paired with the Google Edge TPU also exceeded the real-time threshold, achieving 51.22FPS using MobileNetV2-SSD. Both models were quantized at FP16 and UINT8, which inherently have lower accuracy in favour of faster inferencing. Our analysis evaluates the real-time performance of the selected embedded devices when hosting lightweight CNNs, as well as offering numerous future research directions to improve the pedestrian detection.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0755",
+  "title": "AI-Enabled Smart Blind Stick Using Embedded Sensors: A Comprehensive Review",
+  "year": "2026",
+  "abstract": "Embedded electronics, artificial intelligence and the latest sensing systems have accelerated the development of smart assistive technologies to support the blind. This review examines the recent advancement in smart blind sticks which are expected to enhance mobility, detect obstacles, improve situational awareness and make navigation safer to visually impaired persons. It assesses the sensing techniques, such as ultrasonic ranging, infrared measuring, and camera-based recognition with low-power board sensors, such as the ESP32-CAM. To determine the effect of these new computational methods on accuracy, responsiveness, and real-time performance, new convolutional neural networks, lightweight object-detection models, sensor-fusion strategies, and edge-AI processing are studied. New advancements in haptic feedback systems, voice-assist functions, GPS-based navigation, and IoT-enabled emergency communication are also discussed in the review. The existing trends are explainable AI to provide clarity in making decisions, energy-efficient hardware to make it portable, and privacy-safe mechanisms to process everything on the device. Overall, the review shows the potential that smart assistive devices have in enhancing the independence of movements and providing safer and more informed navigation to visually impaired users.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0756",
+  "title": "A SYSTEMATIC OVERVIEW OF THE FEATURES OF THE IMPLEMENTATION OF THE PHYSICAL LAYER OF THE LORA PROTOCOL",
+  "year": "2023",
+  "abstract": "Э ЭЛ ЛЕ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0757",
+  "title": "Developed Lightweight Cryptographic Algorithms for The Application of Image Encryption: A Review",
+  "year": "2021",
+  "abstract": "As a consequence of the fast evolution of information technology, a substantial amount of digital information is created and disseminated over various kinds of networks. The digital image represents one of the most commonly utilized formats of digital data since it has a straight visual effect. Moreover, a digital image holds important possibilities and extra information, for instance, personal photographs are capable of conveying the persons' physical appearance as well as other details like their ages and health. So, it is significant to protect digital images from unauthorized accessing that certainly specifies the need for developing efficient lightweight cryptographic algorithms to ensure the digital images' privacy. In this review paper, several developed lightweight cryptographic algorithms and their application in digital image encryption were presented. Additionally, a comparative analysis of the recently existing related works was achieved for these developed algorithms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0758",
+  "title": "A review of design approaches for lightweight block cryptosystems and new lightweight binary matrices",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0759",
+  "title": "A Review on Event-Augmented, Audio-Visual Distillation for MicroLip-Reading with Tiny Transformers",
+  "year": "2026",
+  "abstract": "Micro-lip-reading is an emerging research area that aims to recognize speech by observing subtle and fast lip movements. It has significant potential in applications such as assistive technologies for hearing-impaired individuals, silent communication in noisy environments, touch-free human-computer interaction, and real-time processing on wearable or mobile devices. Traditional RGB video often struggles to capture these micromovements due to motion blur, low frame rates, and sensitivity to lighting. Event cameras, which record brightness changes asynchronously with microsecond resolution, provide complementary motion information and enable more precise tracking of lip dynamics. Recent advances in tiny transformer architectures allow for efficient modeling of temporal and spatial patterns across audio, RGB, and event modalities, while knowledge distillation techniques help transfer information from large models to smaller, edge-friendly models without sacrificing performance. This review presents an overview of event-based and audiovisual fusion approaches, benchmark datasets, evaluation metrics, and practical deployment strategies. It also discusses current challenges, including data scarcity, lighting sensitivity, and crossmodal fusion complexity. Overall, combining event-based vision, audio-visual integration, and lightweight transformers provides a powerful framework for accurate, low-latency micro-lip-reading suitable for real-world, resource-constrained scenarios.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0760",
+  "title": "A Systematic Review of Lightweight and Robust Deep Learning Approaches for Tomato Leaf Disease Detection",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ }
+]

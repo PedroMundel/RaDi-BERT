@@ -1,0 +1,435 @@
+[
+ {
+  "id": "F0561",
+  "title": "Peer Review #3 of \"SC-JNMF: single-cell clustering integrating multiple quantification methods based on joint non-negative matrix factorization (v0.1)\"",
+  "year": "2021",
+  "abstract": "Single-cell RNA-sequencing is a rapidly evolving technology that enables us to understand biological processes at unprecedented resolution.Single-cell expression analysis requires a complex data processing pipeline, and the pipeline is divided into two main parts: The quantification part, which converts the sequence information into gene-cell matrix data; the analysis part, which analyzes the matrix data using statistics and/or machine learning techniques.In the analysis part, unsupervised cell clustering plays an important role in identifying cell types and discovering cell diversity and subpopulations.Identified cell clusters are also used for subsequent analysis, such as finding differentially expressed genes and inferring cell trajectories.However, single-cell clustering using gene expression profiles shows different results depending on the quantification methods.Clustering results are greatly affected by the quantification method used in the upstream process.In other words, even if the original RNA-sequence data is the same, gene expression profiles processed by different quantification methods will produce different clusters.In this article, we propose a robust and highly accurate clustering method based on joint non-negative matrix factorization (joint-NMF) by utilizing the information from multiple gene expression profiles quantified using different methods from the same RNA-sequence data.Our joint-NMF can extract common factors among multiple gene expression profiles by applying each NMF under the constraint that one of the factorized matrices is shared among multiple NMFs.The joint-NMF determines more robust and accurate cell clustering results by leveraging multiple quantification methods compared to conventional clustering methods, which use only a single gene expression profile.Additionally, we showed the usefulness of discovering marker genes with the extracted factors using our method.seq).This technology has reached a surprising level of resolution that reveals the regulation of gene 35 expression within cells.scRNA-seq measures gene expression on a cell-by-cell basis and allows the 36 analysis of the functions and properties of cells using this information.Many experimental protocols 37 and computational analyses exist for scRNA-seq, and they have different goals such as differential ex-38 pression analysis, cell clustering, cell classification, and trajectory reconstruction.Therefore, single-cell 39 analysis forms a pipeline (a series of procedures) that mainly consists of two parts, quantification of 40 gene expression and downstream analysis depends on the goals.In the quantification part of a pipeline, 41 gene expression levels measured for each cell (raw sequence data) are converted to a matrix called the 42 \"gene expression profile\".The quantification part also forms a pipeline including read quality control, 43 adaptor trimming, demultiplexing, deduplicating using barcodes, mapping to genome, counting transcripts.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0562",
+  "title": "Advancing Drone Operations through Lightweight Blockchain and Fog Computing Integration: A Systematic Review",
+  "year": "2024",
+  "abstract": "This paper presents a systematic literature review investigating the integration of lightweight blockchain and fog computing technologies to enhance the security and operational efficiency of drones. With a focus on critical applications such as military surveillance and emergency response, this review examines how the combination of blockchain’s secure, decentralized ledger and fog computing’s low-latency, localized data processing can address the unique challenges of drone operations. By compiling and analyzing current research, this study highlights innovative approaches and solutions that leverage these technologies to improve data integrity, reduce communication latency, and facilitate real-time decision-making in drone missions. Our findings underscore the significant potential of this technological integration to advance the capabilities and reliability of drones in high-stakes scenarios.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0563",
+  "title": "Review of image encryption and compression techniques",
+  "year": "2022",
+  "abstract": "This paper presents a survey on image encryption and compression techniques. The main aim of using encryption and compression together is to reduce the size; to ensure a quality during reconstruction; to reduce bandwidth requirement, to increase the speed of data communication over a network; to reduce the computational time, and to ensure its safety. To carry out the Image compression and encryption together three different ways are there. The three existing combinations are as encryption technique followed by compression, in this method compression ratio is more, but there are some security issues as compared with next. The next combination is a compression technique followed by encryption technique, in this method, researchers focus more on security of the image rather than to compress the size of the image. The last combination is joint encryption and compression strategies in this strategy encryption and compression happens at the same time either to some extent or as compressive detecting. With low computational time it gives a decent security. The compression procedure utilized in every one of the blends can be lossless, lossy, or mix of both.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0564",
+  "title": "A Survey of the Security Analysis of Embedded Devices",
+  "year": "2023",
+  "abstract": "Embedded devices are pervasive nowadays with the rapid development of the Internet of Things (IoT). This brings significant security issues that make the security analysis of embedded devices important. This paper presents a survey on the security analysis research of embedded devices. First, we analyze the embedded device types and their operating systems. Then, we describe a major dynamic security analysis method for an embedded device, i.e., simulating the firmware of the embedded device and performing fuzzing on the web interface provided by the firmware. Third, we discuss some other issues in embedded security analysis, such as analyzing the attack surface, applying static analysis, and performing large-scale analysis. Based on these analyses, we finally conclude three challenges in the current research and present our insights for future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0565",
+  "title": "Lightweight blockchain solutions: Taxonomy, research progress, and comprehensive review",
+  "year": "2022",
+  "abstract": "The proliferation of resource-constrained devices has become prevalent across various digital applications, including smart homes, healthcare, the Internet of Vehicles, and the Internet of Flying Things, among others. However, the integration of these devices brings many security issues. To address these concerns, Blockchain technology has been widely adopted due to its robust security characteristics, including immutability, cryptography, and distributed consensus. However, implementing the blockchain within these networks is highly challenging due to the limited resources of the employed devices and the resource-intensive requirements of the blockchain. To overcome these challenges, a multitude of researchers have proposed lightweight blockchain solutions specifically designed for resource-constrained networks. In this paper, we present a taxonomy of lightweight blockchain solutions proposed in the literature. More precisely, we identify five areas within the\"lightweight\"concept, namely, blockchain architecture, device authentication, cryptography model, consensus algorithm, and storage method. We discuss the various methods employed in each\"lightweight\"category, highlighting existing gaps and identifying areas for improvement. Our review highlights the missing points in existing systems and paves the way to building a complete lightweight blockchain solution for networks of resource-constrained devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0566",
+  "title": "From Black Box to Clinical Trust: A Conceptual Review of Explainable and Lightweight Deep Learning for Spine Disease Detection and Segmentation",
+  "year": "2026",
+  "abstract": "Deep learning models have made significant contributions to the accurate detection of spinal anomalies. However, persistent challenges related to model transparency, explainability and computational demands continue to hinder the real-time deployment of AI-driven solutions in clinical settings. \nThis review examines contributions from researchers on improving the explainability and transparency of deep learning models for spine image analysis, with the aim of identifying promising approaches and informing future research directions. Specifically, it explores the potential synergy between explainable AI techniques and lightweight models, with the expectation that such integration will yield models that are simultaneously accurate, interpretable, and clinically deployable.\nConcepts covered include deep learning architectures applied to spine imaging tasks such as classification and segmentation; lightweight model design strategies; and categories of explainability techniques including Grad-CAM, LIME, and attention mechanisms. Constraints to the full clinical adoption of AI solutions in spine imaging are also discussed. \nKey findings highlight several gaps in the research field. Dataset limitation issue, absence of standardised metrics for evaluating model interpretability, and challenges surrounding clinical acceptability. These gaps point to a research direction that calls for greater collaboration between healthcare professionals and AI researchers to develop spine imaging solutions that are both explainable and practically usable in clinical environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0567",
+  "title": "Nonnegative Matrix Factorization: A Review",
+  "year": "2023",
+  "abstract": "Recent developments in Non-negative Matrix Factorization (NMF) have focused on addressing several challenges and advancing its applicability. New algorithmic variations, such as robust NMF, deep NMF, and graph-regularized NMF, have emerged to improve NMF's performance in various domains. These developments aim to enhance the interpretability, scalability, and robustness of NMF-based solutions. NMF is now widely used in audio source separation, text mining, recommendation systems, and image processing. However, NMF still faces challenges, including sensitivity to initialization, the determination of the appropriate rank, and computational complexity. Overlapping sources in audio and data sparsity in some applications remain challenging issues. Additionally, ensuring the consistency and stability of NMF results in noisy environments is a subject of ongoing research. The quest for more efficient and scalable NMF algorithms continues, especially for handling large datasets. While NMF has made significant strides in recent years, addressing these challenges is crucial for unlocking its full potential in diverse data analysis and source separation tasks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0568",
+  "title": "A Review of Precision Agriculture Based on Embedded System Applications",
+  "year": "2021",
+  "abstract": "Precision agriculture (PA), by using various embedded applications on fields is going to change the agriculture industry with its enormous challenges faced by the farmers. With the help of modern technology, it is possible to monitor soil fertility, water irrigation, weather conditions, pests and disease prediction. By applying the different embedded applications in the fields, it will change traditional farming to modern farming. This chapter focuses on PA; however, various techniques are applied to different agricultural practices. The chapter is useful to researchers and those who are working in the agriculture sector. It is most important to consider this research, because of various problems occurring in farmland and which result in huge economic loss. The problems in the field are political, social and economic. The motivation of the research is to detect the problems in the initial stage and save the farmers from losses.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0569",
+  "title": "Continual Learning of Large Language Models: A Comprehensive Survey",
+  "year": "2024",
+  "abstract": "The recent success of large language models (LLMs) trained on static, pre-collected, general datasets has sparked numerous research directions and applications. One such direction addresses the non-trivial challenge of integrating pre-trained LLMs into dynamic data distributions, task structures, and user preferences. Pre-trained LLMs, when tailored for specific needs, often experience significant performance degradation in previous knowledge domains -- a phenomenon known as \"catastrophic forgetting\". While extensively studied in the continual learning (CL) community, it presents new manifestations in the realm of LLMs. In this survey, we provide a comprehensive overview of the current research progress on LLMs within the context of CL. This survey is structured into four main sections: we first describe an overview of continually learning LLMs, consisting of two directions of continuity: vertical continuity (or vertical continual learning), i.e., continual adaptation from general to specific capabilities, and horizontal continuity (or horizontal continual learning), i.e., continual adaptation across time and domains (Section 3). We then summarize three stages of learning LLMs in the context of modern CL: Continual Pre-Training (CPT), Domain-Adaptive Pre-training (DAP), and Continual Fine-Tuning (CFT) (Section 4). Then we provide an overview of evaluation protocols for continual learning with LLMs, along with the current available data sources (Section 5). Finally, we discuss intriguing questions pertaining to continual learning for LLMs (Section 6). The full list of papers examined in this survey is available at https://github.com/Wang-ML-Lab/llm-continual-learning-survey.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0570",
+  "title": "A Comprehensive Review of Knowledge Distillation for Lightweight Medical Image Segmentation",
+  "year": "2024",
+  "abstract": "Medical image segmentation plays a crucial role in computer-aided diagnosis by enabling precise identification of anatomical and pathological structures. While deep learning models have significantly improved segmentation accuracy, their high computational complexity limits deployment in resource-constrained environments, such as mobile healthcare and edge computing. Knowledge Distillation (KD) has emerged as an effective model compression technique, allowing a lightweight student model to inherit knowledge from a complex teacher model while maintaining high segmentation performance. This review systematically examines key KD techniques, including Response-Based, Feature-Based, and Relation-Based Distillation, and analyzes their advantages and limitations. Major challenges in KD, such as boundary preservation, domain generalization, and computational trade-offs, are explored in the context of lightweight model development. Additionally, emerging trends, including the integration of KD with Transformers, Federated Learning, and Self-Supervised Learning, are discussed to highlight future directions in efficient medical image segmentation. By providing a comprehensive analysis of KD for lightweight segmentation models, this review aims to guide the development of deep learning solutions that balance accuracy, efficiency, and real-world applicability in medical imaging",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0571",
+  "title": "Peer Review #3 of \"Topic2features: a novel framework to classify noisy and sparse textual data using LDA topic distributions (v0.1)\"",
+  "year": "2021",
+  "abstract": "In supervised machine learning, specifically in classification tasks, selecting and analyzing the feature vector to achieve better results is one of the most important tasks.Traditional methods such as comparing the features' cosine similarity and exploring the datasets manually to check which feature vector is suitable is relatively time consuming.Many classification tasks failed to achieve better classification results because of poor feature vector selection and sparseness of data.In this paper, we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions of hidden topics gathered from dataset and converting into feature vectors to build supervised classifier.For this we leveraged unsupervised topic modelling LDA (Latent dirichlet allocation) approach to retrieve the topic distributions employed in supervised learning algorithms.We make use of labelled data and topic distributions of hidden topics that were generated from that data.We explore how the representation based on topics affect the classification performance by applying supervised classification algorithms.Additionally, we did careful evaluation on two types of datasets and compared them with baseline approaches without topic distributions and other comparable methods.The results show that our framework performs significantly better in terms of classification performance compared to the baseline(without T2F) approaches and also yields improvement in terms of F1 score compared to other compared approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0572",
+  "title": "Generative Artificial Intelligence & Conversational Agents - Part of the problem or of the solution of HCI dark pattern",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0573",
+  "title": "vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention",
+  "year": "2024",
+  "abstract": "PagedAttention is a popular approach for dynamic memory allocation in LLM serving systems. It enables on-demand allocation of GPU memory to mitigate KV cache fragmentation - a phenomenon that crippled the batch size (and consequently throughput) in prior systems. However, in trying to allocate physical memory at runtime, PagedAttention ends up changing the virtual memory layout of the KV cache from contiguous to non-contiguous. Such a design leads to non-trivial programming and performance overheads. We present vAttention - an approach that mitigates fragmentation in physical memory while retaining the virtual memory contiguity of the KV cache. We achieve this by decoupling the allocation of virtual and physical memory using CUDA virtual memory management APIs. We also introduce various LLM-specific optimizations to address the limitations of CUDA virtual memory support. Overall, vAttention is a simpler, portable, and performant alternative to PagedAttention: it supports various attention kernels out-of-the-box and improves LLM serving throughput by up to 1.23× compared to the use of PagedAttention-based kernels of FlashAttention-2 and FlashInfer.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0574",
+  "title": "A Taxonomy and Review of Lightweight Blockchain Solutions for Internet of Things Networks",
+  "year": "2022",
+  "abstract": "The proliferation of resource-constrained devices has become prevalent across various digital applications, including smart homes, smart healthcare, and smart transportation, among others. However, the integration of these devices brings many security issues. To address these concerns, Blockchain technology has been widely adopted due to its robust security characteristics, including immutability, cryptography, and distributed consensus. However, implementing blockchain within these networks is highly challenging due to the limited resources of the employed devices and the resource-intensive requirements of the blockchain. To overcome these challenges, a multitude of researchers have proposed lightweight blockchain solutions specifically designed for resource-constrained networks. In this paper, we present a taxonomy of lightweight blockchain solutions proposed in the literature. More precisely, we identify five areas within the \"lightweight\" concept, namely, blockchain architecture, device authentication, cryptography model, consensus algorithm, and storage method. We discuss the various methods employed in each \"lightweight\" category, highlighting existing gaps and identifying areas for improvement. Our review highlights the missing points in existing systems and paves the way to building a complete lightweight blockchain solution for networks of resource-constrained devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0575",
+  "title": "Lightweight Unbiased Review-based Recommendation Based on Knowledge Distillation",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0576",
+  "title": "A Systematic Review of Real-Time Deployments of UAV-Based LoRa Communication Network",
+  "year": "2021",
+  "abstract": "The term Internet of Things (IoT) has emerged in recent decades because this network revolutionizes almost every aspect of our daily life, including products such as smartphones and intelligent vehicles, and crucial tasks such as precision agriculture and environmental monitoring. Myriads of communication technologies have been developed to fulfill the two main features of the IoT: long-range transmissions and low power consumption. Long-range (LoRa) has become one of the vital parts of IoT communication. In this study, the real-time deployments of an unmanned aerial vehicle (UAV)-based LoRa communication network are systematically reviewed, with a focus on the communication setup and its reported performance. Importantly, the UAV-based LoRa communication network has a low bit rate connectivity to ensure the high reliability of connections, especially in applications that require long transmission ranges. This study provides recommendations for researchers on what research perspectives need to be explored when implementing UAVs for IoT-based LoRa communication. This study also describes publication trends related to UAV-based LoRa communication networks. A supplementary Excel file that contains the reported publications on UAV-based LoRa communication networks is included to show this publication trend.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0577",
+  "title": "A comprehensive systematic review of progressive applications of LoRa and LoRaWAN networks in the internet of things",
+  "year": "2025",
+  "abstract": "The internet of things (IoT) is a fast-expanding trend that combines cutting-edge communication technologies to transform commonplace objects into intelligent, networked gadgets. This movement is rapidly expanding. This paves the way for developing intelligent processes with applications across industries like monitoring and optimisation. LoRa has been promoted as a potential choice for the backbone of the internet of things due to its long range, low power consumption and low bit rate. Using LoRa over a single wireless hop, messages are transmitted from end devices to a central network server via gateways connected to the internet, which act as transparent bridges. This article provides in-depth information about LoRa networks and the technology's specifications. It also discusses the magnitude of projected growth trends and the challenges inherent in deploying LoRa-based networks. In addition, the paper is coupled with perceptive remarks and thought-provoking suggestions for future research endeavours. The study was conducted to encourage more research towards expanding the LoRa network and make it suitable for a more widespread deployment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0578",
+  "title": "Acoustic Monitoring of Small UAV Propulsion: A Critical Review of Sensor Placement, Noise-Robust Wavelet Features, and Resource-Efficient Machine Learning",
+  "year": "2026",
+  "abstract": "UAVs are being employed for inspection, mapping, emergency response, and low-altitude activities. However, propeller fractures, edge wear, tip loss, imbalance, motor-bearing deterioration, eccentric shafts, and operating circumstances might damage their propulsion systems. Acoustic health monitoring is promising for this task because propulsion failures may change pressure fluctuations, blade-passing tones, broadband aerodynamic noise, and vibration-radiated sound without structural changes. Wind, reverberation, interference from surrounding rotors, speed variations, sensor-direction effects, limited datasets, and the gap between laboratory precision and field robustness in operational situations prevent acoustic UAV diagnostics from being widely used. Acoustic diagnostics of small UAV propulsion systems are the focus of this article. Acoustic emission monitoring, microphone-array and beamforming, wavelet and time–frequency feature extraction, normalized feature design, machine learning, lightweight deep learning, and noise-resilient deployment evaluation criteria are included. The reviewed studies reported promising results, including on-board microphone-array isolation of damaged rotors, acoustic-camera propeller-tip identification, and deep learning on propeller-anomaly datasets. Standardization of sensor locations, publicly accessible multi-condition acoustic datasets, cross-UAV validation, systematic selection of wavelet bases and decomposition levels, and clear computational cost reporting are still lacking. A deployment-oriented roadmap emphasizes multi-condition benchmarking, sensor placement optimization, wavelet-based noise robustness, hybrid acoustic-vibration validation, domain adaptation, uncertainty-aware decision-making, and edge AI for real-time UAV propulsion health monitoring.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0579",
+  "title": "A comprehensive survey of deep learning-based lightweight object detection models for edge devices",
+  "year": "2024",
+  "abstract": "This study concentrates on deep learning-based lightweight object detection models on edge devices. Designing such lightweight object recognition models is more difficult than ever due to the growing demand for accurate, quick, and low-latency models for various edge devices. The most recent deep learning-based lightweight object detection methods are comprehensively described in this work. Information on the lightweight backbone architectures used by these object detectors has been listed. The training and inference processes concerning to deep learning applications on edge devices is being discussed. To raise readers’ awareness of this developing domain, a variety of applications for deep learning-based lightweight object detectors and related utilities have been offered. Designing potent, lightweight object detectors based on deep learning has been suggested as a counter to such problems. On well-known datasets such as MS-COCO and PASCAL-VOC, we thoroughly examine the performance of certain conventional deep learning-based lightweight object detectors.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0580",
+  "title": "A comprehensive review on LoRa implementation in IoT application domains",
+  "year": "2022",
+  "abstract": "Over the past few years, the world has witnessed substantial growth in the field of IoT. Implementation of the wireless protocol in IoT applications plays a vital role in the automation of Industry, Home, specific appliance, and Equipment. The most common wireless technologies widely used in IoT are Cellular, Bluetooth, BLE, ZigBee, Wi-Fi, RFID, and LPWAN. As IoT is a multifaceted domain, the Implementation of uniform and standard wireless technology is uncertain. In recent years compared to other communication technologies, IoT devices based on Long Range (LoRa) and Lora WAN have gained demand due to their low cost, extensive coverage, and low power consumption. This paper provides a systematic analysis to intensively examine and evaluate current research on LoRa use in the IoT. We found about 56 studies published in recent years. This study shows the latest developments in LoRa's Analysis and functional implementations. Finally, this analysis will provide suggestions for researchers on how to completely leverage the benefits of LoRa-based technology in designing IoT frameworks and explication.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0581",
+  "title": "Disentangling generalization and memorization in large language models using chess",
+  "year": "2026",
+  "abstract": "Large Language Models (LLMs) exhibit remarkable capabilities, yet it remains unclear to what extent these reflect sophisticated recall or genuine reasoning ability. We introduce chess as a controlled testbed aimed at disentangling these faculties. Leveraging the game's structure and scalable engine evaluations, we construct a taxonomy of positions varying in density of relevant priors - ranging from common states solvable by memorization to completely novel ones requiring generalization. Crucially, our approach achieves this distinction without requiring explicit knowledge of the models'training data. Applying this taxonomy, we combine a longitudinal analysis of the GPT lineage with a rigorous evaluation of contemporary models, including Claude Opus and Gemini. Our analysis reveals a steep gradient: performance consistently degrades as the density of relevant priors decreases. Notably, for tasks with few relevant priors, base model performance regresses to the random-play baseline. While newer models improve, progress slows significantly for tasks with sparse priors. Furthermore, while reasoning-augmented inference improves performance, its relative marginal benefit per token decreases in the absence of relevant priors. These results suggest limitations in systematic generalization, highlighting the need for mechanisms beyond scale to achieve robust performance when deprived of relevant priors.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0582",
+  "title": "A Survey on Approaches and Applications of Knowledge Representation Learning",
+  "year": "2020",
+  "abstract": "Knowledge representation learning (KRL) is one of the important research topics in artificial intelligence and Natural language processing. It can efficiently calculate the semantics of entities and relations in a low-dimensional space, and effectively solve the problem of data sparsity, which significantly improve the performance of knowledge acquisition, fusion and reasoning and so on. Starting from the five perspectives of distance-based, semantic matching, bilinear-based, neural network model and additional information model, this paper first introduces the overall framework and specific model design, and then correspondingly introduces the experimental evaluation tasks, metrics and benchmark datasets of each model. On this basis, how to apply KRL to various downstream tasks is summarized.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0583",
+  "title": "Addressing sparse data challenges in recommendation systems: A systematic review of rating estimation using sparse rating data and profile enrichment techniques",
+  "year": "2025",
+  "abstract": "E-commerce recommendation systems enhance the user experience by providing customized suggestions tailored to user preferences. They analyze user interactions, such as ratings, to identify user preferences and recommend relevant items accordingly. The sparsity of user–item rating data poses a significant obstacle for Recommender Systems, making it difficult to model user preferences effectively. This issue is particularly evident in collaborative filtering techniques, where the accuracy of user/item similarity calculations and latent factor identification are compromised. Therefore, the sparsity adversely affects the accuracy, coverage, scalability, and transparency of the recommendations, posing significant challenges. Various approaches have been developed to estimate sparse values from the available ratings and improved user/item profiles with side information or sparse ratings to improve the estimation by addressing the four challenges. Despite extensive research in this area, there is a lack of comprehensive surveys that specifically explore estimation methods using sparse rating data and profile enrichment techniques focusing on overcoming challenges that occur due to sparsity such as reduced coverage, transparency, scalability, and accuracy. Understanding the effectiveness of these approaches, their impact on recommendations and future research directions is a crucial area of the literature. This study seeks to examine the individual effects of rating-based estimation and profile enrichment-based estimation methods in Collaborative Filtering recommender systems, to address challenges related to sparsity, identify research gaps, and suggest future research directions. It also provides readers with information on methodologies, available datasets with varying levels of sparsity, and ongoing research challenges in this field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0584",
+  "title": "A Survey of Sparse Mobile Crowdsensing: Developments and Opportunities",
+  "year": "2022",
+  "abstract": "Sparse mobile crowdsensing (SMCS) has emerged as a promising sensing paradigm for urban sensing, leveraging the spatial and temporal correlation among data sensed in distinct sub-areas to cut sensing expenses dramatically. It intelligently selects only a tiny portion of the target regions for sensing and accurately infers the data for the remaining unsensed areas. SMCS confronts numerous challenges, such as sensing cell selection and missing data inference, when compared to mobile crowdsensing. Researchers in recent years have proposed plenty of strategies to solve these challenges. From the perspective of comparing MCS, we aim to provide a comprehensive literature review of recent advances in SMCS in this paper. We begin by going over the preliminary of SMCS and MCS, including their evolution, characteristics, and life-cycle stages. We then go through their common key techniques and recent developments. Furthermore, we give a review of the unique key techniques as well as the most recent advancements. We finally identify existing applications and highlight potential research opportunities for SMCS. Our objective is to provide researchers with a comprehensive understanding of SMCS.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0585",
+  "title": "A Review of Control Strategies for Robotic Systems with Embedded Sensors",
+  "year": "2025",
+  "abstract": "Robotic systems increasingly rely on embedded sensors to achieve high levels of autonomy, adaptability, and safety in dynamic environments. Unlike existing surveys, this review provides a comprehensive and structured taxonomy of control strategies for sensor-integrated robots, presenting a novel comparative perspective that links traditional methods with emerging paradigms. Five key categories are systematically analyzed: classical controllers, model-based techniques, sensor-driven feedback schemes, data-driven learning approaches, and bio-inspired intelligent control. A detailed comparative evaluation highlights their respective advantages, limitations, and suitability for different robotic domains. Beyond summarizing established techniques, this work contributes a forward-looking analysis of recent technological advances, including sensor miniaturization, edge AI for onboard learning, self-calibrating and self-tuning controllers, explainable control frameworks, and IoT-enabled cyber-physical integration. Furthermore, this review identifies standardized benchmark datasets, evaluation metrics, and simulation platforms to support reproducibility and rigorous performance assessment. By consolidating fragmented literature and emphasizing emerging trends, this study uncovers critical research challenges, such as real-time multimodal sensor fusion, robust and machine learning-based controllers, and energy-aware architectures for embedded robotics. This review establishes a comprehensive reference framework for researchers and practitioners, offering actionable insights that can accelerate the development of resilient, interpretable, and high-performance robotic control systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0586",
+  "title": "Overview of ADoBo at IberLEF 2025: Automatic Detection of Anglicisms in Spanish",
+  "year": "2025",
+  "abstract": "This paper summarizes the main findings of ADoBo 2025, the shared task on anglicism identification in Spanish proposed in the context of IberLEF 2025. Participants of ADoBo 2025 were asked to detect English lexical borrowings (or anglicisms) from a collection of Spanish journalistic texts. Five teams submitted their solutions for the test phase. Proposed systems included LLMs, deep learning models, Transformer-based models and rule-based systems. The results range from F1 scores of 0.17 to 0.99, which showcases the variability in performance different systems can have for this task.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0587",
+  "title": "A systematic survey on human pose estimation: upstream and downstream tasks, approaches, lightweight models, and prospects",
+  "year": "2025",
+  "abstract": "In recent years, human pose estimation has been widely studied as a branch task of computer vision. Human pose estimation plays an important role in the development of medicine, fitness, virtual reality, and other fields. Early human pose estimation technology used traditional manual modeling methods. Recently, human pose estimation technology has developed rapidly using deep learning. This study not only reviews the basic research of human pose estimation but also summarizes the latest cutting-edge technologies. In addition to systematically summarizing the human pose estimation technology, this article also extends to the upstream and downstream tasks of human pose estimation, which shows the positioning of human pose estimation technology more intuitively. In particular, considering the issues regarding computer resources and challenges concerning model performance faced by human pose estimation, the lightweight human pose estimation models and the transformer-based human pose estimation models are summarized in this paper. In general, this article classifies human pose estimation technology around types of methods, 2D or 3D representation of outputs, the number of people, views, and temporal information. Meanwhile, classic datasets and targeted datasets are mentioned in this paper, as well as metrics applied to these datasets. Finally, we generalize the current challenges and possible development of human pose estimation technology in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0588",
+  "title": "The Application of Reinforcement Learning in Reducing the Hallucination Problem of Large Language Models",
+  "year": "2025",
+  "abstract": "This paper presents a comprehensive review on the application of reinforcement learning (RL) in addressing hallucination issues in large language models (LLMs), and systematically organizes mainstream approaches, evaluation criteria, current advancements, and existing challenges. This paper focuses on methodologies including prompt optimization, reward mechanism refinement, and feedback quality enhancement, which collectively improve model output accuracy through the integration of RL with human feedback and external verification. The evaluation criteria are categorized into three dimensions: functional and factual consistency, alignment and reliability, as well as specialized hallucination detection and assessment benchmarks, each of which is thoroughly examined. While optimized models have demonstrated significant progress in specific tasks, persistent challenges remain, including inconsistent evaluation standards, insufficient benchmark coverage, incomplete mitigation of foundational model hallucinations, and limited generalizability of optimization methods. This review aims to provide valuable insights for future researches, which facilitate further development of RL-based approaches to alleviate hallucination in LLMs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0589",
+  "title": "Essential-Web v1.0: 24T tokens of organized web data",
+  "year": "2025",
+  "abstract": "Data plays the most prominent role in how language models acquire skills and knowledge. The lack of massive, well-organized pre-training datasets results in costly and inaccessible data pipelines. We present Essential-Web v1.0, a 24-trillion-token dataset in which every document is annotated with a twelve-category taxonomy covering topic, format, content complexity, and quality. Taxonomy labels are produced by EAI-Distill-0.5b, a fine-tuned 0.5b-parameter model that achieves an annotator agreement within 3% of Qwen2.5-32B-Instruct. With nothing more than SQL-style filters, we obtain competitive web-curated datasets in math (-8.0% relative to SOTA), web code (+14.3%), STEM (+24.5%) and medical (+8.6%). Essential-Web v1.0 is available on HuggingFace: https://huggingface.co/datasets/EssentialAI/essential-web-v1.0",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0590",
+  "title": "A Survey on Regularized Sparse Optimization Models and Algorithms",
+  "year": "2023",
+  "abstract": "Sparse optimization plays a very important role in practical problems such as industrial engineering. In the past decades, many practical problems can be generalized into regularized sparse optimization models to solve the sparse solutions of underdetermined systems. Therefore, the improvement of such models and the design of algorithms have been widely studied. The regularized sparse optimization model can reduce the dimension of the original problem and transform the ill-posed problem into a well-posed problem. The key point is how to choose and construct the",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0591",
+  "title": "LoRa Based Home and Office Automation System: A Review",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0592",
+  "title": "Syntax Representation in Word Embeddings and Neural Networks - A Survey",
+  "year": "2020",
+  "abstract": "Neural networks trained on natural language processing tasks capture syntax even though it is not provided as a supervision signal. This indicates that syntactic analysis is essential to the understating of language in artificial intelligence systems. This overview paper covers approaches of evaluating the amount of syntactic information included in the representations of words for different neural network architectures. We mainly summarize re-search on English monolingual data on language modeling tasks and multilingual data for neural machine translation systems and multilingual language models. We describe which pre-trained models and representations of language are best suited for transfer to syntactic tasks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0593",
+  "title": "Combining review-based collaborative filtering and matrix factorization: A solution to rating's sparsity problem",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0594",
+  "title": "An Isabelle/HOL Formalization of Semi-Thue and Conditional Semi-Thue Systems",
+  "year": "2025",
+  "abstract": "We present a formalized framework for semi-Thue and conditional semi-Thue systems for studying monoids and their word problem using the Isabelle/HOL proof assistant. We provide a formalized decision procedure for the word problem of monoids if they are finitely presented by complete semi-Thue systems. In particular, we present a new formalized method for checking confluence using (conditional) critical pairs for certain conditional semi-Thue systems. We propose and formalize an inference system for generating conditional equational theories and Thue congruences using conditional semi-Thue systems. Then we provide a new formalized decision procedure for the word problem of monoids which have finite complete (reductive) conditional presentations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0595",
+  "title": "From Convolutional Neural Networks to Vision Foundation Models: A Comprehensive Review of Intelligent Evolution in Computer Vision",
+  "year": "2025",
+  "abstract": "Artificial intelligence (AI) technology is developing rapidly, and computer vision has become a cornerstone for enabling machines to perceive and interpret the visual world. This paper systematically reviews the evolution of computer vision from manually designed features to convolutional neural networks (CNNs), and then to large-scale visual models centered on the Transformer. This paper focuses on the global and hierarchical attention modeling of ViT and Swin, as well as the cross-modal alignment of CLIP and the zero-shot segmentation capability of SAM, demonstrating the generalization and transfer advantages brought by large-scale pre-training. In terms of core technologies, this paper analyzes CNN optimization, attention mechanisms, self-supervised learning, generative models, and multimodal fusion technology systems, clarifying the innovation and synergy of each module. Regarding applications, it outlines representative solutions and key implementation points in five typical scenarios. Moreover, it discusses the major challenges currently faced. It also looks forward to the development direction of lightweight, edge AI federated learning and general multimodal basic models, hoping to provide a systematic reference for scientific research and industrial practice.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0596",
+  "title": "A Review of Fully Integrated and Embedded Power Converters for IoT",
+  "year": "2021",
+  "abstract": "The Internet of Things (IoT) has found application in many components of implantable medical devices, wearable smart devices, monitoring systems, etc. The IoT devices are conventionally battery powered, even though, in several low power applications, they can also be powered using energy harvesting technology. Independently of the power sources (if batteries or environment), efficient and robust power converters must be designed to provide the small and distributed energy required by such IoT devices. This review paper will first provide an overview about the power consumption in IoT devices; second, it will discuss the most recent research and advance in the field of fully-integrated or embedded DC/DC converters, starting from high-performance integrated charge pumps or embedded inductive boost converters for specific harvesting sources (temperature, solar, and so on), to novel DC/DC converters for multiple energy sources.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0597",
+  "title": "CHALLENGES IN IT PROJECT MANAGEMENT FOR HEALTHCARE IN RESOURCE-LIMITED SETTINGS: A BRIEF REVIEW",
+  "year": "2024",
+  "abstract": "This research paper explores the intricate landscape of IT project management in healthcare within resource-limited settings. The analysis encompasses the challenges of infrastructure limitations, human resource scarcity, financial constraints, and regulatory intricacies. Drawing on a comprehensive literature review, the paper proposes innovative solutions and best practices, including integrating telemedicine, AI, and modular IT systems. Future directions highlight the potential of these technologies to transform healthcare delivery, emphasizing patient-centric approaches and community engagement. The conclusive insights underscore the importance of an adaptive, interdisciplinary, and forward-looking strategy for IT project management, envisioning a future where technological advancements bridge gaps, optimize resources, and improve healthcare outcomes in resource-limited environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0598",
+  "title": "Visual Large Language Models for Generalized and Specialized Applications",
+  "year": "2025",
+  "abstract": "Visual-language models (VLM) have emerged as a powerful tool for learning a unified embedding space for vision and language. Inspired by large language models, which have demonstrated strong reasoning and multi-task capabilities, visual large language models (VLLMs) are gaining increasing attention for building general-purpose VLMs. Despite the significant progress made in VLLMs, the related literature remains limited, particularly from a comprehensive application perspective, encompassing generalized and specialized applications across vision (image, video, depth), action, and language modalities. In this survey, we focus on the diverse applications of VLLMs, examining their using scenarios, identifying ethics consideration and challenges, and discussing future directions for their development. By synthesizing these contents, we aim to provide a comprehensive guide that will pave the way for future innovations and broader applications of VLLMs. The paper list repository is available: https://github.com/JackYFL/awesome-VLLMs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0599",
+  "title": "Une étude des avis en ligne : généralisabilité d’un modèle d’évaluation (A Study of Online Reviews : Generalizability of the Evaluation Model)",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0600",
+  "title": "Advanced Image Compression Techniques for Medical Applications: Survey",
+  "year": "2023",
+  "abstract": "The field of artificial intelligence has grown significantly in the past decade, with deep learning being a particularly promising technique due to its ability to learn complex feature representations from data. One area where deep learning has shown promise is in image compression, which is important for applications such as medical imaging, remote sensing, and video streaming. Traditional compression methods such as JPEG, JPEG200 and PNG have been used for decades, but recent advances in deep learning have led to innovative techniques that involve training deep neural networks to learn a compressed representation of the image data. This survey paper focuses on research-based applications of deep learning in image compression and reviews recent works on using deep learning techniques to compress and accelerate deep neural networks, including pruning, quantization, and low-rank factorization methods.\nIn addition, we discuss the use of deep learning techniques to minimize compression defects, such as block artifacts and ringing, which can degrade image quality. The paper provides an overview of popular methods and recent works in the field, highlighting their characteristics, advantages, and shortcomings.\nWe also discuss challenges and open research questions, such as the trade-off between compression efficiency and reconstruction quality, and the need for standardized evaluation metrics for comparing different compression methods. Overall, this survey aims to provide a comprehensive understanding of current trends in image compression using deep learning techniques and their potential to revolutionize the field. By exploring the advantages and limitations of these methods, we hope to facilitate further research and development in this exciting area.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

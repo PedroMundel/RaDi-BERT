@@ -1,0 +1,158 @@
+[
+ {
+  "id": "C01",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "This survey aims to systematically address these challenges by reviewing a broad spectrum of techniques designed to enhance the resource efficiency of LLMs.",
+  "objetivo": "saber + saber fazer",
+  "motivo": "survey cobre a área (recursos computacional, memória, energia, financeiro, rede) e traz conjunto de métricas/datasets de comparação"
+ },
+ {
+  "id": "C03",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "This paper presents a comprehensive survey of KD's role within the realm of LLM",
+  "objetivo": "saber",
+  "motivo": "survey de destilação de conhecimento para LLM (compressão, eixo memória/inferência); o repositório é lista curada de papers, não ferramenta demonstrada"
+ },
+ {
+  "id": "C05",
+  "veredito": "fora",
+  "regra": "§3.4 não é survey · fora da área",
+  "frase": "We applied a state-of-the-art transformer algorithm to the 221 deg² of the Kilo Degree Survey (KiDS) to search for new strong gravitational lenses (SGLs).",
+  "objetivo": null,
+  "motivo": "pesquisa primária de astronomia com transformer, sem nenhum eixo de custo de implantação"
+ },
+ {
+  "id": "C07",
+  "veredito": "fora",
+  "regra": "§3.4 não é survey · fora da área",
+  "frase": "This paper introduces a novel, multi-stage framework that leverages Large Language Models (LLMs) for the automated analysis of C2C chat logs.",
+  "objetivo": null,
+  "motivo": "pesquisa primária aplicando LLM a análise de chats de e-commerce, sem eixo de implantação"
+ },
+ {
+  "id": "C08",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "we survey prior work on sparsity in deep learning and provide an extensive tutorial of sparsification for both inference and training.",
+  "objetivo": "saber + saber fazer",
+  "motivo": "survey de esparsidade cobre memória (cabe em dispositivo móvel) e inferência, mostrando aceleração em hardware real"
+ },
+ {
+  "id": "C09",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a) · (e)",
+  "frase": "this paper comprehensively surveys efficient generative LLM inference on different hardware platforms.",
+  "objetivo": "saber + saber fazer",
+  "motivo": "survey de inferência eficiente por plataforma de hardware, com resultados e projeto disponíveis"
+ },
+ {
+  "id": "C10",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "knowledge distillation (KD) has been proposed to transfer information learned from one model to another.",
+  "objetivo": "saber",
+  "motivo": "survey de KD (técnica de compressão), sem sinal prático explícito nas frases"
+ },
+ {
+  "id": "C11",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "This paper presents a comprehensive review of the evolution of model compression techniques, from their inception to future directions.",
+  "objetivo": "saber",
+  "motivo": "review de técnicas de compressão de modelo (quantização, pruning, KD), sem sinal prático explícito"
+ },
+ {
+  "id": "C12",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "this survey provides a review of efficient inference methods designed specifically for LRMs",
+  "objetivo": "saber",
+  "motivo": "survey de inferência eficiente para modelos de raciocínio; insights descritos como conhecimento, não como prática guiada"
+ },
+ {
+  "id": "C13",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "we investigate compression and efficient inference methods for large language models from an algorithmic perspective.",
+  "objetivo": "saber + saber fazer",
+  "motivo": "survey de compressão/inferência de LLM que introduz frameworks maduros de inferência eficiente"
+ },
+ {
+  "id": "C15",
+  "veredito": "fora",
+  "regra": "§3.4 não é survey · fora da área",
+  "frase": "Here we present a new data resource, PhenoVision–Leaf, which extends a computer-vision pipeline utilizing iNaturalist digital image vouchers to produce global-scale leaf phenophase data for deciduous, woody genera.",
+  "objetivo": null,
+  "motivo": "recurso de dados de fenologia de plantas via Vision Transformer, sem eixo de implantação"
+ },
+ {
+  "id": "C17",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a) · (d)",
+  "frase": "This article provides a contemporary survey on harnessing MEI for LLM deployment.",
+  "objetivo": "saber",
+  "motivo": "survey de LLM on-device/edge (implantação), sem sinal prático explícito"
+ },
+ {
+  "id": "C18",
+  "veredito": "sem acesso"
+ },
+ {
+  "id": "C19",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "This survey aims to provide a comprehensive overview of recent advances in efficient reasoning.",
+  "objetivo": "saber",
+  "motivo": "survey de raciocínio eficiente (compressão, KD, decodificação); repositório é lista curada de papers, não ferramenta"
+ },
+ {
+  "id": "C21",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a)",
+  "frase": "This survey provides a comprehensive analysis of two complementary paradigms: Knowledge Distillation (KD) and Dataset Distillation (DD), both aimed at compressing LLMs while preserving their advanced reasoning capabilities and linguistic diversity.",
+  "objetivo": "saber",
+  "motivo": "survey de KD/DD para compressão de LLM; aplicações citadas de forma genérica, sem estudo de caso detalhado"
+ },
+ {
+  "id": "C25",
+  "veredito": "fora",
+  "regra": "§3.4 não é survey · fora da área",
+  "frase": "This paper elaborates on a systematic methodology primarily focusing on identifying and mitigating gender bias in Greek-language job advertisements and legal documents.",
+  "objetivo": null,
+  "motivo": "estudo empírico de viés de gênero comparando LLMs/SLMs, sem eixo de implantação"
+ },
+ {
+  "id": "C27",
+  "veredito": "dúvida",
+  "regra": "§1.2.1 (c)",
+  "frase": "This survey presents a comprehensive overview of foundation model applications in environmental science",
+  "objetivo": null,
+  "motivo": "aplicação específica (ciência ambiental); só entra se nenhum survey geral cobrir a divisão"
+ },
+ {
+  "id": "C28",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a) · (d)",
+  "frase": "This survey addresses the imperative need for efficient LLM serving methodologies from a machine learning system (MLSys) research perspective",
+  "objetivo": "saber",
+  "motivo": "survey de serving eficiente de LLM (infraestrutura de implantação), sem sinal prático explícito"
+ },
+ {
+  "id": "C29",
+  "veredito": "fora",
+  "regra": "§3.4 não é survey · primário da área",
+  "frase": "we propose BSL, a novel multi-exit split learning-based collaborative inference system.",
+  "objetivo": null,
+  "motivo": "pesquisa primária (não survey) sobre inferência colaborativa dispositivo-nuvem, tema dentro da área"
+ },
+ {
+  "id": "C31",
+  "veredito": "relevante",
+  "regra": "§1.2.1 (a) · (d)",
+  "frase": "This paper surveys the representative and latest deep learning techniques that are useful for edge intelligence systems",
+  "objetivo": "saber",
+  "motivo": "survey de técnicas para sistemas de edge intelligence, sem sinal prático explícito"
+ }
+]

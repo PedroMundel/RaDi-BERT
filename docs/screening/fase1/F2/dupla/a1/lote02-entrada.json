@@ -1,0 +1,366 @@
+[
+ {
+  "id": "F0333",
+  "title": "Review for \"Fermentation process quality prediction using teacher student stacked sparse recurrent autoencoder\"",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0357",
+  "title": "Knowledge Distillation A Review of Methods and Applications in LiDAR Data",
+  "year": "2025",
+  "abstract": "International Journal of Computer Sciences and Engineering (A UGC Approved and indexed with DOI, ICI and Approved, DPI Digital Library) is one of the leading and growing open access, peer-reviewed, monthly, and scientific research journal for scientists, engineers, research scholars, and academicians, which gains a foothold in Asia and opens to the world, aims to publish original, theoretical and practical advances in Computer Science,Information Technology, Engineering (Software, Mechanical, Civil, Electronics & Electrical), and all interdisciplinary streams of Computing Sciences. It intends to disseminate original, scientific, theoretical or applied research in the field of Computer Sciences and allied fields. It provides a platform for publishing results and research with a strong empirical component. It aims to bridge the significant gap between research and practice by promoting the publication of original, novel, industry-relevant research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0358",
+  "title": "Tensor decomposition of transportation temporal and spatial big data: A brief review",
+  "year": "2024",
+  "abstract": "Recent development in sensing and communication technologies has made the collection of a large amount of traffic data easy and transportation engineering has entered the big data era. The massive traffic data provides some good opportunities for Intelligent Transportation System (ITS), while some great challenges because of its characteristics of large value, variety, velocity, veracity, and volume. In recent few years, tensor decomposition has played an important role in traffic data analytic solutions and attached great interest from both academic and industrial areas. In this paper, the preliminary background and the implementation of tensor decomposition are presented. Then, some recent studies of tensor decomposition for traffic data imputation, traffic state prediction, and analysis of travel pattern are reviewed. Furthermore, advantages and disadvantages are discussed. Finally, remaining challenges of the application of tensor decomposition in transportation engineering are pointed out.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0367",
+  "title": "On the Automation of Code Review Tasks Through Cross-Task Knowledge Distillation",
+  "year": "2025",
+  "abstract": "Code review is essential for ensuring code quality and minimizing errors, but it is often complex, subjective, and time-consuming. Existing research treated code review tasks (i.e., quality estimation, comment generation, and code refinement) separately, despite their interconnections. We propose a novel deep learning architecture using cross-task knowledge distillation to address these tasks simultaneously. Our approach outperforms state-of-the-art methods in comment generation and code refinement, achieving superior BLEU and CodeBLEU scores.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0370",
+  "title": "Special issue from mathematics to embedded devices",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0386",
+  "title": "Spectral density approximation methods for sparse graphs: A review",
+  "year": "2026",
+  "abstract": "Graphs provide a simple yet powerful abstraction for representing complex systems across diverse domains, including social networks, biology, economics, and technology. In these models, vertices represent entities, and edges represent the interactions between them. The spectral density (i.e., the empirical distribution of the eigenvalues of a matrix representation of a graph) captures key global structural and dynamical properties. It supports a wide range of tasks, including community detection, denoising, spectral clustering, and graph comparison. However, the exact computation of the spectral density scales cubically with the number of vertices, making it impractical for large, sparse graphs. To address this, numerous approximation methods have been developed that trade accuracy for efficiency. In this review, we comprehensively examine existing techniques for approximating spectral densities in large, sparse graphs, encompassing both classical and recent developments. We also provide an open-source Python library that implements all reviewed methods, available at https://github.com/fujita-team/fastSpectralDensity .",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0385",
+  "title": "Performance Evaluation of PPP-AR Method for Engineering Surveys with Embedded GNSS Chipset in a Smartphone",
+  "year": "2020",
+  "abstract": "\n <p>Today, traditional Precise Point Positioning (PPP) method with high-cost geodetic grade Global Navigation Satellite System (GNSS) receivers has been used commonly for surveying, navigation, geodesy, geophysics and other engineering applications where dm-cm level accuracy is required. On the other hand, while smartphones have created a growing economic market in the world, they serve positioning, navigation and timing (PNT) services in varying accuracy levels to the users besides many other facilities. One of the most significant components of the smartphones involving multi-sensors for outdoor point-positioning and navigation is the embedded GNSS chipset. Especially, the world&#8217;s first dual-frequency GNSS smartphone produced by Xiaomi in May 2018, so-called Xiaomi Mi 8, brings a new aspect to PNT applications. In this study, a smartphone with dual-frequency embedded GNSS chipset was used to analyze the performance of PPP-Ambiguity Resolution (PPP-AR) method in engineering surveys. With respect to study aim, simultaneous static GNSS observations gathered with a geodetic grade GNSS receiver and a smartphone were conducted within a test setup. The static GNSS observations were repeated for 3 days and the campaign duration was 2 hours per day at the same daily time interval. All the raw GNSS observations were converted into Receiver Independent Exchange Format (RINEX) and processed by the relative point positioning method as a reference solution initially. Later, all observations were processed by the PPP-AR method. A widely used online post-processing GNSS service, namely CSRS-PPP, which was updated in August 2018 (GPSPACE to SPARK) were employed for PPP-AR solutions. As a conclusion, we analyze the performance of the embedded dual frequency GNSS chipset and assess the feasibility of them in different engineering surveys.</p><p><strong>Keywords:</strong> Smartphone Positioning, PPP-AR, Embedded GNSS Chipset, Dual-frequency, Engineering Surveys</p>\n",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0424",
+  "title": "GEAR-Seg: A Grounded Explainable Agent for Reasoning Segmentation and Data Engine",
+  "year": "2026",
+  "abstract": "Reasoning segmentation requires localizing targets based on complex, implicit queries. Current end-to-end models typically entangle perception and deduction into an opaque black box, severely limiting interpretability and scalability. To address this, we propose GEAR-Seg (Grounded Explainable Agent for Reasoning Segmentation), an explicitly decoupled agent that shifts the paradigm by translating visual pixels into dense, attribute-rich text. By decoupling class-agnostic segmentation, semantic description, and Large Language Model (LLM) deduction, GEAR-Seg transforms implicit reasoning into an explicit, trackable logic chain. As a zero-shot inference framework, it achieves highly competitive performance across diverse reasoning and fine-grained referring segmentation benchmarks. Furthermore, GEAR-Seg inherently functions as a highly scalable data engine. Utilizing this engine, we construct GEAR-131K, a massive benchmark (over 38k images, 656k QA-mask pairs) introducing a multifaceted taxonomy tailored for complex real-world manipulation-oriented reasoning. Finally, distillation experiments demonstrate that lightweight models supervised exclusively by our automated pipeline closely match the upper-bound performance of costly human-annotated baselines.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0432",
+  "title": "A Review on Initialization Methods for Nonnegative Matrix Factorization: Towards Omics Data Experiments",
+  "year": "2021",
+  "abstract": "Nonnegative Matrix Factorization (NMF) has acquired a relevant role in the panorama of knowledge extraction, thanks to the peculiarity that non-negativity applies to both bases and weights, which allows meaningful interpretations and is consistent with the natural human part-based learning process. Nevertheless, most NMF algorithms are iterative, so initialization methods affect convergence behaviour, the quality of the final solution, and NMF performance in terms of the residual of the cost function. Studies on the impact of NMF initialization techniques have been conducted for text or image datasets, but very few considerations can be found in the literature when biological datasets are studied, even though NMFs have largely demonstrated their usefulness in better understanding biological mechanisms with omic datasets. This paper aims to present the state-of-the-art on NMF initialization schemes along with some initial considerations on the impact of initialization methods when microarrays (a simple instance of omic data) are evaluated with NMF mechanisms. Using a series of measures to qualitatively examine the biological information extracted by a given NMF scheme, it preliminary appears that some information (e.g., represented by genes) can be extracted regardless of the initialization scheme used.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0421",
+  "title": "Self-Distillation of XLM-RoBERTa for Multilingual Sentiment Analysis on Imbalanced Data: A Case Study on Malagasy Mobile Application Reviews",
+  "year": "2026",
+  "abstract": "This study proposes a self-distillation framework based on XLM-RoBERTa-base for binary sentiment analysis of multilingual application reviews in French, English, and Malagasy. To address class imbalance and low-resource challenges, the framework integrates high-temperature soft-label transfer, feature-level representation alignment, and focal-loss-based class weighting. The self-distilled student model outperformed its XLM-RoBERTa teacher baseline, achieving 91.39% accuracy (+0.99%) and 90.63% macro-F1 (+1.10%), with consistent gains in negative-class detection. Cross-lingual evaluation revealed asymmetric transfer effects, with improved performance for French by 1.75%, remained stable for Malagasy, and decreased for English by 3.45%, likely reflecting domain differences in English training sample distribution. These results demonstrate that self-distillation effectively regularizes transformer models under imbalanced multilingual conditions, with cross-lingual generalization being most effective when sufficient target-language representation is available during training.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0427",
+  "title": "Efficient and Lightweight Deep Learning Approaches for Hyperspectral Image Classification: A Comprehensive Review",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0472",
+  "title": "Optimizing Emotion Recognition in Indonesian Product Reviews Using LoRA on Transformer",
+  "year": "2026",
+  "abstract": "Emotion analysis in product reviews plays a crucial role in Indonesia’s e-commerce landscape, yet training advanced transformer models demands high computational resources, posing a significant constraint for small businesses. This research evaluates the Low-Rank Adaptation (LoRA) technique for optimizing emotion recognition in Indonesian product reviews, with a focus on resource efficiency. Indobert-large-p2, Indobert-base-uncased, and Indobertweet-base-uncased models were trained on the PRDECT-ID dataset, comparing the performance of full fine-tuning and LoRA. Results show LoRA provided competitive performance; on the Indobert-large-p2 model, the F1-score reached 67.81%, surpassing full fine-tuning’s 67.74%, despite training only about 1% of the total parameters. LoRA significantly reduced VRAM consumption by up to 17% and accelerated training duration by up to four minutes. Furthermore, the transformer models fine-tuned in this study, using both LoRA and full fine-tuning, consistently outperformed the results of previous research that employed complex architectures like CNN and BiLSTM, with the highest F1-score reaching 69.72% compared to the previous best of 66.13%. LoRA proves to be a practical and efficient solution for limited computational resources, enabling effective emotion analysis without expensive infrastructure.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0469",
+  "title": "Handling Sparsity in Cross-Domain Recommendation Systems: Review",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0453",
+  "title": "Crowd counting via lightweight neural networks: a literature review",
+  "year": "2025",
+  "abstract": "Crowd counting refers to the task of estimating the number of people within a specific area, which provides insights into crowd dynamics and distribution. This task has widespread applications across various domains, including public safety, urban planning, and traffic management. Recent advances in deep learning, particularly the convolutional neural networks and the Transformer architecture, as well as multimodal pre-trained models, such as CLIP and SAM, have substantially improved counting accuracy. However, existing models are mainly designed in high-complexity architecture, which incur heavy computational and data requirements, and hinder real-time deployment and increase the cost. Consequently, lightweight crowd-counting approaches have emerged as a key research direction, which aims to reduce parameters and inference time while retaining high performance. In this survey, we summarize publicly available datasets, evaluation metrics, latest lightweight architectures, and evaluate representative models on benchmark datasets to inspire future research in crowd counting.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0447",
+  "title": "Model-Switching: Dealing with Fluctuating Workloads in Machine-Learning-as-a-Service Systems",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0488",
+  "title": "A Comprehensive Review of Artificial Neural Network Techniques Used for Smart Meter-Embedded forecasting System",
+  "year": "2023",
+  "abstract": "The recent developments in computational science and smart metering have led to a gradual replacement of the traditional load forecasting methods by artificial intelligent (AI) technology. The smart meters for residential buildings have become available on the market, and since then, various studies on load forecasting have been published. Contingency planning, load shedding, management strategies and commercialization strategies are all influenced by load forecasts. Predicting a lower load than the actual load results in utilities not committing the necessary generation units and therefore incurring higher costs due to the use of peak power plants; on the other hand, predicting a higher load than actual will result in higher costs because unnecessary baseline units are stated and not used . Artificial Neural Networks (ANNs) provide an accurate approach to the problem of energy forecasting and have the advantage of not requiring the user to have a clear, understanding of the underlying mathematical relationship between input and output. The aim of this work is to a carry-out Comprehensive Review of Artificial Neural Network Techniques Used for Smart MeterEmbedded forecasting System. Keywords: Artificial Neural Network, Smart Meter, Artificial Intelligent, Energy, forecasting.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0516",
+  "title": "Dealing with high dimensional multi-view data: A comprehensive review of non-negative matrix factorization approaches in data mining and machine learning",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0511",
+  "title": "PRISMA-Guided Systematic Review on the Adoption of Artificial Intelligence and Embedded Systems for Smart Irrigation",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0487",
+  "title": "Video Big Data Analytics in the Cloud: A Reference Architecture, Survey, Opportunities, and Open Research Issues",
+  "year": "2020",
+  "abstract": "The proliferation of multimedia devices over the Internet of Things (IoT) generates an unprecedented amount of data. Consequently, the world has stepped into the era of big data. Recently, on the rise of distributed computing technologies, video big data analytics in the cloud has attracted the attention of researchers and practitioners. The current technology and market trends demand an efficient framework for video big data analytics. However, the current work is too limited to provide a complete survey of recent research work on video big data analytics in the cloud, including the management and analysis of a large amount of video data, the challenges, opportunities, and promising research directions. To serve this purpose, we present this study, which conducts a broad overview of the state-of-the-art literature on video big data analytics in the cloud. It also aims to bridge the gap among large-scale video analytics challenges, big data solutions, and cloud computing. In this study, we clarify the basic nomenclatures that govern the video analytics domain and the characteristics of video big data while establishing its relationship with cloud computing. We propose a service-oriented layered reference architecture for intelligent video big data analytics in the cloud. Then, a comprehensive and keen review has been conducted to examine cutting-edge research trends in video big data analytics. Finally, we identify and articulate several open research issues and challenges, which have been raised by the deployment of big data technologies in the cloud for video big data analytics. To the best of our knowledge, this is the first study that presents the generalized view of the video big data analytics in the cloud. This paper provides the research studies and technologies advancing the video analyses in the era of big data and cloud computing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0530",
+  "title": "QwT-v2: Practical, Effective and Efficient Post-Training Quantization",
+  "year": "2025",
+  "abstract": "Network quantization is arguably one of the most practical network compression approaches for reducing the enormous resource consumption of modern deep neural networks. They usually require diverse and subtle design choices for specific architecture and tasks. Instead, the QwT method is a simple and general approach which introduces lightweight additional structures to improve quantization. But QwT incurs extra parameters and latency. More importantly, QwT is not compatible with many hardware platforms. In this paper, we propose QwT-v2, which not only enjoys all advantages of but also resolves major defects of QwT. By adopting a very lightweight channel-wise affine compensation (CWAC) module, QwT-v2 introduces significantly less extra parameters and computations compared to QwT, and at the same time matches or even outperforms QwT in accuracy. The compensation module of QwT-v2 can be integrated into quantization inference engines with little effort, which not only effectively removes the extra costs but also makes it compatible with most existing hardware platforms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0528",
+  "title": "Analysis on Log Parsing: Classical Methods to LLM-Based Approaches",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0545",
+  "title": "Deep Learning and Optimization Approaches in Automatic Cervical Cancer Detection and Segmentation Using Sparsity-Aware Orthogonal Initialization in Deep Neural Network Classifiers: A Review",
+  "year": "2025",
+  "abstract": "Cervical cancer remains one of the leading causes of cancer-related mortality among women worldwide, making early detection essential for improving survival rates. Traditional screening methods such as Pap smear tests and colposcopy are often time-consuming, subjective, and prone to human error, limiting their effectiveness in large-scale diagnostics. Recent advancements in deep learning have significantly enhanced the automation of cervical cancer detection and segmentation by enabling precise analysis of cytology and histopathological images. Convolutional neural networks (CNNs) have demonstrated superior capabilities in feature extraction, classification, and segmentation compared to conventional methods. Advanced segmentation models such as U-Net, Mask R-CNN, and DeepLab are widely used for accurate identification of cervical cell boundaries, while classification models like ResNet and EfficientNet achieve high diagnostic accuracy. Optimization techniques such as sparsity-aware orthogonal initialization further improve model convergence, generalization, and computational efficiency by reducing redundancy in neural networks. This review highlights key trends including hybrid architectures, multi-scale feature extraction, and optimization-driven designs, while also addressing challenges such as data scarcity, class imbalance, and model interpretability in real-world clinical deployment. \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0532",
+  "title": "A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability",
+  "year": "2022",
+  "abstract": "Data augmentation (DA) is indispensable in modern machine learning and deep neural networks. The basic idea of DA is to construct new training data to improve the model’s generalization by adding slightly disturbed versions of existing data or synthesizing new data. This survey comprehensively reviews a crucial subset of DA techniques, namely Mix-based Data Augmentation (MixDA), which generates novel samples by combining multiple examples. In contrast to traditional DA approaches that operate on single samples or entire datasets, MixDA stands out due to its effectiveness, simplicity, computational efficiency, theoretical foundation, and broad applicability. We begin by introducing a novel taxonomy that categorizes MixDA into Mixup-based, Cutmix-based, and mixture approaches based on a hierarchical perspective of the data mixing operation. Subsequently, we provide an in-depth review of various MixDA techniques, focusing on their underlying motivations. Owing to its versatility, MixDA has penetrated a wide range of applications, which we also thoroughly investigate in this survey. Moreover, we delve into the underlying mechanisms of MixDA’s effectiveness by examining its impact on model generalization and calibration while providing insights into the model’s behavior by analyzing the inherent properties of MixDA. Finally, we recapitulate the critical findings and fundamental challenges of current MixDA studies while outlining the potential directions for future works. Different from previous related surveys that focus on DA approaches in specific domains (e.g., computer vision and natural language processing) or only review a limited subset of MixDA studies, we are the first to provide a systematical survey of MixDA, covering its taxonomy, methodology, application, and explainability. Furthermore, we provide promising directions for researchers interested in this exciting area.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0575",
+  "title": "Lightweight Unbiased Review-based Recommendation Based on Knowledge Distillation",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0590",
+  "title": "A Survey on Regularized Sparse Optimization Models and Algorithms",
+  "year": "2023",
+  "abstract": "Sparse optimization plays a very important role in practical problems such as industrial engineering. In the past decades, many practical problems can be generalized into regularized sparse optimization models to solve the sparse solutions of underdetermined systems. Therefore, the improvement of such models and the design of algorithms have been widely studied. The regularized sparse optimization model can reduce the dimension of the original problem and transform the ill-posed problem into a well-posed problem. The key point is how to choose and construct the",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0587",
+  "title": "A systematic survey on human pose estimation: upstream and downstream tasks, approaches, lightweight models, and prospects",
+  "year": "2025",
+  "abstract": "In recent years, human pose estimation has been widely studied as a branch task of computer vision. Human pose estimation plays an important role in the development of medicine, fitness, virtual reality, and other fields. Early human pose estimation technology used traditional manual modeling methods. Recently, human pose estimation technology has developed rapidly using deep learning. This study not only reviews the basic research of human pose estimation but also summarizes the latest cutting-edge technologies. In addition to systematically summarizing the human pose estimation technology, this article also extends to the upstream and downstream tasks of human pose estimation, which shows the positioning of human pose estimation technology more intuitively. In particular, considering the issues regarding computer resources and challenges concerning model performance faced by human pose estimation, the lightweight human pose estimation models and the transformer-based human pose estimation models are summarized in this paper. In general, this article classifies human pose estimation technology around types of methods, 2D or 3D representation of outputs, the number of people, views, and temporal information. Meanwhile, classic datasets and targeted datasets are mentioned in this paper, as well as metrics applied to these datasets. Finally, we generalize the current challenges and possible development of human pose estimation technology in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0565",
+  "title": "Lightweight blockchain solutions: Taxonomy, research progress, and comprehensive review",
+  "year": "2022",
+  "abstract": "The proliferation of resource-constrained devices has become prevalent across various digital applications, including smart homes, healthcare, the Internet of Vehicles, and the Internet of Flying Things, among others. However, the integration of these devices brings many security issues. To address these concerns, Blockchain technology has been widely adopted due to its robust security characteristics, including immutability, cryptography, and distributed consensus. However, implementing the blockchain within these networks is highly challenging due to the limited resources of the employed devices and the resource-intensive requirements of the blockchain. To overcome these challenges, a multitude of researchers have proposed lightweight blockchain solutions specifically designed for resource-constrained networks. In this paper, we present a taxonomy of lightweight blockchain solutions proposed in the literature. More precisely, we identify five areas within the\"lightweight\"concept, namely, blockchain architecture, device authentication, cryptography model, consensus algorithm, and storage method. We discuss the various methods employed in each\"lightweight\"category, highlighting existing gaps and identifying areas for improvement. Our review highlights the missing points in existing systems and paves the way to building a complete lightweight blockchain solution for networks of resource-constrained devices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0621",
+  "title": "Review for \"The Audiomaze : An EEG and motion capture study of human spatial navigation in sparse augmented reality\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0627",
+  "title": "Applications of Knowledge Distillation in Remote Sensing: A Survey",
+  "year": "2024",
+  "abstract": "With the ever-growing complexity of models in the field of remote sensing (RS), there is an increasing demand for solutions that balance model accuracy with computational efficiency. Knowledge distillation (KD) has emerged as a powerful tool to meet this need, enabling the transfer of knowledge from large, complex models to smaller, more efficient ones without significant loss in performance. This review article provides an extensive examination of KD and its innovative applications in RS. KD, a technique developed to transfer knowledge from a complex, often cumbersome model (teacher) to a more compact and efficient model (student), has seen significant evolution and application across various domains. Initially, we introduce the fundamental concepts and historical progression of KD methods. The advantages of employing KD are highlighted, particularly in terms of model compression, enhanced computational efficiency, and improved performance, which are pivotal for practical deployments in RS scenarios. The article provides a comprehensive taxonomy of KD techniques, where each category is critically analyzed to demonstrate the breadth and depth of the alternative options, and illustrates specific case studies that showcase the practical implementation of KD methods in RS tasks, such as instance segmentation and object detection. Further, the review discusses the challenges and limitations of KD in RS, including practical constraints and prospective future directions, providing a comprehensive overview for researchers and practitioners in the field of RS. Through this organization, the paper not only elucidates the current state of research in KD but also sets the stage for future research opportunities, thereby contributing significantly to both academic research and real-world applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0630",
+  "title": "Mapping Trends of Machine Learning in Digital Service Management: Bibliometric and Systematic Literature Review",
+  "year": "2025",
+  "abstract": "By combining several methods, this study seeks to identify trends, directions of growth, and research needs in the use of ML in digital service management. The analysis includes bibliometric data from 91 publications indexed in the Scopus and IEEE databases, as well as on SLR. VOS Viewer tools were utilized in the study to identify keywords, websites, and key citations, as well as to qualitatively examine themes and research techniques. The findings suggest a shift in trends from traditional methods, such as Random Forest, SVM, and LSTM, toward a more moral, open, and human-centered approach. With a focus on Explainable Artificial Intelligence (XAI), Large Language Models (LLM), trust and sustainability concerns as well.This study presents a Human-in-the-Loop (HITL) strategy that combines interpretability methods, including Local Interpretable Model-agnostic Explanations (LIME), to help the system generate recommendations that are both technically sound and relevant to business demands. Future research proposals highlight that developing human-cantered artificial intelligence is important since it emphasizes ethics, openness, and human-AI interaction to produce sustainable and strategically beneficial digital services.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0608",
+  "title": "Parameter Efficient Instruction Tuning: An Empirical Study",
+  "year": "2024",
+  "abstract": "Instruction tuning has become an important step for finetuning pretrained language models to better follow human instructions and generalize on various tasks. Nowadays, pretrained language models become increasingly larger, and full parameter finetuning is overwhelmingly costly. Therefore, Parameter Efficient Finetuning (PEFT) has arisen as a cost-effective practice for instruction tuning because of significantly smaller computational, memory, and storage cost compared to full finetuning. Despite their widespread adaptations, the vast hyperparameter spaces, the number of PEFT methods, the different focus of instruction tuning capabilities make disentangling the impact of each aspect difficult. This study systematically investigates several representative PEFT methods, surveying the effect of hyperparameter choices including training hyperparameters and PEFT-specific hyperparameters, how different models sizes and the number of instruction tasks affect the performance, in-task-distribution memorization and open instruction following capability. Our empirical study shows that only LoRA and adapter can get close to full finetuning with ideal training settings. The ideal training setting includes an appropriate learning rate, largest LoRA rank or adapter size allowed and diverse training tasks. On the other hand, LoRA and adapter suffer from training instability if such an ideal training condition is not met. Additionally, LoRA requires a greater number of tasks for effective unseen task generalization, exhibit slower learning speed. Moreover, LoRA has weaker task-level memorization. Lastly, LoRA and adapter fall short in complex reasoning, coding and long-form generation compared to finetuning in open instruction tuning settings but it shows stronger capabilities compared to adapter.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0669",
+  "title": "Small Language Models for Phishing Website Detection: A Review of Cost, Performance, and Privacy Trade-Offs",
+  "year": "2026",
+  "abstract": "This review investigates Goldenits et al.'s (2025) empirical comparison of fifteen open small language models (SLMs) for phishing website detection, which aimed to evaluate whether locally hosted models can achieve the same accuracy as proprietary large language models (LLMs), without the prohibitive costs or privacy concerns. The authors test each model with a stratified sample of 1,000 labelled websites from a pool of 10,395 websites and measure the accuracy, precision, recall and F1 score of the results. The best local model, llama3.3:70b, achieves an F1 score of 0.893 and recall of 0.948, which is close to, but still lower than, the F1 scores above 0.95 achieved by the largest proprietary systems (Goldenits et al. 2025). This review restates the three research questions posed in this paper, assesses the evidence provided for each of the questions and situates the evidence in the context of the existing literature on cost-aware deployment (Irugalbandara et al. 2024; Kavya & Sumathi, 2024) and LLM-based phishing detection (Koide et al. 2024). It concludes that, besides the number of parameters, the deployability of an SLM depends on its architecture and on the reliability of its output format, which does not depend only on its classification skill.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0648",
+  "title": "QButterfly: Lightweight Survey Extension for Online User Interaction Studies for Non-Tech-Savvy Researchers",
+  "year": "2023",
+  "abstract": "We provide a user-friendly, flexible, and lightweight open-source HCI toolkit (github.com/QButterfly) that allows non-tech-savvy researchers to conduct online user interaction studies using the widespread Qualtrics and LimeSurvey platforms. These platforms already provide rich functionality (e.g., for experiments or usability tests) and therefore lend themselves to an extension to display stimulus web pages and record clickstreams. The toolkit consists of a survey template with embedded JavaScript, a JavaScript library embedded in the HTML web pages, and scripts to analyze the collected data. No special programming skills are required to set up a study or match survey data and user interaction data after data collection. We empirically validated the software in a laboratory and a field study. We conclude that this extension, even in its preliminary version, has the potential to make online user interaction studies (e.g., with crowdsourced participants) accessible to a broader range of researchers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

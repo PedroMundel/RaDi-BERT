@@ -1,0 +1,305 @@
+<title>Leitura cega das justificativas</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Literata:opsz,wght@7..72,400;7..72,600&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one column of annotation cards, read top to bottom on a phone; a sticky bar at the bottom keeps the count and the copy action. */
+:root {
+  --paper: #f6f7f5;
+  --card: #ffffff;
+  --ink: #1d2422;
+  --muted: #5d6965;
+  --line: #d9dfdc;
+  --accent: #1f6f66;
+  --accent-ink: #ffffff;
+  --accent-soft: #e2efec;
+  --ent: #2f7a3e;
+  --neu: #8a6a1f;
+  --con: #a33a32;
+  --warn-bg: #fbf1dc;
+  --warn-ink: #6b4d0e;
+  --font-ui: "Atkinson Hyperlegible", "Segoe UI", system-ui, sans-serif;
+  --font-text: "Literata", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #121614; --card: #1a201e; --ink: #e6ebe9; --muted: #9aa7a2; --line: #2e3734;
+    --accent: #5fbcae; --accent-ink: #0d1312; --accent-soft: #1d3330;
+    --ent: #7cc98a; --neu: #d8b45c; --con: #e58a80; --warn-bg: #3a2f17; --warn-ink: #f0d79c;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #121614; --card: #1a201e; --ink: #e6ebe9; --muted: #9aa7a2; --line: #2e3734;
+  --accent: #5fbcae; --accent-ink: #0d1312; --accent-soft: #1d3330;
+  --ent: #7cc98a; --neu: #d8b45c; --con: #e58a80; --warn-bg: #3a2f17; --warn-ink: #f0d79c;
+  color-scheme: dark;
+}
+body {
+  background: var(--paper); color: var(--ink); font-family: var(--font-ui); font-size: 16px; line-height: 1.5;
+}
+.wrap {
+  max-width: 44rem; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 24px 120px;
+  display: grid; gap: 20px;
+}
+header h1 { font-family: var(--font-text); font-weight: 600; font-size: 1.6rem; line-height: 1.2; margin: 0; text-wrap: balance; }
+header p { margin: 8px 0 0; color: var(--muted); max-width: 65ch; }
+.rubric { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; display: grid; gap: 6px; }
+.rubric h2 { margin: 0; font-size: 0.8rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.rubric ol { margin: 0; padding-left: 1.2em; display: grid; gap: 2px; }
+.rubric small { color: var(--muted); }
+.notice { background: var(--warn-bg); color: var(--warn-ink); border-radius: 10px; padding: 12px 14px; }
+.item { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 14px; scroll-margin-top: 16px; }
+.item.done { border-color: var(--accent); }
+.item-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.num { font-family: var(--font-mono); font-size: 0.85rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.label { font-size: 0.8rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 10px; border-radius: 999px; border: 1.5px solid currentColor; }
+.label.entailment { color: var(--ent); }
+.label.neutral { color: var(--neu); }
+.label.contradiction { color: var(--con); }
+.state { margin-left: auto; font-size: 0.8rem; color: var(--muted); }
+.state.saved { color: var(--accent); }
+.state.error { color: var(--con); }
+.pair { display: grid; gap: 6px; margin: 0; }
+.pair div { display: grid; grid-template-columns: 5.5rem 1fr; gap: 8px; }
+.pair dt { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); padding-top: 3px; }
+.pair dd { margin: 0; font-family: var(--font-text); min-width: 0; }
+.just { font-family: var(--font-text); font-size: 1.05rem; margin: 0; padding: 12px 14px; background: var(--accent-soft); border-radius: 8px; }
+.qs { display: grid; gap: 12px; }
+fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 6px; min-width: 0; }
+legend { padding: 0; font-weight: 700; font-size: 0.95rem; }
+legend span { font-weight: 400; color: var(--muted); font-size: 0.85rem; }
+.opts { display: flex; gap: 8px; flex-wrap: wrap; }
+.opts input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.opts label {
+  min-width: 4.5rem; text-align: center; padding: 9px 14px; border-radius: 8px; border: 1.5px solid var(--line);
+  cursor: pointer; user-select: none; background: var(--card);
+}
+.opts input:checked + label { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); font-weight: 700; }
+.opts input:focus-visible + label { outline: 3px solid var(--accent); outline-offset: 2px; }
+.motivo { display: grid; gap: 4px; }
+.motivo label { font-size: 0.9rem; color: var(--muted); }
+.motivo input { font: inherit; padding: 9px 12px; border-radius: 8px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); min-width: 0; }
+.motivo input:focus-visible { outline: 3px solid var(--accent); outline-offset: 1px; }
+.bar {
+  position: fixed; left: 0; right: 0; bottom: 0; background: var(--card); border-top: 1px solid var(--line);
+  padding-bottom: calc(10px + env(safe-area-inset-bottom, 0px)); padding-top: 10px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.bar-in { max-width: 44rem; margin: 0 auto; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.count { font-variant-numeric: tabular-nums; font-weight: 700; }
+.meter { flex: 1 1 8rem; height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; min-width: 6rem; }
+.meter i { display: block; height: 100%; background: var(--accent); width: 0; transition: width 0.3s; }
+button { font: inherit; padding: 8px 14px; border-radius: 8px; border: 1.5px solid var(--accent); background: var(--card); color: var(--accent); cursor: pointer; font-weight: 700; }
+button.primary { background: var(--accent); color: var(--accent-ink); }
+button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.copybox { width: 100%; font-family: var(--font-mono); font-size: 0.85rem; min-height: 8rem; background: var(--card); color: var(--ink); border: 1.5px solid var(--line); border-radius: 8px; padding: 10px; }
+.copy-area, .items { display: grid; gap: 8px; }
+.items { gap: 20px; }
+[hidden] { display: none !important; }
+@media (prefers-reduced-motion: reduce) { .meter i { transition: none; } }
+</style>
+
+<div class="wrap">
+  <header>
+    <h1>Leitura cega das justificativas</h1>
+    <p>50 justificativas de pares do SNLI, de fontes misturadas. Julgue cada uma considerando o rótulo mostrado como certo, mesmo que discorde dele. Cada resposta é salva assim que você toca.</p>
+  </header>
+
+  <section class="rubric" aria-labelledby="rubrica-titulo">
+    <h2 id="rubrica-titulo">Rubrica</h2>
+    <ol>
+      <li><b>Nova:</b> traz fato, informação ou raciocínio que não está no par nem no rótulo?</li>
+      <li><b>Sustenta:</b> o que ela diz é relevante para justificar o rótulo?</li>
+      <li><b>Quantidade:</b> pouca, suficiente ou demais para justificar o rótulo?</li>
+      <li><b>Aceitável:</b> no geral, você aceitaria essa justificativa?</li>
+    </ol>
+    <small>Wiegreffe et al. (2022), NAACL, Apêndice B.3.</small>
+  </section>
+
+  <div class="notice" id="offline" hidden>Não deu para conectar ao armazenamento. As respostas ficam só neste aparelho: no fim, use “Copiar respostas” e cole no chat.</div>
+
+  <div id="items" class="items"></div>
+
+  <section id="copy-area" class="copy-area" hidden>
+    <label for="copybox"><b>Respostas em texto</b> (para colar no chat se precisar)</label>
+    <textarea id="copybox" class="copybox" readonly></textarea>
+  </section>
+</div>
+
+<div class="bar" role="region" aria-label="Progresso">
+  <div class="bar-in">
+    <span class="count" id="count">0 de 50</span>
+    <div class="meter" aria-hidden="true"><i id="meter"></i></div>
+    <button type="button" id="next">Próximo em aberto</button>
+    <button type="button" id="copy" class="primary">Copiar respostas</button>
+  </div>
+</div>
+
+<script>
+const ITEMS = [{"n": 1, "gold_label": "neutral", "premissa": "A bartender pours a frothy drink into a tall glass.", "hipotese": "The bartender is a man.", "justificativa": "Bartenders can be men or women, so the gender is not specified by the action of pouring a drink into a glass."}, {"n": 2, "gold_label": "contradiction", "premissa": "A man in a hard hat looks intimidated.", "hipotese": "He exclaims that he's done with this work, sprouts wings, and flies away.", "justificativa": "While a hard hat intimidates him, it does not magically give the man wings."}, {"n": 3, "gold_label": "entailment", "premissa": "Two men stand on stairs with an assortment of chairs and a woven basket in the foreground.", "hipotese": "The basket is woven.", "justificativa": "Only weavers are seen weaving a basket."}, {"n": 4, "gold_label": "neutral", "premissa": "Three men are sitting outside on chairs with red seats.", "hipotese": "Men are having a conversation outside.", "justificativa": "Men sitting outside does not necessarily mean they are having a conversation."}, {"n": 5, "gold_label": "contradiction", "premissa": "A man in an orange shirt and yellow hard hat walks on a road.", "hipotese": "A worker sits in a cubicle.", "justificativa": "Walking on a road requires being outdoors and moving, while sitting in a cubicle implies being indoors and stationary."}, {"n": 6, "gold_label": "entailment", "premissa": "A man with his arm around a woman.", "hipotese": "A man is with a woman.", "justificativa": "The two people are holding hands, or are at least in physical contact in some way, which is one simple definition of the word \"with\"."}, {"n": 7, "gold_label": "entailment", "premissa": "three army men with guns.", "hipotese": "Three men in uniform.", "justificativa": "Army men are soldiers who wear uniforms as part of their official attire, so seeing them implies they are dressed in these standard military garments."}, {"n": 8, "gold_label": "contradiction", "premissa": "A crowd watching air balloons at night.", "hipotese": "People are watching airplanes at 10:00 a.m.", "justificativa": "Night occurs after sunset, while 10:00 a.m. is during daylight hours; these distinct times cannot exist simultaneously in the same moment."}, {"n": 9, "gold_label": "neutral", "premissa": "A little boy playing with two rubber chickens.", "hipotese": "The boy is outdoors.", "justificativa": "One cannot be playing with rubber chickens outdoors at the same time."}, {"n": 10, "gold_label": "contradiction", "premissa": "four husky dogs are pulling a sled in a race through the snow guided by a man wearing number eleven.", "hipotese": "four husky dogs are not pulling a sled", "justificativa": "Pulling a sled is an active physical task that requires engagement, whereas not pulling implies inactivity or absence of force, making both states impossible simultaneously."}, {"n": 11, "gold_label": "neutral", "premissa": "A man is playing a drum as a crowd of people are walking by.", "hipotese": "People tip the man playing drums", "justificativa": "People walk by without stopping to listen or give money, so they may not notice the performance or choose not to support it financially."}, {"n": 12, "gold_label": "neutral", "premissa": "Four men and a woman sit at a conference table covered in a white sheet, with beverages in front of them and one has a microphone.", "hipotese": "Some people are drinking.", "justificativa": "Beverages are present but may be untouched or for others; sitting and speaking do not guarantee consumption is occurring simultaneously."}, {"n": 13, "gold_label": "neutral", "premissa": "Three workers, with life vests and hard hats, on a boat hanging from cables over water.", "hipotese": "Three lifeguards are haning from the boar, trying to save the dog from drowning.", "justificativa": "The workers are not lifeguards, and they are not trying to save the dog."}, {"n": 14, "gold_label": "neutral", "premissa": "Four cheerleaders in a squad walk along a football field.", "hipotese": "There are two girls and two boys.", "justificativa": "Cheerleading squads can consist entirely of girls or boys, so four cheerleaders do not necessarily include both genders."}, {"n": 15, "gold_label": "contradiction", "premissa": "A man is watching a woman bowl while another woman smiles.", "hipotese": "A man watches a women play basketball while a women smiles.", "justificativa": "Bowling requires a lane and ball, whereas basketball is played on a court with a hoop; these are distinct activities that cannot occur simultaneously for the same people."}, {"n": 16, "gold_label": "contradiction", "premissa": "A little boy is sitting in front of a fireplace next to a Ginger bread house.", "hipotese": "The boy is small enough to fit inside the gingerbread house", "justificativa": "Sitting in front of a fireplace implies being outside the house structure, while fitting inside requires being within its boundaries, making both positions mutually exclusive simultaneously."}, {"n": 17, "gold_label": "entailment", "premissa": "Two men are playing during a basketball game.", "hipotese": "Two men are playing.", "justificativa": "Only two men are playing in a basketball game. The two men must both be playing for that occur."}, {"n": 18, "gold_label": "neutral", "premissa": "Several women wearing dresses dance in the forest.", "hipotese": "The women are older", "justificativa": "Dresses are worn by a variety of people of various ages."}, {"n": 19, "gold_label": "entailment", "premissa": "A person with braided hair and a gray sweatshirt covers his mouth and sits in a purple chair.", "hipotese": "A man sits in a purple chair.", "justificativa": "If a man has braided hair and is sitting in a purple chair, then he is sitting in a purple chair."}, {"n": 20, "gold_label": "neutral", "premissa": "Girl wearing black shops in a supermarket.", "hipotese": "The girl wearing black sometimes shops in a supermarket.", "justificativa": "Wearing black is a temporary state, while \"sometimes\" implies a recurring habit or general characteristic that cannot be definitively inferred from a single instance of observation."}, {"n": 21, "gold_label": "neutral", "premissa": "Two men work on a truck carrying cargo.", "hipotese": "Two men are working on a truck and the truck goes out of gear.", "justificativa": "A truck can have cargo without having mechanical issues, as working on it doesn't imply a specific malfunction like going out of gear."}, {"n": 22, "gold_label": "neutral", "premissa": "One man in a baseball cap is watching a man in glasses paint watches.", "hipotese": "A man is holding a paintbrush.", "justificativa": "Painting can be done with spray cans or rollers, so holding a brush is not required for the act of painting."}, {"n": 23, "gold_label": "neutral", "premissa": "A band is playing under a tent while people watch them play from chairs several yards away.", "hipotese": "The band is playing at a wedding ceremony.", "justificativa": "Bands perform under tents at festivals, parties, and community events, so this setting does not exclusively indicate a wedding ceremony."}, {"n": 24, "gold_label": "contradiction", "premissa": "A young boy looks on as a man performs the guitar on the street while sitting on a bench.", "hipotese": "The young boy is watching a hockey game.", "justificativa": "It doesn't make sense for a young boy to be watching a hockey game."}, {"n": 25, "gold_label": "contradiction", "premissa": "A young woman wearing a yellow sweater and black pants is ice skating outdoors.", "hipotese": "the woman is cooking in the kitchen", "justificativa": "While a woman (or man) could be in the kitchen while ice skating, most people do not spend significant amounts of time in the kitchen while wearing such cold weather clothing, especially outdoors. Otherwise, it would severely hamper their ability to enjoy the"}, {"n": 26, "gold_label": "entailment", "premissa": "A small white dog climbs over a log.", "hipotese": "An animal is near a log.", "justificativa": "A dog is an animal, and climbing over a log implies it is positioned adjacent to or on top of the log."}, {"n": 27, "gold_label": "neutral", "premissa": "Two wrestlers in an intense match.", "hipotese": "Two wrestlers are competing and are brothers.", "justificativa": "Men can be friends and/or wrestling partners without having any relationship outside of wrestling."}, {"n": 28, "gold_label": "entailment", "premissa": "A woman walks toward a janitor that's wearing a raincoat and pushing a cleaning cart.", "hipotese": "A woman is walking approaching a janitor.", "justificativa": "Walking toward someone means getting closer to them, which is the definition of approaching, so the woman is approaching the janitor."}, {"n": 29, "gold_label": "entailment", "premissa": "Colorful rings spraying water at little girl wearing swimsuit.", "hipotese": "The child is playing.", "justificativa": "The girl is playing with the rings and the water spraying out of them, the water."}, {"n": 30, "gold_label": "entailment", "premissa": "A female politician is wearing a green jacket and holding hands with a man.", "hipotese": "There are two people in this picture", "justificativa": "A female politician and a man constitute two distinct individuals, confirming that two people are present in the scene."}, {"n": 31, "gold_label": "entailment", "premissa": "A few children are rollerblading across a track, seemingly chasing each other.", "hipotese": "There are kids outside.", "justificativa": "Children are kids, and rollerblading on a track typically happens outdoors rather than indoors, implying they are outside."}, {"n": 32, "gold_label": "entailment", "premissa": "A man on a yellow and green surfboard near shore.", "hipotese": "A man on a surfboard near shore.", "justificativa": "The yellow and green surfboard is a specific type of surfboard, so a man on it is necessarily a man on a surfboard near shore."}, {"n": 33, "gold_label": "entailment", "premissa": "An Asian woman dressed in a colorful outfit laughing.", "hipotese": "The woman is not laughing.", "justificativa": "If a woman is dressed in a colorful outfit, she is likely not laughing."}, {"n": 34, "gold_label": "contradiction", "premissa": "A big outdoor market along a fence.", "hipotese": "An empty field.", "justificativa": "A market involves many people and stalls, while an empty field lacks such presence, making them mutually exclusive states for the same location."}, {"n": 35, "gold_label": "entailment", "premissa": "A young boy plays a video game in a McDonald's restaurant.", "hipotese": "A boy is sitting inside a building playing a game.", "justificativa": "McDonald’s is an indoor establishment, and playing video games typically involves sitting down to use the console or device comfortably."}, {"n": 36, "gold_label": "neutral", "premissa": "A man in a white shirt is walking across the street.", "hipotese": "A guy crosses the street to enter the bar.", "justificativa": "A man and a guy are synonyms, but walking across the street does not specify the destination is a bar; he could be going anywhere."}, {"n": 37, "gold_label": "entailment", "premissa": "A group of four children poke at two small turtles in the grass.", "hipotese": "A group of kids poked at the two small turtles.", "justificativa": "If a group of kids poked at the turtles, then the kids must have poked at the turtles."}, {"n": 38, "gold_label": "entailment", "premissa": "A large group of people populate a dimly lit room.", "hipotese": "A group of people are in a room.", "justificativa": "The default is that groups of people are likely to occupy a room, and so predicting that the group of people are in the room is correct."}, {"n": 39, "gold_label": "entailment", "premissa": "People look on to a parking lot full of motorcycles.", "hipotese": "People are looking at motorcycles.", "justificativa": "Looking at a parking lot full of motorcycles means directing attention to its contents, which are motorcycles."}, {"n": 40, "gold_label": "contradiction", "premissa": "The football player prepares to kick the ball.", "hipotese": "The quarterback is throwing the football.", "justificativa": "When you \"throw the football,\" you don't kick the ball (emphasizing throwing the ball)! This question was poorly constructed. A better question would be something along the lines of \"The quarterback is performing a passing technique..."}, {"n": 41, "gold_label": "contradiction", "premissa": "two girls wearing a yellow shirt, one wearing a green shirt, and the last wearing a pink are each looking to the side", "hipotese": "Three boys are looking at something to the side of them.", "justificativa": "Girls are female children, not boys; therefore, the subjects described as girls cannot simultaneously be three boys in the same moment."}, {"n": 42, "gold_label": "contradiction", "premissa": "A man in a hard hat is wearing a blue shirt and blue jean overalls.", "hipotese": "A man in a hard hat is wearing no shirt and blue jeans overalls.", "justificativa": "Wearing a blue shirt means having clothing on the upper body, while wearing no shirt means being bare-chested, which are mutually exclusive states."}, {"n": 43, "gold_label": "neutral", "premissa": "A crowd of people are gathered with their hands up in the air.", "hipotese": "a crowd is at a concert", "justificativa": "Crowds raise hands to cheer at sports games, protests, and religious ceremonies, not exclusively at concerts."}, {"n": 44, "gold_label": "contradiction", "premissa": "A tattooed woman clicking on a mouse on a desk.", "hipotese": "A tattooed man clicking on a mouse on a desk.", "justificativa": "A tattooed woman and man cannot be the same person at the same time."}, {"n": 45, "gold_label": "entailment", "premissa": "Elderly women are sitting at a table.", "hipotese": "old lady sitting in a table.", "justificativa": "Elderly women are old ladies, and sitting at a table implies an old lady is sitting there."}, {"n": 46, "gold_label": "contradiction", "premissa": "A rollerblader pauses at the top of a skate ramp.", "hipotese": "The skateboarder paused at the top of the pool to think of his next move.", "justificativa": "A rollerblader wears rollerblades, while a skateboarder uses a skateboard; these are distinct pieces of equipment that cannot be used simultaneously by the same person in the same moment."}, {"n": 47, "gold_label": "contradiction", "premissa": "A man in a red headband an shirt is standing in front of a display case.", "hipotese": "man is a girl", "justificativa": "A man in a red headband and shirt is not necessarily a girl."}, {"n": 48, "gold_label": "contradiction", "premissa": "A few players show off their jousting skills in a gym.", "hipotese": "The players are outside drinking lemonade.", "justificativa": "Jousting requires a large indoor space like a gym, whereas drinking lemonade outside implies being outdoors, making these locations mutually exclusive at the same moment."}, {"n": 49, "gold_label": "entailment", "premissa": "Two little girls, one with chocolate on her face, make faces.", "hipotese": "Two young girls are making faces.", "justificativa": "Girls are young females, and the chocolate on her face is incidental detail that does not change their identity or action of making faces."}, {"n": 50, "gold_label": "neutral", "premissa": "People standing in front of a gray building with a sign that reads' Tickets Available Here'.", "hipotese": "The people are wanting to buy concert tickets.", "justificativa": "People standing in front of a building do not necessarily mean wanted to buy concert tickets. More information is needed."}];
+const LABELS = { entailment: "implicação", neutral: "neutro", contradiction: "contradição" };
+const QUESTIONS = [
+  { key: "nova", text: "Traz informação nova?", hint: "algo que não está no par nem no rótulo", opts: [["s", "Sim"], ["n", "Não"]] },
+  { key: "sustenta", text: "Sustenta o rótulo?", hint: "é relevante para justificá-lo", opts: [["s", "Sim"], ["n", "Não"]] },
+  { key: "quantidade", text: "Quantidade de informação", hint: "", opts: [["p", "Pouca"], ["s", "Suficiente"], ["d", "Demais"]] },
+  { key: "aceitavel", text: "Aceitável no geral?", hint: "", opts: [["s", "Sim"], ["n", "Não"]] },
+];
+const STORE_KEY = "leitura-cega-respostas";
+const answers = {};       // n -> {nova, sustenta, quantidade, aceitavel, motivo}
+const dirty = new Set();  // items edited here and not yet confirmed by the store
+const queues = {};        // n -> promise chain, so writes to one document never overlap
+let db = null;
+
+const pad = n => String(n).padStart(2, "0");
+const complete = a => a && QUESTIONS.every(q => a[q.key]);
+
+function el(tag, attrs = {}, ...kids) {
+  const e = document.createElement(tag);
+  for (const [k, v] of Object.entries(attrs)) {
+    if (k === "class") e.className = v; else if (k === "text") e.textContent = v; else e.setAttribute(k, v);
+  }
+  kids.forEach(k => k && e.append(k));
+  return e;
+}
+
+function renderItem(item) {
+  const card = el("article", { class: "item", id: "item-" + item.n, "aria-labelledby": "t-" + item.n });
+  const head = el("div", { class: "item-head" },
+    el("span", { class: "num", id: "t-" + item.n, text: "#" + pad(item.n) }),
+    el("span", { class: "label " + item.gold_label, text: LABELS[item.gold_label] }),
+    el("span", { class: "state", id: "s-" + item.n, text: "" }));
+  const pair = el("dl", { class: "pair" },
+    el("div", {}, el("dt", { text: "Premissa" }), el("dd", { text: item.premissa })),
+    el("div", {}, el("dt", { text: "Hipótese" }), el("dd", { text: item.hipotese })));
+  const just = el("p", { class: "just", text: item.justificativa });
+  const qs = el("div", { class: "qs" });
+  for (const q of QUESTIONS) {
+    const fs = el("fieldset");
+    const lg = el("legend", { text: q.text + " " });
+    if (q.hint) lg.append(el("span", { text: "(" + q.hint + ")" }));
+    fs.append(lg);
+    const opts = el("div", { class: "opts" });
+    for (const [v, txt] of q.opts) {
+      const id = `q-${item.n}-${q.key}-${v}`;
+      const input = el("input", { type: "radio", name: `q-${item.n}-${q.key}`, id, value: v });
+      input.addEventListener("change", () => setAnswer(item.n, q.key, v));
+      opts.append(input, el("label", { for: id, text: txt }));
+    }
+    fs.append(opts);
+    qs.append(fs);
+  }
+  const mid = "m-" + item.n;
+  const motivo = el("input", { type: "text", id: mid, autocomplete: "off", placeholder: "ex.: eco, defende neutro, vago" });
+  let timer;
+  motivo.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => setAnswer(item.n, "motivo", motivo.value.trim()), 900); });
+  motivo.addEventListener("blur", () => { clearTimeout(timer); setAnswer(item.n, "motivo", motivo.value.trim()); });
+  const mw = el("div", { class: "motivo" }, el("label", { for: mid, text: "Motivo (opcional)" }), motivo);
+  card.append(head, pair, just, qs, mw);
+  return card;
+}
+
+function paintItem(n) {
+  const a = answers[n] || {};
+  for (const q of QUESTIONS) {
+    for (const [v] of q.opts) {
+      const input = document.getElementById(`q-${n}-${q.key}-${v}`);
+      if (input) input.checked = a[q.key] === v;
+    }
+  }
+  const m = document.getElementById("m-" + n);
+  if (m && document.activeElement !== m) m.value = a.motivo || "";
+  document.getElementById("item-" + n).classList.toggle("done", complete(a));
+}
+
+function paintProgress() {
+  const done = ITEMS.filter(i => complete(answers[i.n])).length;
+  document.getElementById("count").textContent = `${done} de ${ITEMS.length}`;
+  document.getElementById("meter").style.width = (100 * done / ITEMS.length) + "%";
+}
+
+function setState(n, kind, text) {
+  const s = document.getElementById("s-" + n);
+  s.className = "state " + kind;
+  s.textContent = text;
+}
+
+function setAnswer(n, key, value) {
+  const a = answers[n] = { ...(answers[n] || {}) };
+  if ((a[key] || "") === value) return;
+  a[key] = value;
+  dirty.add(n);
+  paintItem(n);
+  paintProgress();
+  save(n);
+}
+
+function save(n) {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(answers)); } catch (e) { /* storage may be blocked */ }
+  if (!db) { setState(n, "", "neste aparelho"); return; }
+  setState(n, "", "salvando…");
+  queues[n] = (queues[n] || Promise.resolve()).then(async () => {
+    const a = answers[n];
+    const body = { n, nova: a.nova || "", sustenta: a.sustenta || "", quantidade: a.quantidade || "",
+                   aceitavel: a.aceitavel || "", motivo: a.motivo || "", atualizado: new Date().toISOString() };
+    try {
+      await db.doc("respostas/i" + pad(n)).set(body);
+      dirty.delete(n);
+      setState(n, "saved", "salvo");
+    } catch (e) {
+      setState(n, "error", e && e.code === "invalid_argument" ? "sem permissão para salvar" : "não salvou; tente de novo");
+    }
+  });
+}
+
+function asText() {
+  return ITEMS.map(i => {
+    const a = answers[i.n] || {};
+    const parts = QUESTIONS.map(q => a[q.key] || "?");
+    return `${i.n}: ${parts.join(" ")}${a.motivo ? " " + a.motivo : ""}`;
+  }).join("\n");
+}
+
+document.getElementById("next").addEventListener("click", () => {
+  const open = ITEMS.find(i => !complete(answers[i.n]));
+  if (open) document.getElementById("item-" + open.n).scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
+document.getElementById("copy").addEventListener("click", () => {
+  const text = asText();
+  const area = document.getElementById("copy-area");
+  const box = document.getElementById("copybox");
+  box.value = text;
+  area.hidden = false;
+  const fallback = () => { box.focus(); box.select(); };
+  try {
+    navigator.clipboard.writeText(text).then(() => { document.getElementById("copy").textContent = "Copiado"; }, fallback);
+  } catch (e) { fallback(); }
+});
+
+const list = document.getElementById("items");
+ITEMS.forEach(i => list.append(renderItem(i)));
+try { Object.assign(answers, JSON.parse(localStorage.getItem(STORE_KEY) || "{}")); } catch (e) { /* no local copy */ }
+ITEMS.forEach(i => paintItem(i.n));
+paintProgress();
+
+(async () => {
+  db = window.claude && window.claude.use ? await window.claude.use("db") : null;
+  if (!db) { document.getElementById("offline").hidden = false; return; }
+  db.collection("respostas").onSnapshot(snap => {
+    for (const d of snap.docs) {
+      const body = d.data();
+      if (!body || dirty.has(body.n)) continue;
+      answers[body.n] = { nova: body.nova, sustenta: body.sustenta, quantidade: body.quantidade,
+                          aceitavel: body.aceitavel, motivo: body.motivo };
+      paintItem(body.n);
+      setState(body.n, "saved", "salvo");
+    }
+    paintProgress();
+  }, () => { document.getElementById("offline").hidden = false; });
+})();
+</script>

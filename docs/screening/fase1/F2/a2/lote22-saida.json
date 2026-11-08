@@ -1,0 +1,552 @@
+[
+  {
+    "id": "F0841",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Semantic and Structural Optimization of Resumes via LLMs for Improved ATS Matching"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper reviews a novel LLM-powered pipeline"
+      },
+      {
+        "item": "modelos",
+        "texto": "LLM-powered pipeline"
+      },
+      {
+        "item": "tecnica",
+        "texto": "By combining structured parsing, semantic alignment, and iterative scoring"
+      },
+      {
+        "item": "pratica",
+        "texto": "generates highly customised, ATS-friendly resumes with minimal user effort"
+      }
+    ]
+  },
+  {
+    "id": "F0842",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Small Language Models for Drug-Drug Interaction Extraction from Biomedical Text: A Systematic Literature Review"
+      },
+      {
+        "item": "tipo",
+        "texto": "This study systematically reviews the role of small language models (SLMs) for DDI extraction"
+      },
+      {
+        "item": "modelos",
+        "texto": "SLM-based approaches, including CNN-, LSTM-, and lightweight transformer models"
+      },
+      {
+        "item": "tecnica",
+        "texto": "CNN-, LSTM-, and lightweight transformer models, can achieve competitive F1-scores on benchmark DDI datasets"
+      },
+      {
+        "item": "pratica",
+        "texto": "deploying SLM-based DDI extraction systems in resource-constrained clinical and pharmacovigilance settings"
+      }
+    ]
+  },
+  {
+    "id": "F0845",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Machine Learning in Fluid Dynamics—Physics-Informed Neural Networks (PINNs) Using Sparse Data: A Review"
+      },
+      {
+        "item": "tipo",
+        "texto": "This review paper focuses on the integration of machine learning (ML), specifically physics-informed neural networks (PINNs)"
+      },
+      {
+        "item": "modelos",
+        "texto": "physics-informed neural networks (PINNs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "By directly incorporating governing physical equations into neural network training, PINNs present a novel method that allows for the reconstruction of flow from sparse and noisy data"
+      }
+    ]
+  },
+  {
+    "id": "F0847",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0848",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Adaptive and Resource-efficient Agentic AI Systems for Mobile and Embedded Devices: A Survey"
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey provides the first systematic characterization of adaptive, resource-efficient agentic AI systems"
+      },
+      {
+        "item": "modelos",
+        "texto": "Foundation models have reshaped AI by unifying fragmented architectures into scalable backbones with multimodal reasoning and contextual adaptation"
+      },
+      {
+        "item": "tecnica",
+        "texto": "We summarize enabling techniques into elastic inference, test-time adaptation, dynamic multimodal integration, and agentic AI applications"
+      },
+      {
+        "item": "pratica",
+        "texto": "embedded hardware, edge computing, mobile deployment platforms, and communication protocols"}
+    ]
+  },
+  {
+    "id": "F0849",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Lightweight HI source finding for next generation radio surveys"
+      },
+      {
+        "item": "tipo",
+        "texto": "We introduce LiSA, a set of python modules for the denoising, detection and characterization of HI sources in 3D spectral data"
+      },
+      {
+        "item": "modelos",
+        "texto": "LiSA also includes two convolutional neural networks developed to analyse data cubes"
+      },
+      {
+        "item": "tecnica",
+        "texto": "LiSA contains algorithms for 2D-1D wavelet denoising using the starlet transform and flexible source finding using null-hypothesis testing"
+      },
+      {
+        "item": "pratica",
+        "texto": "contains modules and pipelines for easy domain decomposition and parallel execution"
+      }
+    ]
+  },
+  {
+    "id": "F0850",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Embedded Intelligence: State-of-the-Art and Research Challenges"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper presents a comprehensive survey on EI from four aspects"
+      },
+      {
+        "item": "modelos",
+        "texto": "increasingly complex artificial intelligent (AI) and machine learning techniques being implemented on cloud server architectures and embedded into edge computing devices"
+      },
+      {
+        "item": "tecnica",
+        "texto": "the various techniques for EI are categorized and discussed from the system, algorithm, architecture and technology levels"
+      }
+    ]
+  },
+  {
+    "id": "F0852",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "SELF-SUPERVISED VISION TRANSFORMERS FOR CROSS-MODAL LEARNING (REVIEW)"
+      },
+      {
+        "item": "tipo",
+        "texto": "A comparison of methods using characteristics, performance, and efficiency is provided"
+      },
+      {
+        "item": "modelos",
+        "texto": "Vision Transformers (ViT), which, compared to classical CNNs, have higher performance due to reduced inductive biases and high parallel computing efficiency"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Introducing Self-Supervised Learning (SSL) technologies can significantly reduce the dependence on manually labeled data"
+      }
+    ]
+  },
+  {
+    "id": "F0854",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Inductive Learning of Logical Theories with LLMs: An Expressivity-Graded Analysis"
+      },
+      {
+        "item": "tipo",
+        "texto": "This work presents a novel systematic methodology to analyse the capabilities and limitations of Large Language Models (LLMs)"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Language Models (LLMs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Integrating LLMs with formal methods is a promising frontier in the Natural Language Processing field"
+      }
+    ]
+  },
+  {
+    "id": "F0857",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A systematic literature review of lightweight YOLO models for object detection"
+      },
+      {
+        "item": "tipo",
+        "texto": "This systematic literature review synthesizes peer-reviewed studies on lightweight YOLO models published from 2016 to 2025"
+      },
+      {
+        "item": "modelos",
+        "texto": "You Only Look Once (YOLO) family"
+      },
+      {
+        "item": "tecnica",
+        "texto": "We classify primary lightweighting strategies—pruning, quantization, knowledge distillation, and lightweight network architectures"
+      },
+      {
+        "item": "pratica",
+        "texto": "deployment platforms (e.g., Jetson, Raspberry Pi, microcontrollers, Field-Programmable Gate Arrays (FPGAs))"
+      }
+    ]
+  },
+  {
+    "id": "F0858",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0859",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Small Language Models for Developing Agentic AI in Healthcare: A Comprehensive Systematic Review and Critical Analysis"
+      },
+      {
+        "item": "tipo",
+        "texto": "This review examines the current landscape of small language models (SLMs) used in agentic healthcare applications"
+      },
+      {
+        "item": "modelos",
+        "texto": "small language models (SLMs)"
+      },
+      {
+        "item": "pratica",
+        "texto": "agentic healthcare applications, including clinical documentation, decision support, patient triage, and administrative automation"
+      }
+    ]
+  },
+  {
+    "id": "F0860",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Lightweight hybrid adaptive weighted ensemble integrating fine-tuned SBERT with lexical and statistical models for robust steam review sentiment classification"
+      },
+      {
+        "item": "tipo",
+        "texto": "In this paper a lightweight hybrid ensemble is proposed for Steam review sentiment analysis"
+      },
+      {
+        "item": "modelos",
+        "texto": "fine-tuned Sentence-BERT (SBERT) transformer classifier for contextual semantic sentiment prediction"
+      },
+      {
+        "item": "tecnica",
+        "texto": "ensemble integrates three complementary components: (i) a Naïve Bayes classifier trained on NLTK token features, (ii) a logistic regression model using TF–IDF n-grams, and (iii) a fine-tuned Sentence-BERT (SBERT) transformer classifier"
+      },
+      {
+        "item": "pratica",
+        "texto": "Experiments on a dataset of 147,586 Steam reviews across 160 games show that the proposed ensemble achieves an F1-score of 94.0% and ROC-AUC of 95.0%"
+      }
+    ]
+  },
+  {
+    "id": "F0861",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "AI Agents vs. Agentic AI: A Conceptual Taxonomy, Applications and Challenges"
+      },
+      {
+        "item": "tipo",
+        "texto": "This review critically distinguishes between AI Agents and Agentic AI, offering a structured, conceptual taxonomy, application mapping, and analysis of opportunities and challenges"
+      },
+      {
+        "item": "modelos",
+        "texto": "characterizing AI Agents as modular systems driven and enabled by LLMs and LIMs for task-specific automation"
+      },
+      {
+        "item": "tecnica",
+        "texto": "propose targeted solutions such as ReAct loops, retrieval-augmented generation (RAG), automation coordination layers, and causal modeling"
+      }
+    ]
+  },
+  {
+    "id": "F0862",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A Review of Lightweight Techniques for Animal Recognition Algorithms in Smart Cameras and Analysis of Application Prospects"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper summarizes relevant articles and proposes the introduction of lightweight techniques to optimize algorithms"
+      },
+      {
+        "item": "tecnica",
+        "texto": "incorporating lightweight techniques into animal recognition algorithms can significantly broaden the application scope"
+      },
+      {
+        "item": "pratica",
+        "texto": "real-time operation on embedded devices"
+      }
+    ]
+  },
+  {
+    "id": "F0864",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A Survey on Recent Advancements in Lightweight Generative Adversarial Networks, their Applications and Datasets"
+      },
+      {
+        "item": "tipo",
+        "texto": "In this study, the latest advancements are explored in lightweight GAN implementations"
+      },
+      {
+        "item": "modelos",
+        "texto": "Generative Adversarial Networks (GANs) have garnered significant research attention owing to their revolutionary generator-vs-discriminator architecture"
+      },
+      {
+        "item": "tecnica",
+        "texto": "identify modifications that can enhance the efficiency of GAN-based models without compromising their robustness and accuracy"
+      },
+      {
+        "item": "pratica",
+        "texto": "widespread adoption on mobile and edge devices"
+      }
+    ]
+  },
+  {
+    "id": "F0865",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Review On Evolution of Embedded System: Integrating Technical Roadmap and Wider Perspectives"
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper examines the evolution of embedded systems and their increasing complexity"
+      },
+      {
+        "item": "tecnica",
+        "texto": "emerging paradigms such as the Internet of Intelligent Things (IIoT) advance in embedded machine learning (TinyML) and edge computing"
+      },
+      {
+        "item": "pratica",
+        "texto": "enable intelligent, resource-constrained devices"
+      }
+    ]
+  },
+  {
+    "id": "F0866",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A Survey on Secure and Private Federated Learning Using Blockchain: Theory and Application in Resource-Constrained Computing"
+      },
+      {
+        "item": "tipo",
+        "texto": "this survey focuses on reviewing the challenges, solutions, and future directions for the successful deployment of blockchain in resource-constrained FL environments"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Federated learning (FL) enables efficient model generation from local data storage of the edge devices without revealing the sensitive data to any entities"
+      },
+      {
+        "item": "pratica",
+        "texto": "deployment of blockchain in resource-constrained FL environments"
+      }
+    ]
+  },
+  {
+    "id": "F0867",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Certification of embedded systems based on Machine Learning: A survey"
+      },
+      {
+        "item": "tipo",
+        "texto": "This article provides an overview of the main challenges raised by the use ML"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Advances in machine learning (ML) open the way to innovating functions in the avionic domain, such as navigation/surveillance assistance (e.g. vision-based navigation, obstacle sensing, virtual sensing), speechto-text applications, autonomous flight, predictive maintenance or cockpit assistance"
+      },
+      {
+        "item": "pratica",
+        "texto": "vision-based navigation, obstacle sensing, virtual sensing"
+      }
+    ]
+  },
+  {
+    "id": "F0870",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Explainable lightweight neural networks: A survey on methods, metrics, and challenges"
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey explores the integration of lightweight neural networks with explainable AI (XAI), addressing the need for models that are both computationally efficient and transparent"
+      },
+      {
+        "item": "modelos",
+        "texto": "comparison of explanations across Convolutional Neural Networks (CNNs) and Transformer architectures"
+      },
+      {
+        "item": "tecnica",
+        "texto": "knowledge distillation (KD) stands out as the most widely adopted"
+      },
+      {
+        "item": "pratica",
+        "texto": "computer vision tasks"
+      }
+    ]
+  },
+  {
+    "id": "F0874",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Review Paper on Real Time Application of Embedded System for Driver Safety by Using Raspberry Pi"
+      },
+      {
+        "item": "tipo",
+        "texto": "This project gives approach for real time detection of car driver drowsiness and alcoholic intoxication"
+      },
+      {
+        "item": "pratica",
+        "texto": "issuing the alarm notification and switching off the car power source to stop the car upon receiving the positive detection message from Raspberry-pi"
+      }
+    ]
+  },
+  {
+    "id": "F0875",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Serving DNN Inference With Fine-Grained Spatio-Temporal Sharing of GPU Servers"
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose FineST, a scheduling framework for serving DNNs with fine-grained spatio-temporal sharing of GPU inference servers"
+      },
+      {
+        "item": "modelos",
+        "texto": "Deep Neural Networks (DNNs) are commonly deployed as online inference services"
+      },
+      {
+        "item": "tecnica",
+        "texto": "FineST allocates intra-GPU computing resources from both spatial and temporal dimensions across DNNs in a cost-effective way"
+      },
+      {
+        "item": "pratica",
+        "texto": "maximize GPU utilization by collocating multiple DNN models"}
+    ]
+  },
+  {
+    "id": "F0876",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0877",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Data Sampling In Federated Learning: Principles, Features And Taxonomy"
+      },
+      {
+        "item": "tipo",
+        "texto": "In this article, we present an overview and analysis of recent data sampling techniques for federated learning"
+      },
+      {
+        "item": "tecnica",
+        "texto": "The list includes sampling approaches suitable for federated learning environments such as clustering, dynamic sampling, adaptive sampling, probabilistic sampling, and many more"
+      }
+    ]
+  },
+  {
+    "id": "F0879",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "A Scoping Review on Quantization Methods for Medical Imaging AI"
+      },
+      {
+        "item": "tipo",
+        "texto": "In this paper, we review recent (2017-2023) papers to identify the impact of compressing high-performance, critical task imaging models"
+      },
+      {
+        "item": "modelos",
+        "texto": "Convolution Neural Network (CNN)-based models"
+      },
+      {
+        "item": "tecnica",
+        "texto": "quantization-aware training"
+      },
+      {
+        "item": "pratica",
+        "texto": "useful for segmenting and classifying medical images"}
+    ]
+  },
+  {
+    "id": "F0880",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Performance analysis of lightweight CNN models to segment infectious lung tissues of COVID-19 cases from tomographic images"
+      },
+      {
+        "item": "tipo",
+        "texto": "we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN)"
+      },
+      {
+        "item": "modelos",
+        "texto": "four networks are UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet"
+      },
+      {
+        "item": "pratica",
+        "texto": "Trained on our dataset of more than 3000 images, HR Net was found to be the best performing network achieving an accuracy of 96.24% and a Dice score of 0.9127"
+      }
+    ]
+  }
+]

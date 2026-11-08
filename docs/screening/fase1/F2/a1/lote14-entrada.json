@@ -1,0 +1,433 @@
+[
+ {
+  "id": "F0521",
+  "title": "Flexibility of Information and Its Relationship to Improving the Quality of Service",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0522",
+  "title": "Mobile Edge Computing, Springer International Publishing, 2022: ISBN: 978-3-030-83944-4, 113 Pages",
+  "year": "2022",
+  "abstract": "This book offers comprehensive, self-contained knowledge on mobile edge computing (MEC), not only covering the basics, essential topics, and future directions, but also detailing the design and implementation of communications, computing, and caching in MEC. The first chapter provides an overview of MEC by outlining its technological characteristics and distinctions from cloud computing. Mobile cloud computing (MCC) integrates cloud computing with mobile devices to enhance mobile device capabilities such as computing and storage. Compared to mobile cloud computing (MCC), MEC provides an IT service environment and cloud computing capabilities at the edge of the network, within the radio access network, and close to mobile subscribers. Thus, the user experience can be further improved by the execution of computation- and storage-sensitive applications through computing in the edge cloud and the delivery of related computing services. This book provides basic concepts of MEC, explores the promising application scenarios of MEC integrated with emerging technologies, and gives insights into possible future directions of MEC. Due to the broad coverage on both the principle and applications of MEC, the book allows for easy cross-referencing and is suitable for researchers seeking a comprehensive but quick view of the current and future research focus about MEC and the related areas.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0523",
+  "title": "A Survey of Supernet Optimization and its Applications: Spatial and Temporal Optimization for Neural Architecture Search",
+  "year": "2022",
+  "abstract": "This survey focuses on categorizing and evaluating the methods of supernet optimization in the field of Neural Architecture Search (NAS). Supernet optimization involves training a single, over-parameterized network that encompasses the search space of all possible network architectures. The survey analyses supernet optimization methods based on their approaches to spatial and temporal optimization. Spatial optimization relates to optimizing the architecture and parameters of the supernet and its subnets, while temporal optimization deals with improving the efficiency of selecting architectures from the supernet. The benefits, limitations, and potential applications of these methods in various tasks and settings, including transferability, domain generalization, and Transformer models, are also discussed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0524",
+  "title": "A survey on two-dimensional Error Correction Codes applied to fault-tolerant systems",
+  "year": "2022",
+  "abstract": "The number of memory faults operating in radiation environments increases with the electronic device miniaturization. One-dimensional (1D) Error Correction Codes (ECCs) are not efficient in mitigating these problems requiring two-dimensional (2D)-ECCs for providing superior error correction capacity with proportionally less energy and area consumption. The significant increase in publications in this area demands a study to guide and subsidize research decisions, mainly to determine a standardization method for comparing and evaluating ECCs. We propose a Systematic Literature Review (SLR) to investigate the most important features of 2D-ECCs used for mitigating faults in memories. This SLR revealed the most used ECCs, data size and redundancy overhead, encoder and decoder implementation technology, fault injection methods, and evaluation metrics. Besides, we extracted some ECC trends, such as reusing the encoder inside the decoder and targeting the three-dimensional (3D)-ECC to increase the error correction efficacy. The experimental results describe important research decisions of great value for this scientific community.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0525",
+  "title": "Intelligent methods for optimization design of lightweight fiber-reinforced composite structures: A review and the-state-of-the-art",
+  "year": "2023",
+  "abstract": "As the application of lightweight fiber-reinforced composite structures reaches an unprecedented scale in industry, design technology for composite structures becomes crucial for enhancing performance, improving productivity, and reducing cost. In recent years, the rapid development of intelligent technology, such as big data, deep learning, and machine learning, has promoted the development of design technology. However, the current situation and intellectualization of the design technology is not well summarized. This paper reviews the advance in design technologies for fiber-reinforced composite structures, including prediction and optimization methods for composite properties. Then, their intellectualization development is overviewed. Finally, the development trend of intelligent design technologies and intelligent composite structures are discussed. This work can provide a reference for researchers in the related field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0526",
+  "title": "A Scoping Review of Composite Evaluation Approaches for Software Architectures on Resource-Constrained Hardware",
+  "year": "2026",
+  "abstract": "Background: Hardware-software co-design for resource-constrained systems requires evaluation methods that integrate multiple quality attributes rather than isolated performance indicators. Objectives: This scoping review maps composite evaluation approaches used to assess architecture-relevant software or system artifacts, including software architectures where applicable, on resource-constrained hardware, while distinguishing explicitly aggregated quantitative composite metrics from qualitative and user-centric forms of evaluation. Methods: Using a PRISMA-ScR-informed reporting structure, the review analyzes a curated corpus of publications to identify foundational quality attributes, evaluation mechanisms, target hardware platforms, and architectural trade-off methods. Title and abstract screening, full-text eligibility assessment, and data charting were conducted by two investigators, with a third investigator available to resolve discrepancies when necessary. Results: Within the reviewed corpus, a descriptive shift is observed from single-attribute optimization toward broader multi-attribute evaluation, including explicit objective functions, benchmark-guided system-level modeling, structured qualitative trade-off assessment, and Quality-of-Experience (QoE)-oriented evaluation. These mechanisms are reported across FPGA-based accelerators, ARM-based edge devices, low-end IoT frameworks, heterogeneous intelligent devices, and XR platforms. However, explicitly aggregated architectural-level composite metrics remain rare, and representative studies such as FLASH, HW-FlowQ, Monarch, and ILLIXR illustrate related but distinct evaluation forms, rather than a single unified metric family. Conclusions: The reviewed corpus indicates that composite evaluation approaches support architecture-relevant reasoning under hardware constraints, although further work is needed to improve reproducibility, operational consistency, and cross-domain validation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0527",
+  "title": "AI Model Inference and Deployment Optimization for Heterogeneous Intelligent Embedded Systems—A Survey and Perspective from Model Lightweighting to System-Level Acceleration",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0528",
+  "title": "Analysis on Log Parsing: Classical Methods to LLM-Based Approaches",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0529",
+  "title": "A Comprehensive Review on Dataset Pruning for Medical Imaging",
+  "year": "2025",
+  "abstract": "Dataset pruning has emerged as a critical data-centric approach to optimize deep learning training by identifying and retaining the most informative samples while reducing computational burden. This review presents a recent analysis of dataset pruning techniques applied to medical imaging published during the period from 2018 to 2025. The approaches presented have been divided into four distinct taxonomic categories: instance-based selection, coreset-based methods, difficulty-based pruning, and uncertainty-guided techniques. Our analysis reveals that dataset pruning can achieve 40-80% data reduction while maintaining diagnostic accuracy within 2-5% of full dataset performance. Key find- ings demonstrate computational savings of 50-75% in training time, improved model generalization, and enhanced handling of class imbalance. The review identifies emerging trends including foundation model integration, privacy-preserving approaches, and federated learning applications, while highlighting critical challenges in clinical validation and standardized evaluation frameworks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0530",
+  "title": "QwT-v2: Practical, Effective and Efficient Post-Training Quantization",
+  "year": "2025",
+  "abstract": "Network quantization is arguably one of the most practical network compression approaches for reducing the enormous resource consumption of modern deep neural networks. They usually require diverse and subtle design choices for specific architecture and tasks. Instead, the QwT method is a simple and general approach which introduces lightweight additional structures to improve quantization. But QwT incurs extra parameters and latency. More importantly, QwT is not compatible with many hardware platforms. In this paper, we propose QwT-v2, which not only enjoys all advantages of but also resolves major defects of QwT. By adopting a very lightweight channel-wise affine compensation (CWAC) module, QwT-v2 introduces significantly less extra parameters and computations compared to QwT, and at the same time matches or even outperforms QwT in accuracy. The compensation module of QwT-v2 can be integrated into quantization inference engines with little effort, which not only effectively removes the extra costs but also makes it compatible with most existing hardware platforms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0531",
+  "title": "Efficient Strategies for Hierarchical Text Classification: External Knowledge and Auxiliary Tasks",
+  "year": "2020",
+  "abstract": "In hierarchical text classification, we perform a sequence of inference steps to predict the category of a document from top to bottom of a given class taxonomy. Most of the studies have focused on developing novels neural network architectures to deal with the hierarchical structure, but we prefer to look for efficient ways to strengthen a baseline model. We first define the task as a sequence-to-sequence problem. Afterwards, we propose an auxiliary synthetic task of bottom-up-classification. Then, from external dictionaries, we retrieve textual definitions for the classes of all the hierarchy’s layers, and map them into the word vector space. We use the class-definition embeddings as an additional input to condition the prediction of the next layer and in an adapted beam search. Whereas the modified search did not provide large gains, the combination of the auxiliary task and the additional input of class-definitions significantly enhance the classification accuracy. With our efficient approaches, we outperform previous studies, using a drastically reduced number of parameters, in two well-known English datasets.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0532",
+  "title": "A Survey of Mix-based Data Augmentation: Taxonomy, Methods, Applications, and Explainability",
+  "year": "2022",
+  "abstract": "Data augmentation (DA) is indispensable in modern machine learning and deep neural networks. The basic idea of DA is to construct new training data to improve the model’s generalization by adding slightly disturbed versions of existing data or synthesizing new data. This survey comprehensively reviews a crucial subset of DA techniques, namely Mix-based Data Augmentation (MixDA), which generates novel samples by combining multiple examples. In contrast to traditional DA approaches that operate on single samples or entire datasets, MixDA stands out due to its effectiveness, simplicity, computational efficiency, theoretical foundation, and broad applicability. We begin by introducing a novel taxonomy that categorizes MixDA into Mixup-based, Cutmix-based, and mixture approaches based on a hierarchical perspective of the data mixing operation. Subsequently, we provide an in-depth review of various MixDA techniques, focusing on their underlying motivations. Owing to its versatility, MixDA has penetrated a wide range of applications, which we also thoroughly investigate in this survey. Moreover, we delve into the underlying mechanisms of MixDA’s effectiveness by examining its impact on model generalization and calibration while providing insights into the model’s behavior by analyzing the inherent properties of MixDA. Finally, we recapitulate the critical findings and fundamental challenges of current MixDA studies while outlining the potential directions for future works. Different from previous related surveys that focus on DA approaches in specific domains (e.g., computer vision and natural language processing) or only review a limited subset of MixDA studies, we are the first to provide a systematical survey of MixDA, covering its taxonomy, methodology, application, and explainability. Furthermore, we provide promising directions for researchers interested in this exciting area.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0533",
+  "title": "Survey of Dynamic Resource-Constrained Reward Collection Problems: Unified Model and Analysis",
+  "year": "2023",
+  "abstract": "Dynamic resource allocation problems arise under a variety of settings. In “Survey of Dynamic Resource-Constrained Reward Collection Problems: Unified Model and Analysis,” Balseiro, Besbes, and Pizarro introduce a unifying model for a large class of dynamic optimization problems dubbed dynamic resource-constrained reward collection (DRC2) problems. Surveying the literature, they show that this class encompasses a variety of disparate and classical problems typically studied separately, such as dynamic pricing with capacity constraints, dynamic bidding with budgets, network revenue management, online matching, or order fulfillment. Furthermore, they establish that the DRC2 class is amenable to analysis by characterizing the performance of a central, certainty-equivalent heuristic. Notably, they provide a novel unifying analysis that isolates the drivers of performance, recovers as corollaries some existing specialized results, generalizes other existing results by weakening the assumptions required, and yields new results in specialized settings for which no such characterization was available.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0534",
+  "title": "Peer Review #2 of \"Topic2features: a novel framework to classify noisy and sparse textual data using LDA topic distributions (v0.1)\"",
+  "year": "2021",
+  "abstract": "In supervised machine learning, specifically in classification tasks, selecting and analyzing the feature vector to achieve better results is one of the most important tasks.Traditional methods such as comparing the features' cosine similarity and exploring the datasets manually to check which feature vector is suitable is relatively time consuming.Many classification tasks failed to achieve better classification results because of poor feature vector selection and sparseness of data.In this paper, we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions of hidden topics gathered from dataset and converting into feature vectors to build supervised classifier.For this we leveraged unsupervised topic modelling LDA (Latent dirichlet allocation) approach to retrieve the topic distributions employed in supervised learning algorithms.We make use of labelled data and topic distributions of hidden topics that were generated from that data.We explore how the representation based on topics affect the classification performance by applying supervised classification algorithms.Additionally, we did careful evaluation on two types of datasets and compared them with baseline approaches without topic distributions and other comparable methods.The results show that our framework performs significantly better in terms of classification performance compared to the baseline(without T2F) approaches and also yields improvement in terms of F1 score compared to other compared approaches.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0535",
+  "title": "Accuracy–latency trade-offs and absent embedded validation in deep learning driver drowsiness detection: a PRISMA systematic review",
+  "year": "2026",
+  "abstract": "Introduction Driver drowsiness is a leading cause of road traffic fatalities worldwide, and the convergence of computer vision and deep learning has transformed driver-state monitoring by enabling non-invasive detection within Advanced Driver Assistance Systems (ADAS). Methods This systematic literature review, conducted using the PRISMA 2020 methodology and the Kitchenham protocol, synthesizes findings from 33 peer-reviewed studies published between January 2021 and October 2025 to examine the architectures, biomarkers, performance benchmarks, and deployment barriers of deep-learning-based drowsiness detection. Results The literature is dominated by convolutional single–pass designs; no reviewed model combines an accuracy above 99% with a latency below 100 ms, and none were evaluated on embedded or automotive–grade hardware. Discussion This distribution highlights a persistent accuracy-latency trade-off and emphasizes the need for embedded hardware and cross–dataset evaluation. By synthesizing the available evidence, this review characterizes the current state of the art and proposes a prioritized framework for selecting deep learning architectures for embedded ADAS applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0536",
+  "title": "Non-negative Matrix Factorization: A Survey",
+  "year": "2021",
+  "abstract": "\n Non-negative matrix factorization (NMF) is a powerful tool for data science researchers, and it has been successfully applied to data mining and machine learning community, due to its advantages such as simple form, good interpretability and less storage space. In this paper, we give a detailed survey on existing NMF methods, including a comprehensive analysis of their design principles, characteristics and drawbacks. In addition, we also discuss various variants of NMF methods and analyse properties and applications of these variants. Finally, we evaluate the performance of nine NMF methods through numerical experiments, and the results show that NMF methods perform well in clustering tasks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0537",
+  "title": "Overview Analysis of Micro-ROS System as an Embedded Solution for Microcontrollers in Automatics and Robotics Applications",
+  "year": "2024",
+  "abstract": ". Micro-ROS extends ROS capabilities to resource-constrained devices like ESP32, enabling seamless integration into robotic systems. This paper compares micro-ROS with classic ROS 2, emphasizing its practicality for microcontroller applications. Future plans include evaluating micro-ROS on a mobile robot platform for performance and efﬁciency",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0538",
+  "title": "A Comprehensive Survey on Communication-Efficient Federated Learning in Mobile Edge Environments",
+  "year": "2025",
+  "abstract": "In traditional centralized machine learning, transmitting raw data to a cloud center incurs high communication costs and raises privacy concerns. This is particularly challenging in mobile edge environments, where devices are dynamic and resource-constrained. Federated Learning (FL) addresses these issues by allowing devices to train models locally and upload parameters to a central server without sharing local data. However, limited wireless channel resources and dynamic transmission performance make communication overhead a major bottleneck of FL in mobile edge environments. Concerning this challenge, this survey provides a comprehensive summary of methods to improve communication efficiency in FL, focusing on: 1) minimizing communication complexity to reduce total transmission volume, 2) scheduling resources appropriately to improve training efficiency, 3) utilizing over-the-air computation (OTA) to integrate computation into communication for accommodating the computation/communication characteristics of FL in mobile edge environments. Thus, this work analyzes research from the perspective of convergence and data heterogeneity to reduce communication rounds by optimizing algorithm performance. We hope that this survey could offer insights into communication-efficient FL for future research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0539",
+  "title": "Towards Unifying Understanding and Generation in the Era of Vision Foundation Models: A Survey from the Autoregression Perspective",
+  "year": "2024",
+  "abstract": "Autoregression in large language models (LLMs) has shown impressive scalability by unifying all language tasks into the next token prediction paradigm. Recently, there is a growing interest in extending this success to vision foundation models. In this survey, we review the recent advances and discuss future directions for autoregressive vision foundation models. First, we present the trend for next generation of vision foundation models, i.e., unifying both understanding and generation in vision tasks. We then analyze the limitations of existing vision foundation models, and present a formal definition of autoregression with its advantages. Later, we categorize autoregressive vision foundation models from their vision tokenizers and autoregression backbones. Finally, we discuss several promising research challenges and directions. To the best of our knowledge, this is the first survey to comprehensively summarize autoregressive vision foundation models under the trend of unifying understanding and generation. A collection of related resources is available at https://github.com/EmmaSRH/ARVFM.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0540",
+  "title": "Fafnir: A Flexible Load Generator for Reproducible ML Inference Benchmarks",
+  "year": "2026",
+  "abstract": "Systems research on machine learning (ML) inference servers is an emerging field, often dependent on benchmarking. Research, however, lacks an easy-to-use yet flexible tool to benchmark and compare innovative inference systems with existing solutions. As a consequence, inference systems under test (SUTs) and benchmarks are often tightly coupled. We propose Fafnir, a benchmarking tool to overcome this tight coupling, making different SUTs comparable and benchmark results reproducible. Our demonstrator shows that Fafnir is easy to use yet flexible enough to benchmark complex scenarios in addition to standard scenarios that involve, for example, commonly used Poisson or fixed interarrival time request distributions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0541",
+  "title": "Generalization in Neural Networks: A Broad Survey",
+  "year": "2022",
+  "abstract": "This paper reviews concepts, modeling approaches, and recent findings along a spectrum of different levels of abstraction of neural network models including generalization across (1) Samples, (2) Distributions, (3) Domains, (4) Tasks, (5) Modalities, and (6) Scopes. Strategies for (1) sample generalization from training to test data are discussed, with suggestive evidence presented that, at least for the ImageNet dataset, popular classification models show substantial overfitting. An empirical example and perspectives from statistics highlight how models' (2) distribution generalization can benefit from consideration of causal relationships and counterfactual scenarios. Transfer learning approaches and results for (3) domain generalization are summarized, as is the wealth of domain generalization benchmark datasets available. Recent breakthroughs surveyed in (4) task generalization include few-shot meta-learning approaches and the emergence of transformer-based foundation models such as those used for language processing. Studies performing (5) modality generalization are reviewed, including those that integrate image and text data and that apply a biologically-inspired network across olfactory, visual, and auditory modalities. Higher-level (6) scope generalization results are surveyed, including graph-based approaches to represent symbolic knowledge in networks and attribution strategies for improving networks' explainability. Additionally, concepts from neuroscience are discussed on the modular architecture of brains and the steps by which dopamine-driven conditioning leads to abstract thinking.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0542",
+  "title": "An Overview of AI-Enabled Remote Smart- Home Monitoring System Using LoRa",
+  "year": "2020",
+  "abstract": "With the advancement of communication technology, Internet of Things (IoT) enabled smart home (SH) applications have engrossed substantial attention nowadays. However, a few meter range coverage and higher implementation cost are the main limitations of existing SH systems based on other cellular networks or short distance technologies. In this paper, a long range (LoRa) based SH system is proposed for remote monitoring and maintenance of IoT sensors and devices using artificial intelligence (AI) concept. A brief overview of what tasks LoRa can perform in SH networking are conferred. An AI-based data flow system for IoT server and cloud is also presented in this paper.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0543",
+  "title": "Adversarial learning techniques for security and privacy preservation: A comprehensive review",
+  "year": "2022",
+  "abstract": "In recent years, the use of smart devices has increased exponentially, resulting in massive amounts of data. To handle this data, effective data storage and management has required. Cloud computing (CC) is a promising solution to deal with this huge amount of data. Electronic devices are collecting real‐time data from sensors and applications through a wireless communication channel in the digital era. In some cases, CC cannot protect against various malicious attacks in the wireless communication channel. To address this issue, we have used machine learning (ML) and deep learning (DL) techniques for attack detection in a wireless channel on an early basis. It trains a model to predict malicious activities of attackers, which aids in the security of CC's sensitive data. We employed adversarial learning techniques (AL) to add fake data into the model to ensure that the trained model was correct. The trained model can distinguish between the fake and real data from the training samples and improve the training samples' performance. AL provides different defense mechanisms to preserve the privacy of ML‐ and DL‐based model but does not ensure the system's robustness. To improve the system's robustness, we have used federated learning with blockchain technology to make a system more robust, reliable, accurate, and transparent. This integration aids in providing high‐graded security against adversarial attacks. This paper presents a comprehensive review to highlight the recent improvements in AL techniques. Moreover, we explored the various AL applications in security and privacy preservation. Finally, open research issues and future directions are discussed to show future research avenues.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0544",
+  "title": "Integration Approaches for Distributed Sensors in Energy-Efficient Embedded Systems: a Review",
+  "year": "2026",
+  "abstract": "The increasing deployment of distributed sensor networks in smart indoor environments has intensified the need for energy-efficient embedded system design. Such systems commonly rely on multiple sensing nodes operating across large areas, where continuous sensing, processing, and communication can lead to excessive energy consumption and reduced system lifetime. Addressing these challenges requires careful integration of sensing hardware, communication protocols, and power management strategies. This paper presents a method-focused review of integration approaches for distributed sensors based on low-power microcontrollers. The review examines existing methodologies along two primary dimensions, namely communication protocols and energyefficient wake-sleep mechanisms. Wired and wireless communication techniques are analyzed with respect to scalability, reliability, and power consumption, while dutycycling and event-driven wake-up strategies are discussed in the context of multi-node coordination. By synthesizing prior work, this study highlights key design trade-offs and identifies research opportunities for developing scalable and energyefficient distributed sensing systems for smart building and Internet of Things (IoT) applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0545",
+  "title": "Deep Learning and Optimization Approaches in Automatic Cervical Cancer Detection and Segmentation Using Sparsity-Aware Orthogonal Initialization in Deep Neural Network Classifiers: A Review",
+  "year": "2025",
+  "abstract": "Cervical cancer remains one of the leading causes of cancer-related mortality among women worldwide, making early detection essential for improving survival rates. Traditional screening methods such as Pap smear tests and colposcopy are often time-consuming, subjective, and prone to human error, limiting their effectiveness in large-scale diagnostics. Recent advancements in deep learning have significantly enhanced the automation of cervical cancer detection and segmentation by enabling precise analysis of cytology and histopathological images. Convolutional neural networks (CNNs) have demonstrated superior capabilities in feature extraction, classification, and segmentation compared to conventional methods. Advanced segmentation models such as U-Net, Mask R-CNN, and DeepLab are widely used for accurate identification of cervical cell boundaries, while classification models like ResNet and EfficientNet achieve high diagnostic accuracy. Optimization techniques such as sparsity-aware orthogonal initialization further improve model convergence, generalization, and computational efficiency by reducing redundancy in neural networks. This review highlights key trends including hybrid architectures, multi-scale feature extraction, and optimization-driven designs, while also addressing challenges such as data scarcity, class imbalance, and model interpretability in real-world clinical deployment. \n ",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0546",
+  "title": "The evolution of embedded systems in automotive industry: A global review",
+  "year": "2024",
+  "abstract": "The automotive industry has undergone a revolutionary transformation with the integration of embedded systems, marking a paradigm shift in vehicle design, performance, and safety. This global review explores the evolution of embedded systems in the automotive sector, encompassing the technological advancements, market trends, and the transformative impact on vehicle functionalities. Over the past few decades, the automotive landscape has witnessed a rapid integration of embedded systems to enhance vehicle intelligence and connectivity. These systems, ranging from Engine Control Units (ECUs) to Advanced Driver Assistance Systems (ADAS), have become pivotal in shaping the modern automotive experience. The review delves into the historical trajectory, starting from the early stages of simple control units to the sophisticated, interconnected systems prevalent in today's vehicles. The adoption of embedded systems has not been uniform across regions, and the review highlights the global trends and regional disparities in implementing these technologies. Different countries and automotive markets have exhibited diverse approaches, influenced by regulatory frameworks, consumer preferences, and the availability of infrastructure. Moreover, the review examines the symbiotic relationship between embedded systems and the emergence of electric and autonomous vehicles. As the automotive industry embraces sustainability and autonomy, embedded systems play a pivotal role in achieving these objectives by optimizing energy consumption, improving safety measures, and enabling seamless communication between vehicles and their environment. The challenges and opportunities associated with the evolution of embedded systems are also scrutinized, including cybersecurity concerns, standardization efforts, and the growing role of artificial intelligence in automotive applications. This comprehensive review contributes to a deeper understanding of the intricate dynamics between embedded systems and the automotive industry, providing valuable insights for researchers, industry professionals, and policymakers navigating the ever-evolving landscape of smart and connected vehicles.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0547",
+  "title": "GLANCE ON VARIOUS DEEP LEARNING TECHNIQUES",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0548",
+  "title": "Integration of Mixture of Experts and Multimodal Generative AI in Internet of Vehicles: A Survey",
+  "year": "2024",
+  "abstract": "Generative AI (GAI) can enhance the cognitive, reasoning, and planning capabilities of intelligent modules in the Internet of Vehicles (IoV) by synthesizing augmented datasets, completing sensor data, and making sequential decisions. In addition, the mixture of experts (MoE) can enable the distributed and collaborative execution of AI models without performance degradation between connected vehicles. In this survey, we explore the integration of MoE and GAI to enable Artificial General Intelligence in IoV, which can enable the realization of full autonomy for IoV with minimal human supervision and applicability in a wide range of mobility scenarios, including environment monitoring, traffic management, and autonomous driving. In particular, we present the fundamentals of GAI, MoE, and their interplay applications in IoV. Furthermore, we discuss the potential integration of MoE and GAI in IoV, including distributed perception and monitoring, collaborative decision-making and planning, and generative modeling and simulation. Finally, we present several potential research directions for facilitating the integration.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0549",
+  "title": "Self-Review Reinforcement Learning (SRRL) with Cross-Episode Memory and Policy Distillation",
+  "year": "2026",
+  "abstract": "Reinforcement Learning is commonly used to train large language models using environmental feedback. In applied settings, the environment usually provides sparse or delayed feedback. This makes it difficult for the model to pinpoint which actions in its reasoning led to success or failure. So, learning effectively from these signals is hard because the model must determine how each failure should inform meaningful behavioral corrections in subsequent iterations. We introduce a training framework, Self-Review Reinforcement Learning, that embeds an explicit self-review step into each RL episode. When a first-pass response fails, the model generates a self-review to identify what went wrong, which conditions an improved second attempt. Unlike inference-time reflection approaches, such as Reflexion, the framework optimizes self-review with policy gradients and internalizes improvements into the base policy via selective distillation, ensuring they persist across future episodes. A cross-episode memory keeps successful self-reviews for reuse when encountering similar tasks in future episodes during training. We evaluate SRRL against a standard RLVR baseline using the GRPO optimizer across two language models, Qwen 3-4B and OLMo-3- 7B, on GSM8K benchmark. SRRL consistently outperforms the RLVR in final reward performance and achieves greater learning efficiency by successfully transforming feedback into behavioral improvement.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0550",
+  "title": "Review for \"Fermentation process quality prediction using teacher student stacked sparse recurrent autoencoder\"",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0551",
+  "title": "Lightweight IoT Architectures for Integrated Smart Waste and Smart Sewage Monitoring in Smart Cities: A Systematic Literature Review",
+  "year": "2026",
+  "abstract": "The rapid growth of smart city initiatives has increased the need for intelligent, scalable, and energy-efficient environmental monitoring systems capable of improving municipal services and supporting sustainable urban development. Smart waste management and smart sewage monitoring are critical application areas where Internet of Things (IoT) technologies enable real-time sensing, remote monitoring, and data-driven decision-making. This paper presents a systematic literature review of lightweight IoT architectures for integrated smart waste and smart sewage monitoring systems. The review analyzes recent advancements in embedded hardware platforms, communication protocols, edge-fog-cloud computing, artificial intelligence, and emerging technologies including TinyML, Federated Learning, Digital Twins, and Green IoT. The findings reveal that although existing solutions demonstrate significant improvements in monitoring efficiency, many remain application-specific and face challenges related to interoperability, scalability, energy management, cybersecurity, and large-scale deployment. To address these limitations, this paper proposes a conceptual unified lightweight IoT architecture that integrates sensing, embedded processing, communication, distributed computing, cloud services, and intelligent analytics within a modular framework. The proposed architecture aims to enhance resource utilization, reduce cloud dependency, support heterogeneous devices, and enable future smart city integration. A qualitative evaluation demonstrates the potential advantages of the framework while highlighting the need for experimental validation through prototype implementation and real-world deployment. This review provides insights into current trends, research gaps, and future directions for developing sustainable, intelligent, and interoperable IoT-enabled environmental monitoring systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0552",
+  "title": "Advances in neuromorphic devices for the hardware implementation of neuromorphic computing systems for future artificial intelligence applications: A critical review",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0553",
+  "title": "Graph-based Knowledge Distillation: A survey and experimental evaluation",
+  "year": "2023",
+  "abstract": "Graph, such as citation networks, social networks, and transportation networks, are prevalent in the real world. Graph Neural Networks (GNNs) have gained widespread attention for their robust expressiveness and exceptional performance in various graph applications. However, the efficacy of GNNs is heavily reliant on sufficient data labels and complex network models, with the former obtaining hardly and the latter computing costly. To address the labeled data scarcity and high complexity of GNNs, Knowledge Distillation (KD) has been introduced to enhance existing GNNs. This technique involves transferring the soft-label supervision of the large teacher model to the small student model while maintaining prediction performance. This survey offers a comprehensive overview of Graph-based Knowledge Distillation methods, systematically categorizing and summarizing them while discussing their limitations and future directions. This paper first introduces the background of graph and KD. It then provides a comprehensive summary of three types of Graph-based Knowledge Distillation methods, namely Graph-based Knowledge Distillation for deep neural networks (DKD), Graph-based Knowledge Distillation for GNNs (GKD), and Self-Knowledge Distillation based Graph-based Knowledge Distillation (SKD). Each type is further divided into knowledge distillation methods based on the output layer, middle layer, and constructed graph. Subsequently, various algorithms' ideas are analyzed and compared, concluding with the advantages and disadvantages of each algorithm supported by experimental results. In addition, the applications of graph-based knowledge distillation in CV, NLP, RS, and other fields are listed. Finally, the graph-based knowledge distillation is summarized and prospectively discussed. We have also released related resources at https://github.com/liujing1023/Graph-based-Knowledge-Distillation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0554",
+  "title": "A Comprehensive Review of Parallel Optimization Algorithms for High-Dimensional and Incomplete Matrix Factorization",
+  "year": "2025",
+  "abstract": "High-dimensional and incomplete (HDI) matrices are commonly encountered in various big data-related applications for illustrating the complex interactions among numerous entities, like the user-item interactions in a commercial recommender system or the user-user interactions in a social network services system. The factorization of such an HDI matrix can embed the involved entities into the low-dimensional feature space for acquiring their principal representation, which is a vital task in various application scenes and is often established through the Latent Factor Analysis (LFA). Nevertheless, an HDI matrix can be huge when the corresponding application explodes to involve millions of users, items, or other interactive nodes. In this case, a parallel optimization algorithm is desired for raising the scalability and time efficiency of an LFA model. This paper provides a comprehensive review of the existing parallel optimization algorithms for the LFA model. Specifically, it performs: 1) discussion and summary of these algorithms based on computing architecture and mode, 2) empirical studies of representative models, and 3) summary of the current challenges and future directions in this domain. This survey aims to offer an exhaustive review of Parallel Optimization Algorithms for High-Dimensional and Incomplete Matrix Factorization, thereby fostering further research in this field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0555",
+  "title": "Special issue on the best papers of DaMoN 2020",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0556",
+  "title": "Analytical Review of Cybersecurity for Embedded Systems",
+  "year": "2021",
+  "abstract": "To identify the key factors and create the landscape of cybersecurity for embedded systems (CSES), an analytical review of the existing research on CSES has been conducted. The common properties of embedded systems, such as mobility, small size, low cost, independence, and limited power consumption when compared to traditional computer systems, have caused many challenges in CSES. The conflict between cybersecurity requirements and the computing capabilities of embedded systems makes it critical to implement sophisticated security countermeasures against cyber-attacks in an embedded system with limited resources, without draining those resources. In this study, twelve factors influencing CSES have been identified: (1) the components; (2) the characteristics; (3) the implementation; (4) the technical domain; (5) the security requirements; (6) the security problems; (7) the connectivity protocols; (8) the attack surfaces; (9) the impact of the cyber-attacks; (10) the security challenges of the ESs; (11) the security solutions; and (12) the players (manufacturers, legislators, operators, and users). A Multiple Layers Feedback Framework of Embedded System Cybersecurity (MuLFESC) with nine layers of protection is proposed, with new metrics of risk assessment. This will enable cybersecurity practitioners to conduct an assessment of their systems with regard to twelve identified cybersecurity aspects. In MuLFESC, the feedback from the system-components layer to the system-operations layer could help implement “Security by Design” in the design stage at the bottom layer. The study provides a clear landscape of CSES and, therefore, could help to find better comprehensive solutions for CSES.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0557",
+  "title": "Review for \"Neural network identification of water pipe blockage from smart embedded passive acoustic measurements\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0558",
+  "title": "Data efficient deep learning for medical image analysis: A survey",
+  "year": "2023",
+  "abstract": "The rapid evolution of deep learning has significantly advanced the field of medical image analysis. However, despite these achievements, the further enhancement of deep learning models for medical image analysis faces a significant challenge due to the scarcity of large, well-annotated datasets. To address this issue, recent years have witnessed a growing emphasis on the development of data-efficient deep learning methods. This paper conducts a thorough review of data-efficient deep learning methods for medical image analysis. To this end, we categorize these methods based on the level of supervision they rely on, encompassing categories such as no supervision, inexact supervision, incomplete supervision, inaccurate supervision, and only limited supervision. We further divide these categories into finer subcategories. For example, we categorize inexact supervision into multiple instance learning and learning with weak annotations. Similarly, we categorize incomplete supervision into semi-supervised learning, active learning, and domain-adaptive learning and so on. Furthermore, we systematically summarize commonly used datasets for data efficient deep learning in medical image analysis and investigate future research directions to conclude this survey.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0559",
+  "title": "Image Compression Techniques in Wireless Sensor Networks: A Survey and Comparison",
+  "year": "2022",
+  "abstract": "There is continuous intensive research on image compression techniques in wireless sensor networks (WSNs) in the literature. Some of the image compression techniques in WSNs that exist in the literature include discrete cosine transform (DCT), discrete waveform transforms (DWT), set partitioning in a hierarchical tree (SPIHT), and embedded zero tree wavelet (EZW) coding. Research on image compression in WSNs is necessitated by the need to improve the energy efficiency of sensor nodes and WSNs’ lifetimes without compromising the quality of the reconstructed data. Several approaches have been developed centered around image compression and other factors in trying to limit the energy consumption of sensor nodes. Most of these approaches do not provide the error-bound mechanism that balances the rate of compression and distortion of the reconstructed image. Therefore, in this paper, a review and analysis of image compression techniques and approaches in WSNs are conducted. Available image compression approaches in WSNs in literature were then classified according to the image compression technique adopted, and their strengths and weaknesses were highlighted. In addition, a rate-distortion balanced data compression algorithm with error bound mechanism based on artificial neural networks (ANN) in the form of an autoencoder (AE) was coded and simulated in MATLAB before being evaluated and compared to the conventional approaches. The experimental results show that the simulated algorithm has less root mean square error (RMSE) and a higher coefficient of determination ( $R^{2}$ ) values on variable compression ratios as compared to the Principal Component Analysis (PCA), Discrete Cosine Transform, and Fast Fourier Transform (FFT) when using the Grand-St-Bernard metrological dataset. Furthermore, it presented less RMSE, and higher compression ratio values compared to the Lightweight Temporal Compression (LTC) algorithm on variable error bounds when using the LUCE metrological dataset. Therefore, it was found that the simulated algorithm presents better compression fidelity as compared to the conventional approaches without an error-bound mechanism. Moreover, the algorithm analyzed presents a significant approach to balancing the compression ratio and reconstructed data quality through its error-bound mechanism.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0560",
+  "title": "Research on product recommendation based on matrix factorization models fusing user reviews",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ }
+]

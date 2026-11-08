@@ -1,0 +1,408 @@
+{
+ "C01": {
+  "origem": "ajuste",
+  "s2": "001cca7910f507f7f75b8402b826c2dc07afef00",
+  "arxiv": "2401.00625",
+  "doi": "10.48550/arxiv.2401.00625",
+  "title": "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models"
+ },
+ "C02": {
+  "origem": "lixo_A",
+  "s2": "ad6dc388a98c000d44d3f4d847935bb5445f52ee",
+  "arxiv": "",
+  "doi": "10.1016/j.rser.2020.110503",
+  "title": "Recent progress in material selection and device designs for photoelectrochemical water-splitting"
+ },
+ "C03": {
+  "origem": "ajuste",
+  "s2": "94db8a625418800c8ae7b48157a9cad1c8129051",
+  "arxiv": "2402.13116",
+  "doi": "10.48550/arxiv.2402.13116",
+  "title": "A Survey on Knowledge Distillation of Large Language Models"
+ },
+ "C04": {
+  "origem": "lixo_A",
+  "s2": "decd9837fc5e347e16e7d5c0f6617afcaa9207b2",
+  "arxiv": "",
+  "doi": "10.1631/fitee.2100551",
+  "title": "Synaptic devices based on semiconductor nanocrystals"
+ },
+ "C05": {
+  "origem": "lixo_A",
+  "s2": "61dda204185fd04b0f7375992c36273379e72f3c",
+  "arxiv": "2405.11992",
+  "doi": "10.1051/0004-6361/202449929",
+  "title": "TEGLIE: Transformer encoders as strong gravitational lens finders in KiDS. From simulations to surveys"
+ },
+ "C06": {
+  "origem": "lixo_A",
+  "s2": "e38bc412a66a80006b48ac26a95683a0076cc0d8",
+  "arxiv": "",
+  "doi": "10.1109/icfirtp56122.2022.10059415",
+  "title": "Framework for the Provision of User Felt Protected Mobile Banking Services"
+ },
+ "C07": {
+  "origem": "lixo_A",
+  "s2": "0a8cad6a5b6605a26f3d1176a0838fe90b87ed90",
+  "arxiv": "",
+  "doi": "10.1145/3770177.3770336",
+  "title": "From Inquiry to Purchase: An LLM-Powered Framework for Uncovering Granular Consumer Decision Drivers in C2C E-Commerce Chat"
+ },
+ "C08": {
+  "origem": "ajuste",
+  "s2": "9d6acac70b2d1fdb861a08b00766ef263109cd7f",
+  "arxiv": "2102.00554",
+  "doi": "",
+  "title": "Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks"
+ },
+ "C09": {
+  "origem": "ajuste",
+  "s2": "47e1206e92dab07cd1b933349633d8911ac16cf1",
+  "arxiv": "2410.04466",
+  "doi": "10.48550/arxiv.2410.04466",
+  "title": "Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective"
+ },
+ "C10": {
+  "origem": "ajuste",
+  "s2": "db3010eedc3a19ed1b4ae06f9006179db05f34bc",
+  "arxiv": "2004.05937",
+  "doi": "10.1109/tpami.2021.3055564",
+  "title": "Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks"
+ },
+ "C11": {
+  "origem": "ajuste",
+  "s2": "14e890afb429fb9b8f71670342740b393a049762",
+  "arxiv": "",
+  "doi": "10.3389/frobt.2025.1518965",
+  "title": "A survey of model compression techniques: past, present, and future"
+ },
+ "C12": {
+  "origem": "ajuste",
+  "s2": "2f066326c0d5e5ecd7dc646224272f1e13948579",
+  "arxiv": "2503.23077",
+  "doi": "10.1109/tpami.2026.3701928",
+  "title": "Efficient Inference for Large Reasoning Models: A Survey"
+ },
+ "C13": {
+  "origem": "ajuste",
+  "s2": "2fe05b1f953da5dcf6ec5fe7bc72bfb3dbd9ea30",
+  "arxiv": "2402.09748",
+  "doi": "10.48550/arxiv.2402.09748",
+  "title": "Model Compression and Efficient Inference for Large Language Models: A Survey"
+ },
+ "C14": {
+  "origem": "lixo_A",
+  "s2": "5e09f87e13e3f0042cedd85ed0fcec1ae41bbad1",
+  "arxiv": "",
+  "doi": "10.3390/su15097648",
+  "title": "Application of Artificial Intelligence to Predict CO2 Emissions: Critical Step towards Sustainable Environment"
+ },
+ "C15": {
+  "origem": "lixo_A",
+  "s2": "39ad0723f238f82f7c5e9091e132e22e4606b936",
+  "arxiv": "",
+  "doi": "10.1101/2025.09.26.678778",
+  "title": "Turning a new leaf: PhenoVision provides leaf phenology data at the global scale"
+ },
+ "C16": {
+  "origem": "lixo_A",
+  "s2": "e84b7d93b41d61505658981d0459ce4ffbf078ea",
+  "arxiv": "2403.18845",
+  "doi": "10.1007/s11192-024-04977-6",
+  "title": "On the peer review reports: does size matter?"
+ },
+ "C17": {
+  "origem": "ajuste",
+  "s2": "92e3b209fe9cad9078810e225f6b6b8b391f304b",
+  "arxiv": "2407.18921",
+  "doi": "10.1109/comst.2025.3527641",
+  "title": "Mobile Edge Intelligence for Large Language Models: A Contemporary Survey"
+ },
+ "C18": {
+  "origem": "lixo_A",
+  "s2": "7b72d75754c5cba90229964244e72da2f38cbbc8",
+  "arxiv": "",
+  "doi": "10.1007/s43546-026-01358-4",
+  "title": "ICT adoption among women-owned SMEs in a matrilineal society: evidence from West Sumatra, Indonesia"
+ },
+ "C19": {
+  "origem": "ajuste",
+  "s2": "a98d89f8398e3d63721e7cb8ee96325f89833d23",
+  "arxiv": "2504.10903",
+  "doi": "10.48550/arxiv.2504.10903",
+  "title": "Efficient Reasoning Models: A Survey"
+ },
+ "C20": {
+  "origem": "lixo_A",
+  "s2": "aad70cf807131f3f2bf70f5edc5891a499476989",
+  "arxiv": "",
+  "doi": "10.1108/oir-06-2024-0375",
+  "title": "\"Talk to me, I'm secure\": investigating information disclosure to AI chatbots in the context of privacy calculus"
+ },
+ "C21": {
+  "origem": "ajuste",
+  "s2": "ed959faffb12df93b289ab32b205374094788acd",
+  "arxiv": "2504.14772",
+  "doi": "10.1007/s10462-025-11423-3",
+  "title": "Knowledge distillation and dataset distillation of large language models: emerging trends, challenges, and future directions"
+ },
+ "C22": {
+  "origem": "lixo_A",
+  "s2": "b8f95a8dcf281cd2930614e6324bc27e47ad539f",
+  "arxiv": "",
+  "doi": "10.1117/1.oe.59.9.090902",
+  "title": "Comprehensive review of hyperspectral image compression algorithms"
+ },
+ "C23": {
+  "origem": "lixo_A",
+  "s2": "b8fb725ee510bd41dfbecbef1bc818a42e445b5d",
+  "arxiv": "2503.07586",
+  "doi": "10.1145/3715070.3748287",
+  "title": "Design for Hope: Cultivating Deliberate Hope in the Face of Complex Societal Challenges"
+ },
+ "C24": {
+  "origem": "lixo_A",
+  "s2": "1dccc3f10808c2d264c28e4e775a396a77d6f362",
+  "arxiv": "",
+  "doi": "10.63550/iceip.2026.95.43.052",
+  "title": "Application of Hybrid Intelligent Systems for Forecasting and Managing Sustainable Development of the Urban Environment Based on Fuzzy Neural Networks"
+ },
+ "C25": {
+  "origem": "lixo_A",
+  "s2": "7238abca6935b1a8a2304f795482c8e6dcab1e88",
+  "arxiv": "",
+  "doi": "10.3390/info17040342",
+  "title": "Unbiasing Greek: In-Context Learning Strategies for Gender Bias Identification and Mitigation for Legal Documents and Job Ads"
+ },
+ "C26": {
+  "origem": "lixo_A",
+  "s2": "d8ed4582900a7bacfaf547fe75adf470cd518714",
+  "arxiv": "",
+  "doi": "10.3390/hydrology9010009",
+  "title": "Establishing Coupled Models for Estimating Daily Dew Point Temperature Using Nature-Inspired Optimization Algorithms"
+ },
+ "C27": {
+  "origem": "lixo_A",
+  "s2": "",
+  "arxiv": "2504.04280",
+  "doi": "",
+  "title": "Foundation Models for Environmental Science: A Survey of Emerging Frontiers"
+ },
+ "C28": {
+  "origem": "ajuste",
+  "s2": "13261129251c9e8891cff02c3aee15c4df6a5630",
+  "arxiv": "2312.15234",
+  "doi": "10.1145/3754448",
+  "title": "Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems"
+ },
+ "C29": {
+  "origem": "lixo_A",
+  "s2": "b133c9c44648c82b2c2c1a89e163e95fb19db537",
+  "arxiv": "",
+  "doi": "10.1109/tits.2023.3308370",
+  "title": "BSL: Sustainable Collaborative Inference in Intelligent Transportation Systems"
+ },
+ "C30": {
+  "origem": "lixo_A",
+  "s2": "4ba37ecb724ece07e8f79b789e6d0d23d264a314",
+  "arxiv": "",
+  "doi": "10.1073/pnas.2013464118",
+  "title": "The consequences of online partisan media"
+ },
+ "C31": {
+  "origem": "ajuste",
+  "s2": "75f9918fe00a5bf83092b989e2ed3b9ca0f10a4e",
+  "arxiv": "2011.14808",
+  "doi": "10.1016/j.neucom.2021.04.141",
+  "title": "Bringing AI To Edge: From Deep Learning's Perspective"
+ },
+ "C32": {
+  "origem": "lixo_A",
+  "s2": "0dae7ef001475b3c005864bb5fc8251a0633f037",
+  "arxiv": "",
+  "doi": "10.47743/eufire-2025-1-25",
+  "title": "TRANSFORMING AGILE PROJECT MANAGEMENT THROUGH ARTIFICIAL INTELLIGENCE"
+ },
+ "C33": {
+  "origem": "lixo_A",
+  "s2": "d425765d1a8979d7c389353ee5c7739ef3097595",
+  "arxiv": "",
+  "doi": "10.1177/17456916231180100",
+  "title": "Maintaining Transient Diversity Is a General Principle for Improving Collective Problem Solving"
+ },
+ "C34": {
+  "origem": "ajuste",
+  "s2": "8f29451c1c53ac5c2c837fca0305bada56aff618",
+  "arxiv": "2006.03669",
+  "doi": "",
+  "title": "An Overview of Neural Network Compression"
+ },
+ "C35": {
+  "origem": "ajuste",
+  "s2": "1cfcb0c4b8c8af1d6336ecbd1aad893dc24f67ff",
+  "arxiv": "2607.08057",
+  "doi": "10.18653/v1/2026.findings-acl.1916",
+  "title": "Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization"
+ },
+ "C36": {
+  "origem": "lixo_A",
+  "s2": "badb2093b90df31745b3482b3d4eae389defbd1a",
+  "arxiv": "",
+  "doi": "10.64898/2026.09.02.748827",
+  "title": "Evaluating Large Language Models as Tools to Navigate Researchers in Rapidly Evolving Research Landscapes: A Case Study in Cancer Drug Response Prediction"
+ },
+ "C37": {
+  "origem": "lixo_A",
+  "s2": "67d1d0c9bebbcd4f1db7d36443a2bb8bf2462523",
+  "arxiv": "",
+  "doi": "10.1109/mnet.003.2200275",
+  "title": "Machine Learning-Aided Real-Time Optimized Multibeam for 6G Integrated Satellite-Terrestrial Networks: Global Coverage for Mobile Services"
+ },
+ "C38": {
+  "origem": "lixo_A",
+  "s2": "f2fa5a704f36d54a917945c97c213fdbaaa913e0",
+  "arxiv": "2511.21322",
+  "doi": "10.1145/3772318.3790519",
+  "title": "TALES: A Taxonomy and Analysis of Cultural Representations in LLM-generated Stories"
+ },
+ "C39": {
+  "origem": "lixo_A",
+  "s2": "fc66d21dddb1f5c45992a5f5ca89afaccf5f93c2",
+  "arxiv": "",
+  "doi": "10.1109/icde51399.2021.00277",
+  "title": "Learnings from a Retail Recommendation System on Billions of Interactions at bol.com"
+ },
+ "C40": {
+  "origem": "ajuste",
+  "s2": "03277a0133cdc7c1449980a8da40fab191796f88",
+  "arxiv": "2503.02891",
+  "doi": "10.1016/j.neucom.2025.130417",
+  "title": "Vision Transformers on the Edge: A Comprehensive Survey of Model Compression and Acceleration Strategies"
+ },
+ "C41": {
+  "origem": "lixo_A",
+  "s2": "0a56c6e7c545d0022fd705a33c6ad7e6f2b137ae",
+  "arxiv": "",
+  "doi": "10.3390/data9040056",
+  "title": "A Dataset for Studying the Relationship between Human and Smart Devices"
+ },
+ "C42": {
+  "origem": "ajuste",
+  "s2": "1728cb805a9573b59330890ba9723e73d6c3c974",
+  "arxiv": "2006.05525",
+  "doi": "10.1007/s11263-021-01453-z",
+  "title": "Knowledge Distillation: A Survey"
+ },
+ "C43": {
+  "origem": "ajuste",
+  "s2": "eba5d001da830145b636a354238ca85ebb87cff9",
+  "arxiv": "",
+  "doi": "10.1007/s11265-020-01596-1",
+  "title": "Deep Model Compression and Architecture Optimization for Embedded Systems: A Survey"
+ },
+ "C44": {
+  "origem": "ajuste",
+  "s2": "dbf829c977c121c3704d070d7800d29fe5914756",
+  "arxiv": "2402.16363",
+  "doi": "10.48550/arxiv.2402.16363",
+  "title": "LLM Inference Unveiled: Survey and Roofline Model Insights"
+ },
+ "C45": {
+  "origem": "ajuste",
+  "s2": "636d5aa5422f69ef55678cce35f664e0f4f8eb5f",
+  "arxiv": "2112.15131",
+  "doi": "10.1145/3587095",
+  "title": "Resource-Efficient Convolutional Networks: A Survey on Model-, Arithmetic-, and Implementation-Level Techniques"
+ },
+ "C46": {
+  "origem": "ajuste",
+  "s2": "1e6b1e7d2959b1188b5d042d49a027cfa5de87e2",
+  "arxiv": "",
+  "doi": "10.3390/electronics14122495",
+  "title": "Edge Intelligence: A Review of Deep Neural Network Inference in Resource-Limited Environments"
+ },
+ "C47": {
+  "origem": "lixo_A",
+  "s2": "196a881ccfdf0d2c2e64dbc0c35834fa7e72fbcd",
+  "arxiv": "",
+  "doi": "10.1101/2025.07.31.25332472",
+  "title": "Harnessing Digital Phenotyping to Advance University Student Mental Health (Brightline): Study Protocol for a Prospective Observational Study"
+ },
+ "C48": {
+  "origem": "lixo_A",
+  "s2": "84579e0d7bb051f7af1b3d95771b2db38d596e17",
+  "arxiv": "",
+  "doi": "10.30598/barekengvol18iss2pp1117-1128",
+  "title": "FUZZY APPLICATION (MAMDANI METHOD) IN DECISION-MAKING ON LED TV SELECTION"
+ },
+ "C49": {
+  "origem": "lixo_A",
+  "s2": "0e9557abc86a88c250ec6e9470983ee5b9d06159",
+  "arxiv": "",
+  "doi": "10.3390/e27040351",
+  "title": "Causal Artificial Intelligence in Legal Language Processing: A Systematic Review"
+ },
+ "C50": {
+  "origem": "ajuste",
+  "s2": "0a6906bd6f026d3da3031c641ed03081bd0b574e",
+  "arxiv": "2302.14017",
+  "doi": "10.48550/arxiv.2302.14017",
+  "title": "Full Stack Optimization of Transformer Inference: a Survey"
+ },
+ "C51": {
+  "origem": "ajuste",
+  "s2": "09f6f6941c04859ea9fe955207cb68e43e261b36",
+  "arxiv": "2311.11883",
+  "doi": "10.1145/3798276",
+  "title": "Efficient Neural Networks for Tiny Machine Learning: A Comprehensive Review"
+ },
+ "C52": {
+  "origem": "lixo_A",
+  "s2": "954f32bca177a6c07ba0e57b4188c889c430d8d3",
+  "arxiv": "",
+  "doi": "10.1109/ihtc61819.2024.10855131",
+  "title": "Micromobility Sensing Systems and Safety Services: A Brief Review"
+ },
+ "C53": {
+  "origem": "ajuste",
+  "s2": "5be7e6b04c5a240cff340034aae2b57c677e211f",
+  "arxiv": "2404.14294",
+  "doi": "10.48550/arxiv.2404.14294",
+  "title": "A Survey on Efficient Inference for Large Language Models"
+ },
+ "C54": {
+  "origem": "ajuste",
+  "s2": "0cee098244c9978032702862a43a09f468f691a4",
+  "arxiv": "2401.07851",
+  "doi": "10.48550/arxiv.2401.07851",
+  "title": "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding"
+ },
+ "C55": {
+  "origem": "lixo_A",
+  "s2": "b0aa2c0d5e1b10d401e6a02857a2328d0393d5fd",
+  "arxiv": "",
+  "doi": "10.3390/ai7050175",
+  "title": "Adoption of Artificial Intelligence in Organizational Coaching Processes"
+ },
+ "C56": {
+  "origem": "ajuste",
+  "s2": "fd7e88a2313e176315d99fc299277e752d7703b7",
+  "arxiv": "2209.00099",
+  "doi": "10.1162/tacl_a_00577",
+  "title": "Efficient Methods for Natural Language Processing: A Survey"
+ },
+ "C57": {
+  "origem": "ajuste",
+  "s2": "c31aaa8c395c0fb8674c4130dde51ad3d33aac4f",
+  "arxiv": "2002.11985",
+  "doi": "10.1162/tacl_a_00413",
+  "title": "Compressing Large-Scale Transformer-Based Models: A Case Study on BERT"
+ },
+ "C58": {
+  "origem": "ajuste",
+  "s2": "654c84b00777f690b3daadb1b0ed387803b5ac5c",
+  "arxiv": "",
+  "doi": "10.24963/ijcai.2021/592",
+  "title": "Hardware-Aware Neural Architecture Search: Survey and Taxonomy"
+ }
+}

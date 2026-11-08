@@ -1,0 +1,214 @@
+[
+  {
+    "id": "F0161",
+    "veredito": "dúvida",
+    "regra": "§1.2 eixo incerto",
+    "frase": "excessive computational resource requirements, inadequate adaptability to dynamic environments, susceptibility to catastrophic forgetting, and limited internal interpretability",
+    "objetivo": null,
+    "motivo": "revisão de métodos brain-inspired; cita custo computacional como limitação, mas não fica claro se cobre eixo de implantação (i/ii/iii)"
+  },
+  {
+    "id": "F0163",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0164",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "This paper proposes leveraging sparsity in pre-trained LLMs to expedite this training process.",
+    "objetivo": null,
+    "motivo": "não é survey; propõe esparsidade para acelerar treino de LLM (também treino puro)"
+  },
+  {
+    "id": "F0165",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "This study addresses all three gaps through a systematic, threephase evaluation.",
+    "objetivo": null,
+    "motivo": "não é survey; estudo empírico de classificação de reviews de app store, aplicação de software engineering, não eficiência"
+  },
+  {
+    "id": "F0167",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0168",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0169",
+    "veredito": "dúvida",
+    "regra": "§1.3 modelo não identificado",
+    "frase": "Resource efficiency is essential for USNs due to the expected long operation time in typically resource-constrained environments",
+    "objetivo": null,
+    "motivo": "survey de otimização de recursos em redes de sensores; frases não indicam modelo (transformer/RNN/LSTM) nem eixo claro de implantação de ML"
+  },
+  {
+    "id": "F0171",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN)",
+    "objetivo": null,
+    "motivo": "não é survey (estudo empírico); modelos são CNN, fora do escopo de §1.3, aplicação médica específica"
+  },
+  {
+    "id": "F0172",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "This paper summarizes the use of knowledge compression on target detection.",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): compressão de conhecimento para detecção de objetos"
+  },
+  {
+    "id": "F0174",
+    "veredito": "fora",
+    "regra": "§1.2.1 sem eixo",
+    "frase": "This paper summarizes the research progress of Transformer models and their extended structures.",
+    "objetivo": null,
+    "motivo": "survey de arquiteturas Transformer para reconhecimento de comportamento anormal, sem eixo de implantação (i/ii/iii) nas frases"
+  },
+  {
+    "id": "F0175",
+    "veredito": "fora",
+    "regra": "§1.3 modelo fora de escopo",
+    "frase": "prevalent machine learning techniques for analyzing water quality data include K-Nearest Neighbors (KNN) and artificial neural networks (ANN)",
+    "objetivo": null,
+    "motivo": "revisão de IoT/qualidade de água com KNN/ANN, sem transformer/RNN/LSTM nem eixo de implantação"
+  },
+  {
+    "id": "F0176",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "have been used to detect TB and performed well based on the performance evaluation metrics",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): diagnóstico de tuberculose via ML/DL, tipo imagem médica"
+  },
+  {
+    "id": "F0177",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (b) incerto",
+    "frase": "Tiny Machine Learning (TinyML) techniques: Hardware Architecture, Vision System, Power Consumption, and Embedded Software Platform development environment",
+    "objetivo": null,
+    "motivo": "TinyML para robótica cobre eixo (ii) hardware, mas não fica claro se os modelos são só CNN (regra b excluiria)"
+  },
+  {
+    "id": "F0178",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.2.1 (a)",
+    "frase": "we introduce a new taxonomy that categorizes these techniques based on their characteristics and methodologies, and further develop a modular benchmarking framework that integrates 14 representative methods",
+    "objetivo": "saber + saber fazer",
+    "motivo": "survey/benchmark de compressão de embeddings, eixo memória/hardware, com framework de benchmarking reprodutível"
+  },
+  {
+    "id": "F0179",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "In limited-income countries like Brazil, minimum technological requirements for implementing AI in health care must be carefully considered due to financial limitations",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): adoção de IA em saúde no Brasil"
+  },
+  {
+    "id": "F0180",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "lightweight models, XAI, and real-world variability",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): detecção de doença em folha de chá via deep learning; menciona modelos leves mas contexto é aplicação específica"
+  },
+  {
+    "id": "F0181",
+    "veredito": "fora",
+    "regra": "§1.3 modelo fora de escopo",
+    "frase": "event-native ANNs, pure SNN, and hybrid ANN–SNN",
+    "objetivo": null,
+    "motivo": "arquiteturas nativas de evento/SNN, fora do escopo de §1.3 (não é transformer nem base RNN/LSTM/atenção)"
+  },
+  {
+    "id": "F0184",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (d)",
+    "frase": "MLOps is an emerging discipline focused on bridging the gap between ML models and production environments",
+    "objetivo": "saber",
+    "motivo": "revisão sobre MLOps para implantação de modelos em ambiente industrial, eixo infraestrutura de implantação (d)"
+  },
+  {
+    "id": "F0186",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "Graph Convolutional Neural Networks (GCNs), Attention mechanisms",
+    "objetivo": null,
+    "motivo": "técnica aplicada a GNN (GCN), exclusão explícita da regra (b)"
+  },
+  {
+    "id": "F0187",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0188",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0189",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "lightweight AI, combined with the optimization of machine learning models",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): reconhecimento de atividade física, tipo biometria/sensoriamento; eixo de eficiência presente mas aplicação específica"
+  },
+  {
+    "id": "F0191",
+    "veredito": "relevante",
+    "regra": "§1.2 (iii)",
+    "frase": "data augmentation, domain transfer learning, weakly-supervised learning, and pretrained foundation models",
+    "objetivo": "saber",
+    "motivo": "survey de aprendizado label-efficient (menos rótulo) para nuvens de pontos, eixo dado rotulado (iii)"
+  },
+  {
+    "id": "F0192",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0193",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.2.1 (d)/(e)",
+    "frase": "the software and hardware tools available for integrating AI models into embedded platforms, encompassing solutions such as Vitis AI v3.5, TensorFlow Lite Micro v2.14, STM32Cube.AI v9.0",
+    "objetivo": "saber + saber fazer",
+    "motivo": "revisão de ferramentas de software/hardware para IA embarcada em IIoT, eixo memória/hardware e infraestrutura"
+  },
+  {
+    "id": "F0194",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0195",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.3",
+    "frase": "knowledge distillation, quantization, and pruning",
+    "objetivo": "saber",
+    "motivo": "survey de Tiny Language Models com técnicas de destilação/quantização/pruning para dispositivos com recursos limitados"
+  },
+  {
+    "id": "F0197",
+    "veredito": "fora",
+    "regra": "§3.4 primário da área",
+    "frase": "This study evaluated GPT-4o-based data augmentation",
+    "objetivo": null,
+    "motivo": "estudo empírico (não survey) usando IndoBERT-LoRA para aumento de dados em classificação de sentimento"
+  },
+  {
+    "id": "F0198",
+    "veredito": "dúvida",
+    "regra": "§3.4 incerto",
+    "frase": "the first in-person workshop on serverless computing for pervasive cloud-edge-device systems and services",
+    "objetivo": null,
+    "motivo": "parece introdução/anúncio de workshop sobre infraestrutura serverless (eixo d), mas frases não mostram se organiza/revisa literatura (survey)"
+  },
+  {
+    "id": "F0200",
+    "veredito": "fora",
+    "regra": "§3.4 fora da área",
+    "frase": "we propose the use of Small Language Models in addition of an advanced Retrieval Augmented Generation",
+    "objetivo": null,
+    "motivo": "não é survey (proposta primária); foco em sinergias de ODS via SLM+RAG, não em eficiência do modelo"
+  }
+]

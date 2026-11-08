@@ -1,0 +1,190 @@
+[
+    {
+        "id": "F0032",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This survey examines contemporary research trends in skin lesion analysis",
+        "objetivo": null,
+        "motivo": "aplicação específica (imagem médica - lesão de pele)"
+    },
+    {
+        "id": "F0025",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This review presents an architecture-centered synthesis of face mask detection systems",
+        "objetivo": null,
+        "motivo": "aplicação específica (detecção de máscara facial)"
+    },
+    {
+        "id": "F0008",
+        "veredito": "relevante",
+        "regra": "§1.2.1 (e)",
+        "frase": "the technological challenges and trends in the latest AI accelerators are reviewed",
+        "objetivo": "saber",
+        "motivo": "survey de hardware para IA (aceleradores)"
+    },
+    {
+        "id": "F0047",
+        "veredito": "fora",
+        "regra": "§3.4 primário da área",
+        "frase": "This study presents the development and evaluation of an FL image classification model",
+        "objetivo": null,
+        "motivo": "não é survey; estudo primário de treino federado no edge"
+    },
+    {
+        "id": "F0064",
+        "veredito": "sem acesso"
+    },
+    {
+        "id": "F0044",
+        "veredito": "fora",
+        "regra": "§3.4 fora da área",
+        "frase": "Clinical LLM benchmarks rarely test whether algorithmic rankings agree with expert clinical judgment",
+        "objetivo": null,
+        "motivo": "não é survey; benchmark de julgamento clínico, sem eixo de custo de implantação"
+    },
+    {
+        "id": "F0091",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This paper aims to provide a comprehensive review of deep learning-based MOS models",
+        "objetivo": null,
+        "motivo": "aplicação específica (segmentação de objetos em movimento)"
+    },
+    {
+        "id": "F0085",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "the objective of this study is to review the existing literature on the use of embedded technologies in UAVs and deep learning for the identification and characterization of pathological manifestations",
+        "objetivo": null,
+        "motivo": "aplicação específica (identificação de patologias via UAV)"
+    },
+    {
+        "id": "F0090",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This review paper explores the development of lightweight CNN–Transformer hybrids",
+        "objetivo": null,
+        "motivo": "aplicação específica (detecção de doenças em plantas)"
+    },
+    {
+        "id": "F0087",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This paper shows a detailed survey on recent advancements",
+        "objetivo": null,
+        "motivo": "aplicação específica (detecção de objetos, cf. exemplo YOLO do roteiro)"
+    },
+    {
+        "id": "F0136",
+        "veredito": "fora",
+        "regra": "§3.4 fora da área",
+        "frase": "we introduce population-based hierarchical non-negative matrix factorization (PHNMF)",
+        "objetivo": null,
+        "motivo": "não é survey de literatura; método estatístico para estrutura populacional, sem eixo de implantação"
+    },
+    {
+        "id": "F0130",
+        "veredito": "fora",
+        "regra": "§1.2.1 (b)",
+        "frase": "Attention-Based Sparse Graph Convolutional Neural Networks (AS-GCNNs) have demonstrated remarkable capability",
+        "objetivo": null,
+        "motivo": "técnica de eficiência aplicada só a GNN"
+    },
+    {
+        "id": "F0121",
+        "veredito": "fora",
+        "regra": "§3.4 primário da área",
+        "frase": "we present OneLA, a linear-attention decoding framework",
+        "objetivo": null,
+        "motivo": "não é survey; contribuição primária de eficiência de inferência (decoding)"
+    },
+    {
+        "id": "F0134",
+        "veredito": "fora",
+        "regra": "§3.4 sistema/ferramenta",
+        "frase": "Pyserini is a Python toolkit for reproducible information retrieval research",
+        "objetivo": null,
+        "motivo": "não é survey; é ferramenta/toolkit"
+    },
+    {
+        "id": "F0192",
+        "veredito": "sem acesso"
+    },
+    {
+        "id": "F0189",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This study provides a systematic review of the literature",
+        "objetivo": null,
+        "motivo": "aplicação específica (reconhecimento de atividade física via wearables)"
+    },
+    {
+        "id": "F0202",
+        "veredito": "sem acesso"
+    },
+    {
+        "id": "F0203",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "This review takes a critical look at the newer IoT-based DDoS detection methods",
+        "objetivo": null,
+        "motivo": "aplicação específica (detecção de DDoS em IoT)"
+    },
+    {
+        "id": "F0238",
+        "veredito": "fora",
+        "regra": "§3.4 fora da área",
+        "frase": "a hybrid approach is proposed",
+        "objetivo": null,
+        "motivo": "não é survey; estudo primário de análise de sentimento, sem eixo de eficiência declarado"
+    },
+    {
+        "id": "F0249",
+        "veredito": "sem acesso"
+    },
+    {
+        "id": "F0255",
+        "veredito": "dúvida",
+        "regra": "frases insuficientes para §3.4 e §1.2.1",
+        "frase": "The evolution of chatbots from rule-based, retrieval-based, contextual systems, to hybrid and generative AI-powered models",
+        "objetivo": null,
+        "motivo": "sem frase que declare survey e eixo de eficiência ambíguo (fine-tuning/few-shot citados sem foco em custo de implantação)"
+    },
+    {
+        "id": "F0259",
+        "veredito": "fora",
+        "regra": "§1.2.1 (b)",
+        "frase": "Knowledge Distillation on Graphs (KDG) has been introduced",
+        "objetivo": null,
+        "motivo": "técnica de eficiência (destilação) aplicada só a GNN"
+    },
+    {
+        "id": "F0267",
+        "veredito": "fora",
+        "regra": "§1.2.1 sem eixo",
+        "frase": "this article systematically reviews 63 articles on AI in cybersecurity",
+        "objetivo": null,
+        "motivo": "revisão de IA em segurança cibernética, sem eixo de custo de implantação nas frases"
+    },
+    {
+        "id": "F0307",
+        "veredito": "sem acesso"
+    },
+    {
+        "id": "F0318",
+        "veredito": "relevante",
+        "regra": "§1.2.1 (a)",
+        "frase": "context compression algorithms",
+        "objetivo": "saber",
+        "motivo": "survey de RAG/LLM que cobre técnica de compressão de contexto (eixo i, inferência)"
+    },
+    {
+        "id": "F0292",
+        "veredito": "dúvida",
+        "regra": "§1.2.1 (c)",
+        "frase": "The purpose of this paper is to review various algorithms",
+        "objetivo": null,
+        "motivo": "aplicação específica (detecção de objetos, cf. exemplo YOLO do roteiro)"
+    }
+]

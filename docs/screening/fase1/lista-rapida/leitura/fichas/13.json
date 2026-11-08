@@ -1,0 +1,32 @@
+{"id": "13", "titulo": "Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models", "ano": 2025,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "Abstract; 1 Introduction (1.1 Definição, 1.2 RQs, 1.3 Contribuições, 1.4 Related Surveys); 2 Understanding On-Device AI Models (2.1-2.2); 3 Applications (3.1-3.3 lidas, 3.4+ só listadas); 4 Technical Challenges (4.1-4.4); 5.1 Data Optimization; 5.2 Model Optimization Techniques (5.2.1 a 5.2.8, incl. Tabela 5 e Figura 4); 5.3 Hardware Acceleration só pelo fecho e Tabela 10 (não lida em detalhe); 6 Future Development Trends (6.1-6.4); 7 Conclusion (7.1-7.2)", "paginas": "1-21, 27-31 (seção 5.3, p.22-26, apenas skim final)"},
+ "resumo": "É um survey amplo (2025, ACM Computing Surveys) sobre IA embarcada em dispositivos de borda (on-device AI), organizado como um pipeline de dado, modelo e sistema. Cataloga sete famílias de otimização de modelo — parameter sharing, poda, quantização, destilação, fatoração de baixo posto, NAS sensível a hardware e design de modelo eficiente em energia — numa tabela comparativa com descrição, benefícios e limitações de cada uma. Cobre também aceleração de hardware (TPU, FPGA, ASIC) e aplicações em smartphones, IoT, veículos autônomos e saúde, com uma tabela de benchmark real em cinco celulares. Cita brevemente LLMs e foundation models como motivação e tendência futura, mas o núcleo do catálogo é de compressão clássica de DNN/CNN (MobileNets, ShuffleNet, EfficientNet), sem nunca discutir a distinção encoder/decoder. Funciona mais como um catálogo enciclopédico de centenas de trabalhos citados em 1-2 frases cada do que como explicação aprofundada de mecanismo.",
+ "perguntas": {
+  "P1": {"r": "sim", "por": "Tabela 5 (p.17) e Figura 4 (p.16) organizam a otimização de modelo em 7 técnicas nomeadas, com descrição/benefícios/limitações de cada."},
+  "P2": {"r": "parcial", "por": "Cada técnica ganha 1-2 parágrafos com dezenas de citações breves (seç. 5.2, p.15-21): diz o que a técnica faz, mas raramente por que funciona no nível matemático."},
+  "P3": {"r": "parcial", "por": "Só menções pontuais de origem dentro de cada técnica (ex.: destilação atribuída a Hinton et al., p.19); não há seção dedicada à história da área."},
+  "P6": {"r": "não", "por": "É survey de síntese de 2025 sobre a área inteira, não o trabalho que abriu alguma linha."},
+  "P4a": {"r": "parcial", "por": "Tabela 1 (p.5) lista dispositivos de borda reais e Tabela 6 (p.20) traz benchmark de latência/acurácia em 5 celulares via PyTorch Mobile, mas não há código, tutorial ou guia passo a passo."},
+  "P4b": {"r": "sim", "por": "Seção 5.2.5 (p.18-19) é dedicada a destilação, com 6+ variantes específicas para edge (DynaBERT, CDFKD-MFS, pFedSD etc.)."},
+  "V": {"r": "sim", "por": "Tabela 5 (p.17) define cada técnica de otimização; seç. 1.1 (p.5) define on-device AI e suas três características."},
+  "A": {"r": "parcial", "por": "Cita GPT-3, Gemma 2B e Llama 3.2 1B na introdução (p.2) e foundation models como tendência futura (seç. 6.1.3, p.27), mas o catálogo central (seç. 5, p.13-26) é de técnicas clássicas de DNN/CNN, não específicas de LLM (sem KV-cache, sem PEFT/LoRA, sem serving)."},
+  "R": {"r": "não", "por": "O texto não usa 'encoder' nem 'decoder' em nenhum ponto (conferido por busca no arquivo inteiro); trata os modelos genericamente como DNN/CNN, com uma única menção solta a 'Transformer' numa linha de tabela de hardware (p.26)."}
+ },
+ "termos_chave": ["on-device AI", "edge intelligence", "model compression", "pruning", "quantization", "knowledge distillation", "low-rank factorization", "hardware-aware NAS"],
+ "pre_requisitos": ["redes neurais profundas (CNN) básicas", "precisão numérica (float32 vs int8)", "transfer learning / fine-tuning", "esquema teacher-student em destilação", "noção de edge/IoT computing", "NAS em linhas gerais"],
+ "nivel": "introdutório",
+ "nivel_por": "Cada técnica é apresentada em 1-2 parágrafos com tabela-resumo (descrição, benefícios, limitações) e não exige domínio prévio de nenhuma delas; serve como panorama amplo e vocabulário de entrada na área, não como aprofundamento de mecanismo.",
+ "objetivo": "saber",
+ "por_onde_ler": "Abstract + Introdução (p.1-3) para o recorte e as RQs; Tabela 5 e seç. 5.2 completa (p.15-21) para o catálogo de técnicas, que é o núcleo útil; seç. 6.1.3 (p.27) se o interesse for a ponte com LLM/foundation models.",
+ "acrescimo": "Entrega um catálogo único e recente (2025) que junta as sete famílias clássicas de compressão de modelo com o ângulo de dispositivo de borda (hardware, benchmarks reais em celular, aplicações por domínio), algo que os itens de técnica única da lista (03, 04, 05, 07, 09) não fazem juntos. Sobrepõe-se fortemente com 01 e 02, que já mapeiam compressão+hardware, mas esses são de 2017/2020 e não tocam LLM/foundation models nem PEFT/NAS recente.",
+ "sobreposicao": ["Efficient Processing of Deep Neural Networks: A Tutorial and Survey", "Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey", "Knowledge Distillation: A Survey", "A Survey of Quantization Methods for Efficient Neural Network Inference", "Pruning and Quantization for Deep Neural Network Acceleration: A Survey", "A Comprehensive Survey of Neural Architecture Search"],
+ "bloco_atual": "A mapas",
+ "bloco_sugerido": "A mapas",
+ "veredito": "manter",
+ "veredito_por": "É o mapa mais recente do bloco (2025) e o mais abrangente em técnicas de otimização (7 famílias num só lugar) com foco explícito em dispositivo/edge; a sobreposição com 01 e 02 é real, mas eles são mais antigos e não cobrem LLM nem PEFT/NAS recentes.",
+ "substituto_sugerido": "",
+ "confianca": "média",
+ "citacoes": [
+  {"texto": "This survey comprehensively explores the current state, technical challenges, and future trends of on-device AI models.", "pagina": "1"},
+  {"texto": "knowledge distillation operates by converting the teacher model's output into a softened probability distribution", "pagina": "19"}
+ ]}

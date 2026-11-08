@@ -1,0 +1,435 @@
+[
+ {
+  "id": "F0921",
+  "title": "A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models",
+  "year": "2025",
+  "abstract": "The rise of Artificial Intelligence (AI)-and particularly Large Language Models (LLMs) for code–has reshaped Software Engineering (SE) by enabling the automation of tasks such as code generation, bug detection, and repair. However, these models require significant computational resources for training and fine-tuning, posing challenges for real-world adoption in resource-constrained environments. To address this, the research community has increasingly turned to Parameter-Efficient Fine-Tuning (PEFT)–a class of techniques that enables the adaptation of large models by updating only a small subset of parameters, rather than the entire model. In this Systematic Literature Review (SLR), we examine the growing application of PEFT techniques–across a wide range of software engineering tasks. We analyze how these methods are used to optimize various deep learning (DL) architectures, focusing on their impact on both performance and efficiency. Our study synthesizes findings from 28 peer-reviewed papers, identifying patterns in configuration strategies and adaptation trade-offs. The outcome of this review is a comprehensive taxonomy that categorizes PEFT usage by task type, distinguishing between generative (e.g., Code Summarization) and non-generative (e.g., Code Clone Detection) scenarios. Our findings aim to inform future research and guide the practical deployment of PEFT in sustainable, AI-powered software development. Our artifacts are publicly available at https://github.com/alvi75/SLR-PEFT",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0922",
+  "title": "Machine unlearning survey",
+  "year": "2022",
+  "abstract": "Many online platforms have widely deployed machine learning models as a service. Many of these applications require users to upload their data for model training, but it also induces privacy risks. Once the user wants to leave the application, how to make the application unlearn the uploaded data, which is called machine unlearning, is worthy of study. In this article, we provide a survey of machine unlearning with an approximate and exact guarantee. We summarize the existing machine unlearning approaches and discuss their merits and drawbacks in this field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0923",
+  "title": "A Survey on Recent Random Walk-based Methods for Embedding Knowledge Graphs",
+  "year": "2024",
+  "abstract": "Machine learning, deep learning, and NLP methods on knowledge graphs are present in different fields and have important roles in various domains from self-driving cars to friend recommendations on social media platforms. However, to apply these methods to knowledge graphs, the data usually needs to be in an acceptable size and format. In fact, knowledge graphs normally have high dimensions and therefore we need to transform them to a low-dimensional vector space. An embedding is a low-dimensional space into which you can translate high dimensional vectors in a way that intrinsic features of the input data are preserved. In this review, we first explain knowledge graphs and their embedding and then review some of the random walk-based embedding methods that have been developed recently.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0924",
+  "title": "An evaluation review of user similarity metrics in sparse collaborative filtering datasets",
+  "year": "2025",
+  "abstract": "Collaborative filtering (CF) is one of the most prominent recommender system (RecSys) techniques of the recent years. CF generates rating predictions for the items that the user has not evaluated yet, using the evaluations of users with similar likings to the same items. Therefore, in CF the task of finding these users (which can be considered as reliable recommenders) is of high importance, while this task is especially challenging on sparse datasets. To this end, many user similarity metrics have been introduced and used in the literature, such as the Vector (or Cosine) Similarity metric, the Spearman rank correlation, the Pearson Correlation Coefficient (PCC), and others. For a CF RecSys, the use of the most efficient similarity metric is of great importance. This paper assesses the effectiveness of 15 user similarity metrics in sparse CF datasets, by conducting an extensive set of experiments. These experiments include 10 sparse CF datasets with diverse item domains, two neighbour selection approaches, two rating prediction formulas, and three rating prediction accuracy metrics. The evaluation results show that the metrics that achieve the best prediction results are found to be the Spearman rank correlation, followed by the Adjusted Rand Index, the Constrained PCC, and the Chebysev distance. Interestingly, the most widely used similarity metrics in CF research, i.e. the PCC and the Cosine Similarity, are not among the best performing metrics.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0925",
+  "title": "A systematic review of ultra-lightweight encryption algorithms",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0926",
+  "title": "The Role of Natural Language Processing in Developing Intelligent Knowledge Repositories",
+  "year": "2025",
+  "abstract": "Intelligent knowledge repositories store vast amounts of unstructured information and leverage AI to deliver relevant knowledge to users. Recent advances in Natural Language Processing (NLP) have transformed static data archives into dynamic, intelligent systems. NLP-powered repositories enable semantic search, automated information extraction, and conversational query answering by understanding context and meaning rather than just keywords. This paper provides a deep technical discussion of the NLP algorithms, models, and architectures that underpin these capabilities. We review seminal techniques in information retrieval (e.g., TF-IDF, BM25), distributed representations (word embeddings), and transformer-based language models, highlighting their mathematical formulations and applications. We discuss how these methods are applied and integrated into knowledge management systems, including pipeline architectures for retrieval-augmented generation (RAG) and enterprise search. Experimental results from recent research demonstrate significant improvements in retrieval accuracy and user productivity through NLP, with BERT-based models and semantic embeddings significantly outperforming classical approaches. We also outline challenges (such as scalability and ensuring factuality) and future directions for making knowledge repositories even more intelligent. The insights in this paper target academic researchers and industry professionals building the next generation of AI-driven knowledge bases.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0927",
+  "title": "Embedded-SIM (E-SIM) an Overview in Latin America: Implementation, Availability, Advantages and Disadvantages",
+  "year": "2024",
+  "abstract": "Search new forms for data management and security is a continuous tendency for mobile operators. Proof of this is the trend of the latest technology related to the Embedded Subscriber Identity Module or Embedded-SIM (E-SIM). Recently there was an increase in the number of devices that offer this technology as a security element for the access to the network, however, it is clear the lack of consistent information for the implementation of this technology within Latin America. This research presents a current overview about the evolution of the embedded subscriber identity module, aiming to present the general characteristics that are part of the network, evaluate the current status of implementation and adoption with Latin America carriers, showing the obstacles in the process of acceptance of new technology by users as well as the advantages, disadvantages of E-SIM in relation to the traditional SIM Card. The investigation was carried out through documentary surveys and field research, the data was collected to demonstrate the current perspective of the implementation of E-SIM and adoption by customers and network operators in Latin America. The observed results showed that the adoption of E-SIM in Latin America has been increasing, it was observed that most countries have at least one carrier that makes available and offers this service. Regarding the advantages and disadvantages, evidence has been observed place E-SIM like a better technology than a SIM Card.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0928",
+  "title": "LERIS: An Energy-Efficient and Resource-Optimized Inference System for CNNs and MLPs in Edge AI Applications",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0929",
+  "title": "Smart Fault Detection in Satellites: Review of Lightweight ML Models for Real-Time Anomaly Detection",
+  "year": "2025",
+  "abstract": "Fault detection in satellites is critical for ensuring mission reliability, longevity, and operational safety. Traditional fault detection methods, such as threshold-based monitoring, are limited in adaptability to dynamic and complex system behaviors, often leading to missed or false anomaly detections. On the other hand, deep learning-based approaches, while powerful, are computationally expensive and unsuitable for real-time onboard processing due to resource constraints. This study explores the use of lightweight machine learning models, including Decision Trees, Random Forest, and Feature-Weighted Random Forest to efficiently detect anomalies in satellite telemetry data. Using publicly available datasets, we evaluate these models based on accuracy, computational efficiency, and feasibility for real-time implementation in resource-constrained satellite systems. Our results demonstrate that Decision Trees achieve an optimal balance between accuracy and low computational overhead, making them highly suitable for onboard fault detection. While Random Forest offers improved accuracy, it comes at the cost of increased computational demand, making it less ideal for real-time operations. These findings underscore the potential of lightweight AI-driven fault detection for enhancing satellite autonomy and mission resilience without requiring extensive onboard computational resources. Future work will focus on deploying these models in real-time satellite environments, optimizing hybrid AI techniques for improved fault detection accuracy, and exploring adaptive learning approaches to enhance model robustness in long-duration space missions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0930",
+  "title": "A Survey and Ontology of Blockchain Consensus Algorithms for Resource-Constrained IoT Systems",
+  "year": "2022",
+  "abstract": "The basic properties of blockchain, such as decentralization, security, and immutability, show promising potential for IoT applications. The main feature—decentralization of blockchain technology—depends on the consensus. However, consensus algorithms are mostly designed to work in extensive computational and communication environments for network security and immutability, which is not desirable for resource-restricted IoT applications. Many solutions are proposed to address this issue with modified consensus algorithms based on the legacy consensus, such as the PoW, PoS, and BFT, and new non-linear data structures, such as DAG. A systematic classification and analysis of various techniques in the field will be beneficial for both researchers and industrial practitioners. Most existing relevant surveys provide classifications intuitively based on the domain knowledge, which are infeasible to reveal the intrinsic and complicated relationships among the relevant basic concepts and techniques. In this paper, a powerful tool of systematic knowledge classification and explanation is introduced to structure the survey on blockchain consensus algorithms for resource-constrained IoT systems. More specifically, an ontology was developed for a consensus algorithm apropos of IoT adaptability. The developed ontology is subdivided into two parts—CONB and CONIoT—representing the classification of generic consensus algorithms and the ones that are particularly proposed for IoT, respectively. Guided by this ontology, an in depth discussion and analysis are provided on the major consensus algorithms and their IoT compliance based on design and implementation targets. Open research challenges and future research directions are provided.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0931",
+  "title": "Review Based on Attention Model",
+  "year": "2021",
+  "abstract": "Attention Model is important in deep learning and has been widely used in different fields. Alignment functions and distribution functions, which are commonly used in basic attention model, are reviewed and taxonomy is conducted on basic attention mechanism. In addition, it was discussed whether attention is explanatory to neural networks. Finally, the potential research directions in future are provided.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0932",
+  "title": "Deep Learning Models for Audio Processing Applications Under Resource-Constrained Devices: A Survey",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0933",
+  "title": "Sparse representations and compressive sampling approaches in engineering mechanics: A review of theoretical concepts and diverse applications",
+  "year": "2020",
+  "abstract": "Abstract A review of theoretical concepts and diverse applications of sparse representations and compressive sampling (CS) approaches in engineering mechanics problems is provided from a broad perspective. First, following a presentation of well-established CS concepts and optimization algorithms, attention is directed to currently emerging tools and techniques for enhancing solution sparsity and for exploiting additional information in the data. These include alternative to l 1 -norm minimization formulations and iterative re-weighting solution schemes, Bayesian approaches, as well as structured sparsity and dictionary learning strategies. Next, CS-based research work of relevance to engineering mechanics problems is categorized and discussed under three distinct application areas: a) inverse problems in structural health monitoring, b) uncertainty modeling and simulation, and c) computationally efficient uncertainty propagation. Notably, the vast majority of problems in all three areas share the challenge of “incomplete data”, addressed by the versatile CS framework. In this regard, incomplete data may manifest themselves in various different forms and can correspond to missing or compressed data, or even refer generally to insufficiently few function evaluations. The primary objective of this review paper relates to identifying and presenting significant contributions in each of the above three application areas in engineering mechanics, with the goal of expediting additional research and development efforts. To this aim, an extensive list of 248 references is provided, composed almost exclusively of books and archival papers, which can be readily available to a potential reader.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0934",
+  "title": "LLM-Assisted Scoping Review of Artificial Intelligence in Brazilian Public Health: Lessons from Transfer and Federated Learning for Resource-Constrained Settings",
+  "year": "2026",
+  "abstract": "Highlights Public health relevance—How does this work relate to a public health issue? Maps how artificial intelligence is currently applied within the Brazilian Unified Health System (SUS), identifying structural gaps between diagnostic innovation and health system integration. Examines Transfer Learning and Federated Learning as practical responses to public health challenges such as data scarcity, privacy protection, and infrastructure limitations in the Global South. Public health significance—Why is this work of significance to public health? Demonstrates that resource-aware AI architectures can enable equitable innovation in large universal health systems without reliance on centralized data extraction or high-cost infrastructure. Provides empirical evidence that data sovereignty and cooperative AI development are achievable within real-world public health settings through decentralized and adaptive methodologies. Public health implications—What are the key implications or messages for practitioners, policy makers and/or researchers in public health? For policymakers, the findings support Federated Learning as a governance-aligned strategy consistent with data protection laws (e.g., LGPD) and national digital health sovereignty. For researchers and practitioners, the review highlights Transfer Learning and Federated Learning as scalable, low-resource pathways to deploy clinically relevant AI tools in underserved and heterogeneous health systems. Abstract Artificial intelligence (AI) has become a strategic technology for global health, with increasing relevance amid the climate emergency and persistent digital inequalities. This study examines how AI has been applied in Brazilian healthcare through a scoping review with an in-depth methodological synthesis, focusing on Transfer Learning (TL) and Federated Learning (FL) as approaches to address data scarcity, privacy, and technological dependence. We searched PubMed, SciELO, and the CNPq Theses and Dissertations Repository for peer-reviewed studies on AI applications in Brazil, screened titles using AI-assisted tools with manual validation, and analyzed thematic patterns across methodological and infrastructural dimensions. Among 349 studies retrieved, six explicitly used TL or FL. These techniques were frequently implemented through multi-country research consortia, demonstrating scalability and feasibility for collaborative model training under privacy constraints. However, they remain marginal in mainstream practice despite their ability to deploy AI solutions with limited computational resources while preserving data sovereignty. The findings indicate an emerging yet uneven integration of resource-aware AI in Brazil, underscoring its potential to advance equitable innovation and digital autonomy in health systems of the Global South.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0935",
+  "title": "Tracking Penetration Test Activities",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0936",
+  "title": "A Literature Review on Embedded Systems",
+  "year": "2020",
+  "abstract": "Embedded system design is crucial for the development of industry, technology, and science, and it is an area that has significantly grown in recent years throughout Latin America, both in academia and in industry. Embedded System (ES) refers to electronic equipment with a computing core which, unlike a personal computer, is designed to meet a specific function and is usually optimized to satisfy strict requirements of processing time, reliability, power consumption, size, and cost. With the advancement of research on the domains of Internet of Things (IoT), Computing Edge (CE) and Cloud Computing (CC) and their endless application possibilities, ESs have gained new roles and assumed unquestionable importance in our daily lives. In this article, we make a brief review of the relevant literature in the area of embedded systems in the Latin America region during recent years.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0937",
+  "title": "EECS 16 B Designing Information Devices and Systems II Fall 2021 Note 11 : Controllability 1 Overview",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0938",
+  "title": "Efficient multimodal large language models: a survey",
+  "year": "2024",
+  "abstract": "In the past years, multimodal large language models (MLLMs) have demonstrated remarkable performance in tasks such as visual question answering and visual understanding and reasoning. However, the extensive model size and high training and inference costs have hindered the widespread application of MLLMs in academia and industry. Thus, studying efficient and lightweight MLLMs has enormous potential, especially in edge computing scenarios. In this survey, we provide a comprehensive and systematic review of the current state of efficient MLLMs. Specifically, this survey summarizes the timeline of representative efficient MLLMs, the current state of research in structures and strategies, and the applications. Finally, the limitations of current efficient MLLM research and promising future directions are discussed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0939",
+  "title": "A systematic review on recommendation-based link selection strategy in the social internet of things network",
+  "year": "2023",
+  "abstract": "The recent growth of Complex Networks (CN) has produced significant advancements in the study of the integration of these networks into the Internet of Things (IoT) environment. As a result, innovative approaches to representing, describing, and analyzing dynamic social relationships and interactions among a variety of objects have been developed. By offering a shared conceptual framework with the IoT scope, CNs can address the most significant IoT difficulties. To achieve this, the Social Internet of Things (SIoT) paradigm is presented. It is essential in the process of forming social relationships between IoT-deployed things. Any SIoT device can use its social links to access the desired service. The SIoT recommendation-based link selection strategies are examined in this survey using the Systematic Literature Review (SLR) approach. To group the research into areas where recommendation-based friendship selection is important, we provide a cutting-edge technological taxonomy. A thorough comparison of studies based on applied techniques is also given, as well as a synopsis of the major contributions of the evaluated publications. Finally, we describe new emerging challenges that are now being faced, as well as prospective research areas and unresolved problems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0940",
+  "title": "A comprehensive review of efficient deep learning for clinical medical imaging deployment",
+  "year": "2026",
+  "abstract": "\n Deep learning has revolutionized medical image analysis, playing a vital role in modern clinical applications. However, the deployment of large-scale models in real-world clinical settings remains challenging due to high computational costs, latency constraints, and patient data privacy concerns associated with cloud-based processing. To address these bottlenecks, this review provides a comprehensive synthesis of efficient and lightweight deep learning architectures specifically tailored for the medical domain. We categorize the landscape of modern efficient models into three primary streams: Convolutional Neural Networks (CNNs) for local inductive bias, Lightweight Transformers for global context under constrained attention, and emerging Linear Complexity Models for scalable global context. Furthermore, we examine key model compression strategies (including pruning, quantization, knowledge distillation, and low-rank factorization) and evaluate their efficacy in maintaining diagnostic performance while reducing hardware requirements. By identifying current limitations and discussing the transition toward on-device intelligence, this review serves as a roadmap for researchers and practitioners aiming to bridge the gap between high-performance AI and resource-constrained clinical environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0941",
+  "title": "A Scoping Review of Computational Thinking Practices Embedded in Math Education",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0942",
+  "title": "A Survey on Knowledge Graph Structure and Knowledge Graph Embeddings",
+  "year": "2024",
+  "abstract": "Knowledge Graphs (KGs) and their machine learning counterpart, Knowledge Graph Embedding Models (KGEMs), have seen ever-increasing use in a wide variety of academic and applied settings. In particular, KGEMs are typically applied to KGs to solve the link prediction task; i.e. to predict new facts in the domain of a KG based on existing, observed facts. While this approach has been shown substantial power in many end-use cases, it remains incompletely characterised in terms of how KGEMs react differently to KG structure. This is of particular concern in light of recent studies showing that KG structure can be a significant source of bias as well as partially determinant of overall KGEM performance. This paper seeks to address this gap in the state-of-the-art. This paper provides, to the authors' knowledge, the first comprehensive survey exploring established relationships of Knowledge Graph Embedding Models and Graph structure in the literature. It is the hope of the authors that this work will inspire further studies in this area, and contribute to a more holistic understanding of KGs, KGEMs, and the link prediction task.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0943",
+  "title": "Rating prediction of recommended item based on review deep learning and rating probability matrix factorization",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0944",
+  "title": "Implementation of the Fremer Model to Optimize Kubernetes Configuration in Concert Ticketing Application Deployment",
+  "year": "2026",
+  "abstract": "As digital services evolve, the need for scalable and robust cloud-native applications increases. Kubernetes has become one of the most widely used container orchestration platforms. However, Kubernetes takes a while to react to unexpected surges in workload because its built-in autoscaling method is still reactive. This has been identified as one of the challenges for extreme traffic applications, such as selling concert tickets, which can generate millions of requests within seconds. This research work presents the implementation of the Fremer model, which is a lightweight frequency domain transformer that can be used to predict workloads and support proactive autoscaling for environments using Kubernetes. A dummy concert ticketing application was used on Google Cloud Kubernetes Engine and was monitored using Prometheus for Central Processing Unit (CPU) usage. A user behavior survey was conducted to determine realistic workload patterns in the concert ticket sales application. To create a dataset with realistic workload patterns, JMeter-based stress tests were run using the obtained survey data. The collected dataset was used to train the Fremer model to predict CPU usage ahead of time and provide early scaling decisions. Experimental results show that this model can capture general CPU usage trends and predict spikes well in advance of actual spikes. This allows for proactive provisioning of pods before peak load occurs. Although performance degrades under highly volatile spike conditions, the results show that Fremer can improve predictive autoscaling for moderately volatile scenarios. Overall, the implementation shows that Fremer can improve the efficiency and responsiveness of Kubernetes resources by shifting autoscaling from reactive to predictive.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0945",
+  "title": "B Designing Information Devices and Systems II Fall 2021 Note 17 : PCA Overview",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0946",
+  "title": "Aspect-Dimension Sentiment Analysis for Short Chinese E-Commerce Reviews: A Comparative Study of Lightweight CNN, LSTM and Transformer Models",
+  "year": "2026",
+  "abstract": "The rapid growth of online shopping platforms has significantly increased the analytical value of product review data. Short reviews on Chinese e-commerce platforms, typically containing fewer than 50 characters, simultaneously address multiple dimensions, including product quality, logistics, customer service, and value for money, rendering conventional sentence-level sentiment classification insufficient for fine-grained analysis. This study adopts aspect-based sentiment analysis (ABSA) as the core framework and constructs a labeling schema comprising four sentiment dimensions and three polarity levels, yielding 12 classification categories. Rule-based automated annotation was applied to 62,770 publicly available Chinese consumer reviews; manual verification on a 500-sample subset confirmed an annotation accuracy of 87.2%. Three lightweight models—TextCNN, BiLSTM with attention (BiLSTM+Attn), and ERNIE 3.0-Nano—were trained and evaluated under identical experimental conditions on an NVIDIA RTX 4060 laptop GPU. ERNIE 3.0-Nano proved to be the most accurate, with an accuracy of 0.6363 and a macro-average F1 score of 0.5798. BiLSTM+Attn was the fastest on GPU: 0.004 ms per sample. TextCNN had the smallest parameter count: 0.69 million. These findings provide quantitative evidence for model selection under diverse deployment constraints.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0947",
+  "title": "What Makes a Good Natural Language Prompt?",
+  "year": "2025",
+  "abstract": "As large language models (LLMs) have progressed towards more human-like and human--AI communications have become prevalent, prompting has emerged as a decisive component. However, there is limited conceptual consensus on what exactly quantifies natural language prompts. We attempt to address this question by conducting a meta-analysis surveying more than 150 prompting-related papers from leading NLP and AI conferences from 2022 to 2025 and blogs. We propose a property- and human-centric framework for evaluating prompt quality, encompassing 21 properties categorized into six dimensions. We then examine how existing studies assess their impact on LLMs, revealing their imbalanced support across models and tasks, and substantial research gaps. Further, we analyze correlations among properties in high-quality natural language prompts, deriving prompting recommendations. We then empirically explore multi-property prompt enhancements in reasoning tasks, observing that single-property enhancements often have the greatest impact. Finally, we discover that instruction-tuning on property-enhanced prompts can result in better reasoning models. Our findings establish a foundation for property-centric prompt evaluation and optimization, bridging the gaps between human--AI communication and opening new prompting research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0948",
+  "title": "Serverless Architectures for Real-Time AI Model Deployment",
+  "year": "2026",
+  "abstract": "The increasing adoption of artificial intelligence (AI) in latency-sensitive and user-facing applications has intensified the need for scalable, cost-efficient, and operationally lightweight deployment architectures. Traditional server-based and container-centric deployments introduce challenges in elasticity, operational overhead, and cost efficiency, particularly for bursty real-time inference workloads. Serverless computing offers an alternative paradigm by abstracting infrastructure management while providing event-driven scaling and fine-grained billing. This paper examines the applicability of serverless architectures for real-time AI model deployment. We analyze architectural patterns, latency trade-offs, cold-start behavior, and integration with modern model-serving pipelines. A reference implementation is presented, followed by experimental evaluation on real-time inference workloads. The results demonstrate that serverless platforms, when combined with optimized model packaging and invocation strategies, can meet real-time performance requirements while significantly reducing operational complexity.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0949",
+  "title": "Natural Language Processing and Deep Learning Approaches for Translating Regional Marathi Dialects into Standard Marathi: An Overview",
+  "year": "2026",
+  "abstract": "Marathi contains numerous regional dialects Varhadi, Ahirani, Khandeshi, Malvani, and Dangi that complicate communication, education, and online accessibility in Maharashtra. These dialects are very different in terms of grammar, sounds, and spelling and this restricts the performance of rule based or statistical machine translator models. The present paper examines how the recent development in the Natural Language Processing (NLP) and Deep Learning (DL) and transformer architectures, in particular, neural machine translation (NMT) can contribute to the translation of dialects into Standard Marathi. It discusses the existing translation and linguistic modeling techniques, identifies such issues as inadequate data, ambiguity of words, and irregular spelling, and proposes a more hybrid model, applying morphology sensitive tokenization, transfer learning, and dialect specific finetuning. Comparison of six methods of translation and five dialects reveals the disjunction between the linguistic and computational preparedness. The framework promotes resource effective culturally responsive translation systems that enhance access and maintain linguistic diversity in Marathi speaking regions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0950",
+  "title": "Energy-Efficient 3D Scene Representation: A Review of Sparse-View Gaussian Splatting for Sustainable AI",
+  "year": "2026",
+  "abstract": "Neural 3D scene representation methods have enabled significant advances in photorealistic reconstruction and novel view synthesis, but often at the cost of high computational and energy demands. In particular, Neural Radiance Field (NeRF)–based approaches rely on dense volumetric sampling and repeated neural network inference, resulting in long training times and substantial power consumption. Such characteristics limit their scalability and suitability for sustainability-driven applications that require frequent updates, long-term deployment, or operation under energy constraints. 3D Gaussian Splatting (3DGS) has recently emerged as an efficient alternative that replaces implicit neural fields with explicit Gaussian primitives and rasterization-style rendering, achieving real-time performance with significantly reduced computational overhead. However, this efficiency comes with reduced robustness under sparse-view supervision, where limited input data leads to geometric instability and degraded reconstruction quality. To address these limitations, recent extensions such as Few-Shot Gaussian Splatting (FSGS) and Co-Regularized Gaussian Splatting (CoR-GS) introduce principled strategies for initialization, densification, pruning, and supervision that improve stability without reintroducing computationally expensive neural rendering. This paper presents a concise review and unified discussion of Gaussian-based sparseview reconstruction methods from the perspective of energyefficient and sustainable AI. By interpreting recent advances through a quality–energy trade-off lens, we highlight how explicit geometric representations enable scalable 3D perception while aligning with clean energy and sustainability goals. The analysis underscores the role of energy-aware design in advancing responsible and deployable AI systems, in direct alignment with the objectives of IEEE BHTC 2026.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0951",
+  "title": "Cooperative Learning for Cost-Adaptive Inference",
+  "year": "2023",
+  "abstract": "We propose a cooperative training framework for deep neural network architectures that enables the runtime network depths to change to satisfy dynamic computing resource requirements. In our framework, the number of layers participating in computation can be chosen dynamically to meet performance-cost trade-offs at inference runtime. Our method trains two Teammate nets and a Leader net, and two sets of Teammate sub-networks with various depths through knowledge distillation. The Teammate nets derive sub-networks and transfer knowledge to them, and to each other, while the Leader net guides Teammate nets to ensure accuracy. The approach trains the framework atomically at once instead of individually training various sizes of models; in a sense, the various-sized networks are all trained at once, in a\"package deal.\"The proposed framework is not tied to any specific architecture but can incorporate any existing models/architectures, therefore it can maintain stable results and is insensitive to the size of a dataset's feature map. Compared with other related approaches, it provides comparable accuracy to its full network while various sizes of models are available.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0952",
+  "title": "Efficient Compression Techniques for Medical Image Storage and Transmission: A Comprehensive Review",
+  "year": "2024",
+  "abstract": "In the field of medical imaging, there is a strong requirement for the storage of an immense volume of digitized medical image data. The digital image must be compressed heavily before storing and transferring it because of having restricted bandwidth and scope of storage. When compression of images is done at a lower bit rate it reduces the image fidelity that results in a drop in quality but poses many challenges to overcome and prevents diagnostic miscalculations with great compression rates for reduced storage and quick transmission. To overcome this challenging issue several hybrid efficient compression procedures solely for medical digital images have been introduced in recent years. The transformation of image, quantization, and encoding is part of image compression. This paper presents a qualitative and comprehensive review of image compression techniques for two-dimensional (2D) still and three-dimensional (3D) medical images. The features and constraints associated with various compression methods for compressing grayscale images are reviewed and discussed in this paper. In-depth reviews of the practical concerns and difficulties in the medical scan compression arena are provided.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0953",
+  "title": "A Survey of Single-Cell Clustering Methods Based on Encoder Types: Embedded, Topological, and Multi-Modal",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0954",
+  "title": "Mitigating Data Sparsity in Code-Mixed Text through Back-Translation Augmentation for Aspect-Based Sentiment Analysis in Tokopedia Reviews",
+  "year": "2026",
+  "abstract": "Aspect-Based Sentiment Analysis (ABSA) in e-commerce reviews in Indonesia faces significant challenges, including the use of mixed language or code-mixed language and limited labeled data, or data sparsity. This study proposes the use of Back-Translation data augmentation techniques to enrich Tokopedia's mixed Indonesian-English or South Jakarta language review dataset. Using the IndoBERT model, experimental results show a 3% increase in accuracy for both aspect and sentiment classification. These findings demonstrate that artificial data augmentation is effective in addressing data sparsity constraints in informal texts and improving the reliability of macro analysis for strategic platform recommendations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0955",
+  "title": "Review of Lightweight Deep Convolutional Neural Networks",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0956",
+  "title": "GTR-SQL: Graph Pruning, Tournament Selection, and Taxonomy Repair for Text-to-SQL",
+  "year": "2025",
+  "abstract": "Deploying Text-to-SQL in resource-constrained enterprise environments presents a dichotomy: proprietary Large Language Models (LLMs) pose privacy and cost concerns, while smaller open-source models often lack the reasoning depth for complex queries. To address this, we introduce GTR-SQL, a lightweight, training-free multi-agent framework designed to empower smaller models (e.g., 7B parameters) via orchestrated inference-time scaling. GTR-SQL targets specific failure modes through three components: (1) Graph-connected schema linking, which uses Steiner Tree approximation to guarantee topological connectivity for multi-hop joins; (2) Tournament-based selection, employing an execution-aware judge to filter subtle logical flaws; and (3) Repair-guided correction, utilizing a fine-grained error taxonomy to drive dual-path repairs rather than blind retries. Evaluations on the Spider and CSpider development sets (N=1034) demonstrate that GTR-SQL significantly augments the reasoning capabilities of lightweight models. Without fine-tuning, the framework delivers substantial gains in Execution Accuracy over direct prompting (+13.35% on Spider, +13.74% on CSpider) and maintains a Valid SQL rate exceeding 99%, proving its robustness for real-world applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0957",
+  "title": "Review of Artificial Intelligence-Based Signal Processing in Dialysis: Challenges for Machine-Embedded and Complementary Applications.",
+  "year": "2023",
+  "abstract": "Artificial intelligence technology is trending in nearly every medical area. It offers the possibility for improving analytics, therapy outcome, and user experience during therapy. In dialysis, the application of artificial intelligence as a therapy-individualization tool is led more by start-ups than consolidated players, and innovation in dialysis seems comparably stagnant. Factors such as technical requirements or regulatory processes are important and necessary but can slow down the implementation of artificial intelligence due to missing data infrastructure and undefined approval processes. Current research focuses mainly on analyzing health records or wearable technology to add to existing health data. It barely uses signal data from treatment devices to apply artificial intelligence models. This article, therefore, discusses requirements for signal processing through artificial intelligence in health care and compares these with the status quo in dialysis therapy. It offers solutions for given barriers to speed up innovation with sensor data, opening access to existing and untapped sources, and shows the unique advantage of signal processing in dialysis compared to other health care domains. This research shows that even though the combination of different data is vital for improving patients' therapy, adding signal-based treatment data from dialysis devices to the picture can benefit the understanding of treatment dynamics, improving and individualizing therapy.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0958",
+  "title": "Data-driven human error accident risk control: A systematic review of data sparsity, causal explainability, and operational transformation",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0959",
+  "title": "The Rise of Small Language Models in Healthcare: A Comprehensive Survey",
+  "year": "2025",
+  "abstract": "Despite substantial progress in healthcare applications driven by large language models (LLMs), growing concerns around data privacy, and limited resources; the small language models (SLMs) offer a scalable and clinically viable solution for efficient performance in resource-constrained environments for next-generation healthcare informatics. Our comprehensive survey presents a taxonomic framework to identify and categorize them for healthcare professionals and informaticians. The timeline of healthcare SLM contributions establishes a foundational framework for analyzing models across three dimensions: NLP tasks, stakeholder roles, and the continuum of care. We present a taxonomic framework to identify the architectural foundations for building models from scratch; adapting SLMs to clinical precision through prompting, instruction fine-tuning, and reasoning; and accessibility and sustainability through compression techniques. Our primary objective is to offer a comprehensive survey for healthcare professionals, introducing recent innovations in model optimization and equipping them with curated resources to support future research and development in the field. Aiming to showcase the groundbreaking advancements in SLMs for healthcare, we present a comprehensive compilation of experimental results across widely studied NLP tasks in healthcare to highlight the transformative potential of SLMs in healthcare. The updated repository is available at Github1.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0960",
+  "title": "Interpretable Review Spammer Group Detection Model Based on Knowledge Distillation and Counterfactual Generation",
+  "year": "2025",
+  "abstract": "Spammer group detection is necessary for curbing collusive review spammers on online shopping websites. However, the current detection approaches ignore exploring deep-level suspicious user review relationships and learning group features with low discrimination, which affects detection performance. Furthermore, the interpretation of detection results is easily influenced by noise features and unimportant group structures, leading to suboptimal interpretation performance. Aimed at addressing these concerns, we propose an interpretable review spammer group detection model based on knowledge distillation and counterfactual generation. First, we analyze user review information to generate a suspicious user review relationship graph, combining a graph agglomerative hierarchical clustering approach to discover candidate groups. Second, we devise a knowledge distillation network to learn discriminative candidate group features for detecting review spammer groups. Finally, we design a counterfactual generation model to search important subgraph structures for interpreting the detection results. The experiments indicate that the improvements in our model’s Precision@k and Recall@k are among the top-1000 state-of-the-art solutions on the Amazon, YelpChi, YelpNYC, and YelpZip datasets, which are [13.37%, 72.63%, 37.46%, and 18.83%] and [17.34%, 43.81%, 41.22%, and 21.05%], respectively. The Fidelities of our interpretation results under different Sparsity are around 6%, 7%, 7%, and 6% higher than that of the state-of-the-art solutions on the Amazon, YelpChi, YelpNYC, and YelpZip datasets, respectively.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

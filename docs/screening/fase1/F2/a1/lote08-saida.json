@@ -1,0 +1,202 @@
+[
+  {
+    "id": "F0281",
+    "decisao": "claramente fora",
+    "motivo": "Mobile crowdsensing é IoT/redes de sensores, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0282",
+    "decisao": "claramente fora",
+    "motivo": "Processamento de imagens astronômicas com NMF, não sobre eficiência/implantação de modelos ML"
+  },
+  {
+    "id": "F0283",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0284",
+    "decisao": "claramente fora",
+    "motivo": "Comunicação LoRa e qualidade de sinal, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0285",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0286",
+    "decisao": "claramente fora",
+    "motivo": "Medidas de esparsidade em processamento de sinais, não sobre eficiência de modelos ML"
+  },
+  {
+    "id": "F0287",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0288",
+    "decisao": "claramente fora",
+    "motivo": "Modelagem de processos com SINDy e métodos numéricos, não sobre eficiência de modelos ML"
+  },
+  {
+    "id": "F0289",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0290",
+    "decisao": "claramente fora",
+    "motivo": "Criptografia leve para WSN, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0291",
+    "decisao": "claramente fora",
+    "motivo": "Monitoramento de qualidade do ar com LoRa, IoT sem foco em eficiência de modelos ML"
+  },
+  {
+    "id": "F0292",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0293",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0294",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0295",
+    "decisao": "claramente fora",
+    "motivo": "Análise de features com NMF para sensoriamento remoto, não sobre eficiência de modelos ML"
+  },
+  {
+    "id": "F0296",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0297",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0298",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0299",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0300",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0301",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0302",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0303",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0304",
+    "decisao": "claramente fora",
+    "motivo": "Unmixing hiperspectral com NMF, sensoriamento remoto sem foco em eficiência de modelos ML"
+  },
+  {
+    "id": "F0305",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0306",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0307",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0308",
+    "decisao": "claramente fora",
+    "motivo": "Interação criança-mídia social e psicologia, sem relação com eficiência de modelos de ML"
+  },
+  {
+    "id": "F0309",
+    "decisao": "claramente fora",
+    "motivo": "Linguagens de programação para sistemas embarcados, não sobre eficiência de modelos ML"
+  },
+  {
+    "id": "F0310",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0311",
+    "decisao": "claramente fora",
+    "motivo": "Regulamentação de dispositivos embarcados em usinas nucleares, não sobre modelos de ML"
+  },
+  {
+    "id": "F0312",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0313",
+    "decisao": "claramente fora",
+    "motivo": "Design de ADC em hardware, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0314",
+    "decisao": "claramente fora",
+    "motivo": "Métodos iterativos para equações lineares esparsas, não sobre eficiência de modelos ML"
+  },
+  {
+    "id": "F0315",
+    "decisao": "claramente fora",
+    "motivo": "Clustering de células com NMF para bioinformática, não sobre eficiência de modelos ML"
+  },
+  {
+    "id": "F0316",
+    "decisao": "claramente fora",
+    "motivo": "Criptografia leve para IoT, não sobre eficiência de modelos de ML"
+  },
+  {
+    "id": "F0317",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0318",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0319",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0320",
+    "decisao": "passa",
+    "motivo": ""
+  }
+]

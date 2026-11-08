@@ -1,0 +1,167 @@
+[
+  {
+    "id": "F0333",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0357",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0358",
+    "decisao": "claramente fora",
+    "motivo": "tensor decomposition for traffic analytics; não trata de modelos de ML, eficiência ou implantação"
+  },
+  {
+    "id": "F0367",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0370",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0386",
+    "decisao": "claramente fora",
+    "motivo": "métodos matemáticos para grafos; não trata de modelos de ML ou eficiência para implantação"
+  },
+  {
+    "id": "F0385",
+    "decisao": "claramente fora",
+    "motivo": "posicionamento GNSS e engenharia topográfica; não é aprendizado de máquina"
+  },
+  {
+    "id": "F0424",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0432",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0421",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0427",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0472",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0469",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0453",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0447",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0488",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0516",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0511",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0487",
+    "decisao": "claramente fora",
+    "motivo": "big data analytics e cloud computing; não trata especificamente de eficiência de modelos de ML"
+  },
+  {
+    "id": "F0530",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0528",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0545",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0532",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0575",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0590",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0587",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0565",
+    "decisao": "claramente fora",
+    "motivo": "blockchain tecnologia; não é aprendizado de máquina nem sistemas de IA"
+  },
+  {
+    "id": "F0621",
+    "decisao": "sem acesso",
+    "motivo": ""
+  },
+  {
+    "id": "F0627",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0630",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0608",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0669",
+    "decisao": "passa",
+    "motivo": ""
+  },
+  {
+    "id": "F0648",
+    "decisao": "claramente fora",
+    "motivo": "toolkit de pesquisa em HCI para estudos de interação; não é aprendizado de máquina"
+  }
+]

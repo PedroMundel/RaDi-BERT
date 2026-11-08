@@ -1,0 +1,442 @@
+[
+ {
+  "id": "F0121",
+  "title": "OneLA: Scaling Linear-Attention Decoding to Large Beams in Generative Recommendation",
+  "year": "2026",
+  "abstract": "Generative recommendation (GR) relies on large-beam decoding to generate hundreds of candidate items, creating a new scaling challenge for recurrent linear attention. Existing linear attention serving systems either materialize a full recurrent state for every beam or repeatedly replay shared history, incurring substantial memory and traffic overhead. To address this, we present OneLA, a linear-attention decoding framework that exploits the shared prompt and short divergent suffixes of GR workloads. Specifically, OneLA represents all beam states using a single shared prompt-derived state and compact, append-only records of their divergent transitions. Using this representation, OneLA computes only the state information required at each decoding step, without reconstructing a full recurrent state for every beam. Furthermore, OneLA uses a lightweight ancestry index to track the transition records that make up each beam's history, allowing beams to be updated without moving or copying existing records. A fused GPU kernel further reuses the shared state across beams. Our analysis shows that OneLA achieves 1.54-2.46x end-to-end decode speedups while substantially reducing recurrent-state memory use and data movement.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0122",
+  "title": "Survey on Question Retrieval in Community Question Answering via NON-Negative Matrix Factorization",
+  "year": "2021",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0123",
+  "title": "A Systematic Review of Post-Training Optimization for Embedded Deep Learning to Support Biodiversity Monitoring in the Pantanal",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0124",
+  "title": "Guest Editorial Note: Special Issue on Applied Reconfigurable Computing",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0125",
+  "title": "Machine Learning Algorithms for Smart Data Analysis in Internet of Things Environment: Taxonomies and Research Trends",
+  "year": "2020",
+  "abstract": "Machine learning techniques will contribution towards making Internet of Things (IoT) symmetric applications among the most significant sources of new data in the future. In this context, network systems are endowed with the capacity to access varieties of experimental symmetric data across a plethora of network devices, study the data information, obtain knowledge, and make informed decisions based on the dataset at its disposal. This study is limited to supervised and unsupervised machine learning (ML) techniques, regarded as the bedrock of the IoT smart data analysis. This study includes reviews and discussions of substantial issues related to supervised and unsupervised machine learning techniques, highlighting the advantages and limitations of each algorithm, and discusses the research trends and recommendations for further study.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0126",
+  "title": "Development and application of user review quality model for embedded system",
+  "year": "2020",
+  "abstract": "Abstract Software industry is poised for robust and sustained growth. Many software products / applications are being developed. It is found that the software so developed must be free from defects / bugs. One major area that requires concentration is requirements analysis. The requirements from various stakeholders must be received and analyzed for their relevance in the final product. Some prioritization analysis is also required to consider some requirements over the others. Kano and AHP are known to help the developers in analyzing relative strengths of various requirements. However, after defining the requirements clearly, the developed product must be free of defects. SWFMEA is a technique to ensure the defect-free development of the software. Software User Review Defect Corrective Model (SURDCM), which has Kano and AHP models for requirements analysis cum prioritization and SWFMEA to detect possible defects and their respective effects, is used for development of a software product. It is expected that with the use of this model, the user involvement is increased to clearly specify the requirements and the possible defects and the effects are analyzed. This model encourages the user participation throughout the development of the product.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0127",
+  "title": "Fast N-1 Security-Constrained Optimal Power Flow with Review Knowledge Distillation",
+  "year": "2025",
+  "abstract": "N-1 Security-Constrained Optimal Power Flow (N-1 SCOPF), a key variant of the Optimal Power Flow (OPF), ensures power system security under single-contingency conditions. However, solving it for large-scale systems incurs a significant computational burden. For this, deep learning methods have been introduced to approximate solutions, and among them, Graph Neural Networks (GNNs) have become mainstream due to their ability to model power system topology. Nevertheless, the large volume of graph data from real-world grids restricts the scale of deployable GNNs, challenging both model generalization and practical application. To address this, we propose using Review Knowledge Distillation to improve the performance of a compact Graph Convolutional Network (GCN) by transferring knowledge from a larger, more powerful GCN through its intermediate feature distributions. This enhances the smaller model without increasing its parameters. Extensive case studies on the IEEE 9, 30 and 300-bus systems validate the effectiveness of our method.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0128",
+  "title": "Review of Real-Time Deep Learning–Based Object Detection Models for Resource-Constrained Embedded Systems",
+  "year": "2026",
+  "abstract": "Computer vision relies heavily on object detection; from autonomous drones to industry monitoring it is everywhere. However, despite these advances when one wants to implement these cutting-edge object detection models in embedded system it proves to be difficult due to the limitations in processing power, memory and energy consumption. A detailed examination of real-time object detection models designed for resource-constrained devices is presented in this paper. We investigate widely used one stage detectors like SSD (Single Shot Multi Box) and YOLO (You Only Look Once). In addition, we also discuss model compression methods like knowledge distillation, pruning and quantization, which enable efficient deployment on embedded systems",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0129",
+  "title": "Bayes Inference Engine (BIE) Test Plan: TiltConeBeamComboDMGeometric",
+  "year": "2020",
+  "abstract": "The Bayes Inference Engine (BIE) is a general software tool intended to be used primarily in the analysis of radiographic data for density. An analysis is set up in the BIE by representing the problem as a collection of modules called glyphs. All glyphs to be used in creating the forward model of the experiment will be tested separately for a range of inputs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0130",
+  "title": "Deep Learning and Optimization Approaches in Attention-Based Sparse Graph Convolutional Neural Network -Based Forecast Model for Career Planning in Human Resource Management: A Review",
+  "year": "2024",
+  "abstract": "The rapid evolution of artificial intelligence has significantly transformed decision-making processes in Human Resource Management, particularly in career planning and workforce analytics. Among emerging methodologies, Attention-Based Sparse Graph Convolutional Neural Networks (AS-GCNNs) have demonstrated remarkable capability in modeling complex relational data inherent in organizational structures. This review paper presents a comprehensive analysis of deep learning and optimization techniques integrated within AS-GCNN frameworks for forecasting career trajectories. The study explores how attention mechanisms enhance feature relevance, while sparsity constraints improve computational efficiency and interpretability. Furthermore, optimization strategies, including metaheuristic algorithms and gradient-based tuning, are examined for their role in improving prediction accuracy and convergence stability. The paper synthesizes recent advancements, identifies research gaps, and evaluates the applicability of these models in real-world HR scenarios such as employee retention, promotion forecasting, and skill development planning. Emphasis is placed on the integration of multi-source HR data, scalability challenges, and ethical considerations in AI-driven decision systems. The findings indicate that AS-GCNN models, when combined with robust optimization techniques, offer superior predictive performance and actionable insights, positioning them as a promising tool for strategic workforce planning in modern organizations.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0131",
+  "title": "Gap-Aware Exact Nonnegative Matrix Factorization: A Two-Sided SVD Gauge and a Three-Regime W-Rank Taxonomy",
+  "year": "2026",
+  "abstract": "We extend the cone-ray exact-NMF pipeline of Ramteke (arXiv:2606.22451) from the uniform-support regime r_+ = r to the gap regime r_+>r, and classify recoverable nonnegative factorisations by the rank of the W-factor into a three-regime taxonomy. Regime A (rank(W) = r_+, full column rank): a two-sided SVD-gauge cone-ray pipeline W = U_{r+}(G) Q, H = P V_{r+}(K)^T with G, K on Stiefel manifolds and square consistency Q P = diag(S_r, 0). On 10x10 dense random gap matrices it gives 100/100 recovery at r_+ = 5 and 6. We explain this via two geometric facts: slack enclosure (the data cone has codimension r_+ - r in the outer cone) and NRF-variety thickness (valid gauges form a positive-measure set, so the blind SVD lands on one with probability one). Regime B (rank(W) = r, W a column subset of M): a rank-deficient-W branch enumerating r_+-subsets of M's columns with per-column LP tests. On the block-diagonal family diag(C, J_k), where additivity of nonnegative rank collapses the valid gauges to a single point and the blind SVD pipeline fails, the column-subset branch restores recovery in milliseconds. Regime C (r<rank(W)<r_+, W not a column subset): exposed by the regular octagon's slack matrix. An exact size-6 NRF exists and is reachable by the symmetric formulation at an oracle gauge derived from a known factorisation (residual 1.5e-10), but the blind problem is open: 50 Haar random restarts and Riemannian gradient descent on the Stiefel/Grassmann gauge all stall, because the alt-LP residual is piecewise constant on cells of gauge-space, so local descent cannot cross cell walls. A combined toolkit (Regime B then A) covers regimes A and B with no regression on dense draws; Regime C remains open, with the regular octagon as the cleanest unsolved test case.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0132",
+  "title": "RelateAnything: Real-Time Open-Vocabulary Relation Prediction From Any Inputs",
+  "year": "2026",
+  "abstract": "Open-vocabulary detection accepts any class list at inference, and promptable segmentation returns regions without class names: the taxonomy has left the model and become an input. Relation prediction has not. Scene-graph models are still trained and evaluated on the 50 or 56 predicates of one annotation style, their relation head conditioned on object labels and so tied to one detector. Three obstacles explain this, none primarily modelling: no relation corpus is both free-text and verified, a label-conditioned architecture cannot accept a vocabulary it was not trained on, and the standard metric rewards agreement with the training corpus, so a larger vocabulary scores as a regression. We present RelateAnything, a 53M-parameter model taking an image and regions from any source and returning scored relations over a predicate vocabulary supplied at inference as strings. Object labels are never an input, so the region source can change without retraining, and the vocabulary is a bank of text embeddings, not a learned classifier. It runs at 20 ms/frame. Training over 19,103 predicates requires positive-unlabeled supervision and a text encoder that separates antonyms, which contrastive encoders embed at cosine 0.95. To supply the supervision we build RA-4M, 474k images and 4.3M relations over 10,102 free-text predicates, generated against numbered box markers and geometrically verified. To measure it we build OV-SGG-Bench, six axes scored across datasets that the priors standard recall rewards cannot satisfy. On three cross-dataset benchmarks and a fourth zero-shot, RelateAnything has 2.3-3.5x the mean recall of the strongest open-vocabulary method of comparable scale, margins that survive a real detector, and leads a 3B-VLM scene-graph model on both metrics at under 2% of its parameters. In-domain measurement overstates transfer gains ~5x. Model, corpus and benchmark are public.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0133",
+  "title": "REVIEW OF MODERN TRENDS AND DEVELOPMENT PROSPECTS OF DEVICES FOR INFOCOMMUNICATION SYSTEMS",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0134",
+  "title": "Pyserini: A Python Toolkit for Reproducible Information Retrieval Research with Sparse and Dense Representations",
+  "year": "2021",
+  "abstract": "Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations. It aims to provide effective, reproducible, and easy-to-use first-stage retrieval in a multi-stage ranking architecture. Our toolkit is self-contained as a standard Python package and comes with queries, relevance judgments, pre-built indexes, and evaluation scripts for many commonly used IR test collections. We aim to support, out of the box, the entire research lifecycle of efforts aimed at improving ranking with modern neural approaches. In particular, Pyserini supports sparse retrieval (e.g., BM25 scoring using bag-of-words representations), dense retrieval (e.g., nearest-neighbor search on transformer-encoded representations), as well as hybrid retrieval that integrates both approaches. This paper provides an overview of toolkit features and presents empirical results that illustrate its effectiveness on two popular ranking tasks. Around this toolkit, our group has built a culture of reproducibility through shared norms and tools that enable rigorous automated testing.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0135",
+  "title": "An embedded system—a review paper",
+  "year": "2024",
+  "abstract": "An embedded system is a programmed controlling and operating system with a dedicated function within a larger mechanical orelectrical system, often with real-time computing constraints. It is embedded as part of a complete device often including hardware and mechanical parts. Embedded systems control many devices in common use today.[3] Ninety-eight percent of all microprocessors are manufactured as components of embedded systems. Examples of properties of typical embedded computers when compared with generalpurpose counterparts are low power consumption, small size, rugged operating ranges, and low per-unit cost. This comes at the price of limited processing resources, which make them significantly more difficult to program and to interact with. However, by building intelligence mechanisms on top of the hardware, taking advantage of possible existing sensors and the existence of a network of embedded units, one can both optimally manage available resources at the unit and network levels as well as provide augmented functions, well beyond those available. For example, intelligent techniques can be designed to manage power consumption of embedded systems. Modern embedded systems are often based on microcontrollers (i.e. CPUs with integrated memory or peripheral interfaces),[7] but ordinary microprocessors (using external chips for memory and peripheral interface circuits) are also common, especially in more-complex systems. In either case, the processor(s) used may be types ranging from general purpose to those specialized in certain class of computations, or even custom designed for the application at hand. A common standard class of dedicated processors is the digital signal processor (DSP).",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0136",
+  "title": "Population-Based Hierarchical Non-Negative Matrix Factorization for Survey Data",
+  "year": "2022",
+  "abstract": "Motivated by the problem of identifying potential hierarchical population structure on modern survey data containing a wide range of complex data types, we introduce population-based hierarchical non-negative matrix factorization (PHNMF). PHNMF is a variant of hierarchical non-negative matrix factorization based on feature similarity. As such, it enables an automatic and interpretable approach for identifying and understanding hierarchical structure in a data matrix constructed from a wide range of data types. Our numerical experiments on synthetic and real survey data demonstrate that PHNMF can recover latent hierarchical population structure in complex data with high accuracy. Moreover, the recovered subpopulation structure is meaningful and can be useful for improving downstream inference.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0137",
+  "title": "Small Language Models for Edge AI: A Survey on Privacy-Preserving Toxicity and Grooming Detection",
+  "year": "2026",
+  "abstract": "Recent advances in natural language processing have enabled increasingly accurate detection of harmful online communication, including toxic language and online grooming. However, most state-of-the-art approaches rely on cloud-based large language models, raising concerns about latency, computational cost, energy consumption, and especially user privacy. These limitations motivate interest in deploying compact language models directly on edge devices, where inference can be performed locally without transmitting sensitive user data to external servers. This survey reviews small language models for privacy-preserving harmful-content detection on resource-constrained platforms, focusing on toxicity and grooming detection. We examine model families, compression strategies, privacy-preserving deployment, and hardware-aware trade-offs relevant to embedded and microcontroller-class systems, as well as the suitability of existing datasets and evaluation criteria for safety-critical edge NLP. The survey indicates that toxicity detection is approaching practical feasibility on edge hardware, whereas grooming detection remains more challenging due to its stronger dependence on long-context reasoning and conversational dynamics. We finally outline key open challenges and future directions in multilinguality, robustness, explainability, privacy, and standardized benchmarking.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0138",
+  "title": "A Review of Embedded Software Architectures for Multi-Sensor Wearable Devices: Sensor Fusion Techniques and Future Research Directions",
+  "year": "2026",
+  "abstract": "The integration of embedded software in multi-sensor wearable devices has revolutionized real-time monitoring across health, fitness, industrial, and environmental applications. This paper presents a comprehensive approach to designing and implementing embedded software architectures that enable efficient, low-power, and high-accuracy data acquisition and processing from heterogeneous sensor arrays. We explore key challenges such as synchronization of sensor data streams, real-time operating system (RTOS) integration, power management strategies, and wireless communication protocols. The reviewed framework supports modular scalability, allowing for seamless incorporation of additional sensors or features without significant system overhead. Future research directions of the embedded software include Hardware-in-the-Loop and real-world validation, on-device machine learning and edge intelligence, adaptive sensor fusion, energy harvesting and power autonomy, enhanced wireless communications and security, standardization and interoperability, as well as user-centered design and personalization. By adopting this focus, we can highlight the potential of the embedded software to support proactive decision-making and user feedback through edge-level intelligence, paving the way for next-generation wearable monitoring systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0139",
+  "title": "Embedded Vision for the Internet of Things: A Survey on State-of-the-Art Hardware, Software, and Deep Learning Models",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0140",
+  "title": "Compression Techniques for DNA Sequences: A Thematic Review",
+  "year": "2021",
+  "abstract": "Deoxyribonucleic acid (DNA) is the basic entity that carries genetic instructions. This information is used in the evolution, progression, and improvement of all species. It is estimated that 10 CD-ROMs are required to store the genomic data of an individual being. With the increase in DNA sequencing equipment, an extensive heap of genomic data is created. The increase in DNA data in public databases is surpassing the rate of growth in storage space, thereby raising a significant concern related to data storage, transmission, retrieval, and search. To reduce the data storage and storage expense, lossless compression procedures were applied. Conventional compression methods are not proficient while compressing the biological data. Hence, several unique and contemporary lossless compression mechanisms were used to achieve improved compression ratio in biological sequences. Here, we scrutinize the diverse existing compression procedures that are appropriate for the compression of DNA sequences. The efficiency of algorithms is compared in terms of compression ratio, the ratio of the capacity of the compressed folder, and compression/decompression time. Main challenges and future research directions in DNA compression are also presented. Emphasis has been given to special references related to contemporary techniques.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0141",
+  "title": "A Literature Review of (Sparse) Exponential Family PCA",
+  "year": "2022",
+  "abstract": "This is a brief overview of the methodology around exponential family PCA. We revisit classic PCA methodology, and we focus on exponential family PCA due to its applicability on a number of distributions and hence a wide variety of problems. We discuss the applicability of these methods to text data analysis due to the high-dimensional and sparse nature of these data.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0142",
+  "title": "Effective Customer Review Analysis Using Combined Capsule Networks with Matrix Factorization Filtering",
+  "year": "2023",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0143",
+  "title": "ProQuest TDM Studio: A Text and Data Mining Solution",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0144",
+  "title": "Embedded Systems and Computer Vision Techniques utilized in Spray Painting Robots: A Review",
+  "year": "2020",
+  "abstract": "The advent of the era of machines has limited human interaction and this has increased their presence in the last decade. The requirement to increase the effectiveness, durability and reliability in the robots has also risen quite drastically too. Present paper covers the various embedded system and computer vision methodologies, techniques and innovations used in the field of spray painting robots. There have been many advancements in the sphere of painting robots utilized for high rise buildings, wall painting, road marking paintings, etc. Review focuses on image processing, computational and computer vision techniques that can be applied in the product to increase efficiency of the performance drastically. Image analysis, filtering, enhancement, object detection, edge detection methods, path and localization methods and fine tuning of parameters are being discussed in depth to use while developing such products. Dynamic system design is being deliberated by using which results in reduction of human interaction, environment sustainability and better quality of work in detail. Embedded systems involving the micro-controllers, processors, communicating devices, sensors and actuators, soft-ware to use them; is being explained for end-to-end development and enhancement of accuracy and precision in Spray Painting Robots.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0145",
+  "title": "An Overview of Deep Neural Network Model Compression",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0146",
+  "title": "A Comprehensive Survey of Optimization Techniques for Task Offloading in Mobile Edge Computing",
+  "year": "2026",
+  "abstract": "The significant growth in complex and latency sensitive applications across IoT, vehicular networks, and UAVassisted environments has raised the importance of Mobile Edge Computing (MEC). Task offloading plays an essential enabler in reducing the burden on devices with limited resources by efficiently utilizing edge server network infrastructures. However, to make optimal offloading decisions requires sophisticated optimization methods due to the inherent complexity of resource allocation, task dependencies, mobility, and latency constraints. This survey presents a comprehensive review of recent advancements in optimization techniques for task offloading also classify approaches into heuristic, metaheuristic, deep reinforcement learning, and hybrid models, highlighting methodologies such as Deep QLearning, Whale Optimization, Genetic Algorithms, Lyapunov optimization, and multi-agent systems. A variety of applications are covered under the analysis, which include geodistributed edge architectures, multi-UAV systems, and vehicle networks. This paper identifies current research gaps, discusses emerging trends, and proposes future research directions toward achieving scalable, adaptive, and real-time offloading strategies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0147",
+  "title": "BIROn - Birkbeck Institutional Research Online",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0148",
+  "title": "A survey of hybrid metaheuristics for the resource-constrained project scheduling problem",
+  "year": "2020",
+  "abstract": "Abstract The Resource-Constrained Project Scheduling Problem (RCPSP) is a general problem in scheduling that has a wide variety of applications in manufacturing, production planning, project management, and various other areas. The RCPSP has been studied since the 1960s and is an NP-hard problem. As being an NP-hard problem, solution methods are primarily heuristics. Over the last two decades, the increasing interest in operations research for metaheuristics has resulted in a general tendency of moving from pure metaheuristic methods for solving the RCPSP to hybrid methods that rely on different metaheuristic strategies. The purpose of this paper is to survey these hybrid approaches. For the primary hybrid metaheuristics that have been proposed to solve the RCPSP over the last two decades, a description of the basic principles of the hybrid metaheuristics is given, followed by a comparison of the results of the different hybrids on the well-known PSPLIB data instances. The distinguishing features of the best hybrids are also discussed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0149",
+  "title": "Towards Fully Disaggregated Recommendation Model Serving",
+  "year": "2025",
+  "abstract": "Serving embedding-based recommendation (EMR) models requires a mix of GPUs, CPUs, and DRAM. Current systems typically provision these resources on monolithic servers with a fixed ratio across resource types, leading to inefficient resource utilization and inflated operational costs. To solve this problem, we propose FlexEMR, a system architecture that fully disaggregates these resources, and interconnects them via an optimized RDMA network. This design enables independent scaling of resources, enhances failure isolation, improves overall resource efficiency, and reduces operational costs. We achieve this by introducing two classes of techniques to address the networking challenges introduced by disaggregation: (1) optimizing embedding lookup communication by leveraging workload locality, and (2) improving network transport through a high-performance, multithreaded RDMA engine. We detail our design considerations and share early performance insights, highlighting the potential of FlexEMR for enabling fully disaggregated EMR model serving.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0150",
+  "title": "Latest Technologies on Dataset Distillation: A Survey",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0151",
+  "title": "Lightweight and Low-Cost Deployable Origami Antennas—A Review",
+  "year": "2021",
+  "abstract": "The art of paper folding also known as Origami plays an important role in various research areas of different scientific fields. Origami structures possess many useful characteristics such as reconfigurability, flexibility, deployability, compactness, and multi-functionality. These attributes are inevitable for modern communication systems. Additionally, they provide antenna engineers an extra degree of freedom while blueprinting next-generation designs. One of the desirable features of origami is its folding capability. Using this property, it can be transformed into a two-Dimensional (2D) sheet from a three-Dimensional (3D) structure and vice versa through external stimulus. In recent years, researchers have proposed numerous smart materials to optimize folding behavior. These smart materials extend the functionality of origami technology for designing self-folding structures required in space systems, small scale devices, and self-assembly systems. Origami structures feature many useful characteristics pertinent to modern day design challenges of communication systems such as reconfiguration, flexibility, compactness, and multifunctionality. In this work, a state of the art review is presented on conceptualization, design challenges, and fabrication of light-weight and low-cost deployable origami antennas. Furthermore, to provide critical insights deployment challenges and possible solutions are also provided. It is believed that this work will not only help peers to understand the basic working principles of different origami structures but will also lay the foundation for future research in the evolving field of origami-based antennas. Moreover, the design methodology proposed in this paper will also provide pragmatic solutions for origami antennas suitable for the harsh and rigid environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0152",
+  "title": "A Survey of Reinforcement Learning-Driven Knowledge Distillation: Techniques, Challenges, and Applications",
+  "year": "2025",
+  "abstract": "As deep learning models are widely applied across various domains, a critical challenge is how to compress models while maintaining high reasoning capability. Knowledge distillation, an effective technique for model compression, has been used to enhance the performance of lightweight models. However, traditional distillation methods are limited when dealing with complex reasoning tasks. Reinforcement learning (RL) offers a novel approach to knowledge distillation by optimizing the reasoning strategies of teacher models, generating more efficient decision paths, and providing more valuable learning content for student models. This paper reviews the latest advancements in combining reinforcement learning with knowledge distillation, focusing on policy distillation, value function distillation, and dynamic reward-guided distillation methods. It also discusses the challenges faced by RL-driven distillation, such as simplifying complex strategies, addressing temporal dependencies, and balancing exploration and exploitation, and suggests possible solutions. Finally, this paper explores the applications of RL-driven knowledge distillation in fields such as game AI, robotic control, and dialogue systems, and outlines future research directions, including automated distillation, multimodal distillation, and challenges in federated learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0153",
+  "title": "Review for \"A Novel Lightweight Deep Convolutional Neural Network for early detection of oral cancer\"",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0154",
+  "title": "[Re] Distilling Knowledge via Knowledge Review",
+  "year": "2022",
+  "abstract": "We start the reproduction effort by using the code open-sourced by the authors. We reproduce Tables 1 and 2 from [1] using their code. As we proceed further, we refactor and re-implement the code for a specific architecture (ResNets) and refer to the authors’ code for specific implementation details (further discussed in Section 3.2). We implement the ablation studies mentioned in the original paper and design experiments to verify the claims made by the authors. We release our code as open-source.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0155",
+  "title": "TP-MDU: A Two-Phase Microservice Deployment Based on Minimal Deployment Unit in Edge Computing Environment",
+  "year": "2025",
+  "abstract": "In mobile edge computing (MEC) environment, effective microservices deployment significantly reduces vendor costs and minimizes application latency. However, existing literatures overlook the impact of dynamic characteristics such as the frequency of user requests and geographical location, and lack in-depth consideration of the types of microservices and their interaction frequencies. To address these issues, we propose TP-MDU, a novel two-stage deployment framework for microservices. This framework is designed to learn users’ dynamic behaviors and introduces, for the first time, a minimal deployment unit. Initially, TP-MDU generates minimal deployment units online, tailored to the types of microservices and their interaction frequencies. In the initial deployment phase, aiming for load balancing, it employs a simulated annealing algorithm to achieve a superior deployment plan. During the optimization scheduling phase, it utilizes reinforcement learning algorithms and introduces dynamic information and new optimization objectives. Previous deployment plans serve as the initial state for policy learning, thus facilitating more optimal deployment decisions. This paper evaluates the performance of TP-MDU using a real dataset from Australia’s EUA and some related synthetic data. The experimental results indicate that TP-MDU outperforms other representative algorithms in performance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0156",
+  "title": "Survey of High Image Compression Encryption through Discrete Shearlet Transform and Golomb Code Quantization",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0157",
+  "title": "Developing a Smart and Adaptive Load-Balancing System in Cloud Computing with QoS Optimization",
+  "year": "2024",
+  "abstract": "Algorithm for resource provisioning and cloud assignment for providing content in cloud based content delivery network is developed where dynamic use of large and small scale fluctuations in user demand rates are considered along with minimum lease period constraint. Virtual machines are simulated computers within a physical computer that can run their operating systems and applications. Intelligent Resource Allocation (IRA) is a QoS-aware resource allocation technique that uses advanced technologies like machine learning and artificial intelligence to optimize resource distribution in real-time. Profit-driven scheduling algorithms for cloud public service (PS) scheduling focus on optimizing resource allocation to maximize profit while prioritizing tasks related to public services. First-Come-First- Serve is the scheduling technique in which incoming tasks are served according to the first come first served procedure and the first arriving task is served first. Using entropy-based adaptive neuro-fuzzy inferences system (E-ANFIS) that combines fuzzy logic and neural networks, many factors can be analyse in real- basic for optimizing resource allocation and utilization. The conclusions established that the proposed technique, E-ANFIS, exhibits superior performance to the others, achieving an energy efficiency of 89%. Future works of this study can be direct more research efforts towards enhancing the application of the framework to multi-cloud and edge computing to integrate and optimise resources within different computing paradigms.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0158",
+  "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+  "year": "2025",
+  "abstract": "The fusion of language and vision in large vision-language models (LVLMs) has revolutionized deep learning-based object detection by enhancing adaptability, contextual reasoning, and generalization beyond traditional architectures. This in-depth review presents a structured exploration of the state-of-the-art in LVLMs, systematically organized through a three-step research review process. First, we discuss the functioning of vision language models (VLMs) for object detection, describing how these models harness natural language processing (NLP) and computer vision (CV) techniques to revolutionize object detection and localization. We then explain the architectural innovations, training paradigms, and output flexibility of recent LVLMs for object detection, highlighting how they achieve advanced contextual understanding for object detection. The review thoroughly examines the approaches used in integration of visual and textual information, demonstrating the progress made in object detection using VLMs that facilitate more sophisticated object detection and localization strategies. This review presents comprehensive visualizations demonstrating LVLMs' effectiveness in diverse scenarios including localization and segmentation, and then compares their real-time performance, adaptability, and complexity to traditional deep learning systems. Based on the review, its is expected that LVLMs will soon meet or surpass the performance of conventional methods in object detection. The review also identifies a few major limitations of the current LVLM modes, proposes solutions to address those challenges, and presents a clear roadmap for the future advancement in this field. We conclude, based on this study, that the recent advancement in LVLMs have made and will continue to make a transformative impact on object detection and robotic applications in the future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0159",
+  "title": "Agentic AI Foundations and Infrastructure for Scalable Multi-Agent System",
+  "year": "2025",
+  "abstract": "Large language models (LLMs) unite with multiagent systems (MAS) to create agentic AI systems which demonstrate autonomous behavior, persistent memory, advanced planning capabilities and collaborative tool usage. This research evaluates the essential elements required to support large-scale deployment of multi-agent LLM systems which need to be both dependable and maintainable as well as subject to governance. The paper follows the development from traditional MAS systems based on coordination, negotiation and formal protocols to current LLM-based agents which demonstrate collective intelligent behavior. We describe how LLM-based agent orchestration generates new infrastructure needs, which include diverse computing resources, standardized networks, adaptive memory systems, monitoring capabilities, and protection mechanisms. The research evaluates open-source platforms through architectural comparisons while identifying major scalability, sustainability and governance challenges. The survey creates infrastructure maps between compute resources, communication systems, storage needs and policy frameworks to direct future research and engineering development for next-generation agentic AI systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0160",
+  "title": "Intelligent Embedded Sensor Systems for Smart and Sustainable Waste Management: A Comprehensive Review",
+  "year": "2026",
+  "abstract": "Rapid urbanization has resulted in a significant increase in municipal solid waste generation, placing pressure on conventional collection and disposal mechanisms. Traditional waste management systems rely on static schedules and manual monitoring, leading to inefficient resource utilization, overflow conditions, and increased operational costs. This paper presents a comprehensive review and system-level analysis of intelligent embedded sensor–based waste management architectures integrating Internet of Things (IoT), wireless communication, and data-driven analytics. Sixteen representative studies published between 2015 and 2025 are systematically analyzed with respect to sensor configurations, embedded platforms, communication protocols, and intelligent decision-making techniques. Based on the identified research gaps, a scalable system architecture employing ultrasonic, load, and gas sensors interfaced with ESP32 microcontrollers is proposed. The architecture incorporates MQTT and LoRaWAN for low-power communication, cloud–based analytics for overflow prediction, and route optimization for efficient collection planning. Performance evaluation through simulated deployment indicates a reduction in overflow events by approximately 38% and a decrease in collection route distance by 25%, demonstrating improved operational efficiency and sustainability. We identify critical implementation bottlenecks—specifically in power consumption, scalability, and cross-platform compatibility. Addressing these constraints is essential for defining the architectural requirements of future, economically viable smart city infrastructures.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

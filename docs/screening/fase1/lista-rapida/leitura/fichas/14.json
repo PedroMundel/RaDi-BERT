@@ -1,0 +1,32 @@
+{"id": "14", "titulo": "Model compression", "ano": 2006,
+ "lido": {"acesso": "texto completo (sem texto completo no manifesto; obtido via WebSearch + PDF do site dos autores, cs.cornell.edu/~caruana, lido por inteiro)", "secoes_lidas": "todas: 1 Introduction, 2 Model Compression (2.1 RANDOM, 2.2 NBE, 2.3 MUNGE), 3 Experimental Evaluation (3.1, 3.2), 4 Discussion, 5 Related Work, 6 Conclusions", "paginas": "1-7 (artigo completo, KDD'06 pp. 535-541)"},
+ "resumo": "O artigo propõe comprimir um ensemble grande e lento (centenas ou milhares de modelos) num único modelo pequeno e rápido, sem perda relevante de desempenho. A ideia central é usar o ensemble para rotular uma massa grande de dados (reais não rotulados, ou sintéticos quando não há dados suficientes) e treinar uma rede neural compacta para imitar essa função, em vez de treinar direto no conjunto original pequeno. Para gerar dados sintéticos quando não há dados não rotulados disponíveis, os autores criam o algoritmo MUNGE, que perturba exemplos de treino em torno dos vizinhos mais próximos, e mostram que ele supera alternativas mais simples (amostragem independente por atributo, estimação de densidade Naive Bayes). Em oito problemas de classificação binária, as redes-imitação chegam a cerca de 97% do ganho de desempenho do ensemble sobre um classificador simples, sendo cerca de 1000 vezes menores e mais rápidas. O trabalho não usa o termo 'destilação', mas é reconhecido como o precursor direto dessa linha: treinar um modelo pequeno com os rótulos (ou probabilidades) produzidos por um modelo grande.",
+ "perguntas": {
+  "P1": {"r": "não", "por": "não é um mapeamento da área; a comparação entre RANDOM, NBE e MUNGE (§2.1-2.3) é uma comparação metodológica interna ao experimento do próprio artigo, não uma taxonomia da área ou da divisão destilação."},
+  "P2": {"r": "sim", "por": "explica o mecanismo com profundidade: por que ensembles grandes funcionam mas são inviáveis (§1), por que uma rede neural pode aprender a função do ensemble (aproximador universal, §2, p.1), por que a distribuição dos dados sintéticos importa (argumento da variedade/manifold, p.2), e detalha o algoritmo MUNGE passo a passo (Algorithm 1, p.2-3)."},
+  "P3": {"r": "parcial", "por": "não narra uma história longa (o campo ainda não existia), mas em §5 Related Work (p.6-7) situa o método frente a precursores próximos (Zeng & Martinez 2000, TREPAN 1996, CMM 1997, DECORATE 2003), o que já é um início de linhagem."},
+  "P6": {"r": "sim", "por": "é o trabalho fundador da linha de 'mimic learning'/destilação de conhecimento: treinar um modelo pequeno com dados rotulados por um modelo grande, antes do termo 'distillation' existir (cunhado só em Hinton et al. 2015, item 15 da lista)."},
+  "P4a": {"r": "parcial", "por": "traz um algoritmo reprodutível (MUNGE, Algorithm 1, p.2) e benchmarks de implantação (tempo de inferência em segundos e tamanho em MB, Tabelas 3 e 4, p.5-6), mas não libera ferramenta, código ou sistema."},
+  "P4b": {"r": "sim", "por": "é o próprio mecanismo fundacional de destilação: comprimir a função de um modelo complexo (ensemble) em outro pequeno e rápido treinado sobre dados rotulados pelo grande (§2, p.1-2)."},
+  "V": {"r": "sim", "por": "define e nomeia termos próprios: 'model compression', 'mimic model', 'pseudo data', e cunha 'MUNGE' com etimologia explícita em nota de rodapé (p.3)."},
+  "A": {"r": "não", "por": "retrata o estado de 2006 (ensembles de árvores/SVM/redes rasas, sem Transformers nem LLMs); não serve para mostrar a área como é hoje."},
+  "R": {"r": "não", "por": "é anterior a Transformers (2017); trata de redes neurais feedforward (MLP) como modelo-imitação e de árvores/SVM/random forests como ensemble, sem discutir família de arquitetura alguma."}
+ },
+ "termos_chave": ["model compression", "ensemble selection", "mimic model / mimic learning", "pseudo data", "MUNGE", "RMSE", "aproximador universal (universal approximator)", "dados sintéticos (RANDOM, NBE)"],
+ "pre_requisitos": ["métodos de ensemble (bagging, boosting, random forests)", "redes neurais feedforward (MLP) e o teorema do aproximador universal", "overfitting e regularização", "RMSE como métrica de avaliação", "estimação de densidade/distribuição conjunta (para entender NBE)"],
+ "nivel": "intermediário",
+ "nivel_por": "a ideia central (rotular dados com um modelo grande e treinar um pequeno para imitar) é simples de acompanhar, mas o artigo pressupõe familiaridade com ensembles e com estimação de densidade (NBE) para entender por que MUNGE é necessário.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Abstract e §1 Introduction (p.1) para a motivação e a ideia; §2 Model Compression e §2.3 MUNGE com o Algorithm 1 (p.1-3) para o mecanismo; §3.2 Results com as Tabelas 2-4 (p.4-6) para os números de desempenho, tempo e tamanho; §6 Conclusions (p.7) para o fechamento.",
+ "acrescimo": "É o precursor direto da destilação de conhecimento (item 15), mas com um ângulo que o Hinton et al. 2015 não cobre: o problema de gerar dados sintéticos (MUNGE) quando não há dados não rotulados abundantes para fazer a transferência. Nenhuma outra obra da lista rápida trata desse problema de geração de dados pseudo/sintéticos para destilação.",
+ "sobreposicao": ["15 [B fundadores] (2015) Distilling the Knowledge in a Neural Network", "03 [A mapas] (2020) Knowledge Distillation: A Survey"],
+ "bloco_atual": "B fundadores",
+ "bloco_sugerido": "B fundadores (confirma o bloco atual)",
+ "veredito": "manter",
+ "veredito_por": "É o marco histórico correto para a divisão destilação, com um recorte técnico (geração de pseudo dados via MUNGE) que nenhuma outra obra da lista cobre; a leitura da obra completa confirma o papel de fundador atribuído no manifesto.",
+ "substituto_sugerido": "",
+ "confianca": "alta",
+ "citacoes": [
+  {"texto": "We present a method for compressing large, complex ensembles into smaller, faster models, usually without significant loss in performance.", "pagina": "1"},
+  {"texto": "the mimic neural nets are 1000 times smaller and 1000 times faster", "pagina": "7"}
+ ]}

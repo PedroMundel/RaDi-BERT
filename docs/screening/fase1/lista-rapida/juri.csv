@@ -1,0 +1,246 @@
+﻿chave,origem,title,year,cit,refs_s2,refs_oa
+1728cb805a9573b59330890ba9723e73d6c3c974,gabarito,Knowledge Distillation: A Survey,2020,4643,371,521
+093253653cd0b55970c390d77b75137c4095dc29,gabarito,A Survey of Quantization Methods for Efficient Neural Network Inference,2021,1717,288,421
+7e5709d81558d3ef4265de29ea75931afeb1f2dd,gabarito,Efficient Transformers: A Survey,2020,1670,101,144
+9d6acac70b2d1fdb861a08b00766ef263109cd7f,gabarito,Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks,2021,1019,0,0
+db3010eedc3a19ed1b4ae06f9006179db05f34bc,gabarito,Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks,2020,991,308,212
+e70d609ce18cd61799b087bf3a5e14c1ce70a41a,gabarito,Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey,2020,973,0,518
+a93632237958800217341d7bad847200afdd60e3,gabarito,"Efficient Deep Learning: A Survey on Making Deep Learning Models Smaller, Faster, and Better",2021,694,139,178
+7fd582680ee61f6333a23bd0374f05cd6fd3dcb4,gabarito,A comprehensive survey on model compression and acceleration,2020,542,0,157
+338d8f3b199abcebc85f34016b0162ab3a9d5310,gabarito,A Survey on Model Compression for Large Language Models,2023,511,191,132
+94db8a625418800c8ae7b48157a9cad1c8129051,gabarito,A Survey on Knowledge Distillation of Large Language Models,2024,379,374,0
+92e3b209fe9cad9078810e225f6b6b8b391f304b,gabarito,Mobile Edge Intelligence for Large Language Models: A Contemporary Survey,2024,356,277,0
+0cee098244c9978032702862a43a09f468f691a4,gabarito,Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding,2024,334,49,0
+e177f4a4b613b56564d0e9c658445c34bf39f5b6,gabarito,Model Compression for Deep Neural Networks: A Survey,2023,302,143,130
+dc1f4fedc7703289b6192994aa68505146d9a04c,gabarito,Lightweight Deep Learning for Resource-Constrained Environments: A Survey,2024,300,216,215
+b9203f3844e850ed9096bd935de336405acb905a,gabarito,"A Review on Edge Large Language Models: Design, Execution, and Applications",2024,300,164,182
+9221b5fb0f5078c168f20d952eee38bfc064fbb5,gabarito,A comprehensive review of model compression techniques in machine learning,2024,277,273,291
+5be7e6b04c5a240cff340034aae2b57c677e211f,gabarito,A Survey on Efficient Inference for Large Language Models,2024,270,285,0
+7744cb9651e1ce22922981c16455e1beabf8be0d,gabarito,Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models,2025,265,251,230
+5851121df5ce46be5faea265c868ec0beabfce96,gabarito,Efficient Large Language Models: A Survey,2023,262,0,0
+c31aaa8c395c0fb8674c4130dde51ad3d33aac4f,gabarito,Compressing Large-Scale Transformer-Based Models: A Case Study on BERT,2020,242,98,78
+dbf829c977c121c3704d070d7800d29fe5914756,gabarito,LLM Inference Unveiled: Survey and Roofline Model Insights,2024,227,218,0
+13261129251c9e8891cff02c3aee15c4df6a5630,gabarito,Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems,2023,197,282,120
+0a6906bd6f026d3da3031c641ed03081bd0b574e,gabarito,Full Stack Optimization of Transformer Inference: a Survey,2023,178,236,0
+75f9918fe00a5bf83092b989e2ed3b9ca0f10a4e,gabarito,Bringing AI To Edge: From Deep Learning's Perspective,2020,175,222,271
+fd7e88a2313e176315d99fc299277e752d7703b7,gabarito,Efficient Methods for Natural Language Processing: A Survey,2022,170,318,335
+13f07349ae44483e7f1177ab3939a5f0ee82503e,gabarito,"Adaptive Inference through Early-Exit Networks: Design, Challenges and Directions",2021,170,84,128
+8ac21a1545a907fc64b54cde36bf41415608cd7d,gabarito,A Survey of Resource-efficient LLM and Multimodal Foundation Models,2024,158,0,0
+7711774cf9f1d8683daf853b9e5773158b064980,gabarito,"Enable Deep Learning on Mobile Devices: Methods, Systems, and Applications",2022,153,363,420
+8684867e3a921ea18708ee47a6698efb1720ac7b,gabarito,Lightweight Deep Learning: An Overview,2024,131,0,108
+654c84b00777f690b3daadb1b0ed387803b5ac5c,gabarito,Hardware-Aware Neural Architecture Search: Survey and Taxonomy,2021,129,42,47
+8f29451c1c53ac5c2c837fca0305bada56aff618,gabarito,An Overview of Neural Network Compression,2020,126,232,0
+001cca7910f507f7f75b8402b826c2dc07afef00,gabarito,Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models,2024,114,0,0
+37187ceb6008d49e1758bab0d4f86bf39aa175cf,gabarito,A Survey on Green Deep Learning,2021,110,0,0
+2fe05b1f953da5dcf6ec5fe7bc72bfb3dbd9ea30,gabarito,Model Compression and Efficient Inference for Large Language Models: A Survey,2024,109,348,0
+c546e5447f412bf4f274e490996718641b211aa6,gabarito,A Survey on Model Compression and Acceleration for Pretrained Language Models,2022,103,115,136
+1e6b1e7d2959b1188b5d042d49a027cfa5de87e2,gabarito,Edge Intelligence: A Review of Deep Neural Network Inference in Resource-Limited Environments,2025,99,73,181
+47e1206e92dab07cd1b933349633d8911ac16cf1,gabarito,Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective,2024,92,182,0
+a74a20be53e5767648b5970e30b2d81a9ba8293f,gabarito,A Survey on Transformer Compression,2024,91,272,0
+a98d89f8398e3d63721e7cb8ee96325f89833d23,gabarito,Efficient Reasoning Models: A Survey,2025,88,188,0
+14e890afb429fb9b8f71670342740b393a049762,gabarito,"A survey of model compression techniques: past, present, and future",2025,86,90,126
+555fceb16c3bb3196948b43f25e39ef633f3314d,gabarito,Resource-Efficient Neural Networks for Embedded Systems,2020,84,127,0
+03277a0133cdc7c1449980a8da40fab191796f88,gabarito,Vision Transformers on the Edge: A Comprehensive Survey of Model Compression and Acceleration Strategies,2025,78,110,177
+eba5d001da830145b636a354238ca85ebb87cff9,gabarito,Deep Model Compression and Architecture Optimization for Embedded Systems: A Survey,2020,77,0,138
+6dc3b5129b8f5a36c19b6455c80774a90952ea85,gabarito,LLM Inference Serving: Survey of Recent Advances and Opportunities,2024,75,58,53
+bee5db90312bc27ce5a444ffe28c8d167fd39a7d,gabarito,A Survey of Small Language Models,2024,72,129,0
+2f066326c0d5e5ecd7dc646224272f1e13948579,gabarito,Efficient Inference for Large Reasoning Models: A Survey,2025,71,206,0
+da638f23a68d45527b0a96c5395f9632b8d7f8f7,gabarito,A Survey on Inference Optimization Techniques for Mixture of Experts Models,2024,69,221,26
+e6665dc56449f1b7d7e4e2c3db03b862b4ee02ed,gabarito,Pruning Algorithms to Accelerate Convolutional Neural Networks for Edge Applications: A Survey,2020,68,55,0
+ed959faffb12df93b289ab32b205374094788acd,gabarito,"Knowledge distillation and dataset distillation of large language models: emerging trends, challenges, and future directions",2025,62,62,116
+85f0e5973166ad5b1d9870214821b08207302cb4,gabarito,Data-Free Knowledge Transfer: A Survey,2021,60,209,0
+b2555f117ed5e0c1c883f86e040a585109e4ae10,gabarito,Faster and Lighter LLMs: A Survey on Current Challenges and Way Forward,2024,48,58,0
+636d5aa5422f69ef55678cce35f664e0f4f8eb5f,gabarito,"Resource-Efficient Convolutional Networks: A Survey on Model-, Arithmetic-, and Implementation-Level Techniques",2021,47,202,156
+09f6f6941c04859ea9fe955207cb68e43e261b36,gabarito,Efficient Neural Networks for Tiny Machine Learning: A Comprehensive Review,2023,29,210,0
+7a879eedbc677cd2309d23225d5979e70ad3ce0b,gabarito,Efficient Deep Learning Infrastructures for Embedded Computing Systems: A Comprehensive Survey and Future Envision,2024,24,80,483
+aa3be138fcb469b801309694e1b66724db889404,gabarito,Optimizing LLMs for Resource-Constrained Environments: A Survey of Model Compression Techniques,2025,23,59,0
+1cfcb0c4b8c8af1d6336ecbd1aad893dc24f67ff,gabarito,Towards Efficient Large Language Model Serving: A Survey on System-Aware KV Cache Optimization,2026,19,150,0
+07520e1a96f1cb1cf0f69a7841bd1d391ddfa71a,gabarito,From Algorithm to Hardware: A Survey on Efficient and Safe Deployment of Deep Neural Networks,2024,18,321,268
+00764884538ef7e1ef736706dfe9d5c417527899,F2,"Inference Optimizations for Large Language Models: Effects, Challenges, and Practical Considerations",2024,4,79,0
+d8efba7466198ea2f57c5cc7c779bf3e9a68fffa,F2,Trends of Modern Processors for AI Acceleration,2021,3,0,0
+446ca6492fbd08e1a84d368c8aadca583480879a,F2,"Pruning in Model Compression: Techniques, Challenges, and Future Directions",2026,0,0,0
+8c33cf149431c8665ed59bcf3cfa30d19d673968,F2,"The Evolution of Deep Learning: Models, Applications, and Future Directions",2025,10,0,48
+aae5d202717d902a97541d373df323b9ed7a7d69,F2,"Device-Cloud Collaborative Intelligent Computing: Key Problems, Methods, and Applications",2024,1,57,65
+bef5668d168642f6e8d1aceb194fe9701cd49a09,F2,A Review on Edge Intelligence for Low Power IoT Platforms,2026,0,0,0
+8869fce05b29c56a63fa80141a375e5ea6066521,F2,Efficient Inference for Vision-Language-Action Models: A Comprehensive Review of Acceleration Techniques,2025,0,0,6
+bfd151f1b8463959f834f6b5b0f4b828a762f188,F2,A SYSTEMATIC REVIEW OF PARAMETER-EFFICIENT FINE-TUNING (PEFT) IN SPEECH PROCESSING,2025,0,0,0
+18af750c64ec6aa7c363d81cf02a3e0978ab07f3,F2,"A Survey of Reinforcement Learning-Driven Knowledge Distillation: Techniques, Challenges, and Applications",2025,6,0,23
+e8881258c042da4b2f9d30dd8af8a2509974fd74,F2,Experimental Analysis of Large-scale Learnable Vector Storage Compression,2023,22,102,56
+99b04ac4893564ff8c2cc51c1a9fce7c58b6e6fb,F2,Industrial MLOps: a systematic review of architectures and implementation challenges,2026,2,54,53
+16ff264b2beb155f630621cded6e806b9dea288d,F2,A Survey of Label-Efficient Deep Learning for 3D Point Clouds,2023,57,286,259
+6296be9663780561e296491c1c8c154ee6de4c51,F2,Overview of AI-Models and Tools in Embedded IIoT Applications,2024,46,0,198
+174828b817d0d0671e2b9a368fb01b17971487c5,F2,"Tiny Language Models for Automation and Control: Overview, Potential Applications, and Future Research Directions",2025,61,153,110
+a70adfc2a2a274ac9b3cb937e88c98ab81246fe6,F2,Direct Preference Optimization toward Mobile and Edge Acceleration: A Survey,2026,0,0,10
+19fce2b85859a38d0410757ffeb4f0aef0ec165f,F2,"Artificial intelligence in embedded systems: A review of techniques, applications, and challenges",2025,0,0,0
+ec81ec64530982e229f55f4b9beaff363e6bba28,F2,Streaming Algorithms for Subspace Analysis: Comparative Review and Implementation on IoT Devices,2023,2,0,64
+bf8c7ee7b2f0b82a322c0a1de528b9002685f03c,F2,A Formula-Driven Survey and Research Agenda for On-Policy Distillation,2026,2,84,0
+7fcbc5bab23054e48d2de90f9a6b060061e4bb68,F2,A Comprehensive Review of Llm Neural Network Enhancements for Advanced Driving Assistance Systems Through Quantization,2025,2,0,16
+fb9243b26cb90c1be9daaa3fc2171018b419a816,F2,A Comprehensive Survey on Model Quantization for Deep Neural Networks,2022,24,0,175
+3ce72953cbf921fac820f55460ebac5b149fad26,F2,A Comprehensive Review on EdgeIntelligence: Architectures and Frameworks,2025,0,0,8
+d65844c99634fada47ee87b025685ce428337074,F2,FailureAtlas: A Taxonomy of Failure Modes in Multi-Provider LLM Serving Infrastructure,2026,0,4,0
+f869e73e4c196f350954394f1883e357d629fff6,F2,Label-Efficient Time Series Representation Learning: A Review,2023,42,117,109
+894ed1aba8e42a4ec27ba53ecde383b14c5128ca,F2,"Examining User-Friendly and Open-Sourced Large GPT Models: A Survey on Language, Multimodal, and Scientific GPT Models",2023,18,141,0
+58e5b7e01add535df2bafd060a2e2b11f3da7698,F2,A Survey of On-Policy Distillation for Large Language Models,2026,123,0,0
+5faee91b6bec216fb303e42dfb91ad36ff2fc099,F2,Visual Intelligence in Resource-Constrained Edge Devices: A Review of Raspberry Pi,2026,0,0,0
+740b309983eed217e27a50f2bafbc488753dd5fe,F2,A Review: Object Detection Algorithm for IoT and Edge Devices,2025,0,0,0
+1299e70819a8df0f599c0a52cad0fb8f449aa868,F2,"Mobile Edge Computing, Springer International Publishing, 2022: ISBN: 978-3-030-83944-4, 113 Pages",2022,0,0,0
+c05923de6c059a83b2ea54b510fad7c3892935dc,F2,A Comprehensive Review on Dataset Pruning for Medical Imaging,2025,1,0,24
+f92e5a91cd447c6c37854b338cc34f16dfd32702,F2,From Convolutional Neural Networks to Vision Foundation Models: A Comprehensive Review of Intelligent Evolution in Computer Vision,2025,0,0,0
+94833e7d309b25226cb49b1a13dd6dc756ee8b9c,F2,On-device large language models: a survey of model compression and system optimization,2026,5,0,0
+40c1e10a8d749cc244e591c1974a5a32a0c76ac5,F2,Operational Approaches for AI-Enabled ICT Access in Resource-Constrained Settings: A Systematic Review of Practices for Connectivity and Power Constraints,2025,0,0,12
+eafffd9e3440ebb2114d1e666258c7a9d262ca48,F2,Enhancing the MLOPS Deployment Process Using Gen AI,2024,0,21,0
+a365baa3e8fdb3b21a68dd256fceea5e4e963a6e,F2,"A survey of latent factorization of tensor-based model compression: Algorithms, toolboxes and future directions",2026,8,150,73
+fffb79b50ced3745a0ab3e07410016107197384d,F2,A Survey on Efficient Vision‐Language Models,2025,46,150,178
+92fa329f2dcaec6bab3bafff5df23d0ab8108d82,F2,Resource-efficient cyber-physical systems design: A survey,2020,9,0,219
+fb4d1cb377c7d6272a66e5f6b533522ef30a3230,F2,A Survey of Mixture of Experts Models: Architectures and Applications in Business and Finance,2025,3,0,10
+217d28bc8afac0f7895d9955fce759b11fcf750e,F2,Generative Models Reimagined: Review into Resource-Efficient Training,2025,0,0,40
+6198db7181ee040df2c83d6695f8165f04139f08,F2,"Lightweight Skin Lesion Segmentation for Edge Deployment: A Critical Review of Architectures, Accuracy Compensation, and Clinical Translation",2026,0,60,0
+1d98a9b918211e99c63a2d80dfe62325d428de9c,F2,A Review of On-Device Machine Learning for Iot: An Energy,2023,1,0,0
+053734bec67be8e59570ea75c7703965866f21b2,F2,Parameter Efficient Fine Tuning: A Comprehensive Analysis Across Applications,2024,48,47,0
+20eab2c39326db3dd6469538249f847fd4b56e62,F2,A Survey on Stability of Learning with Limited Labelled Data and its Sensitivity to the Effects of Randomness,2023,27,173,142
+a9e7a455cfcf903928140ade40e969b59a7dfb87,F2,"Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade offs",2025,16,3,0
+83823a42e94c20b45a92e3eb8576c989230bda79,F2,Adaptive and Resource-efficient Agentic AI Systems for Mobile and Embedded Devices: A Survey,2025,2,0,0
+b7f4e175141f84a8a880ae34750ceb80c582bc41,F2,Embedded Intelligence: State-of-the-Art and Research Challenges,2022,18,107,120
+20e24d0f55cee5aa4f36629f9be828f706bb68aa,F2,SELF-SUPERVISED VISION TRANSFORMERS FOR CROSS-MODAL LEARNING (REVIEW),2025,0,0,0
+062b1f6865450ab39cba02f23db20dddec6cb9ff,F2,Review On Evolution of Embedded System: Integrating Technical Roadmap and Wider Perspectives,2025,0,1,0
+3ce987394559fb2fa29a7784d708ea3b51ce0d6f,F2,"Explainable lightweight neural networks: A survey on methods, metrics, and challenges",2026,0,163,53
+199a63c55064b2a780e06c4ee431b4ad3e781e74,F2,Network for Distributed Intelligence: A Survey and Future Perspectives,2023,28,144,159
+43f2495ccbec5cdadc6c92b8439ea547583f3f2f,F2,A review of real-time object detection for sustainable edge deployment in waste sorting sites,2025,1,0,0
+53312feac354cc71eaf2e4e321c4996c4aa97227,F2,A Joint Survey in Decentralized Federated Learning and TinyML: A Brief Introduction to Swarm Learning,2024,14,137,116
+463ae7e1600951dd97879fa8ce9c332bb5e26a4d,F2,"МЕТОДИ МАШИННОГО НАВЧАННЯ В ІНТЕЛЕКТУАЛЬНИХ СИСТЕМАХ «РОЗУМНИЙ БУДИНОК»: КЛАСИФІКАЦІЯ, ПРОБЛЕМИ ТА ПЕРСПЕКТИВИ",2025,0,0,0
+a2cb3425c98f33d8dcb992c23b9e08773f20f2a7,F2,A Systematic Literature Review of Parameter-Efficient Fine-Tuning for Large Code Models,2025,15,149,70
+0362e7b88fbadd900d0e3ae1525739b035e3359c,F2,A Literature Review on Embedded Systems,2020,4,157,144
+efc50d7ee5bcd8039ba5d686d7d943be3ff199b0,F2,Efficient multimodal large language models: a survey,2024,148,211,30
+51d723aeef146a415693ca2671eaa072f0a86c2a,reserva-hardware,Research on Efficient Fine-tuning of Large Language Model Parameters for Text Classification: A Review from Gradient Descent Basics to LoRA/QLoRA Methods,2026,0,0,0
+9330f590fd3d6ad417773d67925b2f09ce7d8e7b,reserva-hardware,On-Device Small Language Model Inference Acceleration for Real-Time Robotics: A Survey,2026,0,0,3
+ee642f04527e7c3964ef63444806e25ca5bfe6d7,reserva-hardware,AI Compilation and Hardware-Software Co-Design for Resource-Constrained Edge Devices: A Brief Review,2026,0,0,0
+a845f684f4af5e688250b126a02de8ab630da26d,reserva-hardware,A Survey on the Optimization of Neural Network Accelerators for Micro-AI On-Device Inference,2021,69,112,157
+3b62644272dc3a8c3f4698e29aa5d55cbc19e660,reserva-hardware,Model Quantization and Hardware Acceleration for Vision Transformers: A Comprehensive Survey,2024,24,81,0
+e30231d8798bd485de7391e2b8d9784347df5897,reserva-hardware,A Survey on Sparsity Exploration in Transformer-Based Accelerators,2023,18,17,40
+ce1fcdf7c602355110444e8028c5fb7337b38806,reserva-hardware,A Survey on the Green Development of Large Models: From Resource-Efficient Architectures to Hardware-Software Co-Design,2026,4,178,0
+f2dbdeba82c0786f885cce59d058d6bd89bc58ae,reserva-hardware,Model Compression and Hardware-Aware Acceleration for Deep Learning on FPGAs: A Co-Design Taxonomy and Comparative Analysis,2026,0,109,0
+949c0941d4c57482318afa28f2c8eb82569fb401,reserva-hardware,Pruning and Quantization for Deep Neural Network Acceleration: A Survey,2021,1012,265,393
+6bcd708d2e49b34f34f157daa6bf1c3e062f57c5,reserva-hardware,A Survey on Large Language Model Acceleration based on KV Cache Management,2024,166,317,0
+2273a3c9de32afa1818e6e8988684f6353af2b7c,reserva-hardware,A Comprehensive Survey on Hardware-Aware Neural Architecture Search,2021,154,197,0
+f3cc616030e26d742475a89e61c6fa76e6521465,reserva-hardware,Lightweight and Optimization Acceleration Methods for Vision Transformer: A Review,2022,14,0,56
+2eeca645f116c531c8cbc69593ae76a746e2fbb9,reserva-hardware,Sparsity-Aware Hardware-Software Co-Design of Spiking Neural Networks: An Overview,2024,6,61,61
+7879d6828039f43e9ee89895108019eed0219df8,reserva-hardware,Beyond FLOPs: Benchmarking Real Inference Acceleration of LLM Pruning under a GEMM-Centric Taxonomy,2026,2,30,0
+6559f17a3e4aaa83cbf55ab2f8c0657056399288,reserva-hardware,"AI-on-Chip Systems: A Cross-Layer Review of Architectures, Interconnects, Design Automation, and Embedded Intelligence",2026,1,54,79
+370af9a05bd9983cf9e6a271fe0903a83fdf5587,reserva-hardware,"A survey on edge multimodal large models: compression, inference acceleration, and applications",2026,1,72,95
+65c1198bbcd95d54ffe161ae9490668b6373d0d3,reserva-hardware,Edge-TSFM: A Systematic Review and Deployment Decision Framework for Time-Series Foundation Models on Resource-Constrained IoT Hardware,2026,0,0,0
+fe11c3d9d616e0f7f23b1898744a015b58786aed,reserva-hardware,A Systematic Literature Review on Machine Learning Techniques for Enhancing Embedded Hardware Reliability,2025,0,0,0
+89b8fdfeeb580a0de20d96ba06aa53a4979e62d4,reserva-hardware,Bit-level sparsity deep earning accelerator embedded with the binary neural network: a survey,2023,0,0,0
+b1880a6f50ee47c14b723887149751a544ddc29c,reserva-hardware,"Quantum-Accelerated Artificial Intelligence for Edge Devices: A Review of Encodings, Models, Hybrid Architectures, and NISQ-Era Realities",2026,0,97,98
+f702cc70de22d861b87d3d11f310658ae2518109,reserva-hardware,A Comprehensive Review on Hardware Accelerator for YOLO Model Using Sparse Data,2026,0,78,82
+9bef9cce55a091087d22fb7d2370bd5d1fc73402,reserva-hardware,"Edge AI: Embedded Intelligence, a Review on Hardware and Applications",2026,0,10,20
+1206ccdce4f721462b5e185c9b2414b5f8f13116,reserva-hardware,Efficient Acceleration of Deep Learning Inference on Resource-Constrained Edge Devices: A Review,2023,404,3,475
+730353ede6bf5a1a478fe2e44d34b9436ca48a1c,reserva-hardware,Hardware Acceleration of Sparse and Irregular Tensor Computations of ML Models: A Survey and Insights,2020,116,346,417
+c92bfdc198057faa9b7039a3331ed1efe43d7cbe,reserva-hardware,"A Review of Embedded Machine Learning Based on Hardware, Application, and Sensing Scheme",2023,79,177,186
+877b2bb3d212e0dd33a60611a3b7c18cfe1b7ba5,reserva-hardware,Hardware-assisted Machine Learning in Resource-constrained IoT Environments for Security: Review and Future Prospective,2022,74,167,182
+66b1d57a96cebb361096ae2005837664bc98c7df,reserva-hardware,"A Survey of Low-bit Large Language Models: Basics, Systems, and Algorithms",2024,45,83,0
+e4d41358b1d31507532bd40509948fc4f1c9a94f,reserva-hardware,A survey of FPGA and ASIC designs for transformer inference acceleration and optimization,2024,45,0,109
+0ddd0a9efca3be9a242fcb6b220539deab783cfe,reserva-hardware,Embedded Deep Learning Accelerators: A Survey on Recent Advances,2024,45,0,70
+9914ff9a2202e32a07cb55d628ab259fd930b644,reserva-hardware,An Overview of Energy-Efficient Hardware Accelerators for On-Device Deep-Neural-Network Training,2021,41,0,99
+bb9b789795041047c8b1f4bfc2a5fab9a3b32c59,reserva-hardware,A Survey on Hardware Accelerator Design of Deep Learning for Edge Devices,2024,23,0,80
+8c583208f3dd4e50f3d56f036eacf4bc58dec5b8,reserva-hardware,"A survey of low-bit large language models: Basics, systems, and algorithms",2025,17,0,67
+21fcf0e6e28b9dc80044539cf212ee122e49c71a,reserva-hardware,Review of Energy-Efficient Embedded System Acceleration of Convolution Neural Networks for Organic Weeding Robots,2023,9,23,50
+70c3c8b5475f1860cb1b37297f0d34465038e155,reserva-hardware,A survey on versatile embedded Machine Learning hardware acceleration,2025,7,0,57
+30ec02483beed9f26c2116cc2ed264350ea2222e,reserva-hardware,A Survey of Deep Model Compression and Acceleration,2024,3,0,57
+4854b41a8591383ab3c23c9af514ff19f9e64e00,reserva-hardware,"Design and Optimization of Efficient Digital Machine Learning Accelerators: An overview of architecture choices, efficient quantization, sparsity exploration, and system integration techniques",2025,2,0,32
+78b6b09e4c1ff709e0d557b22a0fa6cdee148af6,reserva-hardware,A Survey of Quantization in LLM: Unlocking Potential Hardware Efficiency,2026,2,0,20
+cc14b203e875f8685aed846e9eb7fb6789e19d08,reserva-hardware,Model quantization for computing-in-memory: a survey,2025,2,0,67
+b0f6d636c2297fa6ce4a82629960b261dd193ab4,reserva-hardware,AI Model Inference and Deployment Optimization for Heterogeneous Intelligent Embedded Systems—A Survey and Perspective from Model Lightweighting to System-Level Acceleration,2025,1,0,14
+03adda6b79a442267ecca206414a4a5fa8770437,reserva-hardware,Accelerating Masked Diffusion Large Language Models: A Survey of Efficient Inference Techniques,2026,0,59,0
+ece9c068600fc72ae624eb0917048046c2fffc32,reserva-hardware,"Neural Network Quantization for FPGA: A Unified Taxonomy and Survey of Methods, Platforms, and Deployment",2026,0,0,43
+efc5807e3f0e625ecaa6885003d56d2d044a170d,reserva-hardware,GPU-Accelerated Sparse Matrix-Dense Matrix Multiplication for Graph Neural Networks: A Comprehensive Survey,2026,0,62,0
+674eee8ffa3a9533cef5e3067357fce49e952a4b,reserva-hardware,"Embedded Vision for the Internet of Things: A Survey on State-of-the-Art Hardware, Software, and Deep Learning Models",2022,0,0,69
+725dfca367ab60cd3e253b2ea9390fe5360b0179,reserva-hardware,"The Ultimate Guide to Fine-Tuning LLMs from Basics to Breakthroughs: An Exhaustive Review of Technologies, Research, Best Practices, Applied Research Challenges and Opportunities",2024,153,0,0
+1c210a207aceee3430c78d91300dada979c4fd67,reserva-hardware,Hardware Acceleration for Neural Networks: A Comprehensive Survey,2025,9,56,0
+538e63f0e6d23c1998a2e3d50bfbeb442eb8cc88,reserva-hardware,"Accelerating Deep Learning Inference for Brain Tumor Segmentation: A Review of Architectures, Frameworks, and Clinical Translation",2026,0,53,36
+8e21a084552ab19c1f11e29d49bae66b48fb00a1,reserva-hardware,Accelerating Neural Network Inference on FPGA-Based Platforms—A Survey,2021,80,105,97
+2a5547cfc5c3379b4b3cc7064adcbc942936671b,reserva-hardware,Survey of Deep Learning Accelerators for Edge and Emerging Computing,2024,31,48,124
+54098e299a1672a0f0a27e0affa8e600690164f3,reserva-hardware,Recent Developments in Low-Power AI Accelerators: A Survey,2022,25,95,91
+d08b64614c68e9e505db131638d7d62e244d172f,reserva-hardware,Design Space Exploration for Edge Machine Learning Featured by MathWorks FPGA DL Processor: A Survey,2024,22,14,21
+1107363fc2acf13f5bf5168af5f9042a07bd0a8e,reserva-hardware,Hardware-friendly compression and hardware acceleration for transformer: A survey,2022,13,72,61
+ea69a6fa5793b5bb84951ad50b65c0d5d9b709da,reserva-hardware,A Survey on Binary and Ternary Neural Networks and Their Realization in Compute-in-Memory for Edge Intelligence,2026,6,155,120
+126d80c27cbb1078dc9992f314c9eba9f007fdf9,reserva-hardware,Comprehensive Review on the Exploitation of Advanced Memory Optimization Strategies to Improve Performance for Convolutional and Spiking Neural Networks in Medical Imaging Using Hardware Accelerators,2025,6,5,3
+4d5ad15d73b8571f18776dfc61939bda88ade6c7,reserva-hardware,An Overview of Arithmetic Adaptations for Inference of Convolutional Neural Networks on Re-configurable Hardware,2025,2,17,0
+4e497deecbea20fa078aa3359f5b258f6e158c38,reserva-hardware,"Spiking Neural Networks for Log-Based Anomaly Detection: A Survey, Taxonomy, and Roadmap on Energy-Efficient Neuromorphic Log Analysis",2026,0,125,0
+1ebd35eb369119de8d80d237d297f555ee50a253,reserva-hardware,FPGA Design Optimization Techniques for Deep Neural Networks in ECG Signal Classification: A Review,2025,0,0,22
+22cc6ad4fdfa8d317151d436f86b4efe137b9532,reserva-hardware,An Overview of Multilevel Co-Design for AI Accelerator: From Fundamentals to the Frontier,2026,0,203,0
+c481d596eaebe47e2d54dd4904a44df78f22a0db,reserva-hardware,Hardware accelerators for neural networks: a review of the current state and prospects for development,2026,0,0,0
+04149acf9650c0781e5023df97f8e794c9d9cc3f,reserva-hardware,Review on Hardware Accelerator Hardware Software Co-Design for Machine Learning,2025,0,0,20
+0ca2f701b229817a014f038f808347f38c55a4b8,reserva-hardware,A Comprehensive Review of Ultra-Low Power Fpga-Based Architectures for Edge Ai in Wearable Health Monitoring Systems,2026,0,0,21
+bca447b0692fd4bd37019f0c600bbfdc42e0a4da,reserva-hardware,A hardware-grounded energy taxonomy for comparing deep and Spiking Neural Network inference on edge platforms,2026,0,21,26
+2e92728e393538304555e48a8d7532daf5ebabd4,reserva-hardware,Computing Graph Neural Networks: A Survey from Algorithms to Accelerators,2020,295,205,228
+0c8a4edb0035e3ef942645b3f9879b6d883343aa,reserva-hardware,Machine Learning for Microcontroller-Class Hardware: A Review,2022,249,244,338
+9365d464f67ba829ae18db0d260755720a0920b1,reserva-hardware,A Survey on Efficient Convolutional Neural Networks and Hardware Acceleration,2022,192,25,120
+f3a590e97d5281d51c86b3fa00daff26af3121c7,reserva-hardware,An Updated Survey of Efficient Hardware Architectures for Accelerating Deep Convolutional Neural Networks,2020,160,95,101
+45944b3c377ff174d969a36c9a5b4fdba6d3ac5a,reserva-hardware,Neural Architecture Search Survey: A Hardware Perspective,2022,114,146,164
+6128f9b2635da3a360f623baae37abf4c4aadd18,reserva-hardware,Efficient Hardware Architectures for Accelerating Deep Neural Networks: Survey,2022,113,178,198
+886e4ac7a73bfc89649e76a1077ec207e57a3fc7,reserva-hardware,Soft errors in DNN accelerators: A comprehensive review,2020,103,0,184
+c7e9fbee2100d294906a64132220e9db4abb6f2c,reserva-hardware,A Survey on Neural Network Hardware Accelerators,2024,94,0,101
+1a3baa49aafba91a189e6908810b7400cc49ce43,reserva-hardware,Custom Hardware Architectures for Deep Learning on Portable Devices: A Review,2021,73,0,145
+65912c5422959d45540d5e7d6e9e9ea5767475bf,reserva-hardware,A survey of accelerator architectures for 3D convolution neural networks,2021,50,0,46
+b0bd66188b0b32acf3f64fe3bb20cad592f5a468,reserva-hardware,A Comprehensive Survey on Training Acceleration for Large Machine Learning Models in IoT,2021,49,0,360
+31375f872b2b2acc22a0d5e362e29808d8e6d1dd,reserva-hardware,Spiking neural networks on FPGA: A survey of methodologies and recent advancements,2025,42,0,309
+7bcc4aef957f92cf7f4d9873de13edf7b26a98a7,reserva-hardware,Neural Architecture Search and Hardware Accelerator Co-Search: A Survey,2021,39,167,247
+c561519732afb58524cd79c8b73bd623f98fcd57,reserva-hardware,Advancements in Accelerating Deep Neural Network Inference on AIoT Devices: A Survey,2024,38,0,162
+8b87273d36beb800d521f60e87ab0271e8078cf0,reserva-hardware,Efficiency Versus Accuracy: A Review of Design Techniques for DNN Hardware Accelerators,2021,32,54,70
+1db56242dde8baf4e00cb835514d3387f67ddeee,reserva-hardware,A Survey Comparing Specialized Hardware And Evolution In TPUs For Neural Networks,2020,31,0,25
+43acaf16fc0fb64f9b80dcc08bd52851df55846d,reserva-hardware,A survey on FPGA-based accelerator for ML models,2024,26,0,0
+587409af7215ff4f0d1cc38b1d968e242cb0c423,reserva-hardware,Accelerating Deep Neural Networks implementation: A survey,2021,26,109,64
+c8b8b39d4dde31bcebebd08a21d8f08521a8b24a,reserva-hardware,Modeling and simulating in-memory memristive deep learning systems: An overview of current efforts,2021,21,61,86
+d6f98e73e92ee7d592a0e451e35280fadc33cc0a,reserva-hardware,Dataflow & Tiling Strategies in Edge-AI FPGA Accelerators: A Comprehensive Literature Review,2025,9,10,0
+8e6bce83f4cc76f968d620c03ed4c002f90f3549,reserva-hardware,A Survey on LUT-based Deep Neural Networks Implemented in FPGAs,2025,6,21,0
+1e4f00e21a7b9263c539d98a30811abd7c430af0,reserva-hardware,"Energy efficiency of AI hardware: a systematic review of GPU, TPU, and NPU architectures in the LLM era",2026,1,57,65
+6bf4e4e3a9dd6f743aea7d66e36dfed1fd9761c6,reserva-hardware,Overview Of Tensor Layout In Modern Neural Network Accelerator,2021,1,0,3
+fc78ac08c45a56a8eae471d9fa0a994693f59f65,reserva-hardware,The Deep Neural Network Compilers for FPGAs: A Survey,2023,1,0,2
+bba6551bfb29c3480a53608266b80f25812d40cc,reserva-hardware,Revolutionising Ai Deployment: Survey On Hardware Acceleration for Machine Learning Optimisation and Resilience,2024,1,40,0
+90d09d299ff5e28e29dd6b7b97cbdfb6bbe28d6a,reserva-hardware,Recent developments in Transformer inference deployment on FPGA platforms: A survey,2026,0,60,12
+5bf844ba7c06fd9f02d543dce2e037420a90d7b5,reserva-hardware,Architectural Design and Performance Analysis of FPGA based AI Accelerators: A Comprehensive Review,2026,0,133,0
+3efcfb61632c50278668c002c5dcd3f8164a6cc2,reserva-hardware,FPGA-Based Deep Learning Processor: A Review,2026,0,0,0
+55a01895e97f368eb5fad99eb7fa714d238e5537,reserva-hardware,In-Memory Computing Elements for Energy-Efficiency Optimization in Deep Neural Network Inference: A Literature Review,2025,0,0,0
+8533bb16c2976ac6b836f9ef8a739fd57108cf91,reserva-hardware,A Review of FPGA-Driven LLM Acceleration,2025,0,0,16
+3a4ced4c88feff38a8b118480ac02c3eb1a42e6f,reserva-hardware,Deep Learning and Optimization Approaches in Hardware Efficient CNN Architecture Design using Decoder-Based Low Power Approximate Multiplier and Error Reduced Carry Prediction Approximate Adder for MNIST Dataset Classification: A Review,2025,0,0,0
+545e6352d7e73b84379aa4f7df3b3e05678d0d4a,reserva-hardware,Hardware Support for Trustworthy Machine Learning: A Survey,2024,0,30,33
+761b09ba3102f8756c1b93c0fa12ad8312f9f0c0,reserva-hardware,"Generative AI at the Edge: A Comprehensive Survey of Architectures, Hardware and Applications",2026,0,132,29
+bb4ef92529bfcb56798517355a72df44e808b32a,reserva-hardware,"Harnessing Computing Power for Machine Learning and Deep Learning: An In-Depth Review of Hardware, CUDA Core Architectures and their Impact on Performance",2026,0,0,28
+d2ec33cfa344ec1663eabd9e1584dda0a866df8e,reserva-hardware,FPGA-Based Reconfigurable SoCs for Safety-Critical AI Inference: A Systematic Literature Review,2026,0,0,57
+1751a0527b49ff0e93428c5d9c26aaf198ad93a3,reserva-hardware,Optimization and acceleration of convolutional neural networks: A survey,2020,159,78,111
+dbdd71f0d482d6ffc2f6b045bc2aa3b26fa39e5f,reserva-hardware,In-Memory Computing in Emerging Memory Technologies for Machine Learning: An Overview,2020,94,0,44
+a9da29b69c029087d45cb098acc83df942c8762f,reserva-hardware,Artificial Intelligence in the IoT Era: A Review of Edge AI Hardware and Software,2022,71,0,73
+06c2bb0878a6d1a4736a45837cc638be54d0daf7,reserva-hardware,An Overview of Processing-in-Memory Circuits for Artificial Intelligence and Machine Learning,2022,70,65,64
+c97ed6b64aeb84c36f0d98aee92fd4745d3f78f7,reserva-hardware,Closed-Loop Neural Prostheses with On-Chip Intelligence: A Review and A Low-Latency Machine Learning Model for Brain State Detection,2021,69,133,139
+6fd9736031162cbb433deb454622d0e735641840,reserva-hardware,RTL to Transistor Level Power Modeling and Estimation Techniques for FPGA and ASIC: A Survey,2020,52,0,104
+f7bc5be4cc305f70b36456a959d7b95669b48ac2,reserva-hardware,Memory Is All You Need: An Overview of Compute-in-Memory Architectures for Accelerating Large Language Model Inference,2024,50,57,0
+cb4b60b2efdfe22ec9162a633cfb27894c919721,reserva-hardware,Intelligent transportation systems: A survey on modern hardware devices for the era of machine learning,2021,40,121,164
+f464f48169dd30869662fd7e4e89e6b0a2ba0628,reserva-hardware,Survey of convolutional neural network accelerators on field-programmable gate array platforms: architectures and optimization techniques,2024,32,0,78
+1c5fdeceb2d4be61cd689631cd03e14c67492de0,reserva-hardware,A Comprehensive Review of Processing-in-Memory Architectures for Deep Neural Networks,2024,28,51,48
+a31eb47126317d83ab481ba8457216e9174ab673,reserva-hardware,Optimizing Neural Networks for Efficient FPGA Implementation: A Survey,2021,25,0,72
+3955054d16fdb937b84a01e35819dade35f10f35,reserva-hardware,Hardware Acceleration of LLMs: A comprehensive survey and comparison,2024,21,49,0
+79628873ecb15f39a26c033e5f40972582cb249a,reserva-hardware,A Survey of Algorithmic and Hardware Optimization Techniques for Vision Convolutional Neural Networks on FPGAs,2021,15,0,168
+c0f2e87e2244a83278462799ce90bbb0bfb2cbef,reserva-hardware,A comparative review of deep and spiking neural networks for edge AI neuromorphic circuits,2025,15,29,28
+62efcd132ce7d705d1a06b99477b55bedc188bac,reserva-hardware,Trends and Challenges in Computing-in-Memory for Neural Network Model: A Review From Device Design to Application-Side Optimization,2024,14,112,120
+8913f294bf951a5a722747b03160fe6d3ab809cc,reserva-hardware,An overview memristor based hardware accelerators for deep neural network,2024,13,0,202
+faef4ca295ac9075fe19e335cfb98516e079742d,reserva-hardware,Brief overview of Edge AI accelerators for energy-constrained edge,2022,13,0,9
+c404e740af95d84d6685400b5f60b6163032a006,reserva-hardware,Neural Networks Implementations on FPGA for Biomedical Applications: A Review,2024,8,0,136
+3e2f3cb018945acde502dc1738a87f41085af051,reserva-hardware,Interfacing Neuromorphic Hardware with Machine Learning Frameworks - A Review,2023,5,37,39
+ae0e4e20993f524567587d8d65359b28333c5864,reserva-hardware,Review of Analog Neuron Devices for Hardware-based Spiking Neural Networks,2022,5,0,0
+c7e36b6f5e872fb00c9e42913e3a4d15ee22c9fa,reserva-hardware,Efficient Hardware Implementations of Deep Neural Networks: A Survey,2020,5,0,26
+455b24003bee1f3beec5db4ef917a6d2591be879,reserva-hardware,"FPGA-Accelerated ECG Analysis: Narrative Review of Signal Processing, ML/DL Models, and Design Optimizations",2026,4,0,0
+60fca10c555e72858db5eefd9a34f1780ab216f0,reserva-hardware,Review of Optimal Convolutional Neural Network Accelerator Platforms for Mobile Devices,2022,3,0,0
+bc2745d00cfef06d1b64523f7bd90bf2d80a1f3f,reserva-hardware,A Review of FPGA Accelerated Computing Methods for YOLO Models,2024,3,33,11
+48ab3d2055c17ca316de5f5f0a1b4aed562962e7,reserva-hardware,A Survey of Field Programmable Gate Array-Based Convolutional Neural Network Accelerators,2020,2,0,0
+5defbdbcf4a7733ad9b1ff619a5ba15f9b1d2b85,reserva-hardware,A Survey on Accelerated Technologies for Mixture-of-Experts Model Training Systems,2026,1,35,43
+907549fb68e1468cbce15ad67c559b64a607283b,reserva-hardware,A Survey on FPGA-based Deep Neural Network Accelerators,2021,1,0,0
+1913efa4d49680a76aa1926c54d15e6f0010d289,reserva-hardware,"Chip Architecture for AI - A Comprehensive Survey of Design Principles, Technologies, and Implementations",2024,1,0,27
+1eab24c5536a39e7fda76af9401b7aec490f0535,reserva-hardware,The Fault in Our Chips: A Survey on Edge AI Accelerator Vulnerabilities,2026,1,0,23
+ARXIV:2107.00092,reserva-hardware,From DNNs to GANs: Review of efficient hardware architectures for deep learning,2021,,44,0
+ARXIV:2410.07265,reserva-hardware,A Survey: Collaborative Hardware and Software Design in the Era of Large Language Models,2024,,217,0
+ARXIV:2504.16173,reserva-hardware,FPGA-Based Neural Network Accelerators for Space Applications: A Survey,2025,,116,0
+7344a185917c226f3001013ce77736b0c6994387,reserva-hardware,A Review on FPGA-Based Optimization and Applications of Deep Learning Convolutional Neural Networks,2024,0,0,0
+73e491c7629206b472a53a1fdbc68d7614033146,reserva-hardware,A comprehensive review on ReRAM-based accelerators for deep learning,2023,0,0,32
+80795a70dc9339647cef2b916986c4c20c8dc86a,reserva-hardware,"GPU and RISC-V acceleration for neuromorphic computing based on spiking neural networks: taxonomy, comparison, and open challenges",2026,0,0,0
+fdc28f5cd9e30eae1d00884929a4b4e49eeadb31,reserva-hardware,MACHINE LEARNING TECHNIQUES FOR POWER AND PERFORMANCE OPTIMIZATION IN MOBILE SYSTEM-ON-CHIPS: A SURVEY,2025,0,6,23
+ff4168caefc4421b7d3f206292275c15eb8c2e23,reserva-hardware,A review on hardware accelerators for convolutional neural network-based inference engines: Strategies for performance and energy-efficiency enhancement,2025,5,0,95

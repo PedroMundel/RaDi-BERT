@@ -1,0 +1,28 @@
+{"id": "16", "titulo": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter", "ano": 2019,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "abstract; introdução (p.1-2); seção 2 knowledge distillation (p.2); seção 3 arquitetura e treino do DistilBERT (p.2-3); seção 4 experimentos, tabelas 1-4, on-device (p.3-4); seção 5 related work (p.4); conclusão (p.5)", "paginas": "1 a 5 (obra inteira, 5 páginas)"},
+ "resumo": "O artigo propõe destilar BERT já na fase de pré-treino, e não só no ajuste fino como os trabalhos anteriores, usando uma perda tripla que combina cross-entropy com os alvos suaves do professor, a perda de masked language modeling e uma perda de distância de cosseno entre os estados ocultos. O aluno, DistilBERT, mantém a arquitetura do BERT mas com metade das camadas, inicializadas tomando uma camada a cada duas do professor. O resultado é 40% menor e 60% mais rápido na inferência, retendo 97% do desempenho do BERT no GLUE, com resultados próximos no IMDb e no SQuAD. O estudo de ablação mostra que as duas perdas de destilação sustentam a maior parte do ganho e que a inicialização a partir do professor é o fator isolado mais importante. Os autores demonstram viabilidade on-device com um aplicativo de perguntas e respostas em iPhone e liberam pesos e código pela biblioteca Transformers da Hugging Face.",
+ "perguntas": {
+   "P1": {"r": "não", "por": "não organiza a área em categorias; apresenta um único método (seção 3) e cita trabalhos relacionados em poucas frases soltas (seção 5, p.4), sem taxonomia."},
+   "P2": {"r": "sim", "por": "explica o mecanismo da perda tripla, a temperatura do softmax e por que a inicialização por camadas alternadas importa (seção 2-3, p.2, e ablação da Tabela 4, p.4)."},
+   "P3": {"r": "parcial", "por": "situa a destilação em Bucila et al. 2006 e Hinton et al. 2015 numa frase (seção 2, p.2), mas não narra a evolução da linha."},
+   "P6": {"r": "sim", "por": "abre a linha de destilação de modelos de linguagem gerais (não task-específicos) já no pré-treino, aplicada a Transformers/BERT — origem da família 'distil-' (p.1-2)."},
+   "P4a": {"r": "parcial", "por": "libera pesos e código treinado via HuggingFace Transformers e mostra demo on-device em iPhone (seção 4.1, p.3, nota de rodapé 5), mas não é um sistema ou benchmark de infraestrutura em si."},
+   "P4b": {"r": "sim", "por": "é inteiramente sobre destilação de conhecimento aplicada ao pré-treino de um encoder (seção 2-3, p.2-3)."},
+   "V": {"r": "sim", "por": "define destilação, professor/aluno, alvos suaves, temperatura do softmax e a perda tripla com notação própria (seção 2, p.2)."},
+   "A": {"r": "não", "por": "é de 2019, era pré-LLM (BERT/GLUE), antes de modelos de bilhões de parâmetros e da era dos LLMs generativos."},
+   "R": {"r": "sim", "por": "trata explicitamente de um encoder-only (BERT): remove token-type embeddings e pooler, reduz o número de camadas pela metade (seção 3, p.2)."}
+ },
+ "termos_chave": ["knowledge distillation", "teacher/student", "soft targets", "softmax temperature", "triple loss", "cosine embedding loss (Lcos)", "masked language modeling (Lmlm)", "on-device inference"],
+ "pre_requisitos": ["BERT e pré-treino por masked language modeling", "arquitetura Transformer e atenção", "cross-entropy e softmax", "transfer learning / fine-tuning em NLP", "benchmark GLUE", "noção geral de destilação de conhecimento (Hinton 2015)"],
+ "nivel": "introdutório",
+ "nivel_por": "é curto (5 páginas), direto e didático; assume que o leitor já conhece BERT, mas o mecanismo em si (perda tripla, inicialização) é simples de acompanhar e bem ilustrado por tabelas.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "seção 2, p.2 (mecanismo da destilação) + seção 3, p.2-3 (arquitetura e inicialização do aluno) + Tabela 3, p.3 (tamanho e velocidade) + Tabela 4, p.4 (ablação).",
+ "acrescimo": "é o único item da lista que mostra destilação aplicada a um encoder-only pré-treinado (BERT) em escala de pré-treino inteiro, com perda tripla e inicialização por camadas alternadas; concretiza em Transformer/NLP o que 03 (survey) e 15 (Hinton, fundador geral) tratam de forma mais abstrata ou genérica.",
+ "sobreposicao": ["MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices", "Distilling the Knowledge in a Neural Network", "Knowledge Distillation: A Survey"],
+ "bloco_atual": "B fundadores", "bloco_sugerido": "B fundadores",
+ "veredito": "manter", "veredito_por": "é o marco que popularizou a destilação de pré-treino para modelos de linguagem gerais compactos, gerando toda uma família ('distil-'); conciso, didático e complementa os fundadores mais gerais de destilação mostrando a instância em Transformer/NLP.", "substituto_sugerido": "", "confianca": "alta",
+ "citacoes": [
+   {"texto": "it is possible to reduce the size of a BERT model by 40%, while retaining 97% of its language understanding capabilities and being 60% faster", "pagina": "1"},
+   {"texto": "Pruning and quantization are orthogonal to the present work.", "pagina": "4"}
+ ]}

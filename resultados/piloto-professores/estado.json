@@ -1,0 +1,8 @@
+{
+  "batch_id": "msgbatch_013JKrdwE7T122imLFDRJETk",
+  "models": {
+    "haiku": "claude-haiku-5-5",
+    "sonnet": "claude-sonnet-5-5"
+  },
+  "n": 2000
+}

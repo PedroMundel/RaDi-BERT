@@ -1,0 +1,783 @@
+{
+ "01": {
+  "titulo": "Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+  "bloco": "A mapas",
+  "divisao": "hardware",
+  "ano": "2017",
+  "arxiv": "1703.09039",
+  "doi": "10.1109/JPROC.2017.2761740",
+  "acesso": "texto completo",
+  "paginas": 32,
+  "caracteres": 174489,
+  "rotas": [
+   "arXiv 1703.09039: ok"
+  ]
+ },
+ "02": {
+  "titulo": "Model Compression and Hardware Acceleration for Neural Networks: A Comprehensive Survey",
+  "bloco": "A mapas",
+  "divisao": "compressão (geral)",
+  "ano": "2020",
+  "arxiv": "",
+  "doi": "10.1109/JPROC.2020.2976475",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": [
+   "S2 PDF aberto https://doi.org/10.1109/jproc.2020.2976475: falhou",
+   "OpenAlex: sem PDF aberto"
+  ]
+ },
+ "03": {
+  "titulo": "Knowledge Distillation: A Survey",
+  "bloco": "A mapas",
+  "divisao": "destilação",
+  "ano": "2020",
+  "arxiv": "2006.05525",
+  "doi": "10.1007/s11263-021-01453-z",
+  "acesso": "texto completo",
+  "paginas": 36,
+  "caracteres": 166026,
+  "rotas": [
+   "arXiv 2006.05525: ok"
+  ]
+ },
+ "04": {
+  "titulo": "A Survey of Quantization Methods for Efficient Neural Network Inference",
+  "bloco": "A mapas",
+  "divisao": "quantização",
+  "ano": "2021",
+  "arxiv": "2103.13630",
+  "doi": "10.1201/9781003162810-13",
+  "acesso": "texto completo",
+  "paginas": 33,
+  "caracteres": 141819,
+  "rotas": [
+   "arXiv 2103.13630: ok"
+  ]
+ },
+ "05": {
+  "titulo": "Pruning and Quantization for Deep Neural Network Acceleration: A Survey",
+  "bloco": "A mapas",
+  "divisao": "poda e esparsidade",
+  "ano": "2021",
+  "arxiv": "2101.09671",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 41,
+  "caracteres": 228864,
+  "rotas": [
+   "arXiv 2101.09671: ok"
+  ]
+ },
+ "06": {
+  "titulo": "A Review of Sparse Expert Models in Deep Learning",
+  "bloco": "A mapas",
+  "divisao": "computação condicional",
+  "ano": "2022",
+  "arxiv": "2209.01667",
+  "doi": "10.48550/arXiv.2209.01667",
+  "acesso": "texto completo",
+  "paginas": 23,
+  "caracteres": 82393,
+  "rotas": [
+   "arXiv 2209.01667: ok"
+  ]
+ },
+ "07": {
+  "titulo": "Efficient Transformers: A Survey",
+  "bloco": "A mapas",
+  "divisao": "atenção e sequência eficientes",
+  "ano": "2020",
+  "arxiv": "2009.06732",
+  "doi": "10.1145/3530811",
+  "acesso": "texto completo",
+  "paginas": 39,
+  "caracteres": 108159,
+  "rotas": [
+   "arXiv 2009.06732: ok"
+  ]
+ },
+ "08": {
+  "titulo": "A Comprehensive Survey of Neural Architecture Search",
+  "bloco": "A mapas",
+  "divisao": "arquitetura eficiente e NAS",
+  "ano": "2020",
+  "arxiv": "2006.02903",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 33,
+  "caracteres": 128652,
+  "rotas": [
+   "arXiv 2006.02903: ok"
+  ]
+ },
+ "09": {
+  "titulo": "Parameter-Efficient Fine-Tuning for Large Models: A Comprehensive Survey",
+  "bloco": "A mapas",
+  "divisao": "ajuste eficiente (PEFT)",
+  "ano": "2024",
+  "arxiv": "2403.14608",
+  "doi": "10.48550/arXiv.2403.14608",
+  "acesso": "texto completo",
+  "paginas": 25,
+  "caracteres": 162336,
+  "rotas": [
+   "arXiv 2403.14608: ok"
+  ]
+ },
+ "10": {
+  "titulo": "Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems",
+  "bloco": "A mapas",
+  "divisao": "inferência e serving",
+  "ano": "2023",
+  "arxiv": "2312.15234",
+  "doi": "10.1145/3754448",
+  "acesso": "texto completo",
+  "paginas": 35,
+  "caracteres": 157577,
+  "rotas": [
+   "arXiv 2312.15234: ok"
+  ]
+ },
+ "11": {
+  "titulo": "A Survey on Model Compression for Large Language Models",
+  "bloco": "A mapas",
+  "divisao": "compressão de LLM",
+  "ano": "2023",
+  "arxiv": "2308.07633",
+  "doi": "10.1162/tacl_a_00704",
+  "acesso": "texto completo",
+  "paginas": 22,
+  "caracteres": 90560,
+  "rotas": [
+   "arXiv 2308.07633: ok"
+  ]
+ },
+ "12": {
+  "titulo": "LLM Inference Unveiled: Survey and Roofline Model Insights",
+  "bloco": "A mapas",
+  "divisao": "inferência e serving",
+  "ano": "2024",
+  "arxiv": "2402.16363",
+  "doi": "10.48550/arXiv.2402.16363",
+  "acesso": "texto completo",
+  "paginas": 38,
+  "caracteres": 193762,
+  "rotas": [
+   "arXiv 2402.16363: ok"
+  ]
+ },
+ "13": {
+  "titulo": "Empowering Edge Intelligence: A Comprehensive Survey on On-Device AI Models",
+  "bloco": "A mapas",
+  "divisao": "edge e on-device",
+  "ano": "2025",
+  "arxiv": "2503.06027",
+  "doi": "10.1145/3724420",
+  "acesso": "texto completo",
+  "paginas": 42,
+  "caracteres": 185380,
+  "rotas": [
+   "arXiv 2503.06027: ok"
+  ]
+ },
+ "14": {
+  "titulo": "Model compression",
+  "bloco": "B fundadores",
+  "divisao": "destilação",
+  "ano": "2006",
+  "arxiv": "",
+  "doi": "10.1145/1150402.1150464",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": [
+   "OpenAlex: sem PDF aberto"
+  ]
+ },
+ "15": {
+  "titulo": "Distilling the Knowledge in a Neural Network",
+  "bloco": "B fundadores",
+  "divisao": "destilação",
+  "ano": "2015",
+  "arxiv": "1503.02531",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 9,
+  "caracteres": 33920,
+  "rotas": [
+   "arXiv 1503.02531: ok"
+  ]
+ },
+ "16": {
+  "titulo": "DistilBERT, a distilled version of BERT: smaller, faster, cheaper and lighter",
+  "bloco": "B fundadores",
+  "divisao": "destilação",
+  "ano": "2019",
+  "arxiv": "1910.01108",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 5,
+  "caracteres": 18628,
+  "rotas": [
+   "arXiv 1910.01108: ok"
+  ]
+ },
+ "17": {
+  "titulo": "XNOR-Net: ImageNet Classification Using Binary Convolutional Neural Networks",
+  "bloco": "B fundadores",
+  "divisao": "quantização",
+  "ano": "2016",
+  "arxiv": "1603.05279",
+  "doi": "10.1007/978-3-319-46493-0_32",
+  "acesso": "texto completo",
+  "paginas": 17,
+  "caracteres": 48277,
+  "rotas": [
+   "arXiv 1603.05279: ok"
+  ]
+ },
+ "18": {
+  "titulo": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+  "bloco": "B fundadores",
+  "divisao": "quantização",
+  "ano": "2022",
+  "arxiv": "2210.17323",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 16,
+  "caracteres": 56880,
+  "rotas": [
+   "arXiv 2210.17323: ok"
+  ]
+ },
+ "19": {
+  "titulo": "SmoothQuant: Accurate and Efficient Post-Training Quantization for Large Language Models",
+  "bloco": "B fundadores",
+  "divisao": "quantização",
+  "ano": "2022",
+  "arxiv": "2211.10438",
+  "doi": "10.48550/arXiv.2211.10438",
+  "acesso": "texto completo",
+  "paginas": 13,
+  "caracteres": 56789,
+  "rotas": [
+   "arXiv 2211.10438: ok"
+  ]
+ },
+ "20": {
+  "titulo": "Optimal Brain Damage",
+  "bloco": "B fundadores",
+  "divisao": "poda e esparsidade",
+  "ano": "1989",
+  "arxiv": "",
+  "doi": "",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": []
+ },
+ "21": {
+  "titulo": "Deep Compression: Compressing Deep Neural Network with Pruning, Trained Quantization and Huffman Coding",
+  "bloco": "B fundadores",
+  "divisao": "poda e esparsidade",
+  "ano": "2015",
+  "arxiv": "1510.00149",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 14,
+  "caracteres": 45155,
+  "rotas": [
+   "arXiv 1510.00149: ok"
+  ]
+ },
+ "22": {
+  "titulo": "The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks",
+  "bloco": "B fundadores",
+  "divisao": "poda e esparsidade",
+  "ano": "2018",
+  "arxiv": "1803.03635",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 42,
+  "caracteres": 134506,
+  "rotas": [
+   "arXiv 1803.03635: ok"
+  ]
+ },
+ "23": {
+  "titulo": "SparseGPT: Massive Language Models Can Be Accurately Pruned in One-Shot",
+  "bloco": "B fundadores",
+  "divisao": "poda e esparsidade",
+  "ano": "2023",
+  "arxiv": "2301.00774",
+  "doi": "10.48550/arXiv.2301.00774",
+  "acesso": "texto completo",
+  "paginas": 14,
+  "caracteres": 62648,
+  "rotas": [
+   "arXiv 2301.00774: ok"
+  ]
+ },
+ "24": {
+  "titulo": "Exploiting Linear Structure Within Convolutional Networks for Efficient Evaluation",
+  "bloco": "B fundadores",
+  "divisao": "fatoração de baixo posto",
+  "ano": "2014",
+  "arxiv": "1404.0736",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 11,
+  "caracteres": 35746,
+  "rotas": [
+   "arXiv 1404.0736: ok"
+  ]
+ },
+ "25": {
+  "titulo": "Low-rank matrix factorization for Deep Neural Network training with high-dimensional output targets",
+  "bloco": "B fundadores",
+  "divisao": "fatoração de baixo posto",
+  "ano": "2013",
+  "arxiv": "",
+  "doi": "10.1109/ICASSP.2013.6638949",
+  "acesso": "texto completo",
+  "paginas": 5,
+  "caracteres": 23490,
+  "rotas": [
+   "S2 PDF aberto http://vikas.sindhwani.org/lowRank.pdf: ok"
+  ]
+ },
+ "26": {
+  "titulo": "LoRA: Low-Rank Adaptation of Large Language Models",
+  "bloco": "B fundadores",
+  "divisao": "ajuste eficiente (PEFT)",
+  "ano": "2021",
+  "arxiv": "2106.09685",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 26,
+  "caracteres": 83256,
+  "rotas": [
+   "arXiv 2106.09685: ok"
+  ]
+ },
+ "27": {
+  "titulo": "QLoRA: Efficient Finetuning of Quantized LLMs",
+  "bloco": "B fundadores",
+  "divisao": "ajuste eficiente (PEFT)",
+  "ano": "2023",
+  "arxiv": "2305.14314",
+  "doi": "10.48550/arXiv.2305.14314",
+  "acesso": "texto completo",
+  "paginas": 26,
+  "caracteres": 88357,
+  "rotas": [
+   "arXiv 2305.14314: ok"
+  ]
+ },
+ "28": {
+  "titulo": "Outrageously Large Neural Networks: The Sparsely-Gated Mixture-of-Experts Layer",
+  "bloco": "B fundadores",
+  "divisao": "computação condicional",
+  "ano": "2017",
+  "arxiv": "1701.06538",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 19,
+  "caracteres": 64342,
+  "rotas": [
+   "arXiv 1701.06538: ok"
+  ]
+ },
+ "29": {
+  "titulo": "Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity",
+  "bloco": "B fundadores",
+  "divisao": "computação condicional",
+  "ano": "2021",
+  "arxiv": "2101.03961",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 40,
+  "caracteres": 101344,
+  "rotas": [
+   "arXiv 2101.03961: ok"
+  ]
+ },
+ "30": {
+  "titulo": "DeeBERT: Dynamic Early Exiting for Accelerating BERT Inference",
+  "bloco": "B fundadores",
+  "divisao": "computação condicional",
+  "ano": "2020",
+  "arxiv": "2004.12993",
+  "doi": "10.18653/v1/2020.acl-main.204",
+  "acesso": "texto completo",
+  "paginas": 6,
+  "caracteres": 22405,
+  "rotas": [
+   "arXiv 2004.12993: ok"
+  ]
+ },
+ "31": {
+  "titulo": "Reformer: The Efficient Transformer",
+  "bloco": "B fundadores",
+  "divisao": "atenção e sequência eficientes",
+  "ano": "2020",
+  "arxiv": "2001.04451",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 12,
+  "caracteres": 39009,
+  "rotas": [
+   "arXiv 2001.04451: ok"
+  ]
+ },
+ "32": {
+  "titulo": "Mamba: Linear-Time Sequence Modeling with Selective State Spaces",
+  "bloco": "B fundadores",
+  "divisao": "atenção e sequência eficientes",
+  "ano": "2023",
+  "arxiv": "2312.00752",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 36,
+  "caracteres": 135788,
+  "rotas": [
+   "arXiv 2312.00752: ok"
+  ]
+ },
+ "33": {
+  "titulo": "Fast Transformer Decoding: One Write-Head is All You Need",
+  "bloco": "B fundadores",
+  "divisao": "inferência e serving",
+  "ano": "2019",
+  "arxiv": "1911.02150",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 9,
+  "caracteres": 21581,
+  "rotas": [
+   "arXiv 1911.02150: ok"
+  ]
+ },
+ "34": {
+  "titulo": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "bloco": "B fundadores",
+  "divisao": "inferência e serving",
+  "ano": "2022",
+  "arxiv": "2205.14135",
+  "doi": "10.52202/068431-1189",
+  "acesso": "texto completo",
+  "paginas": 34,
+  "caracteres": 109551,
+  "rotas": [
+   "arXiv 2205.14135: ok"
+  ]
+ },
+ "35": {
+  "titulo": "Fast Inference from Transformers via Speculative Decoding",
+  "bloco": "B fundadores",
+  "divisao": "inferência e serving",
+  "ano": "2022",
+  "arxiv": "2211.17192",
+  "doi": "10.48550/arXiv.2211.17192",
+  "acesso": "texto completo",
+  "paginas": 13,
+  "caracteres": 47406,
+  "rotas": [
+   "arXiv 2211.17192: ok"
+  ]
+ },
+ "36": {
+  "titulo": "MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications",
+  "bloco": "B fundadores",
+  "divisao": "arquitetura eficiente e NAS",
+  "ano": "2017",
+  "arxiv": "1704.04861",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 9,
+  "caracteres": 35804,
+  "rotas": [
+   "arXiv 1704.04861: ok"
+  ]
+ },
+ "37": {
+  "titulo": "FBNet: Hardware-Aware Efficient ConvNet Design via Differentiable Neural Architecture Search",
+  "bloco": "B fundadores",
+  "divisao": "arquitetura eficiente e NAS",
+  "ano": "2018",
+  "arxiv": "1812.03443",
+  "doi": "10.1109/CVPR.2019.01099",
+  "acesso": "texto completo",
+  "paginas": 10,
+  "caracteres": 46078,
+  "rotas": [
+   "arXiv 1812.03443: ok"
+  ]
+ },
+ "38": {
+  "titulo": "MobileBERT: a Compact Task-Agnostic BERT for Resource-Limited Devices",
+  "bloco": "B fundadores",
+  "divisao": "arquitetura eficiente e NAS",
+  "ano": "2020",
+  "arxiv": "2004.02984",
+  "doi": "10.18653/v1/2020.acl-main.195",
+  "acesso": "texto completo",
+  "paginas": 13,
+  "caracteres": 50681,
+  "rotas": [
+   "arXiv 2004.02984: ok"
+  ]
+ },
+ "39": {
+  "titulo": "DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning",
+  "bloco": "B fundadores",
+  "divisao": "hardware",
+  "ano": "2014",
+  "arxiv": "",
+  "doi": "10.1145/2541940.2541967",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": [
+   "OpenAlex: sem PDF aberto"
+  ]
+ },
+ "40": {
+  "titulo": "Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks",
+  "bloco": "B fundadores",
+  "divisao": "hardware",
+  "ano": "2016",
+  "arxiv": "",
+  "doi": "10.1109/JSSC.2016.2616357",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": [
+   "OpenAlex: sem PDF aberto"
+  ]
+ },
+ "41": {
+  "titulo": "EIE: Efficient Inference Engine on Compressed Deep Neural Network",
+  "bloco": "B fundadores",
+  "divisao": "hardware",
+  "ano": "2016",
+  "arxiv": "1602.01528",
+  "doi": "10.1145/3007787.3001163",
+  "acesso": "texto completo",
+  "paginas": 12,
+  "caracteres": 61560,
+  "rotas": [
+   "arXiv 1602.01528: ok"
+  ]
+ },
+ "42": {
+  "titulo": "In-datacenter performance analysis of a tensor processing unit",
+  "bloco": "B fundadores",
+  "divisao": "hardware",
+  "ano": "2017",
+  "arxiv": "1704.04760",
+  "doi": "10.1145/3079856.3080246",
+  "acesso": "texto completo",
+  "paginas": 17,
+  "caracteres": 77412,
+  "rotas": [
+   "arXiv 1704.04760: ok"
+  ]
+ },
+ "43": {
+  "titulo": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs",
+  "bloco": "B fundadores",
+  "divisao": "hardware",
+  "ano": "2024",
+  "arxiv": "2401.03868",
+  "doi": "10.1145/3626202.3637562",
+  "acesso": "texto completo",
+  "paginas": 12,
+  "caracteres": 69112,
+  "rotas": [
+   "arXiv 2401.03868: ok"
+  ]
+ },
+ "44": {
+  "titulo": "Quantization and Training of Neural Networks for Efficient Integer-Arithmetic-Only Inference",
+  "bloco": "B fundadores",
+  "divisao": "edge e on-device",
+  "ano": "2017",
+  "arxiv": "1712.05877",
+  "doi": "10.1109/CVPR.2018.00286",
+  "acesso": "texto completo",
+  "paginas": 14,
+  "caracteres": 52395,
+  "rotas": [
+   "arXiv 1712.05877: ok"
+  ]
+ },
+ "45": {
+  "titulo": "Attention is All you Need",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "2017",
+  "arxiv": "1706.03762",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 15,
+  "caracteres": 39818,
+  "rotas": [
+   "arXiv 1706.03762: ok"
+  ]
+ },
+ "46": {
+  "titulo": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "2019",
+  "arxiv": "1810.04805",
+  "doi": "10.18653/v1/N19-1423",
+  "acesso": "texto completo",
+  "paginas": 16,
+  "caracteres": 64459,
+  "rotas": [
+   "arXiv 1810.04805: ok"
+  ]
+ },
+ "47": {
+  "titulo": "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "2019",
+  "arxiv": "1910.10683",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 67,
+  "caracteres": 207848,
+  "rotas": [
+   "arXiv 1910.10683: ok"
+  ]
+ },
+ "48": {
+  "titulo": "Language Models are Few-Shot Learners",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "2020",
+  "arxiv": "2005.14165",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 75,
+  "caracteres": 238310,
+  "rotas": [
+   "arXiv 2005.14165: ok"
+  ]
+ },
+ "49": {
+  "titulo": "LLaMA: Open and Efficient Foundation Language Models",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "2023",
+  "arxiv": "2302.13971",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 27,
+  "caracteres": 88455,
+  "rotas": [
+   "arXiv 2302.13971: ok"
+  ]
+ },
+ "50": {
+  "titulo": "Long Short-Term Memory",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "1997",
+  "arxiv": "",
+  "doi": "10.1162/neco.1997.9.8.1735",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": [
+   "OpenAlex: sem PDF aberto"
+  ]
+ },
+ "51": {
+  "titulo": "A Survey of Large Language Models",
+  "bloco": "C conceitos",
+  "divisao": "",
+  "ano": "2023",
+  "arxiv": "2303.18223",
+  "doi": "10.1007/s11704-026-60308-3",
+  "acesso": "texto completo",
+  "paginas": 144,
+  "caracteres": 863469,
+  "rotas": [
+   "arXiv 2303.18223: ok"
+  ]
+ },
+ "52": {
+  "titulo": "PyTorch: An Imperative Style, High-Performance Deep Learning Library",
+  "bloco": "D sistemas",
+  "divisao": "",
+  "ano": "2019",
+  "arxiv": "1912.01703",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 12,
+  "caracteres": 40146,
+  "rotas": [
+   "arXiv 1912.01703: ok"
+  ]
+ },
+ "53": {
+  "titulo": "TVM: An Automated End-to-End Optimizing Compiler for Deep Learning",
+  "bloco": "D sistemas",
+  "divisao": "",
+  "ano": "2018",
+  "arxiv": "",
+  "doi": "",
+  "acesso": "sem texto completo",
+  "paginas": 0,
+  "caracteres": 0,
+  "rotas": []
+ },
+ "54": {
+  "titulo": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+  "bloco": "D sistemas",
+  "divisao": "inferência e serving",
+  "ano": "2023",
+  "arxiv": "2309.06180",
+  "doi": "10.1145/3600006.3613165",
+  "acesso": "texto completo",
+  "paginas": 16,
+  "caracteres": 82350,
+  "rotas": [
+   "arXiv 2309.06180: ok"
+  ]
+ },
+ "55": {
+  "titulo": "TensorFlow Lite Micro: Embedded Machine Learning on TinyML Systems",
+  "bloco": "D sistemas",
+  "divisao": "edge e on-device",
+  "ano": "2020",
+  "arxiv": "2010.08678",
+  "doi": "",
+  "acesso": "texto completo",
+  "paginas": 12,
+  "caracteres": 58454,
+  "rotas": [
+   "arXiv 2010.08678: ok"
+  ]
+ },
+ "56": {
+  "titulo": "FINN: A Framework for Fast, Scalable Binarized Neural Network Inference",
+  "bloco": "D sistemas",
+  "divisao": "hardware",
+  "ano": "2016",
+  "arxiv": "1612.07119",
+  "doi": "10.1145/3020078.3021744",
+  "acesso": "texto completo",
+  "paginas": 10,
+  "caracteres": 57579,
+  "rotas": [
+   "arXiv 1612.07119: ok"
+  ]
+ }
+}

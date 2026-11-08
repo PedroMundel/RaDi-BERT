@@ -1,0 +1,220 @@
+﻿[
+  {
+    "id": "F0201",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This survey distills"},
+      {"item": "objeto", "texto": "the probabilistic foundations and edge-oriented techniques that turn preference learning into an accelerator"},
+      {"item": "tecnica", "texto": "Direct Preference Optimization (DPO) and related RL-free methods recast alignment as density-ratio shaping"},
+      {"item": "pratica", "texto": "covering reference-light objectives, compression- and quantization-aware training, and privacy-preserving, real-world deployments"}
+    ]
+  },
+  {
+    "id": "F0202",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0203",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This review takes a critical look at the newer IoT-based DDoS detection methods with the attention to Federated Learning (FL), Explainable Artificial Intelligence (XAI), and lightweight machine learning (ML) methods"},
+      {"item": "objeto", "texto": "Among the industries that have been revolutionized by the new development of the Internet of Things (IoT) are healthcare, industry, and smart cities"},
+      {"item": "modelos", "texto": "lightweight ML models including Support Vector Machines (SVM) and K-Nearest Neighbors (KNN)"},
+      {"item": "tecnica", "texto": "FL-integrated deep learning methods, such as FL-XAI frameworks and FL-LSTM models"},
+      {"item": "pratica", "texto": "these results indicate that lightweight ML models are the most viable choice in real-time IoT setups, and federated and explainable frameworks are promising the scalability, privacy-aware, and explainable IoT security systems"}
+    ]
+  },
+  {
+    "id": "F0206",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0208",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This paper serves as an in-depth survey of text classification and machine learning"},
+      {"item": "objeto", "texto": "The automated classification of texts into predefined categories has become increasingly prominent"},
+      {"item": "tecnica", "texto": "It delves into various TC tasks and contrasts machine learning methodologies with knowledge engineering approaches"},
+      {"item": "pratica", "texto": "Key applications of TC are explored, alongside an analysis of critical machine learning methods, including document representation techniques and dimensionality reduction strategies"}
+    ]
+  },
+  {
+    "id": "F0212",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "In this paper, we make a comprehensive overview of the current state of research in KG completion"},
+      {"item": "objeto", "texto": "Many mathematical models have been leveraged to design embeddings for representing Knowledge Graph (KG) entities and relations for link prediction and many downstream tasks"},
+      {"item": "tecnica", "texto": "we focus on two main branches of KG embedding (KGE) design: 1) distance-based methods and 2) semantic matching-based methods"},
+      {"item": "modelos", "texto": "CompoundE and CompoundE3D, which draw inspiration from 2D and 3D affine operations"}
+    ]
+  },
+  {
+    "id": "F0213",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This review explores the evolution, techniques, hardware platforms, and application domains of embedded AI"},
+      {"item": "objeto", "texto": "The convergence of Artificial Intelligence (AI) and embedded systems has revolutionized modern electronic engineering"},
+      {"item": "modelos", "texto": "TinyML, federated learning, and hybrid models"},
+      {"item": "pratica", "texto": "Real-world deployments across agriculture, healthcare, automotive, IIoT, robotics, and smart cities are discussed, with emphasis on privacy-aware, real-time, and energy-efficient implementations"}
+    ]
+  },
+  {
+    "id": "F0214",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Review-driven structural induction alleviates sparsity in conversational recommendation"},
+      {"item": "tecnica", "texto": "LLM-distilled review semantics are grounded as entities to densify hypergraph structures"},
+      {"item": "modelos", "texto": "LLM"},
+      {"item": "pratica", "texto": "Item-centric hypergraph learning supports joint recommendation and response generation"}
+    ]
+  },
+  {
+    "id": "F0218",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0219",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "Here, we present a classification and a comparison of these methods"},
+      {"item": "objeto", "texto": "Subspace analysis (SA) is a widely used technique for coping with high-dimensional data"},
+      {"item": "tecnica", "texto": "specialized streaming algorithms have been developed, allowing SA to be run on low-power devices, such as sensors or edge devices"},
+      {"item": "pratica", "texto": "we test the implementation of these algorithms on common hardware platforms typically employed for sensors and edge devices"}
+    ]
+  },
+  {
+    "id": "F0220",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "To develop an efficient and domain-adapted system to process colonoscopy and pathology reports using knowledge distillation techniques"},
+      {"item": "tecnica", "texto": "knowledge distillation framework to create a smaller, domain-specific large language models-based natural language processing model"},
+      {"item": "modelos", "texto": "large language models-based natural language processing model"},
+      {"item": "pratica", "texto": "The distilled model reported high domain-specific performance, achieving 95.2% accuracy (95% CI, 93.9%-96.5%), 0.95 precision, and a 31.5% improvement in inference speed relative to the teacher model"}
+    ]
+  },
+  {
+    "id": "F0222",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0223",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This paper reviews image kinds and compression strategies"},
+      {"item": "objeto", "texto": "Image compression is data compression applied to digital images"},
+      {"item": "tecnica", "texto": "Images can be compressed in several ways"}
+    ]
+  },
+  {
+    "id": "F0224",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This study stands out by presenting a systematic review"},
+      {"item": "objeto", "texto": "Diabetic retinopathy, often resulting from conditions like diabetes and hypertension, is a leading cause of blindness globally"},
+      {"item": "modelos", "texto": "vision transformers"},
+      {"item": "tecnica", "texto": "The distinctive feature of this Systematic Literature Review (SLR) lies in its thorough investigation of computationally efficient approaches and models for DR detection"},
+      {"item": "pratica", "texto": "It sheds light on the incorporation of vision transformers into deep learning models, highlighting their significant contribution to improving accuracy"}
+    ]
+  },
+  {
+    "id": "F0225",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "this article summarizes the literature methods for different CD tasks and the available strategies and techniques to train and deploy DL-based CD methods in sample-limited scenarios"},
+      {"item": "objeto", "texto": "the rapid development of deep learning (DL) has made it possible to perform automatic, accurate, and robust Change Detection (CD) on large volumes of Remote Sensing Images (RSIs)"},
+      {"item": "modelos", "texto": "Deep Neural Network (DNN)"},
+      {"item": "tecnica", "texto": "recent advancements in image generation, self-supervision, and visual foundation models (VFMs) have opened up new approaches to address the 'data-hungry' issue of DL-based CD"}
+    ]
+  },
+  {
+    "id": "F0227",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This work surveys the basic concepts in FL"},
+      {"item": "objeto", "texto": "Federated Learning (FL) is a new machine learning (ML) paradigm where multiple parties jointly train a model without sharing each other's raw data"},
+      {"item": "modelos", "texto": "horizontal FL, vertical FL, and federated transfer learning"},
+      {"item": "pratica", "texto": "FL is fitting for applications in healthcare, finance, edge computing, and IoT devices as it is able to maintain privacy-aware AI development"}
+    ]
+  },
+  {
+    "id": "F0228",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This paper provides a structured survey of recent studies applying convolutional neural networks (CNNs) such as YOLO and EfficientDet to resource-constrained edge environments"},
+      {"item": "objeto", "texto": "The convergence of Internet of Things (IoT) technologies with lightweight deep learning models has opened new opportunities for wildlife monitoring"},
+      {"item": "modelos", "texto": "YOLOv8 and YOLOv9"},
+      {"item": "pratica", "texto": "Results show that YOLOv8 and YOLOv9 consistently achieve state-of-the-art accuracy (mAP >90%) but they are limited by high power demands, while EfficientDet Lite and hybrid EfficientDet + MobileNet pipelines offer superior performance-per-watt, sustaining 6–10 FPS on Raspberry Pi devices with significantly lower energy cost"}
+    ]
+  },
+  {
+    "id": "F0229",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This paper reviews such integrated systems, explores their benefits, and examines their implications for maritime applications"},
+      {"item": "objeto", "texto": "Embedded AI systems, when integrated with Edge Computing, enable real-time processing and data analytics on-board maritime operations"},
+      {"item": "modelos", "texto": "Convolutional Neural Networks, particularly YOLO"},
+      {"item": "pratica", "texto": "Results indicate that embedded AI systems significantly improve operational efficiency and enable new capabilities in maritime applications, particularly in autonomous vehicle operations and real-time monitoring systems"}
+    ]
+  },
+  {
+    "id": "F0232",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0233",
+    "acesso": "ok",
+    "frases": [
+      {"item": "objeto", "texto": "Sentiment analysis has become an important task in natural language processing for understanding public opinions expressed in online reviews"},
+      {"item": "tecnica", "texto": "a hybrid approach is proposed that combines the VADER sentiment analysis tool with the lightweight DistilBERT transformer model"},
+      {"item": "modelos", "texto": "Longformer architecture"},
+      {"item": "pratica", "texto": "Experimental results show that the model achieves an accuracy of 77.06%, a weighted F1-score of 72.17%, and a Matthews Correlation Coefficient (MCC) of 0.6232"}
+    ]
+  },
+  {
+    "id": "F0234",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This article presents a comprehensive review of 23 research studies published between 2020 and 2025"},
+      {"item": "objeto", "texto": "early detection of lung disease is a very important step to improve the effectiveness of treatment"},
+      {"item": "modelos", "texto": "SqueezeNet"},
+      {"item": "tecnica", "texto": "lightweight architecture in deep learning"},
+      {"item": "pratica", "texto": "it can be seen that SqueezeNet applied on public COVID-19 datasets is the best basic architecture with high accuracy, and the number of parameters is 570 thousand, which is very low"}
+    ]
+  },
+  {
+    "id": "F0236",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This survey studies OPD as a feedback-to-update problem"},
+      {"item": "objeto", "texto": "On-policy distillation (OPD) trains an LLM on states induced by the current or recent student policy"},
+      {"item": "modelos", "texto": "LLM"},
+      {"item": "tecnica", "texto": "direct distributional losses and policy-gradient-style log-ratio updates"}
+    ]
+  },
+  {
+    "id": "F0238",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "a hybrid approach is proposed that combines the VADER sentiment analysis tool with the lightweight DistilBERT transformer model"},
+      {"item": "objeto", "texto": "This paper investigates the integration of sentiment analysis into emotion classification models applied to user reviews"},
+      {"item": "modelos", "texto": "DistilBERT"},
+      {"item": "pratica", "texto": "Experimental results reveal that enabling sentiment analysis significantly improves model performance, achieving an accuracy of 98.50%, precision of 91.50%, recall of 92.00%, and F1 score of 91.75%"}
+    ]
+  },
+  {
+    "id": "F0239",
+    "acesso": "ok",
+    "frases": [
+      {"item": "tipo", "texto": "This is a survey paper that covers the latest developments in this particular area of operator quantization"},
+      {"item": "objeto", "texto": "Deep learning models, particularly Large Language Models (LLMs), have shown high degrees of complexity in recent years"},
+      {"item": "modelos", "texto": "Large Language Models (LLMs)"},
+      {"item": "tecnica", "texto": "Gradient-based Post-Training Quantization (GPTQ), Generalized Gradient Update Framework (GGUF), and Adaptive Weight Quantization (AWQ)"},
+      {"item": "pratica", "texto": "the brand new Full Self-Driving technology developed by Tesla, whose processing speeds reach over 100 frames per second and with more than 85 % accuracy"}
+    ]
+  }
+]

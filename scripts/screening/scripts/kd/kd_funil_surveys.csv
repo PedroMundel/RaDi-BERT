@@ -1,0 +1,90 @@
+﻿title,year,cit,camada_C_F1,s2,arxiv
+Knowledge Distillation: A Survey,2020,4643,ligada,1728cb805a9573b59330890ba9723e73d6c3c974,2006.05525
+Distilling Knowledge via Knowledge Review,2021,701,ligada,463c3e13c2d6fb3148bb2a1f0328b484d8a353f9,2104.09044
+A Survey on Knowledge Distillation of Large Language Models,2024,379,ligada,94db8a625418800c8ae7b48157a9cad1c8129051,2402.13116
+A Survey on Knowledge Distillation: Recent Advancements,2024,179,ligada,666cf681250c00dea344f591a17bba002e464e8f,
+"Survey on Knowledge Distillation for Large Language Models: Methods, Evaluation, and Application",2024,141,ligada,f7a90d58bb512db47d1051506c2829ef3dcb376b,2407.01885
+A Survey of On-Policy Distillation for Large Language Models,2026,123,ligada,58e5b7e01add535df2bafd060a2e2b11f3da7698,2604.00626
+Knowledge Distillation on Graphs: A Survey,2023,103,ligada,a3deac1770cf78578ca08f81b5181449d864fff2,2302.00219
+A Comprehensive Survey on Knowledge Distillation,2025,97,ligada,a0227e2bcf8f81196a65d6ea1d1ff288bd61d8c4,2503.12067
+Continual Learning With Knowledge Distillation: A Survey,2024,75,ligada,fc73c872cc0ffc71549cbc678d6ca23ccf2618c3,
+Teacher-Student Architecture for Knowledge Distillation: A Survey,2023,66,ligada,7114785273eb81a09daa128fba66ec8910149bc4,2308.04268
+A Comprehensive Survey on Knowledge Distillation of Diffusion Models,2023,61,ligada,773d045cca5cf3f67013ea4c7133ce64380d669d,2304.04262
+A Survey on Symbolic Knowledge Distillation of Large Language Models,2024,44,ligada,0291e9bf06c80904c26ebb3d4d8e2d981483b715,2408.10210
+"Knowledge distillation and teacher-student learning in medical imaging: Comprehensive overview, pivotal role, and future directions",2025,44,ligada,34dfdaf402c38f41af9248850b823b3962dbd5a4,
+Knowledge Distillation In Medical Data Mining: A Survey,2021,28,ligada,6952bccf287a824abbd0abad4692ec101f23fb02,
+Improving the Learning of Code Review Successive Tasks with Cross-Task Knowledge Distillation,2024,24,solta (desce),6fdc28beb6ba7ff47d1be0616c597f92736d9a8c,2402.02063
+Distilling Hypernymy Relations from Language Models: On the Effectiveness of Zero-Shot Taxonomy Induction,2022,18,ligada,96abd358d291a69be5f822be7bfda6eba2f6c4d8,2202.04876
+Learning from Committee: Reasoning Distillation from a Mixture of Teachers with Peer-Review,2024,17,golden,ac18249936ca1a1b302d5e8a053dd29ecbc2f176,2410.03663
+Graph-based Knowledge Distillation: A survey and experimental evaluation,2023,15,ligada,cb5fdc106ecee0bf90091e0468c1a7388b6eb923,2302.14643
+Efficient Transformer Knowledge Distillation: A Performance Review,2023,14,ligada,ca83ab4a4379b6ab6bf4ce128bc4ba74977b2b4d,2311.13657
+Distilling Wisdom: A Review on Optimizing Learning From Massive Language Models,2025,12,ligada,10aa1d85e938dad29b214f513ff975f1f734dbd9,
+Taxonomy Adaptive Cross-Domain Adaptation in Medical Imaging via Optimization Trajectory Distillation,2023,12,solta (desce),39aed00aa60add541e26663b14695196d006d75d,2307.14709
+Application of Artificial Neural Network in Distillation System: A Critical Review of Recent Progress,2021,12,solta (desce),dab2f858e5aa76b9719c4e16a8d1dc9814b50818,
+An Overview of Uncertainty Calibration for Text Classification and the Role of Distillation,2021,10,solta (desce),7f16b512f9cfce8c2cc31fd59492924b3ef6d597,
+"A Comprehensive Review of Knowledge Distillation- Methods, Applications, and Future Directions",2024,10,ligada,9e63ab709370ef2084805ab6b72dd2621e60b9ca,
+Machine-based mosquito taxonomy with a lightweight network-fused efficient dual ConvNet with residual learning and Knowledge Distillation,2022,9,ligada,3cea699093e26eecc17ff283c4d08956346d8c2b,
+A Survey on Application of Knowledge Distillation in Healthcare Domain,2023,9,ligada,fa14b85ac81585349b1cc34c47953d851776c8f2,
+Bert Distillation to Enhance the Performance of Machine Learning Models for Sentiment Analysis on Movie Review Data,2022,8,ligada,359b2a2bf9748316fa20905adb91212e130488fa,
+Automating mosquito taxonomy by compressing and enhancing a feature fused EfficientNet with knowledge distillation and a novel residual skip block,2023,8,ligada,9973ca700ad37aefc7a1b0cbb6005faffeee8ca8,
+"A Survey of Adaptation of Large Language Models to Idea and Hypothesis Generation: Downstream Task Adaptation, Knowledge Distillation Approaches and Challenges",2025,8,ligada,d0c3a1164fdc8aa3b8351436fb6e7467a36de5ed,
+Knowledge Distillation Based Recommendation Systems: A Comprehensive Survey,2025,7,ligada,0a5ba4049f4eda75c25c371f7effede4fcee9ee5,
+Distilling Quality Enhancing Comments From Code Reviews to Underpin Reviewer Recommendation,2024,7,ligada,269b9417e8aa362fb2cc9047f62b83e68fc1a3ad,
+Review of Artificial Neural Network and Its Application Research in Distillation,2021,7,solta (desce),3f8796bf3eb8c6e6c243b0fb678e064b16eb1c3a,
+"A systematic review of knowledge distillation in industrial predictive maintenance: Applications, methods and challenges",2025,7,ligada,52da05438c43a6800de5854d75aeec22774de021,
+"A Survey of Reinforcement Learning-Driven Knowledge Distillation: Techniques, Challenges, and Applications",2025,6,solta recente (2025-26),18af750c64ec6aa7c363d81cf02a3e0978ab07f3,
+A Brief Overview: On-Policy Self-Distillation In Large Language Models,2026,6,ligada,71c6a9c75df75add894a421e4f2ea7faf315baaf,2605.18141
+Reducing Capacity Gap in Knowledge Distillation with Review Mechanism for Crowd Counting,2022,5,solta (desce),f38fc179c3a1cff98db259210e92ebd38248f3e8,2206.05475
+Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True Distillation,2024,5,ligada,c16537c742c8b6b2da6a6cef78f3c2f4a5468a9f,
+Domain Generalization via Switch Knowledge Distillation for Robust Review Representation,2023,5,ligada,f105bf7e9eb5274587a83cfc60b3663228702009,
+Agent-in-the-loop to distill expert knowledge into artificial intelligence models: a survey,2025,5,ligada,ff5ea56c797820d21bd2300eaebf6239272220e8,
+Unity is Strength: Cross-Task Knowledge Distillation to Improve Code Review Generation,2023,4,solta (desce),132dadc4c62c74a7174aa21ccaaa0fc2d7d92fc0,2309.03362
+Theoretical Perspectives on Knowledge Distillation: A Review,2025,4,ligada,8b5ee7630db80534d68c4d6f7d6e89cca6711b1d,
+A Selective Survey on Versatile Knowledge Distillation Paradigm for Neural Network Models,2020,3,ligada,7a112f5cd2b4eb2eb0bf0b9a1c414d6e2190c3e0,2011.14554
+Self-Knowledge Distillation and Its Application: A Survey,2026,3,ligada,fa21c8c17eacd6dace81a3281f2fd995b866591a,
+[Re] Distilling Knowledge via Knowledge Review,2022,3,ligada,01db18293fff2a0b1e6f3030e2a7c89133b9b089,2205.11246
+Knowledge Distillation Using Deep Learning Techniques: A Survey,2024,2,ligada,4e5797a8128811558c84031e50bb5fc9b493a1ff,
+A Formula-Driven Survey and Research Agenda for On-Policy Distillation,2026,2,ligada,bf8c7ee7b2f0b82a322c0a1de528b9002685f03c,2606.22793
+KD4MT: A Survey of Knowledge Distillation for Machine Translation,2026,2,ligada,1682bc41796af7f0af440f655aa978c9f2ddfc2b,2602.15845
+Distilling Desired Comments for Enhanced Code Review with Large Language Models,2024,2,sem dado de citação,a11c38e5c2516af787f46763589832c9bbb48153,2412.20340
+Advancements in hybrid controllers and new era models of distillation column: A review,2021,2,solta (desce),99705f88e606d0507b439ffcaaad79dc7804500d,
+Densifying Knowledge Hypergraphs with LLM-based review distillation for conversational consumer decision support,2026,2,solta recente (2025-26),b15fe1bb79204536a650324a638658e67a450745,
+Continuous Review and Timely Correction: Enhancing the Resistance to Noisy Labels via Self-Not-True and Class-Wise Distillation,2025,2,ligada,b7261176f2a925af6089510766a832680da06efc,
+Large Language Model-based Multimodal Knowledge Distillation: A Review of Methodologies and Applications,2025,1,ligada,6021d4b87d6f26c6fe6f71ac94b2119bc747c3ac,
+EGTR-Review: Efficient Evidence-Grounded Scientific Peer Review Generation via Multi-Agent Teacher Distillation,2026,1,solta recente (2025-26),fb20aea8c2ec25c2e565f7b062ee790ff19e4442,2606.06025
+Review helps learn better: Temporal Supervised Knowledge Distillation,2023,1,ligada,ab88b9378d2d4ddbc092c4baec712fc0821f9c57,2307.00811
+Denoising precedes enrichment: aspect-sentiment-aware graph contrastive distillation network for review-based recommendation,2025,1,ligada,fb1ff59b007d0750601fea4924082286c9783913,
+BiKD2: Bidirectional Knowledge Distillation-enhanced explicit graph Disentangling network for review-based recommendation,2025,1,ligada,0264b26e0312a96f3c0d184988d842c02636644d,
+A Review of Knowledge Distillation in Deep Neural Networks,2020,1,solta (desce),207aac7003ed86383a1e68411cff29e0384c6216,
+Interpretable Review Spammer Group Detection Model Based on Knowledge Distillation and Counterfactual Generation,2025,1,solta recente (2025-26),2140c2f766a34ba6c47b7334b8a235ee16806705,
+Knowledge distillation method for spatio-temporal tasks: a survey,2025,1,ligada,5388a90f4bde1321ef0520c2d6d5d880a23fbd3a,
+The Survey of Model Scale Impact on Knowledge Distillation Efficiency in LLM,2025,1,ligada,5d8d9bd53a4573fe025a678c0d9b416c1dc3d49e,
+Bidirectional Counterfactual Distillation for Review-Based Recommendation,2026,1,sem dado de citação,781a8cf16d229e7add2f7a0cbfb1f572ad7d29ec,
+Analytical review of distillation columns decentralized control systems design methods,2021,1,solta (desce),f98199babd3aebea0ee03266790c06afce51b26f,
+Decoding Efficiency: A Comprehensive Review of Knowledge Distillation Techniques in Large Language Model,2025,0,sem dado de citação,6e1b05d7500d5658ca2f866d36bc4fa86c1b4355,
+Self-Distillation of XLM-RoBERTa for Multilingual Sentiment Analysis on Imbalanced Data: A Case Study on Malagasy Mobile Application Reviews,2026,0,solta recente (2025-26),6eab8919081a82ad919a9bae5675dcf9277ef638,
+Knowledge Distillation for Large Language Models: A Survey with a Case Study for Human-Robot Interaction and Edge Deployment,2026,0,ligada,e817bf396ab20618b0229ee9c42a5378fde870d8,
+Review of Recent Distillation Studies,2023,0,solta (desce),ba9a37dc874e0553e48e5083cba7a5ba7eea2cd7,
+YNU-HPCC at SemEval-2026 Task 6: Hierarchical Taxonomy Prompting and CoT Distillation for Political Clarity Classification,2026,0,solta recente (2025-26),092c6881e5931a334934c8c8ef41a226f0a79b86,
+Lightweight Unbiased Review-based Recommendation Based on Knowledge Distillation,2021,0,sem dado de citação,19816f4c828609ea983cdf6e30ca8d265910dbd6,
+ReKD: Knowledge Distillation for Repeated Review and Progressive Growth,2024,0,ligada,4fa2ccd13993313b8f81b496449a421a075828d0,
+"Building Expert Small Models: A Comprehensive Survey of Model Compression, Knowledge Distillation, and Augmented Inference",2026,0,ligada,ca50e7dc4c4202cd39466b3766a2505869809f67,
+"One Symptom, Three Levers: A Critical Review of On-Policy Self-Distillation",2026,0,ligada,a9d3891da6631a8ca07658d36c0415cbdff1e7cf,2608.25936
+Self-Review Reinforcement Learning (SRRL) with Cross-Episode Memory and Policy Distillation,2026,0,solta recente (2025-26),fd5929518ed9e73ef1bf22ac0042b9491ce5ef6c,2607.05541
+Deep-to-Bottom Weights Decay: A Systemic Knowledge Review Learning Technique for Transformer Layers in Knowledge Distillation,2022,0,ligada,058c3fc6a3f1fcb907a330840098d3311d97f751,
+A Review on Knowledge Distillation Techniques Across Large Language Models and Neural Architectures,2026,0,solta recente (2025-26),b7e66ebce2e44eaab61b86aaf4310220c5a87511,
+Solar Distillation Systems Enriched With Machine Learning Techniques: A Review,2021,0,sem dado de citação,0c01fae356d772bd2065331870d4f9625167c2a4,
+Artificial Intelligence Application for Crude Distillation Unit: An Overview,2021,0,solta (desce),128e5cc42ad0c3a471047962f1122fe474e22a81,
+On the Automation of Code Review Tasks Through Cross-Task Knowledge Distillation,2025,0,solta recente (2025-26),25a44c27985b8c47bc7103de9cd6807afb794b40,
+"Knowledge distillation for financial large language models: a systematic review of strategies, applications, and evaluation",2025,0,ligada,55155ec6a0e5c6c5141b99adfd7aff3fcecfa16e,
+A Review on an Optimized Knowledge Distillation Framework with Mamba-U Net Based on SAR for Brain Tumor Detection,2025,0,solta recente (2025-26),553bf49d67a22056c4d4a204c75c5ef040d03907,
+A Review on AI Control of Reactive Distillation for Various Applications,2020,0,solta (desce),58c97807d20bbf61b056994360c62d90adf9348f,
+Machine Learning in Membrane Distillation for Pulp and Paper Wastewater Treatment: A Review,2026,0,solta recente (2025-26),5a3a33226d79a0f08683a9adcd38dab60dabdf69,
+P25-13: Polo-like kinase 4 (PLK4) Safety Review – distilling the risks with a rapid augmented intelligence approach,2023,0,sem dado de citação,a1b7e72239c6d1f2a7be0e86a68938c33504e894,
+An Overview of Strategies for Selecting the Optimal Sequence of Multi-Component Distillation,2022,0,solta (desce),ac96a6cdd8b6be9c8fed8742b8d75487fdda9231,
+Distilling Knowledge in Gastroenterology: An Artificial Intelligence System for Assisting Colonoscopy and Pathology Report Review,2026,0,ligada,b24cd7c636900ee69576d99b14d47bd828d7fa9e,
+Fast N-1 Security-Constrained Optimal Power Flow with Review Knowledge Distillation,2025,0,ligada,d3823bcdc307b3ba9c5078827301b438058cd05a,
+Model distillation for high-level semantic understanding：a survey,2023,0,solta (desce),d9a59fb851046933cd3a4d04bca49907c82c6eb6,
+Distilling Salient Reviews with Zero Labels,2022,0,solta (desce),deb6eac11bab8947aeebe1ddd873c64aeb0a5999,
+Knowledge Distillation A Review of Methods and Applications in LiDAR Data,2025,0,sem dado de citação,df06aa36b68e37a2646909ef69e316f82ed505a9,
+A Review on Research Advances of Loss Functions in Knowledge Distillation,2026,0,solta recente (2025-26),fc1f63e6247342be1002880ff6f7a9f8859e387f,

@@ -1,0 +1,294 @@
+[
+ {
+  "id": "C01",
+  "title": "Beyond Efficiency: A Systematic Survey of Resource-Efficient Large Language Models",
+  "year": "2024",
+  "abstract": "The burgeoning field of Large Language Models (LLMs), exemplified by sophisticated models like OpenAI's ChatGPT, represents a significant advancement in artificial intelligence. These models, however, bring forth substantial challenges in the high consumption of computational, memory, energy, and financial resources, especially in environments with limited resource capabilities. This survey aims to systematically address these challenges by reviewing a broad spectrum of techniques designed to enhance the resource efficiency of LLMs. We categorize methods based on their optimization focus: computational, memory, energy, financial, and network resources and their applicability across various stages of an LLM's lifecycle, including architecture design, pretraining, finetuning, and system design. Additionally, the survey introduces a nuanced categorization of resource efficiency techniques by their specific resource types, which uncovers the intricate relationships and mappings between various resources and corresponding optimization techniques. A standardized set of evaluation metrics and datasets is also presented to facilitate consistent and fair comparisons across different models and techniques. By offering a comprehensive overview of the current sota and identifying open research avenues, this survey serves as a foundational reference for researchers and practitioners, aiding them in developing more sustainable and efficient LLMs in a rapidly evolving landscape.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C02",
+  "title": "Recent progress in material selection and device designs for photoelectrochemical water-splitting",
+  "year": "2020",
+  "abstract": "Abstract The development of renewable and sustainable energy sources along with efficient storing strategies has been the focus of utmost importance within the community to address the current energy crisis and rising energy demands. In this respect, solar hydrogen production through the route of photoelectrochemical (PEC) water-splitting is considered as a highly promising option. This review begins with a focus on understanding the PEC fundamentals in terms of the charge-transfer processes and energy requirements followed by the prerequisite properties of photoelectrode materials. We then highlighted the recent progress in different semiconductor materials and PEC device configurations. Various photoelectrode materials and device designs were classified based on their performances, with the realization of their advantages and limitations. Recent investigations in theoretical studies carried out in this field were summarised to understand the knowledge-gap and futuristic requirements. Challenges responsible for the limited efficiencies of the existing PEC water-splitting technology, considering both the material development and PEC device designs, have been discussed. Accordingly, certain possible strategies and solutions were recommended with an aim to make the PEC water-splitting a practically feasible technology.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C03",
+  "title": "A Survey on Knowledge Distillation of Large Language Models",
+  "year": "2024",
+  "abstract": "In the era of Large Language Models (LLMs), Knowledge Distillation (KD) emerges as a pivotal methodology for transferring advanced capabilities from leading proprietary LLMs, such as GPT-4, to their open-source counterparts like LLaMA and Mistral. Additionally, as open-source LLMs flourish, KD plays a crucial role in both compressing these models, and facilitating their self-improvement by employing themselves as teachers. This paper presents a comprehensive survey of KD's role within the realm of LLM, highlighting its critical function in imparting advanced knowledge to smaller models and its utility in model compression and self-improvement. Our survey is meticulously structured around three foundational pillars: \\textit{algorithm}, \\textit{skill}, and \\textit{verticalization} -- providing a comprehensive examination of KD mechanisms, the enhancement of specific cognitive abilities, and their practical implications across diverse fields. Crucially, the survey navigates the intricate interplay between data augmentation (DA) and KD, illustrating how DA emerges as a powerful paradigm within the KD framework to bolster LLMs' performance. By leveraging DA to generate context-rich, skill-specific training data, KD transcends traditional boundaries, enabling open-source models to approximate the contextual adeptness, ethical alignment, and deep semantic insights characteristic of their proprietary counterparts. This work aims to provide an insightful guide for researchers and practitioners, offering a detailed overview of current methodologies in KD and proposing future research directions. Importantly, we firmly advocate for compliance with the legal terms that regulate the use of LLMs, ensuring ethical and lawful application of KD of LLMs. An associated Github repository is available at https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C04",
+  "title": "Synaptic devices based on semiconductor nanocrystals",
+  "year": "2022",
+  "abstract": "To meet a growing demand for information processing, brain-inspired neuromorphic devices have been intensively studied in recent years. As an important type of neuromorphic device, synaptic devices have attracted strong attention. Among all the kinds of materials explored for the fabrication of synaptic devices, semiconductor nanocrystals (NCs) have become one of the preferred choices due to their excellent electronic and optical properties. In this review, we first introduce the research background of synaptic devices based on semiconductor NCs and briefly present the basic properties of semiconductor NCs. Recent developments in the field of synaptic devices based on semiconductor NCs are then discussed according to the materials employed in the active layers of the devices. Finally, we discuss existing problems and challenges of synaptic devices based on semiconductor NCs.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C05",
+  "title": "TEGLIE: Transformer encoders as strong gravitational lens finders in KiDS. From simulations to surveys",
+  "year": "2024",
+  "abstract": "With the current and upcoming generation of surveys, such as the Legacy Survey of Space and Time (LSST) on the Vera C. Rubin Observatory and the Euclid mission, tens of billions of galaxies will be observed, with a significant portion (sim 10$^5$) exhibiting lensing features. \n To effectively detect these rare objects amidst the vast number of galaxies, automated techniques such as machine learning are indispensable. We applied a state-of-the-art transformer algorithm to the 221 deg$^2$ of the Kilo Degree Survey (KiDS) to search for new strong gravitational lenses (SGLs). We tested four transformer encoders trained on simulated data from the Strong Lens Finding Challenge on KiDS data. The best performing model was fine-tuned on real images of SGL candidates identified in previous searches. To expand the dataset for fine-tuning, data augmentation techniques were employed, including rotation, flipping, transposition, and white noise injection. The network fine-tuned with rotated, flipped, and transposed images exhibited the best performance and was used to hunt for SGLs in the overlapping region of the Galaxy And Mass Assembly (GAMA) and KiDS surveys on galaxies up to $z$=0.8.\n Candidate SGLs were matched with those from other surveys and examined using GAMA data to identify blended spectra resulting from the signal from multiple objects in a GAMA fiber. Fine-tuning the transformer encoder to the KiDS data reduced the number of false positives by 70.\n Additionally, applying the fine-tuned model to a sample of sim 5\\,000\\,000 galaxies resulted in a list of sim 51\\,000 SGL candidates. Upon visual inspection, this list was narrowed down to 231 candidates. Combined with the SGL candidates identified in the model testing, our final sample comprises 264 candidates, including 71 high-confidence SGLs; of these 71, 44 are new discoveries. We propose fine-tuning via real augmented images as a viable approach to mitigating false positives when transitioning from simulated lenses to real surveys. While our model shows improvement, it still does not achieve the same accuracy as previously proposed models trained directly on galaxy images from KiDS with added simulated lensing arcs. This suggests that a larger fine-tuning set is necessary for a competitive performance.\n Additionally, we provide a list of 121 false positives that exhibit features similar to lensed objects, which can be used in the training of future machine learning models in this field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C06",
+  "title": "Framework for the Provision of User Felt Protected Mobile Banking Services",
+  "year": "2022",
+  "abstract": "The proliferation of mobile devices is a direct sector, which has become the primary means by which individuals complete the vast majority of their daily tasks. Financial institutions are bolstering their expansion plans by emphasizing mobile banking and financial services. However, there are several security issues with mobile banking due to the expanding capabilities of mobile technology. That's why banks need a system to evaluate the safety of their mobile banking services. The cyber-security barriers to mobile banking encountered by SACCOs in Kenya were identified using a survey study methodology, and the strategies used by SACCOs to mitigate the effects of these problems on the supply of mobile banking services were assessed. The research uncovered the risks associated with mobile banking in terms of cyber security. This analysis also assessed the measures taken by SACCOs to guarantee the provision of a safe mobile banking service in the eyes of their customers. The results informed the development of a framework for the provision of mobile banking services that prioritizes customers' sense of safety. After putting the suggested structure through its paces with the help of specialists, it was proven to be quite trustworthy. This paradigm gives SACCOs a way to measure how secure their services are in the eyes of their customers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C07",
+  "title": "From Inquiry to Purchase: An LLM-Powered Framework for Uncovering Granular Consumer Decision Drivers in C2C E-Commerce Chat",
+  "year": "2025",
+  "abstract": "Consumer-to-Consumer (C2C) e-commerce platforms, particularly for non-standardized goods and services like hotel bookings, are characterized by significant information asymmetry and risk. While public reviews have been extensively studied, the crucial pre-purchase negotiation that occurs in private user-seller chat logs remains a largely untapped source of insight into consumer decision-making. The analysis of this vast, unstructured, and noisy chat data at scale presents a significant methodological challenge, limiting our understanding of the granular factors that truly drive purchase decisions in these high-uncertainty environments. This paper introduces a novel, multi-stage framework that leverages Large Language Models (LLMs) for the automated analysis of C2C chat logs. Our pipeline first employs a prompt-engineered LLM to classify user inquiries into a set of predefined, theory-informed purchase factors. Subsequently, it uses the LLM to perform emergent thematic analysis on uncategorized data, revealing a rich taxonomy of nuanced, context-specific concerns. Applying this framework to a large dataset of real-world chat logs for hotel bookings on the Goofish platform, we find that while Price is a dominant factor, appearing in 69.87% of conversations, a significant portion of interactions (71.03%) revolve around a diverse set of \"Other\" factors not captured by standard categories. Our analysis unpacks this \"Other\" category into a detailed taxonomy, revealing the high importance of Booking & Reservation Logistics, Accommodation & Amenity Specifics, and Service & Communication Nuances. This work makes a dual contribution. Methodologically, we present a scalable and replicable framework for extracting deep qualitative insights from ephemeral chat data. Empirically, we provide a more granular and ecologically valid taxonomy of consumer purchase drivers in C2C e-commerce, highlighting a significant divergence between the factors discussed in private negotiations and those typically captured by public reviews and academic surveys.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C08",
+  "title": "Sparsity in Deep Learning: Pruning and growth for efficient inference and training in neural networks",
+  "year": "2021",
+  "abstract": "The growing energy and performance costs of deep learning have driven the community to reduce the size of neural networks by selectively pruning components. Similarly to their biological counterparts, sparse networks generalize just as well, if not better than, the original dense networks. Sparsity can reduce the memory footprint of regular networks to fit mobile devices, as well as shorten training time for ever growing networks. In this paper, we survey prior work on sparsity in deep learning and provide an extensive tutorial of sparsification for both inference and training. We describe approaches to remove and add elements of neural networks, different training strategies to achieve model sparsity, and mechanisms to exploit sparsity in practice. Our work distills ideas from more than 300 research papers and provides guidance to practitioners who wish to utilize sparsity today, as well as to researchers whose goal is to push the frontier forward. We include the necessary background on mathematical methods in sparsification, describe phenomena such as early structure adaptation, the intricate relations between sparsity and the training process, and show techniques for achieving acceleration on real hardware. We also define a metric of pruned parameter efficiency that could serve as a baseline for comparison of different sparse networks. We close by speculating on how sparsity can improve future workloads and outline major open problems in the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C09",
+  "title": "Large Language Model Inference Acceleration: A Comprehensive Hardware Perspective",
+  "year": "2024",
+  "abstract": "Large Language Models (LLMs) have demonstrated remarkable capabilities across various fields, from natural language understanding to text generation. Compared to non-generative LLMs like BERT and DeBERTa, generative LLMs like GPT series and Llama series are currently the main focus due to their superior algorithmic performance. The advancements in generative LLMs are closely intertwined with the development of hardware capabilities. Various hardware platforms exhibit distinct hardware characteristics, which can help improve LLM inference performance. Therefore, this paper comprehensively surveys efficient generative LLM inference on different hardware platforms. First, we provide an overview of the algorithm architecture of mainstream generative LLMs and delve into the inference process. Then, we summarize different optimization methods for different platforms such as CPU, GPU, FPGA, ASIC, and PIM/NDP, and provide inference results for generative LLMs. Furthermore, we perform a qualitative and quantitative comparison of inference performance with batch sizes 1 and 8 on different hardware platforms by considering hardware power consumption, absolute inference speed (tokens/s), and energy efficiency (tokens/J). We compare the performance of the same optimization methods across different hardware platforms, the performance across different hardware platforms, and the performance of different methods on the same hardware platform. This provides a systematic and comprehensive summary of existing inference acceleration work by integrating software optimization methods and hardware platforms. We point out that three trends (multimodality, inference-time compute, and higher inference energy efficiency) are promising to redefine the capabilities of edge artificial intelligence systems. Our project is available at https://dai.sjtu.edu.cn/project.html.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C10",
+  "title": "Knowledge Distillation and Student-Teacher Learning for Visual Intelligence: A Review and New Outlooks",
+  "year": "2020",
+  "abstract": "Deep neural models, in recent years, have been successful in almost every field, even solving the most complex problem statements. However, these models are huge in size with millions (and even billions) of parameters, demanding heavy computation power and failing to be deployed on edge devices. Besides, the performance boost is highly dependent on redundant labeled data. To achieve faster speeds and to handle the problems caused by the lack of labeled data, knowledge distillation (KD) has been proposed to transfer information learned from one model to another. KD is often characterized by the so-called ‘Student-Teacher’ (S-T) learning framework and has been broadly applied in model compression and knowledge transfer. This paper is about KD and S-T learning, which are being actively studied in recent years. First, we aim to provide explanations of what KD is and how/why it works. Then, we provide a comprehensive survey on the recent progress of KD methods together with S-T frameworks typically used for vision tasks. In general, we investigate some fundamental questions that have been driving this research area and thoroughly generalize the research progress and technical details. Additionally, we systematically analyze the research status of KD in vision applications. Finally, we discuss the potentials and open challenges of existing methods and prospect the future directions of KD and S-T learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C11",
+  "title": "A survey of model compression techniques: past, present, and future",
+  "year": "2025",
+  "abstract": "The exceptional performance of general-purpose large models has driven various industries to focus on developing domain-specific models. However, large models are not only time-consuming and labor-intensive during the training phase but also have very high hardware requirements during the inference phase, such as large memory and high computational power. These requirements pose considerable challenges for the practical deployment of large models. As these challenges intensify, model compression has become a vital research focus to address these limitations. This paper presents a comprehensive review of the evolution of model compression techniques, from their inception to future directions. To meet the urgent demand for efficient deployment, we delve into several compression methods—such as quantization, pruning, low-rank decomposition, and knowledge distillation—emphasizing their fundamental principles, recent advancements, and innovative strategies. By offering insights into the latest developments and their implications for practical applications, this review serves as a valuable technical resource for researchers and practitioners, providing a range of strategies for model deployment and laying the groundwork for future advancements in model compression.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C12",
+  "title": "Efficient Inference for Large Reasoning Models: A Survey",
+  "year": "2025",
+  "abstract": "Large Reasoning Models (LRMs) significantly improve the reasoning ability of Large Language Models (LLMs) by learning to reason, exhibiting promising performance in solving complex tasks. However, their deliberative reasoning process leads to inefficiencies in token usage, memory consumption, and inference time. Thus, this survey provides a review of efficient inference methods designed specifically for LRMs, focusing on mitigating token inefficiency while preserving the reasoning quality. The overview structure of this paper is shown in Figure 1. First, we introduce a taxonomy to group the recent methods into two main categories: (a) explicit compact Chain-of-Thought (CoT), which reduces tokens while keeping the explicit reasoning structure, and (b) implicit latent CoT, which encodes reasoning steps within hidden representations instead of explicit tokens. Meanwhile, we discuss their strengths and weaknesses. Then, we conduct empirical analyses on existing methods from reasoning scenarios, object functions, and performance & efficiency aspects. Besides, we present open challenges in this field, including human-centric controllable reasoning, trade-off between interpretability and efficiency of reasoning, ensuring the safety of efficient reasoning, and broader applications of efficient reasoning. In addition, we highlight key insights for enhancing LRMs’ inference efficiency via techniques such as model merging, new architectures, and agent routers. We hope this work serves as a valuable guide, helping researchers overcome challenges in this vibrant field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C13",
+  "title": "Model Compression and Efficient Inference for Large Language Models: A Survey",
+  "year": "2024",
+  "abstract": "Transformer based large language models have achieved tremendous success. However, the significant memory and computational costs incurred during the inference process make it challenging to deploy large models on resource-constrained devices. In this paper, we investigate compression and efficient inference methods for large language models from an algorithmic perspective. Regarding taxonomy, similar to smaller models, compression and acceleration algorithms for large language models can still be categorized into quantization, pruning, distillation, compact architecture design, dynamic networks. However, Large language models have two prominent characteristics compared to smaller models: (1) Most of compression algorithms require finetuning or even retraining the model after compression. The most notable aspect of large models is the very high cost associated with model finetuning or training. Therefore, many algorithms for large models, such as quantization and pruning, start to explore tuning-free algorithms. (2) Large models emphasize versatility and generalization rather than performance on a single task. Hence, many algorithms, such as knowledge distillation, focus on how to preserving their versatility and generalization after compression. Since these two characteristics were not very pronounced in early large models, we further distinguish large language models into medium models and ``real'' large models. Additionally, we also provide an introduction to some mature frameworks for efficient inference of large models, which can support basic compression or acceleration algorithms, greatly facilitating model deployment for users.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C14",
+  "title": "Application of Artificial Intelligence to Predict CO2 Emissions: Critical Step towards Sustainable Environment",
+  "year": "2023",
+  "abstract": "Prediction of carbon dioxide (CO2) emissions is a critical step towards a sustainable environment. In any country, increasing the amount of CO2 emissions is an indicator of the increase in environmental pollution. In this regard, the current study applied three powerful and effective artificial intelligence tools, namely, a feed-forward neural network (FFNN), an adaptive network-based fuzzy inference system (ANFIS) and long short-term memory (LSTM), to forecast the yearly amount of CO2 emissions in Saudi Arabia up to the year 2030. The data were collected from the “Our World in Data” website, which offers the measurements of the CO2 emissions from the years 1936 to 2020 for every country on the globe. However, this study is only concerned with the data related to Saudi Arabia. Due to some missing data, this study considered only the measurements in the years from 1954 to 2020. The 67 data samples were divided into 2 subsets for training and testing with the optimal ratio of 70:30, respectively. The effect of different input combinations on prediction accuracy was also studied. The inputs were combined to form six different groups to predict the next value of the CO2 emissions from the past values. The group of inputs that contained the past value in addition to the year as a temporal index was found to be the best one. For all the models, the performance accuracies were assessed using the root mean squared errors (RMSEs) and the coefficient of determination (R2). Every model was trained until the smallest RMSE of the testing data was reached throughout the entire training run. For the FFNN, ANFIS and LSTM, the averages of the RMSEs were 19.78, 20.89505 and 15.42295, respectively, while the averages of the R2 were found to be 0.990985, 0.98875 and 0.9945, respectively. Every model was applied individually to forecast the next value of the CO2 emission. To benefit from the powers of the three artificial intelligence (AI) tools, the final forecasted value was considered the average (ensemble) value of the three models’ outputs. To assess the forecasting accuracy, the ensemble was validated with a new measurement for the year 2021, and the calculated percentage error was found to be 6.8675% with an accuracy of 93.1325%, which implies that the model is highly accurate. Moreover, the resulting forecasting curve of the ensembled models showed that the rate of CO2 emissions in Saudi Arabia is expected to decrease from 9.4976 million tonnes per year based on the period 1954–2020 to 6.1707 million tonnes per year in the period 2020–2030. Therefore, the finding of this work could possibly help the policymakers in Saudi Arabia to take the correct and wise decisions regarding this issue not only for the near future but also for the far future.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C15",
+  "title": "Turning a new leaf: PhenoVision provides leaf phenology data at the global scale",
+  "year": "2025",
+  "abstract": "Plant phenology dictates many aspects of community function and ecosystem dynamics. Yet, global phenology data are still limited, especially in areas lacking monitoring programs. Here we present a new data resource, PhenoVision–Leaf, which extends a computer-vision pipeline utilizing iNaturalist digital image vouchers to produce global-scale leaf phenophase data for deciduous, woody genera. We first discuss our implementation of a new human annotation framework for leaf phenology on iNaturalist, aligning with phenophase definitions used by the larger phenology community. We then showcase the use of 165,988 crowdsourced annotated records to train a Vision Transformer model with a two-stage regime to maximize accuracy across single- and multi-image records. This approach extends Phenovision from scoring individual images to aggregating at the iNaturalist record level, better aligning with human annotation processes. Post-hoc validation showed high performance for detecting present green and colored leaves (>98% accuracy), and reasonable accuracy for breaking leaf buds (>87% accuracy). Applying PhenoVision–Leaf to over 26 million iNaturalist records yielded 5.6 million record-level phenology observations across 6,500 species and 57 families, filling geographic and taxonomic gaps. These data, now accessible through the Phenobase portal, establish a foundation for near real-time monitoring of leaf phenology, supporting global-scale synthesis analyses.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C16",
+  "title": "On the peer review reports: does size matter?",
+  "year": "2024",
+  "abstract": "Amidst the ever-expanding realm of scientific production and the proliferation of predatory journals, the focus on peer review remains paramount for scientometricians and sociologists of science. Despite this attention, there is a notable scarcity of empirical investigations into the tangible impact of peer review on publication quality. This study aims to address this gap by conducting a comprehensive analysis of how peer review contributes to the quality of scholarly publications, as measured by the citations they receive. Utilizing an adjusted dataset comprising 57,482 publications from Publons to Web of Science and employing the Raking Ratio method, our study reveals intriguing insights. Specifically, our findings shed light on a nuanced relationship between the length of reviewer reports and the subsequent citations received by publications. Through a robust regression analysis, we establish that, beginning from 947 words, the length of reviewer reports is significantly associated with an increase in citations. These results not only confirm the initial hypothesis that longer reports indicate requested improvements, thereby enhancing the quality and visibility of articles, but also underscore the importance of timely and comprehensive reviewer reports. Furthermore, insights from Publons’ data suggest that open access to reports can influence reviewer behavior, encouraging more detailed reports. Beyond the scholarly landscape, our findings prompt a reevaluation of the role of reviewers, emphasizing the need to recognize and value this resource-intensive yet underappreciated activity in institutional evaluations. Additionally, the study sounds a cautionary note regarding the challenges faced by peer review in the context of an increasing volume of submissions, potentially compromising the vigilance of peers in swiftly assessing numerous articles.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C17",
+  "title": "Mobile Edge Intelligence for Large Language Models: A Contemporary Survey",
+  "year": "2024",
+  "abstract": "On-device large language models (LLMs), referring to running LLMs on edge devices, have raised considerable interest since they are more cost-effective, latency-efficient, and privacy-preserving compared with the cloud LLM paradigm. Nonetheless unlike cloud LLMs, the performance of on-device LLMs is intrinsically constrained by resource limitations on edge devices. Sitting between cloud and on-device AI, mobile edge intelligence (MEI) may address this dilemma by provisioning AI capabilities at the edge of mobile networks, e.g., on base stations. This article provides a contemporary survey on harnessing MEI for LLM deployment. We begin by illustrating several killer applications to demonstrate the urgent need for deploying LLMs at the network edge. Next, we present the preliminaries of LLMs, MEI, and resource-efficient LLM techniques. We then provide an architectural overview of MEI for LLMs (MEI4LLM), outlining its core components and how it supports LLM deployment. Subsequently, we delve into various aspects of MEI4LLM, extensively covering edge LLM caching and delivery, edge LLM training, and edge LLM inference. Finally, we identify future research opportunities. We hope this article inspires researchers in the field to leverage mobile edge computing to facilitate LLM deployment, thereby unleashing the potential of LLMs across various privacy- and delay-sensitive applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C18",
+  "title": "ICT adoption among women-owned SMEs in a matrilineal society: evidence from West Sumatra, Indonesia",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio"
+  ]
+ },
+ {
+  "id": "C19",
+  "title": "Efficient Reasoning Models: A Survey",
+  "year": "2025",
+  "abstract": "Reasoning models have demonstrated remarkable progress in solving complex and logic-intensive tasks by generating extended Chain-of-Thoughts (CoTs) prior to arriving at a final answer. Yet, the emergence of this\"slow-thinking\"paradigm, with numerous tokens generated in sequence, inevitably introduces substantial computational overhead. To this end, it highlights an urgent need for effective acceleration. This survey aims to provide a comprehensive overview of recent advances in efficient reasoning. It categorizes existing works into three key directions: (1) shorter - compressing lengthy CoTs into concise yet effective reasoning chains; (2) smaller - developing compact language models with strong reasoning capabilities through techniques such as knowledge distillation, other model compression techniques, and reinforcement learning; and (3) faster - designing efficient decoding strategies to accelerate inference of reasoning models. A curated collection of papers discussed in this survey is available in our GitHub repository: https://github.com/fscdc/Awesome-Efficient-Reasoning-Models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C20",
+  "title": "\"Talk to me, I'm secure\": investigating information disclosure to AI chatbots in the context of privacy calculus",
+  "year": "2025",
+  "abstract": "PurposeThis study aims to explain the privacy paradox, wherein individuals, despite privacy concerns, are willing to share personal information while using AI chatbots. Departing from previous research that primarily viewed AI chatbots from a non-anthropomorphic approach, this paper contends that AI chatbots are taking on an emotional component for humans. This study thus explores this topic by considering both rational and non-rational perspectives, thereby providing a more comprehensive understanding of user behavior in digital environments.Design/methodology/approachEmploying a questionnaire survey (N = 480), this research focuses on young users who regularly engage with AI chatbots. Drawing upon the parasocial interaction theory and privacy calculus theory, the study elucidates the mechanisms governing users’ willingness to disclose information.FindingsFindings show that cognitive, emotional and behavioral dimensions all positively influence perceived benefits of using ChatGPT, which in turn enhances privacy disclosure. While cognitive, emotional and behavioral dimensions negatively impact perceived risks, only the emotional and behavioral dimensions significantly affect perceived risk, which in turn negatively influences privacy disclosure. Notably, the cognitive dimension’s lack of significant mediating effect suggests that users’ awareness of privacy risks does not deter disclosure. Instead, emotional factors drive privacy decisions, with users more likely to disclose personal information based on positive experiences and engagement with ChatGPT. This confirms the existence of the privacy paradox.Research limitations/implicationsThis study acknowledges several limitations. While the sample was adequately stratified, the focus was primarily on young users in China. Future research should explore broader demographic groups, including elderly users, to understand how different age groups engage with AI chatbots. Additionally, although the study was conducted within the Chinese context, the findings have broader applicability, highlighting the potential for cross-cultural comparisons. Differences in user attitudes toward AI chatbots may arise due to cultural variations, with East Asian cultures typically exhibiting a more positive attitude toward social AI systems compared to Western cultures. This cultural distinction—rooted in Eastern philosophies such as animism in Shintoism and Buddhism—suggests that East Asians are more likely to anthropomorphize technology, unlike their Western counterparts (Yam et al., 2023; Folk et al., 2023).Practical implicationsThe findings of this study offer valuable insights for developers, policymakers and educators navigating the rapidly evolving landscape of intelligent technologies. First, regarding technology design, the study suggests that AI chatbot developers should not focus solely on functional aspects but also consider emotional and social dimensions in user interactions. By enhancing emotional connection and ensuring transparent privacy communication, developers can significantly improve user experiences (Meng and Dai, 2021). Second, there is a pressing need for comprehensive user education programs. As users tend to prioritize perceived benefits over risks, it is essential to raise awareness about privacy risks while also emphasizing the positive outcomes of responsible information sharing. This can help foster a more informed and balanced approach to user engagement (Vimalkumar et al., 2021). Third, cultural and ethical considerations must be incorporated into AI chatbot design. In collectivist societies like China, users may prioritize emotional satisfaction and societal harmony over privacy concerns (Trepte, 2017; Johnston, 2009). Developers and policymakers should account for these cultural factors when designing AI systems. Furthermore, AI systems should communicate privacy policies clearly to users, addressing potential vulnerabilities and ensuring that users are aware of the extent to which their data may be exposed (Wu et al., 2024). Lastly, as AI chatbots become deeply integrated into daily life, there is a growing need for societal discussions on privacy norms and trust in AI systems. This research prompts a reflection on the evolving relationship between technology and personal privacy, especially in societies where trust is shaped by cultural and emotional factors. Developing frameworks to ensure responsible AI practices while fostering user trust is crucial for the long-term societal integration of AI technologies (Nah et al., 2023).Originality/valueThe study’s findings not only draw deeper theoretical insights into the role of emotions in generative artificial intelligence (gAI) chatbot engagement, enriching the emotional research orientation and framework concerning chatbots, but they also contribute to the literature on human–computer interaction and technology acceptance within the framework of the privacy calculus theory, providing practical insights for developers, policymakers and educators navigating the evolving landscape of intelligent technologies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C21",
+  "title": "Knowledge distillation and dataset distillation of large language models: emerging trends, challenges, and future directions",
+  "year": "2025",
+  "abstract": "The exponential growth of Large Language Models (LLMs) continues to highlight the need for efficient strategies to meet ever-expanding computational and data demands. This survey provides a comprehensive analysis of two complementary paradigms: Knowledge Distillation (KD) and Dataset Distillation (DD), both aimed at compressing LLMs while preserving their advanced reasoning capabilities and linguistic diversity. We first examine key methodologies in KD, such as task-specific alignment, rationale-based training, and multi-teacher frameworks, alongside DD techniques that synthesize compact, high-impact datasets through optimization-based gradient matching, latent space regularization, and generative synthesis. Building on these foundations, we explore how integrating KD and DD can produce more effective and scalable compression strategies. Together, these approaches address persistent challenges in model scalability, architectural heterogeneity, and the preservation of emergent LLM abilities. We further highlight applications across domains such as healthcare and education, where distillation enables efficient deployment without sacrificing performance. Despite substantial progress, open challenges remain in preserving emergent reasoning and linguistic diversity, enabling efficient adaptation to continually evolving teacher models and datasets, and establishing comprehensive evaluation protocols. By synthesizing methodological innovations, theoretical foundations, and practical insights, our survey charts a path toward sustainable, resource-efficient LLMs through the tighter integration of KD and DD principles.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C22",
+  "title": "Comprehensive review of hyperspectral image compression algorithms",
+  "year": "2020",
+  "abstract": "Abstract. Rapid advancement in the development of hyperspectral image analysis techniques has led to specialized hyperspectral missions. It results in the bulk transmission of hyperspectral images from sensors to analysis centers and finally to data centers. Storage of these large size images is a critical issue that is handled by compression techniques. This survey focuses on different hyperspectral image compression algorithms that have been classified into two broad categories based on eight internal and six external parameters. In addition, we identified research challenges and suggested future scope for each technique. The detailed classification used in this paper can categorize other compression algorithms and may help in selecting research objectives.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C23",
+  "title": "Design for Hope: Cultivating Deliberate Hope in the Face of Complex Societal Challenges",
+  "year": "2025",
+  "abstract": "Design has the potential to cultivate hope in the face of complex societal challenges. These challenges are often addressed through efforts aimed at harm reduction and prevention—essential but sometimes limiting approaches that can unintentionally narrow our collective sense of what is possible. This one-day, in-person workshop builds on the first Positech Workshop at CSCW 2024 by offering practical ways to move beyond reactive problem-solving toward building capacity for proactive goal setting and generating pathways forward. We explore how collaborative and reflective design methodologies can help research communities navigate uncertainty, expand possibilities, and foster meaningful change. By connecting design thinking with hope theory, which frames hope as the interplay of “goal-directed,” “pathways,” and “agentic” thinking, we will examine how researchers might chart new directions in the face of complexity and constraint. Through hands-on activities including problem reframing, building a shared taxonomy of design methods that align with hope theory, and reflecting on what it means to sustain hopeful research trajectories, participants will develop strategies to embed a deliberately hopeful approach into their research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C24",
+  "title": "Application of Hybrid Intelligent Systems for Forecasting and Managing Sustainable Development of the Urban Environment Based on Fuzzy Neural Networks",
+  "year": "2026",
+  "abstract": "This study presents a hybrid intelligent forecasting and decision-support framework for sustainable urban development based on the Adaptive Neuro-Fuzzy Inference System (ANFIS). The research employs data from 12 major Russian cities, covering environmental, social, and economic indicators across a nine-month period in 2025. The proposed architecture integrates fuzzy logic with neural network learning, enabling adaptive modeling of complex urban dynamics. A hybrid optimization algorithm combining genetic search and backpropagation was used to calibrate model parameters and enhance predictive accuracy. Evaluation through MAPE, RMSE, R², and Theil’s U statistic demonstrated superior performance of the ANFIS model compared to conventional approaches such as Random Forest, ARIMA, and linear regression. The results confirm the effectiveness of hybrid intelligent systems in supporting strategic planning and real-time management in smart city environments, providing a scalable foundation for sustainable urban governance.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C25",
+  "title": "Unbiasing Greek: In-Context Learning Strategies for Gender Bias Identification and Mitigation for Legal Documents and Job Ads",
+  "year": "2026",
+  "abstract": "Gender bias embedded in legal and professional texts perpetuates systemic inequality, yet research on bias identification and mitigation remains largely confined to English. Morphologically rich languages such as Greek, where grammatical gender pervades nouns, adjectives, pronouns, and participles, present unique challenges that existing approaches fail to address. This paper elaborates on a systematic methodology primarily focusing on identifying and mitigating gender bias in Greek-language job advertisements and legal documents. To accomplish that task, we define a taxonomy of nine gender bias rules tailored to the linguistic properties of Greek and construct domain-specific annotated datasets comprising 90 expert-curated few-shot examples across both textual domains. Using these resources, we employ XML-structured prompt engineering with in-context learning (ICL)and systematically compare three classes of models: (i) commercial large language models (LLMs), namely Claude Sonnet 4.5 and GPT-5.2, (ii) two open-weight small language models (SLMs), Mistral Small (24B) and Ministral (14B), and (iii) Llama Krikri (8B), a Greek-native language model built on Llama 3.1 and fine-tuned on high-quality Greek corpora. For each input text, the system identifies biased expressions, maps them to specific bias rules, provides explanations, and generates a fully corrected inclusive version. Our experiments reveal substantial performance disparities across model scales and linguistic specialization, with LLMs demonstrating superior contextual reasoning and SLMs exhibiting systematic over-correction and grammatical errors in Greek morphology. We further introduce a critical meta-rule addressing gender agreement with named entities to prevent spurious corrections in legal texts referencing identified individuals. The findings highlight the importance of model scale, language-specific adaptation, and carefully designed prompting strategies for bias mitigation in underrepresented languages.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C26",
+  "title": "Establishing Coupled Models for Estimating Daily Dew Point Temperature Using Nature-Inspired Optimization Algorithms",
+  "year": "2022",
+  "abstract": "Potential of a classic adaptive neuro-fuzzy inference system (ANFIS) was evaluated in the current study for estimating the daily dew point temperature (Tdew). The study area consists of two stations located in Iran, namely the Rasht and Urmia. The daily Tdew time series of the studied stations were modeled through the other effective variables comprising minimum air temperature (Tmin), extraterrestrial radiation (Ra), vapor pressure deficit (VPD), sunshine duration (n), and relative humidity (RH). The correlation coefficients between the input and output parameters were utilized to determine the most effective inputs. Furthermore, novel hybrid models were proposed in this study in order to increase the estimation accuracy of Tdew. For this purpose, two optimization algorithms named bee colony optimization (BCO) and dragonfly algorithm (DFA) were coupled on the classic ANFIS. It was concluded that the hybrid models (i.e., ANFIS-BCO and ANFIS-DFA) demonstrated better performances compared to the classic ANFIS. The full-input pattern of the coupled models, specifically the ANFIS-DFA, was found to present the most accurate results for both the selected stations. Therefore, the developed hybrid models can be proposed as alternatives to the classic ANFIS to accurately estimate the daily Tdew.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C27",
+  "title": "Foundation Models for Environmental Science: A Survey of Emerging Frontiers",
+  "year": "2025",
+  "abstract": "Modeling environmental ecosystems is essential for effective resource management, sustainable development, and understanding complex ecological processes. However, traditional data-driven methods face challenges in capturing inherently complex and interconnected processes and are further constrained by limited observational data in many environmental applications. Foundation models, which leverages large-scale pre-training and universal representations of complex and heterogeneous data, offer transformative opportunities for capturing spatiotemporal dynamics and dependencies in environmental processes, and facilitate adaptation to a broad range of applications. This survey presents a comprehensive overview of foundation model applications in environmental science, highlighting advancements in common environmental use cases including forward prediction, data generation, data assimilation, downscaling, inverse modeling, model ensembling, and decision-making across domains. We also detail the process of developing these models, covering data collection, architecture design, training, tuning, and evaluation. Through discussions on these emerging methods as well as their future opportunities, we aim to promote interdisciplinary collaboration that accelerates advancements in machine learning for driving scientific discovery in addressing critical environmental challenges.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C28",
+  "title": "Towards Efficient Generative Large Language Model Serving: A Survey from Algorithms to Systems",
+  "year": "2023",
+  "abstract": "In the rapidly evolving landscape of artificial intelligence (AI), generative large language models (LLMs) stand at the forefront, revolutionizing how we interact with our data. However, the computational intensity and memory consumption of deploying these models present substantial challenges in terms of serving efficiency, particularly in scenarios demanding low latency and high throughput. This survey addresses the imperative need for efficient LLM serving methodologies from a machine learning system (MLSys) research perspective, standing at the crux of advanced AI innovations and practical system optimizations. We provide in-depth analysis, covering a spectrum of solutions, ranging from cutting-edge algorithmic modifications to groundbreaking changes in system designs. The survey aims to provide a comprehensive understanding of the current state and future directions in efficient LLM serving, offering valuable insights for researchers and practitioners in overcoming the barriers of effective LLM deployment, thereby reshaping the future of AI.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ },
+ {
+  "id": "C29",
+  "title": "BSL: Sustainable Collaborative Inference in Intelligent Transportation Systems",
+  "year": "2023",
+  "abstract": "As the recent rise of intelligent transportation systems (ITS), the sensing capability of vehicles has become crucial in realizing sophisticated intelligent transportation services. Collaborative sensing, an important approach to extend the sensing coverage of individual vehicles, has become an essential component of connected vehicle systems. However, due to challenges such as privacy concerns, frequent communication interruptions, customized models, and limited available data, the application of collaborative sensing in current ITS systems is still limited. In this paper, we propose BSL, a novel multi-exit split learning-based collaborative inference system. The key innovation of BSL is the introduction of multi-exit to the split network, enabling network training and collaborative inference between distributed device nodes and the cloud in a split manner. Specifically, BSL allows the device node to dynamically collaborate with the cloud by introducing the edge mode and collaboration mode, ensuring that intelligent services provided to the device will be sustained even if the communication is interrupted, which is crucial in ITS systems. We have implemented the system and evaluated it with public dataset on different embedded devices. The results demonstrate the promising performance of BSL.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta"
+  ]
+ }
+]

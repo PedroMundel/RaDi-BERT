@@ -1,0 +1,430 @@
+[
+ {
+  "id": "F0081",
+  "title": "A New Era in Stress Monitoring: A Review of Embedded Devices and Tools for Detecting Stress in the Workplace",
+  "year": "2024",
+  "abstract": "Detection of stress and the development of innovative platforms for stress monitoring have attracted significant attention in recent years due to the growing awareness of the harmful effects of stress on mental and physical health. Stress is a widespread issue affecting individuals and often goes unnoticed as a health concern. It can lead to various negative physiological conditions, including anxiety, depression, cardiovascular diseases and cognitive impairments. The aim of this paper is to provide an overview of studies focusing on embedded devices for non-invasive stress detection, primarily in the form of a modified computer mouse or keyboard. This study not only fills a critical gap in the literature but also provides valuable insights into the design and implementation of hardware-based stress-detection methods. By focusing on embedded devices, specifically computer peripherals, this research highlights the potential for integrating stress monitoring into everyday workplace tools, thereby offering practical solutions for improving occupational health and well-being.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0082",
+  "title": "A Survey on Dynamic Structure Embedded Online Multiple-Output Regression for Streaming Data",
+  "year": "2020",
+  "abstract": "This paper introduces a new strategy called Multiple Output Regression for Streaming data named as MORES. It works on streaming information and regression coefficient. The goals of MORES consist of four important perspectives: 1) It uses the mahalanobis matrix to find dissimilarity between the previous regression coefficient and the current regression coefficient to update the model. 2) It uses Mahalanobis distance for finding prediction mistake and increasingly finds remaining errors, it doesn't use Euclidian distance. 3) It separates the very important data for better prediction and for estimating errors. All vital data stored in the memory and MORES use these data for event purposes. Labeling of information is used in the multiple-output regression for developing information. Mainly lebeling is used to reweight data for finding errors. 4) Different strategies are introduced in the MORES to develop the system architecture. Eigenvalue decomposition method is used to measure elements of the data sources.Eigenvalue decomposition method is introduced for the situation when the size of the data becomes large or for large streaming information. In this way online multiple-output regression uses the techniques of machine learning system for modeling correlated data stream and predicting multidimensional related data stream and it always provides model refinement.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0083",
+  "title": "Efficient Inference for Vision-Language-Action Models: A Comprehensive Review of Acceleration Techniques",
+  "year": "2025",
+  "abstract": "Vision-Language-Action (VLA) models integrating visual perception, linguistic reasoning, and motion generation serve as a fundamental enabler for embodied intelligence in service robotics and industrial manipulation. Yet the underlying large-scale Vision-Language Models (VLMs) impose parameter counts in the billions, incurring latency and energy costs that violate the sub-lOO ms closed-loop control requirement of most robotic tasks. This survey therefore scrutinizes recent advances in VLA inference acceleration, organizing the literature along two complementary dimensions: input optimization and inference optimization. Input optimization compresses or reuses sensory representations to eliminate redundant computation, whereas inference optimization employs lightweight backbones and dynamic computation paths to curtail superfluous operations. We quantitatively benchmark representative techniques, expose their performance-efficiency trade-offs, and chart unresolved challenges that future research must tackle to facilitate ubiquitous deployment of efficient VLA systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0084",
+  "title": "GGC-DETR: Morphology-Sensitive Lightweight Blood Cell Localization for Automated Peripheral Blood Smear Review.",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0085",
+  "title": "UAV-Embedded Sensors and Deep Learning for Pathology Identification in Building Façades: A Review",
+  "year": "2024",
+  "abstract": "The use of geotechnologies in the field of diagnostic engineering has become ever more present in the identification of pathological manifestations in buildings. The implementation of Unmanned Aerial Vehicles (UAVs) and embedded sensors has stimulated the search for new data processing and validation methods, considering the magnitude of the data collected during fieldwork and the absence of specific methodologies for each type of sensor. Regarding data processing, the use of deep learning techniques has become widespread, especially for the automation of processes that involve a great amount of data. However, just as with the increasing use of embedded sensors, deep learning necessitates the development of studies, particularly those focusing on neural networks that better represent the data to be analyzed. It also requires the enhancement of practices to be used in fieldwork, especially regarding data processing. In this context, the objective of this study is to review the existing literature on the use of embedded technologies in UAVs and deep learning for the identification and characterization of pathological manifestations present in building façades in order to develop a robust knowledge base that is capable of contributing to new investigations in this field of research.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0086",
+  "title": "Exploring Autonomous Agents through the Lens of Large Language Models: A Review",
+  "year": "2024",
+  "abstract": "Large Language Models (LLMs) are transforming artificial intelligence, enabling autonomous agents to perform diverse tasks across various domains. These agents, proficient in human-like text comprehension and generation, have the potential to revolutionize sectors from customer service to healthcare. However, they face challenges such as multimodality, human value alignment, hallucinations, and evaluation. Techniques like prompting, reasoning, tool utilization, and in-context learning are being explored to enhance their capabilities. Evaluation platforms like AgentBench, WebArena, and ToolLLM provide robust methods for assessing these agents in complex scenarios. These advancements are leading to the development of more resilient and capable autonomous agents, anticipated to become integral in our digital lives, assisting in tasks from email responses to disease diagnosis. The future of AI, with LLMs at the forefront, is promising.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0087",
+  "title": "Investigations of Object Detection in Images/Videos Using Various Deep Learning Techniques and Embedded Platforms—A Comprehensive Review",
+  "year": "2020",
+  "abstract": "In recent years there has been remarkable progress in one computer vision application area: object detection. One of the most challenging and fundamental problems in object detection is locating a specific object from the multiple objects present in a scene. Earlier traditional detection methods were used for detecting the objects with the introduction of convolutional neural networks. From 2012 onward, deep learning-based techniques were used for feature extraction, and that led to remarkable breakthroughs in this area. This paper shows a detailed survey on recent advancements and achievements in object detection using various deep learning techniques. Several topics have been included, such as Viola–Jones (VJ), histogram of oriented gradient (HOG), one-shot and two-shot detectors, benchmark datasets, evaluation metrics, speed-up techniques, and current state-of-art object detectors. Detailed discussions on some important applications in object detection areas, including pedestrian detection, crowd detection, and real-time object detection on Gpu-based embedded systems have been presented. At last, we conclude by identifying promising future directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0088",
+  "title": "A review of fog computing and its simulators",
+  "year": "2022",
+  "abstract": "Abstract Fog computing is defined as the distribution of computing resources between the data devices and the cloud or any other data centre in a distributed computing infrastructure or process. This paper briefly reviews the various definitions, applications, architecture and fog simulators proposed by researchers over the years. In this paper, a comparison table is presented which highlights the key features of simulators available like FogtorchII, iFogSim, Fogbus, MyiFogSim etc.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0089",
+  "title": "The ICSE 2026 Shadow PC: Training the Next Generation of Reviewers Through Deliberate Practice",
+  "year": "2026",
+  "abstract": "Peer review is essential to software engineering research, yet reviewer training remains largely implicit. We describe the ICSE 2026 Shadow PC, a redesigned program emphasizing deliberate practice at scale. Key innovations include multi-phase structure with calibration and peer feedback, strict separation from the main PC, and a pathway toward leadership development. With 102 participants completing the program and reviewing 117 papers, 97% recommending the experience, and positive reception from authors (67% finding reviews helpful), the program demonstrates that rigorous reviewer training is achievable at scale. We share lessons learned and propose shadow PC area chairs as a mechanism for sustainable scaling and leadership development.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0090",
+  "title": "Lightweight CNN Transformer Hybrid for Real Time Leaf Disease Detection on Mobile Devices: A Review",
+  "year": "2025",
+  "abstract": "Real-time plant disease detection on mobile devices requires models that are both computationally efficient and highly accurate under field conditions. Traditional convolutional neural networks (CNNs) are effective at capturing local texture and edge features but often struggle with long-range dependencies, while Vision Transformers (ViTs) excel at global context modeling but incur high computational costs. Hybrid CNN–Transformer architectures have recently emerged as a promising solution, combining the strengths of both approaches. This review paper explores the development of lightweight CNN–Transformer hybrids specifically tailored for mobile deployment in plant disease detection. We highlight methods for architectural optimization, model compression (pruning, quantization, and knowledge distillation), and edge deployment frameworks (TensorFlow Lite, ONNX Runtime Mobile, Core ML). Evaluation is discussed across benchmark datasets such as PlantVillage and real-field images, focusing on accuracy, latency, memory footprint, and usability in rural agricultural settings. Finally, the review identifies open challenges, including domain shift, explainability, and few-shot adaptation to unseen diseases, offering insights into designing field-ready, efficient, and robust mobile AI solutions for agriculture",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0091",
+  "title": "A Survey of Efficient Deep Learning Models for Moving Object Segmentation",
+  "year": "2023",
+  "abstract": "Moving object segmentation (MOS) is the process of identifying dynamic objects from video frames, such as moving vehicles or pedestrians, while discarding the background. It plays an essential role in many real-world applications such as autonomous driving, mobile robots, and surveillance systems. With the availability of a huge amount of data and the development of powerful computing infrastructure, deep learning-based methods have shown remarkable improvements in MOS tasks. However, as the dimension of data becomes higher and the network architecture becomes more complicated, deep learning-based MOS models are computationally intensive, which limits their deployment on resource-constrained devices and in delay-sensitive applications. Therefore, more research started to develop fast and lightweight models. This paper aims to provide a comprehensive review of deep learning-based MOS models, with a focus on efficient model design techniques. We summarize a variety of MOS datasets, and conduct a thorough review of segmentation accuracy metrics and model efficiency metrics. Most importantly, we compare the performance of efficient MOS models on popular datasets, identify competitive models and analyze their essential techniques. Finally, we point out existing challenges and present future research directions.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0092",
+  "title": "Matrix factorization for biomedical link prediction and scRNA-seq data imputation: an empirical survey",
+  "year": "2021",
+  "abstract": "Advances in high-throughput experimental technologies promote the accumulation of vast number of biomedical data. Biomedical link prediction and single-cell RNA-sequencing (scRNA-seq) data imputation are two essential tasks in biomedical data analyses, which can facilitate various downstream studies and gain insights into the mechanisms of complex diseases. Both tasks can be transformed into matrix completion problems. For a variety of matrix completion tasks, matrix factorization has shown promising performance. However, the sparseness and high dimensionality of biomedical networks and scRNA-seq data have raised new challenges. To resolve these issues, various matrix factorization methods have emerged recently. In this paper, we present a comprehensive review on such matrix factorization methods and their usage in biomedical link prediction and scRNA-seq data imputation. Moreover, we select representative matrix factorization methods and conduct a systematic empirical comparison on 15 real data sets to evaluate their performance under different scenarios. By summarizing the experimental results, we provide general guidelines for selecting matrix factorization methods for different biomedical matrix completion tasks and point out some future directions to further improve the performance for biomedical link prediction and scRNA-seq data imputation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0093",
+  "title": "Corpus2Skill: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG",
+  "year": "2026",
+  "abstract": "Retrieval-Augmented Generation (RAG) grounds LLM responses in external evidence but treats the model as a passive consumer of search results, with no view of how the corpus is organized or what it has not yet seen. We present Corpus2Skill, a system-level retrieval architecture for bounded, structurally coherent corpora such as enterprise knowledge bases: an offline compiler distills the corpus into a hierarchical skill directory, and at serve time an LLM agent navigates it, drilling from a bird's-eye view through progressively finer summaries down to documents and backtracking when a branch is unproductive. On an enterprise customer-support benchmark, Corpus2Skill improves both answer quality and grounding over single-shot dense, hybrid, hierarchical-retrieval, and agentic RAG baselines at a moderate cost tradeoff, and the lead persists under encoder-matched controls and paired significance tests. An eleven-dataset study shows that corpus navigation is not a universal replacement for retrieval: it significantly wins on five datasets, ties on three, and loses on three. It helps on single-domain corpora with a recoverable topical taxonomy, but flat retrieval remains preferable on open-domain factoid pools or homogeneous-tabular corpora that defeat top-level clustering. We characterize this scope distinction as a design guideline for knowledge-grounded systems. Code is available at https://github.com/dukesun99/Corpus2Skill.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0094",
+  "title": "Review of sparse sufficient dimension reduction: comment",
+  "year": "2020",
+  "abstract": "High-dimensional data are frequently collected in a large variety of areas such as biomedical imaging, functional magnetic resonance imaging, tomography, tumor classifications, and finance. With re...",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0095",
+  "title": "GRACE: A Compressed Communication Framework for Distributed Machine Learning",
+  "year": "2021",
+  "abstract": "Powerful computer clusters are used nowadays to train complex deep neural networks (DNN) on large datasets. Distributed training increasingly becomes communication bound. For this reason, many lossy compression techniques have been proposed to reduce the volume of transferred data. Unfortunately, it is difficult to argue about the behavior of compression methods, because existing work relies on inconsistent evaluation testbeds and largely ignores the performance impact of practical system configurations. In this paper, we present a comprehensive survey of the most influential compressed communication methods for DNN training, together with an intuitive classification (i.e., quantization, sparsification, hybrid and low-rank). Next, we propose GRACE, a unified framework and API that allows for consistent and easy implementation of compressed communication on popular machine learning toolkits. We instantiate GRACE on TensorFlow and PyTorch, and implement 16 such methods. Finally, we present a thorough quantitative evaluation with a variety of DNNs (convolutional and recurrent), datasets and system configurations. We show that the DNN architecture affects the relative performance among methods. Interestingly, depending on the underlying communication library and computational cost of compression / decompression, we demonstrate that some methods may be impractical. GRACE and the entire benchmarking suite are available as open-source.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0096",
+  "title": "Measuring and Understanding Trust Calibrations for Automated Systems: A Survey of the State-Of-The-Art and Future Directions",
+  "year": "2023",
+  "abstract": "Trust has been recognized as a central variable to explain the resistance to using automated systems (under-trust) and the overreliance on automated systems (over-trust). To achieve appropriate reliance, users’ trust should be calibrated to reflect a system’s capabilities. Studies from various disciplines have examined different interventions to attain such trust calibration. Based on a literature body of 1000+ papers, we identified 96 relevant publications which aimed to calibrate users’ trust in automated systems. To provide an in-depth overview of the state-of-the-art, we reviewed and summarized measurements of the trust calibration, interventions, and results of these efforts. For the numerous promising calibration interventions, we extract common design choices and structure these into four dimensions of trust calibration interventions to guide future studies. Our findings indicate that the measurement of the trust calibration often limits the interpretation of the effects of different interventions. We suggest future directions for this problem.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0097",
+  "title": "Comprehensive Review of Image Compression Techniques",
+  "year": "2026",
+  "abstract": "The exponential growth of digital multimedia, cloud computing, medical imaging, remote sensing, and Internet of Things (IoT) applications has significantly increased the demand for efficient image compression techniques.Image compression reduces storage requirements and transmission bandwidth while maintaining acceptable image quality.Traditional methods such as Discrete Cosine Transform (DCT), Discrete Wavelet Transform (DWT), Huffman coding, and Arithmetic coding have been widely adopted for image compression.Recently, machine learning and deep learning approaches, particularly Convolutional Neural Networks (CNNs) and Autoencoders, have demonstrated superior performance in achieving higher compression ratios with improved reconstruction quality.This review presents a comprehensive analysis of contemporary image compression techniques, including lossless, lossy, hybrid, clustering-based, and deep learning-based methods.The paper also discusses current challenges, and future research directions.The findings indicate that adaptive and AI-driven compression frameworks are becoming increasingly important for next-generation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0098",
+  "title": "Smart University Development Challenges using Lora or Sigfox technology: A Systematic Literature Review",
+  "year": "2022",
+  "abstract": "Efficiency and effectiveness are important keywords in regulating the governance of a work unit entity. In a specific scope, including management of resources in the university environment to provide efficient services. For this reason, the role of IoT technology is an appropriate alternative to be implemented on campus. To operate IoT technology, two communication technology, Low Power Wide Area Network (LPWAN) Technology, namely Lorawan and Sigfox, are examined in this study with a systematic literature study approach. Through this study approach, several relevant and successful studies have been carried out and will be evaluated based on parameters, mechanisms, test settings, and quality. The expected results of this evaluation can be the basis for the application of LPWAN technology for the development of systems that integrate IoT technology to become a smart campus.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0099",
+  "title": "Beyond Convolution: A Taxonomy of Structured Operators for Learning-Based Image Processing",
+  "year": "2026",
+  "abstract": "The convolution operator is the fundamental building block of modern convolutional neural networks (CNNs), owing to its simplicity, translational equivariance, and efficient implementation. However, its structure as a fixed, linear, locally-averaging operator limits its ability to capture structured signal properties such as low-rank decompositions, adaptive basis representations, and non-uniform spatial dependencies. This paper presents a systematic taxonomy of operators that extend or replace the standard convolution in learning-based image processing pipelines. We organise the landscape of alternative operators into five families: (i) decomposition-based operators, which separate structural and noise components through singular value or tensor decompositions; (ii) adaptive weighted operators, which modulate kernel contributions as a function of spatial position or signal content; (iii) basis-adaptive operators, which optimise the analysis bases together with the network weights; (iv) integral and kernel operators, which generalise the convolution to position-dependent and non-linear kernels; and (v) attention-based operators, which relax the locality assumption entirely. For each family, we provide a formal definition, a discussion of its structural properties with respect to the convolution, and a critical analysis of the tasks for which the operator is most appropriate. We further provide a comparative analysis of all families across relevant dimensions -- linearity, locality, equivariance, computational cost, and suitability for image-to-image and image-to-label tasks -- and outline the open challenges and future directions of this research area.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0100",
+  "title": "A Survey of Methods and Architectures for Parkinson's Disease Recognition from EEG Using Attention-Based Sparse Graph Convolutional Neural Networks",
+  "year": "2024",
+  "abstract": "Parkinson’s disease (PD) is a progressive neurodegenerative disorder that significantly affects motor and cognitive functions, necessitating early and accurate diagnosis. Electroencephalography (EEG) has emerged as a promising non-invasive tool for detecting neural abnormalities associated with PD. Recent advancements in artificial intelligence, particularly deep learning, have revolutionized EEG-based PD recognition. Among these, attention-based sparse graph convolutional neural networks (ASGCNN) have demonstrated superior capability by modeling functional brain connectivity and focusing on informative EEG channels. This survey reviews recent methods in EEGbased PD detection, emphasizing graph neural networks (GNN), attention mechanisms, and hybrid deep learning architectures. GNN models effectively capture spatial relationships between EEG channels, while attention mechanisms enhance interpretability and feature selection. The incorporation of sparsity constraints further improves efficiency by eliminating redundant connections. The ASGCNN framework models channel relationships using graphs, applies attention for channel selection, and uses sparsity to reduce redundancy, significantly improving classification performance. The paper also discusses challenges such as data variability, computational complexity, and lack of explainability. Future directions include multimodal learning, lightweight architectures, and explainable AI for clinical adoption.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0101",
+  "title": "Review on Human Action Recognition in Smart Living: Sensing Technology, Multimodality, Real-Time Processing, Interoperability, and Resource-Constrained Processing",
+  "year": "2023",
+  "abstract": "Smart living, a concept that has gained increasing attention in recent years, revolves around integrating advanced technologies in homes and cities to enhance the quality of life for citizens. Sensing and human action recognition are crucial aspects of this concept. Smart living applications span various domains, such as energy consumption, healthcare, transportation, and education, which greatly benefit from effective human action recognition. This field, originating from computer vision, seeks to recognize human actions and activities using not only visual data but also many other sensor modalities. This paper comprehensively reviews the literature on human action recognition in smart living environments, synthesizing the main contributions, challenges, and future research directions. This review selects five key domains, i.e., Sensing Technology, Multimodality, Real-time Processing, Interoperability, and Resource-Constrained Processing, as they encompass the critical aspects required for successfully deploying human action recognition in smart living. These domains highlight the essential role that sensing and human action recognition play in successfully developing and implementing smart living solutions. This paper serves as a valuable resource for researchers and practitioners seeking to further explore and advance the field of human action recognition in smart living.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0102",
+  "title": "Agile Deployment Model for Technology Solutions in Resource-Constrained Environments",
+  "year": "2020",
+  "abstract": "The deployment of technology solutions in resource-constrained environments presents unique challenges that traditional project management approaches often fail to address. Limited infrastructure, financial constraints, and skill shortages necessitate innovative and adaptive methodologies that ensure efficiency, scalability, and sustainability. Agile deployment models, with their iterative cycles, stakeholder engagement, and flexibility, offer a promising framework for overcoming these barriers. This review synthesizes existing literature on agile principles, adaptation strategies, and implementation practices tailored to environments characterized by scarcity of resources. It examines how agile methods can optimize technology deployment by reducing overhead, fostering collaboration, and improving responsiveness to contextual challenges. Furthermore, the study highlights case applications across sectors such as healthcare, education, and public administration, demonstrating the potential of agile models in bridging digital divides and enhancing long-term impact. The review concludes by proposing a conceptual framework that integrates agile practices with context-sensitive adaptations, ensuring that technology solutions are not only effectively deployed but also sustainable in resource-constrained settings.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0103",
+  "title": "Hijacking online reviews: sparse manipulation and behavioral buffering in popularity-biased rating systems",
+  "year": "2026",
+  "abstract": "Online reviews and recommendation systems help users navigate overwhelming choice, but they are vulnerable to self-reinforcing distortions. This paper examines how a single malicious reviewer can exploit popularity-biased rating dynamics and whether behavioral heterogeneity in user responses can reduce the damage. We develop a minimal agent-based model in which users choose what to rate partly on the basis of currently displayed averages. We compare broad attacks that perturb many items with sparse attacks that selectively boost low-quality items and suppress high-quality items. Additional analyses not shown here indicate that sparse attacks are substantially more harmful than broad attacks because they better exploit popularity-based exposure. The main text then focuses on sparse attacks and asks how their effects change as the fraction of contrarian users increases. Three results stand out. First, attack-induced damage is strongest when prior honest reviews are scarce, revealing a transition from a fragile low-information regime to a more robust high-information regime. Second, sparse attacks are especially effective at artificially promoting low-quality items. Third, moderate contrarian diversity partially buffers these distortions, primarily by suppressing the rise of low-quality items rather than fully restoring high-quality items to the top. The findings suggest that recommendation robustness depends not only on attack detection and predictive accuracy, but also on review density, popularity feedback, and user response heterogeneity.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0104",
+  "title": "Initialization for non-negative matrix factorization: a comprehensive review",
+  "year": "2021",
+  "abstract": "Non-negative matrix factorization (NMF) has become a popular method for representing meaningful data by extracting a non-negative basis feature from an observed non-negative data matrix. Some of the unique features of this method in identifying hidden data place this method among the powerful methods in the machine learning area. The NMF is a known non-convex optimization problem, and the initial point has a significant effect on finding an efficient local solution. In this paper, we investigate the most popular initialization procedures proposed for NMF so far. We describe each method and present some of their advantages and disadvantages. Finally, some numerical results to illustrate the performance of each algorithm are presented.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0105",
+  "title": "Taming Serverless Cold Start of Cloud Model Inference With Edge Computing",
+  "year": "2024",
+  "abstract": "Serverless computing is envisioned as the de-facto standard for next-generation cloud computing. However, the cold start dilemma has impeded its adoption by delay-sensitive and burst applications. In this paper, we propose to tame serverless cold start in a cloud inference system with edge computing. Specifically, the proposed solution smooths the serverless cloud workload with user-owned edge computing, reducing the number of cold starts. Leveraging the configurability of requests and serverless functions, the proposed solution further reduces the transmission latency and serverless cost by adapting request configuration (e.g., image resolution) and function configuration (e.g., memory). To alleviate the potential inference accuracy degradation incurred by configuration adaption, we aim to strike a nice balance between inference latency, cost, and accuracy. However, achieving this goal is non-trivial since the underlying optimization is non-convex and involves future uncertain information. To simultaneously address dual challenges, the presented cold-start-aware online algorithms apply the regularization technique to decompose the problem into separate convex subproblems. Then, it applies lazy switching to smooth the number of provisioned functions and thus reduces the cold start. Through rigorous theoretical analysis, realistic prototype evaluations on AWS Lambda, and trace-driven simulations, we comprehensively validate the theoretical and empirical performance of our proposed solution.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0106",
+  "title": "Analyzing spatiotemporal architectures in video classification: A deep dive into 3DCNNs",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0107",
+  "title": "Bert Distillation to Enhance the Performance of Machine Learning Models for Sentiment Analysis on Movie Review Data",
+  "year": "2022",
+  "abstract": "Recently, Deep Neural Networks DNN, transformers, and ensemble models have accomplished incredible SOTA performance in numerous fields, including Computer Vision CV, Natural Language Processing NLP, etc. Drawbacks often accompany these advantages, such as heavyweight with nearly millions (and billions) of parameters and computationally too expensive, which stand as a barrier for these models to be deployed on the client-side of a web application, edge devices, or embedded devices. Distillation is one of the active model compression methods that draws the researcher's attention, which is used to overcome these drawbacks (big size and inference computation time). It fills the gap between learnability and expressive power, which is achieved by training a small, lightweight machine learning or deep learning model based on extra knowledge obtained from a large and high-weight, already trained model. BERT transformer is a remarkable example of these large models and one of the excellent solution choices in NLP, especially in text classification tasks such as sentiment analysis. This paper aimed to distill the BERT transformer model and use the distilled knowledge obtained to enhance lightweight traditional machine learning models (deployable models) performance on the sentiment analysis task on the benchmark movie review dataset. The results revealed that this approach could boost the performance of the lightweight ML models on testing data and increase the accuracy by more than 1% of the chosen classifiers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0108",
+  "title": "Intelligent detection for sustainable agriculture: A review of IoT-based embedded systems, cloud platforms, DL, and ML for plant disease detection",
+  "year": "2024",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0109",
+  "title": "Unified Architectures for Disfluency Detection and Transcription on Resource-Constrained Devices: A Systematic Review",
+  "year": "2026",
+  "abstract": "Natural speech is far more irregular than any read-speech corpus represents. Speakers abandon clauses mid-phrase, echo syllables under time pressure, and insert filled pauses while searching for a word. Automatic speech recognition (ASR) systems trained on prepared corpora handle these events poorly—either discarding them silently or transcribing them as content words—corrupting downstream summarisation, dialogue, and clinical tools. Disfluency detection and transcription have historically required separate inference pipelines, each with its own dedicated model. On battery-powered edge hardware, that two-model architecture quickly exhausts the available memory and latency budget. We synthesise 52 primary studies (2019–2025) drawn from IEEE Xplore, ACM Digital Library, ACL Anthology, and arXiv, covering architectures that perform both tasks within a single inference pass. Four design families recur across the corpus: multi-task learning (MTL), joint sequence labelling, end-to-end transducer and attention models, and knowledge distillation. Under shared-encoder analysis, unified inference yields up to 40–60% reduction in combined computational cost relative to equivalent cascade pipelines, with no consistent transcription accuracy penalty on established benchmarks. Evidence from 2025 proceedings introduces a two-tier landscape: large language model (LLM)-backed architectures achieve substantially higher disfluency F1 than earlier families, but remain impractical for edge deployment in their current forms. The most consequential unresolved problem is LLM-to-streaming student distillation for joint disfluency-ASR—a pathway no reviewed study has yet demonstrated. Standardised edge benchmarking, covering accuracy, real-time factor (RTF), memory footprint, and streaming latency on defined consumer hardware, remains absent from the field.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0110",
+  "title": "The Stars Align: Modeling User Rating Calibration with Sparse Semantic Review Features",
+  "year": "2026",
+  "abstract": "User ratings are often treated as comparable across users, although identical scores may reflect different experiences. We study whether ratings can be viewed as user-specific discretizations of a shared semantic continuum derived from review text. Our method maps reviews into sparse semantic features with a sparse autoencoder and learns user-specific filters for each rating level. On Amazon Electronics, the learned embeddings align along a shared low-dimensional rating axis. Users differ mainly in how they anchor and partition this continuum, while preserving its overall ordinal structure. These findings support a semantic view of calibration beyond scalar bias correction.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0111",
+  "title": "Lightweight Deep Learning-Based Alzheimer’s Detection Using MobileNetV2 and Grad-CAM: A Comprehensive Review",
+  "year": "2026",
+  "abstract": "This review paper surveys the use of lightweight deep learning approaches for detecting Alzheimer’s disease from structural brain imaging data. Recent studies demonstrate that computationally efficient convolutional neural network architectures can classify different stages of cognitive impairment while significantly reducing model complexity and memory requirements. Explainable artificial intelligence techniques have been increasingly employed to generate visual explanations that highlight brain regions influencing diagnostic predictions. This review discusses the evolution of lightweight deep learning models, identifies key challenges such as limited data availability, computational constraints, and lack of interpretability, and highlights existing research gaps. Finally, a conceptual framework integrating lightweight deep learning models with visual explanation techniques is discussed to balance diagnostic accuracy, transparency, and clinical applicability for early disease screening",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0112",
+  "title": "Embedded Machine Learning Using Microcontrollers in Wearable and Ambulatory Systems for Health and Care Applications: A Review",
+  "year": "2022",
+  "abstract": "The use of machine learning in medical and assistive applications is receiving significant attention thanks to the unique potential it offers to solve complex healthcare problems for which no other solutions had been found. Particularly promising in this field is the combination of machine learning with novel wearable devices. Machine learning models, however, suffer from being computationally demanding, which typically has resulted on the acquired data having to be transmitted to remote cloud servers for inference. This is not ideal from the system’s requirements point of view. Recently, efforts to replace the cloud servers with an alternative inference device closer to the sensing platform, has given rise to a new area of research Tiny Machine Learning (TinyML). In this work, we investigate the different challenges and specifications trade-offs associated to existing hardware options, as well as recently developed software tools, when trying to use microcontroller units (MCUs) as inference devices for health and care applications. The paper also reviews existing wearable systems incorporating MCUs for monitoring, and management, in the context of different health and care intended uses. Overall, this work addresses the gap in literature targeting the use of MCUs as edge inference devices for healthcare wearables. Thus, can be used as a kick-start for embedding machine learning models on MCUs, focusing on healthcare wearables.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0113",
+  "title": "Editorial: Special issue on Boolean functions and their applications 2021",
+  "year": "2022",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0114",
+  "title": "深度强化学习中稀疏奖励问题研究综述 (Survey on Sparse Reward in Deep Reinforcement Learning)",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0115",
+  "title": "Remote Pedestrian Localization Systems for Resource-Constrained Environments: A Systematic Review",
+  "year": "2023",
+  "abstract": "The steady increase in the number of elderly citizens represents a likelihood of an increased burden on the family, government, healthcare, and social services since many of these elderly people cannot live independently without assistance from a caregiver. As such, there is an increase in demand for services in terms of technologies to address the urgent needs of the aging population. Remote monitoring, which is based on non-invasive, non-intrusive, and wearable sensors, actuators, and communication and information technologies, offers efficient solutions that bridge the gaps between healthcare and where elderly people really want to live every day. The rate at which such platforms have been adopted is extremely low in low-developed countries and rural areas, one of the main reasons being the lack or scarcity of some resources that these systems take for granted. In other words, these systems are designed for developed countries but are very much needed in resource-constrained environments as well. This study provides an in-depth, state-of-the-art systematic review of the current outdoor remote pedestrian localization systems to identify their suitability for resource-constrained environments. After checking 35 survey papers from the last ten years to the best of our knowledge, this is the first survey that investigates the suitability of existing pedestrian localization systems for a resource-constrained environment. This study is based on PRISMA guidelines to provide a replicable work and report the studies’ main findings. A total of 37 works published between 2012, and January 2023 have been identified, analyzed, and key information that described the devices and tools used, communication technologies, position estimate technologies, methods, techniques and algorithms, and resource optimization strategies currently used by the localization systems was extracted to help us answer our question. The results indicate they are not fit for a resource-constrained environment as most assume the availability of infrastructures such as Wi-Fi, Internet, cellular networks, and digital literacy, among others, for their systems to operate properly, which are limited or not available in the resource-constrained environment described in this review.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0116",
+  "title": "Review of Lightweight Research Based on YOLOv4 Model",
+  "year": "2026",
+  "abstract": "In recent years, the demand for the application of object detection models in resource-constrained scenarios has been growing rapidly. Although detection algorithms represented by YOLOv4 demonstrate remarkable advantages in detection accuracy, their high computational complexity restricts deployment on mobile and edge devices. This paper systematically summarizes the research progress of YOLOv4 lightweight technologies, covering traditional compression methods such as model pruning, parameter quantization and knowledge distillation, as well as lightweight network improvement schemes based on depthwise separable convolution, attention mechanisms and neural architecture search. Comparative experimental data verify that replacing the backbone network with GhostNet can reduce the model size by 67% and improve the inference speed by 2.3 times, while maintaining 91% of the accuracy of the original model. The study further explores engineering application cases of model lightweight technologies in real-time detection scenarios such as UAV inspection and vehicle-mounted systems. Finally, aiming at the feature loss problem caused by model compression, future research directions combining dynamic convolution and hardware co-optimization are proposed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0117",
+  "title": "A comprehensive review of AI-driven plant stress monitoring and embedded sensor technology: Agriculture 5.0",
+  "year": "2025",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0118",
+  "title": "A SYSTEMATIC REVIEW OF PARAMETER-EFFICIENT FINE-TUNING (PEFT) IN SPEECH PROCESSING",
+  "year": "2025",
+  "abstract": "Recent breakthroughs in large-scale speech models such as Whisper, Wav2Vec 2.0, and HuBERT have greatly enhanced speech processing tasks. Full fine-tuning comes at a prohibitive cost, though, which restricts their application to low- resource or real-time settings. The parameter-efficient fine-tuning (PEFT) approaches—e.g., LoRA, QLoRA, adapters, and prompt tuning—allow for compact adaptation by fine-tuning only a small subset of parameters. We review 33 studies (2021–2025) using PEFT for applications such as ASR, speaker verification, and emotion recognition. We organize methods by task, compare efficiency and accuracy, and determine prominent trends. Results indicate PEFT produces competitive results with reduced cost, enabling scalable deployment in resource-poor environments.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0119",
+  "title": "A Comprehensive Review of Microcontroller-Based Embedded Design for Motor Control, Intelligent Traffic Management, and Sensor-Driven Automation Systems",
+  "year": "2026",
+  "abstract": "The rapid development of embedded systems and microcontroller technologies has greatly improved automation, industrial control, transportation, and smart electronic applications. Microcontrollers such as PIC, AVR, and ARM are widely used in real-time monitoring and intelligent control systems because of their low cost, flexibility, reliability, and fast processing capability [1]–[8]. This review paper presents a study of microcontroller-based embedded systems used in motor control, intelligent traffic management, and sensor-based automation applications. The paper discusses the role of embedded controllers in electric drives and motor systems for speed control, torque regulation, electronic commutation, and power management [9]–[13]. In addition, different sensing technologies such as infrared, ultrasonic, and wireless sensor networks are reviewed for real-time data collection and automatic response generation in smart environments [14]–[16]. The paper also explains the integration of hardware and software using embedded programming, timing algorithms, graphical interfaces, and monitoring tools such as LabVIEW for visualization and system control [17]. Intelligent traffic management systems based on adaptive signal timing, vehicle density detection, and congestion reduction techniques are also analyzed [22]–[25]. Furthermore, recent developments in Internet of Things (IoT), artificial intelligence (AI), machine learning, and smart city technologies integrated with embedded systems are discussed [18]–[21], [34], [38], [39]. Comparative analysis of existing methods highlights system performance, scalability, implementation challenges, and future research directions. The study concludes that microcontroller-based embedded systems play a major role in developing intelligent, energy-efficient, scalable, and automated solutions for modern industrial and smart city applications",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0120",
+  "title": "Taxonomy Adaptive Cross-Domain Adaptation in Medical Imaging via Optimization Trajectory Distillation",
+  "year": "2023",
+  "abstract": "The success of automated medical image analysis depends on large-scale and expert-annotated training sets. Unsupervised domain adaptation (UDA) has been raised as a promising approach to alleviate the burden of labeled data collection. However, they generally operate under the closed-set adaptation setting assuming an identical label set between the source and target domains, which is over-restrictive in clinical practice where new classes commonly exist across datasets due to taxonomic inconsistency. While several methods have been presented to tackle both domain shifts and incoherent label sets, none of them take into account the common characteristics of the two issues and consider the learning dynamics along network training. In this work, we propose optimization trajectory distillation, a unified approach to address the two technical challenges from a new perspective. It exploits the low-rank nature of gradient space and devises a dual-stream distillation algorithm to regularize the learning dynamics of insufficiently annotated domain and classes with the external guidance obtained from reliable sources. Our approach resolves the issue of inadequate navigation along network optimization, which is the major obstacle in the taxonomy adaptive cross-domain adaptation scenario. We evaluate the proposed method extensively on several tasks towards various endpoints with clinical and open-world significance. The results demonstrate its effectiveness and improvements over previous methods. Code is available at https://github.com/camwew/TADA-MI.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]

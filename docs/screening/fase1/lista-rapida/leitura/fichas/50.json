@@ -1,0 +1,32 @@
+{"id": "50", "titulo": "Long Short-Term Memory", "ano": 1997,
+ "lido": {"acesso": "abstract (sem texto completo)", "secoes_lidas": "apenas o abstract", "paginas": "abstract, primeira pagina do artigo (1735 de 1735-1780)"},
+ "resumo": "O texto e o artigo fundador da arquitetura LSTM (Long Short-Term Memory), de Hochreiter e Schmidhuber, publicado na Neural Computation em 1997. Segundo o abstract, o problema atacado e que o treino de redes recorrentes por retropropagacao convencional falha em aprender dependencias de longo prazo porque o erro decai ao se propagar no tempo. A solucao proposta sao unidades especiais com um \"carrossel de erro constante\" e portoes multiplicativos que controlam o acesso a esse fluxo de erro, permitindo aprender dependencias com defasagens de mais de 1000 passos. Nao houve acesso ao texto completo: o PDF do site do autor foi localizado mas nao pode ser extraido em texto pelas ferramentas disponiveis, e as paginas da MIT Press e do Semantic Scholar bloquearam a extracao; a leitura ficou restrita ao abstract obtido por fontes de terceiros. Na lista das 56 obras, e a unica que trata da familia de arquiteturas recorrentes (RNN), servindo de contraponto historico as obras de Transformer do mesmo bloco. E um trabalho fundador amplamente citado, mas nao traz tecnica de eficiencia (quantizacao, poda, destilacao) nem pratica de implantacao.",
+ "perguntas": {
+   "P1": {"r": "não", "por": "O abstract descreve um metodo (LSTM), nao uma taxonomia da area; sem o texto completo nao ha evidencia de organizacao em categorias."},
+   "P2": {"r": "parcial", "por": "O proprio abstract ja explica o mecanismo em alto nivel (carrossel de erro constante, portoes multiplicativos), mas a secao de metodo nao foi lida para confirmar profundidade."},
+   "P3": {"r": "não", "por": "O abstract nao narra origem/evolucao da area; e a apresentacao direta do metodo proposto."},
+   "P6": {"r": "sim", "por": "E reconhecido como o artigo fundador da linha de RNNs com memoria de longo prazo (LSTM); busca no Semantic Scholar (27/09/2026) registrou a ordem de ~98.800 citacoes."},
+   "P4a": {"r": "não", "por": "O abstract nao menciona ferramenta, sistema, codigo ou benchmark de implantacao."},
+   "P4b": {"r": "não", "por": "Nao trata de destilacao de conhecimento."},
+   "V": {"r": "parcial", "por": "O abstract define o termo 'long short-term memory (LSTM)' e nomeia componentes (carrossel de erro constante, portoes multiplicativos), mas nao e um glossario formal nem traz notacao visivel a partir do abstract."},
+   "A": {"r": "não", "por": "E trabalho de 1997, pre-Transformer e pre-LLM; mostra o estado da area naquela epoca, nao a era atual (2023+)."},
+   "R": {"r": "sim", "por": "Trata da familia RNN (arquitetura recorrente com celula de memoria), antecedente historico da comparacao encoder/decoder/transformer que as outras obras do bloco C discutem."}
+ },
+ "termos_chave": ["long short-term memory (LSTM)", "error backflow (fluxo de erro)", "constant error carousel (carrossel de erro constante)", "portoes multiplicativos (multiplicative gate units)", "defasagem temporal (time lag)", "retropropagacao recorrente (recurrent backpropagation)"],
+ "pre_requisitos": ["rede neural recorrente (RNN)", "backpropagation", "backpropagation through time (BPTT)", "gradiente descendente", "problema do gradiente que desaparece (vanishing gradient)", "dados sequenciais/temporais"],
+ "nivel": "intermediário",
+ "nivel_por": "Entender a motivacao (erro que desaparece no tempo) e a proposta em alto nivel e acessivel, mas dominar a formulacao dos portoes e da celula de memoria exige familiaridade previa com RNN e BPTT; por isso intermediario, nao introdutorio.",
+ "objetivo": "saber",
+ "por_onde_ler": "Sem acesso ao texto completo nao e possivel indicar secoes por pagina. Se o PDF for obtido (ex.: site do autor, bioinf.jku.at/publications/older/2604.pdf), recomenda-se abstract + introducao (motivacao do erro que desaparece) e a secao que define a celula de memoria e os portoes.",
+ "acrescimo": "E a unica obra das 56 que trata da arquitetura recorrente (RNN/LSTM), predecessora historica do Transformer; da contraponto de arquitetura ao bloco C, cujas outras obras (Attention is All You Need, BERT, T5, GPT-3, LLaMA) sao todas da familia Transformer.",
+ "sobreposicao": ["A Survey of Large Language Models"],
+ "bloco_atual": "C conceitos",
+ "bloco_sugerido": "C conceitos",
+ "veredito": "manter",
+ "veredito_por": "Serve de contraponto arquitetural (RNN antes do Transformer) para o objetivo de conhecimento profundo de encoder/decoder/encoder-decoder do Pedro; e fundador reconhecido, mesmo sem tratar de eficiencia diretamente.",
+ "substituto_sugerido": "",
+ "confianca": "média",
+ "citacoes": [
+   {"texto": "Learning to store information over extended time intervals by recurrent backpropagation takes a very long time, mostly because of insufficient, decaying error backflow.", "pagina": "1735 (abstract)"},
+   {"texto": "Multiplicative gate units learn to open and close access to the constant error flow.", "pagina": "1735 (abstract)"}
+ ]}

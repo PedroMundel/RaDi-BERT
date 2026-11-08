@@ -1,0 +1,39 @@
+[project]
+name = "radibert"
+version = "0.1.0"
+description = "LLM rationales distilled into an encoder-only NLI classifier through an auxiliary decoder head"
+requires-python = "==3.11.*"
+dependencies = [
+    "anthropic==1.13.0",
+    "numpy==2.4.4",
+    "pandas==3.0.2",
+    "python-docx==1.2.0",
+    "requests==2.34.2",
+    "scikit-learn==1.8.0",
+    "tabulate==0.10.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8",
+    "ruff==0.16.7",
+]
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py311"
+# Screening scripts are closed history (Sep/2026): kept as they ran, paths not maintained, so not linted.
+extend-exclude = ["scripts/screening"]
+
+[tool.ruff.lint]
+select = ["F", "B"]
+# B905: every zip() pairs columns of one DataFrame (same length by construction); adding strict= is a behavior
+# change left for when the code is next edited for its own reason.
+ignore = ["B905"]

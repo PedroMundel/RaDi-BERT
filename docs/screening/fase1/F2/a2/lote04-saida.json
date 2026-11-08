@@ -1,0 +1,482 @@
+[
+  {
+    "id": "F0121",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Generative recommendation (GR) relies on large-beam decoding to generate hundreds of candidate items, creating a new scaling challenge for recurrent linear attention."
+      },
+      {
+        "item": "tipo",
+        "texto": "we present OneLA, a linear-attention decoding framework that exploits the shared prompt and short divergent suffixes of GR workloads."
+      },
+      {
+        "item": "tecnica",
+        "texto": "OneLA uses a lightweight ancestry index to track the transition records that make up each beam's history, allowing beams to be updated without moving or copying existing records."
+      },
+      {
+        "item": "pratica",
+        "texto": "Our analysis shows that OneLA achieves 1.54-2.46x end-to-end decode speedups while substantially reducing recurrent-state memory use and data movement."
+      }
+    ]
+  },
+  {
+    "id": "F0122",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0123",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0124",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0125",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Machine learning techniques will contribution towards making Internet of Things (IoT) symmetric applications among the most significant sources of new data in the future."
+      },
+      {
+        "item": "tipo",
+        "texto": "This study includes reviews and discussions of substantial issues related to supervised and unsupervised machine learning techniques, highlighting the advantages and limitations of each algorithm, and discusses the research trends and recommendations for further study."
+      },
+      {
+        "item": "tecnica",
+        "texto": "This study is limited to supervised and unsupervised machine learning (ML) techniques, regarded as the bedrock of the IoT smart data analysis."
+      }
+    ]
+  },
+  {
+    "id": "F0127",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "N-1 Security-Constrained Optimal Power Flow (N-1 SCOPF), a key variant of the Optimal Power Flow (OPF), ensures power system security under single-contingency conditions."
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose using Review Knowledge Distillation to improve the performance of a compact Graph Convolutional Network (GCN) by transferring knowledge from a larger, more powerful GCN through its intermediate feature distributions."
+      },
+      {
+        "item": "modelos",
+        "texto": "Graph Neural Networks (GNNs) have become mainstream due to their ability to model power system topology."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Review Knowledge Distillation to improve the performance of a compact Graph Convolutional Network (GCN)"
+      }
+    ]
+  },
+  {
+    "id": "F0128",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Computer vision relies heavily on object detection; from autonomous drones to industry monitoring it is everywhere."
+      },
+      {
+        "item": "tipo",
+        "texto": "A detailed examination of real-time object detection models designed for resource-constrained devices is presented in this paper."
+      },
+      {
+        "item": "modelos",
+        "texto": "We investigate widely used one stage detectors like SSD (Single Shot Multi Box) and YOLO (You Only Look Once)."
+      },
+      {
+        "item": "tecnica",
+        "texto": "model compression methods like knowledge distillation, pruning and quantization, which enable efficient deployment on embedded systems"
+      }
+    ]
+  },
+  {
+    "id": "F0130",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The rapid evolution of artificial intelligence has significantly transformed decision-making processes in Human Resource Management, particularly in career planning and workforce analytics."
+      },
+      {
+        "item": "tipo",
+        "texto": "This review paper presents a comprehensive analysis of deep learning and optimization techniques integrated within AS-GCNN frameworks for forecasting career trajectories."
+      },
+      {
+        "item": "modelos",
+        "texto": "Attention-Based Sparse Graph Convolutional Neural Networks (AS-GCNNs) have demonstrated remarkable capability in modeling complex relational data inherent in organizational structures."
+      },
+      {
+        "item": "tecnica",
+        "texto": "optimization strategies, including metaheuristic algorithms and gradient-based tuning, are examined for their role in improving prediction accuracy and convergence stability."
+      }
+    ]
+  },
+  {
+    "id": "F0131",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "We extend the cone-ray exact-NMF pipeline of Ramteke (arXiv:2606.22451) from the uniform-support regime r_+ = r to the gap regime r_+>r, and classify recoverable nonnegative factorisations by the rank of the W-factor into a three-regime taxonomy."
+      },
+      {
+        "item": "tecnica",
+        "texto": "A combined toolkit (Regime B then A) covers regimes A and B with no regression on dense draws"
+      }
+    ]
+  },
+  {
+    "id": "F0132",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Relation prediction has not. Scene-graph models are still trained and evaluated on the 50 or 56 predicates of one annotation style"
+      },
+      {
+        "item": "tipo",
+        "texto": "We present RelateAnything, a 53M-parameter model taking an image and regions from any source and returning scored relations over a predicate vocabulary supplied at inference as strings."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Object labels are never an input, so the region source can change without retraining, and the vocabulary is a bank of text embeddings, not a learned classifier."
+      },
+      {
+        "item": "pratica",
+        "texto": "It runs at 20 ms/frame."
+      }
+    ]
+  },
+  {
+    "id": "F0133",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0134",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Pyserini is a Python toolkit for reproducible information retrieval research with sparse and dense representations."
+      },
+      {
+        "item": "tipo",
+        "texto": "It aims to provide effective, reproducible, and easy-to-use first-stage retrieval in a multi-stage ranking architecture."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Pyserini supports sparse retrieval (e.g., BM25 scoring using bag-of-words representations), dense retrieval (e.g., nearest-neighbor search on transformer-encoded representations), as well as hybrid retrieval that integrates both approaches."
+      },
+      {
+        "item": "pratica",
+        "texto": "Our toolkit is self-contained as a standard Python package and comes with queries, relevance judgments, pre-built indexes, and evaluation scripts for many commonly used IR test collections."
+      }
+    ]
+  },
+  {
+    "id": "F0135",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "An embedded system is a programmed controlling and operating system with a dedicated function within a larger mechanical orelectrical system, often with real-time computing constraints."
+      },
+      {
+        "item": "tipo",
+        "texto": "Embedded systems control many devices in common use today."
+      }
+    ]
+  },
+  {
+    "id": "F0137",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Recent advances in natural language processing have enabled increasingly accurate detection of harmful online communication, including toxic language and online grooming."
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey reviews small language models for privacy-preserving harmful-content detection on resource-constrained platforms, focusing on toxicity and grooming detection."
+      },
+      {
+        "item": "modelos",
+        "texto": "deploying compact language models directly on edge devices, where inference can be performed locally"
+      },
+      {
+        "item": "tecnica",
+        "texto": "compression strategies, privacy-preserving deployment, and hardware-aware trade-offs relevant to embedded and microcontroller-class systems"
+      }
+    ]
+  },
+  {
+    "id": "F0138",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The integration of embedded software in multi-sensor wearable devices has revolutionized real-time monitoring across health, fitness, industrial, and environmental applications."
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper presents a comprehensive approach to designing and implementing embedded software architectures that enable efficient, low-power, and high-accuracy data acquisition and processing from heterogeneous sensor arrays."
+      },
+      {
+        "item": "tecnica",
+        "texto": "key challenges such as synchronization of sensor data streams, real-time operating system (RTOS) integration, power management strategies, and wireless communication protocols"
+      }
+    ]
+  },
+  {
+    "id": "F0139",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0141",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This is a brief overview of the methodology around exponential family PCA."
+      },
+      {
+        "item": "tipo",
+        "texto": "We revisit classic PCA methodology, and we focus on exponential family PCA due to its applicability on a number of distributions and hence a wide variety of problems."
+      },
+      {
+        "item": "tecnica",
+        "texto": "We discuss the applicability of these methods to text data analysis due to the high-dimensional and sparse nature of these data."
+      }
+    ]
+  },
+  {
+    "id": "F0142",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0143",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0144",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The advent of the era of machines has limited human interaction and this has increased their presence in the last decade."
+      },
+      {
+        "item": "tipo",
+        "texto": "Present paper covers the various embedded system and computer vision methodologies, techniques and innovations used in the field of spray painting robots."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Image analysis, filtering, enhancement, object detection, edge detection methods, path and localization methods"
+      }
+    ]
+  },
+  {
+    "id": "F0145",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0146",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Task offloading plays an essential enabler in reducing the burden on devices with limited resources by efficiently utilizing edge server network infrastructures."
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey presents a comprehensive review of recent advancements in optimization techniques for task offloading also classify approaches into heuristic, metaheuristic, deep reinforcement learning, and hybrid models"
+      },
+      {
+        "item": "tecnica",
+        "texto": "highlighting methodologies such as Deep QLearning, Whale Optimization, Genetic Algorithms, Lyapunov optimization, and multi-agent systems."
+      }
+    ]
+  },
+  {
+    "id": "F0147",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0149",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Serving embedding-based recommendation (EMR) models requires a mix of GPUs, CPUs, and DRAM."
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose FlexEMR, a system architecture that fully disaggregates these resources, and interconnects them via an optimized RDMA network."
+      },
+      {
+        "item": "tecnica",
+        "texto": "This design enables independent scaling of resources, enhances failure isolation, improves overall resource efficiency, and reduces operational costs."
+      },
+      {
+        "item": "pratica",
+        "texto": "We achieve this by introducing two classes of techniques to address the networking challenges introduced by disaggregation: (1) optimizing embedding lookup communication by leveraging workload locality, and (2) improving network transport through a high-performance, multithreaded RDMA engine."
+      }
+    ]
+  },
+  {
+    "id": "F0150",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0152",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "As deep learning models are widely applied across various domains, a critical challenge is how to compress models while maintaining high reasoning capability."
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper reviews the latest advancements in combining reinforcement learning with knowledge distillation, focusing on policy distillation, value function distillation, and dynamic reward-guided distillation methods."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Reinforcement learning (RL) offers a novel approach to knowledge distillation by optimizing the reasoning strategies of teacher models, generating more efficient decision paths, and providing more valuable learning content for student models."
+      }
+    ]
+  },
+  {
+    "id": "F0153",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0154",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "[Re] Distilling Knowledge via Knowledge Review"
+      },
+      {
+        "item": "tipo",
+        "texto": "We start the reproduction effort by using the code open-sourced by the authors."
+      },
+      {
+        "item": "pratica",
+        "texto": "We release our code as open-source."
+      }
+    ]
+  },
+  {
+    "id": "F0155",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "In mobile edge computing (MEC) environment, effective microservices deployment significantly reduces vendor costs and minimizes application latency."
+      },
+      {
+        "item": "tipo",
+        "texto": "we propose TP-MDU, a novel two-stage deployment framework for microservices."
+      },
+      {
+        "item": "tecnica",
+        "texto": "TP-MDU generates minimal deployment units online, tailored to the types of microservices and their interaction frequencies."
+      }
+    ]
+  },
+  {
+    "id": "F0156",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "F0157",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Algorithm for resource provisioning and cloud assignment for providing content in cloud based content delivery network is developed"
+      },
+      {
+        "item": "tipo",
+        "texto": "Intelligent Resource Allocation (IRA) is a QoS-aware resource allocation technique that uses advanced technologies like machine learning and artificial intelligence to optimize resource distribution in real-time."
+      },
+      {
+        "item": "tecnica",
+        "texto": "Using entropy-based adaptive neuro-fuzzy inferences system (E-ANFIS) that combines fuzzy logic and neural networks"
+      }
+    ]
+  },
+  {
+    "id": "F0158",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "The fusion of language and vision in large vision-language models (LVLMs) has revolutionized deep learning-based object detection by enhancing adaptability, contextual reasoning, and generalization beyond traditional architectures."
+      },
+      {
+        "item": "tipo",
+        "texto": "This in-depth review presents a structured exploration of the state-of-the-art in LVLMs, systematically organized through a three-step research review process."
+      },
+      {
+        "item": "modelos",
+        "texto": "large vision-language models (LVLMs)"
+      }
+    ]
+  },
+  {
+    "id": "F0159",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Large language models (LLMs) unite with multiagent systems (MAS) to create agentic AI systems which demonstrate autonomous behavior, persistent memory, advanced planning capabilities and collaborative tool usage."
+      },
+      {
+        "item": "tipo",
+        "texto": "This research evaluates the essential elements required to support large-scale deployment of multi-agent LLM systems"
+      },
+      {
+        "item": "modelos",
+        "texto": "LLM-based agents"
+      }
+    ]
+  },
+  {
+    "id": "F0160",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Rapid urbanization has resulted in a significant increase in municipal solid waste generation, placing pressure on conventional collection and disposal mechanisms."
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper presents a comprehensive review and system-level analysis of intelligent embedded sensor–based waste management architectures integrating Internet of Things (IoT), wireless communication, and data-driven analytics."
+      },
+      {
+        "item": "tecnica",
+        "texto": "a scalable system architecture employing ultrasonic, load, and gas sensors interfaced with ESP32 microcontrollers is proposed."
+      }
+    ]
+  }
+]

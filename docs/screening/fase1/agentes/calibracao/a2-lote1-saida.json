@@ -1,0 +1,465 @@
+[
+  {
+    "id": "C01",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey aims to systematically address these challenges by reviewing a broad spectrum of techniques designed to enhance the resource efficiency of LLMs."
+      },
+      {
+        "item": "tipo",
+        "texto": "This survey aims to systematically address these challenges"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Language Models (LLMs), exemplified by sophisticated models like OpenAI's ChatGPT"
+      },
+      {
+        "item": "tecnica",
+        "texto": "techniques designed to enhance the resource efficiency of LLMs. We categorize methods based on their optimization focus: computational, memory, energy, financial, and network resources"
+      },
+      {
+        "item": "pratica",
+        "texto": "A standardized set of evaluation metrics and datasets is also presented to facilitate consistent and fair comparisons across different models and techniques."
+      }
+    ]
+  },
+  {
+    "id": "C03",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Knowledge Distillation (KD) emerges as a pivotal methodology for transferring advanced capabilities from leading proprietary LLMs, such as GPT-4, to their open-source counterparts like LLaMA and Mistral."
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper presents a comprehensive survey of KD's role within the realm of LLM"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Language Models (LLMs), such as GPT-4, to their open-source counterparts like LLaMA and Mistral"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Knowledge Distillation (KD) plays a crucial role in both compressing these models, and facilitating their self-improvement by employing themselves as teachers."
+      },
+      {
+        "item": "pratica",
+        "texto": "An associated Github repository is available at https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs."
+      }
+    ]
+  },
+  {
+    "id": "C05",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "We applied a state-of-the-art transformer algorithm to the 221 deg² of the Kilo Degree Survey (KiDS) to search for new strong gravitational lenses (SGLs)."
+      },
+      {
+        "item": "tipo",
+        "texto": "We tested four transformer encoders trained on simulated data from the Strong Lens Finding Challenge on KiDS data."
+      },
+      {
+        "item": "modelos",
+        "texto": "four transformer encoders"
+      },
+      {
+        "item": "tecnica",
+        "texto": "The best performing model was fine-tuned on real images of SGL candidates identified in previous searches. To expand the dataset for fine-tuning, data augmentation techniques were employed, including rotation, flipping, transposition, and white noise injection."
+      },
+      {
+        "item": "pratica",
+        "texto": "Candidate SGLs were matched with those from other surveys and examined using GAMA data"
+      }
+    ]
+  },
+  {
+    "id": "C07",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper introduces a novel, multi-stage framework that leverages Large Language Models (LLMs) for the automated analysis of C2C chat logs."
+      },
+      {
+        "item": "tipo",
+        "texto": "introduces a novel, multi-stage framework"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Language Models (LLMs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Our pipeline first employs a prompt-engineered LLM to classify user inquiries into a set of predefined, theory-informed purchase factors. Subsequently, it uses the LLM to perform emergent thematic analysis on uncategorized data"
+      },
+      {
+        "item": "pratica",
+        "texto": "Applying this framework to a large dataset of real-world chat logs for hotel bookings on the Goofish platform"
+      }
+    ]
+  },
+  {
+    "id": "C08",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we survey prior work on sparsity in deep learning and provide an extensive tutorial of sparsification for both inference and training."
+      },
+      {
+        "item": "tipo",
+        "texto": "we survey prior work on sparsity in deep learning"
+      },
+      {
+        "item": "modelos",
+        "texto": "neural networks"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Sparsity can reduce the memory footprint of regular networks to fit mobile devices, as well as shorten training time for ever growing networks. We describe approaches to remove and add elements of neural networks, different training strategies to achieve model sparsity, and mechanisms to exploit sparsity in practice."
+      },
+      {
+        "item": "pratica",
+        "texto": "show techniques for achieving acceleration on real hardware"
+      }
+    ]
+  },
+  {
+    "id": "C09",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "this paper comprehensively surveys efficient generative LLM inference on different hardware platforms."
+      },
+      {
+        "item": "tipo",
+        "texto": "comprehensively surveys efficient generative LLM inference"
+      },
+      {
+        "item": "modelos",
+        "texto": "generative LLMs like GPT series and Llama series"
+      },
+      {
+        "item": "tecnica",
+        "texto": "we summarize different optimization methods for different platforms such as CPU, GPU, FPGA, ASIC, and PIM/NDP"
+      },
+      {
+        "item": "pratica",
+        "texto": "provide inference results for generative LLMs. Our project is available at https://dai.sjtu.edu.cn/project.html."
+      }
+    ]
+  },
+  {
+    "id": "C10",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "knowledge distillation (KD) has been proposed to transfer information learned from one model to another."
+      },
+      {
+        "item": "tipo",
+        "texto": "This paper is about KD and S-T learning, which are being actively studied in recent years. First, we aim to provide explanations of what KD is and how/why it works. Then, we provide a comprehensive survey on the recent progress of KD methods"
+      },
+      {
+        "item": "tecnica",
+        "texto": "KD is often characterized by the so-called 'Student-Teacher' (S-T) learning framework"
+      },
+      {
+        "item": "pratica",
+        "texto": "has been broadly applied in model compression and knowledge transfer"
+      }
+    ]
+  },
+  {
+    "id": "C11",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper presents a comprehensive review of the evolution of model compression techniques, from their inception to future directions."
+      },
+      {
+        "item": "tipo",
+        "texto": "presents a comprehensive review of the evolution of model compression techniques"
+      },
+      {
+        "item": "tecnica",
+        "texto": "we delve into several compression methods—such as quantization, pruning, low-rank decomposition, and knowledge distillation"
+      }
+    ]
+  },
+  {
+    "id": "C12",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "this survey provides a review of efficient inference methods designed specifically for LRMs"
+      },
+      {
+        "item": "tipo",
+        "texto": "provides a review of efficient inference methods designed specifically for LRMs"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Reasoning Models (LRMs), Large Language Models (LLMs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "we introduce a taxonomy to group the recent methods into two main categories: (a) explicit compact Chain-of-Thought (CoT), which reduces tokens while keeping the explicit reasoning structure, and (b) implicit latent CoT, which encodes reasoning steps within hidden representations instead of explicit tokens."
+      },
+      {
+        "item": "pratica",
+        "texto": "highlight key insights for enhancing LRMs' inference efficiency via techniques such as model merging, new architectures, and agent routers."
+      }
+    ]
+  },
+  {
+    "id": "C13",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we investigate compression and efficient inference methods for large language models from an algorithmic perspective."
+      },
+      {
+        "item": "tipo",
+        "texto": "we investigate compression and efficient inference methods for large language models"
+      },
+      {
+        "item": "modelos",
+        "texto": "Transformer based large language models"
+      },
+      {
+        "item": "tecnica",
+        "texto": "compression and acceleration algorithms for large language models can still be categorized into quantization, pruning, distillation, compact architecture design, dynamic networks."
+      },
+      {
+        "item": "pratica",
+        "texto": "provide an introduction to some mature frameworks for efficient inference of large models, which can support basic compression or acceleration algorithms"
+      }
+    ]
+  },
+  {
+    "id": "C15",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "Here we present a new data resource, PhenoVision–Leaf, which extends a computer-vision pipeline utilizing iNaturalist digital image vouchers to produce global-scale leaf phenophase data for deciduous, woody genera."
+      },
+      {
+        "item": "tipo",
+        "texto": "showcase the use of 165,988 crowdsourced annotated records to train a Vision Transformer model with a two-stage regime to maximize accuracy across single- and multi-image records."
+      },
+      {
+        "item": "modelos",
+        "texto": "Vision Transformer model"
+      },
+      {
+        "item": "pratica",
+        "texto": "Applying PhenoVision–Leaf to over 26 million iNaturalist records yielded 5.6 million record-level phenology observations across 6,500 species and 57 families"
+      }
+    ]
+  },
+  {
+    "id": "C17",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "On-device large language models (LLMs), referring to running LLMs on edge devices, have raised considerable interest"
+      },
+      {
+        "item": "tipo",
+        "texto": "This article provides a contemporary survey on harnessing MEI for LLM deployment."
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Language Models (LLMs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "edge LLM caching and delivery, edge LLM training, and edge LLM inference"
+      },
+      {
+        "item": "pratica",
+        "texto": "demonstrate the urgent need for deploying LLMs at the network edge"
+      }
+    ]
+  },
+  {
+    "id": "C18",
+    "acesso": "sem acesso",
+    "frases": []
+  },
+  {
+    "id": "C19",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey aims to provide a comprehensive overview of recent advances in efficient reasoning."
+      },
+      {
+        "item": "tipo",
+        "texto": "provides a comprehensive overview of recent advances"
+      },
+      {
+        "item": "tecnica",
+        "texto": "It categorizes existing works into three key directions: (1) shorter - compressing lengthy CoTs into concise yet effective reasoning chains; (2) smaller - developing compact language models with strong reasoning capabilities through techniques such as knowledge distillation, other model compression techniques, and reinforcement learning; and (3) faster - designing efficient decoding strategies to accelerate inference of reasoning models."
+      },
+      {
+        "item": "pratica",
+        "texto": "A curated collection of papers discussed in this survey is available in our GitHub repository: https://github.com/fscdc/Awesome-Efficient-Reasoning-Models."
+      }
+    ]
+  },
+  {
+    "id": "C21",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey provides a comprehensive analysis of two complementary paradigms: Knowledge Distillation (KD) and Dataset Distillation (DD), both aimed at compressing LLMs while preserving their advanced reasoning capabilities and linguistic diversity."
+      },
+      {
+        "item": "tipo",
+        "texto": "provides a comprehensive analysis of two complementary paradigms"
+      },
+      {
+        "item": "modelos",
+        "texto": "Large Language Models (LLMs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "Knowledge Distillation (KD) and Dataset Distillation (DD)"
+      },
+      {
+        "item": "pratica",
+        "texto": "highlight applications across domains such as healthcare and education, where distillation enables efficient deployment"
+      }
+    ]
+  },
+  {
+    "id": "C25",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper elaborates on a systematic methodology primarily focusing on identifying and mitigating gender bias in Greek-language job advertisements and legal documents."
+      },
+      {
+        "item": "tipo",
+        "texto": "we employ XML-structured prompt engineering with in-context learning (ICL)and systematically compare three classes of models"
+      },
+      {
+        "item": "modelos",
+        "texto": "commercial large language models (LLMs), namely Claude Sonnet 4.5 and GPT-5.2, two open-weight small language models (SLMs), Mistral Small (24B) and Ministral (14B), and Llama Krikri (8B)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "XML-structured prompt engineering with in-context learning (ICL)"
+      },
+      {
+        "item": "pratica",
+        "texto": "construct domain-specific annotated datasets comprising 90 expert-curated few-shot examples across both textual domains"
+      }
+    ]
+  },
+  {
+    "id": "C27",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey presents a comprehensive overview of foundation model applications in environmental science"
+      },
+      {
+        "item": "tipo",
+        "texto": "presents a comprehensive overview of foundation model applications"
+      },
+      {
+        "item": "modelos",
+        "texto": "Foundation models"
+      },
+      {
+        "item": "tecnica",
+        "texto": "covering data collection, architecture design, training, tuning, and evaluation. highlighting advancements in common environmental use cases including forward prediction, data generation, data assimilation, downscaling, inverse modeling, model ensembling, and decision-making across domains."
+      }
+    ]
+  },
+  {
+    "id": "C28",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This survey addresses the imperative need for efficient LLM serving methodologies from a machine learning system (MLSys) research perspective"
+      },
+      {
+        "item": "tipo",
+        "texto": "addresses the imperative need for efficient LLM serving methodologies"
+      },
+      {
+        "item": "modelos",
+        "texto": "generative large language models (LLMs)"
+      },
+      {
+        "item": "tecnica",
+        "texto": "We provide in-depth analysis, covering a spectrum of solutions, ranging from cutting-edge algorithmic modifications to groundbreaking changes in system designs."
+      }
+    ]
+  },
+  {
+    "id": "C29",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "we propose BSL, a novel multi-exit split learning-based collaborative inference system."
+      },
+      {
+        "item": "tipo",
+        "texto": "propose BSL, a novel multi-exit split learning-based collaborative inference system"
+      },
+      {
+        "item": "tecnica",
+        "texto": "BSL allows the device node to dynamically collaborate with the cloud by introducing the edge mode and collaboration mode"
+      },
+      {
+        "item": "pratica",
+        "texto": "We have implemented the system and evaluated it with public dataset on different embedded devices."
+      }
+    ]
+  },
+  {
+    "id": "C31",
+    "acesso": "ok",
+    "frases": [
+      {
+        "item": "objeto",
+        "texto": "This paper surveys the representative and latest deep learning techniques that are useful for edge intelligence systems"
+      },
+      {
+        "item": "tipo",
+        "texto": "surveys the representative and latest deep learning techniques"
+      },
+      {
+        "item": "tecnica",
+        "texto": "including hand-crafted models, model compression, hardware-aware neural architecture search and adaptive deep learning models."
+      },
+      {
+        "item": "pratica",
+        "texto": "based on observations and simple experiments we conducted, we discuss some future directions."
+      }
+    ]
+  }
+]

@@ -1,0 +1,214 @@
+[
+  {
+    "id": "F0401",
+    "veredito": "fora",
+    "regra": "§1.2 (sem eixo)",
+    "frase": "This work reviews research around an alternative approach to machine learning known as federated learning",
+    "objetivo": null,
+    "motivo": "revisão de aprendizado federado; sem eixo de inferência, memória/hardware ou redução de rótulo para implantação"
+  },
+  {
+    "id": "F0403",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "we evaluate representative approaches w.r.t the taxonomy in terms of accuracy, model complexity, computational performance, and real-time feasibility across a high-performance architecture and an embedded architecture",
+    "objetivo": null,
+    "motivo": "revisão de predição de trajetória veicular (aplicação específica); toca eixo (i)/(ii) mas é domínio aplicado"
+  },
+  {
+    "id": "F0404",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · sistema/ferramenta",
+    "frase": "we introduce OctopInf, a novel resource-efficient and workload-aware inference serving system",
+    "objetivo": null,
+    "motivo": "não é survey; introduz sistema novo de serving de inferência, não organiza literatura"
+  },
+  {
+    "id": "F0406",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we investigate few-shot event detection in this paper and propose TaLeM",
+    "objetivo": null,
+    "motivo": "não é survey; método novo de detecção de eventos few-shot, sem foco em implantação de modelo"
+  },
+  {
+    "id": "F0407",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we proposed a novel framework topic2features (T2F) to deal with short and sparse data using the topic distributions",
+    "objetivo": null,
+    "motivo": "não é survey; framework novo de features tópicas, fora do escopo de implantação"
+  },
+  {
+    "id": "F0408",
+    "veredito": "fora",
+    "regra": "§1.2 (sem eixo)",
+    "frase": "the present work puts together a literature compilation of such environmental features",
+    "objetivo": null,
+    "motivo": "revisão sobre recompensas esparsas em RL; sem eixo de implantação de modelo"
+  },
+  {
+    "id": "F0409",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "Low-Rank Adaptation (LoRA) has emerged as an efficient and practical solution for style-specific fine-tuning within Latent Diffusion Models (LDMs)",
+    "objetivo": null,
+    "motivo": "LoRA (técnica da área) aplicada só a modelos de difusão (LDM)"
+  },
+  {
+    "id": "F0410",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0413",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0415",
+    "veredito": "fora",
+    "regra": "§1.2 (sem eixo) · §1.3 (fora do escopo de modelos)",
+    "frase": "Data mining techniques and learning algorithms are utilised to discover knowledge from data",
+    "objetivo": null,
+    "motivo": "revisão de mineração de dados em BIM; fora do escopo de transformers/RNN/LSTM e sem eixo de implantação"
+  },
+  {
+    "id": "F0416",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · sistema/ferramenta",
+    "frase": "we develop a novel scheduler for LLM inference and serving",
+    "objetivo": null,
+    "motivo": "não é survey; introduz scheduler novo para inferência/serving de LLM"
+  },
+  {
+    "id": "F0417",
+    "veredito": "fora",
+    "regra": "§1.3 (fora do escopo de modelos)",
+    "frase": "Nonnegative Matrix Factorization (NMF) has emerged as a popular and powerful method for dimensionality reduction",
+    "objetivo": null,
+    "motivo": "NMF é técnica clássica de fatoração de matriz, fora do escopo de transformers/RNN/LSTM do §1.3"
+  },
+  {
+    "id": "F0419",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "Convolutional neural networks (CNNs) have emerged as powerful artificial intelligence tools for medical image analysis",
+    "objetivo": null,
+    "motivo": "revisão de CNN para imagem médica; CNN-only e aplicação específica"
+  },
+  {
+    "id": "F0420",
+    "veredito": "dúvida",
+    "regra": "§1.2 (iii) indefinido",
+    "frase": "Weakly supervised semantic segmentation (WSSS) based on image-level class labels has become a new research hotspot",
+    "objetivo": null,
+    "motivo": "WSSS reduz rótulo necessário (eixo iii), mas frases não dizem se cobre modelos além de CNN"
+  },
+  {
+    "id": "F0421",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "This study proposes a self-distillation framework based on XLM-RoBERTa-base for binary sentiment analysis",
+    "objetivo": null,
+    "motivo": "não é survey; destilação (técnica de eixo i/ii) aplicada em estudo primário, não em survey"
+  },
+  {
+    "id": "F0422",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "We introduce the task of evasive answer detection in financial Q&A and propose a multi-level taxonomy",
+    "objetivo": null,
+    "motivo": "não é survey (introduz tarefa e taxonomia de rótulos, não organiza literatura); fora do eixo de implantação"
+  },
+  {
+    "id": "F0423",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0424",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we propose GEAR-Seg (Grounded Explainable Agent for Reasoning Segmentation)",
+    "objetivo": null,
+    "motivo": "não é survey; método novo de segmentação por raciocínio, sem foco em eficiência de implantação"
+  },
+  {
+    "id": "F0425",
+    "veredito": "fora",
+    "regra": "§1.2 (sem eixo)",
+    "frase": "This paper reviews the current research status of image classification models",
+    "objetivo": null,
+    "motivo": "revisão de modelos de classificação de imagem (majoritariamente CNN); frases não mencionam eixo de implantação"
+  },
+  {
+    "id": "F0426",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0427",
+    "veredito": "sem acesso"
+  },
+  {
+    "id": "F0429",
+    "veredito": "dúvida",
+    "regra": "§1.2 indefinido",
+    "frase": "The second part summarizes the current technical bottlenecks and related solutions",
+    "objetivo": null,
+    "motivo": "revisão de ASR; frases não especificam se os 'bottlenecks' são de eficiência/implantação ou de outra natureza"
+  },
+  {
+    "id": "F0431",
+    "veredito": "fora",
+    "regra": "§1.2 (sem eixo) · fora da área",
+    "frase": "we survey the learning-based methods for solving the cold-start problem",
+    "objetivo": null,
+    "motivo": "survey de sistemas de recomendação (cold-start em dados), fora do escopo de eficiência de implantação de modelos do §1.3"
+  },
+  {
+    "id": "F0432",
+    "veredito": "fora",
+    "regra": "§1.3 (fora do escopo de modelos)",
+    "frase": "Nonnegative Matrix Factorization (NMF) has acquired a relevant role in the panorama of knowledge extraction",
+    "objetivo": null,
+    "motivo": "NMF é técnica clássica, fora do escopo de transformers/RNN/LSTM do §1.3"
+  },
+  {
+    "id": "F0433",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)/(d) indefinido",
+    "frase": "This paper presents a systematic review of IoT and embedded system applications in smart agriculture published between 2021 and 2025",
+    "objetivo": null,
+    "motivo": "IoT/embarcado + nuvem podem tocar eixo (ii)/(d), mas é revisão de agricultura de precisão sem menção a modelos de IA; aplicação específica"
+  },
+  {
+    "id": "F0435",
+    "veredito": "fora",
+    "regra": "§1.2 (sem eixo)",
+    "frase": "design aspects of network architectures, loss functions, benchmark datasets, and learning strategies",
+    "objetivo": null,
+    "motivo": "revisão de completamento de profundidade; frases não mencionam latência, memória/hardware ou redução de rótulo"
+  },
+  {
+    "id": "F0437",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · primário da área",
+    "frase": "AI-based sensing at wireless edge devices has the potential to significantly enhance Artificial Intelligence (AI) applications",
+    "objetivo": null,
+    "motivo": "não é survey; framework novo de sensoriamento privado em borda (edge), relevante ao eixo (ii) mas é estudo primário"
+  },
+  {
+    "id": "F0439",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "This paper presents TAPA-ICL, a novel in-context learning (ICL) framework for few/zero-shot symbolic music understanding task",
+    "objetivo": null,
+    "motivo": "não é survey; framework de ICL para entendimento musical, aplicação específica sem foco em implantação"
+  },
+  {
+    "id": "F0440",
+    "veredito": "fora",
+    "regra": "§1.3 (fora do escopo de modelos)",
+    "frase": "3D Gaussian Splatting (3DGS) is a powerful representation for real-time photorealistic novel view synthesis",
+    "objetivo": null,
+    "motivo": "3DGS é representação de cena, fora do escopo de transformers/RNN/LSTM/atenção do §1.3"
+  }
+]

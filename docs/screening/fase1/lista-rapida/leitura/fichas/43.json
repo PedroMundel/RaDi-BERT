@@ -1,0 +1,37 @@
+{"id": "43", "titulo": "FlightLLM: Efficient Large Language Model Inference with a Complete Mapping Flow on FPGAs", "ano": 2024,
+ "lido": {"acesso": "texto completo", "secoes_lidas": "Abstract; 1 Introduction; 2 Background and Related Work; 3 Computing Architecture (3.1 Overall Architecture, 3.2.1 MPU Design, resumido); 4 Always-on-chip Decode (4.1-4.4); 5 Software Design (5.1 ISA, 5.2 Length Adaptive Compilation, 5.3 resumido); 6 Evaluation (6.1 Setup, 6.2 resultados principais e discussao); 7 Conclusion", "paginas": "1-11 de 12 (nao li a secao de Referencias, p.11-12)"},
+ "resumo": "FlightLLM propoe um acelerador FPGA de ponta a ponta para inferencia de LLMs generativos (LLaMA2-7B, OPT-6.7B), cobrindo hardware, ISA e compilador. O nucleo e uma cadeia de DSPs configuravel (CSD-Chain) que reaproveita os DSP48 da FPGA para suportar padroes de esparsidade variados sem o overhead de hardware dedicado que outras abordagens exigem. Um esquema de decodificacao sempre em chip mantem as ativacoes da etapa de decode no buffer on-chip, elevando o uso de banda da HBM de cerca de 35,6% para 65,9%. Uma compilacao adaptativa por faixas de comprimento reduz o volume de instrucoes de cerca de 1,67 TB para 3,25 GB, o que viabiliza a implantacao real. Avaliado numa FPGA Alveo U280 e num simulador para a Versal VHK158, o sistema supera GPUs V100S e A100 em eficiencia energetica e de custo com batch size 1, mas essa vantagem diminui conforme o tamanho do lote cresce.",
+ "perguntas": {
+  "P1": {"r": "parcial", "por": "A secao 2.2 (Related Work, p.3-4) classifica tecnicas de compressao (quantizacao, atencao esparsa, poda) e aceleradores de LLM anteriores, mas isso serve para contextualizar o proprio sistema, nao e uma taxonomia sistematica da area de hardware."},
+  "P2": {"r": "sim", "por": "Explica o mecanismo: por que o encadeamento fixo de DSP48 nao serve bem a esparsidade e como o CSD-Chain resolve isso (secao 3.2.1, p.4-5), e por que o decode e limitado por banda de memoria em vez de computo (secao 4.1, p.5)."},
+  "P3": {"r": "não", "por": "Nao narra origem/evolucao da linha de aceleradores FPGA; cita trabalhos anteriores (DFX, FACT) so para contrastar limitacoes tecnicas pontuais (secao 2.2, p.4), sem contar uma historia da divisao."},
+  "P6": {"r": "parcial", "por": "Nao abre a linha de aceleradores de hardware em geral (DianNao/Eyeriss/EIE/TPU, ja nesta lista, sao anteriores e mais gerais), mas e um dos primeiros a propor um fluxo de mapeamento FPGA completo e especifico para LLMs comprimidos (esparsidade + quantizacao mista), publicado em FPGA'24."},
+  "P4a": {"r": "sim", "por": "Artefato liberado no Zenodo (nota de rodape, p.2), ISA de 6 instrucoes (Tabela 1, p.7), fluxo de compilacao e implementacao real numa Alveo U280 mais simulador ciclo-a-ciclo para a Versal VHK158 (secao 6.1, p.8)."},
+  "P4b": {"r": "não", "por": "O paper usa quantizacao e esparsidade/poda como tecnicas de compressao; nao trata de destilacao de conhecimento em nenhum momento."},
+  "V": {"r": "sim", "por": "Define e nomeia cada termo ao introduzi-lo: CSD-Chain, MPE/MPU/VPU, SFU, ISA (LD/ST/MM/MV/MISC/SYS), N:M sparsity, always-on-chip decode, length adaptive compilation (secoes 3-5, p.3-8)."},
+  "A": {"r": "sim", "por": "Avalia LLaMA2-7B e OPT-6.7B, publicado em marco de 2024 (FPGA'24), compara com vLLM e SmoothQuant e com gpt-fast (discussao, p.10) — todas ferramentas da era dos LLMs."},
+  "R": {"r": "sim", "por": "Todo o desenho gira em torno da distincao prefill vs. decode (Fig.3, p.3) e do gargalo de banda no decode autorregressivo de LLMs decoder-only (LLaMA2, OPT); a solucao central (always-on-chip decode, secao 4) e especifica dessa familia. Familia tratada: decoder-only (LLMs generativos)."}
+ },
+ "termos_chave": ["CSD-Chain (configurable sparse DSP chain)", "Matrix Processing Engine (MPE/MPU/VPU)", "always-on-chip decode", "length adaptive compilation", "N:M sparsity / block sparsity", "mixed-precision dequantization", "HBM+DDR hybrid memory", "ISA (LD/ST/MM/MV/MISC/SYS)"],
+ "pre_requisitos": ["Arquitetura Transformer (atencao, FFN)", "Quantizacao (INT8, mixed-precision)", "Poda/esparsidade (structured vs unstructured)", "Nocoes basicas de FPGA (DSP, HBM/DDR, RTL)", "Instruction Set Architecture (ISA) e pipeline de instrucoes", "Distincao prefill vs. decode em LLMs autorregressivos"],
+ "nivel": "avancado", "nivel_por": "Supoe conhecimento simultaneo de compressao de modelos (quantizacao/poda) e de arquitetura de FPGA (DSP48, RTL, hierarquia de memoria HBM/DDR), com notacao de hardware (Tabela 1, Fig.5) que exige alguma base de arquitetura de computadores; nao e texto de entrada na area.",
+ "objetivo": "saber + saber fazer",
+ "por_onde_ler": "Abstract + Introducao (p.1-2, contribuicoes e Fig.2) para o quadro geral dos 3 desafios; secao 3.1 (p.3-4, arquitetura geral) e secao 4.1 (p.5, always-on-chip decode) para o mecanismo central; secao 6.1-6.2 (p.8-10) para os numeros de comparacao com GPU. Pode pular o detalhe de circuito (3.2.1, 5.3) se o interesse for so vocabulario da area.",
+ "acrescimo": "E o unico item da lista de 56 que mostra um acelerador FPGA completo (hardware + ISA + compilador) especifico para inferencia de LLM comprimido, com artefato liberado; evidencia de forma concreta que o gargalo do decode autorregressivo e de banda de memoria, nao de computo — algo que os itens de serving em GPU (FlashAttention, PagedAttention, speculative decoding) atacam em software, e que o survey geral de hardware (01) so cobre em nivel abstrato e pre-LLM.",
+ "sobreposicao": [
+  "01 [A mapas] (2017) Efficient Processing of Deep Neural Networks: A Tutorial and Survey",
+  "39 [B fundadores] (2014) DianNao: a small-footprint high-throughput accelerator for ubiquitous machine-learning",
+  "40 [B fundadores] (2016) Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks",
+  "41 [B fundadores] (2016) EIE: Efficient Inference Engine on Compressed Deep Neural Network",
+  "42 [B fundadores] (2017) In-datacenter performance analysis of a tensor processing unit",
+  "56 [D sistemas] (2016) FINN: A Framework for Fast, Scalable Binarized Neural Network Inference",
+  "34 [B fundadores] (2022) FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+  "54 [D sistemas] (2023) Efficient Memory Management for Large Language Model Serving with PagedAttention"
+ ],
+ "bloco_atual": "B fundadores", "bloco_sugerido": "D sistemas",
+ "veredito": "mover de bloco", "veredito_por": "E um paper de sistema/framework com artefato liberado (RTL, ISA, fluxo de compilacao), da mesma natureza que FINN (56) e PagedAttention (54), ja classificados como D sistemas; classifica-lo como B fundadores quebra a consistencia com esses dois, mesmo introduzindo uma tecnica nova (CSD-Chain).", "substituto_sugerido": "", "confianca": "media",
+ "citacoes": [
+  {"texto": "FlightLLM achieves 6.0x higher energy efficiency and 1.8x better cost efficiency against commercial GPUs", "pagina": "1"},
+  {"texto": "the unique HBM+DDR hybrid memory system on FPGA has advantages over both HBM-only and DDR-only", "pagina": "6"}
+ ]
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "F0001",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "This survey offers a thorough review of the latest advancements in diffusion model quantization",
+    "objetivo": null,
+    "motivo": "técnica (quantização) aplicada só a diffusion models"
+  },
+  {
+    "id": "F0002",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.2.1 (a)",
+    "frase": "we review various end-to-end automatic speech recognition algorithms and their optimization techniques for on-device applications",
+    "objetivo": "saber",
+    "motivo": "survey de ASR com foco em otimização on-device (memória/hardware)"
+  },
+  {
+    "id": "F0003",
+    "veredito": "relevante",
+    "regra": "§1.2 (i)(ii) · §1.2.1 (a)",
+    "frase": "This literature review focuses on various techniques for reducing resource requirements and compressing large language models",
+    "objetivo": "saber",
+    "motivo": "survey de compressão de LLMs (quantização, pruning, KD, otimização arquitetural)"
+  },
+  {
+    "id": "F0004",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0005",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0007",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0008",
+    "veredito": "relevante",
+    "regra": "§1.2.1 (e)",
+    "frase": "the technological challenges and trends in the latest AI accelerators are reviewed",
+    "objetivo": "saber",
+    "motivo": "survey de hardware de IA (aceleradores)"
+  },
+  {
+    "id": "F0009",
+    "veredito": "dúvida",
+    "regra": "insuficiente",
+    "frase": "combining Federated Learning (FL) and the Internet of Things (IoT) symbolizes a revolutionary trend in edge-based intelligence",
+    "objetivo": null,
+    "motivo": "frases concentram-se em segurança de FL+IoT, sem eixo claro de custo de implantação (§1.2)"
+  },
+  {
+    "id": "F0010",
+    "veredito": "fora",
+    "regra": "sem eixo de §1.2",
+    "frase": "A packet cannot be sent from one location to another unless the \"quality of service\" (QoS) specifications are met",
+    "objetivo": null,
+    "motivo": "SLR sobre QoS de rede em apps de saúde; não trata de modelos de IA"
+  },
+  {
+    "id": "F0011",
+    "veredito": "fora",
+    "regra": "sem eixo de §1.2",
+    "frase": "The LoRa technology can be installed in various smart city centres",
+    "objetivo": null,
+    "motivo": "survey sobre tecnologia LoRa/IoT, não sobre modelos de IA (§1.3)"
+  },
+  {
+    "id": "F0013",
+    "veredito": "fora",
+    "regra": "sem eixo de §1.2",
+    "frase": "Structural Health Monitoring (SHM) is increasingly embraced thanks to advancements in the Internet of Things (IoT) and Artificial Intelligence (AI)",
+    "objetivo": null,
+    "motivo": "survey de aplicação de domínio (SHM), sem eixo de custo de implantação de modelo"
+  },
+  {
+    "id": "F0015",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0016",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.2.1 (a)",
+    "frase": "Linear deep TD exploits the layered structure of deep neural networks (DNNs) to recursively factorize factor matrices",
+    "objetivo": "saber",
+    "motivo": "decomposição tensorial como técnica de fatoração/compressão de DNNs (redução de memória)"
+  },
+  {
+    "id": "F0017",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0018",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "we introduce CultureSynth, a novel framework comprising (1) a comprehensive hierarchical multilingual cultural taxonomy covering 12 primary and 130 secondary topics",
+    "objetivo": null,
+    "motivo": "framework/benchmark primário sobre viés cultural em LLMs; não é survey e não trata de custo de implantação"
+  },
+  {
+    "id": "F0019",
+    "veredito": "relevante",
+    "regra": "§1.2 (i)(ii) · §1.2.1 (a)",
+    "frase": "Knowledge Distillation (KD) has been leveraged as an important technique",
+    "objetivo": "saber",
+    "motivo": "survey de KD explicitamente ligado a \"real deployment\""
+  },
+  {
+    "id": "F0020",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "comparative analysis of accuracy, inference time, energy consumption, and memory usage",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): classificação de ECG/detecção de arritmia (medicina)"
+  },
+  {
+    "id": "F0021",
+    "veredito": "relevante",
+    "regra": "§1.2 (i)(ii) · §1.2.1 (a)",
+    "frase": "provides a comprehensive overview of pruning",
+    "objetivo": "saber",
+    "motivo": "survey geral de pruning como técnica de compressão"
+  },
+  {
+    "id": "F0022",
+    "veredito": "fora",
+    "regra": "sem eixo de §1.2",
+    "frase": "This survey presents a comprehensive overview of deepfake audio generation and detection techniques",
+    "objetivo": null,
+    "motivo": "survey sobre geração/detecção de deepfake de áudio, sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0023",
+    "veredito": "dúvida",
+    "regra": "insuficiente",
+    "frase": "Long Short Term Memory Networks (LSTMs) and Recurrent Neural Networks (RNNs)",
+    "objetivo": null,
+    "motivo": "frases só citam modelos e técnica (mecanismos de atenção), sem eixo de custo de implantação"
+  },
+  {
+    "id": "F0024",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · fora da área",
+    "frase": "in this work optimized recommendation system is developed for analyzing customer reviews",
+    "objetivo": null,
+    "motivo": "trabalho primário sobre sistema de recomendação; não é survey e modelo/técnica fora do escopo de §1.3"
+  },
+  {
+    "id": "F0025",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "lightweight convolutional networks such as the MobileNet family",
+    "objetivo": null,
+    "motivo": "técnica aplicada só a CNN (também aplicação específica: detecção de máscara facial)"
+  },
+  {
+    "id": "F0026",
+    "veredito": "fora",
+    "regra": "§1.2.1 (b)",
+    "frase": "convolutional neural networks (CNNs)",
+    "objetivo": null,
+    "motivo": "técnica (U-Net/nnU-Net) aplicada só a CNN, para detecção de câncer cervical"
+  },
+  {
+    "id": "F0028",
+    "veredito": "fora",
+    "regra": "§3.4 não é survey · sistema/ferramenta",
+    "frase": "unmanned aerial vehicle survey system based on embedded 3D machine vision imaging perception",
+    "objetivo": null,
+    "motivo": "sistema de percepção embarcado para VANT (\"survey\" = levantamento aéreo, não revisão de literatura)"
+  },
+  {
+    "id": "F0029",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "face detection and recognition method based on lightweight network",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): biometria facial"
+  },
+  {
+    "id": "F0030",
+    "veredito": "dúvida",
+    "regra": "insuficiente",
+    "frase": "A Review",
+    "objetivo": null,
+    "motivo": "frases insuficientes (só tipo e \"Agentic AI\"); não fica claro se cobre eixo de custo de implantação (ex.: serving de agentes, §1.2.1 (d))"
+  },
+  {
+    "id": "F0031",
+    "veredito": "relevante",
+    "regra": "§1.2 (i)(ii) · §1.2.1 (a)",
+    "frase": "efficient architecture and model compression techniques",
+    "objetivo": "saber",
+    "motivo": "survey geral de arquitetura eficiente e compressão de modelos"
+  },
+  {
+    "id": "F0032",
+    "veredito": "relevante",
+    "regra": "§1.2 (iii) · §1.2.1 (a)",
+    "frase": "few-shot learning",
+    "objetivo": "saber",
+    "motivo": "few-shot learning reduz necessidade de dado rotulado (eixo iii)"
+  },
+  {
+    "id": "F0033",
+    "veredito": "dúvida",
+    "regra": "insuficiente",
+    "frase": "resource-efficient distributed state estimation",
+    "objetivo": null,
+    "motivo": "não fica claro se envolve modelos de §1.3 (transformers/RNN/LSTM) ou é estimação de estado clássica"
+  },
+  {
+    "id": "F0034",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0035",
+    "veredito": "sem acesso",
+    "regra": null,
+    "frase": null,
+    "objetivo": null,
+    "motivo": null
+  },
+  {
+    "id": "F0036",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "convolutional neural networks (CNNs), attention-based architectures, and YOLO-based frameworks",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): detecção de faixa/obstáculos com YOLO em direção autônoma"
+  },
+  {
+    "id": "F0038",
+    "veredito": "dúvida",
+    "regra": "§1.2.1 (c)",
+    "frase": "lightweight human pose estimation methods",
+    "objetivo": null,
+    "motivo": "aplicação específica (c): estimativa de pose humana"
+  },
+  {
+    "id": "F0039",
+    "veredito": "relevante",
+    "regra": "§1.2 (ii) · §1.2.1 (d)",
+    "frase": "on-device recommender systems (DeviceRSs)",
+    "objetivo": "saber",
+    "motivo": "survey de infraestrutura de implantação on-device (borda) para sistemas de recomendação"
+  },
+  {
+    "id": "F0040",
+    "veredito": "dúvida",
+    "regra": "insuficiente",
+    "frase": "CNN BiGRU model",
+    "objetivo": null,
+    "motivo": "modelo híbrido específico com quantização; não fica claro se o survey cobre a área ou é caso de aplicação específica"
+  }
+]

@@ -1,0 +1,425 @@
+[
+ {
+  "id": "F0881",
+  "title": "An Efficient and Lightweight Model for Fake Review Detection Using TF-IDF and XGBoost",
+  "year": "2025",
+  "abstract": "The It leads to the total erosion of trust for the whole e-commerce ecosystem. For building platforms with sufficient trustworthiness, this makes accurate and efficient automated detection of these false reviews a necessity. Here, the author presents a high performance automatic classification model for fake reviews, with an emphasis on computergenerated (CG) material. TF-IDF methods were used to represent features and XGBoost for classification. The technique was used on the “Fake Reviews Dataset” of Kaggle, which consists of $\\mathbf{4 0, 4 3 2}$ reviews categorized as Original Review and Computer Generated. In the preceding step the entire text preprocessing with case folding, tokenization, stopword removal, and lemmatization was carried out prior to feature extraction based on TF-IDF. Then, the XGBoost model was trained and evaluated using different data split ratios and hyperparameter tuning was done for optimization. The experimental results confirm that performance remained high, due to a 70:30 training-testing split and optimization. The model achieved a high overall accuracy of 91.76 %. This high performance was consistent across all measurement metrics where Precision, Recall, and F1-Score also reached $\\mathbf{9 1. 8 \\%}$. A finer analysis of the ui matrix showed that the model is effective, classifying $5,430 \\text{CG}$ and $5,701 \\text{OR}$ reviews correctly with comparatively less misclassification. This study demonstrates that the optimized combination of TF-IDF and XGBoost produces an effective, reliable, and stable alternative for fake review detection.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0882",
+  "title": "Is embedded indexing a worthwhile pursuit for indexers? A qualitative survey of current practices and thoughts for the future",
+  "year": "2025",
+  "abstract": "Professional indexers have been able to embed index entries into book content for several decades, but it is still a niche practice. A qualitative survey was conducted in 2024 to explore why indexers are doing embedded indexing, what processes and software they are using for this work, and their thoughts about the future of embedding. Reflecting on the survey results and their own considerable experience with back-of-book indexing, the authors conclude, among other points, that the profitability of embedded indexing depends on familiarity and efficiency with the process and the software.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0883",
+  "title": "Natural Language Processing Horizons: Techniques, Applications, and Trends",
+  "year": "2025",
+  "abstract": "Natural Language Processing (NLP) has revolutionized how machines understand and generate human language, enabling applications from conversational AI to sophisticated machine translation systems. This comprehensive survey provides an in-depth review of NLP techniques, spanning from traditional rule-based methods to cutting-edge deep learning approaches, including transformer architectures and large language models (LLMs). We explore various neural network architectures, including Recurrent Neural Networks (RNNs), Long Short-Term Memory (LSTM) networks, Gated Recurrent Units (GRUs), and Convolutional Neural Networks (CNNs), along with embedding techniques such as word vectors and contextual embeddings. This study examines key applications across e-commerce, healthcare, and social media platforms, while addressing critical challenges, including data scarcity, algorithmic bias, and computational complexity. Through an analysis of over 100 recent publications (20202024), we highlight the current methodological trends and future research directions, emphasizing efficient model architectures and multilingual processing capabilities. This study serves as a comprehensive guide for researchers and practitioners navigating NLP's rapidly evolving landscape.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0884",
+  "title": "Embedded Sensors for Structural Health Monitoring: Methodologies and Applications Review",
+  "year": "2022",
+  "abstract": "Sensing Technology (ST) plays a key role in Structural Health-Monitoring (SHM) systems. ST focuses on developing sensors, sensory systems, or smart materials that monitor a wide variety of materials’ properties aiming to create smart structures and smart materials, using Embedded Sensors (ESs), and enabling continuous and permanent measurements of their structural integrity. The integration of ESs is limited to the processing technology used to embed the sensor due to its high-temperature sensitivity and the possibility of damage during its insertion into the structure. In addition, the technological process selection is dependent on the base material’s composition, which comprises either metallic or composite parts. The selection of smart sensors or the technology underlying them is fundamental to the monitoring mode. This paper presents a critical review of the fundaments and applications of sensing technologies for SHM systems employing ESs, focusing on their actual developments and innovation, as well as analysing the challenges that these technologies present, in order to build a path that allows for a connected world through distributed measurement systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0885",
+  "title": "Prediction of Review Helpfulness Using a Lightweight BERT-CNN Hybrid Model",
+  "year": "2025",
+  "abstract": "본 연구는 DistilBERT, TinyBERT, ALBERT 등 경량 사전학습 언어모델을 활용하여 텍스트 임베딩과 CNN 구조를 결합하고 메타데이터를 어텐션 메커니즘으로 통합한 하이브리드 모델을 제안함으로써 리뷰 유용성 예측 성능을 향상시키고자 하였다. 성능 비교를 위해 메타 정보와 어텐션 메커니즘이 적용되지 않은 기본 BERT-CNN 모델을 기준으로 설정하고, 각 모델의 예측 성능 차이를 분석하였다. 실험 결과, 메타정보를 어텐션 기반으로 통합한 모든 모델에서 일관된 성능 향상이 관찰되었다. DistilBERT-CNN 모델은 Accuracy, Precision, Recall, F1-Score 등 주요 성능 지표에서 전반적으로 높은 수준의 값을 나타냈으며, 추론 속도 또한 BERT-CNN 대비 약 2배 가까이 빠른 성능과 처리 효율성 측면에서 상대적으로 안정적인 결과를 보였다. 한편 TinyBERT-CNN의 성능은 다른 모델에 비해 다소 낮으나 처리 속도가 빠르다는 점에서 실시간 응답이 요구되는 환경에 적합한 선택지로 고려될 수 있다. 본 연구는 경량 모델의 실용성과 어텐션 기반의 메타 통합 효과를 실증적으로 제시함으로써 자원 제약이 있는 환경에서도 적용 가능한 리뷰 유용성 예측 모델을 제안하고자 하였다.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0886",
+  "title": "Production of Multi-functional and Lightweight Parts with the Use of Topology Optimization and Additive Manufacturing Technique—A Review",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0887",
+  "title": "Comprehensive Review of Benefits from the Use of Sparse Updates Techniques in Reinforcement Learning: Experimental Simulations in Complex Action Space Environments",
+  "year": "2023",
+  "abstract": "This paper presents a comprehensive exploration of the advantages associated with the utilization of sparse update techniques in Artificial Neural Networks (ANNs) within the context of Reinforcement Learning (RL). The study leverages simulations with environments featuring complex action spaces and wide state spaces, characterized by state vectors of dimension 128 and a choice of 9 distinct actions. The research investigates the impact of different update frequencies in ANNs when applied to RL agents in these simulation environments. The experimental methodology entails testing ANN updates after each action executed by the RL agent, followed by evaluations at progressively less frequent intervals. To assess the effectiveness of these techniques, several critical attributes are compared across simulations. These attributes encompass the collected rewards by the RL agents, the number of actions required to accomplish specific tasks within the complex environments, and the computation time necessary to achieve task completion. The study reveals that the optimal update frequency for RL agents using ANNs varies depending on the specific simulation environment. Some environments benefit from more frequent updates, while others perform better with fewer updates. However, excessively sparse updates can lead to performance drops. These findings emphasize the importance of adaptable update schedules tailored to each RL task, which can significantly enhance RL algorithm design in complex environments with wide action and state spaces.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0888",
+  "title": "Design and Reproducible Evaluation of a Lightweight Local Platform for Structured Image-Record Review",
+  "year": "2026",
+  "abstract": "Small research teams may need to review structured image records without transferring operational files to a third-party service.This study redesigns and reproducibly evaluates a lightweight Flask platform backed by local JSON files.An isolated copy of a legacy prototype was hardened with hashed passwords, controlled registration, CSRF and role checks, structured validation, atomic replacement, validated restore, safer export and paths, login throttling, security headers, and failure-closed parsing.Evaluation used generated metadata and no operational images or accounts.All 12 functional tests passed, including an injected atomic-replacement failure that preserved the previous repository.The hardened copy satisfied all 15 audit-derived controls, versus none in the baseline; this trace is not a security certification.Across three sequential sessions, all 360 clean-start, in-process concurrency scenarios passed, allocating 32,400 synthetic records with zero duplicate identifiers.At 20 clients, median session-level P95 was 760.2 ms for batch allocation and 157.1 ms for saving one record.A separate 120-scenario loopback-HTTP run produced request-level P95 values of 913.8 and 202.7 ms.Three scale sessions yielded 900 observations from 100 to 10,000 records.A negative boundary experiment then started two or four independent processes against the same generated repository.None of 20 clean starts met the integrity criterion; 18 produced duplicate identifiers and assignment-to-master ownership mismatches, and nine also contained a write error.The evidence supports only the tested single-host, single-process configuration and empirically rejects treating its process-local lock as a multi-process transaction.Usability, review quality, production-network performance, certification, and legal compliance remain untested.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0889",
+  "title": "A Review of Embedded Systems Technology Applied to Electrical Machines",
+  "year": "2024",
+  "abstract": "In recent years, electrical machines have been garnering increased attention due to their numerous advantages, leading to the evolution of various high-performance control techniques. Such control strategies require more complex processors to be properly executed. This article comprehensively reviews embedded systems technology applied to electrical machines. An extensive literature review has been conducted in different academic databases and suppliers web sites. This work contributes to the state of the art in embedded systems for power electronic converters and control systems for electrical drives.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0890",
+  "title": "OACTD: an ontology-embedded model for heritage tourism reviews to assign cultural tourism data",
+  "year": "2024",
+  "abstract": "ABSTRACT The rapid growth of cultural tourism, driven by the ‘heritage boom’, has brought about the urgent need to reduce the cost and broaden the audience of cultural tourism. To address this challenge, this paper proposes OACTD, an ontology-embedded model for heritage tourism reviews to assign cultural tourism data. The OACTD model integrates scattered and unstructured tourist reviews, making them directly beneficial to cultural tourists and related management organizations, while also reducing the costs of tourism. The model first integrates large volumes of tourist reviews from various popular tourism platforms, and then utilizes natural language processing (NLP) algorithms to extract key information. This information is subsequently structured and visualized through an ontology model, which is further enhanced based on tourist queries. To demonstrate the effectiveness of the model, a case study was conducted on the Xiangjiang Ancient Town Group, involving the extraction of key information and the construction of an ontology from 8016 tourist reviews. This study presents a novel approach to leveraging cultural tourism data, promoting the formation of a two-way ‘demand-supply’ digital cultural tourism ecological chain.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0891",
+  "title": "A Literature Review Study on Knowledge Distillation for Large Models of Image Segmentation",
+  "year": "2025",
+  "abstract": "With the rapid development of deep learning technology, image segmentation macromodels have achieved remarkable results in many fields. However, these large models often face problems such as high consumption of computational resources and difficulties in deployment. Knowledge distillation, as an effective model compression and optimisation technique, has gradually received attention from researchers. This paper provides a systematic review of the literature related to knowledge distillation for large models of image segmentation, and analyses the current status, advantages and shortcomings of the application of knowledge distillation in large models of image segmentation in terms of improving the AR interactive experience, solving the contradiction between real-time and accuracy, promoting the lightweight and efficient deployment of the model, enhancing the generalization capability of the model, and facilitating the fusion of multimodal data, etc. It also looks forward to the future research direction, aiming to provide a better solution for the research in the related fields. outlook, aiming to provide reference and inspiration for researchers in related fields.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0892",
+  "title": "5G Networks and Their Impact on Cloud Computing Infrastructure: A Critical Review of Advances and Challenges",
+  "year": "2025",
+  "abstract": "Introduction: The advent of 5G networks has revolutionized telecommunications, introducing ultra-low latency, massive device connectivity, and high-speed data transmission. These features address traditional cloud computing limitations, such as latency, bandwidth, and scalability, paving the way for transformative applications across industries. \nObjectives: This study critically reviews the convergence of 5G and cloud computing, exploring advancements, challenges, and future prospects to provide a comprehensive understanding of their integration. \nMethods: The study draws insights from recent research and industrial applications, focusing on key enabling technologies like edge computing, fog computing, and network slicing. It evaluates real-world implementations and theoretical frameworks to highlight the impact of 5G on cloud computing infrastructure. \nResults: 5G enhances cloud computing by enabling real-time data processing, improved scalability, and seamless integration of IoT ecosystems. Technologies like edge computing reduce latency and optimize bandwidth for time-sensitive applications, while fog computing bridges the gap between cloud and edge. Despite these advancements, challenges persist, including high infrastructure costs, security vulnerabilities, and interoperability issues. Innovative solutions, such as blockchain integration and AI-driven resource management, show promise in addressing these barriers. \nConclusions: The integration of 5G and cloud computing is transforming industries like healthcare, transportation, and smart cities, offering unprecedented connectivity and efficiency. Overcoming existing challenges and leveraging emerging technologies will be critical for realizing the full potential of this convergence.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0893",
+  "title": "Exploring potential for residential energy saving in New York using developed lightweight prototypical building models based on survey data in the past decades",
+  "year": "2020",
+  "abstract": "Abstract In this research, a method of developing a model for predicting the energy saving potential of regional residential blocks has been presented. This model is predicated on a bottom-up methodology in representing and understanding the physical properties of the residential buildings in the region. The Residential Energy Consumption Survey (RECS) database is taken advantage to provide modeling inputs for the building performance modeling of the five developed archetypical building types. Different secondary energy supply systems are then distinguished and modeled by a developed lightweight building simulation tool - SimBldPy. The model is calibrated and validated based on energy use data from 1993 to 2015 and used for the optimization of eleven selected energy conservation measures (ECM) to find the potential best scenario for equivalent primary energy for residential buildings in New York state (NY). Best combinations of ECM parameters are discerned for each building type by Sobol sensitivity analysis. The optimal regional energy use scenario is found after coupling the population projection. It is indicated that the saving potentials of the state-level primary energy use for different building types range from 48% to 62% compared with the baseline scenario at the end of 2040 in NY.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0894",
+  "title": "A Comprehensive Review of Lightweight Audio-Visual Emotion Recognition: Architectures, Fusion Techniques, and the Efficiency Trade-off",
+  "year": "2026",
+  "abstract": "The recognition of emotions by audio and video means (AVER) is a very important part of human-computer interaction (HCI) that uses the combination of facial expressions and vocal prosody to get robust performance. This article is a comprehensive synthesis of the current state of the art and reviews it critically with a focus on the performance-efficiency trade-off that is characterizing modern affective computing. The authors systematically analyze feature extraction techniques, fusion methodologies (Early, Late, and Intermediate), and deep learning approaches, which are now moving from traditional CNNs to state-of-the-art Attention Mechanisms, and the evolution of these approaches. They divide the existing models into “Heavyweight SOTA” (e.g., 3D-ResNet, wav2vec2-large) and “Lightweight Architectures” and use benchmarking datasets like RAVDESS and CREMA-D for comparison. They point out that there is a constant research gap in creating an end-to-end framework that is light in weight from feature extraction through fusion. The review ends by promoting Depthwise Separable Convolutional Neural Networks (DSCNNs) as the core backbones which will make it possible to reach an estimated Unweighted Accuracy of $\\approx 80 \\%$ with very little computational cost (< 2 million parameters).",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0895",
+  "title": "Network for Distributed Intelligence: A Survey and Future Perspectives",
+  "year": "2023",
+  "abstract": "To keep pace with the explosive growth of Artificial Intelligence (AI) and Machine Learning (ML)-dominated applications, distributed intelligence solutions are gaining momentum, which exploit cloud facilities, edge nodes and end-devices to increase the overall computational power, meet application requirements, and optimize performance. Despite the benefits in terms of data privacy and efficient usage of resources, distributing intelligence throughout the cloud-to-things continuum raises unprecedented challenges to the network design. Distributed AI/ML components need high-bandwidth, low-latency connectivity to execute learning and inference tasks, while ensuring high-accuracy and energy-efficiency. This paper aims to explore the new challenging distributed intelligence scenario by extensively and critically scanning the main research achievements in the literature. In addition, starting from them, the main building blocks of a network ecosystem that can enable distributed intelligence are identified and the authors’ views are dissected to provide guidelines for the design of a “future network for distributed Intelligence”.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0896",
+  "title": "A review of real-time object detection for sustainable edge deployment in waste sorting sites",
+  "year": "2025",
+  "abstract": "Edge computing for real-time object detection is becoming increasingly important in places like waste sorting facilities, where resources and space are limited. Accurate and fast detection and identification of deformable objects in these environments can greatly improve recycling efficiency and overall performance. This review evaluates the performance of various real-time object detection models — both end-to-end and non-end-to-end — on the Nvidia Jetson Orin. It also discusses about dataset acquisition, industrial constraints, and potential strategies for achieving optimized detection, identification and execution time.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0897",
+  "title": "Efficient Enumeration of Substructures in Sparse Graphs [an abstract of dissertation and a summary of dissertation review]",
+  "year": "2020",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "sem arXiv nem DOI",
+   "S2 título:vazio"
+  ]
+ },
+ {
+  "id": "F0898",
+  "title": "A Joint Survey in Decentralized Federated Learning and TinyML: A Brief Introduction to Swarm Learning",
+  "year": "2024",
+  "abstract": "TinyML/DL is a new subfield of ML that allows for the deployment of ML algorithms on low-power devices to process their own data. The lack of resources restricts the aforementioned devices to running only inference tasks (static TinyML), while training is handled by a more computationally efficient system, such as the cloud. In recent literature, the focus has been on conducting real-time on-device training tasks (Reformable TinyML) while being wirelessly connected. With data processing being shift to edge devices, the development of decentralized federated learning (DFL) schemes becomes justified. Within these setups, nodes work together to train a neural network model, eliminating the necessity of a central coordinator. Ensuring secure communication among nodes is of utmost importance for protecting data privacy during edge device training. Swarm Learning (SL) emerges as a DFL paradigm that promotes collaborative learning through peer-to-peer interaction, utilizing edge computing and blockchain technology. While SL provides a robust defense against adversarial attacks, it comes at a high computational expense. In this survey, we emphasize the current literature regarding both DFL and TinyML/DL fields. We explore the obstacles encountered by resource-starved devices in this collaboration and provide a brief overview of the potential of transitioning to Swarm Learning.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0899",
+  "title": "A Survey of Natural Language Processing Implementation for Data Query Systems",
+  "year": "2021",
+  "abstract": "With increasing complexity and volume of collected data continuing to rise, it is becoming ever more important to develop systems with high interactability. Businesses with an interest in big data continue to seek solutions that limit cost while providing effective, simplified solutions to current issues in data retrieval. Combined analysis and application of a multi-factorial system will likely lead to promising results in ease of reporting of complex data by nontechnical end users. This survey is focused on natural language processing (NLP) implementations for data query systems, especially related to massive data sets (1TB+) in OLTP databases, OLAP databases, and data warehouses. We are seeking the most up-to-date and effective uses of NLP for Speech-to-SQL and Text-to-SQL generation, and the most recent advancements in data warehousing to optimize ELT efficiency and data retrieval, focusing on the highest performing code implementations on the Spider and WikiSQL datasets. Many models, including sequence-to-sequence (seq2seq), sequence-to-SQL (Seq2SQL), and fuzzy semantic to SQL (F-Semtosql), among others, are briefly described and compared. As well, recent advancements in data warehousing technology like multi-disk buffering in the ELT process and hybrid multi-dimensional and relational OLAP databases (HOLAPs) are discussed. The learning gathered here is applied to fill a gap in the current industrial knowledge base in service of increased efficiency in data access, retrieval, and reporting in a customer-facing environment.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0900",
+  "title": "Deployment pipeline development at scale: automating software as a service",
+  "year": "2022",
+  "abstract": "In recent years, adaptability has become the most important aspect of software. As technology companies grow, sustainable scalability and increased security become the main goals for developers, while the company's goals become increased scalability and decreased development time. In this overlap of goals, the delivery model of Software as a Service has gained particular notoriety. This model has inspired the development of new types of tools, such as Content Management Systems, Continuous Integration Continuous Deployment Pipelines, and Progressive Delivery Tools. These tools, while beneficial, offer persistent disadvantages to the development of Software as a Service applications, such as high costs or high initial development time. Many companies, in all size classifications, have decided to build multiple applications for multiple clients, despite a large aggregate of code and design shared between apps. Within this market, there is a need for tools that allow developers to automate the process of creating SaaS apps. In this thesis, a new tool has been developed that allows for the automatic style change and packaging of any web application for use by many companies at once. The tool, titled Banquet, is a command-line tool and API which will allow programmers to create CICD pipelines in a fraction of the time of normal development. This enables a low-cost, low development time solution for building Software as a Service that is abstract and multifaceted to fulfill as many use cases as possible. The tool utilizes some of the most prominent technologies of pipeline development and is open for customization to allow more technologies to be added. This makes Banquet essential for serving elaborate apps for many companies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0901",
+  "title": "A review of object detection methods: lightweight and energy-efficient detectors",
+  "year": "2026",
+  "abstract": "Object detection means finding and naming objects inside an image or a video. Today, making these models lightweight and energy-efficient is very important. This is because we want to run them on small devices like smartphones, drones, and smart cameras that have limited battery life and low computing power. Standard object detection models are too heavy and consume too much power because they have to check thousands of areas in an image at the same time. On the other hand, very small models sometimes make mistakes and draw inaccurate boxes around objects. To solve these issues, researchers have created many lightweight models. This paper reviews these methods in a simple, clear way. Instead of just listing past papers, we compare them using real numbers like accuracy (mAP), speed (FPS), model size (parameters), and power consumption metrics. We cover both deep neural networks (NN) and traditional non-neural network methods, explain their pros and cons, and show what is still missing in this field to help future researchers build better models. Additionally, to bridge the gap between high-level algorithmic design and low-power hardware realities, we introduce a strategic features framework (Fig. 20) and an operational, scenario-driven deployment roadmap (Fig. 22) to serve as a practical selection guide for system designers.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0902",
+  "title": "Active Machine Learning for Adaptive and Efficient Sparse Near-Field Scanning: An Overview",
+  "year": "2025",
+  "abstract": "Near-field scanning (NFS) is a commonly adopted technique in diagnosing electromagnetic interference (EMI) sources. However, NFS is a tedious and time-consuming process when facing a large number of scanning locations. An active machine learning method has been recently proposed to significantly accelerate NFS by adaptively selecting sparse samples. This paper gives an overview of the active learning method for sparse NFS. The basic principle of the active learning method is first explained. Then, applications of the technique on different NFS scenarios are discussed, including multi-frequency and multi-component measurements, time-domain measurements, and emission source microscopy measurements. Moreover, a stopping criterion to automatically terminate the sparse NFS process is presented. Potential applications of the active learning method in other electromagnetic compatibility problems are also discussed.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0903",
+  "title": "A review on the Smartwatches as IoT Edge Devices: Assessing the end-users continuous usage intention using structural equation modelling",
+  "year": "2023",
+  "abstract": "The goal of this study is to identify people's intentions to use smartwatches and how their use of these devices is affected by the advantages and disadvantages of the IoT.For the research work, five cities were chosen, Delhi, Mumbai, Kolkata, and Chennai.These cities were chosen as a study focus primarily because these cities have seen the biggest increases in smartwatch usage in India.These cities have a significant contribution to the global smartwatch market.They provide a number of data points that are important for the research project, enabling it to provide satisfactory results.Structured questionnaires were used to collect data from the respondents.Convenience sampling method was used for the survey.The sample size for the data collection was 249, and it included men and women from a range of age groups, economic levels, and occupational backgrounds.From the findings, it has emerged that six factors influencing customer intention to use smartwatches are \"Perceived usefulness\", \"Perceived ease of use\", \"Perceived connectivity\", \"Continuous usage intention\", \"Data risk\", and \"Performance risk\".The technological characteristics of the Internet of Things, such as perceived connectivity, act as powerful stimulants for smartwatches, favorably affecting customers' perception and the behavioral effects of smartwatch use.The usefulness of smartwatches is unaffected by IoT concerns like data and performance, but the ease of use is negatively impacted by data risks.Furthermore, usefulness and ease of use have a positive influence on the intention to use.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0904",
+  "title": "Clutter suppression in ultrasound: performance evaluation and review of low-rank and sparse matrix decomposition methods",
+  "year": "2020",
+  "abstract": "Vessel diseases are often accompanied by abnormalities related to vascular shape and size. Therefore, a clear visualization of vasculature is of high clinical significance. Ultrasound color flow imaging (CFI) is one of the prominent techniques for flow visualization. However, clutter signals originating from slow-moving tissue are one of the main obstacles to obtain a clear view of the vascular network. Enhancement of the vasculature by suppressing the clutters is a significant and irreplaceable step for many applications of ultrasound CFI. Currently, this task is often performed by singular value decomposition (SVD) of the data matrix. This approach exhibits two well-known limitations. First, the performance of SVD is sensitive to the proper manual selection of the ranks corresponding to clutter and blood subspaces. Second, SVD is prone to failure in the presence of large random noise in the dataset. A potential solution to these issues is using decomposition into low-rank and sparse matrices (DLSM) framework. SVD is one of the algorithms for solving the minimization problem under the DLSM framework. Many other algorithms under DLSM avoid full SVD and use approximated SVD or SVD-free ideas which may have better performance with higher robustness and less computing time. In practice, these models separate blood from clutter based on the assumption that steady clutter represents a low-rank structure and that the moving blood component is sparse. In this paper, we present a comprehensive review of ultrasound clutter suppression techniques and exploit the feasibility of low-rank and sparse decomposition schemes in ultrasound clutter suppression. We conduct this review study by adapting 106 DLSM algorithms and validating them against simulation, phantom, and in vivo rat datasets. Two conventional quality metrics, signal-to-noise ratio (SNR) and contrast-to-noise ratio (CNR), are used for performance evaluation. In addition, computation times required by different algorithms for generating clutter suppressed images are reported. Our extensive analysis shows that the DLSM framework can be successfully applied to ultrasound clutter suppression.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0905",
+  "title": "Efficient CNN Architecture for Sentiment Analysis of Movie Reviews: A Lightweight Approach",
+  "year": "2025",
+  "abstract": "Sentiment analysis of movie reviews, one of the most significant tasks in the field of natural language processing (NLP), has been widely applied in public opinion monitoring and recommendation systems. Traditional methods, such as those that depend on BERT, often achieve strong performance but involve high complexity and substantial computational resource demands. This paper proposes a lightweight convolutional neural network (CNN) model based on Bag-of-Words (BoW) representation, which transforms text features into a 2D image-like representation and extracts local features through a shallow CNN architecture. The method, with a simple model architecture, eliminates reliance on pre-training word vectors, improves the efficiency of training and testing, and incorporates regularization and optimization strategies to enhance generalization. Conducted on publicly available movie review datasets, the experiments demonstrated that the proposed model achieved about 84.96% training accuracy while maintaining effective feature extraction and model efficiency, making it suitable for resource-constrained practical applications.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0906",
+  "title": "Simple and Compound Leaf Taxonomy Embedded Machine Learning Approach for Ayurveda Plants Recognition",
+  "year": "2024",
+  "abstract": "Ayurveda treatment is an ancient traditional method that is used to treat various diseases even in an underdevelopment society. For this, the correct identification of Ayurveda plants is mainly important, and it enhances the quality of the Ayurveda treatments. Unfortunately, many people cannot recognize these plants by seeing them at least without having an image. Sometimes even having an image, the identification can be wrong since a lot of plants have similar characteristics. Therefore, the representation of knowledge of Ayurveda plants is essential and it leads the general public to gain some knowledge that can be applied whenever they need it. This paper presents a methodology to identify Ayurveda plants widely using their leaves with images. Only leaves are available and visible all the time, this approach mainly considers about leaves and these leaves are divided into two models as the recognition of large/simple leaves model and the recognition of the small/compound leaves model. By extracting texture features and leaf shapes from around 40 different Ayurveda plants through HOG, Gabor, Hu-moments, GLCM, Canny, and Laplacian methods, then classify each with different classifiers such as Random Forest, SVM, Decision Trees, K-NN, Logistic Regression, and Gradient Boosting. The results are compared with each plant and module-wise performances with their accuracy, F1-score, precision, and recall levels.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0907",
+  "title": "AF-HQCNN: Adaptive Federated Hybrid Quantum Convolutional Neural Network for Privacy-Preserving Medical Image Classification",
+  "year": "2026",
+  "abstract": "Medical image classification is an important task in clinical decision support systems. Although classical deep learning models can represent massive amounts of data, they are not very scalable DEEP LEARNING REVIEW and stand each in their own right for privacy loss and computation inefficiency. Quantum machine learning (QML) has been proposed as an exciting field to complement classical machine learning by using quantum superposition and entanglement for increasing the expressibility of the models. Since the hybrid quantum-classical methods are subject to high qubit complexity [10], training instability (barren plateau problem) [13, 14], non-existent privacy protection mechanisms and poor generalisability over trained datasets [7]. Herein, we propose AF-HQCNN: an Adaptive Federated Hybrid Quantum Convolutional Neural Network (1) a lightweight classical feature extractor using only MobileNetV2, (2) variational quantum circuit (VQC) with angle and amplitude encoding with 4-8 qubits, (3) novel adaptive momentum-based quantum optimizer to mitigate gradient vanishing and gradient explosion issues, (4) federated learning aggregation layer layer to ensure protection of patient data privacy,(5), multi-dataset validation on MedMNIST, HAM10000, Brain MRI & Chest X-Ray datasets. Our experimental results show that AF-HQCNN leads to the mean classification accuracy of 97.6%, outperforming existing hybrid models by a margin of 2.7% with 87% fewer trainable parameters, faster convergence and robustness against privacy attacks.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0908",
+  "title": "Learn from A Rationalist: Distilling Intermediate Interpretable Rationales",
+  "year": "2026",
+  "abstract": "Because of the pervasive use of deep neural networks (DNNs), especially in high-stakes domains, the interpretability of DNNs has received increased attention. The general idea of rationale extraction (RE) is to provide an interpretable-by-design framework for DNNs via a select-predict architecture where two neural networks learn jointly to perform feature selection and prediction, respectively. Given only the remote supervision from the final task prediction, the process of learning to select subsets of features (or rationales) requires searching in the space of all possible feature combinations, which is computationally challenging and even harder when the base neural networks are not sufficiently capable. To improve the predictive performance of RE models that are based on less capable or smaller neural networks (i.e., the students), we propose REKD (Rationale Extraction with Knowledge Distillation) where a student RE model learns from the rationales and predictions of a teacher (i.e., a rationalist) in addition to the student's own RE optimization. This structural adjustment to RE aligns well with how humans could learn effectively from interpretable and verifiable knowledge. Because of the neural-model agnostic nature of the method, any black-box neural network could be integrated as a backbone model. To demonstrate the viability of REKD, we conduct experiments with multiple variants of BERT and vision transformer (ViT) models. Our experiments across language and vision classification datasets (i.e., IMDB movie reviews, CIFAR 10 and CIFAR 100) show that REKD significantly improves the predictive performance of the student RE models.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0909",
+  "title": "Overview of Embedded Soft PLC Based on Codesys and Communication System Design",
+  "year": "2023",
+  "abstract": "CoDeSys is a complete development environment for programmable logic control PLCs with the advantages of openness, flexibility, power and portability. This paper introduces the application features of the CoDeSys software and the embedded soft PLC technology respectively. The CoDeSys hierarchical architecture and the application of visualization features, the advantages of embedded systems and soft PLC technology are described in detail. Then a complete embedded soft PLC system is designed by combining CoDeSys as the upper computer development system with the real-time operation system. The system is modified in real time by adding CoDeSys RTE extension software to the controller kernel, CoDeSys as the development software, based on TCP/IP protocol to communicate and control the real-time operation system, the raspberry pi development board into an industrial controller, and finally the rationality of the system is confirmed by the test of red and green light on/off control, reflecting the The final test confirmed the system's reasonableness through the red and green light control test, reflecting the practicality of combining CoDeSys and soft PLC.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0910",
+  "title": "Air Quality Monitoring through LoRa Technologies: A Literature Review",
+  "year": "2020",
+  "abstract": "The impact that air quality has on a human being is significant. Millions of deaths are associated with air pollution and health problems. Several standards and policies to regulate and improve air quality have been established by both the World Health Organization and the Environmental Protection Agency. Currently, several authors proposed cost-effective devices for measuring air quality in real-time. The proliferation of low-cost options to measure air quality and acquire sensor data. Moreover, it is possible to develop novel techniques and use artificial intelligence to predict poor air quality scenarios. This paper presents a literature review on IoT architectures for air quality monitoring using LoRa communication technology. On the one hand, the objective of this study is to present a literature review to support future research initiates on the application of air quality monitoring system using LoRa. On the other hand, the main contribution of the paper is to present an overview on sensors, power source, communication, data storage, processing, and visualization technologies used in the proposed methods available in the literature.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0911",
+  "title": "Database Systems in the Big Data Era: Architectures, Performance, and Open Challenges",
+  "year": "2025",
+  "abstract": "The advent of Big Data has fundamentally transformed the database management systems (DBMS) field, necessitating the development of innovative paradigms, architectures, and technologies to address unprecedented challenges. Despite their historical dominance, traditional systems falter under the high velocity, massive volume, and diverse variety of Big Data. These limitations have catalyzed the emergence of alternative solutions such as not only structured query language (NoSQL), NewSQL, and cloud-native databases, each offering unique approaches to scalability, flexibility, and performance optimization. This survey provides a comprehensive and systematic overview of the evolving database ecosystem in the Big Data era. It delves into the historical progression from traditional relational DBMS (RDBMS) to modern paradigms, emphasizing these transformations’ motivations, trade-offs, and innovations. The classification of databases based on data models, deployment strategies, scalability mechanisms, and consistency models is explored in depth, providing a structured framework for understanding their diverse capabilities. Furthermore, critical performance characteristics, including throughput, latency, fault tolerance, and cost efficiency, are analyzed to assess their effectiveness in real-world applications. By highlighting persistent challenges such as data heterogeneity, security, and interoperability, this survey outlines key research directions, fostering a holistic understanding of the domain and inspiring future advancements in database technologies.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0912",
+  "title": "Railway Track Defect Detection: From a Comprehensive Review of Methods to New Embedded System Modeling Perspectives",
+  "year": "2026",
+  "abstract": "The expansion and increasing complexity of railway infrastructure, combined with a growing demand for higher safety and maintenance standards, has driven important innovation in rail defect detection. This review examines recent methods for railway track defect identification, with a particular focus on their deployment on embedded computing architectures. Detection methods are categorized across multiple sensing modalities—vision, acoustics, vibration, and electromagnetic—while highlighting recent advances in deep learning (DL). This study addresses the critical gap between the performance of algorithms and their potential to be deployed on hardware architectures to design reliable, real-time systems. This review evaluates these approaches in terms of suitability for real-time onboard deployment, identifies their limitations, and proposes a new multisensory, embedded system that will balance performance, energy efficiency, and scalability. A study of detection methods and their in-depth evaluation aims to bridge the gap between complex and high-accuracy detection algorithms and their integration into lighter railway monitoring systems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0913",
+  "title": "A Survey on Hindsight Experience Replay for Sparse Reward Problems",
+  "year": "2026",
+  "abstract": "Sparse reward is a critical problem in reinforcement learning (RL), where agents receive sparse or delayed rewards, which can drastically affect exploration and learning efficiency. This problem results in inefficient learning, increased sample complexity and credit assignment problems. There are several proposed methods to overcome these issues, such as reward shaping, intrinsic motivation, hierarchical reinforcement learning, and imitation learning. But many of these techniques require extra information or lack scalability. Hindsight Experience Replay (HER) is a simple yet powerful alternative which relabels goals and treats unsuccessful trajectories as a success under different goals. This allows agents to increase their sample efficiency by learning from nearly all past experiences, which is particularly beneficial for goal-oriented tasks like robotics manipulation and navigation. This paper examines the sparse reward problem and its current understandings, specifically HER and its variants. It also outlines recent advances, and proposes some future directions for research. Recent works have also examined the combination of HER and other methods to enhance HER's efficacy when dealing with more complex problems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0914",
+  "title": "Peer Review #2 of \"Performance analysis of lightweight CNN models to segment infectious lung tissues of COVID-19 cases from tomographic images (v0.2)\"",
+  "year": "2021",
+  "abstract": "The pandemic of Coronavirus has spread around the world causing an existential health crisis.Automated detection of COVID-19 infections in the lungs from Computed Tomography (CT) images offers huge potential in tackling the problem of slow detection and augments the conventional diagnostic procedures.However, segmenting COVID-19 from CT Scans is problematic, due to high variations in the types of infections and low contrast between healthy and infected tissues.While segmenting Lung CT Scans for COVID-19, fast and accurate results are required and furthermore, due to the pandemic, most of the research community has opted for various cloud based servers such as Google Colabs etc to develop their algorithms.High accuracy can be achieved using Deep Networks but the prediction time would vary as the resources are shared amongst many thus requiring the need to compare different lightweight segmentation model.To address this issue, we aim to analyse the segmentation of COVID-19 using four Convolutional Neural Networks (CNN).The images in our dataset are preprocessed where the motion artifacts are removed.The four networks are UNet, Segmentation Network (Seg Net), High-Resolution Network (HR Net) and VGG UNet.Trained on our dataset of more than 3000 images, HR Net was found to be the best performing network achieving an accuracy of 96.24% and a Dice score of 0.9127.The analysis shows that lightweight CNN models perform better than other neural net models when to segment infectious tissue due to COVID-19 from CT slices.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0915",
+  "title": "DualSparse-MoE: Coordinating Tensor/Neuron-Level Sparsity with Expert Partition and Reconstruction",
+  "year": "2025",
+  "abstract": "Mixture of Experts (MoE) has become a mainstream architecture for building Large Language Models (LLMs) by reducing per-token computation while enabling model scaling. It can be viewed as partitioning a large Feed-Forward Network (FFN) at the tensor level into fine-grained sub-FFNs, or experts, and activating only a sparse subset for each input. While this sparsity improves efficiency, MoE still faces substantial challenges due to their massive computational scale and unpredictable activation patterns. To enable efficient MoE deployment, we identify dual sparsity at the tensor and neuron levels in pre-trained MoE modules as a key factor for both accuracy and efficiency. Unlike prior work that increases tensor-level sparsity through finer-grained expert design during pre-training, we introduce post-training expert partitioning to induce such sparsity without retraining. This preserves the mathematical consistency of model transformations and enhances both efficiency and accuracy in subsequent fine-tuning and inference. Building upon this, we propose DualSparse-MoE, an inference system that integrates dynamic tensor-level computation dropping with static neuron-level reconstruction to deliver significant efficiency gains with minimal accuracy loss. Experimental results show that enforcing an approximate 25% drop rate with our approach reduces average accuracy by only 0.08%-0.28% across three prevailing MoE models, while nearly all degrees of computation dropping consistently yield proportional computational speedups. Furthermore, incorporating load-imbalance awareness into expert parallelism achieves a 1.41x MoE module speedup with just 0.5% average accuracy degradation.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0916",
+  "title": "Not Everyone Wins with LLMs: Behavioral Patterns and Pedagogical Implications in AI-assisted Data Analysis",
+  "year": "2025",
+  "abstract": "LLMs promise to democratize technical work in complex domains like programmatic data analysis, but not everyone benefits equally. We study how students with varied experiences use LLMs to complete Python-based data analysis in computational notebooks in a graduate course. Drawing on homework logs, recordings, and surveys from 36 students, we ask: Which experience matters most, and how does it shape AI use? Our mixed-methods analysis shows that technical experience -- not AI familiarity or communication skills -- remains a significant predictor of success. Students also vary widely in how they leverage LLMs, struggling at stages of forming intent, expressing inputs, interpreting outputs, and assessing results. We identify success and failure behaviors, such as providing context or decomposing prompts, that distinguish effective use. These findings inform AI literacy interventions, highlighting that lightweight demonstrations improve surface fluency but are insufficient; deeper training and scaffolds are needed to cultivate resilient AI use skills.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0917",
+  "title": "Sparse-View CT Reconstruction with Deep Learning: A Comprehensive Survey",
+  "year": "2026",
+  "abstract": "Computed tomography (CT) is an essential medical imaging technique that produces high-resolution cross-sectional images, but delivers substantial radiation dose to patients. Sparse-view CT (SVCT) reduces radiation dose by decreasing projection views, but causes streak artifacts that degrade image quality. Deep learning has emerged as a powerful tool to address this challenge. Although prospective paired acquisitions for low-current/voltage CT may be constrained by radiation-dose management and clinical workflow considerations, SVCT provides a practical way to construct paired training data through retrospective angular downsampling of full-view projections. This survey provides a systematic review of deep learning–based SVCT, analyzing nearly 70 articles published since 2017. We describe CT imaging fundamentals with differentiable back-projection, propose a taxonomy of reconstruction frameworks (image-domain, sinogram-domain, dual-domain, direct mapping, and enhanced iterative), and review neural network architectures, loss functions and datasets. We further provide open-source implementations of fan-beam forward projection and filtered back projection for dual-domain training. Finally, we discuss future directions and key remaining challenges.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:ok"
+  ]
+ },
+ {
+  "id": "F0918",
+  "title": "Machine Learning-Driven Design Optimization for Lightweight Structures: A Review",
+  "year": "2026",
+  "abstract": "",
+  "acesso": "sem acesso",
+  "rotas": [
+   "floresta:vazio",
+   "S2:vazio",
+   "OpenAlex:vazio",
+   "Crossref:vazio"
+  ]
+ },
+ {
+  "id": "F0919",
+  "title": "МЕТОДИ МАШИННОГО НАВЧАННЯ В ІНТЕЛЕКТУАЛЬНИХ СИСТЕМАХ «РОЗУМНИЙ БУДИНОК»: КЛАСИФІКАЦІЯ, ПРОБЛЕМИ ТА ПЕРСПЕКТИВИ",
+  "year": "2025",
+  "abstract": "The article presents a systematic review of machine learning methods applied in intelligent «Smart Home» systems. A classification of typical tasks is provided, including user activity recognition, resource consumption forecasting, anomaly detection during operation, personalization of household scenarios, comfort management, and health monitoring of residents. Key classes of algorithms are analyzed in detail: classical methods (k-NN, SVM, decision trees, Random Forest), ensemble approaches (Gradient Boosting, XGBoost), deep learning methods (CNN, RNN, LSTM), as well as lightweight models optimized for edge devices (TinyML, TensorFlow Lite). A comparative analysis of their characteristics is conducted, in particular accuracy, resource requirements, adaptability, interpretability, and real-time integration capabilities.Special attention is given to data organization, sensor networks, and architectural strategies for building «Smart Homes». Key challenges are identified: ensuring privacy and cybersecurity, the lack of high-quality datasets, hardware limitations of devices, as well as issues of standardization and interoperability. Current approaches to overcoming these challenges are analyzed, including data augmentation and transfer learning methods, privacy-enhancing technologies (differential privacy, homomorphic encryption, secure multiparty computation), federated learning, and edge architectures.Significant attention is devoted to the ethical aspects of AI application, related to model bias, fairness, transparency, accountability, and preservation of user autonomy. Security issues of machine learning models are examined separately: adversarial attacks, data poisoning, and model stealing, as well as respective defense mechanisms — data sanitization, anomaly detection, adversarial training, obfuscation, and watermarking. The role of human-centric approaches and Explainable AI in increasing user trust is highlighted.Future prospects of the field are outlined, including the spread of Edge AI and TinyML, advancement of federated learning algorithms, implementation of multimodal systems, development of reinforcement learning methods, and the creation of decentralized architectures with local self-learning. The proposed review forms a holistic understanding of the current state and trends of ML use in «Smart Home» systems and defines practical ways to overcome existing problems.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ },
+ {
+  "id": "F0920",
+  "title": "Charting the Growth of Social-Physical HRI (spHRI): A Systematic Review Pipeline Augmented by Small Language Models",
+  "year": "2026",
+  "abstract": "Social-physical human-robot interaction (spHRI) has grown rapidly across robotics, human-computer interaction, human-robot interaction, and haptics. Yet, fragmented terminology and inconsistent methodologies make systematic synthesis difficult. To support scalable review practices, we evaluated the extent to which small language models (SLMs; < 1.5B parameters) can assist with title and abstract screening for a large spHRI systematic review. While no SLMs matched human reviewers' performance, the models operated locally and screened papers orders of magnitude faster. The combined SLM ensemble identified 39 papers reviewers missed, representing 10.29% of the final relevant dataset. These results demonstrate that SLMs can augment, rather than replace, expert reviewers and make large-scale literature reviews accessible and sustainable.",
+  "acesso": "ok",
+  "rotas": [
+   "floresta:ok"
+  ]
+ }
+]
