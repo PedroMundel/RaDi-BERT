@@ -205,6 +205,11 @@ Os 289 tópicos foram agrupados em **16 macro-temas** (M1–M16), cada um subdiv
 
 ## Rejected
 
+- **Git Flow com `develop`** (08/11, proposta aceita pelo Pedro) — demais para uma pessoa em 3 semanas; fica `main`
+  + branch `tipo/descricao` com PR.
+- **mypy, `ruff format`, Docker, dependabot e cobertura mínima no repo** (08/11, proposta aceita pelo Pedro) — escala
+  do ABIGS (sistema em produção); aqui é repo de pesquisa de uma pessoa. `ruff format` reescreveria o código antigo
+  inteiro.
 - **Distilling Step-by-Step como obra-base da replicação** (31/10, Pedro: "minha base *É* o Agrawal") — a replicação
   pedida pelo professor (aula de 31/10) sai do Agrawal 2025; o DSbS fica como origem do tema, não como base.
 - **Contraste do SCOTT (Wang et al. 2023) para gerar ou pontuar as justificativas** (28/10, Pedro: "overcomplicate things") — exige outra passada do Qwen sobre o lote e só serviria para as opções pós-geração (filtro por template, reescrita). Registro em `docs/ideias-de-desenho.md`.
