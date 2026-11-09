@@ -1,5 +1,6 @@
 # Dados baixados da fonte (ver dados/README.md)
 dados/esnli/
+dados/rte/
 resultados/lote-35B/amostra-treino.csv
 
 # Screening encerrado: bruto e vetores ficam só no notebook

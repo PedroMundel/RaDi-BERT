@@ -42,6 +42,8 @@ numpy==2.4.4
     #   scipy
 pandas==3.0.2
     # via radibert
+pyarrow==26.0.1
+    # via radibert
 pydantic==2.14.3
     # via anthropic
 pydantic-core==2.50.4
