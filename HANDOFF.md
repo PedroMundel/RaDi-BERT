@@ -1,101 +1,99 @@
-# HANDOFF — 31/10/2026 (Semana 8 entregue; próxima: fechar a avaliação e desenhar o primeiro treino)
+# HANDOFF — 09/11/2026 (PC pronto via SSH; próxima: decidir a replicação e escrever o treino)
 
 ## Status
 
-**Feito (27–29/10):**
-- **Lote 35B + variante F no TREINO do e-SNLI:** 16.000 pares em 5h20, 1,20 s/par, todos com `stop`, na ordem da
-  amostra embaralhada (semente 42). `resultados/lote-35B/racionalizacoes-F-35B.csv`.
-- **Eco marcado:** `marcar_eco.py` -> `marcas.csv`; 1.252 pares (7,8%; 23,5% das implicações); a regra reproduz o dev.
-  **Discordância NÃO marcada** (precisa de GPU).
-- **Avaliação humana cega** pela rubrica de Wiegreffe et al. 2022 (App. B.3): 30 do Qwen + 20 do GPT-3 já julgados
-  pelos avaliadores do paper (5 por contagem de votos), embaralhados. Gabarito `leitura-50-gabarito.csv` (não mostrar
-  a avaliadores). Google Forms via Apps Script (`criar_formulario.gs` em inglês; `criar_formulario_pt.gs` com
-  `traducao-pt.json` para amigo sem inglês — respostas PT à parte). Respondida por Pedro e amigos; **sem resultado**.
-- **Termo da Semana 8 entregue pelo Pedro em 29/10** (versão dele em `entrega/termos-entregues/Termo Semana 8.docx`;
-  rascunho meu em `docs/residencia/termo-de-entrega-Semana-8.md`). Documento linkado: `entrega/Geracao do Primeiro Lote.docx`
-  (fonte `entrega/geracao-primeiro-lote.md`: pedido E × F, velocidade, lote, eco) + o Forms.
-  Planejamento entregue: juntar respostas e medir aceitáveis; marcar discordância; definir encoder, decoder, como o
-  decoder recebe a justificativa e as primeiras versões do treino.
-- **Skill `termogate` atualizada** (29/10) a partir da comparação dos termos entregues S3–S8 com os rascunhos: regras
-  12–16 (4–6 itens curtos; número só se for o achado; sem itens de higiene de processo; sem regra externa como motivo;
-  espaço para a frase dele), regra 3 (LLM dentro do item, sem item de fechamento) e 6 (obstáculo concreto pode entrar),
-  tabela de evidência. Termos entregues S2–S8 copiados em `entrega/termos-entregues/` (o de S5 era
-  `PEDRO MUNDEL BIFFI_071026.docx`).
-- **Preparação de arguição** (no chat, não salva em arquivo): perguntas prováveis e "fdp" com respostas — cross-attention
-  e por que ajuda; braços de controle; risco do decoder ignorar o encoder e como medir; teto do SNLI; sementes.
+**Contexto (herdado de 08/11, sem mudança):** ~3 semanas para as explorações (contado em 31/10), 2 semanas de
+atraso; base da replicação = Agrawal 2025; IA liberada para acelerar; notebook (`WKST-001`, GTX 1650) = contexto,
+PC (`DESKTOP-2VBC5EC`, RTX 5060 8 GB, SSD SATA) = GPU. HANDOFF anterior em `docs/handoffs/2026-11-08-2251.md`.
 
-**Em aberto quando parou:**
-- Pedro não respondeu se quer a **folha extra com +50 justificativas do Qwen só para ele** (30 dá ±14 pontos a 80%; 80
-  dá ±9).
-- **Nome do aluno:** DR-BERT descartado (DrBERT existe, biomédico francês); RaDiO-BERT desaconselhado (choca com a
-  família RADIO da NVIDIA, destilação; "Optimized" vago; grafia "Rationale"). Recomendação: **RaDiBERT** (livre no HF e
-  arXiv; GitHub user `radibert` já existe, vazio) ou WhyBERT. **Decisão do Pedro pendente.**
-- **Contingência GPU:** se o PC for para RMA (~3 semanas), recomendado NÃO trocar o tema por survey; fazer o que roda em
-  CPU (análise da avaliação, leituras, código do treino testado com `google/bert_uncased_L-2_H-128_A-2`) e alugar GPU
-  só para os treinos (opções e preços a pesquisar se acontecer). Antes do RMA: WHEA-Logger, teste de estresse com ASPM
-  desligado, placa em outro PC.
+**Feito nesta sessão (09/11): ponte notebook -> PC, PC pronto para o projeto.** Nada do treino foi escrito.
+- **SSH do notebook para o PC:**
+  - Chave `~/.ssh/radibert_pc` (ed25519, sem senha) no notebook; atalhos no `~/.ssh/config`:
+    `ssh pc` (LAN, `192.168.1.14`, DHCP, pode mudar) e `ssh pc-h` (Hamachi, `25.11.204.231`, fixo, fora de casa).
+  - No PC: OpenSSH Server pelo winget (`Microsoft.OpenSSH.Preview` 10.0; o `Add-WindowsCapability` falhou calado),
+    serviço `sshd` automático, regra de firewall porta 22, chave em
+    `C:\ProgramData\ssh\administrators_authorized_keys` (a conta Pedro é admin) com ACL só Administradores + SYSTEM,
+    shell remoto = PowerShell 5.1. Há também um `~\.ssh\authorized_keys` de 104 bytes no PC (do primeiro bloco
+    colado; sem efeito para conta admin).
+- **PC preparado pelo SSH:**
+  - git 2.56 e uv 0.13.7 pelo winget (o winget funciona por SSH).
+  - GitHub por **deploy key read-write só do `RaDi-BERT`** (`~/.ssh/github_radibert` no PC, id 169286767,
+    "PC DESKTOP-2VBC5EC (RTX 5060)"); identidade git global igual à do notebook.
+  - Repo em **`D:\RaDi-BERT`** (`main` em `6497a80`), `uv sync --frozen`, ganchos pre-commit + commit-msg.
+  - e-SNLI (dev, train_1, train_2) copiado do notebook, md5 iguais.
+  - 46 testes passam; invariantes I1–I5 todas ok no PC (com o e-SNLI, I2 e I5 deixam de pular).
+  - llama.cpp b11770 (CUDA 13) e `Qwen3.6-35B-A3B-UD-IQ4_XS.gguf` em `D:\tools`, SHA-256 do GGUF igual ao do
+    notebook (`649d7508…`); `config/maquina.env` do PC aponta para `/d/tools` com os `LLAMA_ARGS` de 27/10.
+  - llama-server testado na 5060: pronto em 6 s, 1 pedido a ~30 tok/s, `stop`, 7,1 GB de VRAM; parado depois.
+- **Não verificado:** `git push` a partir do PC (só autenticação e clone); o lote completo (`rodar_lote.sh`) no PC.
+- **Uncommitted no notebook** (branch `docs/checkpoint-08-11`, o do PR #5): `CLAUDE.md` (linha da ponte entre as
+  máquinas), este `HANDOFF.md` e `docs/handoffs/2026-11-08-2251.md` (cópia do handoff anterior).
 
 ## Decisions
 
-- **Pedro:** 35B + F; 16 mil pares; baixar o treino do e-SNLI (27/10). Rubrica do Wiegreffe 2022 com itens do paper
-  para calibrar; Forms para amigos; versão em português (29/10).
-- **Pedro:** documentação da semana num .docx de entrega (Forms sozinho não serve) (29/10).
-- **Rejeitado:** SCOTT (já no `## Rejected` do CLAUDE.md).
-- **Becos técnicos (não rejeições do Pedro):** conector Composio para Google Forms (exige projeto próprio no Google
-  Cloud); juízes treinados do Wiegreffe (links 404); gerações GPT-3 do Wiegreffe como dado de treino (~1.250 pares,
-  qualidade baixa, licença OpenAI incerta).
-- **Recomendações do Claude, sem decisão do Pedro:** encoder em dois tamanhos (BERT base para comparar com o Agrawal +
-  um pequeno: DistilBERT 66M ou `google/bert_uncased_L-4_H-512_A-8` ~29M; todos Apache-2.0, conferidos no HF);
-  braços mínimos = base, justificativa certa, justificativa trocada; medir em todo treino a perda auxiliar com o H do
-  par certo × H de outro par (detecta decoder ignorando o encoder); remédios: aquecimento do Agrawal, dropout de
-  palavra no decoder (Bowman et al. 2016 — conferir antes de citar), tirar palavras de molde da perda.
-- **Ultimatum (outro projeto, nada alterado lá):** ARTEMIS = "Automação do Reconhecimento Textual de Entidades por
-  Marcação e Identificação de Spans", sem sufixo (ARTEMIS v1); o Artemis v1 hoje é só trabalhista (model card).
+- **Pedro (09/11):** deploy key (escopo só deste repo) em vez de clonar no PC com login do navegador; Hamachi para
+  o IP dinâmico (os dois PCs já estão na mesma rede dele).
+- **Claude, declarado:** chave do notebook sem senha (para comandos remotos sem interação; trocar por chave com
+  senha + `ssh-agent` se o Pedro quiser); repo e ferramentas no `D:` (SSD SATA 1 TB, 694 GB livres; o `C:` tem
+  256 GB); só o 35B copiado (decisão de 27/10: 35B + F).
+- **Sem rejeitados novos.**
+- **Becos técnicos (para não repetir):**
+  - PowerShell 5.1 descarta argumento vazio para exe nativo (`-N ""` do ssh-keygen quebra) e estraga aspas
+    aninhadas: para script no PC, mandar bash por stdin:
+    `ssh pc '& "C:\Program Files\Git\bin\bash.exe" -s' <<'EOF' ... EOF`.
+  - Dentro desse bash, `ssh`/`git clone` consomem o stdin do script: usar `</dev/null`.
+  - Em sessão SSH com chave, o Windows não libera o cofre de credenciais (DPAPI): login https do GitHub feito no PC
+    não serviria para `pull`/`push` remoto. Por isso a deploy key.
+  - O guardrail do projeto bloqueia comandos Bash com barra invertida de continuação ou escape (`\` no fim da
+    linha, `D:\\tools` em sed). Escrever em uma linha e sem barras invertidas.
+  - `python` no PC é o atalho da Microsoft Store: usar `uv run python`.
+  - Pedro (09/11): **um comando por vez** quando ele tiver que colar algo no PowerShell; bloco inteiro falha
+    linha a linha e esconde o primeiro erro.
 
 ## Files touched
 
-- `resultados/lote-35B/`: `lote.py`, `rodar.sh`, `racionalizacoes-F-35B.csv`, `amostra-treino.csv`, `marcar_eco.py`,
-  `marcas.csv`, `montar_leitura_cega.py`, `leitura-50-cega.md`, `leitura-50-gabarito.csv`, `formulario-leitura.html`
-  (artifact https://claude.ai/artifact/7inknzM26QzFB8Fy6HRe53, sem uso), `montar_google_forms.py`,
-  `criar_formulario.gs`, `criar_formulario_pt.gs`, `traducao-pt.json`.
-- `dados/esnli/esnli_train_{1,2}.csv`; `dados/wiegreffe2022/snli_test.csv`.
-- `resultados/piloto-qwen/`: `gerar.py`, `medir.py`, `relatorio.md`, `vazao-paralelo/`.
-- `docs/residencia/termo-de-entrega-Semana-8.md`; `entrega/geracao-primeiro-lote.md`; `entrega/Geracao do Primeiro Lote.docx`;
-  `entrega/termos-entregues/` (S2–S8).
-- `.claude/skills/termogate/SKILL.md`; `docs/ideias-de-desenho.md`; `CLAUDE.md`; `HANDOFF.md`.
-- Memória: `pc-instavel-out-2026.md`.
-
-**Lixo a confirmar com o Pedro (não apagar sem pedido):** `resultados/lote-35B/google-forms-requests.json`,
-`resultados/lote-35B/leitura-50.md`; em `resultados/piloto-qwen/vazao-paralelo/`: `erro.txt`,
-`resultados-F-9B-90-w2.csv`, `resultados-F-35B-90-ub128-w4.csv`, `resultados-F-35B-ontem-30.csv`.
+- Notebook, no repo: `CLAUDE.md` (linha 22 em diante, "Ponte entre as máquinas"), `HANDOFF.md`,
+  `docs/handoffs/2026-11-08-2251.md`.
+- Notebook, fora do repo: `~/.ssh/radibert_pc`, `~/.ssh/radibert_pc.pub`, `~/.ssh/config` (novo), `~/.ssh/known_hosts`.
+- PC: `D:\RaDi-BERT\` (clone), `D:\RaDi-BERT\config\maquina.env`, `D:\RaDi-BERT\dados\esnli\*.csv`,
+  `D:\tools\llama.cpp-b11770\`, `D:\tools\models\Qwen3.6-35B-A3B-UD-IQ4_XS.gguf`, `~\.ssh\github_radibert(.pub)`,
+  `~\.ssh\config`, `C:\ProgramData\ssh\administrators_authorized_keys`, registro `HKLM:\SOFTWARE\OpenSSH\DefaultShell`.
+- GitHub: deploy key 169286767 no `PedroMundel/RaDi-BERT`.
+- **Lixo (apagar é decisão do Pedro):** `D:\tools\teste-server.log` e `D:\tools\teste-resposta.json` no PC;
+  branches antigos listados no handoff de 08/11 (`main-antigo`, `chore/guardrails-*`, `ci/gates`,
+  `test/invariantes`).
 
 ## Next steps
 
-1. Perguntar ao Pedro: **folha extra com +50 do Qwen** (sim/não) e **nome do aluno** (RaDiBERT, WhyBERT ou outro).
-   Se a folha for sim: 50 pares do lote balanceados por rótulo, pulando os 30 pairIDs de `leitura-50-gabarito.csv`,
-   mesma rubrica, sem itens do Wiegreffe.
-2. Quando houver respostas: exportar o Forms (planilha); por avaliador, taxa de aceitáveis do Qwen (Wilson 95%);
-   concordância entre avaliadores (Krippendorff α) e com os votos do Wiegreffe (aceitável = 2/3 ou 3/3); PT à parte.
-   **Pedro, 03/11:** a resposta "Junior" é do Claude e conta como avaliador (mais rigoroso; 3–4 humanos além dele).
-   Declarar como LLM e não cego no relato e dar os números com e sem ele.
-   Seção nova em `entrega/geracao-primeiro-lote.md` e regerar o .docx.
-3. Desenho do primeiro treino com o Pedro: encoder (tabela acima), cabeça auxiliar (blueprint Agrawal 2025: decoder T5
-   pré-treinado, L = L_cls + 0,1·L_aux, aquecimento em 2 fases, com/sem `[CLS]`), braços, nº de pares e sementes.
-   Primeira rodada sugerida: base sem justificativa em 2/4/8/16 mil pares (mede espaço para ganho).
-4. Escrever o código do treino e testá-lo na CPU com `google/bert_uncased_L-2_H-128_A-2` e poucos pares.
-5. Marca de discordância (passada do Qwen pedindo só o rótulo, sem ouro; retomável; PC instável).
-6. Baixar `esnli_test.csv` só com OK do Pedro.
+1. **(Pedro: git)** Commitar `CLAUDE.md`, `HANDOFF.md` e `docs/handoffs/2026-11-08-2251.md` no branch
+   `docs/checkpoint-08-11` e mergear o PR #5 (ou pedir ao Claude que commite).
+2. **(Pedro: decisão)** Replicação: RTE (recomendado pelo Claude), QNLI inteiro ou pular. Define a primeira semana.
+3. **(Claude, num branch)** Código do treino seguindo o Agrawal (BERT base + decoder T5 base,
+   L = L_cls + 0,1·L_aux, aquecimento em 2 fases, hiperparâmetros da Tabela 4), testado na CPU do notebook com
+   `google/bert_uncased_L-2_H-128_A-2`; invariantes do treino (braço trocado é permutação, treino e dev sem
+   sobreposição, reprodução com a semente). Depois, rodar no PC por `ssh pc`.
+4. **(Pedro: dado)** Exportar a planilha do Forms e confirmar o corte κ < 0,2; depois (Claude) taxa de aceitáveis
+   do Qwen por avaliador (Wilson 95%), α de Krippendorff e concordância com o Wiegreffe, com e sem o Junior, em
+   `entrega/geracao-primeiro-lote.md` + .docx.
+5. **(Claude, quando quiser)** Testar `git push` do PC num branch descartável; rodar `rodar_lote.sh` curto no PC
+   para comparar com o 1,20 s/par de 27/10.
+6. **(Pedro: decisão)** Pendências antigas: folha extra com +50 do Qwen; nome do aluno (RaDi-BERT?); pergunta à
+   Anthropic citando o decoder; baixar `esnli_test.csv`.
+7. **(Claude, com GPU)** Marca de discordância (passada do Qwen pedindo só o rótulo; retomável) — agora possível
+   no PC.
 
 ## Resume commands
 
+```bash
+cd "C:/Users/Pedro/Documents/Projects/UFG/2026-2/Residencia Bacharelado em Inteligencia Artificial"
+git status -sb                               # docs/checkpoint-08-11, 3 arquivos sem commit
+gh pr view 5 --repo PedroMundel/RaDi-BERT    # PR do checkpoint
+ssh pc hostname                              # LAN; fora de casa: ssh pc-h hostname
+ssh pc 'Set-Location D:\RaDi-BERT; git pull --ff-only; uv run pytest -q'
+ssh pc '& "C:\Program Files\Git\bin\bash.exe" -s' <<'EOF'
+cd /d/RaDi-BERT && bash scripts/rodar_lote.sh <alvo> <HH:MM>
+EOF
 ```
-cd "C:/Users/Pedro/Documents/Projects/UFG/2026-2/Residencia Bacharelado em Inteligencia Artificial/experimentos/lote-35B"
-C:/Users/Pedro/Documents/Projects/py311/python.exe montar_leitura_cega.py      # folha cega + gabarito (semente 42)
-C:/Users/Pedro/Documents/Projects/py311/python.exe montar_google_forms.py [pt] # -> criar_formulario[_pt].gs
-C:/Users/Pedro/Documents/Projects/py311/python.exe marcar_eco.py [dev]         # marca de eco / conferência no dev
-C:/Users/Pedro/Documents/Projects/py311/python.exe ../../Screening/scripts/f1/md2docx_plain.py ../../entrega/geracao-primeiro-lote.md "../../entrega/Geracao do Primeiro Lote.docx" <pasta-de-imagens>
-bash rodar.sh <alvo> <HH:MM>                                                    # novo lote (servidor 35B, retomável)
-```
-Python: `C:/Users/Pedro/Documents/Projects/py311/python.exe` (sem `-I`: quebra o pandas). Servidor 35B:
-`llama-server -m Qwen3.6-35B-A3B-UD-IQ4_XS.gguf -ngl 999 --n-cpu-moe 30 -c 8192 -np 4 -kvu -cms 0 -ub 128 --jinja`.
-Termos entregues: `entrega/termos-entregues/Termo Semana <N>.docx` (a skill `termogate` lê o anterior daqui).
+
+Python: `uv run` (3.11, versões do `uv.lock`), nas duas máquinas. Trabalho em branch `tipo/descricao` com PR. O hook
+do Claude Code barra commit no `main`, push forçado, `--no-verify`, escrita no `.env` e comandos com barra invertida.
