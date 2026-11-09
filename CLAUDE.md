@@ -19,7 +19,14 @@ abaixo não guia mais o trabalho (continua: não disfarçar LLM nas entregas). (
 PC = tudo que precisa de GPU.** (3) **Tudo compartilhável entre as duas máquinas** (GitHub, HF Hub, Drive).
 **Repo (08/11): `PedroMundel/RaDi-BERT`, privado, branch `main`.** Fora do git: `dados/esnli/` (baixar pela
 `dados/README.md`), `amostra-treino.csv` (regenera com `lote.py amostra`), `docs/screening/fase1/raw|emb`, GGUF e
-checkpoints (HF Hub privado). Ponte entre as máquinas: SSH do notebook para o PC (a configurar).
+checkpoints (HF Hub privado). Ponte entre as máquinas (09/11): **`ssh pc`** (LAN,
+`192.168.1.14` por DHCP) ou **`ssh pc-h`** (Hamachi, `25.11.204.231` fixo, fora de casa), do notebook, chave
+`~/.ssh/radibert_pc` sem senha; PC `DESKTOP-2VBC5EC`, shell remoto = PowerShell 5.1 (script bash: `ssh pc '& "C:\Program
+Files\Git\bin\bash.exe" -s' <<EOF`; `ssh` dentro dele com `</dev/null`). **Repo no PC: `D:\RaDi-BERT`** (SSD SATA 1 TB),
+GitHub por deploy key read-write só deste repo (`~/.ssh/github_radibert` no PC); uv sync, ganchos, e-SNLI (md5 igual
+ao notebook), 46 testes e I1–I5 ok. llama.cpp b11770 e o GGUF do 35B (SHA-256 igual
+ao notebook) em `D:\tools`, `config/maquina.env` apontando para lá; llama-server testado na 5060 (09/11: ~30 tok/s
+num pedido, 7,1 GB de VRAM). O 9B não foi copiado.
 
 **GATE 4 — FEEDBACK DO PROFESSOR (01/10, transmitido em 05/10; texto e abertos F1–F5 em `docs/feedback-gate-4.md`):**
 (1) história não dá base agora — foco em obras **recentes, com métodos e ferramentas atuais**; (2) das 91 surveys só
