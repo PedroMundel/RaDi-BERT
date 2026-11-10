@@ -28,6 +28,26 @@ ao notebook), 46 testes e I1–I5 ok. llama.cpp b11770 e o GGUF do 35B (SHA-256 
 ao notebook) em `D:\tools`, `config/maquina.env` apontando para lá; llama-server testado na 5060 (09/11: ~30 tok/s
 num pedido, 7,1 GB de VRAM). O 9B não foi copiado.
 
+**REPLICAÇÃO DO AGRAWAL NO RTE (Pedro, 09/11):** RTE primeiro, e-SNLI depois. Decisões D0–D6 (professor Qwen 35B,
+prompt, aquecimento cópia + proporcional, leitura literal das fases, métricas, 5–10 sementes, teste na CPU) em
+`docs/2026-11-09-treino-agrawal-rte-explicado.md`. **O Pedro quer entender o código do treino antes de ele ser
+escrito.** Justificativas do RTE geradas com a variante **FA** (FP3 + 20 exemplos de RTE) em
+`resultados/rte-35B/racionalizacoes-FA.csv` (2.470 pares); a limpeza C (`clean_opening`) entra na montagem do dado.
+Lote no PC pelo túnel SSH (`ssh -L 8080:127.0.0.1:8080 pc`) porque o código só estava no notebook; o `llama-server`
+**sobrevive à queda da sessão SSH** e precisa de `Stop-Process -Name llama-server` no PC.
+**Código do treino ESCRITO (09/11, noite; branch `feat/treino-rte`, sem commit; 112 testes, fumaça na CPU ok,
+auditado 2×; medidas em blocos de 16 por causa da memória; memória na 5060 NÃO medida (o `--grade` mede antes de
+treinar); nenhuma rodada de verdade ainda; `uv run python -m radibert.rte_treino --grade` no PC):** `docs/2026-11-09-codigo-treino-rte.md` (4 módulos,
+`RationaleBert` com `encoder_outputs` do T5, fases A 39 / B 1–187 / C 188–624, invariantes I1–I14; **E1–E8 aceitas
+pelo Pedro na recomendação**; **medida de gradiente em três grupos de tokens (S rótulo · C copiada do par · N nova, Pedro 09/11) + cosseno
+g_c·g_a a cada 25 passos; F (gramaticais) virou 4º grupo, Pedro 09/11** e **influência por palavra no encoder** (`measure_words`: perda no decoder, ‖g‖ nos pesos do
+BERT e alinhamento com g_c, por ocorrência, em 3 pontos e 1 semente por aquecimento; pedido do Pedro), com esboço de
+código aprovado e escrito; no RTE "not/never/no" está em 90% das justificativas de not_entailment
+e em 4% das de entailment. **Wadhwa 2024 conferido (09/11): o método deles é Integrated Gradients rótulo ← token da
+justificativa, que não transfere para encoder; a medida aqui é outra e não se cita como "do Wadhwa"**). **Lote FA lido pelo Claude, veredito "serve para treinar"**:
+`resultados/rte-35B/analise-lote-FA.md` (30/30 defendem o rótulo, 2/30 com fato trocado, ~1% discorda do gabarito;
+**a limpeza C quebra ≥ 96 frases**, corrigir antes de montar o dado).
+
 **GATE 4 — FEEDBACK DO PROFESSOR (01/10, transmitido em 05/10; texto e abertos F1–F5 em `docs/feedback-gate-4.md`):**
 (1) história não dá base agora — foco em obras **recentes, com métodos e ferramentas atuais**; (2) das 91 surveys só
 3–5 servem, e **não refazer a pesquisa** — o screening fecha; (3) **daqui pra frente, nada de Claude/Gemini/ChatGPT
@@ -212,6 +232,12 @@ Os 289 tópicos foram agrupados em **16 macro-temas** (M1–M16), cada um subdiv
 
 ## Rejected
 
+- **Variante FC (premissa como turno de conversa) para o RTE** (09/11, Pedro: "descarta o FC") — não tirou a
+  abertura "The text" (14/20, pior que a FP3) e piorou dois pares; a FA ficou.
+- **Proibir no prompt a frase que se repete ("The text states")** (09/11, Pedro: "a solução não é proibir, como a gente
+  já mediu") — a E4 do e-SNLI mostrou troca por sinônimo e erros de fato; tira-se o gatilho ou limpa-se depois (C).
+- **Claude como gerador das justificativas do RTE** (09/11) — a Usage Policy proíbe saída como alvo de treino; espera a
+  pergunta à Anthropic (`docs/2026-11-09-pergunta-anthropic-decoder.md`, não enviada).
 - **Git Flow com `develop`** (08/11, proposta aceita pelo Pedro) — demais para uma pessoa em 3 semanas; fica `main`
   + branch `tipo/descricao` com PR.
 - **mypy, `ruff format`, Docker, dependabot e cobertura mínima no repo** (08/11, proposta aceita pelo Pedro) — escala
