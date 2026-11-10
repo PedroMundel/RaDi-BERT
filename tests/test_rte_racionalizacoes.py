@@ -111,6 +111,19 @@ def test_fa_uses_rte_examples_not_the_esnli_ones():
     ("The text mentions an indictment but says nothing about the attorneys.",
      "The text mentions an indictment but says nothing about the attorneys."),  # noun phrase follows: left alone
     ("Ratan Tata is 70 years old.", "Ratan Tata is 70 years old."),
+    # E5 (09/11): cutting these would leave a verb whose subject was "the text" ("Titan ... never mentions").
+    ("The text states Titan has an atmosphere but never mentions its order among Saturn's satellites.",
+     "The text states Titan has an atmosphere but never mentions its order among Saturn's satellites."),
+    ("The text states he abdicated in 1946 but does not mention when he became king.",
+     "The text states he abdicated in 1946 but does not mention when he became king."),
+    ("The text reports on specific tsunami events, so the definition cannot be inferred.",
+     "The text reports on specific tsunami events, so the definition cannot be inferred."),
+    ("The text states the bill passed and specifies no date for its signing.",
+     "The text states the bill passed and specifies no date for its signing."),
+    ("The text states the report exists but contains no casualty figures.",
+     "The text states the report exists but contains no casualty figures."),
+    ("The text states Cyprus has been divided since 1974, indicating the division began in that year.",
+     "Cyprus has been divided since 1974, indicating the division began in that year."),
 ])
 def test_clean_opening_drops_only_a_cited_clause_opener(answer, cleaned):
     assert rte.clean_opening(answer) == cleaned

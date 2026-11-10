@@ -119,11 +119,17 @@ def prompt_for(premise: str, hypothesis: str, label: str, variant: str) -> str:
 # "The text (explicitly) states (that)" when what follows is a whole clause. Openers followed by a noun phrase
 # ("The text mentions an indictment but...") are left alone: cutting them would leave a broken sentence.
 CITED_OPENING = re.compile(r"^The (?:text|premise|passage|sentence)(?: \w+ly)? (?:states|says|notes|reports)(?: that)? ")
+# E5 (09/11): the cut also broke >= 96 answers whose second verb had "the text" as subject ("The text states X but
+# never mentions Y" -> "X but never mentions Y"), and "reports on ..." left a bare prepositional phrase.
+SUBJECTLESS_VERB = re.compile(r"\b(?:but|and|while|yet)\s+(?:never|does not|doesn't|did not|provides no|gives no|"
+                              r"makes no|offers no|says nothing|is silent|fails|lacks|omits|mentions|leaves|"
+                              r"contains no|specifies|(?:also|explicitly|only)\s+\w+s)\b", re.I)
+PREPOSITION_START = re.compile(r"^(?:on|about|of|to|in)\b", re.I)
 
 
 def clean_opening(answer: str) -> str:
     rest = CITED_OPENING.sub("", answer, count=1)
-    if rest == answer:
+    if rest == answer or SUBJECTLESS_VERB.search(rest) or PREPOSITION_START.match(rest):
         return answer
     keep_case = rest[:1].islower() and rest[1:2].isupper()  # "iTunes"
     return rest if keep_case else rest[:1].upper() + rest[1:]
