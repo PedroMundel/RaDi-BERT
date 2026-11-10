@@ -9,6 +9,7 @@ docs/screening/fase1/emb/
 
 # Estado de execução e logs
 resultados/**/run/
+resultados/rte-treino/fumaca/
 *.log
 *.err
 __pycache__/
