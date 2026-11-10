@@ -48,6 +48,9 @@ PROPORTIONAL_WARMUP_SHARE = 0.1
 PRECISION_RECALL_THRESHOLD = 0.7
 # Gradient measures
 MEASURE_EVERY = 25
+# Memory and logging (09/11: batch 32 at once spilled the 5060's VRAM into shared system memory)
+MICRO_BATCH = 16
+PROGRESS_EVERY = 100
 
 ARMS = ("bert", "bert_decoder")
 WARMUPS = ("500", "prop")
@@ -116,15 +119,50 @@ def to_device(batch: dict, device: torch.device) -> dict:
     return {k: v.to(device) for k, v in batch.items()}
 
 
+def place(model: RationaleBert, device: torch.device) -> RationaleBert:
+    """Moves the model to the device but keeps the T5 encoder blocks, frozen and never run, on the CPU (~340 MB)."""
+    model.to(device)
+    if model.t5 is not None:
+        model.t5.encoder.block.to("cpu")
+        model.t5.encoder.final_layer_norm.to("cpu")
+    return model
+
+
 def make_optimizer(model: RationaleBert) -> torch.optim.Optimizer:
     return torch.optim.AdamW(param_groups(model), lr=LR, eps=ADAM_EPS, betas=ADAM_BETAS)
 
 
-def optimizer_step(model: RationaleBert, opt: torch.optim.Optimizer, loss: torch.Tensor):
-    loss.backward()
+def finish_step(model: RationaleBert, opt: torch.optim.Optimizer):
     torch.nn.utils.clip_grad_norm_(model.parameters(), CLIP_NORM)
     opt.step()
     opt.zero_grad()
+
+
+def target_tokens(batch: dict) -> int:
+    return int((batch["labels"] != dados.IGNORED).sum())
+
+
+def accumulated_backward(model: RationaleBert, batch: dict, combine, micro: int = MICRO_BATCH) -> tuple:
+    """Backward of one batch in micro-batches, each loss weighted by its share of the batch's pairs (L_cls) and
+    target tokens (L_aux), so the summed gradient is the full batch's (I16) with about half the activation memory
+    (09/11: batch 32 spilled the 5060's VRAM into shared memory). `combine(l_cls, l_aux)` is the phase's loss.
+    Returns the batch's L_cls and L_aux (None without decoder). Backward runs outside autocast."""
+    device = batch["input_ids"].device
+    n_pairs, n_tokens = len(batch["y"]), target_tokens(batch)
+    l_cls_total, l_aux_total = 0.0, None
+    for start in range(0, n_pairs, micro):
+        part = grads.rows_of(batch, start, start + micro)
+        with autocast(device):
+            logit, l_aux = model(part)
+            l_cls = F.binary_cross_entropy_with_logits(logit, part["y"]) * (len(part["y"]) / n_pairs)
+            if l_aux is not None:
+                l_aux = l_aux * (target_tokens(part) / n_tokens)
+            loss = combine(l_cls, l_aux)
+        loss.backward()
+        l_cls_total += l_cls.item()
+        if l_aux is not None:
+            l_aux_total = (l_aux_total or 0.0) + l_aux.item()
+    return l_cls_total, l_aux_total
 
 
 def run_phase_a(model: RationaleBert, opt: torch.optim.Optimizer, items: list[dict], seed: int, batch_size: int,
@@ -134,11 +172,15 @@ def run_phase_a(model: RationaleBert, opt: torch.optim.Optimizer, items: list[di
     loader = DataLoader([items[i] for i in half], batch_size=batch_size, collate_fn=dados.collate)
     for batch in loader:
         batch = to_device(batch, device)
-        with autocast(device):
-            with torch.no_grad():
-                h, _ = model.encode(batch)
-            l_aux = model.decode(h, batch).loss
-        optimizer_step(model, opt, l_aux)  # backward outside autocast, as PyTorch recommends
+        n_tokens = target_tokens(batch)
+        for start in range(0, len(batch["y"]), MICRO_BATCH):
+            part = grads.rows_of(batch, start, start + MICRO_BATCH)
+            with autocast(device):
+                with torch.no_grad():
+                    h, _ = model.encode(part)
+                l_aux = model.decode(h, part).loss * (target_tokens(part) / n_tokens)
+            l_aux.backward()
+        finish_step(model, opt)
     return len(loader)
 
 
@@ -172,9 +214,10 @@ def train(model: RationaleBert, plan: Plan, items: list[dict], seed: int, device
           batch_size: int = BATCH_SIZE, probes: Probes | None = None) -> TrainLog:
     """Trains in place. Same seed, same batch order in both arms (the loader has its own generator). Same seed, same
     weights on CPU (I10); on CUDA the embedding backward uses atomic adds, so reruns differ slightly."""
-    model.to(device).train()
+    place(model, device).train()
     opt = make_optimizer(model)
     log = TrainLog()
+    start = time.perf_counter()
     if model.t5 is not None:
         log.phase_a_steps = run_phase_a(model, opt, items, seed, batch_size, device)
         if log.phase_a_steps != plan.phase_a:
@@ -187,16 +230,15 @@ def train(model: RationaleBert, plan: Plan, items: list[dict], seed: int, device
         for batch in loader:
             step += 1
             batch = to_device(batch, device)
-            with autocast(device):
-                logit, l_aux = model(batch)
-                l_cls = F.binary_cross_entropy_with_logits(logit.float(), batch["y"])
-                loss = training_loss(step, plan, l_cls, l_aux)
-            optimizer_step(model, opt, loss)
+            _, l_aux = accumulated_backward(model, batch, functools.partial(training_loss, step, plan))
+            finish_step(model, opt)
             sched.step()
             if l_aux is not None and epoch == plan.total // plan.per_epoch - 1:
-                log.last_epoch_aux.append(float(l_aux.detach()))
+                log.last_epoch_aux.append(l_aux)
             if model.t5 is not None:
                 measure(model, probes, plan, step, log, device)
+            if step % PROGRESS_EVERY == 0:  # so the watchdog can tell slow from stuck
+                print(f"  passo {step}/{plan.total} ({time.perf_counter() - start:.0f} s)", flush=True)
     return log
 
 
@@ -204,15 +246,12 @@ def memory_check(model: RationaleBert, items: list[dict], probe: grads.Probe, de
                  batch_size: int = BATCH_SIZE) -> float:
     """One phase-C step on the longest pairs, then one group measure: the peak GPU memory in GB (0 on CPU). --grade
     runs it first, so an out-of-memory error shows up in seconds instead of hours into the grid (audit 09/11)."""
-    model.to(device).train()
+    place(model, device).train()
     if device.type == "cuda":
         torch.cuda.reset_peak_memory_stats(device)
     longest = sorted(items, key=lambda it: len(it["input_ids"]), reverse=True)[:batch_size]
-    batch = to_device(dados.collate(longest), device)
-    with autocast(device):
-        logit, l_aux = model(batch)
-        loss = F.binary_cross_entropy_with_logits(logit, batch["y"]) + AUX_WEIGHT * l_aux
-    optimizer_step(model, make_optimizer(model), loss)
+    accumulated_backward(model, to_device(dados.collate(longest), device), lambda c, a: c + AUX_WEIGHT * a)
+    finish_step(model, make_optimizer(model))
     grads.measure_groups(model, probe.to(device), step=0, amp=lambda: autocast(device))
     return torch.cuda.max_memory_allocated(device) / 2**30 if device.type == "cuda" else 0.0
 
@@ -294,8 +333,11 @@ def run_one(cfg: RunConfig, data: Data, device: torch.device, out_dir: Path):
     plan = make_plan(len(data.train), cfg.warmup, cfg.batch_size, cfg.epochs)
     probes = Probes(data.probes.groups.to(device), data.probes.words.to(device) if cfg.measure_words else None)
     start = time.perf_counter()
+    if device.type == "cuda":
+        torch.cuda.reset_peak_memory_stats(device)
     log = train(model, plan, data.train, cfg.seed, device, cfg.batch_size, probes)
     seconds = time.perf_counter() - start
+    peak = f", pico {torch.cuda.max_memory_allocated(device) / 2**30:.1f} GB" if device.type == "cuda" else ""
     keys = {"arm": cfg.arm, "warmup": cfg.warmup, "seed": cfg.seed}
     row = keys | metrics(data.dev_y, predict(classifier_only(model), data.dev, device)) | asdict(plan) | {
         "phase_a_steps": log.phase_a_steps, "l_aux_last_epoch": np.mean(log.last_epoch_aux) if log.last_epoch_aux
@@ -305,7 +347,7 @@ def run_one(cfg: RunConfig, data: Data, device: torch.device, out_dir: Path):
     append_csv(out_dir / "palavras.csv", [keys | r for r in log.word_rows])
     append_csv(out_dir / "resultados.csv", [row])  # last: this row is what marks the run as done for --grade
     print(f"{cfg.arm} {cfg.warmup} seed {cfg.seed}: roc_auc {row['roc_auc']:.4f} acc {row['accuracy']:.4f} "
-          f"({seconds:.0f} s)", flush=True)
+          f"({seconds:.0f} s{peak})", flush=True)
 
 
 def load_data(tok: dados.Tokenizers, out_dir: Path, n_pairs: int | None = None,

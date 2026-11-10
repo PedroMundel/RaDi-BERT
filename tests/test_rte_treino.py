@@ -157,6 +157,26 @@ def test_i6_phase_b_loss_gives_the_head_no_gradient():
     assert all(p.grad is None for p in model.head.parameters())
 
 
+@pytest.mark.parametrize("phase_step", [1, 99])  # phase B (L_aux only) and phase C (L_cls + 0.1 L_aux)
+def test_i16_micro_batches_give_the_full_batch_gradient(phase_step):
+    # 09/11: batch 32 spilled the 5060's VRAM into shared memory; two halves of 16 must not change the math
+    plan = treino.make_plan(40, "prop", batch_size=8, epochs=10)  # phase_b = 30
+    batch = dados.collate(fake_items(7))
+    grads_by = []
+    for micro in (7, 3):
+        model = tiny_model().eval()  # no dropout, so both passes see the same function
+        treino.accumulated_backward(model, batch, lambda c, a: treino.training_loss(phase_step, plan, c, a), micro)
+        grads_by.append([p.grad.clone() for p in model.bert.parameters()])
+    assert all(torch.allclose(a, b, atol=1e-6) for a, b in zip(*grads_by))
+
+
+def test_t5_encoder_blocks_stay_on_cpu_after_placing():
+    model = tiny_model()
+    treino.place(model, torch.device("cpu"))
+    assert next(model.t5.encoder.block.parameters()).device.type == "cpu"
+    assert model.t5.shared.weight.device.type == "cpu"
+
+
 def test_i10_same_seed_same_weights():
     plan = treino.make_plan(12, "prop", batch_size=4, epochs=2)
     runs = []
