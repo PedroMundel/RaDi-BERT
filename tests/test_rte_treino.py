@@ -242,6 +242,16 @@ def test_measure_groups_in_chunks_equals_the_whole_probe():
     assert all(chunked[k] == pytest.approx(v, rel=1e-4, abs=1e-6) for k, v in whole.items())
 
 
+def test_chunk_narrower_than_the_probe_still_measures():
+    # the PC run of 09/11 died here: a trimmed chunk of labels is not contiguous, and T5 calls labels.view(-1)
+    items = fake_items(4)
+    items[0]["labels"], items[1]["labels"] = [5, 1], [6, 7, 1]  # first chunk of 2 is narrower than the probe
+    items[2]["labels"] = [5, 6, 7, 8, 9, 10, 1]
+    probe = fake_probe(items)
+    assert all(v.is_contiguous() for v in grads.rows_of(probe.batch, 0, 2).values())
+    grads.measure_groups(tiny_model(), probe, step=1, chunk=2)
+
+
 def test_head_logit_stays_fp32_under_bf16_autocast():
     model = tiny_model().eval()
     with torch.autocast("cpu", dtype=torch.bfloat16):

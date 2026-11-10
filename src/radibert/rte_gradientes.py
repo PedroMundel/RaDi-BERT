@@ -173,12 +173,14 @@ def split_aux_loss(logits: torch.Tensor, labels: torch.Tensor, groups: torch.Ten
 
 
 def rows_of(batch: dict, start: int, stop: int) -> dict:
-    """Rows start..stop-1 of a batch, trimmed to their own longest input and target."""
+    """Rows start..stop-1 of a batch, trimmed to their own longest input and target. Contiguous copies: a trimmed
+    slice is not, and T5 calls labels.view(-1) (the PC run of 09/11 died on it)."""
     rows = slice(start, stop)
     n_in = int(batch["attention_mask"][rows].sum(1).max())
     n_out = int((batch["labels"][rows] != IGNORED).sum(1).max())
     out = {k: batch[k][rows, :n_in] for k in ("input_ids", "token_type_ids", "attention_mask")}
-    return out | {"labels": batch["labels"][rows, :n_out], "y": batch["y"][rows], "idx": batch["idx"][rows]}
+    out |= {"labels": batch["labels"][rows, :n_out], "y": batch["y"][rows], "idx": batch["idx"][rows]}
+    return {k: v.contiguous() for k, v in out.items()}
 
 
 def summed_grads(model, probe: Probe, terms, amp, chunk: int) -> tuple[list, list[float]]:
