@@ -305,6 +305,11 @@ Uma consequência que o termo precisa dizer: **na cópia fiel, a cabeça só com
 taxa reduzida**. Ela aprende em 437 passos, contra 624 do BERT sozinho. Isso é o desenho do paper, não um erro do código,
 mas é diferença entre os braços que um nulo pode esconder.
 
+**Segunda diferença, apontada pelo training-auditor (09/11):** o aquecimento do **BERT** também muda de braço para
+braço. No braço com decoder ele aquece nos 187 passos da fase B (E1); no BERT sozinho, nos 500 ou 62 passos da Tabela 4.
+Fora o decoder, os braços diferem em duas coisas: o atraso da cabeça e a rampa do BERT. Um resultado nulo (ou um
+ganho) tem de nomear as duas.
+
 ### Avaliação
 
 ```python
