@@ -1,0 +1,2 @@
+condition,seed,roc_auc,accuracy,steps,warmup_steps,seconds,device,bert,code
+one_epoch_prop,1,0.754836348426226,0.6534296028880866,78,7,194.8,cuda,nboost/pt-bert-base-uncased-msmarco,59278b8-dirty
