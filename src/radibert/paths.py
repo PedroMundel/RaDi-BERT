@@ -7,6 +7,8 @@ ESNLI = ROOT / "dados" / "esnli"
 ESNLI_DEV = ESNLI / "esnli_dev.csv"
 WIEGREFFE = ROOT / "dados" / "wiegreffe2022"
 RTE = ROOT / "dados" / "rte"
+MNLI = ROOT / "dados" / "mnli"
+HANS = ROOT / "dados" / "hans" / "heuristics_evaluation_set.txt"
 
 RESULTADOS = ROOT / "resultados"
 PILOTO_PROFESSORES = RESULTADOS / "piloto-professores"

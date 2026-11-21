@@ -22,6 +22,7 @@ import torch.nn.functional as F
 
 from radibert.copia import DROP
 from radibert.rte_dados import IGNORED, MAX_TARGET_TOKENS, Tokenizers, collate, encode
+from radibert.rte_modelo import cls_loss
 
 
 class Group(IntEnum):
@@ -44,18 +45,24 @@ def words_of(text: str) -> list[str]:
     return [w.lower() for w in WORD.findall(text)]
 
 
-def expression_table(pairs: pd.DataFrame) -> pd.DataFrame:
+RTE_LABELS = {1: "entailment", 0: "not_entailment"}  # y -> name, in the table's column order
+
+
+def expression_table(pairs: pd.DataFrame, labels: dict[int, str] = RTE_LABELS) -> pd.DataFrame:
     """Expressions of 1-3 words found in >= MIN_COUNT rationales, >= MIN_SHARE of them with one label (train only)."""
-    seen = {0: Counter(), 1: Counter()}
+    seen = {y: Counter() for y in labels}
     for y, rationale in zip(pairs["y"], pairs["rationale"]):
         tokens = words_of(rationale)
         seen[y].update({" ".join(tokens[i:i + n]) for n in (1, 2, 3) for i in range(len(tokens) - n + 1)})
     rows = []
-    for expr in seen[0].keys() | seen[1].keys():
-        n_ent, n_not = seen[1][expr], seen[0][expr]
-        if n_ent + n_not >= MIN_COUNT and max(n_ent, n_not) / (n_ent + n_not) >= MIN_SHARE:
-            rows.append({"expression": expr, "n_entailment": n_ent, "n_not_entailment": n_not})
-    return pd.DataFrame(rows).sort_values(["n_entailment", "n_not_entailment"], ascending=False, ignore_index=True)
+    for expr in set().union(*seen.values()):
+        counts = {y: seen[y][expr] for y in labels}
+        total = sum(counts.values())
+        if total >= MIN_COUNT and max(counts.values()) / total >= MIN_SHARE:
+            rows.append({"expression": expr} | {f"n_{labels[y]}": n for y, n in counts.items()})
+    columns = [f"n_{name}" for name in labels.values()]
+    return pd.DataFrame(rows, columns=["expression", *columns]).sort_values(columns, ascending=False,
+                                                                             ignore_index=True)
 
 
 def expression_pattern(table: pd.DataFrame) -> re.Pattern:
@@ -127,8 +134,9 @@ class Probe:
 
 
 def build_probe(pairs: pd.DataFrame, tok: Tokenizers, label_expr: re.Pattern, size: int) -> Probe:
-    """size/2 pairs per label, drawn with PROBE_SEED, the same in every run."""
-    chosen = pd.concat([g.sample(size // 2, random_state=PROBE_SEED) for _, g in pairs.groupby("y")])
+    """size / (number of labels) pairs per label, drawn with PROBE_SEED, the same in every run."""
+    per_label = size // pairs["y"].nunique()
+    chosen = pd.concat([g.sample(per_label, random_state=PROBE_SEED) for _, g in pairs.groupby("y")])
     chosen = chosen.sort_values("idx")
     batch = collate(encode(chosen, tok))
     units = [token_units(r, p, h, tok.t5, label_expr)
@@ -152,8 +160,18 @@ def evaluating(model):
         model.train(was_training)
 
 
+def measured_params(model) -> list:
+    """The encoder weights the measures look at. In the T5-encoder arm with decoder the `shared` embedding is left
+    out: the decoder also embeds its own target tokens with it, so its gradient would mix the decoder's learning
+    with the push on the encoder (audit 10/11)."""
+    params = list(model.bert.parameters())
+    if getattr(model, "shares_t5_encoder", False):
+        params = [p for p in params if p is not model.t5.shared.weight]
+    return params
+
+
 def bert_grad(loss: torch.Tensor, model, retain_graph: bool = True) -> tuple[torch.Tensor, ...]:
-    return torch.autograd.grad(loss, list(model.bert.parameters()), retain_graph=retain_graph)
+    return torch.autograd.grad(loss, measured_params(model), retain_graph=retain_graph)
 
 
 def dot(a, b) -> float:
@@ -178,7 +196,7 @@ def rows_of(batch: dict, start: int, stop: int) -> dict:
     rows = slice(start, stop)
     n_in = int(batch["attention_mask"][rows].sum(1).max())
     n_out = int((batch["labels"][rows] != IGNORED).sum(1).max())
-    out = {k: batch[k][rows, :n_in] for k in ("input_ids", "token_type_ids", "attention_mask")}
+    out = {k: batch[k][rows, :n_in] for k in ("input_ids", "token_type_ids", "attention_mask", "marks") if k in batch}
     out |= {"labels": batch["labels"][rows, :n_out], "y": batch["y"][rows], "idx": batch["idx"][rows]}
     return {k: v.contiguous() for k, v in out.items()}
 
@@ -193,7 +211,7 @@ def summed_grads(model, probe: Probe, terms, amp, chunk: int) -> tuple[list, lis
         with amp():
             losses = terms(model, rows, probe.groups[start:start + chunk, :rows["labels"].shape[1]])
         if acc is None:
-            acc = [[torch.zeros(p.shape) for p in model.bert.parameters()] for _ in losses]
+            acc = [[torch.zeros(p.shape) for p in measured_params(model)] for _ in losses]
             values = [0.0] * len(losses)
         for k, loss in enumerate(losses):
             for total, g in zip(acc[k], bert_grad(loss, model, retain_graph=k < len(losses) - 1)):
@@ -206,14 +224,14 @@ def cls_term(n_pairs: int):
     """L_cls of a chunk, scaled so the chunks add up to the mean over the whole probe."""
     def terms(model, rows, groups):
         _, logit = model.encode(rows)
-        return [F.binary_cross_entropy_with_logits(logit, rows["y"], reduction="sum") / n_pairs]
+        return [cls_loss(logit, rows["y"], reduction="sum") / n_pairs]
     return terms
 
 
 def cls_and_group_terms(n_pairs: int, n_tokens: int):
     def terms(model, rows, groups):
         h, logit = model.encode(rows)
-        l_cls = F.binary_cross_entropy_with_logits(logit, rows["y"], reduction="sum") / n_pairs
+        l_cls = cls_loss(logit, rows["y"], reduction="sum") / n_pairs
         return [l_cls] + split_aux_loss(model.decode(h, rows).logits, rows["labels"], groups, n_tokens)
     return terms
 

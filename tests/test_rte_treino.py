@@ -1,15 +1,16 @@
 """Invariants I1-I15 of the RTE training (docs/2026-11-09-codigo-treino-rte.md), on tiny random models: CPU, no network."""
-from dataclasses import fields
+from dataclasses import fields, replace
 
 import pandas as pd
 import pytest
 import torch
-from transformers import BertConfig, BertModel, T5Config, T5ForConditionalGeneration
+from transformers import BertConfig, BertModel, T5Config, T5EncoderModel, T5ForConditionalGeneration
 
+from radibert import esnli_dados as esnli
 from radibert import rte_dados as dados
 from radibert import rte_gradientes as grads
 from radibert import rte_treino as treino
-from radibert.rte_modelo import RationaleBert, classifier_only
+from radibert.rte_modelo import RationaleBert, classifier_only, cls_loss
 from radibert.rte_racionalizacoes import TRAIN, rte_examples
 
 needs_rte = pytest.mark.skipif(not TRAIN.exists(), reason="dados/rte não baixado (ver dados/README.md)")
@@ -75,6 +76,34 @@ def test_i3_entailment_is_the_positive_class():
     raw = pd.read_parquet(TRAIN)
     pairs = dados.read_rte("train")
     assert (pairs.loc[raw.label == 0, "y"] == 1).all() and (pairs.loc[raw.label == 1, "y"] == 0).all()
+
+
+def shuffle_pairs() -> pd.DataFrame:
+    return pd.DataFrame({"idx": range(9), "y": [1, 1, 1, 0, 0, 0, 0, 1, 0],
+                         "sentence1": [f"p{i}" for i in range(9)], "sentence2": [f"h{i}" for i in range(9)],
+                         "rationale": [f"r{i}" for i in range(9)]})
+
+
+def test_shuffled_control_gives_every_pair_another_rationale_of_its_label():
+    pairs = shuffle_pairs()
+    shuffled = dados.shuffle_within_label(pairs, seed=0)
+    assert (shuffled["rationale"] != pairs["rationale"]).all()  # nobody keeps its own
+    for y in (0, 1):
+        assert sorted(shuffled.loc[shuffled.y == y, "rationale"]) == sorted(pairs.loc[pairs.y == y, "rationale"])
+    assert shuffled.drop(columns="rationale").equals(pairs.drop(columns="rationale"))
+
+
+def test_shuffled_control_is_fixed_by_its_seed():
+    pairs = shuffle_pairs()
+    assert dados.shuffle_within_label(pairs, 0).equals(dados.shuffle_within_label(pairs, 0))
+    assert not dados.shuffle_within_label(pairs, 0).equals(dados.shuffle_within_label(pairs, 1))
+
+
+def test_shuffled_arm_trains_on_shuffled_items_and_others_on_the_original():
+    data = treino.Data(train=["orig"], dev=[], dev_y=None, probes="probes", train_shuffled=["shuf"],
+                       probes_shuffled="probes_shuf")
+    assert treino.arm_inputs(data, "bert_decoder_shuffled") == (["shuf"], "probes_shuf")
+    assert treino.arm_inputs(data, "bert_decoder") == treino.arm_inputs(data, "bert") == (["orig"], "probes")
 
 
 def test_collate_pads_inputs_with_zero_and_targets_with_ignored():
@@ -185,6 +214,59 @@ def test_i10_same_seed_same_weights():
         treino.train(model, plan, fake_items(), seed=3, device=torch.device("cpu"), batch_size=4)
         runs.append(weights(model))
     assert same(runs[0], runs[1], "")
+
+
+def without_dropout(model: RationaleBert) -> RationaleBert:
+    for module in model.modules():
+        if isinstance(module, torch.nn.Dropout):
+            module.p = 0.0
+    return model
+
+
+@pytest.mark.parametrize("aux_weight", [0.0, 0.1])
+def test_i17_decoder_arm_with_zero_aux_weight_and_no_phase_b_is_the_plain_bert(monkeypatch, aux_weight):
+    """Equivalence (10/11): carrying the decoder must have no side effect on the classifier. With the auxiliary
+    weight at 0, no phase B and one schedule for every group, the decoder arm has to end on the plain BERT's weights.
+    Dropout is off because the decoder's forward would otherwise shift the random stream of BERT's masks. With the
+    paper's weight (0.1) the weights must differ, or this test would compare nothing."""
+    monkeypatch.setattr(treino, "AUX_WEIGHT", aux_weight)
+    monkeypatch.setattr(treino, "lr_factors", lambda model, plan: [
+        treino.linear_schedule(plan.warmup_steps, plan.total)] * len(treino.param_groups(model)))
+    plan = replace(treino.make_plan(12, "prop", batch_size=4, epochs=3), phase_b=0)
+    with_decoder = without_dropout(tiny_model())
+    plain = without_dropout(tiny_model(with_decoder=False))
+    plain.bert.load_state_dict(with_decoder.bert.state_dict())
+    plain.head.load_state_dict(with_decoder.head.state_dict())
+    start = weights(plain)
+    for model in (with_decoder, plain):
+        treino.train(model, plan, fake_items(), seed=3, device=torch.device("cpu"), batch_size=4)
+    a, b = weights(with_decoder), weights(plain)
+    assert not same(start, b, "bert.")  # the training did move the classifier
+    assert all(torch.allclose(a[k], b[k], atol=1e-7) for k in b) == (aux_weight == 0.0)
+
+
+def calendar_model() -> RationaleBert:
+    model = tiny_model(with_decoder=False)
+    model.decoder_calendar = True
+    return model
+
+
+def test_calendar_control_has_the_decoder_arm_schedule_and_no_step_in_phase_b():
+    plan = treino.make_plan(12, "prop", batch_size=4, epochs=4)  # 12 steps, phase B = 3
+    bert_factor, head_factor = treino.lr_factors(calendar_model(), plan)
+    decoder_bert_factor = treino.lr_factors(tiny_model(), plan)[0]
+    assert [bert_factor(s) for s in range(plan.total)] == [decoder_bert_factor(s) for s in range(plan.total)]
+    assert head_factor(plan.warmup_steps) == 1.0
+    # phase B covering the whole run: the classifier never takes a step
+    frozen = calendar_model()
+    start = weights(frozen)
+    treino.train(frozen, replace(plan, phase_b=plan.total), fake_items(), seed=3, device=torch.device("cpu"),
+                 batch_size=4)
+    assert same(start, weights(frozen), "")
+    trained = calendar_model()
+    treino.train(trained, plan, fake_items(), seed=3, device=torch.device("cpu"), batch_size=4)
+    assert not same(start, weights(trained), "bert.") and not same(start, weights(trained), "head.")
+    assert treino.ENCODERS["calendario"].arms == (treino.CALENDAR_ARM,) and not treino.has_decoder(treino.CALENDAR_ARM)
 
 
 def test_i14_measuring_does_not_change_training():
@@ -379,3 +461,239 @@ def test_classifier_copy_does_not_share_weights_with_the_model():
     with torch.no_grad():
         next(clf.bert.parameters()).add_(1.0)
     assert not torch.equal(next(clf.bert.parameters()), next(model.bert.parameters()))
+
+
+# --- T5-encoder arms (10/11) ----------------------------------------------------------------------------------------
+
+def tiny_t5_model(with_decoder: bool = True) -> RationaleBert:
+    torch.manual_seed(0)
+    config = T5Config(vocab_size=50, d_model=32, d_kv=8, d_ff=37, num_layers=1, num_decoder_layers=1, num_heads=2,
+                      decoder_start_token_id=0, pad_token_id=0, eos_token_id=1)
+    if with_decoder:
+        t5 = T5ForConditionalGeneration(config)
+        return RationaleBert(t5.encoder, t5)
+    return RationaleBert(T5EncoderModel(config), None)
+
+
+def test_t5_decoder_arm_trains_its_own_encoder_once():
+    model = tiny_t5_model()
+    assert model.shares_t5_encoder and model.bridge is None
+    assert all(p.requires_grad for p in model.t5.encoder.parameters())
+    groups = treino.param_groups(model)
+    ids = [id(p) for g in groups for p in g["params"]]
+    assert len(ids) == len(set(ids))  # AdamW refuses a parameter in two groups
+    assert set(ids) == {id(p) for p in model.parameters() if p.requires_grad}
+    assert {id(p) for p in model.t5.encoder.parameters()} <= {id(p) for p in groups[0]["params"]}
+
+
+def test_t5_encoder_stays_with_the_model_when_it_is_the_classifier(monkeypatch):
+    moved = []
+    for arm, label in ((tiny_t5_model(), "t5"), (tiny_model(), "bert")):
+        monkeypatch.setattr(arm.t5.encoder.block, "to", lambda *a, label=label: moved.append(label))
+        treino.place(arm, torch.device("cpu"))
+    assert moved == ["bert"]  # only the BERT arm parks its unused T5 encoder on the CPU
+
+
+def test_t5_mean_pooling_ignores_padding():
+    model = tiny_t5_model(with_decoder=False).eval()
+    items = fake_items(4)
+    alone = model.encode(dados.collate(items[:1]))[1]
+    longest = max(items, key=lambda it: len(it["input_ids"]))
+    padded = model.encode(dados.collate([items[0], longest]))[1][0]
+    assert len(longest["input_ids"]) > len(items[0]["input_ids"])
+    assert torch.allclose(alone[0], padded, atol=1e-6)
+
+
+def test_t5_evaluation_object_has_no_decoder_and_same_logits():
+    model = tiny_t5_model().eval()
+    clf = classifier_only(model).eval()
+    batch = dados.collate(fake_items(4))
+    assert not any(k.startswith(("t5.", "bridge.")) for k in clf.state_dict())
+    assert torch.allclose(clf(batch), model.encode(batch)[1])
+
+
+def test_t5_phase_a_leaves_the_encoder_blocks_untouched_and_moves_the_decoder():
+    model = tiny_t5_model()
+    before = weights(model)
+    opt = torch.optim.AdamW(treino.param_groups(model), lr=1e-2)
+    treino.run_phase_a(model, opt, fake_items(), seed=0, batch_size=4, device=torch.device("cpu"))
+    after = weights(model)
+    assert same(before, after, "bert.") and same(before, after, "t5.shared.") and same(before, after, "head.")
+    assert not same(before, after, "t5.decoder.")
+
+
+def test_t5_measures_leave_out_the_shared_embedding_the_decoder_also_reads():
+    model = tiny_t5_model()
+    measured = {id(p) for p in grads.measured_params(model)}
+    assert id(model.t5.shared.weight) not in measured
+    assert measured == {id(p) for p in model.bert.parameters()} - {id(model.t5.shared.weight)}
+    bert_arm = tiny_model()
+    assert [id(p) for p in grads.measured_params(bert_arm)] == [id(p) for p in bert_arm.bert.parameters()]
+    grads.measure_groups(model, fake_probe(fake_items(4)), step=1, chunk=2)  # runs with the narrower list
+
+
+def test_t5_aux_loss_reaches_the_encoder_and_both_arms_train():
+    model = tiny_t5_model()
+    _, l_aux = model(dados.collate(fake_items(4)))
+    l_aux.backward()
+    assert model.bert.block[0].layer[0].SelfAttention.q.weight.grad.abs().sum() > 0
+    plan = treino.make_plan(12, "prop", batch_size=4, epochs=2)
+    for arm in (tiny_t5_model(), tiny_t5_model(with_decoder=False)):
+        before = weights(arm)
+        treino.train(arm, plan, fake_items(), seed=1, device=torch.device("cpu"), batch_size=4)
+        after = weights(arm)
+        blocks = [k for k in before if k.startswith("bert.") and ".block." in k]
+        assert blocks and not all(torch.equal(before[k], after[k]) for k in blocks)
+
+
+def test_cls_loss_is_bce_for_one_logit_and_cross_entropy_for_many():
+    logit, y = torch.tensor([0.3, -1.2]), torch.tensor([1.0, 0.0])
+    assert torch.allclose(cls_loss(logit, y), torch.nn.functional.binary_cross_entropy_with_logits(logit, y))
+    logits, y3 = torch.tensor([[0.1, 2.0, -1.0], [1.0, 0.0, 0.5]]), torch.tensor([1.0, 2.0])
+    assert torch.allclose(cls_loss(logits, y3), torch.nn.functional.cross_entropy(logits, y3.long()))
+
+
+def test_encoder_choice_picks_arms_checkpoint_and_folder():
+    t5 = treino.ENCODERS["t5"]
+    assert t5.arms == treino.T5_ARMS and t5.name == dados.T5_ENCODER and t5.input_tokenizer == dados.T5
+    msmarco = treino.ENCODERS["msmarco"]
+    assert msmarco.arms == treino.ARMS and msmarco.name == dados.MSMARCO and msmarco.input_tokenizer == dados.BERT
+    assert "msmarco" in treino.TASKS["rte"].out_dirs and "msmarco" not in treino.TASKS["esnli"].out_dirs
+    for size, name in (("small", dados.SMALL), ("tiny", dados.TINY)):
+        plain, marked = treino.ENCODERS[size], treino.ENCODERS[f"marcas-{size}"]
+        assert plain.arms == treino.ARMS and marked.arms == treino.MARK_ARMS
+        assert plain.name == marked.name == name and plain.input_tokenizer == marked.input_tokenizer == dados.BERT
+        assert {size, f"marcas-{size}"} <= set(treino.TASKS["rte"].out_dirs)
+    folders = [d for task in treino.TASKS.values() for d in task.out_dirs.values()]
+    assert len(folders) == len(set(folders)) and treino.TASKS["rte"].out_dirs["bert"] == treino.RTE_TREINO
+
+
+# --- e-SNLI, three labels (10/11) -----------------------------------------------------------------------------------
+
+def test_three_labels_give_three_logits_cross_entropy_and_train():
+    torch.manual_seed(0)
+    bert = BertModel(BertConfig(vocab_size=50, hidden_size=32, num_hidden_layers=1, num_attention_heads=2,
+                                intermediate_size=37, max_position_embeddings=64), add_pooling_layer=False)
+    t5 = T5ForConditionalGeneration(T5Config(vocab_size=40, d_model=32, d_kv=8, d_ff=37, num_layers=1,
+                                             num_decoder_layers=1, num_heads=2, decoder_start_token_id=0,
+                                             pad_token_id=0, eos_token_id=1))
+    model = RationaleBert(bert, t5, n_labels=3)
+    items = [it | {"y": i % 3} for i, it in enumerate(fake_items())]
+    logits, l_aux = model(dados.collate(items[:4]))
+    assert logits.shape == (4, 3) and l_aux is not None
+    plan = treino.make_plan(12, "prop", batch_size=4, epochs=2)
+    treino.train(model, plan, items, seed=1, device=torch.device("cpu"), batch_size=4)
+    probs = treino.predict(classifier_only(model), items, torch.device("cpu"))
+    assert probs.shape == (12, 3) and torch.allclose(torch.tensor(probs.sum(1)), torch.ones(12), atol=1e-5)
+
+
+def test_metrics_for_three_labels_use_the_most_probable_label():
+    labels = {0: "entailment", 1: "neutral", 2: "contradiction"}
+    y = torch.tensor([0, 1, 2, 2]).numpy()
+    p = torch.tensor([[0.8, 0.1, 0.1], [0.2, 0.7, 0.1], [0.1, 0.2, 0.7], [0.6, 0.3, 0.1]]).numpy()
+    m = treino.metrics(y, p, labels)
+    assert m["accuracy"] == 0.75 and m["f1_neutral"] == 1.0 and set(m) >= {"roc_auc", "f1_macro", "f1_contradiction"}
+
+
+def test_expression_table_with_three_labels_keeps_one_sided_expressions():
+    rows = [(0, "is an animal")] * 30 + [(1, "could be anywhere")] * 30 + [(2, "cannot both be")] * 30
+    rows += [(y, "the man") for y in (0, 1, 2)] * 10
+    table = grads.expression_table(pd.DataFrame(rows, columns=["y", "rationale"]), esnli.LABELS)
+    assert list(table.columns) == ["expression", "n_entailment", "n_neutral", "n_contradiction"]
+    kept = set(table.expression)
+    assert {"animal", "anywhere", "cannot"} <= kept and "man" not in kept
+
+
+def test_rte_expression_table_keeps_its_columns():
+    rows = [(0, "it does not say so")] * 30
+    assert list(grads.expression_table(pd.DataFrame(rows, columns=["y", "rationale"])).columns) == [
+        "expression", "n_entailment", "n_not_entailment"]
+
+
+@pytest.mark.skipif(not (esnli.RATIONALES.exists() and esnli.ESNLI_DEV.exists()), reason="e-SNLI ou lote 35B fora")
+def test_esnli_pairs_are_few_labelled_and_disjoint_from_the_dev():
+    train, dev = esnli.training_pairs(), esnli.dev_pairs()
+    assert len(train) == esnli.N_TRAIN and train["idx"].is_unique and train["rationale"].notna().all()
+    assert set(train["y"]) == set(dev["y"]) == set(esnli.LABELS)
+    assert not set(train["pairID"]) & set(dev["pairID"])
+    assert train.equals(esnli.training_pairs())  # the same sample every time
+
+
+@pytest.mark.skipif(not esnli.RATIONALES.exists(), reason="lote 35B fora")
+def test_esnli_other_pairs_share_nothing_with_the_training_pairs():
+    train, other = esnli.training_pairs(), esnli.other_pairs()
+    assert len(other) == esnli.N_TRAIN and other["idx"].is_unique
+    assert not set(other["pairID"]) & set(train["pairID"]) and not set(other["idx"]) & set(train["idx"])
+    assert set(other["y"]) == set(esnli.LABELS)
+    assert other.equals(esnli.other_pairs())  # the same sample every time
+
+
+@pytest.mark.skipif(not esnli.RATIONALES.exists(), reason="lote 35B fora")
+def test_esnli_choice_split_covers_the_rest_of_the_batch_and_shares_nothing():
+    choice, extra = esnli.choice_split()
+    used = [set(esnli.training_pairs()["idx"]), set(esnli.other_pairs()["idx"]), set(choice["idx"]), set(extra["idx"])]
+    assert len(choice) == len(extra) == esnli.N_TRAIN
+    assert sum(len(u) for u in used) == len(set().union(*used)) == esnli.BATCH_PAIRS  # four disjoint quarters
+    assert choice.equals(esnli.choice_split()[0])
+
+
+# --- out-of-distribution test (10/11): RTE-trained model on the e-SNLI dev ---------------------------------------------
+
+def test_esnli_labels_collapse_to_the_rte_ones():
+    pairs = pd.DataFrame({"y": [0, 1, 2, 0], "sentence1": list("abcd"), "sentence2": list("efgh")})
+    out = esnli.with_rte_labels(pairs)
+    assert out["y"].tolist() == [1, 0, 0, 1]  # entailment -> 1; neutral and contradiction -> 0 (grads.RTE_LABELS)
+    assert pairs["y"].tolist() == [0, 1, 2, 0] and out["sentence1"].tolist() == list("abcd")
+
+
+def test_outside_scores_are_the_roc_auc_and_accuracy_under_their_own_columns():
+    y = pd.Series([1, 0, 0, 1]).to_numpy()
+    p = pd.Series([0.9, 0.2, 0.6, 0.7]).to_numpy()
+    assert treino.outside_scores(y, p) == {"fora_roc_auc": 1.0, "fora_accuracy": 0.75, "n_fora": 4}
+
+
+# --- out-of-distribution test (18/11): e-SNLI-trained model on every RTE pair -----------------------------------------
+
+def test_outside_scores_read_a_three_label_model_on_rte_labels():
+    y = pd.Series([1, 0, 0, 1]).to_numpy()  # RTE: 1 entailment
+    # third row: entailment is the most probable label with 0.45, so the guess is entailment (wrong), though < 0.5
+    p = torch.tensor([[0.6, 0.3, 0.1], [0.2, 0.5, 0.3], [0.45, 0.3, 0.25], [0.5, 0.25, 0.25]]).numpy()
+    assert treino.outside_scores(y, p) == {"fora_roc_auc": 1.0, "fora_accuracy": 0.75, "n_fora": 4}
+
+
+def test_peso_aux_sets_the_phase_c_weight_and_leaves_phase_b_alone(monkeypatch):
+    monkeypatch.setattr(treino, "AUX_WEIGHT", treino.AUX_WEIGHT)  # restored after the test: main() rebinds it
+    monkeypatch.setattr(treino, "code_version", lambda: "test")
+    monkeypatch.setattr(treino, "smoke_test", lambda *a: None)
+    monkeypatch.setattr("sys.argv", ["rte_treino", "--fumaca", "--tarefa", "esnli16k", "--peso-aux", "0.5"])
+    treino.main()
+    plan = treino.make_plan(16000, "500")
+    l_cls, l_aux = torch.tensor(2.0), torch.tensor(4.0)
+    assert treino.training_loss(plan.phase_b + 1, plan, l_cls, l_aux).item() == 2.0 + 0.5 * 4.0  # phase C
+    assert treino.training_loss(plan.phase_b, plan, l_cls, l_aux).item() == 4.0  # phase B: only the decoder loss
+    assert treino.training_loss(plan.phase_b + 1, plan, l_cls, None).item() == 2.0  # no decoder: the weight is unused
+
+
+def test_saved_classifier_weights_give_back_the_same_predictions(tmp_path):
+    trained = classifier_only(tiny_model(with_decoder=True))
+    with torch.no_grad():
+        trained.head[1].weight.add_(0.5)  # anything that tells it apart from a freshly built model
+    cfg = treino.RunConfig("bert_decoder", "500", 3, save_weights=True)
+    path = treino.save_classifier(trained, tmp_path, cfg)
+    assert path == tmp_path / "pesos" / "bert_decoder-500-semente-3.pt" and path.exists()
+    fresh = classifier_only(tiny_model(with_decoder=False))
+    items = fake_items()
+    device = torch.device("cpu")
+    assert not (treino.predict(fresh, items, device) == treino.predict(trained, items, device)).all()
+    fresh.load_state_dict(torch.load(path, map_location="cpu"))
+    assert (treino.predict(fresh, items, device) == treino.predict(trained, items, device)).all()
+    assert not any(name.startswith("t5") for name in torch.load(path, map_location="cpu"))  # no decoder in the file
+
+
+@needs_rte
+def test_every_rte_pair_is_the_outside_set_of_the_esnli_tasks_and_carries_no_rationale():
+    pairs = dados.all_pairs()
+    assert len(pairs) == len(dados.training_pairs()) + len(dados.dev_pairs()) == 2747
+    assert "rationale" not in pairs.columns and set(pairs["y"]) == {0, 1}
+    assert treino.TASKS["esnli16k"].outside_pairs is dados.all_pairs
+    assert treino.TASKS["rte"].outside_pairs is not None and treino.TASKS["esnli"].outside_pairs is dados.all_pairs
