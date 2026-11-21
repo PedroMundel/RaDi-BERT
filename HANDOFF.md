@@ -1,95 +1,119 @@
-# HANDOFF — 09/11/2026, noite (justificativas do RTE prontas; próximo: explicar e escrever o código do treino)
+# HANDOFF — 19/11/2026, 11:40 (Semana 10; **termo entregue**; o que falta agora é o Pedro conseguir explicar o que foi feito)
 
 ## Status
 
-**Contexto (sem mudança):** ~3 semanas para as explorações (contado em 31/10), 2 semanas de atraso; base da replicação
-= Agrawal 2025; IA liberada para acelerar; notebook (`WKST-001`) = contexto, PC (`DESKTOP-2VBC5EC`, RTX 5060) = GPU,
-ligados por `ssh pc`. HANDOFF anterior (09/11, manhã) em `docs/handoffs/2026-11-09-1200.md`.
+**O termo da Semana 10 foi entregue pelo Pedro em 19/11, por volta das 11:35** ("Show, entreguei o termo"), antes do
+fechamento do gate às 12h. Nada no ar em nenhuma máquina. Código e documentos **sem commit** desde `59278b8` (10/11):
+tudo de 10 a 19/11 existe só no SSD do notebook.
 
-**Feito nesta sessão (09/11):**
-- **Git:** PR #5 mergeado por squash (`21d880c` no `main`). Trabalho novo no branch **`docs/retomada-09-11`**, 2
-  commits **sem push**: `72ca7da` (módulo do RTE, docs, checadas, exemplos) e `0dc149c` (lote FA).
-- **PC:** `git push` a partir do PC funciona (branch descartável `test/push-pc` no GitHub). Lote do e-SNLI no PC
-  ~25–35% mais lento que em 27/10 no regime (~6,5 s/pedido contra ~5,0); não investigado. PC deixado no `main` com
-  200 pares a mais no `racionalizacoes-F-35B.csv` e no `progresso.txt` (rastreados, modificados) — decisão do Pedro.
-- **Planilha do Forms** (3 respostas: Guilherme, Fernando, Junior = Claude): Qwen aceito 26/29/28 de 30; GPT-3 12/15/4
-  de 20; κ contra a maioria do Wiegreffe 0,20/0,30/0,40. Pedro: pouca utilidade com 3 avaliadores; ele não terminou a
-  dele. Nada escrito em `entrega/`.
-- **Replicação no RTE decidida** (D0–D6) em `docs/2026-11-09-treino-agrawal-rte-explicado.md`. Nenhum código de treino.
-- **RTE baixado** (notebook e PC, mesmo SHA-256) em `dados/rte/`, fora do git; `pyarrow==26.0.1` no projeto.
-- **Justificativas do RTE:** 6 variantes testadas em 20 pares (F, FP, FP2, FP3, F3, FA; FC descartada).
-  **FA** = pergunta com a premissa em parágrafo + pedido "o fato que decide, ou o que falta" + **20 exemplos de RTE**
-  (rascunhos do Claude, aprovados pelo Pedro como "bons"). Lote FA completo: **2.470 pares** (treino − 20 exemplos),
-  1h20m a 1,96 s/par, todos `stop`, 0 vazios, 1.239/1.231 por rótulo, 20 palavras na mediana.
-  Abertura "The text/premise" em 884 (36%) → 434 (18%) depois da limpeza C. 57 nomeiam o rótulo. **Ninguém leu o lote.**
-- **Rascunhos não enviados:** pergunta aos autores do Agrawal (`docs/2026-11-09-pergunta-autores-agrawal.md`) e à
-  Anthropic sobre o decoder (`docs/2026-11-09-pergunta-anthropic-decoder.md`).
-- **Ledger:** `docs/claude/ledger/2026-11-09-retomada.md` (linhas 1–45; todas done/dropped).
+**O pedido aberto, com as palavras dele:** "Agora o mais importante (e preocupante): Não sei explicar nada do que
+foi feito kkkk". Ele vai tratar disso na sessão nova. **Não sei quando ele precisa explicar em voz alta (hoje na
+reunião do gate ou depois) nem quanto tempo há; foi a pergunta que ficou sem resposta.** Na sessão anterior ele
+recebeu um primeiro resumo em linguagem simples (a história em seis frases, cinco termos, três números, cinco
+perguntas prováveis com resposta curta); não disse se entendeu.
+
+**O que foi entregue (tudo em `entrega/`, com a fonte `.md` ao lado):**
+
+| Documento | Fonte | Quem leu |
+|---|---|---|
+| `Trilha das Semanas 9 e 10.docx` (história única da replicação, 9 seções) | `controles-do-decoder-e-destilacao.md` | reescrito em outra sessão; o Claude desta sessão leu só trechos; não sei se o Pedro leu |
+| `Figuras e Evidencias.docx` (11 figuras, tabela de onde sai cada afirmação, seção 6 com a hipótese das justificativas) | `figuras-e-evidencias.md` | escrito pelo Claude; o Pedro não disse ter lido |
+| `Criterios Escritos Antes dos Testes - Semana 10.docx` | `criterios-da-semana-10.md` | escrito pelo Claude, sem segunda conferência de números |
+| `Marcas de Atencao e Destaque v2.docx` (seção 6 corrigida) | `marcas-de-atencao-e-destaque.md` | o `.docx` de 11/11 ficou intacto |
+
+O rascunho do termo está em `docs/residencia/termo-de-entrega-Semana-10.md`; **o que o Pedro colou no formulário eu
+não vi** (não sei se declarou o uso de LLM, como ficou o Planejamento, quais links pôs). Título do tema decidido por
+ele: **"Destilação de Racionalização de LLM para Encoders: controles e limites"**, subtítulo "A supervisão por
+justificativas vale o custo em encoders para implantação?".
+
+**O que a pesquisa mostrou, em uma tabela (critérios em `docs/2026-11-18-gaps-da-argumentacao.md`, Gaps 1 a 9;
+leituras no fim de `resultados/esnli-treino-16k/leitura-grade.md`, itens 1 a 44):**
+
+| Pergunta | Resposta medida |
+|---|---|
+| O ganho do artigo se repete? | Não; o baseline 0,4754 não sai de nenhuma condição tentada |
+| O decoder ajuda nos 16 mil pares? | Não: o +0,003 era do calendário; com o mesmo calendário, −0,9 ponto de acurácia |
+| O conteúdo da justificativa conta? | Sim: a trocada custa 3,0 pontos, a certa 0,9 |
+| O decoder dá algo ao encoder? | No começo (+15 pontos em 25 passos); o encoder alcança sozinho em cerca de 100 passos |
+| Fora de domínio? | MNLI −1,5 ponto (−2,3 a −0,7), 0 de 5: atrapalha |
+| Outras medidas (painel do Pedro)? | calibração e pior classe do lado ruim, predição seletiva nula |
+| O peso da perda do decoder? | 0, 0,05 e 0,5 (3 sementes): nenhum passa; com peso 0 a perda é a mesma |
+| O que sobe a nota? | destilação comum entre BERTs (+1,6; a sequência +0,93 e +0,45 no dev), sem LLM |
+| Hipótese do Pedro, não testada | as justificativas dele trazem pouca informação nova (21,8% das palavras) e quase só o rótulo (BERT que lê só a justificativa: 96,9%); não explica o ganho do artigo no RTE |
+
+Como ler: diferenças pareadas por semente, 5 sementes salvo indicação, intervalo de 95%.
 
 ## Decisions
 
-- **Pedro (09/11):**
-  - RTE primeiro, e-SNLI depois. **Não escrever o código do treino sem ele entender antes.**
-  - D0 professor = Qwen3.6-35B-A3B (desvio declarado Mixtral → Qwen); Claude fora pela Usage Policy.
-  - D1 prompt = F adaptada com checada rápida → virou **FA**. O Agrawal não publicou justificativas nem código.
-  - D2 aquecimento: rodar a cópia fiel (500 passos ≈ 80% de ~623) **e** a proporcional.
-  - D3 leitura literal das fases (A = uma passada por metade dos pares, só decoder, BERT congelado, só L_aux;
-    B = passos 1–187, taxa do BERT subindo, só L_aux; C = passos 188–623, L_cls + 0,1·L_aux) + perguntar aos autores.
-  - D4 métricas: ROC-AUC, Recall e Precision a 0,7 (as do Agrawal) + acurácia + F1 macro + F1 por classe.
-  - D5 5 sementes; 10 se a 1ª rodada mostrar que é barato. D6 teste na CPU com adaptador 128 → 768.
-  - Marca de discordância **adiada** (3/10 agora; volta se o e-SNLI der ganho pequeno ou instável).
-  - "Abertura repetida", nunca "cacoete" (memória).
-- **Rejeitados (logados no CLAUDE.md):** FC; proibir a frase no prompt; Claude como gerador do RTE.
-- **Claude, declarado:** túnel SSH para rodar o lote sem commit (o código só existia no notebook); 3 pedidos
-  simultâneos porque o prompt da FA tem ~1.800 tokens; a C fica fora do CSV (texto original guardado).
-- **Correção registrada:** eu disse que o prompt do Agrawal era simples; o Apêndice C é elaborado (só e-commerce,
-  assimétrico: só defende "relevante"). Ver `docs/2026-11-09-prompt-agrawal-padroes.md`.
-- **Becos técnicos:**
-  - O guardrail do projeto olha o branch do **notebook**: commit/push no PC por SSH é barrado se o notebook estiver no
-    `main`; e barra `--delete-branch` (padrão de deleção) e heredoc Python com aspas que ele não lê (usar Edit).
-  - O `llama-server` sobrevive à queda da sessão SSH: sempre `ssh pc 'Stop-Process -Name llama-server -Confirm:$false'`.
-  - O 1º `git pull` do PC no dia caiu com "Connection closed by remote host"; o 2º passou.
+- **Pedro (19/11, depois do gate):** apresentou; o professor criticou a escolha do artigo e não comentou o método.
+  **Rumo: tudo daqui para frente modelado pelo custo** ("essa técnica compensa o custo 7x maior?"), com a destilação
+  comum como régua; experimentação encerrada, só pontuais (a nomeada: decoder e destilação no mesmo cenário, BERT
+  base e small, sem desenho ainda). Detalhe e limites no bloco "19/11, GATE 10" do `CLAUDE.md`. O passo 1 dos Next
+  steps (explicar o trabalho) foi feito nesta sessão, de forma assíncrona. Pesos do Marcelo: tentativa falhou
+  (`ssh amigo` sem resposta).
+
+- **Pedro (19/11, manhã):** título e subtítulo do tema (acima); o documento principal chama-se "Trilha das Semanas 9
+  e 10"; custo e hipótese das justificativas entram no termo; quis os critérios da semana em `.docx`; **"esses docs n
+  são só pro termo, mas pra mim tbm, pra hora que eu for escrever o TCC"** (memória `docs-de-entrega-servem-ao-tcc`).
+- **Pedro (madrugada):** painel = calibração, robustez fora de domínio, predição seletiva e pior classe; pesos 0,
+  0,05 e 0,5; embaralhado no PC do Marcelo; "Usa o Opus pra coisa que n precisa do Fable" (limite de Fable acabando).
+- **Rejeitado / derrubado (no `## Rejected` do `CLAUDE.md`):** decoder ajudar fora de domínio ou em outra medida; o
+  peso 0,1 como causa; atalho da hipótese e compressão como medidas; lançar teste sem piso, poder e pesos salvos;
+  script avulso a partir de `%TEMP%`.
+- **Escolhas do Claude declaradas nos docs:** MNLI como conjunto principal; cortes do painel; limite de 0,6 ponto que
+  barrou o embaralhado fora de domínio por 0,03; 3 sementes na varredura; redação dos três documentos novos.
+- **Abertos:** quando e para quem o Pedro explica o trabalho; commit e push; regra de leitura do gap 4 (nunca
+  confirmada); o `.docx` antigo `Controles que o Artigo Nao Rodou.docx` e `Controles do Decoder e Destilacao.docx`
+  continuam em `entrega/`, sem uso.
 
 ## Files touched
 
-- Commitados no `docs/retomada-09-11`: `src/radibert/rte_racionalizacoes.py`, `src/radibert/paths.py`,
-  `tests/test_rte_racionalizacoes.py` (71 testes no total, verdes), `pyproject.toml`, `uv.lock`, `requirements.txt`,
-  `.gitignore`, `dados/README.md`, `docs/2026-11-09-*.md` (4), `docs/claude/ledger/2026-11-09-retomada.md`,
-  `resultados/rte-35B/` (candidatos-exemplos-rte.md, checada-FP-FP2/FP2-FP3/FP3-F3/FP3-FA.md,
-  racionalizacoes-F/FP/FP2/FP3/F3/FA.csv).
-- Sem commit: `CLAUDE.md` (bloco da replicação + 3 rejeitados), este `HANDOFF.md`.
-- Fora do repo: memória `sem-palavra-cacoete.md`; `dados/rte/` (notebook e PC); `D:\tools\rte-servidor.log` (PC).
-- **Lixo (apagar é decisão do Pedro):** `resultados/rte-35B/racionalizacoes-FC.csv`, `checada-FP3-FC.md`,
-  `checada.md` (nome antigo), `docs/claude/ledger/2026-11-09-retomada.md.new` (vazio, erro meu; comando do
-  gatekeeper já entregue), `resultados/rte-35B/run/` (log do lote, ignorado pelo git); no PC `D:\tools\teste-*`,
-  `D:\tools\rte-servidor.log`, os 200 pares extras do e-SNLI; no GitHub o branch `test/push-pc`; branches antigos
-  de 08/11.
+- **Entrega:** `entrega/controles-do-decoder-e-destilacao.md` (título, hipótese e custo nos limites),
+  `entrega/figuras-e-evidencias.md`, `entrega/criterios-da-semana-10.md` (novos), `entrega/marcas-de-atencao-e-destaque.md`;
+  os quatro `.docx` da tabela acima; `docs/residencia/termo-de-entrega-Semana-10.md`.
+- **Figura nova:** `resultados/figuras/figura_fora_painel.py` e `30-fora-de-dominio-painel-e-peso.png` (o `INDICE.md`
+  das figuras não foi atualizado com ela).
+- **Código (suíte 209 verdes às 07:53; não rodou depois do script de figura):** `src/radibert/rte_treino.py`
+  (`--fora`, `--salvar-pesos`, `--peso-aux`), `rte_dados.py`, `esnli_dados.py`, `paths.py`, `fora_dados.py`,
+  `painel.py`; testes novos; `resultados/esnli-treino-16k/avaliar_fora.py`, `painel_pesos.py`, `ler_fora.py`,
+  `ler_peso.py`; lançadores em `resultados/rte-treino/run/`.
+- **Resultados copiados:** `resultados/esnli-treino-16k*-fora-pesos*/{pc,amigo}/` (não estão no `.gitignore`).
+- **Registro:** `docs/2026-11-18-avaliacao-da-pesquisa.md`, `docs/2026-11-18-gaps-da-argumentacao.md` (Gaps 7 a 9),
+  `resultados/esnli-treino-16k/leitura-grade.md`, `docs/claude/ledger/2026-11-18-fora-de-dominio-decoder.md`,
+  `CLAUDE.md`, `dados/README.md`, memória `docs-de-entrega-servem-ao-tcc`.
+- **Fora do git:** `dados/mnli/`, `dados/hans/`; pesos em `resultados/esnli-treino-16k*-fora-pesos*/pesos/` no PC do
+  Pedro (21 arquivos) e no do Marcelo (13), cerca de 0,44 GB cada.
+- **Lixo, nada apagado:** fumaças novas nas três máquinas; `resultados/esnli-treino-16k-calendario-fora/` no PC do
+  Pedro; `%TEMP%\h2.py` e scripts avulsos; `.docx` dos colegas em `~/.claude/uploads/`; scratchpad da sessão
+  48e33852; os dois `.docx` antigos em `entrega/`; tudo em `C:\RaDi-BERT` no PC do Marcelo.
 
 ## Next steps
 
-1. **(Claude, só explicação)** Explicar o **código** do treino antes de escrevê-lo (pedido do Pedro): arquivos,
-   classes (BERT + cabeça + decoder do T5 com cross-attention), laço com as fases A/B/C, onde entra a C e os 20
-   exemplos fora do treino, invariantes. Esperar o OK dele.
-2. **(Pedro: decisão)** Ler uma amostra do lote FA (sugestão: 30 pares sorteados) antes de treinar.
-3. **(Claude, depois do OK)** Escrever o treino num branch `feat/treino-rte`, testar na CPU com
-   `google/bert_uncased_L-2_H-128_A-2` + adaptador, rodar no PC (código pelo git; `ssh pc`).
-4. **(Pedro: git)** Push e PR do `docs/retomada-09-11`; commitar `CLAUDE.md` e este `HANDOFF.md`.
-5. **(Pedro: decisão)** Enviar ou não os e-mails aos autores e à Anthropic; decidir o lixo listado acima.
-6. **(Pedro: decisão)** Pendências antigas: folha extra +50 do Qwen, nome do aluno (RaDiBERT/WhyBERT),
-   `esnli_test.csv`.
+1. **(Claude, com o Pedro, já)** Fazê-lo conseguir explicar o trabalho. Antes de tudo perguntar: quando ele explica,
+   para quem e quanto tempo há. Depois, com o objeto na mão (memória `pedro-nivel-de-experiencia`): partir do termo
+   que ele entregou, bloco por bloco; ele explica com as palavras dele e o Claude corrige só o que estiver errado;
+   usar as figuras de `entrega/Figuras e Evidencias.docx` (a 3, dos quatro braços, e a 5, de fora de domínio e peso,
+   carregam a história). Não despejar texto novo: ele já tem documentos demais sem ler.
+2. **(Pedro)** Ler a Trilha e os Critérios, que são texto assinado por ele.
+3. **(Pedro: git)** Commit e push no `feat/treino-rte`; é a única cópia do trabalho de 10 a 19/11. Antes, decidir se
+   as pastas `resultados/esnli-treino-16k*-fora-pesos*/` entram.
+4. **(Claude, se ele pedir)** Atualizar `resultados/figuras/INDICE.md` com a figura 30; guardar o termo entregue em
+   `entrega/termos-entregues/` (faltam os das Semanas 9 e 10); copiar os pesos do PC do Marcelo antes de ele apagar.
+5. **(depois, só com pedido do Pedro)** O que nunca foi testado: duração da fase só do decoder, outro LLM ou prompt,
+   um domínio em que a justificativa traga informação nova, poucos rótulos, perguntar aos autores.
 
 ## Resume commands
 
 ```bash
 cd "C:/Users/Pedro/Documents/Projects/UFG/2026-2/Residencia Bacharelado em Inteligencia Artificial"
-git status -sb                                   # docs/retomada-09-11, 2 commits sem push
-uv run --frozen pytest -q                        # 71 passed
-cat docs/2026-11-09-treino-agrawal-rte-explicado.md
-uv run --frozen python -c "import pandas as pd; d=pd.read_csv('resultados/rte-35B/racionalizacoes-FA.csv'); print(len(d))"
-ssh pc hostname                                  # DESKTOP-2VBC5EC
-# servidor no PC + túnel (o lote usa localhost:8080 no notebook):
-ssh -o ServerAliveInterval=30 -L 8080:127.0.0.1:8080 pc '& "C:/Program Files/Git/bin/bash.exe" -s' <<'EOF'
-cd /d/RaDi-BERT && source config/maquina.env && timeout 10800 "$LLAMA_SERVER" -m "$MODELO_35B" $LLAMA_ARGS --host 127.0.0.1 --port 8080
-EOF
-ssh pc 'Stop-Process -Name llama-server -Confirm:$false'   # sempre, ao terminar
+uv run --frozen pytest -q && uv run --frozen ruff check .
+uv run --frozen python resultados/esnli-treino-16k/ler_fora.py pc amigo    # fora de domínio, painel, embaralhado
+uv run --frozen python resultados/esnli-treino-16k/ler_peso.py             # varredura do peso
+uv run --frozen --with matplotlib python resultados/figuras/figura_fora_painel.py
+# regerar um .docx de entrega (o terceiro argumento é uma pasta de imagens temporárias, no scratchpad):
+uv run --frozen --with pillow --with python-docx python scripts/screening/scripts/f1/md2docx_plain.py entrega/<fonte>.md "entrega/<Nome>.docx" <pasta>
 ```
+
+- Para explicar ao Pedro: `docs/residencia/termo-de-entrega-Semana-10.md` (o rascunho do que ele entregou),
+  `entrega/figuras-e-evidencias.md` e `entrega/controles-do-decoder-e-destilacao.md`.
+- Repositório: https://github.com/PedroMundel/RaDi-BERT (privado pelo registro de 08/11; ramo publicado parado em 10/11).
