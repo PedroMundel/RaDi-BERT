@@ -220,6 +220,13 @@ TCC, com pedido dele. Pesos do PC do Marcelo **copiados em 19/11** para
 `resultados/<pasta>/amigo/pesos/` (13 arquivos, SHA-256 igual ao original; fora do git). Os 21 do PC do Pedro seguem
 só em `D:\RaDi-BERT`. **21/11: tudo de 10 a 19/11 commitado no `feat/treino-rte`** em 15 commits por pasta; ficaram
 fora, por passarem do limite de 2 MB do gancho, `entrega/Manual do Treino.docx` e `resultados/rte-treino/pc/palavras.csv`.
+**21/11 (Pedro): o SSD do projeto voltou para o PC da RTX 5060.** Esta instalação (hostname `WKST-001`, o nome que
+era do notebook) agora roda com a 5060 de 8 GB: o projeto e a GPU estão na mesma máquina, e `ssh pc` / `ssh pc-h`
+deixam de ser o caminho para treinar. A cópia antiga do PC aparece como **`E:\RaDi-BERT`** (com os 21 pesos em
+`resultados/*/pesos/`) e as ferramentas em `E:\tools`; o `config/maquina.env` daqui aponta para
+`C:\Users\Pedro\Documents\Projects\tools` (não testei o `llama-server` nesta configuração). O que vale no bloco
+"MODO DE TRABALHO" de 08/11 sobre notebook × PC está superado por isto. README com a estrutura atualizada (21/11); a
+parte de narrativa do README espera a remodelagem pelo custo e os infográficos (decisão do Pedro).
 
 **GATE 4 — FEEDBACK DO PROFESSOR (01/10, transmitido em 05/10; texto e abertos F1–F5 em `docs/feedback-gate-4.md`):**
 (1) história não dá base agora — foco em obras **recentes, com métodos e ferramentas atuais**; (2) das 91 surveys só
