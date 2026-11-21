@@ -1,0 +1,2 @@
+arm,seed,warmup,accuracy,roc_auc,n_train,seconds,device,code
+bert_decoder,1,500,0.8327575695996748,0.9327152779910471,16000,1108,cuda,59278b8-dirty
