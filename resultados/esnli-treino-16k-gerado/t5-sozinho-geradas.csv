@@ -1,0 +1,201 @@
+idx,gold,t5_sozinho,juiz_t5_sozinho,juiz_bert_decoder,juiz_humana
+1237,entailment,"She could be performing a solo or a group dance, as dancing is a different activity from dancing.",neutral,entailment,entailment
+1373,neutral,"Boats dock on rivers for recreation, recreation, or leisure, not exclusively for fishing.",neutral,neutral,neutral
+5121,entailment,"Horses are animals, and pulling a man outside implies interaction between them, so he is with two animals.",entailment,entailment,entailment
+4548,neutral,"Street markets sell various items like jewelry or clothing, not just bowling balls, so the transaction could be for any item.",neutral,neutral,neutral
+6611,entailment,"Sidewalks are outdoor surfaces, and selling hardware parts on a sidewalk implies being outdoors rather than indoors.",entailment,entailment,entailment
+5447,neutral,"A player's height is determined by his physical attributes, so a player sliding toward second base does not guarantee he is tall.",neutral,neutral,neutral
+5544,contradiction,"A suburban backyard is located in the front of a house, so if children are jumping into a pool, it must be located in the front of the house.",entailment,contradiction,neutral
+8869,entailment,"A man is a person, and a red cap is a type of cap, so he is watching another man.",entailment,entailment,entailment
+7198,contradiction,"Ice hockey requires being on ice, while swimming requires being submerged in water, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+9838,contradiction,"Riding on a carousel requires being stationary on the ground, while moving at the speed of light requires being stationary on the ground.",contradiction,entailment,contradiction
+4251,contradiction,"Standing on a cliff requires being upright on the surface, while being buried under sand implies being buried beneath it, making both impossible simultaneously.",contradiction,contradiction,contradiction
+565,entailment,"Women are people, and a beach is an outdoor location, so performing yoga together constitutes exercising outside.",entailment,entailment,entailment
+6524,contradiction,A child and a dog are distinct individuals; one person cannot simultaneously be both a child and a man in the same moment.,contradiction,contradiction,contradiction
+1912,contradiction,A black balloon animal shirt is distinct from a green one; one cannot wear both simultaneously in the same place and moment.,contradiction,contradiction,contradiction
+9518,entailment,"Swinging a racket requires using it, and since she is swinging it, she is actively using her tennis racket.",entailment,entailment,entailment
+1091,neutral,"Motocross jumps are performed by riders on circuits, so being airborne does not guarantee an audience is present.",neutral,entailment,neutral
+692,entailment,"A cyclist riding past spectators is cycling past them, and a banner reading ""Lotos"" confirms the action of cycling past them.",entailment,entailment,entailment
+4423,entailment,"A guy is a man, and pointing at a giant Blackberry implies he is physically located near a display.",entailment,entailment,entailment
+994,entailment,"A slide show is a type of presentation, so if she stands at a podium, she is necessarily standing at a podium.",entailment,entailment,entailment
+3443,neutral,"Sitting on a swing set implies being stationary, while jumping off implies moving away from it, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+7811,contradiction,"Leaning on a wall requires being upright and upright, while sitting on a bench implies being seated on a surface; these are mutually exclusive postures.",contradiction,contradiction,contradiction
+4637,neutral,"Boxing matches occur in many countries like Mexico or Brazil, so the match does not specifically indicate a specific race or ethnicity.",neutral,neutral,neutral
+4479,neutral,"A jacket is a type of jacket, so if a man looks at a bike, he is necessarily staring at the blue bike.",entailment,neutral,neutral
+8421,neutral,"Standing with hands on hips requires being stationary, while looking at paintings in a museum implies being stationary and focused on objects.",contradiction,contradiction,contradiction
+1765,entailment,"Beach volleyball is a sport played by women, and since they are wearing bikinis, they are indeed playing volleyball.",entailment,entailment,entailment
+883,neutral,"Bikes are common for transportation, so walking together does not guarantee they are going to a picnic.",neutral,neutral,neutral
+6972,entailment,"Wading in a river implies being submerged in water, which constitutes playing in the water.",entailment,neutral,entailment
+2933,entailment,"Boys can be under 18 years old, and kicking a ball towards the goal does not imply age restriction.",neutral,contradiction,neutral
+8006,contradiction,"Swimming requires being submerged in water, while sitting on the sidelines of a basketball game requires being on the court, making both impossible simultaneously.",contradiction,contradiction,contradiction
+296,entailment,"A goalie is a person, and running for an approaching ball implies running towards it, which is a specific action that was kicked from another person.",entailment,entailment,entailment
+8190,contradiction,"Playing with a ball requires using hands to hold it, while riding a bike involves using hands to move a bicycle, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+5566,neutral,"A life saving procedure requires being on land, while being attacked by a shark implies being in water, making both states impossible simultaneously.",contradiction,contradiction,neutral
+5619,contradiction,"A young woman is a person, and carrying cases implies she is carrying them, which contradicts the claim that nobody is carrying cases.",contradiction,contradiction,neutral
+8507,neutral,"A man is an adult male, while an old person is an adult male; these are mutually exclusive age categories for the same person at the same time.",contradiction,neutral,neutral
+8667,neutral,"Boys splash in pools without being supervised by their parents, as parents are not always their primary caregivers.",neutral,neutral,neutral
+3433,entailment,"Jumping to catch a ball requires physical movement and movement, which constitutes the act of catching it.",entailment,entailment,entailment
+4542,contradiction,"Sitting down requires being stationary on the ground, while riding a bike up a hill requires moving up a hill; these are mutually exclusive locations and actions.",contradiction,contradiction,contradiction
+3590,entailment,"Throwing a stick into water requires being in water, while being out with dogs implies being outdoors, making both actions impossible simultaneously.",contradiction,contradiction,entailment
+1931,neutral,"A person is a person, and Mt. Washington is a mountain, so standing on it means standing on it.",entailment,entailment,neutral
+6247,neutral,"A man and a woman constitute a couple, and standing on a sidewalk in between buildings implies they are positioned there.",entailment,entailment,neutral
+3873,neutral,"A storefront is a type of shop, and standing behind it implies standing by it.",entailment,entailment,neutral
+2774,entailment,"Walking down the street implies moving along a road, which is a specific location, so he is walking somewhere.",entailment,entailment,entailment
+5571,entailment,"Jumping a gap is a specific action performed by a skateboarder, so if a skateboarder jumps a gap while being photographed, he is performing tricks while being photographed.",entailment,entailment,entailment
+424,entailment,"The man is explicitly described as walking, and tall buildings with reflections are examples of the physical act of walking.",entailment,entailment,entailment
+9057,neutral,"Eating marshmallows on a stick implies active play, which contradicts the state of being silly while sitting in a bucket.",contradiction,entailment,neutral
+9536,entailment,"A lime-green car is a type of car, so washing it implies she is washing a car.",entailment,entailment,entailment
+2272,entailment,"The girl is performing the action of running, and since she is wearing a flower dress, she is indeed running.",entailment,entailment,entailment
+8209,neutral,"Dipping feet into a natural spring requires being on the ground, while sitting by it implies being seated on the ground, making both actions impossible simultaneously.",contradiction,neutral,neutral
+5755,entailment,"The phrase ""outside"" explicitly states the location is outside, so the bridal party is located outside.",entailment,entailment,entailment
+4713,neutral,"Snow is a winter weather condition, so unhappy children may be anticipating winter rather than wishing for spring.",neutral,neutral,neutral
+4986,contradiction,"Waiting for a cab requires being awake and active, while napping involves resting and reclining, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+1928,contradiction,"Chasing away geese requires being outdoors and active, while watching TV involves being indoors and stationary, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+4474,contradiction,"Beach shores are oceans, while mountain tops are mountainous terrain; these are mutually exclusive locations for the same people at the same time.",contradiction,contradiction,contradiction
+8543,entailment,"Three women constitute three people, and since they are standing in a room, it logically follows that three people are standing in a room.",entailment,entailment,entailment
+7242,entailment,"Children are people, and sitting at large tables implies they are seated, so the children are all sitting down.",entailment,entailment,entailment
+8107,neutral,"A bald man is a man, and buying something from a woman implies he is buying a snack.",entailment,contradiction,neutral
+1887,contradiction,"Working under a train engine requires being on the track, while driving to work requires being on the road, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+7517,entailment,"Kids are children, and standing beside a snowman implies they are engaged in play, which is a common activity in snow.",entailment,neutral,entailment
+651,neutral,"Surfing is a recreational sport requiring active participation in waves, so standing at the edge does not guarantee he is surfing for the first time.",neutral,neutral,neutral
+2949,neutral,"A boy holding an airplane is a child, while holding presents at a birthday party implies a different event, making both states mutually exclusive at the same moment.",contradiction,contradiction,neutral
+5443,contradiction,"Up and down are mutually exclusive physical actions, so they cannot occur simultaneously as the same action in the same moment.",contradiction,entailment,contradiction
+4170,entailment,"The dancer is wearing clothes, and using instruments behind her implies she is holding them, which constitutes holding musical instruments.",entailment,entailment,entailment
+9050,entailment,"A park bench is located within a park, and sitting there means she is located within that park.",entailment,contradiction,entailment
+2579,neutral,"A man talking to a girl is not necessarily a father giving advice, and the girl could be a friend, relative, or stranger rather than his daughter.",neutral,neutral,contradiction
+9669,neutral,"Walking dogs requires active movement, while chatting involves passive interaction; these are mutually exclusive actions for the same people at the same time.",contradiction,neutral,neutral
+9003,contradiction,"Holding babies implies being pregnant or breastfeeding, whereas being childless means having no children, making both states mutually exclusive at the same moment.",contradiction,contradiction,contradiction
+1761,contradiction,"Hula hoops are hula hooping techniques, while clarinets are instruments used for playing, making both actions impossible simultaneously for the same person.",contradiction,contradiction,neutral
+1710,neutral,"Planting a flower requires physical activity and enthusiasm, which is a state of excitement that contradicts the state of being enthralled by the process.",contradiction,neutral,neutral
+3975,neutral,"Boats can be slow or slow, so a man behind the steering wheel could be slow or slow, not necessarily fast.",neutral,neutral,neutral
+190,entailment,"Playing with colorful letters implies a playful activity, which is a form of learning, so the girl is having fun learning them.",entailment,neutral,entailment
+3954,neutral,"Women use microphones for many purposes like chatting or chatting, not exclusively to address a crowd.",neutral,entailment,neutral
+8835,contradiction,"The bass player and drummer are not necessarily dwarves, and the band could be any of the twelve dwarves singing a different song.",neutral,contradiction,contradiction
+7980,neutral,"A puppy is a new puppy, and fetching a toy is a specific action that does not guarantee it is the item its owner wants.",neutral,neutral,neutral
+2406,contradiction,"Cheering requires being on stage, while sitting quietly in a room implies being seated, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+462,entailment,"A grassy field surrounded by trees is filled with trees, so leaping into the air implies being in a grassy field filled with trees.",entailment,entailment,entailment
+4398,neutral,"Walking into a store implies entering it for shopping, and walking into it implies entering the store for that purpose.",entailment,neutral,neutral
+4639,neutral,"McDonald's is a fast-food chain, while Happy Meals is a fast-food chain; these are distinct food categories that cannot be the same place simultaneously.",contradiction,contradiction,neutral
+5972,contradiction,"A microscope is a type of microscope, so looking through it implies he is purchasing a scope.",entailment,entailment,contradiction
+5433,entailment,"Wooded areas are outdoor areas, so a dog running through one is necessarily located outside rather than indoors.",entailment,entailment,entailment
+487,contradiction,"Sitting in lawn chairs requires being seated, while standing alone implies being upright and stationary, making both states mutually exclusive at the same moment.",contradiction,contradiction,neutral
+9007,entailment,"Dogs are animals, and snow covered ground is a type of snow, so two dogs playing on it are indeed playing on snow.",entailment,entailment,entailment
+2134,neutral,"Swimming underwater requires being submerged in water, while diving for coins requires being submerged in water, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+9093,entailment,"A smiling young man is a young man, and two scooters are two distinct types of scooters, so he is standing on two scooters.",entailment,entailment,entailment
+1997,entailment,"Two fencers are a pair, and practicing dueling is a form of fencing, so they are practicing together.",entailment,entailment,entailment
+8085,neutral,"The man could be a passenger or employee, and the boss might be a friend or colleague rather than a worker.",neutral,neutral,neutral
+7167,entailment,"A girl standing by a structural beam is a person, and posing for a picture is a specific action performed by the girl.",entailment,entailment,entailment
+3653,entailment,"Walking on the beach implies being on the beach, and since they are walking on it, they are necessarily located there.",entailment,entailment,entailment
+528,neutral,"Kids hugging each other implies affection and affection, which contradicts the desire to enjoy a day at the beach.",contradiction,contradiction,neutral
+2137,neutral,"Signs are used for many purposes like commuting or commuting, so reading a sign does not guarantee it is specifically for directions.",neutral,neutral,neutral
+8484,neutral,"Kitchens are used for various purposes like cleaning or cleaning dishes, not exclusively for cooking meals at restaurants.",neutral,neutral,neutral
+7133,entailment,"Women are people, and kayaking in water implies being in nature, so they are enjoying a day with nature in their kayak.",entailment,contradiction,neutral
+7723,entailment,"Rowboats are small boats, and two people in a rowboat constitute a couple, so they are in a small boat in the water.",entailment,neutral,neutral
+8176,contradiction,"Dreadlocks are a common facial feature, so having them cut off does not imply baldness.",neutral,contradiction,contradiction
+2118,neutral,"She could be tugging on a sheet for comfort or a nap, as tugging does not imply changing sheets on a bed.",neutral,neutral,neutral
+8018,contradiction,"A man is male, while a woman is female; these are distinct genders; one person cannot be both genders simultaneously.",contradiction,contradiction,contradiction
+4775,entailment,"Goggles are used for swimming, and wearing them while swimming implies wearing them while swimming in water.",entailment,contradiction,neutral
+3809,neutral,"Men are people, and musical mixing equipment is typically located indoors, so standing in front of it implies being inside a building.",entailment,entailment,neutral
+4121,neutral,"Toddlers walk along paths for many reasons, such as walking to school or school, not exclusively to reach their mom.",neutral,neutral,neutral
+2315,entailment,"A young boy is a boy, and hanging onto a clothing rack means he is hanging from it.",entailment,entailment,entailment
+9543,entailment,"A man is a person, and holding a flag splayed out in the air behind him constitutes holding a flag.",entailment,entailment,entailment
+8859,neutral,"Brass instruments are used for many musical genres like jazz or classical, not exclusively for funerals.",neutral,contradiction,neutral
+3664,entailment,"People watching a plane are people, and a fence is an outdoor structure, so standing near it means they are standing outside.",entailment,entailment,entailment
+8268,neutral,"A person riding a bicycle is a person, while a boy doing tricks is a boy; these are distinct individuals performing different actions simultaneously.",contradiction,entailment,neutral
+3733,entailment,"Playing in water implies being wet, and since they are playing in water, they are necessarily wet.",entailment,entailment,entailment
+4936,entailment,"The phrase ""beginning to lose balance"" explicitly states the girl is wearing bare feet, so this fact directly confirms she is losing her balance.",entailment,entailment,entailment
+9182,neutral,"Jumping on a trampoline requires being on a surface, while being on a trampoline requires being on a stationary structure, making both impossible simultaneously.",contradiction,contradiction,neutral
+3517,contradiction,"Sitting requires being stationary, while running through halls involves moving rapidly through the air, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+4659,neutral,"Men examine floors for various reasons like safety or comfort, not just because they are uncertain.",neutral,neutral,neutral
+7267,contradiction,"A lady is female, while a man is male; these are distinct genders; one person cannot be both genders simultaneously.",contradiction,contradiction,contradiction
+5841,neutral,"Women can stand in a flower garden for many reasons, such as observing or observing, not exclusively admiring them.",neutral,neutral,neutral
+1156,contradiction,"Skateboarding requires being on a skateboard, while riding a bike requires being on a bike; these are mutually exclusive physical positions for the same person at the same time.",contradiction,contradiction,neutral
+3989,contradiction,"Holding a goat implies a physical contact, whereas running away implies running away; these actions are mutually exclusive in the same moment.",contradiction,contradiction,contradiction
+4852,contradiction,"Bubbles can be used for play or play without being bathed, as bubbles are not always used for bathing.",neutral,contradiction,neutral
+7080,entailment,"The crowd is gathered to watch the child, and since they are observing the ride, they are gathered to watch.",entailment,neutral,entailment
+8532,neutral,"A woman is a person, and singing on stage requires being tall, so a woman singing is not necessarily tall.",neutral,neutral,neutral
+5827,contradiction,"Men can hoist themselves up from water on walkways at parks, beaches, or parks, not exclusively at ball games.",neutral,neutral,neutral
+2828,entailment,"Sidewalks are outdoor public roads, so milling around them implies they are located outside rather than indoors.",entailment,entailment,entailment
+671,neutral,"Walking down a sidewalk does not imply going to a market, as many places are public streets, not just markets.",neutral,neutral,neutral
+1334,contradiction,"Woods are forests, while beaches are beaches; these are distinct locations that cannot be the same place simultaneously.",contradiction,contradiction,entailment
+6746,contradiction,"A man smiles while eating, which contradicts the action of eating a cow, as these are mutually exclusive actions for the same person at the same time.",contradiction,entailment,contradiction
+6491,contradiction,"An accordion player is an amateur, while a violin serenades a lover; these are distinct instruments that cannot be played simultaneously by the same person in the same moment.",contradiction,contradiction,contradiction
+3474,neutral,"Long-sleeved blue shirt is a type of large shirt, so a man wearing it must be wearing a large blue shirt.",entailment,neutral,neutral
+6828,neutral,"Cement trucks can be any color, so a truck's color is not guaranteed by its color.",neutral,neutral,neutral
+4798,neutral,"She could be at home, a hotel, or a store, not necessarily an airport.",neutral,entailment,neutral
+7711,entailment,"A man is a person, and taking a picture requires using a camera to capture it.",entailment,entailment,entailment
+7865,neutral,"Players wear red uniforms to play volleyball, which is a sport involving competition, not necessarily for glory, as many players compete for glory for their country.",neutral,neutral,neutral
+8559,entailment,"A shelter is an outdoor structure, so sitting in one implies being inside it, which is the definition of being inside.",entailment,entailment,entailment
+2658,neutral,"Champagne glasses are sold at restaurants, bars, and private parties, not exclusively at bars.",neutral,contradiction,neutral
+551,neutral,"Power workers may be repairing damaged vehicles or repairing damaged infrastructure, not necessarily restoring power.",neutral,neutral,neutral
+5207,neutral,"Tractors can be pulled from mud, gravel, or dirt without getting stuck, so the tractor might not be out of the mud.",neutral,contradiction,neutral
+9027,neutral,"Rafting is a type of raft, so standing on rafts implies they are floating on them, whereas blue and white rafts are distinct types of rafts.",entailment,neutral,neutral
+4018,neutral,"Sitting on a bench implies being stationary and active, which is a form of enjoyment, not necessarily fun.",neutral,contradiction,neutral
+4651,entailment,"Kicking without making contact implies physical contact, which contradicts the action of kicking at each other.",contradiction,entailment,neutral
+9149,contradiction,"Gyms are often small, so a man working out does not guarantee a large number of customers are present.",neutral,contradiction,neutral
+2972,entailment,"Street corners are outdoor public spaces, so standing on one implies being outside rather than indoors.",entailment,entailment,entailment
+3180,entailment,"Balanced balls are objects held by people, and balance on an umbrella is a specific action performed by a man who holds it.",entailment,entailment,entailment
+9555,neutral,"Mixing cucumbers is a common culinary activity for women, whereas making a meal involves cooking food, making both impossible simultaneously.",contradiction,neutral,neutral
+4136,contradiction,"Looking into a microscope requires using a microscope, while talking on a cellphone requires using a phone; these are mutually exclusive actions for the same person at the same time.",contradiction,contradiction,neutral
+1297,neutral,"Walking down an isolated road implies being outdoors, while walking toward a house implies being indoors, making both states mutually exclusive at the same moment.",contradiction,neutral,neutral
+1103,entailment,"Children are kids, and gathering to paint implies they are actively working on art.",entailment,neutral,entailment
+4832,contradiction,"Breakdancing moves are performed in various styles like jazz or funk, not exclusively tango.",neutral,neutral,contradiction
+5849,contradiction,"Sitting on a bench requires being stationary and stationary, while watching television requires being stationary and stationary, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+6873,neutral,"Playing guitar requires active engagement and physical movement, while begging for money involves a specific act of begging, making both actions mutually exclusive in the same moment.",contradiction,contradiction,neutral
+597,entailment,"The players are standing on a court, and talking is a form of conversing, so they are conversing.",entailment,entailment,entailment
+5303,entailment,"Mountain biking occurs in the early fall, which is the season of autumn, so it is not necessarily autumn.",neutral,contradiction,entailment
+5470,contradiction,"Walking down the street requires being awake and active, while sleeping at home implies being unconscious and stationary.",contradiction,contradiction,contradiction
+5840,contradiction,"Women can stand in a flower garden for many reasons, such as standing or standing, not exclusively for having lunch in a cafeteria.",neutral,contradiction,contradiction
+3864,neutral,"Amber liquid is a type of beer, so indulging in it means consuming it, whereas drinking beer from a bottle implies consuming beer, making both actions impossible simultaneously.",contradiction,neutral,neutral
+2284,contradiction,"Throwing daggers requires being on the ground, while skiing requires being on snow, making both actions impossible simultaneously.",contradiction,contradiction,contradiction
+4580,entailment,"Crossing an intersection requires being on foot, while walking involves moving along a path, making both actions mutually exclusive at the same moment.",contradiction,contradiction,entailment
+8943,entailment,"A black dog is a type of dog, and leaping from the water near a shoreline means it leaps out of the water.",entailment,entailment,entailment
+7621,neutral,"A guy looking out is a person looking out, while birds flying over the forest are birds, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+5865,neutral,"Brushing teeth requires being outdoors or in a kitchen, while being in a bathroom implies being indoors or in a separate room.",contradiction,entailment,neutral
+5817,neutral,A dog and a goose are distinct animals; a dog swimming in water cannot simultaneously be a goose having something in its mouth.,contradiction,entailment,neutral
+4528,entailment,"Kissing is a specific form of kissing, and since they are on a street blind-lit, it confirms that two people are kissing each other.",entailment,entailment,entailment
+2501,neutral,"Pools are common in parks, beaches, and beaches, not exclusively country clubs, so the location is not necessarily a country club.",neutral,neutral,neutral
+5358,contradiction,"Street performers perform on stage for commercials, festivals, or festivals, not exclusively at tea parties.",neutral,contradiction,contradiction
+3078,entailment,"The premise explicitly states the men are practicing martial arts, so this fact is directly confirmed by the premise.",entailment,entailment,contradiction
+9397,entailment,"A little Asian girl is a young oriental girl, and building with wood and painting with colored markers constitutes the act of building and painting.",entailment,entailment,entailment
+5178,entailment,"Taxis can be slow or slow, and crowds are large enough to accommodate them, so the taxi might be moving quickly.",neutral,contradiction,entailment
+8534,contradiction,"Singing on stage requires being on stage, while nobody singing implies being elsewhere, making both states mutually exclusive at the same moment.",contradiction,contradiction,contradiction
+7685,entailment,"A cute couple is a type of couple, and being at a club means they are located there.",entailment,entailment,entailment
+3025,contradiction,"Standing requires being upright and upright, while sitting requires being seated; these are mutually exclusive postures for the same people at the same time.",contradiction,contradiction,contradiction
+1069,entailment,"The small girl is a girl, and sitting in a harness while others watch confirms she is indeed in a harness.",entailment,entailment,entailment
+9259,neutral,"People can wear light jackets or hats, so they might not be wearing heavy jackets at all.",neutral,neutral,neutral
+7070,neutral,"A store is a retail establishment, while a pharmacy is a pharmacy; these are distinct locations that cannot be the same place simultaneously.",contradiction,entailment,neutral
+8041,contradiction,"Walking down a pathway requires being on foot, while sitting on a blanket underneath an oak tree implies being seated on a surface.",contradiction,contradiction,contradiction
+1893,neutral,"People look at each other for various reasons, such as observing or observing, not exclusively for teaching purposes.",neutral,contradiction,neutral
+4004,contradiction,"A dog is a dog, while a cat is a cat; these are distinct species that cannot be the same entity simultaneously.",contradiction,contradiction,neutral
+491,contradiction,"Walking on grass requires being outdoors, while sleeping in a bedroom implies being indoors, making both states impossible simultaneously.",contradiction,contradiction,contradiction
+7350,contradiction,"Walking requires moving slowly along the path, while running involves moving slowly along it, making both actions mutually exclusive at the same moment.",contradiction,contradiction,neutral
+6747,contradiction,"Friends are people, and relaxing while enjoying conversation implies they are conversing with each other.",entailment,entailment,contradiction
+3345,entailment,"A tan bird is a type of bird, and standing on a ledge implies it is about to eat something.",entailment,entailment,entailment
+159,entailment,"Sitting around a table implies being seated, and doing crafts implies being seated at that table.",entailment,entailment,entailment
+7985,contradiction,"Holding up signs implies removing them, while destroying them involves destroying them, making both actions mutually exclusive for the same people at the same time.",contradiction,contradiction,contradiction
+2570,contradiction,"A man is male and a girl is female; these are mutually exclusive genders, so they cannot be the same person at the same time.",contradiction,contradiction,contradiction
+8699,contradiction,"Biking requires being on a bike, while skateboarding requires being on a skateboard; these are mutually exclusive actions for the same person at the same time.",contradiction,contradiction,contradiction
+7530,contradiction,"Barking requires active movement, while chewing on bones requires chewing, making both actions impossible simultaneously for the same dogs.",contradiction,neutral,neutral
+9078,contradiction,"Cakes are not necessarily cherry pie, and a boy is not necessarily a girl, so the scene does not specify the girl's party dress.",neutral,contradiction,contradiction
+5564,entailment,"A team consists of men, and performing a life saving procedure constitutes a team composed of men.",entailment,entailment,entailment
+8028,contradiction,"Standing on a ladder requires being awake and active, while sleeping on a couch implies being unconscious and resting, making both states impossible simultaneously.",contradiction,contradiction,contradiction
+704,neutral,"Children can play with a sphere on a playground without their mother, as they might be playing alone or in a different location.",neutral,neutral,neutral
+247,entailment,"Asian men are not necessarily young, and the image does not specify their age or gender, so they could be older or older.",neutral,neutral,entailment
+683,entailment,"Grilling fish on a barbecue is a specific type of cooking, so if a man grills fish, he is necessarily cooking fish.",entailment,entailment,entailment
+9101,entailment,"A man is a person, and giving a powerpoint presentation constitutes giving a presentation.",entailment,entailment,entailment
+8826,contradiction,"Kneeling requires being on the ground, while standing involves being upright on feet; these are mutually exclusive postures for the same person at the same time.",contradiction,contradiction,contradiction
+2707,entailment,"Various people are people, and shopping at a street clothing sale is a specific type of clothing sale, so they are indeed shopping at a clothing sale.",entailment,entailment,entailment
+2846,entailment,"A woman and a man are people, and cutting a large cake constitutes the act of cutting a cake.",entailment,entailment,entailment
+3010,contradiction,"Erasing words on a chalkboard requires being on the ground, while sitting at a desk implies being stationary and stationary.",contradiction,contradiction,contradiction
+8657,entailment,"Saws are used for many tasks like slicing or slicing, so a band saw is not necessarily a tool used for this task.",neutral,entailment,entailment
+4053,neutral,"Women checking cellphones are not necessarily wives, and the men could be friends or strangers rather than spouses.",neutral,neutral,contradiction
+5473,neutral,"Cooking corn requires a kitchen, while preparing corn in front of an audience implies a public setting, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+377,neutral,"A man wearing a windbreaker jacket is not necessarily black, and he might be resting or resting rather than passing out.",neutral,contradiction,neutral
+5486,contradiction,"Leading a camel requires being on land, while swimming requires being in water, making both actions impossible simultaneously.",contradiction,contradiction,neutral
+3086,neutral,"Newspapers are read by adults, not children, so the woman and girl could be a stranger or stranger rather than a mom and daughter.",neutral,contradiction,neutral
+1690,neutral,"A man signing a guitar is not necessarily a famous singer, and the owner might be a stranger or stranger rather than a fan.",neutral,neutral,neutral
+9582,contradiction,"Smiling implies a positive expression, while frowning implies a negative expression; these distinct states cannot occur simultaneously for the same person in the same moment.",contradiction,contradiction,contradiction
+7414,contradiction,"Approaching a camera requires being awake and active outdoors, while sleeping inside implies being unconscious and still indoors.",contradiction,entailment,contradiction
+4711,neutral,"Headaches are common symptoms of head pain, so sitting with his head down does not guarantee he is suffering from a headache.",neutral,contradiction,neutral
+7575,entailment,"Pumpkins and a Halloween display are seasonal displays, so kissing on a hay bale implies they are near them.",entailment,contradiction,entailment

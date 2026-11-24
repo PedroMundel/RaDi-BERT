@@ -1,5 +1,8 @@
 # Dados baixados da fonte (ver dados/README.md)
 dados/esnli/
+dados/rte/
+dados/mnli/
+dados/hans/
 resultados/lote-35B/amostra-treino.csv
 
 # Screening encerrado: bruto e vetores ficam só no notebook
@@ -8,6 +11,7 @@ docs/screening/fase1/emb/
 
 # Estado de execução e logs
 resultados/**/run/
+resultados/**/fumaca/
 *.log
 *.err
 __pycache__/
@@ -30,3 +34,6 @@ config/maquina.env
 
 # Artefato do build do pacote
 *.egg-info/
+
+# Saída do brute-test (regenera)
+brute_test_results.json

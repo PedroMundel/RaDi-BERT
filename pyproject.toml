@@ -7,10 +7,30 @@ dependencies = [
     "anthropic==1.13.0",
     "numpy==2.4.4",
     "pandas==3.0.2",
+    "pyarrow==26.0.1",
     "python-docx==1.2.0",
     "requests==2.34.2",
     "scikit-learn==1.8.0",
     "tabulate==0.10.0",
+    "torch==2.14.1",
+    "transformers==5.20.2",
+]
+
+# Windows (notebook GTX 1650 e PC RTX 5060, drivers 610.x): roda CUDA 13.0. Linux (CI): só CPU, sem as libs da NVIDIA.
+[[tool.uv.index]]
+name = "pytorch-cu130"
+url = "https://download.pytorch.org/whl/cu130"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[tool.uv.sources]
+torch = [
+    { index = "pytorch-cu130", marker = "sys_platform == 'win32'" },
+    { index = "pytorch-cpu", marker = "sys_platform == 'linux'" },
 ]
 
 [dependency-groups]

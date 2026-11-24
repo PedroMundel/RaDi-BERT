@@ -1,0 +1,4 @@
+# Falsos positivos conferidos à mão. Uma linha por achado, pela impressão digital que o gitleaks imprime.
+# 24/11/2026: a linha 26 do script abaixo é um import da biblioteca transformers, com dois nomes de classe. A regra
+# generic-api-key casa o primeiro nome com o segundo, que é longo. Não há segredo na linha.
+6ebaec84bdcb7167ba2a93ac8d351cf14f58e199:resultados/esnli-treino-16k/comparar_t5_sozinho.py:generic-api-key:26

@@ -1,0 +1,8 @@
+medida,media,pares,ic95_baixo,ic95_alto
+juiz da o rotulo certo (t5_sozinho),0.735,200,,
+juiz da o rotulo certo (bert_decoder),0.715,200,,
+juiz da o rotulo certo (humana),0.875,200,,
+medida 1: t5_sozinho - bert_decoder,0.02,200,-0.05,0.09
+medida 2: perda t5_sozinho - bert_decoder,-0.32304665446281433,9842,-0.3347468674182892,-0.3110578656196594
+perda media t5_sozinho,2.839355945587158,9842,,
+perda media bert_decoder,3.162402629852295,9842,,
