@@ -220,6 +220,9 @@ TCC, com pedido dele. Pesos do PC do Marcelo **copiados em 19/11** para
 `resultados/<pasta>/amigo/pesos/` (13 arquivos, SHA-256 igual ao original; fora do git). Os 21 do PC do Pedro seguem
 só em `D:\RaDi-BERT`. **21/11: tudo de 10 a 19/11 commitado no `feat/treino-rte`** em 15 commits por pasta; ficaram
 fora, por passarem do limite de 2 MB do gancho, `entrega/Manual do Treino.docx` e `resultados/rte-treino/pc/palavras.csv`.
+**24/11 (Pedro: "commita tudo que n ta no repo"):** entraram esses dois (o limite do gancho subiu de 2 para 3 MB), o
+`HANDOFF.md` de 24/11 e também os três arquivos que estavam marcados como lixo (os dois `.docx` antigos de
+`entrega/` e o `.md.new` do ledger); nada do projeto fica fora do git além de dados, pesos, `run/` e `fumaca/`.
 **21/11 (Pedro): o SSD do projeto voltou para o PC da RTX 5060.** Esta instalação (hostname `WKST-001`, o nome que
 era do notebook) agora roda com a 5060 de 8 GB: o projeto e a GPU estão na mesma máquina, e `ssh pc` / `ssh pc-h`
 deixam de ser o caminho para treinar. A cópia antiga do PC aparece como **`E:\RaDi-BERT`** (com os 21 pesos em
@@ -412,6 +415,15 @@ Os 289 tópicos foram agrupados em **16 macro-temas** (M1–M16), cada um subdiv
 - ICDATA: aceitação ~40–50%, deadline estendido 18/06/2026, proceedings Springer Nature.
 
 ## Rejected
+
+- **Dizer que "ninguém mediu" os controles (calendário, justificativa trocada, fora de domínio)** (19/11) — Wadhwa
+  et al. (2024) já testaram justificativa embaralhada com aluno decoder. O que se sustenta é "o artigo (Agrawal) não
+  mediu"; usar essa forma.
+- **Mover os scripts de medida de `resultados/<experimento>/` para `scripts/`** (21/11, recomendação aceita pelo
+  Pedro) — o repositório já guarda o script ao lado da saída, e os documentos citam esses caminhos. Script novo de
+  medida vai na pasta do experimento, nunca na raiz.
+- **Escrever que os critérios nasceram da pergunta de custo** (19/11, limite combinado com o Pedro) — os critérios
+  escritos antes medem acurácia; o custo vem dos tempos gravados. A moldura de custo foi adotada no fim.
 
 - **"O decoder ajuda fora de domínio" e "o sinal aparece em outra medida que não a acurácia"** (19/11, medido
   contra critério escrito antes) — MNLI −1,5 ponto; calibração e pior classe do lado ruim, predição seletiva nula.
